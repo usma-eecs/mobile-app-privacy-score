@@ -1,0 +1,128 @@
+
+=
+POST /v1/open HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : api2.branch.io
+ACCEPT              : */*
+CONTENT-TYPE        : application/json
+ACCEPT-ENCODING     : gzip, deflate, br
+USER-AGENT          : Pandora/2109 CFNetwork/1107.1 Darwin/19.0.0
+CONTENT-LENGTH      : 1031
+ACCEPT-LANGUAGE     : en-us
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/json
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 253
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+CACHE-CONTROL       : no-cache
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 00:39:06 GMT
+--------------------------------------------------response headers:
+SERVER              : openresty/1.13.6.2
+--------------------------------------------------response headers:
+X-CACHE             : Miss from cloudfront
+--------------------------------------------------response headers:
+VIA                 : 1.1 d1cde188ada6755fe03b8541b71fce4a.cloudfront.net (CloudFront)
+--------------------------------------------------response headers:
+X-AMZ-CF-POP        : IAD89-C1
+--------------------------------------------------response headers:
+X-AMZ-CF-ID         : A-LZAeYRZglv1sVN2Hu5Ui2_gWOxzPGU6utLnnEBg6eTD7ZO0E9I3Q==
+--------------------------------------------------response headers:
+
+=
+POST / HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : sessions.bugsnag.com
+ACCEPT              : */*
+CONTENT-TYPE        : application/json
+CONTENT-LENGTH      : 545
+BUGSNAG-API-KEY     : f33b4c9748f6eaf0be161cb781bc4e5d
+BUGSNAG-PAYLOAD-VERSION: 1.0
+BUGSNAG-SENT-AT     : 2019-12-12T00:38:59Z
+USER-AGENT          : Pandora/2109 CFNetwork/1107.1 Darwin/19.0.0
+ACCEPT-LANGUAGE     : en-us
+ACCEPT-ENCODING     : gzip, deflate, br
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+BUGSNAG-SESSION-UUID: 577ca1d6-0c6a-4126-a944-078642e57ea0
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/json
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 00:39:06 GMT
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 21
+--------------------------------------------------response headers:
+VIA                 : 1.1 google
+--------------------------------------------------response headers:
+ALT-SVC             : clear
+--------------------------------------------------response headers:
+
+=
+POST /v1/close HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : api2.branch.io
+ACCEPT              : */*
+CONTENT-TYPE        : application/json
+ACCEPT-ENCODING     : gzip, deflate, br
+USER-AGENT          : Pandora/2109 CFNetwork/1107.1 Darwin/19.0.0
+CONTENT-LENGTH      : 713
+ACCEPT-LANGUAGE     : en-us
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/json
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 2
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 00:39:07 GMT
+--------------------------------------------------response headers:
+SERVER              : openresty/1.13.6.2
+--------------------------------------------------response headers:
+X-CACHE             : Miss from cloudfront
+--------------------------------------------------response headers:
+VIA                 : 1.1 d1cde188ada6755fe03b8541b71fce4a.cloudfront.net (CloudFront)
+--------------------------------------------------response headers:
+X-AMZ-CF-POP        : IAD89-C1
+--------------------------------------------------response headers:
+X-AMZ-CF-ID         : 8w8rivQQOgP3iCy48mXYy3ms5t-9aRhq9y0oS7LBmDgLOKeizVY9fg==
+--------------------------------------------------response headers:
+
+=
+GET /sdk/uriskiplist_v2.json HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : cdn.branch.io
+ACCEPT              : */*
+ACCEPT-LANGUAGE     : en-us
+CONNECTION          : keep-alive
+ACCEPT-ENCODING     : gzip, deflate, br
+USER-AGENT          : Pandora/2109 CFNetwork/1107.1 Darwin/19.0.0
+--------------------------------------------------response headers:
+CONTENT-TYPE        : text/json
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 2
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+LAST-MODIFIED       : Fri, 26 Apr 2019 15:23:26 GMT
+--------------------------------------------------response headers:
+X-AMZ-VERSION-ID    : 5U.tZHCgT6M6IU61MIZ0VV2ap18Hnhig
+--------------------------------------------------response headers:
+SERVER              : AmazonS3
+--------------------------------------------------response headers:
+DATE                : Tue, 10 Dec 2019 09:13:52 GMT
+--------------------------------------------------response headers:
+ETAG                : "99914b932bd37a50b983c5e7c90ae93b"
+--------------------------------------------------response headers:
+X-CACHE             : Hit from cloudfront
+--------------------------------------------------response headers:
+VIA                 : 1.1 29e9afe5efcd089dc05c8c157066682e.cloudfront.net (CloudFront)
+--------------------------------------------------response headers:
+X-AMZ-CF-POP        : IAD89-C2
+--------------------------------------------------response headers:
+X-AMZ-CF-ID         : _wNr_ZI_3OPnPNvbdxSN_J6KI6O8DmFJ7GHB3xNsoiRqPfqDlEfd9A==
+--------------------------------------------------response headers:
+AGE                 : 55514
+--------------------------------------------------response headers:

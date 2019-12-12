@@ -1,0 +1,288 @@
+
+=
+PUT /v1/apps/10d83da220d84b9491dcadc68f5fe222/endpoints/0FA79A5A-CDD0-40D5-A389-489AFCA6A430 HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : pinpoint.us-east-1.amazonaws.com
+CONTENT-TYPE        : application/x-amz-json-1.1
+X-AMZ-SECURITY-TOKEN: IQoJb3JpZ2luX2VjELL//////////wEaCXVzLWVhc3QtMSJHMEUCIQDlcl84w54zV8ukr7mJUr9k4hTzWtpbyF+oturuQxzdZwIgKhdjvSUr2kCqXnrzGmrobbovhkTLSbmLI2Pn2xHdJBsq0wUI+///////////ARABGgw2NDk5MTE3NzY4MDEiDMEEMtK+27Uhj3NL/SqnBRJBMf5+PgR4yluUbc3iHK+PZeEe0HB63VxExxOIkSULGzIdj2OVmC+b0r3ZOCI44Xt2yZg9df+q/zWWY0rBxdMYrkAsPXl5awUTHAfG7HjWhyG3KM/iOjR2BvdrcLdFf//SMbSkk5hEvYwDDzwITYbCHuSMCBFE+2e3ilLrYCIbDsHZ9pIhdCnAFrmGGNfh1tZxxQ8RBj+YSUTrzTECKx+ZzLKSTCz81OEyK//5EVjWKko7WX22qGC2o+RAfsY9+IuEZHN+D4QJ4/W+3f0Fgn7ZrrKcZUeABeXV+uQScGveQGQ+yVqMW8XafOjyane2VYAZLIP0SuzXUxCcD4YYdCaePRjvSIXnLdV9HDrmXVSuJlkY7QEtxI9kZFcIb9izkYnXGXMEkvb7Hp5uw7HMvDzvKbcvGzhUyWIjAm8hOolc+vT3ni66oLMalXcXFoR+/V2sM6gSv7r+k3qv7YlKfByjb7eBHnsQTBwNH4w/C+K4a5inP61UKRdMldVpyYc3hOabe15VWOG+ZSuDrUL7XT/ODzcvD5aYftrJhWWyCGUqz5RqwRNrSc5NNTrz53u4a7950CEhzhZPepC8eqbY/GBTQJ9XHP3tDbrhlN/jzPnsXksipXB0fbxt4O1XF7SQVnZfBgehOt10QmAmLV02brKzrxR/jh/C3+m+Fxis52ckS26NLVbw/FsBhb9mjarjHoJ3ylq2kBfGjTVXeYLsdyyiyj53lNQ2dk+3n3oRgkN8OXdYuaLL7M4w6SEfiwB5far2C9hSGom9YKIr/oLKemdz2ctHXpCBRHkhDYVxlJxkWmJ260QIOP4mHd49MNIivScP4raf8/KrqSMg0bVbqvQ8/fWzCzn5Onb6i8z0NplA3yeFvc2c0vDVeIAI5p9KEQmK4uARxWkw4azG7wU6zQKB4mP25XRRZxsWXK/6cmmGBSnHjCUjxUpy+YSG0Z/s4gUPt1cSJO//lg1xjWVxoxhgy3LNpDftYlMx/42z7krZaQ8mfqRlvxil+Q2AQBMgCZjUAMeDXWXS1+pvN2CZeUiyYSvBRmoR/xB/fs3aCjeCT8kW8WQsDdRrYS+lSvpINZfep386zwkUHYd/WH9Dzi+OSpFwLYZx5kphDMDXdJl/bXgTarakDS8ix/NER/sdwBDXGPqKv46GefmiCw2YnZWnxItKrl6GnCNDhhmKlJkmw4sy8c4Gn5zOep9PbV/I/BqKUiNwiANXBjS+cYiFZvTHx+PVeylrLTY0KAr+hOBRSZJ+atMSRoT8PFvXaXjl1ARUDsNtRXj1zmzcEvx6DbcF06zhzVKkr4Qcs+Emblrh+JuM4wWvFNTzdiUH8BxnlxsJMjpnPbxGLlVrgeo=
+ACCEPT-LANGUAGE     : en-us
+ACCEPT-ENCODING     : gzip, deflate, br
+CONNECTION          : keep-alive
+ACCEPT              : */*
+USER-AGENT          : aws-sdk-iOS/2.11.1 iOS/13.1 en_US
+AUTHORIZATION       : AWS4-HMAC-SHA256 Credential=ASIAZOUOCWYQ3VER5RP5/20191212/us-east-1/mobiletargeting/aws4_request, SignedHeaders=content-type;host;user-agent;x-amz-date;x-amz-security-token, Signature=467c7fc0f166c8abb0fc4565a89c4b0ef42b602d39cbec232a7d3ef803aa0252
+CONTENT-LENGTH      : 293
+X-AMZ-DATE          : 20191212T020237Z
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/json
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 29
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:02:38 GMT
+--------------------------------------------------response headers:
+X-AMZN-REQUESTID    : 117913a0-910f-4d23-bb4c-17ad6d0d0598
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+X-AMZN-ERRORTYPE    : BadRequestException
+--------------------------------------------------response headers:
+X-AMZ-APIGW-ID      : EkXluGvGoAMFffQ=
+--------------------------------------------------response headers:
+X-AMZN-TRACE-ID     : Root=1-5df19fbe-79b0f9e0df1d1ab807a3cfe0
+--------------------------------------------------response headers:
+X-CACHE             : Error from cloudfront
+--------------------------------------------------response headers:
+VIA                 : 1.1 a251e31740a6e166e8fdccf296c41645.cloudfront.net (CloudFront)
+--------------------------------------------------response headers:
+X-AMZ-CF-POP        : IAD89-C1
+--------------------------------------------------response headers:
+X-AMZ-CF-ID         : 9GpKUJjD-Dvwyg8veID0dDNiH3GjtIGyKCrnwj-CWStcPhJlnSXSoQ==
+--------------------------------------------------response headers:
+
+=
+PUT /v1/apps/10d83da220d84b9491dcadc68f5fe222/endpoints/0FA79A5A-CDD0-40D5-A389-489AFCA6A430 HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : pinpoint.us-east-1.amazonaws.com
+CONTENT-TYPE        : application/x-amz-json-1.1
+X-AMZ-SECURITY-TOKEN: IQoJb3JpZ2luX2VjELL//////////wEaCXVzLWVhc3QtMSJHMEUCIQDlcl84w54zV8ukr7mJUr9k4hTzWtpbyF+oturuQxzdZwIgKhdjvSUr2kCqXnrzGmrobbovhkTLSbmLI2Pn2xHdJBsq0wUI+///////////ARABGgw2NDk5MTE3NzY4MDEiDMEEMtK+27Uhj3NL/SqnBRJBMf5+PgR4yluUbc3iHK+PZeEe0HB63VxExxOIkSULGzIdj2OVmC+b0r3ZOCI44Xt2yZg9df+q/zWWY0rBxdMYrkAsPXl5awUTHAfG7HjWhyG3KM/iOjR2BvdrcLdFf//SMbSkk5hEvYwDDzwITYbCHuSMCBFE+2e3ilLrYCIbDsHZ9pIhdCnAFrmGGNfh1tZxxQ8RBj+YSUTrzTECKx+ZzLKSTCz81OEyK//5EVjWKko7WX22qGC2o+RAfsY9+IuEZHN+D4QJ4/W+3f0Fgn7ZrrKcZUeABeXV+uQScGveQGQ+yVqMW8XafOjyane2VYAZLIP0SuzXUxCcD4YYdCaePRjvSIXnLdV9HDrmXVSuJlkY7QEtxI9kZFcIb9izkYnXGXMEkvb7Hp5uw7HMvDzvKbcvGzhUyWIjAm8hOolc+vT3ni66oLMalXcXFoR+/V2sM6gSv7r+k3qv7YlKfByjb7eBHnsQTBwNH4w/C+K4a5inP61UKRdMldVpyYc3hOabe15VWOG+ZSuDrUL7XT/ODzcvD5aYftrJhWWyCGUqz5RqwRNrSc5NNTrz53u4a7950CEhzhZPepC8eqbY/GBTQJ9XHP3tDbrhlN/jzPnsXksipXB0fbxt4O1XF7SQVnZfBgehOt10QmAmLV02brKzrxR/jh/C3+m+Fxis52ckS26NLVbw/FsBhb9mjarjHoJ3ylq2kBfGjTVXeYLsdyyiyj53lNQ2dk+3n3oRgkN8OXdYuaLL7M4w6SEfiwB5far2C9hSGom9YKIr/oLKemdz2ctHXpCBRHkhDYVxlJxkWmJ260QIOP4mHd49MNIivScP4raf8/KrqSMg0bVbqvQ8/fWzCzn5Onb6i8z0NplA3yeFvc2c0vDVeIAI5p9KEQmK4uARxWkw4azG7wU6zQKB4mP25XRRZxsWXK/6cmmGBSnHjCUjxUpy+YSG0Z/s4gUPt1cSJO//lg1xjWVxoxhgy3LNpDftYlMx/42z7krZaQ8mfqRlvxil+Q2AQBMgCZjUAMeDXWXS1+pvN2CZeUiyYSvBRmoR/xB/fs3aCjeCT8kW8WQsDdRrYS+lSvpINZfep386zwkUHYd/WH9Dzi+OSpFwLYZx5kphDMDXdJl/bXgTarakDS8ix/NER/sdwBDXGPqKv46GefmiCw2YnZWnxItKrl6GnCNDhhmKlJkmw4sy8c4Gn5zOep9PbV/I/BqKUiNwiANXBjS+cYiFZvTHx+PVeylrLTY0KAr+hOBRSZJ+atMSRoT8PFvXaXjl1ARUDsNtRXj1zmzcEvx6DbcF06zhzVKkr4Qcs+Emblrh+JuM4wWvFNTzdiUH8BxnlxsJMjpnPbxGLlVrgeo=
+ACCEPT-LANGUAGE     : en-us
+ACCEPT-ENCODING     : gzip, deflate, br
+CONNECTION          : keep-alive
+ACCEPT              : */*
+USER-AGENT          : aws-sdk-iOS/2.11.1 iOS/13.1 en_US
+AUTHORIZATION       : AWS4-HMAC-SHA256 Credential=ASIAZOUOCWYQ3VER5RP5/20191212/us-east-1/mobiletargeting/aws4_request, SignedHeaders=content-type;host;user-agent;x-amz-date;x-amz-security-token, Signature=e50a731aac9bb3a90b6db3745a02ec3a53a51687cdb7a005f77981e1588c2e47
+CONTENT-LENGTH      : 293
+X-AMZ-DATE          : 20191212T020623Z
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/json
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 29
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:06:26 GMT
+--------------------------------------------------response headers:
+X-AMZN-REQUESTID    : a08b6965-daba-4555-b45f-bdeccbcc32f5
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+X-AMZN-ERRORTYPE    : BadRequestException
+--------------------------------------------------response headers:
+X-AMZ-APIGW-ID      : EkYJVGhNoAMFkww=
+--------------------------------------------------response headers:
+X-AMZN-TRACE-ID     : Root=1-5df1a0a2-36867e6cad8f9ff03a129b10
+--------------------------------------------------response headers:
+X-CACHE             : Error from cloudfront
+--------------------------------------------------response headers:
+VIA                 : 1.1 2ad0cde89ab58d454177893ae4447f50.cloudfront.net (CloudFront)
+--------------------------------------------------response headers:
+X-AMZ-CF-POP        : IAD89-C1
+--------------------------------------------------response headers:
+X-AMZ-CF-ID         : DcGwbA0EzMmC2XDlwoHrbgqE7WBG0yZAqt9o-RwNnA-1ecfHovEERg==
+--------------------------------------------------response headers:
+
+=
+PUT /v1/apps/10d83da220d84b9491dcadc68f5fe222/endpoints/0FA79A5A-CDD0-40D5-A389-489AFCA6A430 HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : pinpoint.us-east-1.amazonaws.com
+CONTENT-TYPE        : application/x-amz-json-1.1
+X-AMZ-SECURITY-TOKEN: IQoJb3JpZ2luX2VjELL//////////wEaCXVzLWVhc3QtMSJHMEUCIQDlcl84w54zV8ukr7mJUr9k4hTzWtpbyF+oturuQxzdZwIgKhdjvSUr2kCqXnrzGmrobbovhkTLSbmLI2Pn2xHdJBsq0wUI+///////////ARABGgw2NDk5MTE3NzY4MDEiDMEEMtK+27Uhj3NL/SqnBRJBMf5+PgR4yluUbc3iHK+PZeEe0HB63VxExxOIkSULGzIdj2OVmC+b0r3ZOCI44Xt2yZg9df+q/zWWY0rBxdMYrkAsPXl5awUTHAfG7HjWhyG3KM/iOjR2BvdrcLdFf//SMbSkk5hEvYwDDzwITYbCHuSMCBFE+2e3ilLrYCIbDsHZ9pIhdCnAFrmGGNfh1tZxxQ8RBj+YSUTrzTECKx+ZzLKSTCz81OEyK//5EVjWKko7WX22qGC2o+RAfsY9+IuEZHN+D4QJ4/W+3f0Fgn7ZrrKcZUeABeXV+uQScGveQGQ+yVqMW8XafOjyane2VYAZLIP0SuzXUxCcD4YYdCaePRjvSIXnLdV9HDrmXVSuJlkY7QEtxI9kZFcIb9izkYnXGXMEkvb7Hp5uw7HMvDzvKbcvGzhUyWIjAm8hOolc+vT3ni66oLMalXcXFoR+/V2sM6gSv7r+k3qv7YlKfByjb7eBHnsQTBwNH4w/C+K4a5inP61UKRdMldVpyYc3hOabe15VWOG+ZSuDrUL7XT/ODzcvD5aYftrJhWWyCGUqz5RqwRNrSc5NNTrz53u4a7950CEhzhZPepC8eqbY/GBTQJ9XHP3tDbrhlN/jzPnsXksipXB0fbxt4O1XF7SQVnZfBgehOt10QmAmLV02brKzrxR/jh/C3+m+Fxis52ckS26NLVbw/FsBhb9mjarjHoJ3ylq2kBfGjTVXeYLsdyyiyj53lNQ2dk+3n3oRgkN8OXdYuaLL7M4w6SEfiwB5far2C9hSGom9YKIr/oLKemdz2ctHXpCBRHkhDYVxlJxkWmJ260QIOP4mHd49MNIivScP4raf8/KrqSMg0bVbqvQ8/fWzCzn5Onb6i8z0NplA3yeFvc2c0vDVeIAI5p9KEQmK4uARxWkw4azG7wU6zQKB4mP25XRRZxsWXK/6cmmGBSnHjCUjxUpy+YSG0Z/s4gUPt1cSJO//lg1xjWVxoxhgy3LNpDftYlMx/42z7krZaQ8mfqRlvxil+Q2AQBMgCZjUAMeDXWXS1+pvN2CZeUiyYSvBRmoR/xB/fs3aCjeCT8kW8WQsDdRrYS+lSvpINZfep386zwkUHYd/WH9Dzi+OSpFwLYZx5kphDMDXdJl/bXgTarakDS8ix/NER/sdwBDXGPqKv46GefmiCw2YnZWnxItKrl6GnCNDhhmKlJkmw4sy8c4Gn5zOep9PbV/I/BqKUiNwiANXBjS+cYiFZvTHx+PVeylrLTY0KAr+hOBRSZJ+atMSRoT8PFvXaXjl1ARUDsNtRXj1zmzcEvx6DbcF06zhzVKkr4Qcs+Emblrh+JuM4wWvFNTzdiUH8BxnlxsJMjpnPbxGLlVrgeo=
+ACCEPT-LANGUAGE     : en-us
+ACCEPT-ENCODING     : gzip, deflate, br
+CONNECTION          : keep-alive
+ACCEPT              : */*
+USER-AGENT          : aws-sdk-iOS/2.11.1 iOS/13.1 en_US
+AUTHORIZATION       : AWS4-HMAC-SHA256 Credential=ASIAZOUOCWYQ3VER5RP5/20191212/us-east-1/mobiletargeting/aws4_request, SignedHeaders=content-type;host;user-agent;x-amz-date;x-amz-security-token, Signature=beeadd25413bc71a989b9c10e6318b77d3807a3b36aa8f1ea158ff85096058ce
+CONTENT-LENGTH      : 293
+X-AMZ-DATE          : 20191212T020623Z
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/json
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 29
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:06:31 GMT
+--------------------------------------------------response headers:
+X-AMZN-REQUESTID    : 7c50204d-613a-419f-9c47-0de5ead4d1a6
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+X-AMZN-ERRORTYPE    : BadRequestException
+--------------------------------------------------response headers:
+X-AMZ-APIGW-ID      : EkYKHE3PoAMFn3A=
+--------------------------------------------------response headers:
+X-AMZN-TRACE-ID     : Root=1-5df1a0a7-f5a2202e907a6ef38a320d94
+--------------------------------------------------response headers:
+X-CACHE             : Error from cloudfront
+--------------------------------------------------response headers:
+VIA                 : 1.1 263d97c176fc51d1d08116820c013de4.cloudfront.net (CloudFront)
+--------------------------------------------------response headers:
+X-AMZ-CF-POP        : IAD89-C1
+--------------------------------------------------response headers:
+X-AMZ-CF-ID         : U-FNHCFfFpsfb6CzZg8d2N7wvmL3el1WzvWmX19DPxjjAdkTZ-G2MA==
+--------------------------------------------------response headers:
+
+=
+PUT /v1/apps/10d83da220d84b9491dcadc68f5fe222/endpoints/0FA79A5A-CDD0-40D5-A389-489AFCA6A430 HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : pinpoint.us-east-1.amazonaws.com
+CONTENT-TYPE        : application/x-amz-json-1.1
+X-AMZ-SECURITY-TOKEN: IQoJb3JpZ2luX2VjELL//////////wEaCXVzLWVhc3QtMSJHMEUCIQDlcl84w54zV8ukr7mJUr9k4hTzWtpbyF+oturuQxzdZwIgKhdjvSUr2kCqXnrzGmrobbovhkTLSbmLI2Pn2xHdJBsq0wUI+///////////ARABGgw2NDk5MTE3NzY4MDEiDMEEMtK+27Uhj3NL/SqnBRJBMf5+PgR4yluUbc3iHK+PZeEe0HB63VxExxOIkSULGzIdj2OVmC+b0r3ZOCI44Xt2yZg9df+q/zWWY0rBxdMYrkAsPXl5awUTHAfG7HjWhyG3KM/iOjR2BvdrcLdFf//SMbSkk5hEvYwDDzwITYbCHuSMCBFE+2e3ilLrYCIbDsHZ9pIhdCnAFrmGGNfh1tZxxQ8RBj+YSUTrzTECKx+ZzLKSTCz81OEyK//5EVjWKko7WX22qGC2o+RAfsY9+IuEZHN+D4QJ4/W+3f0Fgn7ZrrKcZUeABeXV+uQScGveQGQ+yVqMW8XafOjyane2VYAZLIP0SuzXUxCcD4YYdCaePRjvSIXnLdV9HDrmXVSuJlkY7QEtxI9kZFcIb9izkYnXGXMEkvb7Hp5uw7HMvDzvKbcvGzhUyWIjAm8hOolc+vT3ni66oLMalXcXFoR+/V2sM6gSv7r+k3qv7YlKfByjb7eBHnsQTBwNH4w/C+K4a5inP61UKRdMldVpyYc3hOabe15VWOG+ZSuDrUL7XT/ODzcvD5aYftrJhWWyCGUqz5RqwRNrSc5NNTrz53u4a7950CEhzhZPepC8eqbY/GBTQJ9XHP3tDbrhlN/jzPnsXksipXB0fbxt4O1XF7SQVnZfBgehOt10QmAmLV02brKzrxR/jh/C3+m+Fxis52ckS26NLVbw/FsBhb9mjarjHoJ3ylq2kBfGjTVXeYLsdyyiyj53lNQ2dk+3n3oRgkN8OXdYuaLL7M4w6SEfiwB5far2C9hSGom9YKIr/oLKemdz2ctHXpCBRHkhDYVxlJxkWmJ260QIOP4mHd49MNIivScP4raf8/KrqSMg0bVbqvQ8/fWzCzn5Onb6i8z0NplA3yeFvc2c0vDVeIAI5p9KEQmK4uARxWkw4azG7wU6zQKB4mP25XRRZxsWXK/6cmmGBSnHjCUjxUpy+YSG0Z/s4gUPt1cSJO//lg1xjWVxoxhgy3LNpDftYlMx/42z7krZaQ8mfqRlvxil+Q2AQBMgCZjUAMeDXWXS1+pvN2CZeUiyYSvBRmoR/xB/fs3aCjeCT8kW8WQsDdRrYS+lSvpINZfep386zwkUHYd/WH9Dzi+OSpFwLYZx5kphDMDXdJl/bXgTarakDS8ix/NER/sdwBDXGPqKv46GefmiCw2YnZWnxItKrl6GnCNDhhmKlJkmw4sy8c4Gn5zOep9PbV/I/BqKUiNwiANXBjS+cYiFZvTHx+PVeylrLTY0KAr+hOBRSZJ+atMSRoT8PFvXaXjl1ARUDsNtRXj1zmzcEvx6DbcF06zhzVKkr4Qcs+Emblrh+JuM4wWvFNTzdiUH8BxnlxsJMjpnPbxGLlVrgeo=
+ACCEPT-LANGUAGE     : en-us
+ACCEPT-ENCODING     : gzip, deflate, br
+CONNECTION          : keep-alive
+ACCEPT              : */*
+USER-AGENT          : aws-sdk-iOS/2.11.1 iOS/13.1 en_US
+AUTHORIZATION       : AWS4-HMAC-SHA256 Credential=ASIAZOUOCWYQ3VER5RP5/20191212/us-east-1/mobiletargeting/aws4_request, SignedHeaders=content-type;host;user-agent;x-amz-date;x-amz-security-token, Signature=7360b2c72676f3dd77f787625c9ab9417cb3b39765c4acc4ee7bebe830f981b0
+CONTENT-LENGTH      : 293
+X-AMZ-DATE          : 20191212T020542Z
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/json
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 29
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:06:31 GMT
+--------------------------------------------------response headers:
+X-AMZN-REQUESTID    : f349113b-aec2-429d-a5ec-bfad316ae26d
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+X-AMZN-ERRORTYPE    : BadRequestException
+--------------------------------------------------response headers:
+X-AMZ-APIGW-ID      : EkYKIF94IAMF6KQ=
+--------------------------------------------------response headers:
+X-AMZN-TRACE-ID     : Root=1-5df1a0a7-0adaf218e18becd49e57af00
+--------------------------------------------------response headers:
+X-CACHE             : Error from cloudfront
+--------------------------------------------------response headers:
+VIA                 : 1.1 fba666ceffdeb316c8edf476d8994bd5.cloudfront.net (CloudFront)
+--------------------------------------------------response headers:
+X-AMZ-CF-POP        : IAD89-C1
+--------------------------------------------------response headers:
+X-AMZ-CF-ID         : RQ16Kd7l4gQvZkLWlVW83g4MeWgzYXx1WUbOKJvkKFqzTm43su1i6Q==
+--------------------------------------------------response headers:
+
+=
+POST /v1/apps/10d83da220d84b9491dcadc68f5fe222/events HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : pinpoint.us-east-1.amazonaws.com
+CONTENT-TYPE        : application/x-amz-json-1.1
+X-AMZ-SECURITY-TOKEN: IQoJb3JpZ2luX2VjELL//////////wEaCXVzLWVhc3QtMSJHMEUCIQDlcl84w54zV8ukr7mJUr9k4hTzWtpbyF+oturuQxzdZwIgKhdjvSUr2kCqXnrzGmrobbovhkTLSbmLI2Pn2xHdJBsq0wUI+///////////ARABGgw2NDk5MTE3NzY4MDEiDMEEMtK+27Uhj3NL/SqnBRJBMf5+PgR4yluUbc3iHK+PZeEe0HB63VxExxOIkSULGzIdj2OVmC+b0r3ZOCI44Xt2yZg9df+q/zWWY0rBxdMYrkAsPXl5awUTHAfG7HjWhyG3KM/iOjR2BvdrcLdFf//SMbSkk5hEvYwDDzwITYbCHuSMCBFE+2e3ilLrYCIbDsHZ9pIhdCnAFrmGGNfh1tZxxQ8RBj+YSUTrzTECKx+ZzLKSTCz81OEyK//5EVjWKko7WX22qGC2o+RAfsY9+IuEZHN+D4QJ4/W+3f0Fgn7ZrrKcZUeABeXV+uQScGveQGQ+yVqMW8XafOjyane2VYAZLIP0SuzXUxCcD4YYdCaePRjvSIXnLdV9HDrmXVSuJlkY7QEtxI9kZFcIb9izkYnXGXMEkvb7Hp5uw7HMvDzvKbcvGzhUyWIjAm8hOolc+vT3ni66oLMalXcXFoR+/V2sM6gSv7r+k3qv7YlKfByjb7eBHnsQTBwNH4w/C+K4a5inP61UKRdMldVpyYc3hOabe15VWOG+ZSuDrUL7XT/ODzcvD5aYftrJhWWyCGUqz5RqwRNrSc5NNTrz53u4a7950CEhzhZPepC8eqbY/GBTQJ9XHP3tDbrhlN/jzPnsXksipXB0fbxt4O1XF7SQVnZfBgehOt10QmAmLV02brKzrxR/jh/C3+m+Fxis52ckS26NLVbw/FsBhb9mjarjHoJ3ylq2kBfGjTVXeYLsdyyiyj53lNQ2dk+3n3oRgkN8OXdYuaLL7M4w6SEfiwB5far2C9hSGom9YKIr/oLKemdz2ctHXpCBRHkhDYVxlJxkWmJ260QIOP4mHd49MNIivScP4raf8/KrqSMg0bVbqvQ8/fWzCzn5Onb6i8z0NplA3yeFvc2c0vDVeIAI5p9KEQmK4uARxWkw4azG7wU6zQKB4mP25XRRZxsWXK/6cmmGBSnHjCUjxUpy+YSG0Z/s4gUPt1cSJO//lg1xjWVxoxhgy3LNpDftYlMx/42z7krZaQ8mfqRlvxil+Q2AQBMgCZjUAMeDXWXS1+pvN2CZeUiyYSvBRmoR/xB/fs3aCjeCT8kW8WQsDdRrYS+lSvpINZfep386zwkUHYd/WH9Dzi+OSpFwLYZx5kphDMDXdJl/bXgTarakDS8ix/NER/sdwBDXGPqKv46GefmiCw2YnZWnxItKrl6GnCNDhhmKlJkmw4sy8c4Gn5zOep9PbV/I/BqKUiNwiANXBjS+cYiFZvTHx+PVeylrLTY0KAr+hOBRSZJ+atMSRoT8PFvXaXjl1ARUDsNtRXj1zmzcEvx6DbcF06zhzVKkr4Qcs+Emblrh+JuM4wWvFNTzdiUH8BxnlxsJMjpnPbxGLlVrgeo=
+ACCEPT-LANGUAGE     : en-us
+ACCEPT-ENCODING     : gzip, deflate, br
+CONNECTION          : keep-alive
+ACCEPT              : */*
+USER-AGENT          : aws-sdk-iOS/2.11.1 iOS/13.1 en_US
+AUTHORIZATION       : AWS4-HMAC-SHA256 Credential=ASIAZOUOCWYQ3VER5RP5/20191212/us-east-1/mobiletargeting/aws4_request, SignedHeaders=content-type;host;user-agent;x-amz-date;x-amz-security-token, Signature=55099f0e25bbd006b9c0b8d146add60106fbf1db7e7a5269a3e2ac065e8cac6c
+CONTENT-LENGTH      : 4136
+X-AMZ-DATE          : 20191212T020623Z
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/json
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 851
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:06:33 GMT
+--------------------------------------------------response headers:
+X-AMZN-REQUESTID    : dd7e0126-c877-4a0e-89b8-61238a16327b
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+X-AMZ-APIGW-ID      : EkYKaEO9oAMFZoQ=
+--------------------------------------------------response headers:
+X-AMZN-TRACE-ID     : Root=1-5df1a0a8-6b1e0a341722fca4a1eb94ac
+--------------------------------------------------response headers:
+X-CACHE             : Miss from cloudfront
+--------------------------------------------------response headers:
+VIA                 : 1.1 b5e757a7da6f6fe6261f56a8a9646881.cloudfront.net (CloudFront)
+--------------------------------------------------response headers:
+X-AMZ-CF-POP        : IAD89-C1
+--------------------------------------------------response headers:
+X-AMZ-CF-ID         : 6_KTzrmrYEQdKvx76tlWdaeU5EQm0EzRpD53r-lBRBqHoffcSVcJjQ==
+--------------------------------------------------response headers:
+
+=
+POST /v1/apps/10d83da220d84b9491dcadc68f5fe222/events HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : pinpoint.us-east-1.amazonaws.com
+CONTENT-TYPE        : application/x-amz-json-1.1
+X-AMZ-SECURITY-TOKEN: IQoJb3JpZ2luX2VjELL//////////wEaCXVzLWVhc3QtMSJHMEUCIQDlcl84w54zV8ukr7mJUr9k4hTzWtpbyF+oturuQxzdZwIgKhdjvSUr2kCqXnrzGmrobbovhkTLSbmLI2Pn2xHdJBsq0wUI+///////////ARABGgw2NDk5MTE3NzY4MDEiDMEEMtK+27Uhj3NL/SqnBRJBMf5+PgR4yluUbc3iHK+PZeEe0HB63VxExxOIkSULGzIdj2OVmC+b0r3ZOCI44Xt2yZg9df+q/zWWY0rBxdMYrkAsPXl5awUTHAfG7HjWhyG3KM/iOjR2BvdrcLdFf//SMbSkk5hEvYwDDzwITYbCHuSMCBFE+2e3ilLrYCIbDsHZ9pIhdCnAFrmGGNfh1tZxxQ8RBj+YSUTrzTECKx+ZzLKSTCz81OEyK//5EVjWKko7WX22qGC2o+RAfsY9+IuEZHN+D4QJ4/W+3f0Fgn7ZrrKcZUeABeXV+uQScGveQGQ+yVqMW8XafOjyane2VYAZLIP0SuzXUxCcD4YYdCaePRjvSIXnLdV9HDrmXVSuJlkY7QEtxI9kZFcIb9izkYnXGXMEkvb7Hp5uw7HMvDzvKbcvGzhUyWIjAm8hOolc+vT3ni66oLMalXcXFoR+/V2sM6gSv7r+k3qv7YlKfByjb7eBHnsQTBwNH4w/C+K4a5inP61UKRdMldVpyYc3hOabe15VWOG+ZSuDrUL7XT/ODzcvD5aYftrJhWWyCGUqz5RqwRNrSc5NNTrz53u4a7950CEhzhZPepC8eqbY/GBTQJ9XHP3tDbrhlN/jzPnsXksipXB0fbxt4O1XF7SQVnZfBgehOt10QmAmLV02brKzrxR/jh/C3+m+Fxis52ckS26NLVbw/FsBhb9mjarjHoJ3ylq2kBfGjTVXeYLsdyyiyj53lNQ2dk+3n3oRgkN8OXdYuaLL7M4w6SEfiwB5far2C9hSGom9YKIr/oLKemdz2ctHXpCBRHkhDYVxlJxkWmJ260QIOP4mHd49MNIivScP4raf8/KrqSMg0bVbqvQ8/fWzCzn5Onb6i8z0NplA3yeFvc2c0vDVeIAI5p9KEQmK4uARxWkw4azG7wU6zQKB4mP25XRRZxsWXK/6cmmGBSnHjCUjxUpy+YSG0Z/s4gUPt1cSJO//lg1xjWVxoxhgy3LNpDftYlMx/42z7krZaQ8mfqRlvxil+Q2AQBMgCZjUAMeDXWXS1+pvN2CZeUiyYSvBRmoR/xB/fs3aCjeCT8kW8WQsDdRrYS+lSvpINZfep386zwkUHYd/WH9Dzi+OSpFwLYZx5kphDMDXdJl/bXgTarakDS8ix/NER/sdwBDXGPqKv46GefmiCw2YnZWnxItKrl6GnCNDhhmKlJkmw4sy8c4Gn5zOep9PbV/I/BqKUiNwiANXBjS+cYiFZvTHx+PVeylrLTY0KAr+hOBRSZJ+atMSRoT8PFvXaXjl1ARUDsNtRXj1zmzcEvx6DbcF06zhzVKkr4Qcs+Emblrh+JuM4wWvFNTzdiUH8BxnlxsJMjpnPbxGLlVrgeo=
+ACCEPT-LANGUAGE     : en-us
+ACCEPT-ENCODING     : gzip, deflate, br
+CONNECTION          : keep-alive
+ACCEPT              : */*
+USER-AGENT          : aws-sdk-iOS/2.11.1 iOS/13.1 en_US
+AUTHORIZATION       : AWS4-HMAC-SHA256 Credential=ASIAZOUOCWYQ3VER5RP5/20191212/us-east-1/mobiletargeting/aws4_request, SignedHeaders=content-type;host;user-agent;x-amz-date;x-amz-security-token, Signature=0d8a39009da52418213440e0497f5398bc10aedb708e0291de7db298315e90ff
+CONTENT-LENGTH      : 1534
+X-AMZ-DATE          : 20191212T020635Z
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/json
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 377
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:06:36 GMT
+--------------------------------------------------response headers:
+X-AMZN-REQUESTID    : 9b39015d-6031-423c-b498-aa787914acec
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+X-AMZ-APIGW-ID      : EkYK8GhZIAMFl0w=
+--------------------------------------------------response headers:
+X-AMZN-TRACE-ID     : Root=1-5df1a0ac-6d3067e01b4a876038dacf60
+--------------------------------------------------response headers:
+X-CACHE             : Miss from cloudfront
+--------------------------------------------------response headers:
+VIA                 : 1.1 2ad0cde89ab58d454177893ae4447f50.cloudfront.net (CloudFront)
+--------------------------------------------------response headers:
+X-AMZ-CF-POP        : IAD89-C1
+--------------------------------------------------response headers:
+X-AMZ-CF-ID         : 4t-87v9pIKmgoND_oLeJv0tigKbX5FTUQ8LWc4aPNA0k4gxE1h1v1w==
+--------------------------------------------------response headers:
+
+=
+POST /v1/apps/10d83da220d84b9491dcadc68f5fe222/events HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : pinpoint.us-east-1.amazonaws.com
+CONTENT-TYPE        : application/x-amz-json-1.1
+X-AMZ-SECURITY-TOKEN: IQoJb3JpZ2luX2VjELL//////////wEaCXVzLWVhc3QtMSJHMEUCIQDlcl84w54zV8ukr7mJUr9k4hTzWtpbyF+oturuQxzdZwIgKhdjvSUr2kCqXnrzGmrobbovhkTLSbmLI2Pn2xHdJBsq0wUI+///////////ARABGgw2NDk5MTE3NzY4MDEiDMEEMtK+27Uhj3NL/SqnBRJBMf5+PgR4yluUbc3iHK+PZeEe0HB63VxExxOIkSULGzIdj2OVmC+b0r3ZOCI44Xt2yZg9df+q/zWWY0rBxdMYrkAsPXl5awUTHAfG7HjWhyG3KM/iOjR2BvdrcLdFf//SMbSkk5hEvYwDDzwITYbCHuSMCBFE+2e3ilLrYCIbDsHZ9pIhdCnAFrmGGNfh1tZxxQ8RBj+YSUTrzTECKx+ZzLKSTCz81OEyK//5EVjWKko7WX22qGC2o+RAfsY9+IuEZHN+D4QJ4/W+3f0Fgn7ZrrKcZUeABeXV+uQScGveQGQ+yVqMW8XafOjyane2VYAZLIP0SuzXUxCcD4YYdCaePRjvSIXnLdV9HDrmXVSuJlkY7QEtxI9kZFcIb9izkYnXGXMEkvb7Hp5uw7HMvDzvKbcvGzhUyWIjAm8hOolc+vT3ni66oLMalXcXFoR+/V2sM6gSv7r+k3qv7YlKfByjb7eBHnsQTBwNH4w/C+K4a5inP61UKRdMldVpyYc3hOabe15VWOG+ZSuDrUL7XT/ODzcvD5aYftrJhWWyCGUqz5RqwRNrSc5NNTrz53u4a7950CEhzhZPepC8eqbY/GBTQJ9XHP3tDbrhlN/jzPnsXksipXB0fbxt4O1XF7SQVnZfBgehOt10QmAmLV02brKzrxR/jh/C3+m+Fxis52ckS26NLVbw/FsBhb9mjarjHoJ3ylq2kBfGjTVXeYLsdyyiyj53lNQ2dk+3n3oRgkN8OXdYuaLL7M4w6SEfiwB5far2C9hSGom9YKIr/oLKemdz2ctHXpCBRHkhDYVxlJxkWmJ260QIOP4mHd49MNIivScP4raf8/KrqSMg0bVbqvQ8/fWzCzn5Onb6i8z0NplA3yeFvc2c0vDVeIAI5p9KEQmK4uARxWkw4azG7wU6zQKB4mP25XRRZxsWXK/6cmmGBSnHjCUjxUpy+YSG0Z/s4gUPt1cSJO//lg1xjWVxoxhgy3LNpDftYlMx/42z7krZaQ8mfqRlvxil+Q2AQBMgCZjUAMeDXWXS1+pvN2CZeUiyYSvBRmoR/xB/fs3aCjeCT8kW8WQsDdRrYS+lSvpINZfep386zwkUHYd/WH9Dzi+OSpFwLYZx5kphDMDXdJl/bXgTarakDS8ix/NER/sdwBDXGPqKv46GefmiCw2YnZWnxItKrl6GnCNDhhmKlJkmw4sy8c4Gn5zOep9PbV/I/BqKUiNwiANXBjS+cYiFZvTHx+PVeylrLTY0KAr+hOBRSZJ+atMSRoT8PFvXaXjl1ARUDsNtRXj1zmzcEvx6DbcF06zhzVKkr4Qcs+Emblrh+JuM4wWvFNTzdiUH8BxnlxsJMjpnPbxGLlVrgeo=
+ACCEPT-LANGUAGE     : en-us
+ACCEPT-ENCODING     : gzip, deflate, br
+CONNECTION          : keep-alive
+ACCEPT              : */*
+USER-AGENT          : aws-sdk-iOS/2.11.1 iOS/13.1 en_US
+AUTHORIZATION       : AWS4-HMAC-SHA256 Credential=ASIAZOUOCWYQ3VER5RP5/20191212/us-east-1/mobiletargeting/aws4_request, SignedHeaders=content-type;host;user-agent;x-amz-date;x-amz-security-token, Signature=065f694a8f1d78adbcec0fc9b02a31079d6fccc67a9be45354d2394c95b3f68e
+CONTENT-LENGTH      : 1229
+X-AMZ-DATE          : 20191212T020708Z
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/json
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 298
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:07:09 GMT
+--------------------------------------------------response headers:
+X-AMZN-REQUESTID    : f7dbc576-1ff0-493b-94c8-4860017b432b
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+X-AMZ-APIGW-ID      : EkYQDGTcIAMFjeg=
+--------------------------------------------------response headers:
+X-AMZN-TRACE-ID     : Root=1-5df1a0cc-c296564a14c31deb92cb8c74
+--------------------------------------------------response headers:
+X-CACHE             : Miss from cloudfront
+--------------------------------------------------response headers:
+VIA                 : 1.1 c1802b2f6f4e591b6df12b5a8a9876a7.cloudfront.net (CloudFront)
+--------------------------------------------------response headers:
+X-AMZ-CF-POP        : IAD89-C1
+--------------------------------------------------response headers:
+X-AMZ-CF-ID         : GDu-k220AAKB_JVaxmyS6mykPGJLCx-5HFJtxcWB6VEC8wXPVfLq0A==
+--------------------------------------------------response headers:

@@ -1,0 +1,2562 @@
+
+=
+POST /log HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : ichnaea-web.netflix.com
+ACCEPT              : */*
+CONTENT-TYPE        : application/json
+X-NETFLIX.ROUTING   : redirect
+CONNECTION          : keep-alive
+X-NETFLIX.ICHNAEA.REQUEST.TYPE: IchnaeaRequest
+COOKIE              : NetflixId=v%3D2%26ct%3DBQAOAAEBEMYMJa1UDv-EdME8yChbrGeB4Me1s5U2v8h_IPVQeyXqc08o-jT1qEMHBqlFJI3fFzP-4rK1GcN7MZNg66ZWzwzFEDhvFd1-ycr22r6bW1z3GTyufE2HZHcTIadOmrP41euHhMAn8n6HEL6JiTGQC3iv0xDaOb2kL5J60nU7As7hIRaLYmHHXMK3i_0FXLQGwdWTh_D7xWawfNu2KF22pL7AGC1DmVFW_DQgbSEKm43nvnFBFneZGETrA2EYNRJ3FfkTxV8R3_zldb01G3yCb-ADXVRRZotQcSQ0dyr8BzP2aeyMMZ7l6uyboNbgPLQ1dqO1LCf_4QOnn4LiecCGpcAO1XlOIo8U727Dkdx4nQIIhiIPgoDFU77vCeYeUyGEFiNNSchB3xHkkt9xSBThZwvsp1UXRJ2sTvp1uNDt0o2FrC4nQXv8xR35yPKymldhCFxNJlG02GAjR0PB-aqt_QD6jhSk3uSORxXGfcD4b3cejpcIDfwJnZUOvl5oMKiGFR6R6y-7afrwPr58JjRwdssQxIiGX54fL23U4UD__XiTRNWcRn9Yirp7A9_3-IFKJkjjj1TmenD_MU5T_7z9ekds10Fha4Xl6OiZ6zOPpAukYLAaVvDQilKGnnBzv2vVFUTUl7FnwyPmOkX8u9c_1BtnUw..%26bt%3Ddbl%26ch%3DAQEAEAABABTkrLG2peDZwQ78vL2VhD7aWD3MVvFV72k.%26mac%3DAQEAEAABABQ2b0XxD27x6IG6K97AMzC8i24aw4Vw3tI.; SecureNetflixId=v%3D2%26mac%3DAQEAEQABABR9GJZiXg0qs3y8nmKTFWrXXw44RNp-Iw0.%26dt%3D1576108437686; nfvdid=BQFmAAEBEKPdk-mWoen2pW6u1sb0FWFgZrGblzrwPHxXPBG7Yh0z4GGfoBut_QUKGT6pMB8XVRK2jWjwgy6BjwgZl7x4dxXF-3BAP5UidJkdFGCTY3ZFIl2N8O9Nhtmooy7KOs1JtJ7XO3pcwid2RSHzRmjdptr_
+ACCEPT-LANGUAGE     : en-us
+USER-AGENT          : Argo/2925 CFNetwork/1107.1 Darwin/19.0.0
+ACCEPT-ENCODING     : gzip, deflate, br
+CONTENT-LENGTH      : 282
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-CREDENTIALS: true
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-HEADERS: Authorization,Content-Type,Accept,Cookie,X-Netflix.application.name,X-Netflix.application.version,X-Netflix.esn,X-Netflix.device.type,X-Netflix.certification.version,X-Netflix.request.uuid,X-Netflix.user.id,X-Netflix.oauth.consumer.key,X-Netflix.oauth.token,X-Netflix.ichnaea.request.type,debugRequest
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-METHODS: GET, POST, OPTIONS
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: http://ichnaea-web.netflix.com
+--------------------------------------------------response headers:
+ALLOW               : GET, POST, OPTIONS
+--------------------------------------------------response headers:
+CONTENT-TYPE        : text/plain
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:57:45 GMT
+--------------------------------------------------response headers:
+SERVER              : ichnaea i-05f4665a2c4fb770f
+--------------------------------------------------response headers:
+VIA                 : 1.1 i-0b863bc3e4f9b8a14 (us-east-1)
+--------------------------------------------------response headers:
+X-ICHNAEA           : ~O=true~RL=117
+--------------------------------------------------response headers:
+X-NETFLIX.NETWORKPREDICTION: {"aws":0,"oc":0,"aka":0,"asn":"12271"}
+--------------------------------------------------response headers:
+X-NETFLIX.NFSTATUS  : 1_1
+--------------------------------------------------response headers:
+X-NETFLIX.PROXY.EXECUTION-TIME: 15
+--------------------------------------------------response headers:
+X-ORIGINATING-URL   : https://ichnaea-web.netflix.com/log
+--------------------------------------------------response headers:
+X-XSS-PROTECTION    : 1; mode=block; report=https://ichnaea-web.netflix.com/log/freeform/xssreport
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 0
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+
+=
+POST /appboot/NFAPPL-01-IPAD5=1- HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : appboot.netflix.com
+ACCEPT              : */*
+X-NETFLIX.APIACTION : appboot
+TRANSFER-ENCODING   : Chunked
+CONTENT-TYPE        : application/x-www-form-urlencoded
+ACCEPT-LANGUAGE     : en-us
+ACCEPT-ENCODING     : gzip, deflate
+X-NETFLIX.ESN       : NFAPPL-01-IPAD5=1-46209A03AF04033E7908FBCF99803FC17824A5EB7F5F33FD57591AD2B1AA21BA
+X-NETFLIX.REQUEST.ATTEMPT: 1
+USER-AGENT          : Argo/2925 CFNetwork/1107.1 Darwin/19.0.0
+CONNECTION          : keep-alive
+COOKIE              : nfvdid=BQFmAAEBEKPdk-mWoen2pW6u1sb0FWFgZrGblzrwPHxXPBG7Yh0z4GGfoBut_QUKGT6pMB8XVRK2jWjwgy6BjwgZl7x4dxXF-3BAP5UidJkdFGCTY3ZFIl2N8O9Nhtmooy7KOs1JtJ7XO3pcwid2RSHzRmjdptr_
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/x-msl+json
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:57:46 GMT
+--------------------------------------------------response headers:
+SERVER              : appboot- i-0fe98f56435085b51
+--------------------------------------------------response headers:
+SET-COOKIE          : memclid=TkZBUFBMLTAxLUlQQUQ1PTEtNDYyMDlBMDNBRjA0MDMzRTc5MDhGQkNGOTk4MDNGQzE3ODI0QTVFQjdGNUYzM0ZENTc1OTFBRDJCMUFBMjFCQQ; Max-Age=31536000; Expires=Fri, 11 Dec 2020 01:57:46 GMT; Path=/; Domain=.netflix.com
+--------------------------------------------------response headers:
+VIA                 : 1.1 i-0fc2b5a8945c141ce (us-east-1)
+--------------------------------------------------response headers:
+X-NETFLIX.NETWORKPREDICTION: {"aws":0,"oc":0,"aka":0,"asn":"12271"}
+--------------------------------------------------response headers:
+X-NETFLIX.NFSTATUS  : 1_1
+--------------------------------------------------response headers:
+X-NETFLIX.PROXY.EXECUTION-TIME: 24
+--------------------------------------------------response headers:
+X-ORIGINATING-URL   : http://appboot.netflix.com/appboot/NFAPPL-01-IPAD5=1-
+--------------------------------------------------response headers:
+X-XSS-PROTECTION    : 1; mode=block; report=https://ichnaea-web.netflix.com/log/freeform/xssreport
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 8989
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+
+=
+POST /nq/iosplatform/pbo_events/~1.0.0/router HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : ios.prod.ftl.netflix.com
+CONTENT-ENCODING    : msl_v1
+X-ALLOWCOMPRESSION  : false
+X-NETFLIX.CLIENT.TYPE: argo
+X-CLIENT-REQUEST-ID : 2693172593650248
+USER-AGENT          : Argo/2925 CFNetwork/1107.1 Darwin/19.0.0
+X-NETFLIX.CLIENT.IOSVERSION: 13.1
+X-NETFLIX.CLIENT.IDIOM: pad
+X-NETFLIX.PBOBRAHV  : 4
+X-NETFLIX.REQUEST.EXPIRY.TIMEOUT: 15000
+X-NETFLIX.REQUEST.ATTEMPT: 1
+X-NETFLIX.CLIENT.APPVERSION: 12.13.0
+ACCEPT-LANGUAGE     : en-us
+X-NETFLIX.ARGO.NFNSM: 11
+ACCEPT              : */*
+CONTENT-TYPE        : application/json
+ACCEPT-ENCODING     : gzip, deflate, br
+X-NETFLIX.ARGO.TRANSLATED: true
+X-NETFLIX.ESN       : NFAPPL-01-IPAD5=1-46209A03AF04033E7908FBCF99803FC17824A5EB7F5F33FD57591AD2B1AA21BA
+COOKIE              : memclid=TkZBUFBMLTAxLUlQQUQ1PTEtNDYyMDlBMDNBRjA0MDMzRTc5MDhGQkNGOTk4MDNGQzE3ODI0QTVFQjdGNUYzM0ZENTc1OTFBRDJCMUFBMjFCQQ; nfvdid=BQFmAAEBEKPdk-mWoen2pW6u1sb0FWFgZrGblzrwPHxXPBG7Yh0z4GGfoBut_QUKGT6pMB8XVRK2jWjwgy6BjwgZl7x4dxXF-3BAP5UidJkdFGCTY3ZFIl2N8O9Nhtmooy7KOs1JtJ7XO3pcwid2RSHzRmjdptr_
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:57:46 GMT
+--------------------------------------------------response headers:
+SERVER              : nq_iosplatform_pbo_events-prod-~1.0.0 a5b29d82-4e77-4b62-8bab-f4935a21d6f4
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+X-NETFLIX.PROXY.EXECUTION-TIME: 88
+--------------------------------------------------response headers:
+X-NETFLIX.NFSTATUS  : 1_1
+--------------------------------------------------response headers:
+VIA                 : 2 i-0dfe93368b255b8b9 (us-east-1)
+--------------------------------------------------response headers:
+X-ORIGINATING-URL   : https://ios.prod.ftl.netflix.com:7009/nq/iosplatform/pbo_events/~1.0.0/router
+--------------------------------------------------response headers:
+SET-COOKIE          : memclid=TkZBUFBMLTAxLUlQQUQ1PTEtNDYyMDlBMDNBRjA0MDMzRTc5MDhGQkNGOTk4MDNGQzE3ODI0QTVFQjdGNUYzM0ZENTc1OTFBRDJCMUFBMjFCQQ; Max-Age=31536000; Expires=Fri, 11 Dec 2020 01:57:46 GMT; Path=/; Domain=.netflix.com
+--------------------------------------------------response headers:
+X-NETFLIX.NETWORKPREDICTION: {"aws":0,"oc":0,"aka":0,"asn":"12271"}
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/json
+--------------------------------------------------response headers:
+
+=
+POST /nq/iosplatform/pbo_logblob/~1.0.0/router HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : ios.prod.ftl.netflix.com
+CONTENT-ENCODING    : msl_v1
+X-ALLOWCOMPRESSION  : false
+X-NETFLIX.CLIENT.TYPE: argo
+X-CLIENT-REQUEST-ID : 18442841596373033562
+USER-AGENT          : Argo/2925 CFNetwork/1107.1 Darwin/19.0.0
+X-NETFLIX.CLIENT.IOSVERSION: 13.1
+X-NETFLIX.CLIENT.IDIOM: pad
+X-NETFLIX.PBOBRAHV  : 5
+X-NETFLIX.REQUEST.EXPIRY.TIMEOUT: 15000
+X-NETFLIX.REQUEST.ATTEMPT: 1
+X-NETFLIX.CLIENT.APPVERSION: 12.13.0
+ACCEPT-LANGUAGE     : en-us
+X-NETFLIX.ARGO.NFNSM: 15
+ACCEPT              : */*
+CONTENT-TYPE        : application/json
+ACCEPT-ENCODING     : gzip, deflate, br
+X-NETFLIX.ARGO.TRANSLATED: true
+X-NETFLIX.ESN       : NFAPPL-01-IPAD5=1-46209A03AF04033E7908FBCF99803FC17824A5EB7F5F33FD57591AD2B1AA21BA
+COOKIE              : memclid=TkZBUFBMLTAxLUlQQUQ1PTEtNDYyMDlBMDNBRjA0MDMzRTc5MDhGQkNGOTk4MDNGQzE3ODI0QTVFQjdGNUYzM0ZENTc1OTFBRDJCMUFBMjFCQQ; nfvdid=BQFmAAEBEKPdk-mWoen2pW6u1sb0FWFgZrGblzrwPHxXPBG7Yh0z4GGfoBut_QUKGT6pMB8XVRK2jWjwgy6BjwgZl7x4dxXF-3BAP5UidJkdFGCTY3ZFIl2N8O9Nhtmooy7KOs1JtJ7XO3pcwid2RSHzRmjdptr_
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:57:46 GMT
+--------------------------------------------------response headers:
+SERVER              : nq_iosplatform_pbo_logblob-prod-~1.0.0 16e3576c-4a4f-4161-b0f9-90d3f8c80de2
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+X-NETFLIX.PROXY.EXECUTION-TIME: 95
+--------------------------------------------------response headers:
+X-NETFLIX.NFSTATUS  : 1_1
+--------------------------------------------------response headers:
+VIA                 : 2 i-0dfe93368b255b8b9 (us-east-1)
+--------------------------------------------------response headers:
+X-ORIGINATING-URL   : https://ios.prod.ftl.netflix.com:7009/nq/iosplatform/pbo_logblob/~1.0.0/router
+--------------------------------------------------response headers:
+SET-COOKIE          : memclid=TkZBUFBMLTAxLUlQQUQ1PTEtNDYyMDlBMDNBRjA0MDMzRTc5MDhGQkNGOTk4MDNGQzE3ODI0QTVFQjdGNUYzM0ZENTc1OTFBRDJCMUFBMjFCQQ; Max-Age=31536000; Expires=Fri, 11 Dec 2020 01:57:46 GMT; Path=/; Domain=.netflix.com
+--------------------------------------------------response headers:
+X-NETFLIX.NETWORKPREDICTION: {"aws":0,"oc":0,"aka":0,"asn":"12271"}
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/json
+--------------------------------------------------response headers:
+
+=
+POST /nq/iosplatform/pbo_license/~1.0.0/router HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : ios.prod.ftl.netflix.com
+CONTENT-ENCODING    : msl_v1
+X-ALLOWCOMPRESSION  : false
+X-NETFLIX.CLIENT.TYPE: argo
+X-CLIENT-REQUEST-ID : 5941974550763156
+USER-AGENT          : Argo/2925 CFNetwork/1107.1 Darwin/19.0.0
+X-NETFLIX.CLIENT.IOSVERSION: 13.1
+X-NETFLIX.CLIENT.IDIOM: pad
+X-NETFLIX.PBOBRAHV  : 10
+X-NETFLIX.REQUEST.EXPIRY.TIMEOUT: 15000
+X-NETFLIX.REQUEST.ATTEMPT: 1
+X-NETFLIX.CLIENT.APPVERSION: 12.13.0
+ACCEPT-LANGUAGE     : en-us
+X-NETFLIX.ARGO.NFNSM: 17
+ACCEPT              : */*
+CONTENT-TYPE        : application/json
+ACCEPT-ENCODING     : gzip, deflate, br
+X-NETFLIX.ARGO.TRANSLATED: true
+X-NETFLIX.ESN       : NFAPPL-01-IPAD5=1-46209A03AF04033E7908FBCF99803FC17824A5EB7F5F33FD57591AD2B1AA21BA
+COOKIE              : memclid=TkZBUFBMLTAxLUlQQUQ1PTEtNDYyMDlBMDNBRjA0MDMzRTc5MDhGQkNGOTk4MDNGQzE3ODI0QTVFQjdGNUYzM0ZENTc1OTFBRDJCMUFBMjFCQQ; nfvdid=BQFmAAEBEKPdk-mWoen2pW6u1sb0FWFgZrGblzrwPHxXPBG7Yh0z4GGfoBut_QUKGT6pMB8XVRK2jWjwgy6BjwgZl7x4dxXF-3BAP5UidJkdFGCTY3ZFIl2N8O9Nhtmooy7KOs1JtJ7XO3pcwid2RSHzRmjdptr_
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:57:46 GMT
+--------------------------------------------------response headers:
+SERVER              : nq_iosplatform_pbo_license-prod-~1.0.0 9a5a3eca-557a-42d1-b329-10f841ef80e5
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+X-NETFLIX.PROXY.EXECUTION-TIME: 52
+--------------------------------------------------response headers:
+X-NETFLIX.NFSTATUS  : 1_1
+--------------------------------------------------response headers:
+VIA                 : 2 i-0dfe93368b255b8b9 (us-east-1)
+--------------------------------------------------response headers:
+X-ORIGINATING-URL   : https://ios.prod.ftl.netflix.com:7009/nq/iosplatform/pbo_license/~1.0.0/router
+--------------------------------------------------response headers:
+SET-COOKIE          : memclid=TkZBUFBMLTAxLUlQQUQ1PTEtNDYyMDlBMDNBRjA0MDMzRTc5MDhGQkNGOTk4MDNGQzE3ODI0QTVFQjdGNUYzM0ZENTc1OTFBRDJCMUFBMjFCQQ; Max-Age=31536000; Expires=Fri, 11 Dec 2020 01:57:46 GMT; Path=/; Domain=.netflix.com
+--------------------------------------------------response headers:
+X-NETFLIX.NETWORKPREDICTION: {"aws":0,"oc":0,"aka":0,"asn":"12271"}
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/json
+--------------------------------------------------response headers:
+
+=
+POST /nq/iosplatform/pbo_logblob/~1.0.0/router HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : ios.prod.ftl.netflix.com
+CONTENT-ENCODING    : msl_v1
+X-ALLOWCOMPRESSION  : false
+X-NETFLIX.CLIENT.TYPE: argo
+X-CLIENT-REQUEST-ID : 18440947678771585498
+USER-AGENT          : Argo/2925 CFNetwork/1107.1 Darwin/19.0.0
+X-NETFLIX.CLIENT.IOSVERSION: 13.1
+X-NETFLIX.CLIENT.IDIOM: pad
+X-NETFLIX.PBOBRAHV  : 5
+X-NETFLIX.REQUEST.EXPIRY.TIMEOUT: 15000
+X-NETFLIX.REQUEST.ATTEMPT: 1
+X-NETFLIX.CLIENT.APPVERSION: 12.13.0
+ACCEPT-LANGUAGE     : en-us
+X-NETFLIX.ARGO.NFNSM: 15
+ACCEPT              : */*
+CONTENT-TYPE        : application/json
+ACCEPT-ENCODING     : gzip, deflate, br
+X-NETFLIX.ARGO.TRANSLATED: true
+X-NETFLIX.ESN       : NFAPPL-01-IPAD5=1-46209A03AF04033E7908FBCF99803FC17824A5EB7F5F33FD57591AD2B1AA21BA
+COOKIE              : memclid=TkZBUFBMLTAxLUlQQUQ1PTEtNDYyMDlBMDNBRjA0MDMzRTc5MDhGQkNGOTk4MDNGQzE3ODI0QTVFQjdGNUYzM0ZENTc1OTFBRDJCMUFBMjFCQQ; nfvdid=BQFmAAEBEKPdk-mWoen2pW6u1sb0FWFgZrGblzrwPHxXPBG7Yh0z4GGfoBut_QUKGT6pMB8XVRK2jWjwgy6BjwgZl7x4dxXF-3BAP5UidJkdFGCTY3ZFIl2N8O9Nhtmooy7KOs1JtJ7XO3pcwid2RSHzRmjdptr_
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:57:47 GMT
+--------------------------------------------------response headers:
+SERVER              : nq_iosplatform_pbo_logblob-prod-~1.0.0 2631cef4-a1bd-4939-a68f-02cc350af61d
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+X-NETFLIX.PROXY.EXECUTION-TIME: 36
+--------------------------------------------------response headers:
+X-NETFLIX.NFSTATUS  : 1_1
+--------------------------------------------------response headers:
+VIA                 : 2 i-0dfe93368b255b8b9 (us-east-1)
+--------------------------------------------------response headers:
+X-ORIGINATING-URL   : https://ios.prod.ftl.netflix.com:7009/nq/iosplatform/pbo_logblob/~1.0.0/router
+--------------------------------------------------response headers:
+SET-COOKIE          : memclid=TkZBUFBMLTAxLUlQQUQ1PTEtNDYyMDlBMDNBRjA0MDMzRTc5MDhGQkNGOTk4MDNGQzE3ODI0QTVFQjdGNUYzM0ZENTc1OTFBRDJCMUFBMjFCQQ; Max-Age=31536000; Expires=Fri, 11 Dec 2020 01:57:47 GMT; Path=/; Domain=.netflix.com
+--------------------------------------------------response headers:
+X-NETFLIX.NETWORKPREDICTION: {"aws":0,"oc":0,"aka":0,"asn":"12271"}
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/json
+--------------------------------------------------response headers:
+
+=
+POST /nq/iosplatform/pbo_logblob/~1.0.0/router HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : ios.prod.ftl.netflix.com
+CONTENT-ENCODING    : msl_v1
+X-ALLOWCOMPRESSION  : false
+X-NETFLIX.CLIENT.TYPE: argo
+X-CLIENT-REQUEST-ID : 3802732991465646
+USER-AGENT          : Argo/2925 CFNetwork/1107.1 Darwin/19.0.0
+X-NETFLIX.CLIENT.IOSVERSION: 13.1
+X-NETFLIX.CLIENT.IDIOM: pad
+X-NETFLIX.PBOBRAHV  : 5
+X-NETFLIX.REQUEST.EXPIRY.TIMEOUT: 15000
+X-NETFLIX.REQUEST.ATTEMPT: 1
+X-NETFLIX.CLIENT.APPVERSION: 12.13.0
+ACCEPT-LANGUAGE     : en-us
+X-NETFLIX.ARGO.NFNSM: 15
+ACCEPT              : */*
+CONTENT-TYPE        : application/json
+ACCEPT-ENCODING     : gzip, deflate, br
+X-NETFLIX.ARGO.TRANSLATED: true
+X-NETFLIX.ESN       : NFAPPL-01-IPAD5=1-46209A03AF04033E7908FBCF99803FC17824A5EB7F5F33FD57591AD2B1AA21BA
+COOKIE              : memclid=TkZBUFBMLTAxLUlQQUQ1PTEtNDYyMDlBMDNBRjA0MDMzRTc5MDhGQkNGOTk4MDNGQzE3ODI0QTVFQjdGNUYzM0ZENTc1OTFBRDJCMUFBMjFCQQ; nfvdid=BQFmAAEBEKPdk-mWoen2pW6u1sb0FWFgZrGblzrwPHxXPBG7Yh0z4GGfoBut_QUKGT6pMB8XVRK2jWjwgy6BjwgZl7x4dxXF-3BAP5UidJkdFGCTY3ZFIl2N8O9Nhtmooy7KOs1JtJ7XO3pcwid2RSHzRmjdptr_
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:57:48 GMT
+--------------------------------------------------response headers:
+SERVER              : nq_iosplatform_pbo_logblob-prod-~1.0.0 47a7b5fe-7fa6-4859-b544-90fcf0f789b3
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+X-NETFLIX.PROXY.EXECUTION-TIME: 32
+--------------------------------------------------response headers:
+X-NETFLIX.NFSTATUS  : 1_1
+--------------------------------------------------response headers:
+VIA                 : 2 i-0dfe93368b255b8b9 (us-east-1)
+--------------------------------------------------response headers:
+X-ORIGINATING-URL   : https://ios.prod.ftl.netflix.com:7009/nq/iosplatform/pbo_logblob/~1.0.0/router
+--------------------------------------------------response headers:
+SET-COOKIE          : memclid=TkZBUFBMLTAxLUlQQUQ1PTEtNDYyMDlBMDNBRjA0MDMzRTc5MDhGQkNGOTk4MDNGQzE3ODI0QTVFQjdGNUYzM0ZENTc1OTFBRDJCMUFBMjFCQQ; Max-Age=31536000; Expires=Fri, 11 Dec 2020 01:57:48 GMT; Path=/; Domain=.netflix.com
+--------------------------------------------------response headers:
+X-NETFLIX.NETWORKPREDICTION: {"aws":0,"oc":0,"aka":0,"asn":"12271"}
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/json
+--------------------------------------------------response headers:
+
+=
+POST /log HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : ichnaea-web.netflix.com
+ACCEPT              : */*
+CONTENT-TYPE        : application/json
+X-NETFLIX.ROUTING   : redirect
+CONNECTION          : keep-alive
+X-NETFLIX.ICHNAEA.REQUEST.TYPE: IchnaeaRequest
+COOKIE              : NetflixId=v%3D2%26ct%3DBQAOAAEBEMYMJa1UDv-EdME8yChbrGeB4Me1s5U2v8h_IPVQeyXqc08o-jT1qEMHBqlFJI3fFzP-4rK1GcN7MZNg66ZWzwzFEDhvFd1-ycr22r6bW1z3GTyufE2HZHcTIadOmrP41euHhMAn8n6HEL6JiTGQC3iv0xDaOb2kL5J60nU7As7hIRaLYmHHXMK3i_0FXLQGwdWTh_D7xWawfNu2KF22pL7AGC1DmVFW_DQgbSEKm43nvnFBFneZGETrA2EYNRJ3FfkTxV8R3_zldb01G3yCb-ADXVRRZotQcSQ0dyr8BzP2aeyMMZ7l6uyboNbgPLQ1dqO1LCf_4QOnn4LiecCGpcAO1XlOIo8U727Dkdx4nQIIhiIPgoDFU77vCeYeUyGEFiNNSchB3xHkkt9xSBThZwvsp1UXRJ2sTvp1uNDt0o2FrC4nQXv8xR35yPKymldhCFxNJlG02GAjR0PB-aqt_QD6jhSk3uSORxXGfcD4b3cejpcIDfwJnZUOvl5oMKiGFR6R6y-7afrwPr58JjRwdssQxIiGX54fL23U4UD__XiTRNWcRn9Yirp7A9_3-IFKJkjjj1TmenD_MU5T_7z9ekds10Fha4Xl6OiZ6zOPpAukYLAaVvDQilKGnnBzv2vVFUTUl7FnwyPmOkX8u9c_1BtnUw..%26bt%3Ddbl%26ch%3DAQEAEAABABTkrLG2peDZwQ78vL2VhD7aWD3MVvFV72k.%26mac%3DAQEAEAABABQ2b0XxD27x6IG6K97AMzC8i24aw4Vw3tI.; SecureNetflixId=v%3D2%26mac%3DAQEAEQABABR9GJZiXg0qs3y8nmKTFWrXXw44RNp-Iw0.%26dt%3D1576108437686; nfvdid=BQFmAAEBEKPdk-mWoen2pW6u1sb0FWFgZrGblzrwPHxXPBG7Yh0z4GGfoBut_QUKGT6pMB8XVRK2jWjwgy6BjwgZl7x4dxXF-3BAP5UidJkdFGCTY3ZFIl2N8O9Nhtmooy7KOs1JtJ7XO3pcwid2RSHzRmjdptr_
+ACCEPT-LANGUAGE     : en-us
+USER-AGENT          : Argo/2925 CFNetwork/1107.1 Darwin/19.0.0
+ACCEPT-ENCODING     : gzip, deflate, br
+CONTENT-LENGTH      : 281
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-CREDENTIALS: true
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-HEADERS: Authorization,Content-Type,Accept,Cookie,X-Netflix.application.name,X-Netflix.application.version,X-Netflix.esn,X-Netflix.device.type,X-Netflix.certification.version,X-Netflix.request.uuid,X-Netflix.user.id,X-Netflix.oauth.consumer.key,X-Netflix.oauth.token,X-Netflix.ichnaea.request.type,debugRequest
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-METHODS: GET, POST, OPTIONS
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: http://ichnaea-web.netflix.com
+--------------------------------------------------response headers:
+ALLOW               : GET, POST, OPTIONS
+--------------------------------------------------response headers:
+CONTENT-TYPE        : text/plain
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:57:51 GMT
+--------------------------------------------------response headers:
+SERVER              : ichnaea i-05fa309d206784599
+--------------------------------------------------response headers:
+VIA                 : 1.1 i-031bed1cfceecf8ca (us-east-1)
+--------------------------------------------------response headers:
+X-ICHNAEA           : ~O=true~RL=124
+--------------------------------------------------response headers:
+X-NETFLIX.NETWORKPREDICTION: {"aws":0,"oc":0,"aka":0,"asn":"12271"}
+--------------------------------------------------response headers:
+X-NETFLIX.NFSTATUS  : 1_1
+--------------------------------------------------response headers:
+X-NETFLIX.PROXY.EXECUTION-TIME: 17
+--------------------------------------------------response headers:
+X-ORIGINATING-URL   : https://ichnaea-web.netflix.com/log
+--------------------------------------------------response headers:
+X-XSS-PROTECTION    : 1; mode=block; report=https://ichnaea-web.netflix.com/log/freeform/xssreport
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 0
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+
+=
+GET /cast/senderconfig/config?fw=4.4.4.5.00&os=13.1&sm=0&id=5358232577499472909&pl=iOS&bi=com.netflix.Netflix&rt=b&md=iPad&hw=iPad HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : clients3.google.com
+USER-AGENT          : Argo/2925 CFNetwork/1107.1 Darwin/19.0.0
+ACCEPT              : application/x-protobuf
+ACCEPT-LANGUAGE     : en-us
+ACCEPT-ENCODING     : gzip, deflate, br
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/octet-stream
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+CACHE-CONTROL       : no-cache, no-store, max-age=0, must-revalidate
+--------------------------------------------------response headers:
+PRAGMA              : no-cache
+--------------------------------------------------response headers:
+EXPIRES             : Mon, 01 Jan 1990 00:00:00 GMT
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:57:51 GMT
+--------------------------------------------------response headers:
+CONTENT-DISPOSITION : attachment; filename="response.bin"; filename*=UTF-8''response.bin
+--------------------------------------------------response headers:
+X-CONTENT-TYPE-OPTIONS: nosniff
+--------------------------------------------------response headers:
+X-FRAME-OPTIONS     : SAMEORIGIN
+--------------------------------------------------response headers:
+X-XSS-PROTECTION    : 1; mode=block
+--------------------------------------------------response headers:
+SERVER              : GSE
+--------------------------------------------------response headers:
+ALT-SVC             : quic=":443"; ma=2592000; v="46,43",h3-Q050=":443"; ma=2592000,h3-Q049=":443"; ma=2592000,h3-Q048=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000
+--------------------------------------------------response headers:
+
+=
+POST /cl2 HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : ichnaea-web.netflix.com
+ACCEPT              : */*
+X-NETFLIX.ARGO.NFNSM: 12
+ACCEPT-LANGUAGE     : en-us
+ACCEPT-ENCODING     : gzip, deflate, br
+CONTENT-TYPE        : application/json
+X-NETFLIX.ESN       : NFAPPL-01-IPAD5=1-46209A03AF04033E7908FBCF99803FC17824A5EB7F5F33FD57591AD2B1AA21BA
+CONTENT-LENGTH      : 5364
+USER-AGENT          : Argo/2925 CFNetwork/1107.1 Darwin/19.0.0
+CONNECTION          : keep-alive
+X-NETFLIX.REQUEST.ATTEMPT: 1
+COOKIE              : NetflixId=v%3D2%26ct%3DBQAOAAEBEMYMJa1UDv-EdME8yChbrGeB4Me1s5U2v8h_IPVQeyXqc08o-jT1qEMHBqlFJI3fFzP-4rK1GcN7MZNg66ZWzwzFEDhvFd1-ycr22r6bW1z3GTyufE2HZHcTIadOmrP41euHhMAn8n6HEL6JiTGQC3iv0xDaOb2kL5J60nU7As7hIRaLYmHHXMK3i_0FXLQGwdWTh_D7xWawfNu2KF22pL7AGC1DmVFW_DQgbSEKm43nvnFBFneZGETrA2EYNRJ3FfkTxV8R3_zldb01G3yCb-ADXVRRZotQcSQ0dyr8BzP2aeyMMZ7l6uyboNbgPLQ1dqO1LCf_4QOnn4LiecCGpcAO1XlOIo8U727Dkdx4nQIIhiIPgoDFU77vCeYeUyGEFiNNSchB3xHkkt9xSBThZwvsp1UXRJ2sTvp1uNDt0o2FrC4nQXv8xR35yPKymldhCFxNJlG02GAjR0PB-aqt_QD6jhSk3uSORxXGfcD4b3cejpcIDfwJnZUOvl5oMKiGFR6R6y-7afrwPr58JjRwdssQxIiGX54fL23U4UD__XiTRNWcRn9Yirp7A9_3-IFKJkjjj1TmenD_MU5T_7z9ekds10Fha4Xl6OiZ6zOPpAukYLAaVvDQilKGnnBzv2vVFUTUl7FnwyPmOkX8u9c_1BtnUw..%26bt%3Ddbl%26ch%3DAQEAEAABABTkrLG2peDZwQ78vL2VhD7aWD3MVvFV72k.%26mac%3DAQEAEAABABQ2b0XxD27x6IG6K97AMzC8i24aw4Vw3tI.; SecureNetflixId=v%3D2%26mac%3DAQEAEQABABR9GJZiXg0qs3y8nmKTFWrXXw44RNp-Iw0.%26dt%3D1576108437686; nfvdid=BQFmAAEBEKPdk-mWoen2pW6u1sb0FWFgZrGblzrwPHxXPBG7Yh0z4GGfoBut_QUKGT6pMB8XVRK2jWjwgy6BjwgZl7x4dxXF-3BAP5UidJkdFGCTY3ZFIl2N8O9Nhtmooy7KOs1JtJ7XO3pcwid2RSHzRmjdptr_
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-CREDENTIALS: true
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-HEADERS: Authorization,Content-Type,Accept,Cookie,X-Netflix.application.name,X-Netflix.application.version,X-Netflix.esn,X-Netflix.device.type,X-Netflix.certification.version,X-Netflix.request.uuid,X-Netflix.user.id,X-Netflix.oauth.consumer.key,X-Netflix.oauth.token,X-Netflix.ichnaea.request.type,debugRequest
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-METHODS: GET, POST, OPTIONS
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: http://ichnaea-web.netflix.com
+--------------------------------------------------response headers:
+ALLOW               : GET, POST, OPTIONS
+--------------------------------------------------response headers:
+CONTENT-TYPE        : text/plain
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:57:52 GMT
+--------------------------------------------------response headers:
+SERVER              : ichnaea i-0451824b069823372
+--------------------------------------------------response headers:
+VIA                 : 1.1 i-05bfbf6e6fc8012bd (us-east-1)
+--------------------------------------------------response headers:
+X-ICHNAEA           : ~O=true~RL=248
+--------------------------------------------------response headers:
+X-NETFLIX.NETWORKPREDICTION: {"aws":0,"oc":0,"aka":0,"asn":"12271"}
+--------------------------------------------------response headers:
+X-NETFLIX.NFSTATUS  : 1_1
+--------------------------------------------------response headers:
+X-NETFLIX.PROXY.EXECUTION-TIME: 19
+--------------------------------------------------response headers:
+X-ORIGINATING-URL   : https://ichnaea-web.netflix.com/cl2
+--------------------------------------------------response headers:
+X-XSS-PROTECTION    : 1; mode=block; report=https://ichnaea-web.netflix.com/log/freeform/xssreport
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 0
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+
+=
+POST /cl2 HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : ichnaea-web.netflix.com
+ACCEPT              : */*
+X-NETFLIX.ARGO.NFNSM: 12
+ACCEPT-LANGUAGE     : en-us
+ACCEPT-ENCODING     : gzip, deflate, br
+CONTENT-TYPE        : application/json
+X-NETFLIX.ESN       : NFAPPL-01-IPAD5=1-46209A03AF04033E7908FBCF99803FC17824A5EB7F5F33FD57591AD2B1AA21BA
+CONTENT-LENGTH      : 3898
+USER-AGENT          : Argo/2925 CFNetwork/1107.1 Darwin/19.0.0
+CONNECTION          : keep-alive
+X-NETFLIX.REQUEST.ATTEMPT: 1
+COOKIE              : NetflixId=v%3D2%26ct%3DBQAOAAEBEMYMJa1UDv-EdME8yChbrGeB4Me1s5U2v8h_IPVQeyXqc08o-jT1qEMHBqlFJI3fFzP-4rK1GcN7MZNg66ZWzwzFEDhvFd1-ycr22r6bW1z3GTyufE2HZHcTIadOmrP41euHhMAn8n6HEL6JiTGQC3iv0xDaOb2kL5J60nU7As7hIRaLYmHHXMK3i_0FXLQGwdWTh_D7xWawfNu2KF22pL7AGC1DmVFW_DQgbSEKm43nvnFBFneZGETrA2EYNRJ3FfkTxV8R3_zldb01G3yCb-ADXVRRZotQcSQ0dyr8BzP2aeyMMZ7l6uyboNbgPLQ1dqO1LCf_4QOnn4LiecCGpcAO1XlOIo8U727Dkdx4nQIIhiIPgoDFU77vCeYeUyGEFiNNSchB3xHkkt9xSBThZwvsp1UXRJ2sTvp1uNDt0o2FrC4nQXv8xR35yPKymldhCFxNJlG02GAjR0PB-aqt_QD6jhSk3uSORxXGfcD4b3cejpcIDfwJnZUOvl5oMKiGFR6R6y-7afrwPr58JjRwdssQxIiGX54fL23U4UD__XiTRNWcRn9Yirp7A9_3-IFKJkjjj1TmenD_MU5T_7z9ekds10Fha4Xl6OiZ6zOPpAukYLAaVvDQilKGnnBzv2vVFUTUl7FnwyPmOkX8u9c_1BtnUw..%26bt%3Ddbl%26ch%3DAQEAEAABABTkrLG2peDZwQ78vL2VhD7aWD3MVvFV72k.%26mac%3DAQEAEAABABQ2b0XxD27x6IG6K97AMzC8i24aw4Vw3tI.; SecureNetflixId=v%3D2%26mac%3DAQEAEQABABR9GJZiXg0qs3y8nmKTFWrXXw44RNp-Iw0.%26dt%3D1576108437686; nfvdid=BQFmAAEBEKPdk-mWoen2pW6u1sb0FWFgZrGblzrwPHxXPBG7Yh0z4GGfoBut_QUKGT6pMB8XVRK2jWjwgy6BjwgZl7x4dxXF-3BAP5UidJkdFGCTY3ZFIl2N8O9Nhtmooy7KOs1JtJ7XO3pcwid2RSHzRmjdptr_
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-CREDENTIALS: true
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-HEADERS: Authorization,Content-Type,Accept,Cookie,X-Netflix.application.name,X-Netflix.application.version,X-Netflix.esn,X-Netflix.device.type,X-Netflix.certification.version,X-Netflix.request.uuid,X-Netflix.user.id,X-Netflix.oauth.consumer.key,X-Netflix.oauth.token,X-Netflix.ichnaea.request.type,debugRequest
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-METHODS: GET, POST, OPTIONS
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: http://ichnaea-web.netflix.com
+--------------------------------------------------response headers:
+ALLOW               : GET, POST, OPTIONS
+--------------------------------------------------response headers:
+CONTENT-TYPE        : text/plain
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:57:52 GMT
+--------------------------------------------------response headers:
+SERVER              : ichnaea i-03cb4ca9d45433682
+--------------------------------------------------response headers:
+VIA                 : 1.1 i-036f758d6b98b643b (us-east-1)
+--------------------------------------------------response headers:
+X-ICHNAEA           : ~O=true~RL=222
+--------------------------------------------------response headers:
+X-NETFLIX.NETWORKPREDICTION: {"aws":0,"oc":0,"aka":0,"asn":"12271"}
+--------------------------------------------------response headers:
+X-NETFLIX.NFSTATUS  : 1_1
+--------------------------------------------------response headers:
+X-NETFLIX.PROXY.EXECUTION-TIME: 18
+--------------------------------------------------response headers:
+X-ORIGINATING-URL   : https://ichnaea-web.netflix.com/cl2
+--------------------------------------------------response headers:
+X-XSS-PROTECTION    : 1; mode=block; report=https://ichnaea-web.netflix.com/log/freeform/xssreport
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 0
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+
+=
+POST /nq/iosplatform/pbo_logblob/~1.0.0/router HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : ios.prod.ftl.netflix.com
+CONTENT-ENCODING    : msl_v1
+X-ALLOWCOMPRESSION  : false
+X-NETFLIX.CLIENT.TYPE: argo
+X-CLIENT-REQUEST-ID : 18441485404149880921
+USER-AGENT          : Argo/2925 CFNetwork/1107.1 Darwin/19.0.0
+X-NETFLIX.CLIENT.IOSVERSION: 13.1
+X-NETFLIX.CLIENT.IDIOM: pad
+X-NETFLIX.PBOBRAHV  : 5
+X-NETFLIX.REQUEST.EXPIRY.TIMEOUT: 15000
+X-NETFLIX.REQUEST.ATTEMPT: 1
+X-NETFLIX.CLIENT.APPVERSION: 12.13.0
+ACCEPT-LANGUAGE     : en-us
+X-NETFLIX.ARGO.NFNSM: 15
+ACCEPT              : */*
+CONTENT-TYPE        : application/json
+ACCEPT-ENCODING     : gzip, deflate, br
+X-NETFLIX.ARGO.TRANSLATED: true
+X-NETFLIX.ESN       : NFAPPL-01-IPAD5=1-46209A03AF04033E7908FBCF99803FC17824A5EB7F5F33FD57591AD2B1AA21BA
+COOKIE              : memclid=TkZBUFBMLTAxLUlQQUQ1PTEtNDYyMDlBMDNBRjA0MDMzRTc5MDhGQkNGOTk4MDNGQzE3ODI0QTVFQjdGNUYzM0ZENTc1OTFBRDJCMUFBMjFCQQ; nfvdid=BQFmAAEBEKPdk-mWoen2pW6u1sb0FWFgZrGblzrwPHxXPBG7Yh0z4GGfoBut_QUKGT6pMB8XVRK2jWjwgy6BjwgZl7x4dxXF-3BAP5UidJkdFGCTY3ZFIl2N8O9Nhtmooy7KOs1JtJ7XO3pcwid2RSHzRmjdptr_
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:57:52 GMT
+--------------------------------------------------response headers:
+SERVER              : nq_iosplatform_pbo_logblob-prod-~1.0.0 480923ec-ccd9-4259-87ef-a44dc2afa24d
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+X-NETFLIX.PROXY.EXECUTION-TIME: 56
+--------------------------------------------------response headers:
+X-NETFLIX.NFSTATUS  : 1_1
+--------------------------------------------------response headers:
+VIA                 : 2 i-0dfe93368b255b8b9 (us-east-1)
+--------------------------------------------------response headers:
+X-ORIGINATING-URL   : https://ios.prod.ftl.netflix.com:7009/nq/iosplatform/pbo_logblob/~1.0.0/router
+--------------------------------------------------response headers:
+SET-COOKIE          : memclid=TkZBUFBMLTAxLUlQQUQ1PTEtNDYyMDlBMDNBRjA0MDMzRTc5MDhGQkNGOTk4MDNGQzE3ODI0QTVFQjdGNUYzM0ZENTc1OTFBRDJCMUFBMjFCQQ; Max-Age=31536000; Expires=Fri, 11 Dec 2020 01:57:52 GMT; Path=/; Domain=.netflix.com
+--------------------------------------------------response headers:
+X-NETFLIX.NETWORKPREDICTION: {"aws":0,"oc":0,"aka":0,"asn":"12271"}
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/json
+--------------------------------------------------response headers:
+
+=
+POST /nq/iosplatform/pbo_logblob/~1.0.0/router HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : ios.prod.ftl.netflix.com
+CONTENT-ENCODING    : msl_v1
+X-ALLOWCOMPRESSION  : false
+X-NETFLIX.CLIENT.TYPE: argo
+X-CLIENT-REQUEST-ID : 18437609197006175622
+USER-AGENT          : Argo/2925 CFNetwork/1107.1 Darwin/19.0.0
+X-NETFLIX.CLIENT.IOSVERSION: 13.1
+X-NETFLIX.CLIENT.IDIOM: pad
+X-NETFLIX.PBOBRAHV  : 5
+X-NETFLIX.REQUEST.EXPIRY.TIMEOUT: 15000
+X-NETFLIX.REQUEST.ATTEMPT: 1
+X-NETFLIX.CLIENT.APPVERSION: 12.13.0
+ACCEPT-LANGUAGE     : en-us
+X-NETFLIX.ARGO.NFNSM: 15
+ACCEPT              : */*
+CONTENT-TYPE        : application/json
+ACCEPT-ENCODING     : gzip, deflate, br
+X-NETFLIX.ARGO.TRANSLATED: true
+X-NETFLIX.ESN       : NFAPPL-01-IPAD5=1-46209A03AF04033E7908FBCF99803FC17824A5EB7F5F33FD57591AD2B1AA21BA
+COOKIE              : memclid=TkZBUFBMLTAxLUlQQUQ1PTEtNDYyMDlBMDNBRjA0MDMzRTc5MDhGQkNGOTk4MDNGQzE3ODI0QTVFQjdGNUYzM0ZENTc1OTFBRDJCMUFBMjFCQQ; nfvdid=BQFmAAEBEKPdk-mWoen2pW6u1sb0FWFgZrGblzrwPHxXPBG7Yh0z4GGfoBut_QUKGT6pMB8XVRK2jWjwgy6BjwgZl7x4dxXF-3BAP5UidJkdFGCTY3ZFIl2N8O9Nhtmooy7KOs1JtJ7XO3pcwid2RSHzRmjdptr_
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:57:54 GMT
+--------------------------------------------------response headers:
+SERVER              : nq_iosplatform_pbo_logblob-prod-~1.0.0 3394d6d1-81fd-47ff-ba66-b2c4eef216f3
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+X-NETFLIX.PROXY.EXECUTION-TIME: 16
+--------------------------------------------------response headers:
+X-NETFLIX.NFSTATUS  : 1_1
+--------------------------------------------------response headers:
+VIA                 : 2 i-0dfe93368b255b8b9 (us-east-1)
+--------------------------------------------------response headers:
+X-ORIGINATING-URL   : https://ios.prod.ftl.netflix.com:7009/nq/iosplatform/pbo_logblob/~1.0.0/router
+--------------------------------------------------response headers:
+SET-COOKIE          : memclid=TkZBUFBMLTAxLUlQQUQ1PTEtNDYyMDlBMDNBRjA0MDMzRTc5MDhGQkNGOTk4MDNGQzE3ODI0QTVFQjdGNUYzM0ZENTc1OTFBRDJCMUFBMjFCQQ; Max-Age=31536000; Expires=Fri, 11 Dec 2020 01:57:54 GMT; Path=/; Domain=.netflix.com
+--------------------------------------------------response headers:
+X-NETFLIX.NETWORKPREDICTION: {"aws":0,"oc":0,"aka":0,"asn":"12271"}
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/json
+--------------------------------------------------response headers:
+
+=
+POST /nq/iosplatform/pbo_manifest/~1.0.0/router HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : ios.prod.ftl.netflix.com
+CONTENT-TYPE        : application/json
+X-NETFLIX.CLIENT.IOSVERSION: 13.1
+X-NETFLIX.REQUEST.EXPIRY.TIMEOUT: 15000
+X-NETFLIX.CLIENT.APPVERSION: 12.13.0
+ACCEPT              : */*
+CONTENT-ENCODING    : msl_v1
+X-ALLOWCOMPRESSION  : false
+ACCEPT-LANGUAGE     : en-us
+ACCEPT-ENCODING     : gzip, deflate, br
+X-NETFLIX.ESN       : NFAPPL-01-IPAD5=1-46209A03AF04033E7908FBCF99803FC17824A5EB7F5F33FD57591AD2B1AA21BA
+X-NETFLIX.CLIENT.IDIOM: pad
+X-NETFLIX.REQUEST.ATTEMPT: 1
+X-CLIENT-REQUEST-ID : 18441439075544638108
+X-NETFLIX.CLIENT.TYPE: argo
+X-NETFLIX.ARGO.TRANSLATED: true
+USER-AGENT          : Argo/2925 CFNetwork/1107.1 Darwin/19.0.0
+COOKIE              : memclid=TkZBUFBMLTAxLUlQQUQ1PTEtNDYyMDlBMDNBRjA0MDMzRTc5MDhGQkNGOTk4MDNGQzE3ODI0QTVFQjdGNUYzM0ZENTc1OTFBRDJCMUFBMjFCQQ; nfvdid=BQFmAAEBEKPdk-mWoen2pW6u1sb0FWFgZrGblzrwPHxXPBG7Yh0z4GGfoBut_QUKGT6pMB8XVRK2jWjwgy6BjwgZl7x4dxXF-3BAP5UidJkdFGCTY3ZFIl2N8O9Nhtmooy7KOs1JtJ7XO3pcwid2RSHzRmjdptr_
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:57:55 GMT
+--------------------------------------------------response headers:
+SERVER              : nq_iosplatform_pbo_manifest-prod-~1.0.0 5e8042d6-0be0-4f31-8212-07b8cef936a1
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 11151
+--------------------------------------------------response headers:
+X-NETFLIX.PROXY.EXECUTION-TIME: 82
+--------------------------------------------------response headers:
+X-NETFLIX.NFSTATUS  : 1_1
+--------------------------------------------------response headers:
+VIA                 : 2 i-0dfe93368b255b8b9 (us-east-1)
+--------------------------------------------------response headers:
+X-ORIGINATING-URL   : https://ios.prod.ftl.netflix.com:7009/nq/iosplatform/pbo_manifest/~1.0.0/router
+--------------------------------------------------response headers:
+SET-COOKIE          : memclid=TkZBUFBMLTAxLUlQQUQ1PTEtNDYyMDlBMDNBRjA0MDMzRTc5MDhGQkNGOTk4MDNGQzE3ODI0QTVFQjdGNUYzM0ZENTc1OTFBRDJCMUFBMjFCQQ; Max-Age=31536000; Expires=Fri, 11 Dec 2020 01:57:55 GMT; Path=/; Domain=.netflix.com
+--------------------------------------------------response headers:
+X-NETFLIX.NETWORKPREDICTION: {"aws":0,"oc":0,"aka":0,"asn":"12271"}
+--------------------------------------------------response headers:
+CONTENT-TYPE        : json
+--------------------------------------------------response headers:
+
+=
+POST /nq/iosplatform/pbo_manifest/~1.0.0/router HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : ios.prod.ftl.netflix.com
+CONTENT-TYPE        : application/json
+X-NETFLIX.CLIENT.IOSVERSION: 13.1
+X-NETFLIX.REQUEST.EXPIRY.TIMEOUT: 15000
+X-NETFLIX.CLIENT.APPVERSION: 12.13.0
+ACCEPT              : */*
+CONTENT-ENCODING    : msl_v1
+X-ALLOWCOMPRESSION  : false
+ACCEPT-LANGUAGE     : en-us
+ACCEPT-ENCODING     : gzip, deflate, br
+X-NETFLIX.ESN       : NFAPPL-01-IPAD5=1-46209A03AF04033E7908FBCF99803FC17824A5EB7F5F33FD57591AD2B1AA21BA
+X-NETFLIX.CLIENT.IDIOM: pad
+X-NETFLIX.REQUEST.ATTEMPT: 1
+X-CLIENT-REQUEST-ID : 8052444047519052
+X-NETFLIX.CLIENT.TYPE: argo
+X-NETFLIX.ARGO.TRANSLATED: true
+USER-AGENT          : Argo/2925 CFNetwork/1107.1 Darwin/19.0.0
+COOKIE              : memclid=TkZBUFBMLTAxLUlQQUQ1PTEtNDYyMDlBMDNBRjA0MDMzRTc5MDhGQkNGOTk4MDNGQzE3ODI0QTVFQjdGNUYzM0ZENTc1OTFBRDJCMUFBMjFCQQ; nfvdid=BQFmAAEBEKPdk-mWoen2pW6u1sb0FWFgZrGblzrwPHxXPBG7Yh0z4GGfoBut_QUKGT6pMB8XVRK2jWjwgy6BjwgZl7x4dxXF-3BAP5UidJkdFGCTY3ZFIl2N8O9Nhtmooy7KOs1JtJ7XO3pcwid2RSHzRmjdptr_
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:57:55 GMT
+--------------------------------------------------response headers:
+SERVER              : nq_iosplatform_pbo_manifest-prod-~1.0.0 ca2958cf-0e25-4c2b-a196-6c89520e2900
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 5135
+--------------------------------------------------response headers:
+X-NETFLIX.PROXY.EXECUTION-TIME: 93
+--------------------------------------------------response headers:
+X-NETFLIX.NFSTATUS  : 1_1
+--------------------------------------------------response headers:
+VIA                 : 2 i-0dfe93368b255b8b9 (us-east-1)
+--------------------------------------------------response headers:
+X-ORIGINATING-URL   : https://ios.prod.ftl.netflix.com:7009/nq/iosplatform/pbo_manifest/~1.0.0/router
+--------------------------------------------------response headers:
+SET-COOKIE          : memclid=TkZBUFBMLTAxLUlQQUQ1PTEtNDYyMDlBMDNBRjA0MDMzRTc5MDhGQkNGOTk4MDNGQzE3ODI0QTVFQjdGNUYzM0ZENTc1OTFBRDJCMUFBMjFCQQ; Max-Age=31536000; Expires=Fri, 11 Dec 2020 01:57:55 GMT; Path=/; Domain=.netflix.com
+--------------------------------------------------response headers:
+X-NETFLIX.NETWORKPREDICTION: {"aws":0,"oc":0,"aka":0,"asn":"12271"}
+--------------------------------------------------response headers:
+CONTENT-TYPE        : json
+--------------------------------------------------response headers:
+
+=
+POST /nq/iosplatform/pbo_license/~1.0.0/router HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : ios.prod.ftl.netflix.com
+CONTENT-ENCODING    : msl_v1
+X-ALLOWCOMPRESSION  : false
+X-NETFLIX.CLIENT.TYPE: argo
+X-CLIENT-REQUEST-ID : 18438392662526551556
+USER-AGENT          : Argo/2925 CFNetwork/1107.1 Darwin/19.0.0
+X-NETFLIX.CLIENT.IOSVERSION: 13.1
+X-NETFLIX.CLIENT.IDIOM: pad
+X-NETFLIX.PBOBRAHV  : 8
+X-NETFLIX.REQUEST.EXPIRY.TIMEOUT: 15000
+X-NETFLIX.REQUEST.ATTEMPT: 1
+X-NETFLIX.CLIENT.APPVERSION: 12.13.0
+ACCEPT-LANGUAGE     : en-us
+X-NETFLIX.ARGO.NFNSM: 4
+ACCEPT              : */*
+CONTENT-TYPE        : application/json
+ACCEPT-ENCODING     : gzip, deflate, br
+X-NETFLIX.ARGO.TRANSLATED: true
+X-NETFLIX.ESN       : NFAPPL-01-IPAD5=1-46209A03AF04033E7908FBCF99803FC17824A5EB7F5F33FD57591AD2B1AA21BA
+COOKIE              : memclid=TkZBUFBMLTAxLUlQQUQ1PTEtNDYyMDlBMDNBRjA0MDMzRTc5MDhGQkNGOTk4MDNGQzE3ODI0QTVFQjdGNUYzM0ZENTc1OTFBRDJCMUFBMjFCQQ; nfvdid=BQFmAAEBEKPdk-mWoen2pW6u1sb0FWFgZrGblzrwPHxXPBG7Yh0z4GGfoBut_QUKGT6pMB8XVRK2jWjwgy6BjwgZl7x4dxXF-3BAP5UidJkdFGCTY3ZFIl2N8O9Nhtmooy7KOs1JtJ7XO3pcwid2RSHzRmjdptr_
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:57:55 GMT
+--------------------------------------------------response headers:
+SERVER              : nq_iosplatform_pbo_license-prod-~1.0.0 a7f46397-b9f5-42ca-b65a-57da8d9d2012
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+X-NETFLIX.PROXY.EXECUTION-TIME: 72
+--------------------------------------------------response headers:
+X-NETFLIX.NFSTATUS  : 1_1
+--------------------------------------------------response headers:
+VIA                 : 2 i-0dfe93368b255b8b9 (us-east-1)
+--------------------------------------------------response headers:
+X-ORIGINATING-URL   : https://ios.prod.ftl.netflix.com:7009/nq/iosplatform/pbo_license/~1.0.0/router
+--------------------------------------------------response headers:
+SET-COOKIE          : memclid=TkZBUFBMLTAxLUlQQUQ1PTEtNDYyMDlBMDNBRjA0MDMzRTc5MDhGQkNGOTk4MDNGQzE3ODI0QTVFQjdGNUYzM0ZENTc1OTFBRDJCMUFBMjFCQQ; Max-Age=31536000; Expires=Fri, 11 Dec 2020 01:57:55 GMT; Path=/; Domain=.netflix.com
+--------------------------------------------------response headers:
+X-NETFLIX.NETWORKPREDICTION: {"aws":0,"oc":0,"aka":0,"asn":"12271"}
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/json
+--------------------------------------------------response headers:
+
+=
+POST /nq/iosplatform/pbo_license/~1.0.0/router HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : ios.prod.ftl.netflix.com
+CONTENT-ENCODING    : msl_v1
+X-ALLOWCOMPRESSION  : false
+X-NETFLIX.CLIENT.TYPE: argo
+X-CLIENT-REQUEST-ID : 18442624338127118229
+USER-AGENT          : Argo/2925 CFNetwork/1107.1 Darwin/19.0.0
+X-NETFLIX.CLIENT.IOSVERSION: 13.1
+X-NETFLIX.CLIENT.IDIOM: pad
+X-NETFLIX.PBOBRAHV  : 8
+X-NETFLIX.REQUEST.EXPIRY.TIMEOUT: 15000
+X-NETFLIX.REQUEST.ATTEMPT: 1
+X-NETFLIX.CLIENT.APPVERSION: 12.13.0
+ACCEPT-LANGUAGE     : en-us
+X-NETFLIX.ARGO.NFNSM: 4
+ACCEPT              : */*
+CONTENT-TYPE        : application/json
+ACCEPT-ENCODING     : gzip, deflate, br
+X-NETFLIX.ARGO.TRANSLATED: true
+X-NETFLIX.ESN       : NFAPPL-01-IPAD5=1-46209A03AF04033E7908FBCF99803FC17824A5EB7F5F33FD57591AD2B1AA21BA
+COOKIE              : memclid=TkZBUFBMLTAxLUlQQUQ1PTEtNDYyMDlBMDNBRjA0MDMzRTc5MDhGQkNGOTk4MDNGQzE3ODI0QTVFQjdGNUYzM0ZENTc1OTFBRDJCMUFBMjFCQQ; nfvdid=BQFmAAEBEKPdk-mWoen2pW6u1sb0FWFgZrGblzrwPHxXPBG7Yh0z4GGfoBut_QUKGT6pMB8XVRK2jWjwgy6BjwgZl7x4dxXF-3BAP5UidJkdFGCTY3ZFIl2N8O9Nhtmooy7KOs1JtJ7XO3pcwid2RSHzRmjdptr_
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:57:55 GMT
+--------------------------------------------------response headers:
+SERVER              : nq_iosplatform_pbo_license-prod-~1.0.0 3be14bb2-2eae-4844-82b7-35bdcec8a332
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+X-NETFLIX.PROXY.EXECUTION-TIME: 75
+--------------------------------------------------response headers:
+X-NETFLIX.NFSTATUS  : 1_1
+--------------------------------------------------response headers:
+VIA                 : 2 i-0dfe93368b255b8b9 (us-east-1)
+--------------------------------------------------response headers:
+X-ORIGINATING-URL   : https://ios.prod.ftl.netflix.com:7009/nq/iosplatform/pbo_license/~1.0.0/router
+--------------------------------------------------response headers:
+SET-COOKIE          : memclid=TkZBUFBMLTAxLUlQQUQ1PTEtNDYyMDlBMDNBRjA0MDMzRTc5MDhGQkNGOTk4MDNGQzE3ODI0QTVFQjdGNUYzM0ZENTc1OTFBRDJCMUFBMjFCQQ; Max-Age=31536000; Expires=Fri, 11 Dec 2020 01:57:55 GMT; Path=/; Domain=.netflix.com
+--------------------------------------------------response headers:
+X-NETFLIX.NETWORKPREDICTION: {"aws":0,"oc":0,"aka":0,"asn":"12271"}
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/json
+--------------------------------------------------response headers:
+
+=
+POST /nq/iosplatform/pbo_license/~1.0.0/router HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : ios.prod.ftl.netflix.com
+CONTENT-ENCODING    : msl_v1
+X-ALLOWCOMPRESSION  : false
+X-NETFLIX.CLIENT.TYPE: argo
+X-CLIENT-REQUEST-ID : 18444551111751829671
+USER-AGENT          : Argo/2925 CFNetwork/1107.1 Darwin/19.0.0
+X-NETFLIX.CLIENT.IOSVERSION: 13.1
+X-NETFLIX.CLIENT.IDIOM: pad
+X-NETFLIX.PBOBRAHV  : 8
+X-NETFLIX.REQUEST.EXPIRY.TIMEOUT: 15000
+X-NETFLIX.REQUEST.ATTEMPT: 1
+X-NETFLIX.CLIENT.APPVERSION: 12.13.0
+ACCEPT-LANGUAGE     : en-us
+X-NETFLIX.ARGO.NFNSM: 4
+ACCEPT              : */*
+CONTENT-TYPE        : application/json
+ACCEPT-ENCODING     : gzip, deflate, br
+X-NETFLIX.ARGO.TRANSLATED: true
+X-NETFLIX.ESN       : NFAPPL-01-IPAD5=1-46209A03AF04033E7908FBCF99803FC17824A5EB7F5F33FD57591AD2B1AA21BA
+COOKIE              : memclid=TkZBUFBMLTAxLUlQQUQ1PTEtNDYyMDlBMDNBRjA0MDMzRTc5MDhGQkNGOTk4MDNGQzE3ODI0QTVFQjdGNUYzM0ZENTc1OTFBRDJCMUFBMjFCQQ; nfvdid=BQFmAAEBEKPdk-mWoen2pW6u1sb0FWFgZrGblzrwPHxXPBG7Yh0z4GGfoBut_QUKGT6pMB8XVRK2jWjwgy6BjwgZl7x4dxXF-3BAP5UidJkdFGCTY3ZFIl2N8O9Nhtmooy7KOs1JtJ7XO3pcwid2RSHzRmjdptr_
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:57:55 GMT
+--------------------------------------------------response headers:
+SERVER              : nq_iosplatform_pbo_license-prod-~1.0.0 26a89f0a-b0f4-46f6-9c06-cd551ac9e454
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+X-NETFLIX.PROXY.EXECUTION-TIME: 71
+--------------------------------------------------response headers:
+X-NETFLIX.NFSTATUS  : 1_1
+--------------------------------------------------response headers:
+VIA                 : 2 i-0dfe93368b255b8b9 (us-east-1)
+--------------------------------------------------response headers:
+X-ORIGINATING-URL   : https://ios.prod.ftl.netflix.com:7009/nq/iosplatform/pbo_license/~1.0.0/router
+--------------------------------------------------response headers:
+SET-COOKIE          : memclid=TkZBUFBMLTAxLUlQQUQ1PTEtNDYyMDlBMDNBRjA0MDMzRTc5MDhGQkNGOTk4MDNGQzE3ODI0QTVFQjdGNUYzM0ZENTc1OTFBRDJCMUFBMjFCQQ; Max-Age=31536000; Expires=Fri, 11 Dec 2020 01:57:55 GMT; Path=/; Domain=.netflix.com
+--------------------------------------------------response headers:
+X-NETFLIX.NETWORKPREDICTION: {"aws":0,"oc":0,"aka":0,"asn":"12271"}
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/json
+--------------------------------------------------response headers:
+
+=
+POST /nq/iosplatform/pbo_logblob/~1.0.0/router HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : ios.prod.ftl.netflix.com
+CONTENT-ENCODING    : msl_v1
+X-ALLOWCOMPRESSION  : false
+X-NETFLIX.CLIENT.TYPE: argo
+X-CLIENT-REQUEST-ID : 3649833592064948
+USER-AGENT          : Argo/2925 CFNetwork/1107.1 Darwin/19.0.0
+X-NETFLIX.CLIENT.IOSVERSION: 13.1
+X-NETFLIX.CLIENT.IDIOM: pad
+X-NETFLIX.PBOBRAHV  : 5
+X-NETFLIX.REQUEST.EXPIRY.TIMEOUT: 15000
+X-NETFLIX.REQUEST.ATTEMPT: 1
+X-NETFLIX.CLIENT.APPVERSION: 12.13.0
+ACCEPT-LANGUAGE     : en-us
+X-NETFLIX.ARGO.NFNSM: 15
+ACCEPT              : */*
+CONTENT-TYPE        : application/json
+ACCEPT-ENCODING     : gzip, deflate, br
+X-NETFLIX.ARGO.TRANSLATED: true
+X-NETFLIX.ESN       : NFAPPL-01-IPAD5=1-46209A03AF04033E7908FBCF99803FC17824A5EB7F5F33FD57591AD2B1AA21BA
+COOKIE              : memclid=TkZBUFBMLTAxLUlQQUQ1PTEtNDYyMDlBMDNBRjA0MDMzRTc5MDhGQkNGOTk4MDNGQzE3ODI0QTVFQjdGNUYzM0ZENTc1OTFBRDJCMUFBMjFCQQ; nfvdid=BQFmAAEBEKPdk-mWoen2pW6u1sb0FWFgZrGblzrwPHxXPBG7Yh0z4GGfoBut_QUKGT6pMB8XVRK2jWjwgy6BjwgZl7x4dxXF-3BAP5UidJkdFGCTY3ZFIl2N8O9Nhtmooy7KOs1JtJ7XO3pcwid2RSHzRmjdptr_
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:57:55 GMT
+--------------------------------------------------response headers:
+SERVER              : nq_iosplatform_pbo_logblob-prod-~1.0.0 459bf5f4-9c16-4aeb-a851-484dac2bb869
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+X-NETFLIX.PROXY.EXECUTION-TIME: 45
+--------------------------------------------------response headers:
+X-NETFLIX.NFSTATUS  : 1_1
+--------------------------------------------------response headers:
+VIA                 : 2 i-0dfe93368b255b8b9 (us-east-1)
+--------------------------------------------------response headers:
+X-ORIGINATING-URL   : https://ios.prod.ftl.netflix.com:7009/nq/iosplatform/pbo_logblob/~1.0.0/router
+--------------------------------------------------response headers:
+SET-COOKIE          : memclid=TkZBUFBMLTAxLUlQQUQ1PTEtNDYyMDlBMDNBRjA0MDMzRTc5MDhGQkNGOTk4MDNGQzE3ODI0QTVFQjdGNUYzM0ZENTc1OTFBRDJCMUFBMjFCQQ; Max-Age=31536000; Expires=Fri, 11 Dec 2020 01:57:55 GMT; Path=/; Domain=.netflix.com
+--------------------------------------------------response headers:
+X-NETFLIX.NETWORKPREDICTION: {"aws":0,"oc":0,"aka":0,"asn":"12271"}
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/json
+--------------------------------------------------response headers:
+
+=
+POST /nq/iosplatform/pbo_logblob/~1.0.0/router HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : ios.prod.ftl.netflix.com
+CONTENT-ENCODING    : msl_v1
+X-ALLOWCOMPRESSION  : false
+X-NETFLIX.CLIENT.TYPE: argo
+X-CLIENT-REQUEST-ID : 4412371625044480
+USER-AGENT          : Argo/2925 CFNetwork/1107.1 Darwin/19.0.0
+X-NETFLIX.CLIENT.IOSVERSION: 13.1
+X-NETFLIX.CLIENT.IDIOM: pad
+X-NETFLIX.PBOBRAHV  : 5
+X-NETFLIX.REQUEST.EXPIRY.TIMEOUT: 15000
+X-NETFLIX.REQUEST.ATTEMPT: 1
+X-NETFLIX.CLIENT.APPVERSION: 12.13.0
+ACCEPT-LANGUAGE     : en-us
+X-NETFLIX.ARGO.NFNSM: 15
+ACCEPT              : */*
+CONTENT-TYPE        : application/json
+ACCEPT-ENCODING     : gzip, deflate, br
+X-NETFLIX.ARGO.TRANSLATED: true
+X-NETFLIX.ESN       : NFAPPL-01-IPAD5=1-46209A03AF04033E7908FBCF99803FC17824A5EB7F5F33FD57591AD2B1AA21BA
+COOKIE              : memclid=TkZBUFBMLTAxLUlQQUQ1PTEtNDYyMDlBMDNBRjA0MDMzRTc5MDhGQkNGOTk4MDNGQzE3ODI0QTVFQjdGNUYzM0ZENTc1OTFBRDJCMUFBMjFCQQ; nfvdid=BQFmAAEBEKPdk-mWoen2pW6u1sb0FWFgZrGblzrwPHxXPBG7Yh0z4GGfoBut_QUKGT6pMB8XVRK2jWjwgy6BjwgZl7x4dxXF-3BAP5UidJkdFGCTY3ZFIl2N8O9Nhtmooy7KOs1JtJ7XO3pcwid2RSHzRmjdptr_
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:57:56 GMT
+--------------------------------------------------response headers:
+SERVER              : nq_iosplatform_pbo_logblob-prod-~1.0.0 20cea449-95b8-4726-ae54-030b115f417b
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+X-NETFLIX.PROXY.EXECUTION-TIME: 25
+--------------------------------------------------response headers:
+X-NETFLIX.NFSTATUS  : 1_1
+--------------------------------------------------response headers:
+VIA                 : 2 i-0dfe93368b255b8b9 (us-east-1)
+--------------------------------------------------response headers:
+X-ORIGINATING-URL   : https://ios.prod.ftl.netflix.com:7009/nq/iosplatform/pbo_logblob/~1.0.0/router
+--------------------------------------------------response headers:
+SET-COOKIE          : memclid=TkZBUFBMLTAxLUlQQUQ1PTEtNDYyMDlBMDNBRjA0MDMzRTc5MDhGQkNGOTk4MDNGQzE3ODI0QTVFQjdGNUYzM0ZENTc1OTFBRDJCMUFBMjFCQQ; Max-Age=31536000; Expires=Fri, 11 Dec 2020 01:57:56 GMT; Path=/; Domain=.netflix.com
+--------------------------------------------------response headers:
+X-NETFLIX.NETWORKPREDICTION: {"aws":0,"oc":0,"aka":0,"asn":"12271"}
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/json
+--------------------------------------------------response headers:
+
+=
+POST /nq/iosplatform/pbo_license/~1.0.0/router HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : ios.prod.ftl.netflix.com
+CONTENT-ENCODING    : msl_v1
+X-ALLOWCOMPRESSION  : false
+X-NETFLIX.CLIENT.TYPE: argo
+X-CLIENT-REQUEST-ID : 18438074617011119689
+USER-AGENT          : Argo/2925 CFNetwork/1107.1 Darwin/19.0.0
+X-NETFLIX.CLIENT.IOSVERSION: 13.1
+X-NETFLIX.CLIENT.IDIOM: pad
+X-NETFLIX.PBOBRAHV  : 7
+X-NETFLIX.REQUEST.EXPIRY.TIMEOUT: 15000
+X-NETFLIX.REQUEST.ATTEMPT: 1
+X-NETFLIX.CLIENT.APPVERSION: 12.13.0
+ACCEPT-LANGUAGE     : en-us
+X-NETFLIX.ARGO.NFNSM: 2
+ACCEPT              : */*
+CONTENT-TYPE        : application/json
+ACCEPT-ENCODING     : gzip, deflate, br
+X-NETFLIX.ARGO.TRANSLATED: true
+X-NETFLIX.ESN       : NFAPPL-01-IPAD5=1-46209A03AF04033E7908FBCF99803FC17824A5EB7F5F33FD57591AD2B1AA21BA
+COOKIE              : memclid=TkZBUFBMLTAxLUlQQUQ1PTEtNDYyMDlBMDNBRjA0MDMzRTc5MDhGQkNGOTk4MDNGQzE3ODI0QTVFQjdGNUYzM0ZENTc1OTFBRDJCMUFBMjFCQQ; nfvdid=BQFmAAEBEKPdk-mWoen2pW6u1sb0FWFgZrGblzrwPHxXPBG7Yh0z4GGfoBut_QUKGT6pMB8XVRK2jWjwgy6BjwgZl7x4dxXF-3BAP5UidJkdFGCTY3ZFIl2N8O9Nhtmooy7KOs1JtJ7XO3pcwid2RSHzRmjdptr_
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:57:56 GMT
+--------------------------------------------------response headers:
+SERVER              : nq_iosplatform_pbo_license-prod-~1.0.0 ca6fe7c0-5b12-47c7-b23a-9791eb09943a
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+X-NETFLIX.PROXY.EXECUTION-TIME: 88
+--------------------------------------------------response headers:
+X-NETFLIX.NFSTATUS  : 1_1
+--------------------------------------------------response headers:
+VIA                 : 2 i-0dfe93368b255b8b9 (us-east-1)
+--------------------------------------------------response headers:
+X-ORIGINATING-URL   : https://ios.prod.ftl.netflix.com:7009/nq/iosplatform/pbo_license/~1.0.0/router
+--------------------------------------------------response headers:
+SET-COOKIE          : memclid=TkZBUFBMLTAxLUlQQUQ1PTEtNDYyMDlBMDNBRjA0MDMzRTc5MDhGQkNGOTk4MDNGQzE3ODI0QTVFQjdGNUYzM0ZENTc1OTFBRDJCMUFBMjFCQQ; Max-Age=31536000; Expires=Fri, 11 Dec 2020 01:57:56 GMT; Path=/; Domain=.netflix.com
+--------------------------------------------------response headers:
+X-NETFLIX.NETWORKPREDICTION: {"aws":0,"oc":0,"aka":0,"asn":"12271"}
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/json
+--------------------------------------------------response headers:
+
+=
+POST /nq/iosplatform/pbo_logblob/~1.0.0/router HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : ios.prod.ftl.netflix.com
+CONTENT-ENCODING    : msl_v1
+X-ALLOWCOMPRESSION  : false
+X-NETFLIX.CLIENT.TYPE: argo
+X-CLIENT-REQUEST-ID : 18441700315821959986
+USER-AGENT          : Argo/2925 CFNetwork/1107.1 Darwin/19.0.0
+X-NETFLIX.CLIENT.IOSVERSION: 13.1
+X-NETFLIX.CLIENT.IDIOM: pad
+X-NETFLIX.PBOBRAHV  : 5
+X-NETFLIX.REQUEST.EXPIRY.TIMEOUT: 15000
+X-NETFLIX.REQUEST.ATTEMPT: 1
+X-NETFLIX.CLIENT.APPVERSION: 12.13.0
+ACCEPT-LANGUAGE     : en-us
+X-NETFLIX.ARGO.NFNSM: 15
+ACCEPT              : */*
+CONTENT-TYPE        : application/json
+ACCEPT-ENCODING     : gzip, deflate, br
+X-NETFLIX.ARGO.TRANSLATED: true
+X-NETFLIX.ESN       : NFAPPL-01-IPAD5=1-46209A03AF04033E7908FBCF99803FC17824A5EB7F5F33FD57591AD2B1AA21BA
+COOKIE              : memclid=TkZBUFBMLTAxLUlQQUQ1PTEtNDYyMDlBMDNBRjA0MDMzRTc5MDhGQkNGOTk4MDNGQzE3ODI0QTVFQjdGNUYzM0ZENTc1OTFBRDJCMUFBMjFCQQ; nfvdid=BQFmAAEBEKPdk-mWoen2pW6u1sb0FWFgZrGblzrwPHxXPBG7Yh0z4GGfoBut_QUKGT6pMB8XVRK2jWjwgy6BjwgZl7x4dxXF-3BAP5UidJkdFGCTY3ZFIl2N8O9Nhtmooy7KOs1JtJ7XO3pcwid2RSHzRmjdptr_
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:57:57 GMT
+--------------------------------------------------response headers:
+SERVER              : nq_iosplatform_pbo_logblob-prod-~1.0.0 365f3534-5c0f-4b39-a6d2-948f8e52b189
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+X-NETFLIX.PROXY.EXECUTION-TIME: 28
+--------------------------------------------------response headers:
+X-NETFLIX.NFSTATUS  : 1_1
+--------------------------------------------------response headers:
+VIA                 : 2 i-0dfe93368b255b8b9 (us-east-1)
+--------------------------------------------------response headers:
+X-ORIGINATING-URL   : https://ios.prod.ftl.netflix.com:7009/nq/iosplatform/pbo_logblob/~1.0.0/router
+--------------------------------------------------response headers:
+SET-COOKIE          : memclid=TkZBUFBMLTAxLUlQQUQ1PTEtNDYyMDlBMDNBRjA0MDMzRTc5MDhGQkNGOTk4MDNGQzE3ODI0QTVFQjdGNUYzM0ZENTc1OTFBRDJCMUFBMjFCQQ; Max-Age=31536000; Expires=Fri, 11 Dec 2020 01:57:57 GMT; Path=/; Domain=.netflix.com
+--------------------------------------------------response headers:
+X-NETFLIX.NETWORKPREDICTION: {"aws":0,"oc":0,"aka":0,"asn":"12271"}
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/json
+--------------------------------------------------response headers:
+
+=
+POST /nq/iosplatform/pbo_logblob/~1.0.0/router HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : ios.prod.ftl.netflix.com
+CONTENT-ENCODING    : msl_v1
+X-ALLOWCOMPRESSION  : false
+X-NETFLIX.CLIENT.TYPE: argo
+X-CLIENT-REQUEST-ID : 3620371438646262
+USER-AGENT          : Argo/2925 CFNetwork/1107.1 Darwin/19.0.0
+X-NETFLIX.CLIENT.IOSVERSION: 13.1
+X-NETFLIX.CLIENT.IDIOM: pad
+X-NETFLIX.PBOBRAHV  : 5
+X-NETFLIX.REQUEST.EXPIRY.TIMEOUT: 15000
+X-NETFLIX.REQUEST.ATTEMPT: 1
+X-NETFLIX.CLIENT.APPVERSION: 12.13.0
+ACCEPT-LANGUAGE     : en-us
+X-NETFLIX.ARGO.NFNSM: 15
+ACCEPT              : */*
+CONTENT-TYPE        : application/json
+ACCEPT-ENCODING     : gzip, deflate, br
+X-NETFLIX.ARGO.TRANSLATED: true
+X-NETFLIX.ESN       : NFAPPL-01-IPAD5=1-46209A03AF04033E7908FBCF99803FC17824A5EB7F5F33FD57591AD2B1AA21BA
+COOKIE              : memclid=TkZBUFBMLTAxLUlQQUQ1PTEtNDYyMDlBMDNBRjA0MDMzRTc5MDhGQkNGOTk4MDNGQzE3ODI0QTVFQjdGNUYzM0ZENTc1OTFBRDJCMUFBMjFCQQ; nfvdid=BQFmAAEBEKPdk-mWoen2pW6u1sb0FWFgZrGblzrwPHxXPBG7Yh0z4GGfoBut_QUKGT6pMB8XVRK2jWjwgy6BjwgZl7x4dxXF-3BAP5UidJkdFGCTY3ZFIl2N8O9Nhtmooy7KOs1JtJ7XO3pcwid2RSHzRmjdptr_
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:57:57 GMT
+--------------------------------------------------response headers:
+SERVER              : nq_iosplatform_pbo_logblob-prod-~1.0.0 9b38868c-337e-4a6c-910c-1c61aeb85586
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+X-NETFLIX.PROXY.EXECUTION-TIME: 36
+--------------------------------------------------response headers:
+X-NETFLIX.NFSTATUS  : 1_1
+--------------------------------------------------response headers:
+VIA                 : 2 i-0dfe93368b255b8b9 (us-east-1)
+--------------------------------------------------response headers:
+X-ORIGINATING-URL   : https://ios.prod.ftl.netflix.com:7009/nq/iosplatform/pbo_logblob/~1.0.0/router
+--------------------------------------------------response headers:
+SET-COOKIE          : memclid=TkZBUFBMLTAxLUlQQUQ1PTEtNDYyMDlBMDNBRjA0MDMzRTc5MDhGQkNGOTk4MDNGQzE3ODI0QTVFQjdGNUYzM0ZENTc1OTFBRDJCMUFBMjFCQQ; Max-Age=31536000; Expires=Fri, 11 Dec 2020 01:57:57 GMT; Path=/; Domain=.netflix.com
+--------------------------------------------------response headers:
+X-NETFLIX.NETWORKPREDICTION: {"aws":0,"oc":0,"aka":0,"asn":"12271"}
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/json
+--------------------------------------------------response headers:
+
+=
+POST /cl2 HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : ichnaea-web.netflix.com
+ACCEPT              : */*
+X-NETFLIX.ARGO.NFNSM: 12
+ACCEPT-LANGUAGE     : en-us
+ACCEPT-ENCODING     : gzip, deflate, br
+CONTENT-TYPE        : application/json
+X-NETFLIX.ESN       : NFAPPL-01-IPAD5=1-46209A03AF04033E7908FBCF99803FC17824A5EB7F5F33FD57591AD2B1AA21BA
+CONTENT-LENGTH      : 14751
+USER-AGENT          : Argo/2925 CFNetwork/1107.1 Darwin/19.0.0
+CONNECTION          : keep-alive
+X-NETFLIX.REQUEST.ATTEMPT: 1
+COOKIE              : NetflixId=v%3D2%26ct%3DBQAOAAEBEMYMJa1UDv-EdME8yChbrGeB4Me1s5U2v8h_IPVQeyXqc08o-jT1qEMHBqlFJI3fFzP-4rK1GcN7MZNg66ZWzwzFEDhvFd1-ycr22r6bW1z3GTyufE2HZHcTIadOmrP41euHhMAn8n6HEL6JiTGQC3iv0xDaOb2kL5J60nU7As7hIRaLYmHHXMK3i_0FXLQGwdWTh_D7xWawfNu2KF22pL7AGC1DmVFW_DQgbSEKm43nvnFBFneZGETrA2EYNRJ3FfkTxV8R3_zldb01G3yCb-ADXVRRZotQcSQ0dyr8BzP2aeyMMZ7l6uyboNbgPLQ1dqO1LCf_4QOnn4LiecCGpcAO1XlOIo8U727Dkdx4nQIIhiIPgoDFU77vCeYeUyGEFiNNSchB3xHkkt9xSBThZwvsp1UXRJ2sTvp1uNDt0o2FrC4nQXv8xR35yPKymldhCFxNJlG02GAjR0PB-aqt_QD6jhSk3uSORxXGfcD4b3cejpcIDfwJnZUOvl5oMKiGFR6R6y-7afrwPr58JjRwdssQxIiGX54fL23U4UD__XiTRNWcRn9Yirp7A9_3-IFKJkjjj1TmenD_MU5T_7z9ekds10Fha4Xl6OiZ6zOPpAukYLAaVvDQilKGnnBzv2vVFUTUl7FnwyPmOkX8u9c_1BtnUw..%26bt%3Ddbl%26ch%3DAQEAEAABABTkrLG2peDZwQ78vL2VhD7aWD3MVvFV72k.%26mac%3DAQEAEAABABQ2b0XxD27x6IG6K97AMzC8i24aw4Vw3tI.; SecureNetflixId=v%3D2%26mac%3DAQEAEQABABR9GJZiXg0qs3y8nmKTFWrXXw44RNp-Iw0.%26dt%3D1576108437686; nfvdid=BQFmAAEBEKPdk-mWoen2pW6u1sb0FWFgZrGblzrwPHxXPBG7Yh0z4GGfoBut_QUKGT6pMB8XVRK2jWjwgy6BjwgZl7x4dxXF-3BAP5UidJkdFGCTY3ZFIl2N8O9Nhtmooy7KOs1JtJ7XO3pcwid2RSHzRmjdptr_
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-CREDENTIALS: true
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-HEADERS: Authorization,Content-Type,Accept,Cookie,X-Netflix.application.name,X-Netflix.application.version,X-Netflix.esn,X-Netflix.device.type,X-Netflix.certification.version,X-Netflix.request.uuid,X-Netflix.user.id,X-Netflix.oauth.consumer.key,X-Netflix.oauth.token,X-Netflix.ichnaea.request.type,debugRequest
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-METHODS: GET, POST, OPTIONS
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: http://ichnaea-web.netflix.com
+--------------------------------------------------response headers:
+ALLOW               : GET, POST, OPTIONS
+--------------------------------------------------response headers:
+CONTENT-TYPE        : text/plain
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:57:58 GMT
+--------------------------------------------------response headers:
+SERVER              : ichnaea i-067073935240f3e8d
+--------------------------------------------------response headers:
+VIA                 : 1.1 i-0010050877d09dfed (us-east-1)
+--------------------------------------------------response headers:
+X-ICHNAEA           : ~O=true~RL=466
+--------------------------------------------------response headers:
+X-NETFLIX.NETWORKPREDICTION: {"aws":0,"oc":0,"aka":0,"asn":"12271"}
+--------------------------------------------------response headers:
+X-NETFLIX.NFSTATUS  : 1_1
+--------------------------------------------------response headers:
+X-NETFLIX.PROXY.EXECUTION-TIME: 17
+--------------------------------------------------response headers:
+X-ORIGINATING-URL   : https://ichnaea-web.netflix.com/cl2
+--------------------------------------------------response headers:
+X-XSS-PROTECTION    : 1; mode=block; report=https://ichnaea-web.netflix.com/log/freeform/xssreport
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 0
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+
+=
+POST /nq/iosplatform/pbo_events/~1.0.0/router HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : ios.prod.ftl.netflix.com
+CONTENT-ENCODING    : msl_v1
+X-ALLOWCOMPRESSION  : false
+X-NETFLIX.CLIENT.TYPE: argo
+X-CLIENT-REQUEST-ID : 18442188124379795236
+USER-AGENT          : Argo/2925 CFNetwork/1107.1 Darwin/19.0.0
+X-NETFLIX.CLIENT.IOSVERSION: 13.1
+X-NETFLIX.CLIENT.IDIOM: pad
+X-NETFLIX.PBOBRAHV  : 4
+X-NETFLIX.REQUEST.EXPIRY.TIMEOUT: 15000
+X-NETFLIX.REQUEST.ATTEMPT: 1
+X-NETFLIX.CLIENT.APPVERSION: 12.13.0
+ACCEPT-LANGUAGE     : en-us
+X-NETFLIX.ARGO.NFNSM: 11
+ACCEPT              : */*
+CONTENT-TYPE        : application/json
+ACCEPT-ENCODING     : gzip, deflate, br
+X-NETFLIX.ARGO.TRANSLATED: true
+X-NETFLIX.ESN       : NFAPPL-01-IPAD5=1-46209A03AF04033E7908FBCF99803FC17824A5EB7F5F33FD57591AD2B1AA21BA
+COOKIE              : memclid=TkZBUFBMLTAxLUlQQUQ1PTEtNDYyMDlBMDNBRjA0MDMzRTc5MDhGQkNGOTk4MDNGQzE3ODI0QTVFQjdGNUYzM0ZENTc1OTFBRDJCMUFBMjFCQQ; nfvdid=BQFmAAEBEKPdk-mWoen2pW6u1sb0FWFgZrGblzrwPHxXPBG7Yh0z4GGfoBut_QUKGT6pMB8XVRK2jWjwgy6BjwgZl7x4dxXF-3BAP5UidJkdFGCTY3ZFIl2N8O9Nhtmooy7KOs1JtJ7XO3pcwid2RSHzRmjdptr_
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:57:58 GMT
+--------------------------------------------------response headers:
+SERVER              : nq_iosplatform_pbo_events-prod-~1.0.0 7b59f986-4f23-4fb6-bf0e-4d9e3362c00a
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+X-NETFLIX.PROXY.EXECUTION-TIME: 23
+--------------------------------------------------response headers:
+X-NETFLIX.NFSTATUS  : 1_1
+--------------------------------------------------response headers:
+VIA                 : 2 i-0dfe93368b255b8b9 (us-east-1)
+--------------------------------------------------response headers:
+X-ORIGINATING-URL   : https://ios.prod.ftl.netflix.com:7009/nq/iosplatform/pbo_events/~1.0.0/router
+--------------------------------------------------response headers:
+SET-COOKIE          : memclid=TkZBUFBMLTAxLUlQQUQ1PTEtNDYyMDlBMDNBRjA0MDMzRTc5MDhGQkNGOTk4MDNGQzE3ODI0QTVFQjdGNUYzM0ZENTc1OTFBRDJCMUFBMjFCQQ; Max-Age=31536000; Expires=Fri, 11 Dec 2020 01:57:58 GMT; Path=/; Domain=.netflix.com
+--------------------------------------------------response headers:
+X-NETFLIX.NETWORKPREDICTION: {"aws":0,"oc":0,"aka":0,"asn":"12271"}
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/json
+--------------------------------------------------response headers:
+
+=
+POST /nq/iosplatform/pbo_logblob/~1.0.0/router HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : ios.prod.ftl.netflix.com
+CONTENT-ENCODING    : msl_v1
+X-ALLOWCOMPRESSION  : false
+X-NETFLIX.CLIENT.TYPE: argo
+X-CLIENT-REQUEST-ID : 1557477576651414
+USER-AGENT          : Argo/2925 CFNetwork/1107.1 Darwin/19.0.0
+X-NETFLIX.CLIENT.IOSVERSION: 13.1
+X-NETFLIX.CLIENT.IDIOM: pad
+X-NETFLIX.PBOBRAHV  : 5
+X-NETFLIX.REQUEST.EXPIRY.TIMEOUT: 15000
+X-NETFLIX.REQUEST.ATTEMPT: 1
+X-NETFLIX.CLIENT.APPVERSION: 12.13.0
+ACCEPT-LANGUAGE     : en-us
+X-NETFLIX.ARGO.NFNSM: 15
+ACCEPT              : */*
+CONTENT-TYPE        : application/json
+ACCEPT-ENCODING     : gzip, deflate, br
+X-NETFLIX.ARGO.TRANSLATED: true
+X-NETFLIX.ESN       : NFAPPL-01-IPAD5=1-46209A03AF04033E7908FBCF99803FC17824A5EB7F5F33FD57591AD2B1AA21BA
+COOKIE              : memclid=TkZBUFBMLTAxLUlQQUQ1PTEtNDYyMDlBMDNBRjA0MDMzRTc5MDhGQkNGOTk4MDNGQzE3ODI0QTVFQjdGNUYzM0ZENTc1OTFBRDJCMUFBMjFCQQ; nfvdid=BQFmAAEBEKPdk-mWoen2pW6u1sb0FWFgZrGblzrwPHxXPBG7Yh0z4GGfoBut_QUKGT6pMB8XVRK2jWjwgy6BjwgZl7x4dxXF-3BAP5UidJkdFGCTY3ZFIl2N8O9Nhtmooy7KOs1JtJ7XO3pcwid2RSHzRmjdptr_
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:57:58 GMT
+--------------------------------------------------response headers:
+SERVER              : nq_iosplatform_pbo_logblob-prod-~1.0.0 9fc5a004-cdcd-4046-ad89-e83aba37e13f
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+X-NETFLIX.PROXY.EXECUTION-TIME: 45
+--------------------------------------------------response headers:
+X-NETFLIX.NFSTATUS  : 1_1
+--------------------------------------------------response headers:
+VIA                 : 2 i-0dfe93368b255b8b9 (us-east-1)
+--------------------------------------------------response headers:
+X-ORIGINATING-URL   : https://ios.prod.ftl.netflix.com:7009/nq/iosplatform/pbo_logblob/~1.0.0/router
+--------------------------------------------------response headers:
+SET-COOKIE          : memclid=TkZBUFBMLTAxLUlQQUQ1PTEtNDYyMDlBMDNBRjA0MDMzRTc5MDhGQkNGOTk4MDNGQzE3ODI0QTVFQjdGNUYzM0ZENTc1OTFBRDJCMUFBMjFCQQ; Max-Age=31536000; Expires=Fri, 11 Dec 2020 01:57:58 GMT; Path=/; Domain=.netflix.com
+--------------------------------------------------response headers:
+X-NETFLIX.NETWORKPREDICTION: {"aws":0,"oc":0,"aka":0,"asn":"12271"}
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/json
+--------------------------------------------------response headers:
+
+=
+POST /nq/iosplatform/pbo_logblob/~1.0.0/router HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : ios.prod.ftl.netflix.com
+CONTENT-ENCODING    : msl_v1
+X-ALLOWCOMPRESSION  : false
+X-NETFLIX.CLIENT.TYPE: argo
+X-CLIENT-REQUEST-ID : 7305552999462478
+USER-AGENT          : Argo/2925 CFNetwork/1107.1 Darwin/19.0.0
+X-NETFLIX.CLIENT.IOSVERSION: 13.1
+X-NETFLIX.CLIENT.IDIOM: pad
+X-NETFLIX.PBOBRAHV  : 5
+X-NETFLIX.REQUEST.EXPIRY.TIMEOUT: 15000
+X-NETFLIX.REQUEST.ATTEMPT: 1
+X-NETFLIX.CLIENT.APPVERSION: 12.13.0
+ACCEPT-LANGUAGE     : en-us
+X-NETFLIX.ARGO.NFNSM: 15
+ACCEPT              : */*
+CONTENT-TYPE        : application/json
+ACCEPT-ENCODING     : gzip, deflate, br
+X-NETFLIX.ARGO.TRANSLATED: true
+X-NETFLIX.ESN       : NFAPPL-01-IPAD5=1-46209A03AF04033E7908FBCF99803FC17824A5EB7F5F33FD57591AD2B1AA21BA
+COOKIE              : memclid=TkZBUFBMLTAxLUlQQUQ1PTEtNDYyMDlBMDNBRjA0MDMzRTc5MDhGQkNGOTk4MDNGQzE3ODI0QTVFQjdGNUYzM0ZENTc1OTFBRDJCMUFBMjFCQQ; nfvdid=BQFmAAEBEKPdk-mWoen2pW6u1sb0FWFgZrGblzrwPHxXPBG7Yh0z4GGfoBut_QUKGT6pMB8XVRK2jWjwgy6BjwgZl7x4dxXF-3BAP5UidJkdFGCTY3ZFIl2N8O9Nhtmooy7KOs1JtJ7XO3pcwid2RSHzRmjdptr_
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:57:58 GMT
+--------------------------------------------------response headers:
+SERVER              : nq_iosplatform_pbo_logblob-prod-~1.0.0 b617ae96-355c-483c-af81-4b22059aaad7
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+X-NETFLIX.PROXY.EXECUTION-TIME: 36
+--------------------------------------------------response headers:
+X-NETFLIX.NFSTATUS  : 1_1
+--------------------------------------------------response headers:
+VIA                 : 2 i-0dfe93368b255b8b9 (us-east-1)
+--------------------------------------------------response headers:
+X-ORIGINATING-URL   : https://ios.prod.ftl.netflix.com:7009/nq/iosplatform/pbo_logblob/~1.0.0/router
+--------------------------------------------------response headers:
+SET-COOKIE          : memclid=TkZBUFBMLTAxLUlQQUQ1PTEtNDYyMDlBMDNBRjA0MDMzRTc5MDhGQkNGOTk4MDNGQzE3ODI0QTVFQjdGNUYzM0ZENTc1OTFBRDJCMUFBMjFCQQ; Max-Age=31536000; Expires=Fri, 11 Dec 2020 01:57:58 GMT; Path=/; Domain=.netflix.com
+--------------------------------------------------response headers:
+X-NETFLIX.NETWORKPREDICTION: {"aws":0,"oc":0,"aka":0,"asn":"12271"}
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/json
+--------------------------------------------------response headers:
+
+=
+POST /nq/iosplatform/pbo_license/~1.0.0/router HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : ios.prod.ftl.netflix.com
+CONTENT-ENCODING    : msl_v1
+X-ALLOWCOMPRESSION  : false
+X-NETFLIX.CLIENT.TYPE: argo
+X-CLIENT-REQUEST-ID : 259532007330110
+USER-AGENT          : Argo/2925 CFNetwork/1107.1 Darwin/19.0.0
+X-NETFLIX.CLIENT.IOSVERSION: 13.1
+X-NETFLIX.CLIENT.IDIOM: pad
+X-NETFLIX.PBOBRAHV  : 14
+X-NETFLIX.REQUEST.EXPIRY.TIMEOUT: 15000
+X-NETFLIX.REQUEST.ATTEMPT: 1
+X-NETFLIX.CLIENT.APPVERSION: 12.13.0
+ACCEPT-LANGUAGE     : en-us
+ACCEPT              : */*
+CONTENT-TYPE        : application/json
+ACCEPT-ENCODING     : gzip, deflate, br
+X-NETFLIX.ARGO.TRANSLATED: true
+X-NETFLIX.ESN       : NFAPPL-01-IPAD5=1-46209A03AF04033E7908FBCF99803FC17824A5EB7F5F33FD57591AD2B1AA21BA
+COOKIE              : memclid=TkZBUFBMLTAxLUlQQUQ1PTEtNDYyMDlBMDNBRjA0MDMzRTc5MDhGQkNGOTk4MDNGQzE3ODI0QTVFQjdGNUYzM0ZENTc1OTFBRDJCMUFBMjFCQQ; nfvdid=BQFmAAEBEKPdk-mWoen2pW6u1sb0FWFgZrGblzrwPHxXPBG7Yh0z4GGfoBut_QUKGT6pMB8XVRK2jWjwgy6BjwgZl7x4dxXF-3BAP5UidJkdFGCTY3ZFIl2N8O9Nhtmooy7KOs1JtJ7XO3pcwid2RSHzRmjdptr_
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:58:05 GMT
+--------------------------------------------------response headers:
+SERVER              : nq_iosplatform_pbo_license-prod-~1.0.0 5a1efeb2-cebf-4864-99b7-6db1dcd0aeab
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+X-NETFLIX.PROXY.EXECUTION-TIME: 61
+--------------------------------------------------response headers:
+X-NETFLIX.NFSTATUS  : 1_1
+--------------------------------------------------response headers:
+VIA                 : 2 i-0dfe93368b255b8b9 (us-east-1)
+--------------------------------------------------response headers:
+X-ORIGINATING-URL   : https://ios.prod.ftl.netflix.com:7009/nq/iosplatform/pbo_license/~1.0.0/router
+--------------------------------------------------response headers:
+SET-COOKIE          : memclid=TkZBUFBMLTAxLUlQQUQ1PTEtNDYyMDlBMDNBRjA0MDMzRTc5MDhGQkNGOTk4MDNGQzE3ODI0QTVFQjdGNUYzM0ZENTc1OTFBRDJCMUFBMjFCQQ; Max-Age=31536000; Expires=Fri, 11 Dec 2020 01:58:05 GMT; Path=/; Domain=.netflix.com
+--------------------------------------------------response headers:
+X-NETFLIX.NETWORKPREDICTION: {"aws":0,"oc":0,"aka":0,"asn":"12271"}
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/json
+--------------------------------------------------response headers:
+
+=
+GET /ftl/probe?monotonic=true&iter=0&device=ios HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : ios.prod.ftl.netflix.com
+ACCEPT              : */*
+ACCEPT-ENCODING     : gzip, deflate, br
+X-NETFLIX.ARGO.TRANSLATED: true
+X-NETFLIX.ESN       : NFAPPL-01-IPAD5=1-46209A03AF04033E7908FBCF99803FC17824A5EB7F5F33FD57591AD2B1AA21BA
+USER-AGENT          : Argo/2925 CFNetwork/1107.1 Darwin/19.0.0
+ACCEPT-LANGUAGE     : en-us
+X-NETFLIX.REQUEST.ATTEMPT: 1
+COOKIE              : nfvdid=BQFmAAEBEKPdk-mWoen2pW6u1sb0FWFgZrGblzrwPHxXPBG7Yh0z4GGfoBut_QUKGT6pMB8XVRK2jWjwgy6BjwgZl7x4dxXF-3BAP5UidJkdFGCTY3ZFIl2N8O9Nhtmooy7KOs1JtJ7XO3pcwid2RSHzRmjdptr_
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:58:05 GMT
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 724
+--------------------------------------------------response headers:
+SERVER              : api-prod-ftl i-06e3e5cb32b76eb10
+--------------------------------------------------response headers:
+X-NETFLIX.PROXY.EXECUTION-TIME: 11
+--------------------------------------------------response headers:
+X-NETFLIX.NFSTATUS  : 1_1
+--------------------------------------------------response headers:
+X-NETFLIX.EXECUTION-TIME: 1
+--------------------------------------------------response headers:
+X-NETFLIX.REQUEST.TOPLEVEL.UUID: d1e22c30-d908-49fe-ae7f-2ab19df63595-65855464
+--------------------------------------------------response headers:
+VIA                 : 2 i-0dd3b02976815541b (us-east-1)
+--------------------------------------------------response headers:
+X-ORIGINATING-URL   : https://ios.prod.ftl.netflix.com:7009/ftl/probe?iter=0&monotonic=true&device=ios
+--------------------------------------------------response headers:
+X-NETFLIX.NETWORKPREDICTION: {"aws":0,"oc":0,"aka":0,"asn":"12271"}
+--------------------------------------------------response headers:
+X-ROBOTS-TAG        : noindex, nofollow
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/json;charset=ISO-8859-1
+--------------------------------------------------response headers:
+CACHE-CONTROL       : private, no-cache, no-store, must-revalidate
+--------------------------------------------------response headers:
+
+=
+GET /ftl/probe?data=5120 HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : gfoqf4kmt2wk32e4t6wa2-use1.r.nflxso.net
+CONNECTION          : keep-alive
+X-NETFLIX.ESN       : NFAPPL-01-IPAD5=1-46209A03AF04033E7908FBCF99803FC17824A5EB7F5F33FD57591AD2B1AA21BA
+ACCEPT              : */*
+USER-AGENT          : Argo/2925 CFNetwork/1107.1 Darwin/19.0.0
+ACCEPT-LANGUAGE     : en-us
+X-NETFLIX.REQUEST.ATTEMPT: 1
+ACCEPT-ENCODING     : gzip, deflate, br
+--------------------------------------------------response headers:
+CACHE-CONTROL       : private, no-cache, no-store, must-revalidate
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/octet-stream
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:58:06 GMT
+--------------------------------------------------response headers:
+SERVER              : api-prod-ftl i-06e3e5cb32b76eb10
+--------------------------------------------------response headers:
+VIA                 : 1.1 i-0e0c430050ba1ea88 (us-east-1)
+--------------------------------------------------response headers:
+X-FTL-PROBE-DATA    : i9YVUM4XqNI
+--------------------------------------------------response headers:
+X-NETFLIX.EXECUTION-TIME: 2
+--------------------------------------------------response headers:
+X-NETFLIX.NETWORKPREDICTION: {"aws":0,"oc":0,"aka":0,"asn":"12271"}
+--------------------------------------------------response headers:
+X-NETFLIX.NFSTATUS  : 1_1
+--------------------------------------------------response headers:
+X-NETFLIX.PROXY.EXECUTION-TIME: 6
+--------------------------------------------------response headers:
+X-NETFLIX.REQUEST.TOPLEVEL.UUID: 43c02236-9bd2-4534-b7dc-b5a5d3be605a-338947786
+--------------------------------------------------response headers:
+X-ORIGINATING-URL   : https://gfoqf4kmt2wk32e4t6wa2-use1.r.nflxso.net/ftl/probe?data=5120
+--------------------------------------------------response headers:
+X-ROBOTS-TAG        : noindex, nofollow
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 5120
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+
+=
+GET /ftl/probe?data=5120 HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : oca-api.us-east-1.origin.prodaa.netflix.com
+ACCEPT              : */*
+CONNECTION          : keep-alive
+X-NETFLIX.ESN       : NFAPPL-01-IPAD5=1-46209A03AF04033E7908FBCF99803FC17824A5EB7F5F33FD57591AD2B1AA21BA
+COOKIE              : nfvdid=BQFmAAEBEKPdk-mWoen2pW6u1sb0FWFgZrGblzrwPHxXPBG7Yh0z4GGfoBut_QUKGT6pMB8XVRK2jWjwgy6BjwgZl7x4dxXF-3BAP5UidJkdFGCTY3ZFIl2N8O9Nhtmooy7KOs1JtJ7XO3pcwid2RSHzRmjdptr_
+ACCEPT-LANGUAGE     : en-us
+X-NETFLIX.REQUEST.ATTEMPT: 1
+ACCEPT-ENCODING     : gzip, deflate, br
+USER-AGENT          : Argo/2925 CFNetwork/1107.1 Darwin/19.0.0
+--------------------------------------------------response headers:
+CACHE-CONTROL       : private, no-cache, no-store, must-revalidate
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/octet-stream
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:58:06 GMT
+--------------------------------------------------response headers:
+SERVER              : api-prod-ftl i-081b86558ee9ada0b
+--------------------------------------------------response headers:
+VIA                 : 1.1 i-018bf10b6ae46d6ef (us-east-1)
+--------------------------------------------------response headers:
+X-FTL-PROBE-DATA    : aSZRjizn7Aw
+--------------------------------------------------response headers:
+X-NETFLIX.EXECUTION-TIME: 1
+--------------------------------------------------response headers:
+X-NETFLIX.NETWORKPREDICTION: {"aws":0,"oc":0,"aka":0,"asn":"12271"}
+--------------------------------------------------response headers:
+X-NETFLIX.NFSTATUS  : 1_1
+--------------------------------------------------response headers:
+X-NETFLIX.PROXY.EXECUTION-TIME: 9
+--------------------------------------------------response headers:
+X-NETFLIX.REQUEST.TOPLEVEL.UUID: 7f0b7405-6fa0-499e-8f40-32bdcdd232f9-340147574
+--------------------------------------------------response headers:
+X-ORIGINATING-URL   : https://oca-api.us-east-1.origin.prodaa.netflix.com/ftl/probe?data=5120
+--------------------------------------------------response headers:
+X-ROBOTS-TAG        : noindex, nofollow
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 5120
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+
+=
+GET /ftl/probe?data=5120 HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : anycast.ftl.netflix.com
+ACCEPT              : */*
+CONNECTION          : keep-alive
+X-NETFLIX.ESN       : NFAPPL-01-IPAD5=1-46209A03AF04033E7908FBCF99803FC17824A5EB7F5F33FD57591AD2B1AA21BA
+COOKIE              : nfvdid=BQFmAAEBEKPdk-mWoen2pW6u1sb0FWFgZrGblzrwPHxXPBG7Yh0z4GGfoBut_QUKGT6pMB8XVRK2jWjwgy6BjwgZl7x4dxXF-3BAP5UidJkdFGCTY3ZFIl2N8O9Nhtmooy7KOs1JtJ7XO3pcwid2RSHzRmjdptr_
+ACCEPT-LANGUAGE     : en-us
+X-NETFLIX.REQUEST.ATTEMPT: 1
+ACCEPT-ENCODING     : gzip, deflate, br
+USER-AGENT          : Argo/2925 CFNetwork/1107.1 Darwin/19.0.0
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:58:06 GMT
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/octet-stream
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 5120
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+CACHE-CONTROL       : private, no-cache, no-store, must-revalidate
+--------------------------------------------------response headers:
+SERVER              : api-prod-ftl i-0eb91085a0776207a
+--------------------------------------------------response headers:
+VIA                 : 2 i-0ff8dcc9dcd02de11 (us-east-1), 1.1 c000.ewr002.ix.nflxvideo.net (FTL-GpkQ)
+--------------------------------------------------response headers:
+X-FTL-PROBE-DATA    : MOW0S3UkCck
+--------------------------------------------------response headers:
+X-NETFLIX.EXECUTION-TIME: 2
+--------------------------------------------------response headers:
+X-NETFLIX.NETWORKPREDICTION: {"aws":0,"oc":0,"aka":0,"asn":"12271"}
+--------------------------------------------------response headers:
+X-NETFLIX.NFSTATUS  : 1_1
+--------------------------------------------------response headers:
+X-NETFLIX.REQUEST.TOPLEVEL.UUID: bnoptblkfurtatm5v3vg
+--------------------------------------------------response headers:
+X-ORIGINATING-URL   : https://anycast.ftl.netflix.com/ftl/probe?data=5120
+--------------------------------------------------response headers:
+X-ROBOTS-TAG        : noindex, nofollow
+--------------------------------------------------response headers:
+
+=
+GET /ftl/probe?data=5120 HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : oca-api.us-west-2.origin.prodaa.netflix.com
+ACCEPT              : */*
+CONNECTION          : keep-alive
+X-NETFLIX.ESN       : NFAPPL-01-IPAD5=1-46209A03AF04033E7908FBCF99803FC17824A5EB7F5F33FD57591AD2B1AA21BA
+COOKIE              : nfvdid=BQFmAAEBEKPdk-mWoen2pW6u1sb0FWFgZrGblzrwPHxXPBG7Yh0z4GGfoBut_QUKGT6pMB8XVRK2jWjwgy6BjwgZl7x4dxXF-3BAP5UidJkdFGCTY3ZFIl2N8O9Nhtmooy7KOs1JtJ7XO3pcwid2RSHzRmjdptr_
+ACCEPT-LANGUAGE     : en-us
+X-NETFLIX.REQUEST.ATTEMPT: 1
+ACCEPT-ENCODING     : gzip, deflate, br
+USER-AGENT          : Argo/2925 CFNetwork/1107.1 Darwin/19.0.0
+--------------------------------------------------response headers:
+CACHE-CONTROL       : private, no-cache, no-store, must-revalidate
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/octet-stream
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:58:06 GMT
+--------------------------------------------------response headers:
+SERVER              : api-prod-ftl i-05ff0c5ec9a285173
+--------------------------------------------------response headers:
+VIA                 : 1.1 i-05a29199dd439f642 (us-west-2)
+--------------------------------------------------response headers:
+X-FTL-PROBE-DATA    : ijeMrM/2MS4
+--------------------------------------------------response headers:
+X-NETFLIX.EXECUTION-TIME: 2
+--------------------------------------------------response headers:
+X-NETFLIX.NETWORKPREDICTION: {"aws":0,"oc":0,"aka":0,"asn":"12271"}
+--------------------------------------------------response headers:
+X-NETFLIX.NFSTATUS  : 1_1
+--------------------------------------------------response headers:
+X-NETFLIX.PROXY.EXECUTION-TIME: 6
+--------------------------------------------------response headers:
+X-NETFLIX.REQUEST.TOPLEVEL.UUID: eab7ce1f-fb30-494c-b2f7-258dab353fd9-1334550
+--------------------------------------------------response headers:
+X-ORIGINATING-URL   : https://oca-api.us-west-2.origin.prodaa.netflix.com/ftl/probe?data=5120
+--------------------------------------------------response headers:
+X-ROBOTS-TAG        : noindex, nofollow
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 5120
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+
+=
+GET /ftl/probe?data=5120 HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : oca-api.eu-west-1.origin.prodaa.netflix.com
+ACCEPT              : */*
+CONNECTION          : keep-alive
+X-NETFLIX.ESN       : NFAPPL-01-IPAD5=1-46209A03AF04033E7908FBCF99803FC17824A5EB7F5F33FD57591AD2B1AA21BA
+COOKIE              : nfvdid=BQFmAAEBEKPdk-mWoen2pW6u1sb0FWFgZrGblzrwPHxXPBG7Yh0z4GGfoBut_QUKGT6pMB8XVRK2jWjwgy6BjwgZl7x4dxXF-3BAP5UidJkdFGCTY3ZFIl2N8O9Nhtmooy7KOs1JtJ7XO3pcwid2RSHzRmjdptr_
+ACCEPT-LANGUAGE     : en-us
+X-NETFLIX.REQUEST.ATTEMPT: 1
+ACCEPT-ENCODING     : gzip, deflate, br
+USER-AGENT          : Argo/2925 CFNetwork/1107.1 Darwin/19.0.0
+--------------------------------------------------response headers:
+CACHE-CONTROL       : private, no-cache, no-store, must-revalidate
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/octet-stream
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:58:06 GMT
+--------------------------------------------------response headers:
+SERVER              : api-prod-ftl i-0b1fce30bb465150f
+--------------------------------------------------response headers:
+VIA                 : 1.1 i-026a402aa7aba11f8 (eu-west-1)
+--------------------------------------------------response headers:
+X-FTL-PROBE-DATA    : bJvDwClafkI
+--------------------------------------------------response headers:
+X-NETFLIX.EXECUTION-TIME: 2
+--------------------------------------------------response headers:
+X-NETFLIX.NETWORKPREDICTION: {"aws":0,"oc":0,"aka":0,"asn":"12271"}
+--------------------------------------------------response headers:
+X-NETFLIX.NFSTATUS  : 1_1
+--------------------------------------------------response headers:
+X-NETFLIX.PROXY.EXECUTION-TIME: 5
+--------------------------------------------------response headers:
+X-NETFLIX.REQUEST.TOPLEVEL.UUID: 8e9f1163-2e13-4a61-9e86-e84177774330-24045328
+--------------------------------------------------response headers:
+X-ORIGINATING-URL   : https://oca-api.eu-west-1.origin.prodaa.netflix.com/ftl/probe?data=5120
+--------------------------------------------------response headers:
+X-ROBOTS-TAG        : noindex, nofollow
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 5120
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+
+=
+GET /ftl/probe?data=5120 HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : gfoqf4kmt2wk32e4t6wa2-use1.r.nflxso.net
+CONNECTION          : keep-alive
+X-NETFLIX.ESN       : NFAPPL-01-IPAD5=1-46209A03AF04033E7908FBCF99803FC17824A5EB7F5F33FD57591AD2B1AA21BA
+ACCEPT              : */*
+USER-AGENT          : Argo/2925 CFNetwork/1107.1 Darwin/19.0.0
+ACCEPT-LANGUAGE     : en-us
+X-NETFLIX.REQUEST.ATTEMPT: 1
+ACCEPT-ENCODING     : gzip, deflate, br
+--------------------------------------------------response headers:
+CACHE-CONTROL       : private, no-cache, no-store, must-revalidate
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/octet-stream
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:58:07 GMT
+--------------------------------------------------response headers:
+SERVER              : api-prod-ftl i-06e3e5cb32b76eb10
+--------------------------------------------------response headers:
+VIA                 : 1.1 i-023741c30a8986132 (us-east-1)
+--------------------------------------------------response headers:
+X-FTL-PROBE-DATA    : kno8Pde7gb8
+--------------------------------------------------response headers:
+X-NETFLIX.EXECUTION-TIME: 1
+--------------------------------------------------response headers:
+X-NETFLIX.NETWORKPREDICTION: {"aws":0,"oc":0,"aka":0,"asn":"12271"}
+--------------------------------------------------response headers:
+X-NETFLIX.NFSTATUS  : 1_1
+--------------------------------------------------response headers:
+X-NETFLIX.PROXY.EXECUTION-TIME: 8
+--------------------------------------------------response headers:
+X-NETFLIX.REQUEST.TOPLEVEL.UUID: a525be49-51ba-437a-9de1-97df3837eacf-341029984
+--------------------------------------------------response headers:
+X-ORIGINATING-URL   : https://gfoqf4kmt2wk32e4t6wa2-use1.r.nflxso.net/ftl/probe?data=5120
+--------------------------------------------------response headers:
+X-ROBOTS-TAG        : noindex, nofollow
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 5120
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+
+=
+GET /ftl/probe?data=5120 HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : anycast.ftl.netflix.com
+ACCEPT              : */*
+CONNECTION          : keep-alive
+X-NETFLIX.ESN       : NFAPPL-01-IPAD5=1-46209A03AF04033E7908FBCF99803FC17824A5EB7F5F33FD57591AD2B1AA21BA
+COOKIE              : nfvdid=BQFmAAEBEKPdk-mWoen2pW6u1sb0FWFgZrGblzrwPHxXPBG7Yh0z4GGfoBut_QUKGT6pMB8XVRK2jWjwgy6BjwgZl7x4dxXF-3BAP5UidJkdFGCTY3ZFIl2N8O9Nhtmooy7KOs1JtJ7XO3pcwid2RSHzRmjdptr_
+ACCEPT-LANGUAGE     : en-us
+X-NETFLIX.REQUEST.ATTEMPT: 1
+ACCEPT-ENCODING     : gzip, deflate, br
+USER-AGENT          : Argo/2925 CFNetwork/1107.1 Darwin/19.0.0
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:58:08 GMT
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/octet-stream
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 5120
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+CACHE-CONTROL       : private, no-cache, no-store, must-revalidate
+--------------------------------------------------response headers:
+SERVER              : api-prod-ftl i-0eb91085a0776207a
+--------------------------------------------------response headers:
+VIA                 : 2 i-0d8e75ea4fdedb249 (us-east-1), 1.1 c000.ewr002.ix.nflxvideo.net (FTL-q+6h)
+--------------------------------------------------response headers:
+X-FTL-PROBE-DATA    : 2Y2RppxMLCQ
+--------------------------------------------------response headers:
+X-NETFLIX.EXECUTION-TIME: 1
+--------------------------------------------------response headers:
+X-NETFLIX.NETWORKPREDICTION: {"aws":0,"oc":0,"aka":0,"asn":"12271"}
+--------------------------------------------------response headers:
+X-NETFLIX.NFSTATUS  : 1_1
+--------------------------------------------------response headers:
+X-NETFLIX.REQUEST.TOPLEVEL.UUID: bnoptbtkfurtatm5vchg
+--------------------------------------------------response headers:
+X-ORIGINATING-URL   : https://anycast.ftl.netflix.com/ftl/probe?data=5120
+--------------------------------------------------response headers:
+X-ROBOTS-TAG        : noindex, nofollow
+--------------------------------------------------response headers:
+
+=
+GET /ftl/probe?data=5120 HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : oca-api.us-east-1.origin.prodaa.netflix.com
+ACCEPT              : */*
+CONNECTION          : keep-alive
+X-NETFLIX.ESN       : NFAPPL-01-IPAD5=1-46209A03AF04033E7908FBCF99803FC17824A5EB7F5F33FD57591AD2B1AA21BA
+COOKIE              : nfvdid=BQFmAAEBEKPdk-mWoen2pW6u1sb0FWFgZrGblzrwPHxXPBG7Yh0z4GGfoBut_QUKGT6pMB8XVRK2jWjwgy6BjwgZl7x4dxXF-3BAP5UidJkdFGCTY3ZFIl2N8O9Nhtmooy7KOs1JtJ7XO3pcwid2RSHzRmjdptr_
+ACCEPT-LANGUAGE     : en-us
+X-NETFLIX.REQUEST.ATTEMPT: 1
+ACCEPT-ENCODING     : gzip, deflate, br
+USER-AGENT          : Argo/2925 CFNetwork/1107.1 Darwin/19.0.0
+--------------------------------------------------response headers:
+CACHE-CONTROL       : private, no-cache, no-store, must-revalidate
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/octet-stream
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:58:07 GMT
+--------------------------------------------------response headers:
+SERVER              : api-prod-ftl i-081b86558ee9ada0b
+--------------------------------------------------response headers:
+VIA                 : 1.1 i-065b35a33e24717f3 (us-east-1)
+--------------------------------------------------response headers:
+X-FTL-PROBE-DATA    : bt1dHisc4Jw
+--------------------------------------------------response headers:
+X-NETFLIX.EXECUTION-TIME: 2
+--------------------------------------------------response headers:
+X-NETFLIX.NETWORKPREDICTION: {"aws":0,"oc":0,"aka":0,"asn":"12271"}
+--------------------------------------------------response headers:
+X-NETFLIX.NFSTATUS  : 1_1
+--------------------------------------------------response headers:
+X-NETFLIX.PROXY.EXECUTION-TIME: 7
+--------------------------------------------------response headers:
+X-NETFLIX.REQUEST.TOPLEVEL.UUID: e6b0e55a-0d1b-4c0e-8d30-b8c9f6ea2479-339129038
+--------------------------------------------------response headers:
+X-ORIGINATING-URL   : https://oca-api.us-east-1.origin.prodaa.netflix.com/ftl/probe?data=5120
+--------------------------------------------------response headers:
+X-ROBOTS-TAG        : noindex, nofollow
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 5120
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+
+=
+GET /ftl/probe?data=5120 HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : oca-api.us-west-2.origin.prodaa.netflix.com
+ACCEPT              : */*
+CONNECTION          : keep-alive
+X-NETFLIX.ESN       : NFAPPL-01-IPAD5=1-46209A03AF04033E7908FBCF99803FC17824A5EB7F5F33FD57591AD2B1AA21BA
+COOKIE              : nfvdid=BQFmAAEBEKPdk-mWoen2pW6u1sb0FWFgZrGblzrwPHxXPBG7Yh0z4GGfoBut_QUKGT6pMB8XVRK2jWjwgy6BjwgZl7x4dxXF-3BAP5UidJkdFGCTY3ZFIl2N8O9Nhtmooy7KOs1JtJ7XO3pcwid2RSHzRmjdptr_
+ACCEPT-LANGUAGE     : en-us
+X-NETFLIX.REQUEST.ATTEMPT: 1
+ACCEPT-ENCODING     : gzip, deflate, br
+USER-AGENT          : Argo/2925 CFNetwork/1107.1 Darwin/19.0.0
+--------------------------------------------------response headers:
+CACHE-CONTROL       : private, no-cache, no-store, must-revalidate
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/octet-stream
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:58:07 GMT
+--------------------------------------------------response headers:
+SERVER              : api-prod-ftl i-0bfa949c526d63bf0
+--------------------------------------------------response headers:
+VIA                 : 1.1 i-0a413859306a5b52f (us-west-2)
+--------------------------------------------------response headers:
+X-FTL-PROBE-DATA    : 6XH6VKywR9Y
+--------------------------------------------------response headers:
+X-NETFLIX.EXECUTION-TIME: 1
+--------------------------------------------------response headers:
+X-NETFLIX.NETWORKPREDICTION: {"aws":0,"oc":0,"aka":0,"asn":"12271"}
+--------------------------------------------------response headers:
+X-NETFLIX.NFSTATUS  : 1_1
+--------------------------------------------------response headers:
+X-NETFLIX.PROXY.EXECUTION-TIME: 10
+--------------------------------------------------response headers:
+X-NETFLIX.REQUEST.TOPLEVEL.UUID: 9b6d53e5-5845-4d5d-b6d8-40f6651e75da-123296698
+--------------------------------------------------response headers:
+X-ORIGINATING-URL   : https://oca-api.us-west-2.origin.prodaa.netflix.com/ftl/probe?data=5120
+--------------------------------------------------response headers:
+X-ROBOTS-TAG        : noindex, nofollow
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 5120
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+
+=
+GET /ftl/probe?data=5120 HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : oca-api.eu-west-1.origin.prodaa.netflix.com
+ACCEPT              : */*
+CONNECTION          : keep-alive
+X-NETFLIX.ESN       : NFAPPL-01-IPAD5=1-46209A03AF04033E7908FBCF99803FC17824A5EB7F5F33FD57591AD2B1AA21BA
+COOKIE              : nfvdid=BQFmAAEBEKPdk-mWoen2pW6u1sb0FWFgZrGblzrwPHxXPBG7Yh0z4GGfoBut_QUKGT6pMB8XVRK2jWjwgy6BjwgZl7x4dxXF-3BAP5UidJkdFGCTY3ZFIl2N8O9Nhtmooy7KOs1JtJ7XO3pcwid2RSHzRmjdptr_
+ACCEPT-LANGUAGE     : en-us
+X-NETFLIX.REQUEST.ATTEMPT: 1
+ACCEPT-ENCODING     : gzip, deflate, br
+USER-AGENT          : Argo/2925 CFNetwork/1107.1 Darwin/19.0.0
+--------------------------------------------------response headers:
+CACHE-CONTROL       : private, no-cache, no-store, must-revalidate
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/octet-stream
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:58:07 GMT
+--------------------------------------------------response headers:
+SERVER              : api-prod-ftl i-0a22b4b7fd11cae79
+--------------------------------------------------response headers:
+VIA                 : 1.1 i-03a03b8e468cbdf9a (eu-west-1)
+--------------------------------------------------response headers:
+X-FTL-PROBE-DATA    : 3X10HZi8yZ8
+--------------------------------------------------response headers:
+X-NETFLIX.EXECUTION-TIME: 1
+--------------------------------------------------response headers:
+X-NETFLIX.NETWORKPREDICTION: {"aws":0,"oc":0,"aka":0,"asn":"12271"}
+--------------------------------------------------response headers:
+X-NETFLIX.NFSTATUS  : 1_1
+--------------------------------------------------response headers:
+X-NETFLIX.PROXY.EXECUTION-TIME: 5
+--------------------------------------------------response headers:
+X-NETFLIX.REQUEST.TOPLEVEL.UUID: 7e4d2875-5b46-4a41-bd9a-0287d2472ffa-597358
+--------------------------------------------------response headers:
+X-ORIGINATING-URL   : https://oca-api.eu-west-1.origin.prodaa.netflix.com/ftl/probe?data=5120
+--------------------------------------------------response headers:
+X-ROBOTS-TAG        : noindex, nofollow
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 5120
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+
+=
+POST /nq/iosplatform/pbo_logblob/~1.0.0/router HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : ios.prod.ftl.netflix.com
+CONTENT-ENCODING    : msl_v1
+X-ALLOWCOMPRESSION  : false
+X-NETFLIX.CLIENT.TYPE: argo
+X-CLIENT-REQUEST-ID : 18438792841110369478
+USER-AGENT          : Argo/2925 CFNetwork/1107.1 Darwin/19.0.0
+X-NETFLIX.CLIENT.IOSVERSION: 13.1
+X-NETFLIX.CLIENT.IDIOM: pad
+X-NETFLIX.PBOBRAHV  : 5
+X-NETFLIX.REQUEST.EXPIRY.TIMEOUT: 15000
+X-NETFLIX.REQUEST.ATTEMPT: 1
+X-NETFLIX.CLIENT.APPVERSION: 12.13.0
+ACCEPT-LANGUAGE     : en-us
+X-NETFLIX.ARGO.NFNSM: 15
+ACCEPT              : */*
+CONTENT-TYPE        : application/json
+ACCEPT-ENCODING     : gzip, deflate, br
+X-NETFLIX.ARGO.TRANSLATED: true
+X-NETFLIX.ESN       : NFAPPL-01-IPAD5=1-46209A03AF04033E7908FBCF99803FC17824A5EB7F5F33FD57591AD2B1AA21BA
+COOKIE              : memclid=TkZBUFBMLTAxLUlQQUQ1PTEtNDYyMDlBMDNBRjA0MDMzRTc5MDhGQkNGOTk4MDNGQzE3ODI0QTVFQjdGNUYzM0ZENTc1OTFBRDJCMUFBMjFCQQ; nfvdid=BQFmAAEBEKPdk-mWoen2pW6u1sb0FWFgZrGblzrwPHxXPBG7Yh0z4GGfoBut_QUKGT6pMB8XVRK2jWjwgy6BjwgZl7x4dxXF-3BAP5UidJkdFGCTY3ZFIl2N8O9Nhtmooy7KOs1JtJ7XO3pcwid2RSHzRmjdptr_
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:58:08 GMT
+--------------------------------------------------response headers:
+SERVER              : nq_iosplatform_pbo_logblob-prod-~1.0.0 65342c0c-d717-46b6-b90f-62a7e9602cd9
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+X-NETFLIX.PROXY.EXECUTION-TIME: 36
+--------------------------------------------------response headers:
+X-NETFLIX.NFSTATUS  : 1_1
+--------------------------------------------------response headers:
+VIA                 : 2 i-0dfe93368b255b8b9 (us-east-1)
+--------------------------------------------------response headers:
+X-ORIGINATING-URL   : https://ios.prod.ftl.netflix.com:7009/nq/iosplatform/pbo_logblob/~1.0.0/router
+--------------------------------------------------response headers:
+SET-COOKIE          : memclid=TkZBUFBMLTAxLUlQQUQ1PTEtNDYyMDlBMDNBRjA0MDMzRTc5MDhGQkNGOTk4MDNGQzE3ODI0QTVFQjdGNUYzM0ZENTc1OTFBRDJCMUFBMjFCQQ; Max-Age=31536000; Expires=Fri, 11 Dec 2020 01:58:08 GMT; Path=/; Domain=.netflix.com
+--------------------------------------------------response headers:
+X-NETFLIX.NETWORKPREDICTION: {"aws":0,"oc":0,"aka":0,"asn":"12271"}
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/json
+--------------------------------------------------response headers:
+
+=
+POST /nq/iosplatform/pbo_logblob/~1.0.0/router HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : ios.prod.ftl.netflix.com
+CONTENT-ENCODING    : msl_v1
+X-ALLOWCOMPRESSION  : false
+X-NETFLIX.CLIENT.TYPE: argo
+X-CLIENT-REQUEST-ID : 18437664932129149482
+USER-AGENT          : Argo/2925 CFNetwork/1107.1 Darwin/19.0.0
+X-NETFLIX.CLIENT.IOSVERSION: 13.1
+X-NETFLIX.CLIENT.IDIOM: pad
+X-NETFLIX.PBOBRAHV  : 5
+X-NETFLIX.REQUEST.EXPIRY.TIMEOUT: 15000
+X-NETFLIX.REQUEST.ATTEMPT: 1
+X-NETFLIX.CLIENT.APPVERSION: 12.13.0
+ACCEPT-LANGUAGE     : en-us
+X-NETFLIX.ARGO.NFNSM: 15
+ACCEPT              : */*
+CONTENT-TYPE        : application/json
+ACCEPT-ENCODING     : gzip, deflate, br
+X-NETFLIX.ARGO.TRANSLATED: true
+X-NETFLIX.ESN       : NFAPPL-01-IPAD5=1-46209A03AF04033E7908FBCF99803FC17824A5EB7F5F33FD57591AD2B1AA21BA
+COOKIE              : memclid=TkZBUFBMLTAxLUlQQUQ1PTEtNDYyMDlBMDNBRjA0MDMzRTc5MDhGQkNGOTk4MDNGQzE3ODI0QTVFQjdGNUYzM0ZENTc1OTFBRDJCMUFBMjFCQQ; nfvdid=BQFmAAEBEKPdk-mWoen2pW6u1sb0FWFgZrGblzrwPHxXPBG7Yh0z4GGfoBut_QUKGT6pMB8XVRK2jWjwgy6BjwgZl7x4dxXF-3BAP5UidJkdFGCTY3ZFIl2N8O9Nhtmooy7KOs1JtJ7XO3pcwid2RSHzRmjdptr_
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:58:12 GMT
+--------------------------------------------------response headers:
+SERVER              : nq_iosplatform_pbo_logblob-prod-~1.0.0 080d5d35-da8f-4492-829e-48daa3815f5b
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+X-NETFLIX.PROXY.EXECUTION-TIME: 71
+--------------------------------------------------response headers:
+X-NETFLIX.NFSTATUS  : 1_1
+--------------------------------------------------response headers:
+VIA                 : 2 i-0dfe93368b255b8b9 (us-east-1)
+--------------------------------------------------response headers:
+X-ORIGINATING-URL   : https://ios.prod.ftl.netflix.com:7009/nq/iosplatform/pbo_logblob/~1.0.0/router
+--------------------------------------------------response headers:
+SET-COOKIE          : memclid=TkZBUFBMLTAxLUlQQUQ1PTEtNDYyMDlBMDNBRjA0MDMzRTc5MDhGQkNGOTk4MDNGQzE3ODI0QTVFQjdGNUYzM0ZENTc1OTFBRDJCMUFBMjFCQQ; Max-Age=31536000; Expires=Fri, 11 Dec 2020 01:58:12 GMT; Path=/; Domain=.netflix.com
+--------------------------------------------------response headers:
+X-NETFLIX.NETWORKPREDICTION: {"aws":0,"oc":0,"aka":0,"asn":"12271"}
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/json
+--------------------------------------------------response headers:
+
+=
+POST /nq/iosplatform/pbo_logblob/~1.0.0/router HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : ios.prod.ftl.netflix.com
+CONTENT-ENCODING    : msl_v1
+X-ALLOWCOMPRESSION  : false
+X-NETFLIX.CLIENT.TYPE: argo
+X-CLIENT-REQUEST-ID : 8450203888231406
+USER-AGENT          : Argo/2925 CFNetwork/1107.1 Darwin/19.0.0
+X-NETFLIX.CLIENT.IOSVERSION: 13.1
+X-NETFLIX.CLIENT.IDIOM: pad
+X-NETFLIX.PBOBRAHV  : 5
+X-NETFLIX.REQUEST.EXPIRY.TIMEOUT: 15000
+X-NETFLIX.REQUEST.ATTEMPT: 1
+X-NETFLIX.CLIENT.APPVERSION: 12.13.0
+ACCEPT-LANGUAGE     : en-us
+X-NETFLIX.ARGO.NFNSM: 15
+ACCEPT              : */*
+CONTENT-TYPE        : application/json
+ACCEPT-ENCODING     : gzip, deflate, br
+X-NETFLIX.ARGO.TRANSLATED: true
+X-NETFLIX.ESN       : NFAPPL-01-IPAD5=1-46209A03AF04033E7908FBCF99803FC17824A5EB7F5F33FD57591AD2B1AA21BA
+COOKIE              : memclid=TkZBUFBMLTAxLUlQQUQ1PTEtNDYyMDlBMDNBRjA0MDMzRTc5MDhGQkNGOTk4MDNGQzE3ODI0QTVFQjdGNUYzM0ZENTc1OTFBRDJCMUFBMjFCQQ; nfvdid=BQFmAAEBEKPdk-mWoen2pW6u1sb0FWFgZrGblzrwPHxXPBG7Yh0z4GGfoBut_QUKGT6pMB8XVRK2jWjwgy6BjwgZl7x4dxXF-3BAP5UidJkdFGCTY3ZFIl2N8O9Nhtmooy7KOs1JtJ7XO3pcwid2RSHzRmjdptr_
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:58:21 GMT
+--------------------------------------------------response headers:
+SERVER              : nq_iosplatform_pbo_logblob-prod-~1.0.0 6829a4ea-e609-4e71-822c-ce28b0952a8d
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+X-NETFLIX.PROXY.EXECUTION-TIME: 25
+--------------------------------------------------response headers:
+X-NETFLIX.NFSTATUS  : 1_1
+--------------------------------------------------response headers:
+VIA                 : 2 i-0dfe93368b255b8b9 (us-east-1)
+--------------------------------------------------response headers:
+X-ORIGINATING-URL   : https://ios.prod.ftl.netflix.com:7009/nq/iosplatform/pbo_logblob/~1.0.0/router
+--------------------------------------------------response headers:
+SET-COOKIE          : memclid=TkZBUFBMLTAxLUlQQUQ1PTEtNDYyMDlBMDNBRjA0MDMzRTc5MDhGQkNGOTk4MDNGQzE3ODI0QTVFQjdGNUYzM0ZENTc1OTFBRDJCMUFBMjFCQQ; Max-Age=31536000; Expires=Fri, 11 Dec 2020 01:58:21 GMT; Path=/; Domain=.netflix.com
+--------------------------------------------------response headers:
+X-NETFLIX.NETWORKPREDICTION: {"aws":0,"oc":0,"aka":0,"asn":"12271"}
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/json
+--------------------------------------------------response headers:
+
+=
+POST /nq/iosplatform/pbo_events/~1.0.0/router HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : ios.prod.ftl.netflix.com
+CONTENT-ENCODING    : msl_v1
+X-ALLOWCOMPRESSION  : false
+X-NETFLIX.CLIENT.TYPE: argo
+X-CLIENT-REQUEST-ID : 18440627461822316898
+USER-AGENT          : Argo/2925 CFNetwork/1107.1 Darwin/19.0.0
+X-NETFLIX.CLIENT.IOSVERSION: 13.1
+X-NETFLIX.CLIENT.IDIOM: pad
+X-NETFLIX.PBOBRAHV  : ka
+X-NETFLIX.REQUEST.EXPIRY.TIMEOUT: 15000
+X-NETFLIX.REQUEST.ATTEMPT: 1
+X-NETFLIX.CLIENT.APPVERSION: 12.13.0
+ACCEPT-LANGUAGE     : en-us
+X-NETFLIX.ARGO.NFNSM: 10
+ACCEPT              : */*
+CONTENT-TYPE        : application/json
+ACCEPT-ENCODING     : gzip, deflate, br
+X-NETFLIX.ARGO.TRANSLATED: true
+X-NETFLIX.ESN       : NFAPPL-01-IPAD5=1-46209A03AF04033E7908FBCF99803FC17824A5EB7F5F33FD57591AD2B1AA21BA
+COOKIE              : memclid=TkZBUFBMLTAxLUlQQUQ1PTEtNDYyMDlBMDNBRjA0MDMzRTc5MDhGQkNGOTk4MDNGQzE3ODI0QTVFQjdGNUYzM0ZENTc1OTFBRDJCMUFBMjFCQQ; nfvdid=BQFmAAEBEKPdk-mWoen2pW6u1sb0FWFgZrGblzrwPHxXPBG7Yh0z4GGfoBut_QUKGT6pMB8XVRK2jWjwgy6BjwgZl7x4dxXF-3BAP5UidJkdFGCTY3ZFIl2N8O9Nhtmooy7KOs1JtJ7XO3pcwid2RSHzRmjdptr_
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:58:58 GMT
+--------------------------------------------------response headers:
+SERVER              : nq_iosplatform_pbo_events-prod-~1.0.0 00be05d8-8231-41e0-927d-6aab6b533c98
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+X-NETFLIX.PROXY.EXECUTION-TIME: 30
+--------------------------------------------------response headers:
+X-NETFLIX.NFSTATUS  : 1_1
+--------------------------------------------------response headers:
+VIA                 : 2 i-0dfe93368b255b8b9 (us-east-1)
+--------------------------------------------------response headers:
+X-ORIGINATING-URL   : https://ios.prod.ftl.netflix.com:7009/nq/iosplatform/pbo_events/~1.0.0/router
+--------------------------------------------------response headers:
+SET-COOKIE          : memclid=TkZBUFBMLTAxLUlQQUQ1PTEtNDYyMDlBMDNBRjA0MDMzRTc5MDhGQkNGOTk4MDNGQzE3ODI0QTVFQjdGNUYzM0ZENTc1OTFBRDJCMUFBMjFCQQ; Max-Age=31536000; Expires=Fri, 11 Dec 2020 01:58:58 GMT; Path=/; Domain=.netflix.com
+--------------------------------------------------response headers:
+X-NETFLIX.NETWORKPREDICTION: {"aws":0,"oc":0,"aka":0,"asn":"12271"}
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/json
+--------------------------------------------------response headers:
+
+=
+GET /ftl/probe?data=5120 HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : oca-api.us-east-1.origin.prodaa.netflix.com
+ACCEPT              : */*
+CONNECTION          : keep-alive
+X-NETFLIX.ESN       : NFAPPL-01-IPAD5=1-46209A03AF04033E7908FBCF99803FC17824A5EB7F5F33FD57591AD2B1AA21BA
+COOKIE              : nfvdid=BQFmAAEBEKPdk-mWoen2pW6u1sb0FWFgZrGblzrwPHxXPBG7Yh0z4GGfoBut_QUKGT6pMB8XVRK2jWjwgy6BjwgZl7x4dxXF-3BAP5UidJkdFGCTY3ZFIl2N8O9Nhtmooy7KOs1JtJ7XO3pcwid2RSHzRmjdptr_
+ACCEPT-LANGUAGE     : en-us
+X-NETFLIX.REQUEST.ATTEMPT: 1
+ACCEPT-ENCODING     : gzip, deflate, br
+USER-AGENT          : Argo/2925 CFNetwork/1107.1 Darwin/19.0.0
+--------------------------------------------------response headers:
+CACHE-CONTROL       : private, no-cache, no-store, must-revalidate
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/octet-stream
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:59:15 GMT
+--------------------------------------------------response headers:
+SERVER              : api-prod-ftl i-0add0caddd63d3c35
+--------------------------------------------------response headers:
+VIA                 : 1.1 i-00e96fb322670dbd1 (us-east-1)
+--------------------------------------------------response headers:
+X-FTL-PROBE-DATA    : dnCTHTOxLp8
+--------------------------------------------------response headers:
+X-NETFLIX.EXECUTION-TIME: 1
+--------------------------------------------------response headers:
+X-NETFLIX.NETWORKPREDICTION: {"aws":0,"oc":0,"aka":0,"asn":"12271"}
+--------------------------------------------------response headers:
+X-NETFLIX.NFSTATUS  : 1_1
+--------------------------------------------------response headers:
+X-NETFLIX.PROXY.EXECUTION-TIME: 9
+--------------------------------------------------response headers:
+X-NETFLIX.REQUEST.TOPLEVEL.UUID: 2cc33313-ed9f-432a-ac15-034b2046b637-339433674
+--------------------------------------------------response headers:
+X-ORIGINATING-URL   : https://oca-api.us-east-1.origin.prodaa.netflix.com/ftl/probe?data=5120
+--------------------------------------------------response headers:
+X-ROBOTS-TAG        : noindex, nofollow
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 5120
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+
+=
+GET /ftl/probe?data=5120 HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : gfoqf4kmt2wk32e4t6wa2-use1.r.nflxso.net
+CONNECTION          : keep-alive
+X-NETFLIX.ESN       : NFAPPL-01-IPAD5=1-46209A03AF04033E7908FBCF99803FC17824A5EB7F5F33FD57591AD2B1AA21BA
+ACCEPT              : */*
+USER-AGENT          : Argo/2925 CFNetwork/1107.1 Darwin/19.0.0
+ACCEPT-LANGUAGE     : en-us
+X-NETFLIX.REQUEST.ATTEMPT: 1
+ACCEPT-ENCODING     : gzip, deflate, br
+--------------------------------------------------response headers:
+CACHE-CONTROL       : private, no-cache, no-store, must-revalidate
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/octet-stream
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:59:16 GMT
+--------------------------------------------------response headers:
+SERVER              : api-prod-ftl i-081b86558ee9ada0b
+--------------------------------------------------response headers:
+VIA                 : 1.1 i-04689ced153d63307 (us-east-1)
+--------------------------------------------------response headers:
+X-FTL-PROBE-DATA    : NtFtDHMQ0I4
+--------------------------------------------------response headers:
+X-NETFLIX.EXECUTION-TIME: 2
+--------------------------------------------------response headers:
+X-NETFLIX.NETWORKPREDICTION: {"aws":0,"oc":0,"aka":0,"asn":"12271"}
+--------------------------------------------------response headers:
+X-NETFLIX.NFSTATUS  : 1_1
+--------------------------------------------------response headers:
+X-NETFLIX.PROXY.EXECUTION-TIME: 10
+--------------------------------------------------response headers:
+X-NETFLIX.REQUEST.TOPLEVEL.UUID: c9ba7f91-75b2-43fe-9bba-bf003207f68a-340012752
+--------------------------------------------------response headers:
+X-ORIGINATING-URL   : https://gfoqf4kmt2wk32e4t6wa2-use1.r.nflxso.net/ftl/probe?data=5120
+--------------------------------------------------response headers:
+X-ROBOTS-TAG        : noindex, nofollow
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 5120
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+
+=
+GET /ftl/probe?data=5120 HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : oca-api.us-west-2.origin.prodaa.netflix.com
+ACCEPT              : */*
+CONNECTION          : keep-alive
+X-NETFLIX.ESN       : NFAPPL-01-IPAD5=1-46209A03AF04033E7908FBCF99803FC17824A5EB7F5F33FD57591AD2B1AA21BA
+COOKIE              : nfvdid=BQFmAAEBEKPdk-mWoen2pW6u1sb0FWFgZrGblzrwPHxXPBG7Yh0z4GGfoBut_QUKGT6pMB8XVRK2jWjwgy6BjwgZl7x4dxXF-3BAP5UidJkdFGCTY3ZFIl2N8O9Nhtmooy7KOs1JtJ7XO3pcwid2RSHzRmjdptr_
+ACCEPT-LANGUAGE     : en-us
+X-NETFLIX.REQUEST.ATTEMPT: 1
+ACCEPT-ENCODING     : gzip, deflate, br
+USER-AGENT          : Argo/2925 CFNetwork/1107.1 Darwin/19.0.0
+--------------------------------------------------response headers:
+CACHE-CONTROL       : private, no-cache, no-store, must-revalidate
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/octet-stream
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:59:15 GMT
+--------------------------------------------------response headers:
+SERVER              : api-prod-ftl i-0ceecbe6bcbb120e0
+--------------------------------------------------response headers:
+VIA                 : 1.1 i-045a82100cc1c02b8 (us-west-2)
+--------------------------------------------------response headers:
+X-FTL-PROBE-DATA    : LQKIomjDNSA
+--------------------------------------------------response headers:
+X-NETFLIX.EXECUTION-TIME: 1
+--------------------------------------------------response headers:
+X-NETFLIX.NETWORKPREDICTION: {"aws":0,"oc":0,"aka":0,"asn":"12271"}
+--------------------------------------------------response headers:
+X-NETFLIX.NFSTATUS  : 1_1
+--------------------------------------------------response headers:
+X-NETFLIX.PROXY.EXECUTION-TIME: 6
+--------------------------------------------------response headers:
+X-NETFLIX.REQUEST.TOPLEVEL.UUID: 00ac7d55-0189-40ac-87ee-e09b7db37ea1-125777476
+--------------------------------------------------response headers:
+X-ORIGINATING-URL   : https://oca-api.us-west-2.origin.prodaa.netflix.com/ftl/probe?data=5120
+--------------------------------------------------response headers:
+X-ROBOTS-TAG        : noindex, nofollow
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 5120
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+
+=
+GET /ftl/probe?data=5120 HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : oca-api.eu-west-1.origin.prodaa.netflix.com
+ACCEPT              : */*
+CONNECTION          : keep-alive
+X-NETFLIX.ESN       : NFAPPL-01-IPAD5=1-46209A03AF04033E7908FBCF99803FC17824A5EB7F5F33FD57591AD2B1AA21BA
+COOKIE              : nfvdid=BQFmAAEBEKPdk-mWoen2pW6u1sb0FWFgZrGblzrwPHxXPBG7Yh0z4GGfoBut_QUKGT6pMB8XVRK2jWjwgy6BjwgZl7x4dxXF-3BAP5UidJkdFGCTY3ZFIl2N8O9Nhtmooy7KOs1JtJ7XO3pcwid2RSHzRmjdptr_
+ACCEPT-LANGUAGE     : en-us
+X-NETFLIX.REQUEST.ATTEMPT: 1
+ACCEPT-ENCODING     : gzip, deflate, br
+USER-AGENT          : Argo/2925 CFNetwork/1107.1 Darwin/19.0.0
+--------------------------------------------------response headers:
+CACHE-CONTROL       : private, no-cache, no-store, must-revalidate
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/octet-stream
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:59:16 GMT
+--------------------------------------------------response headers:
+SERVER              : api-prod-ftl i-0b1fce30bb465150f
+--------------------------------------------------response headers:
+VIA                 : 1.1 i-023f77d8f482cfb7b (eu-west-1)
+--------------------------------------------------response headers:
+X-FTL-PROBE-DATA    : Uqj14RdpSGM
+--------------------------------------------------response headers:
+X-NETFLIX.EXECUTION-TIME: 1
+--------------------------------------------------response headers:
+X-NETFLIX.NETWORKPREDICTION: {"aws":0,"oc":0,"aka":0,"asn":"12271"}
+--------------------------------------------------response headers:
+X-NETFLIX.NFSTATUS  : 1_1
+--------------------------------------------------response headers:
+X-NETFLIX.PROXY.EXECUTION-TIME: 6
+--------------------------------------------------response headers:
+X-NETFLIX.REQUEST.TOPLEVEL.UUID: a76812b8-d918-4a0b-8a5a-a04352996c86-602692
+--------------------------------------------------response headers:
+X-ORIGINATING-URL   : https://oca-api.eu-west-1.origin.prodaa.netflix.com/ftl/probe?data=5120
+--------------------------------------------------response headers:
+X-ROBOTS-TAG        : noindex, nofollow
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 5120
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+
+=
+GET /ftl/probe?data=5120 HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : anycast.ftl.netflix.com
+ACCEPT              : */*
+CONNECTION          : keep-alive
+X-NETFLIX.ESN       : NFAPPL-01-IPAD5=1-46209A03AF04033E7908FBCF99803FC17824A5EB7F5F33FD57591AD2B1AA21BA
+COOKIE              : nfvdid=BQFmAAEBEKPdk-mWoen2pW6u1sb0FWFgZrGblzrwPHxXPBG7Yh0z4GGfoBut_QUKGT6pMB8XVRK2jWjwgy6BjwgZl7x4dxXF-3BAP5UidJkdFGCTY3ZFIl2N8O9Nhtmooy7KOs1JtJ7XO3pcwid2RSHzRmjdptr_
+ACCEPT-LANGUAGE     : en-us
+X-NETFLIX.REQUEST.ATTEMPT: 1
+ACCEPT-ENCODING     : gzip, deflate, br
+USER-AGENT          : Argo/2925 CFNetwork/1107.1 Darwin/19.0.0
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:59:16 GMT
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/octet-stream
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 5120
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+CACHE-CONTROL       : private, no-cache, no-store, must-revalidate
+--------------------------------------------------response headers:
+SERVER              : api-prod-ftl i-06836c2ef1e3ecf44
+--------------------------------------------------response headers:
+VIA                 : 2 i-0635f42419633862e (us-east-1), 1.1 c000.ewr002.ix.nflxvideo.net (FTL-N6pi)
+--------------------------------------------------response headers:
+X-FTL-PROBE-DATA    : kD1T2NX87lo
+--------------------------------------------------response headers:
+X-NETFLIX.EXECUTION-TIME: 1
+--------------------------------------------------response headers:
+X-NETFLIX.NETWORKPREDICTION: {"aws":0,"oc":0,"aka":0,"asn":"12271"}
+--------------------------------------------------response headers:
+X-NETFLIX.NFSTATUS  : 1_1
+--------------------------------------------------response headers:
+X-NETFLIX.REQUEST.TOPLEVEL.UUID: bnoptt1g89aft4t8kgqg
+--------------------------------------------------response headers:
+X-ORIGINATING-URL   : https://anycast.ftl.netflix.com/ftl/probe?data=5120
+--------------------------------------------------response headers:
+X-ROBOTS-TAG        : noindex, nofollow
+--------------------------------------------------response headers:
+
+=
+POST /nq/iosplatform/pbo_logblob/~1.0.0/router HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : ios.prod.ftl.netflix.com
+CONTENT-ENCODING    : msl_v1
+X-ALLOWCOMPRESSION  : false
+X-NETFLIX.CLIENT.TYPE: argo
+X-CLIENT-REQUEST-ID : 6595448482431277
+USER-AGENT          : Argo/2925 CFNetwork/1107.1 Darwin/19.0.0
+X-NETFLIX.CLIENT.IOSVERSION: 13.1
+X-NETFLIX.CLIENT.IDIOM: pad
+X-NETFLIX.PBOBRAHV  : 5
+X-NETFLIX.REQUEST.EXPIRY.TIMEOUT: 15000
+X-NETFLIX.REQUEST.ATTEMPT: 1
+X-NETFLIX.CLIENT.APPVERSION: 12.13.0
+ACCEPT-LANGUAGE     : en-us
+X-NETFLIX.ARGO.NFNSM: 15
+ACCEPT              : */*
+CONTENT-TYPE        : application/json
+ACCEPT-ENCODING     : gzip, deflate, br
+X-NETFLIX.ARGO.TRANSLATED: true
+X-NETFLIX.ESN       : NFAPPL-01-IPAD5=1-46209A03AF04033E7908FBCF99803FC17824A5EB7F5F33FD57591AD2B1AA21BA
+COOKIE              : memclid=TkZBUFBMLTAxLUlQQUQ1PTEtNDYyMDlBMDNBRjA0MDMzRTc5MDhGQkNGOTk4MDNGQzE3ODI0QTVFQjdGNUYzM0ZENTc1OTFBRDJCMUFBMjFCQQ; nfvdid=BQFmAAEBEKPdk-mWoen2pW6u1sb0FWFgZrGblzrwPHxXPBG7Yh0z4GGfoBut_QUKGT6pMB8XVRK2jWjwgy6BjwgZl7x4dxXF-3BAP5UidJkdFGCTY3ZFIl2N8O9Nhtmooy7KOs1JtJ7XO3pcwid2RSHzRmjdptr_
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:59:17 GMT
+--------------------------------------------------response headers:
+SERVER              : nq_iosplatform_pbo_logblob-prod-~1.0.0 347f422d-d7eb-4f70-9e3f-1bb834e0e785
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+X-NETFLIX.PROXY.EXECUTION-TIME: 31
+--------------------------------------------------response headers:
+X-NETFLIX.NFSTATUS  : 1_1
+--------------------------------------------------response headers:
+VIA                 : 2 i-0dfe93368b255b8b9 (us-east-1)
+--------------------------------------------------response headers:
+X-ORIGINATING-URL   : https://ios.prod.ftl.netflix.com:7009/nq/iosplatform/pbo_logblob/~1.0.0/router
+--------------------------------------------------response headers:
+SET-COOKIE          : memclid=TkZBUFBMLTAxLUlQQUQ1PTEtNDYyMDlBMDNBRjA0MDMzRTc5MDhGQkNGOTk4MDNGQzE3ODI0QTVFQjdGNUYzM0ZENTc1OTFBRDJCMUFBMjFCQQ; Max-Age=31536000; Expires=Fri, 11 Dec 2020 01:59:17 GMT; Path=/; Domain=.netflix.com
+--------------------------------------------------response headers:
+X-NETFLIX.NETWORKPREDICTION: {"aws":0,"oc":0,"aka":0,"asn":"12271"}
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/json
+--------------------------------------------------response headers:
+
+=
+POST /cl2 HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : ichnaea-web.netflix.com
+ACCEPT              : */*
+X-NETFLIX.ARGO.NFNSM: 12
+ACCEPT-LANGUAGE     : en-us
+ACCEPT-ENCODING     : gzip, deflate, br
+CONTENT-TYPE        : application/json
+X-NETFLIX.ESN       : NFAPPL-01-IPAD5=1-46209A03AF04033E7908FBCF99803FC17824A5EB7F5F33FD57591AD2B1AA21BA
+CONTENT-LENGTH      : 7517
+USER-AGENT          : Argo/2925 CFNetwork/1107.1 Darwin/19.0.0
+CONNECTION          : keep-alive
+X-NETFLIX.REQUEST.ATTEMPT: 1
+COOKIE              : NetflixId=v%3D2%26ct%3DBQAOAAEBEMYMJa1UDv-EdME8yChbrGeB4Me1s5U2v8h_IPVQeyXqc08o-jT1qEMHBqlFJI3fFzP-4rK1GcN7MZNg66ZWzwzFEDhvFd1-ycr22r6bW1z3GTyufE2HZHcTIadOmrP41euHhMAn8n6HEL6JiTGQC3iv0xDaOb2kL5J60nU7As7hIRaLYmHHXMK3i_0FXLQGwdWTh_D7xWawfNu2KF22pL7AGC1DmVFW_DQgbSEKm43nvnFBFneZGETrA2EYNRJ3FfkTxV8R3_zldb01G3yCb-ADXVRRZotQcSQ0dyr8BzP2aeyMMZ7l6uyboNbgPLQ1dqO1LCf_4QOnn4LiecCGpcAO1XlOIo8U727Dkdx4nQIIhiIPgoDFU77vCeYeUyGEFiNNSchB3xHkkt9xSBThZwvsp1UXRJ2sTvp1uNDt0o2FrC4nQXv8xR35yPKymldhCFxNJlG02GAjR0PB-aqt_QD6jhSk3uSORxXGfcD4b3cejpcIDfwJnZUOvl5oMKiGFR6R6y-7afrwPr58JjRwdssQxIiGX54fL23U4UD__XiTRNWcRn9Yirp7A9_3-IFKJkjjj1TmenD_MU5T_7z9ekds10Fha4Xl6OiZ6zOPpAukYLAaVvDQilKGnnBzv2vVFUTUl7FnwyPmOkX8u9c_1BtnUw..%26bt%3Ddbl%26ch%3DAQEAEAABABTkrLG2peDZwQ78vL2VhD7aWD3MVvFV72k.%26mac%3DAQEAEAABABQ2b0XxD27x6IG6K97AMzC8i24aw4Vw3tI.; SecureNetflixId=v%3D2%26mac%3DAQEAEQABABR9GJZiXg0qs3y8nmKTFWrXXw44RNp-Iw0.%26dt%3D1576108437686; nfvdid=BQFmAAEBEKPdk-mWoen2pW6u1sb0FWFgZrGblzrwPHxXPBG7Yh0z4GGfoBut_QUKGT6pMB8XVRK2jWjwgy6BjwgZl7x4dxXF-3BAP5UidJkdFGCTY3ZFIl2N8O9Nhtmooy7KOs1JtJ7XO3pcwid2RSHzRmjdptr_
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-CREDENTIALS: true
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-HEADERS: Authorization,Content-Type,Accept,Cookie,X-Netflix.application.name,X-Netflix.application.version,X-Netflix.esn,X-Netflix.device.type,X-Netflix.certification.version,X-Netflix.request.uuid,X-Netflix.user.id,X-Netflix.oauth.consumer.key,X-Netflix.oauth.token,X-Netflix.ichnaea.request.type,debugRequest
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-METHODS: GET, POST, OPTIONS
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: http://ichnaea-web.netflix.com
+--------------------------------------------------response headers:
+ALLOW               : GET, POST, OPTIONS
+--------------------------------------------------response headers:
+CONTENT-TYPE        : text/plain
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:59:44 GMT
+--------------------------------------------------response headers:
+SERVER              : ichnaea i-049827d87eda2c4ca
+--------------------------------------------------response headers:
+VIA                 : 1.1 i-00397fc568e4efbaa (us-east-1)
+--------------------------------------------------response headers:
+X-ICHNAEA           : ~O=true~RL=429
+--------------------------------------------------response headers:
+X-NETFLIX.NETWORKPREDICTION: {"aws":0,"oc":0,"aka":0,"asn":"12271"}
+--------------------------------------------------response headers:
+X-NETFLIX.NFSTATUS  : 1_1
+--------------------------------------------------response headers:
+X-NETFLIX.PROXY.EXECUTION-TIME: 16
+--------------------------------------------------response headers:
+X-ORIGINATING-URL   : https://ichnaea-web.netflix.com/cl2
+--------------------------------------------------response headers:
+X-XSS-PROTECTION    : 1; mode=block; report=https://ichnaea-web.netflix.com/log/freeform/xssreport
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 0
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+
+=
+POST /nq/iosplatform/pbo_events/~1.0.0/router HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : ios.prod.ftl.netflix.com
+CONTENT-ENCODING    : msl_v1
+X-ALLOWCOMPRESSION  : false
+X-NETFLIX.CLIENT.TYPE: argo
+X-CLIENT-REQUEST-ID : 1440193625841626
+USER-AGENT          : Argo/2925 CFNetwork/1107.1 Darwin/19.0.0
+X-NETFLIX.CLIENT.IOSVERSION: 13.1
+X-NETFLIX.CLIENT.IDIOM: pad
+X-NETFLIX.PBOBRAHV  : ka
+X-NETFLIX.REQUEST.EXPIRY.TIMEOUT: 15000
+X-NETFLIX.REQUEST.ATTEMPT: 1
+X-NETFLIX.CLIENT.APPVERSION: 12.13.0
+ACCEPT-LANGUAGE     : en-us
+X-NETFLIX.ARGO.NFNSM: 10
+ACCEPT              : */*
+CONTENT-TYPE        : application/json
+ACCEPT-ENCODING     : gzip, deflate, br
+X-NETFLIX.ARGO.TRANSLATED: true
+X-NETFLIX.ESN       : NFAPPL-01-IPAD5=1-46209A03AF04033E7908FBCF99803FC17824A5EB7F5F33FD57591AD2B1AA21BA
+COOKIE              : memclid=TkZBUFBMLTAxLUlQQUQ1PTEtNDYyMDlBMDNBRjA0MDMzRTc5MDhGQkNGOTk4MDNGQzE3ODI0QTVFQjdGNUYzM0ZENTc1OTFBRDJCMUFBMjFCQQ; nfvdid=BQFmAAEBEKPdk-mWoen2pW6u1sb0FWFgZrGblzrwPHxXPBG7Yh0z4GGfoBut_QUKGT6pMB8XVRK2jWjwgy6BjwgZl7x4dxXF-3BAP5UidJkdFGCTY3ZFIl2N8O9Nhtmooy7KOs1JtJ7XO3pcwid2RSHzRmjdptr_
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:59:58 GMT
+--------------------------------------------------response headers:
+SERVER              : nq_iosplatform_pbo_events-prod-~1.0.0 c2a686f2-e8c7-41f4-8c4c-758f9dc02be4
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+X-NETFLIX.PROXY.EXECUTION-TIME: 28
+--------------------------------------------------response headers:
+X-NETFLIX.NFSTATUS  : 1_1
+--------------------------------------------------response headers:
+VIA                 : 2 i-0dfe93368b255b8b9 (us-east-1)
+--------------------------------------------------response headers:
+X-ORIGINATING-URL   : https://ios.prod.ftl.netflix.com:7009/nq/iosplatform/pbo_events/~1.0.0/router
+--------------------------------------------------response headers:
+SET-COOKIE          : memclid=TkZBUFBMLTAxLUlQQUQ1PTEtNDYyMDlBMDNBRjA0MDMzRTc5MDhGQkNGOTk4MDNGQzE3ODI0QTVFQjdGNUYzM0ZENTc1OTFBRDJCMUFBMjFCQQ; Max-Age=31536000; Expires=Fri, 11 Dec 2020 01:59:58 GMT; Path=/; Domain=.netflix.com
+--------------------------------------------------response headers:
+X-NETFLIX.NETWORKPREDICTION: {"aws":0,"oc":0,"aka":0,"asn":"12271"}
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/json
+--------------------------------------------------response headers:
+
+=
+POST /cl2 HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : ichnaea-web.netflix.com
+ACCEPT              : */*
+X-NETFLIX.ARGO.NFNSM: 12
+ACCEPT-LANGUAGE     : en-us
+ACCEPT-ENCODING     : gzip, deflate, br
+CONTENT-TYPE        : application/json
+X-NETFLIX.ESN       : NFAPPL-01-IPAD5=1-46209A03AF04033E7908FBCF99803FC17824A5EB7F5F33FD57591AD2B1AA21BA
+CONTENT-LENGTH      : 5961
+USER-AGENT          : Argo/2925 CFNetwork/1107.1 Darwin/19.0.0
+CONNECTION          : keep-alive
+X-NETFLIX.REQUEST.ATTEMPT: 1
+COOKIE              : NetflixId=v%3D2%26ct%3DBQAOAAEBEMYMJa1UDv-EdME8yChbrGeB4Me1s5U2v8h_IPVQeyXqc08o-jT1qEMHBqlFJI3fFzP-4rK1GcN7MZNg66ZWzwzFEDhvFd1-ycr22r6bW1z3GTyufE2HZHcTIadOmrP41euHhMAn8n6HEL6JiTGQC3iv0xDaOb2kL5J60nU7As7hIRaLYmHHXMK3i_0FXLQGwdWTh_D7xWawfNu2KF22pL7AGC1DmVFW_DQgbSEKm43nvnFBFneZGETrA2EYNRJ3FfkTxV8R3_zldb01G3yCb-ADXVRRZotQcSQ0dyr8BzP2aeyMMZ7l6uyboNbgPLQ1dqO1LCf_4QOnn4LiecCGpcAO1XlOIo8U727Dkdx4nQIIhiIPgoDFU77vCeYeUyGEFiNNSchB3xHkkt9xSBThZwvsp1UXRJ2sTvp1uNDt0o2FrC4nQXv8xR35yPKymldhCFxNJlG02GAjR0PB-aqt_QD6jhSk3uSORxXGfcD4b3cejpcIDfwJnZUOvl5oMKiGFR6R6y-7afrwPr58JjRwdssQxIiGX54fL23U4UD__XiTRNWcRn9Yirp7A9_3-IFKJkjjj1TmenD_MU5T_7z9ekds10Fha4Xl6OiZ6zOPpAukYLAaVvDQilKGnnBzv2vVFUTUl7FnwyPmOkX8u9c_1BtnUw..%26bt%3Ddbl%26ch%3DAQEAEAABABTkrLG2peDZwQ78vL2VhD7aWD3MVvFV72k.%26mac%3DAQEAEAABABQ2b0XxD27x6IG6K97AMzC8i24aw4Vw3tI.; SecureNetflixId=v%3D2%26mac%3DAQEAEQABABR9GJZiXg0qs3y8nmKTFWrXXw44RNp-Iw0.%26dt%3D1576108437686; nfvdid=BQFmAAEBEKPdk-mWoen2pW6u1sb0FWFgZrGblzrwPHxXPBG7Yh0z4GGfoBut_QUKGT6pMB8XVRK2jWjwgy6BjwgZl7x4dxXF-3BAP5UidJkdFGCTY3ZFIl2N8O9Nhtmooy7KOs1JtJ7XO3pcwid2RSHzRmjdptr_
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-CREDENTIALS: true
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-HEADERS: Authorization,Content-Type,Accept,Cookie,X-Netflix.application.name,X-Netflix.application.version,X-Netflix.esn,X-Netflix.device.type,X-Netflix.certification.version,X-Netflix.request.uuid,X-Netflix.user.id,X-Netflix.oauth.consumer.key,X-Netflix.oauth.token,X-Netflix.ichnaea.request.type,debugRequest
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-METHODS: GET, POST, OPTIONS
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: http://ichnaea-web.netflix.com
+--------------------------------------------------response headers:
+ALLOW               : GET, POST, OPTIONS
+--------------------------------------------------response headers:
+CONTENT-TYPE        : text/plain
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:00:03 GMT
+--------------------------------------------------response headers:
+SERVER              : ichnaea i-04a2597f40bcf93c7
+--------------------------------------------------response headers:
+VIA                 : 1.1 i-0b3ca687de08ecd38 (us-east-1)
+--------------------------------------------------response headers:
+X-ICHNAEA           : ~O=true~RL=327
+--------------------------------------------------response headers:
+X-NETFLIX.NETWORKPREDICTION: {"aws":0,"oc":0,"aka":0,"asn":"12271"}
+--------------------------------------------------response headers:
+X-NETFLIX.NFSTATUS  : 1_1
+--------------------------------------------------response headers:
+X-NETFLIX.PROXY.EXECUTION-TIME: 17
+--------------------------------------------------response headers:
+X-ORIGINATING-URL   : https://ichnaea-web.netflix.com/cl2
+--------------------------------------------------response headers:
+X-XSS-PROTECTION    : 1; mode=block; report=https://ichnaea-web.netflix.com/log/freeform/xssreport
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 0
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+
+=
+POST /nq/iosplatform/pbo_logblob/~1.0.0/router HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : ios.prod.ftl.netflix.com
+CONTENT-ENCODING    : msl_v1
+X-ALLOWCOMPRESSION  : false
+X-NETFLIX.CLIENT.TYPE: argo
+X-CLIENT-REQUEST-ID : 18437536684213025100
+USER-AGENT          : Argo/2925 CFNetwork/1107.1 Darwin/19.0.0
+X-NETFLIX.CLIENT.IOSVERSION: 13.1
+X-NETFLIX.CLIENT.IDIOM: pad
+X-NETFLIX.PBOBRAHV  : 5
+X-NETFLIX.REQUEST.EXPIRY.TIMEOUT: 15000
+X-NETFLIX.REQUEST.ATTEMPT: 1
+X-NETFLIX.CLIENT.APPVERSION: 12.13.0
+ACCEPT-LANGUAGE     : en-us
+X-NETFLIX.ARGO.NFNSM: 15
+ACCEPT              : */*
+CONTENT-TYPE        : application/json
+ACCEPT-ENCODING     : gzip, deflate, br
+X-NETFLIX.ARGO.TRANSLATED: true
+X-NETFLIX.ESN       : NFAPPL-01-IPAD5=1-46209A03AF04033E7908FBCF99803FC17824A5EB7F5F33FD57591AD2B1AA21BA
+COOKIE              : memclid=TkZBUFBMLTAxLUlQQUQ1PTEtNDYyMDlBMDNBRjA0MDMzRTc5MDhGQkNGOTk4MDNGQzE3ODI0QTVFQjdGNUYzM0ZENTc1OTFBRDJCMUFBMjFCQQ; nfvdid=BQFmAAEBEKPdk-mWoen2pW6u1sb0FWFgZrGblzrwPHxXPBG7Yh0z4GGfoBut_QUKGT6pMB8XVRK2jWjwgy6BjwgZl7x4dxXF-3BAP5UidJkdFGCTY3ZFIl2N8O9Nhtmooy7KOs1JtJ7XO3pcwid2RSHzRmjdptr_
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:00:06 GMT
+--------------------------------------------------response headers:
+SERVER              : nq_iosplatform_pbo_logblob-prod-~1.0.0 16e3576c-4a4f-4161-b0f9-90d3f8c80de2
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+X-NETFLIX.PROXY.EXECUTION-TIME: 32
+--------------------------------------------------response headers:
+X-NETFLIX.NFSTATUS  : 1_1
+--------------------------------------------------response headers:
+VIA                 : 2 i-0dfe93368b255b8b9 (us-east-1)
+--------------------------------------------------response headers:
+X-ORIGINATING-URL   : https://ios.prod.ftl.netflix.com:7009/nq/iosplatform/pbo_logblob/~1.0.0/router
+--------------------------------------------------response headers:
+SET-COOKIE          : memclid=TkZBUFBMLTAxLUlQQUQ1PTEtNDYyMDlBMDNBRjA0MDMzRTc5MDhGQkNGOTk4MDNGQzE3ODI0QTVFQjdGNUYzM0ZENTc1OTFBRDJCMUFBMjFCQQ; Max-Age=31536000; Expires=Fri, 11 Dec 2020 02:00:06 GMT; Path=/; Domain=.netflix.com
+--------------------------------------------------response headers:
+X-NETFLIX.NETWORKPREDICTION: {"aws":0,"oc":0,"aka":0,"asn":"12271"}
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/json
+--------------------------------------------------response headers:
+
+=
+POST /nq/iosplatform/pbo_events/~1.0.0/router HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : ios.prod.ftl.netflix.com
+CONTENT-ENCODING    : msl_v1
+X-ALLOWCOMPRESSION  : false
+X-NETFLIX.CLIENT.TYPE: argo
+X-CLIENT-REQUEST-ID : 18442786029421354566
+USER-AGENT          : Argo/2925 CFNetwork/1107.1 Darwin/19.0.0
+X-NETFLIX.CLIENT.IOSVERSION: 13.1
+X-NETFLIX.CLIENT.IDIOM: pad
+X-NETFLIX.PBOBRAHV  : ka
+X-NETFLIX.REQUEST.EXPIRY.TIMEOUT: 15000
+X-NETFLIX.REQUEST.ATTEMPT: 1
+X-NETFLIX.CLIENT.APPVERSION: 12.13.0
+ACCEPT-LANGUAGE     : en-us
+X-NETFLIX.ARGO.NFNSM: 10
+ACCEPT              : */*
+CONTENT-TYPE        : application/json
+ACCEPT-ENCODING     : gzip, deflate, br
+X-NETFLIX.ARGO.TRANSLATED: true
+X-NETFLIX.ESN       : NFAPPL-01-IPAD5=1-46209A03AF04033E7908FBCF99803FC17824A5EB7F5F33FD57591AD2B1AA21BA
+COOKIE              : memclid=TkZBUFBMLTAxLUlQQUQ1PTEtNDYyMDlBMDNBRjA0MDMzRTc5MDhGQkNGOTk4MDNGQzE3ODI0QTVFQjdGNUYzM0ZENTc1OTFBRDJCMUFBMjFCQQ; nfvdid=BQFmAAEBEKPdk-mWoen2pW6u1sb0FWFgZrGblzrwPHxXPBG7Yh0z4GGfoBut_QUKGT6pMB8XVRK2jWjwgy6BjwgZl7x4dxXF-3BAP5UidJkdFGCTY3ZFIl2N8O9Nhtmooy7KOs1JtJ7XO3pcwid2RSHzRmjdptr_
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:00:58 GMT
+--------------------------------------------------response headers:
+SERVER              : nq_iosplatform_pbo_events-prod-~1.0.0 6a8291c1-7f44-4308-bc7d-f8b0b4786c74
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+X-NETFLIX.PROXY.EXECUTION-TIME: 36
+--------------------------------------------------response headers:
+X-NETFLIX.NFSTATUS  : 1_1
+--------------------------------------------------response headers:
+VIA                 : 2 i-0dfe93368b255b8b9 (us-east-1)
+--------------------------------------------------response headers:
+X-ORIGINATING-URL   : https://ios.prod.ftl.netflix.com:7009/nq/iosplatform/pbo_events/~1.0.0/router
+--------------------------------------------------response headers:
+SET-COOKIE          : memclid=TkZBUFBMLTAxLUlQQUQ1PTEtNDYyMDlBMDNBRjA0MDMzRTc5MDhGQkNGOTk4MDNGQzE3ODI0QTVFQjdGNUYzM0ZENTc1OTFBRDJCMUFBMjFCQQ; Max-Age=31536000; Expires=Fri, 11 Dec 2020 02:00:58 GMT; Path=/; Domain=.netflix.com
+--------------------------------------------------response headers:
+X-NETFLIX.NETWORKPREDICTION: {"aws":0,"oc":0,"aka":0,"asn":"12271"}
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/json
+--------------------------------------------------response headers:
+
+=
+POST /cl2 HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : ichnaea-web.netflix.com
+ACCEPT              : */*
+X-NETFLIX.ARGO.NFNSM: 12
+ACCEPT-LANGUAGE     : en-us
+ACCEPT-ENCODING     : gzip, deflate, br
+CONTENT-TYPE        : application/json
+X-NETFLIX.ESN       : NFAPPL-01-IPAD5=1-46209A03AF04033E7908FBCF99803FC17824A5EB7F5F33FD57591AD2B1AA21BA
+CONTENT-LENGTH      : 6014
+USER-AGENT          : Argo/2925 CFNetwork/1107.1 Darwin/19.0.0
+CONNECTION          : keep-alive
+X-NETFLIX.REQUEST.ATTEMPT: 1
+COOKIE              : NetflixId=v%3D2%26ct%3DBQAOAAEBEMYMJa1UDv-EdME8yChbrGeB4Me1s5U2v8h_IPVQeyXqc08o-jT1qEMHBqlFJI3fFzP-4rK1GcN7MZNg66ZWzwzFEDhvFd1-ycr22r6bW1z3GTyufE2HZHcTIadOmrP41euHhMAn8n6HEL6JiTGQC3iv0xDaOb2kL5J60nU7As7hIRaLYmHHXMK3i_0FXLQGwdWTh_D7xWawfNu2KF22pL7AGC1DmVFW_DQgbSEKm43nvnFBFneZGETrA2EYNRJ3FfkTxV8R3_zldb01G3yCb-ADXVRRZotQcSQ0dyr8BzP2aeyMMZ7l6uyboNbgPLQ1dqO1LCf_4QOnn4LiecCGpcAO1XlOIo8U727Dkdx4nQIIhiIPgoDFU77vCeYeUyGEFiNNSchB3xHkkt9xSBThZwvsp1UXRJ2sTvp1uNDt0o2FrC4nQXv8xR35yPKymldhCFxNJlG02GAjR0PB-aqt_QD6jhSk3uSORxXGfcD4b3cejpcIDfwJnZUOvl5oMKiGFR6R6y-7afrwPr58JjRwdssQxIiGX54fL23U4UD__XiTRNWcRn9Yirp7A9_3-IFKJkjjj1TmenD_MU5T_7z9ekds10Fha4Xl6OiZ6zOPpAukYLAaVvDQilKGnnBzv2vVFUTUl7FnwyPmOkX8u9c_1BtnUw..%26bt%3Ddbl%26ch%3DAQEAEAABABTkrLG2peDZwQ78vL2VhD7aWD3MVvFV72k.%26mac%3DAQEAEAABABQ2b0XxD27x6IG6K97AMzC8i24aw4Vw3tI.; SecureNetflixId=v%3D2%26mac%3DAQEAEQABABR9GJZiXg0qs3y8nmKTFWrXXw44RNp-Iw0.%26dt%3D1576108437686; nfvdid=BQFmAAEBEKPdk-mWoen2pW6u1sb0FWFgZrGblzrwPHxXPBG7Yh0z4GGfoBut_QUKGT6pMB8XVRK2jWjwgy6BjwgZl7x4dxXF-3BAP5UidJkdFGCTY3ZFIl2N8O9Nhtmooy7KOs1JtJ7XO3pcwid2RSHzRmjdptr_
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-CREDENTIALS: true
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-HEADERS: Authorization,Content-Type,Accept,Cookie,X-Netflix.application.name,X-Netflix.application.version,X-Netflix.esn,X-Netflix.device.type,X-Netflix.certification.version,X-Netflix.request.uuid,X-Netflix.user.id,X-Netflix.oauth.consumer.key,X-Netflix.oauth.token,X-Netflix.ichnaea.request.type,debugRequest
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-METHODS: GET, POST, OPTIONS
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: http://ichnaea-web.netflix.com
+--------------------------------------------------response headers:
+ALLOW               : GET, POST, OPTIONS
+--------------------------------------------------response headers:
+CONTENT-TYPE        : text/plain
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:01:45 GMT
+--------------------------------------------------response headers:
+SERVER              : ichnaea i-00082ee3d85480d73
+--------------------------------------------------response headers:
+VIA                 : 1.1 i-00fff8f1dce37614c (us-east-1)
+--------------------------------------------------response headers:
+X-ICHNAEA           : ~O=true~RL=222
+--------------------------------------------------response headers:
+X-NETFLIX.NETWORKPREDICTION: {"aws":0,"oc":0,"aka":0,"asn":"12271"}
+--------------------------------------------------response headers:
+X-NETFLIX.NFSTATUS  : 1_1
+--------------------------------------------------response headers:
+X-NETFLIX.PROXY.EXECUTION-TIME: 16
+--------------------------------------------------response headers:
+X-ORIGINATING-URL   : https://ichnaea-web.netflix.com/cl2
+--------------------------------------------------response headers:
+X-XSS-PROTECTION    : 1; mode=block; report=https://ichnaea-web.netflix.com/log/freeform/xssreport
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 0
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+
+=
+POST /nq/iosplatform/pbo_events/~1.0.0/router HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : ios.prod.ftl.netflix.com
+CONTENT-ENCODING    : msl_v1
+X-ALLOWCOMPRESSION  : false
+X-NETFLIX.CLIENT.TYPE: argo
+X-CLIENT-REQUEST-ID : 3754469480543082
+USER-AGENT          : Argo/2925 CFNetwork/1107.1 Darwin/19.0.0
+X-NETFLIX.CLIENT.IOSVERSION: 13.1
+X-NETFLIX.CLIENT.IDIOM: pad
+X-NETFLIX.PBOBRAHV  : ka
+X-NETFLIX.REQUEST.EXPIRY.TIMEOUT: 15000
+X-NETFLIX.REQUEST.ATTEMPT: 1
+X-NETFLIX.CLIENT.APPVERSION: 12.13.0
+ACCEPT-LANGUAGE     : en-us
+X-NETFLIX.ARGO.NFNSM: 10
+ACCEPT              : */*
+CONTENT-TYPE        : application/json
+ACCEPT-ENCODING     : gzip, deflate, br
+X-NETFLIX.ARGO.TRANSLATED: true
+X-NETFLIX.ESN       : NFAPPL-01-IPAD5=1-46209A03AF04033E7908FBCF99803FC17824A5EB7F5F33FD57591AD2B1AA21BA
+COOKIE              : memclid=TkZBUFBMLTAxLUlQQUQ1PTEtNDYyMDlBMDNBRjA0MDMzRTc5MDhGQkNGOTk4MDNGQzE3ODI0QTVFQjdGNUYzM0ZENTc1OTFBRDJCMUFBMjFCQQ; nfvdid=BQFmAAEBEKPdk-mWoen2pW6u1sb0FWFgZrGblzrwPHxXPBG7Yh0z4GGfoBut_QUKGT6pMB8XVRK2jWjwgy6BjwgZl7x4dxXF-3BAP5UidJkdFGCTY3ZFIl2N8O9Nhtmooy7KOs1JtJ7XO3pcwid2RSHzRmjdptr_
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:01:58 GMT
+--------------------------------------------------response headers:
+SERVER              : nq_iosplatform_pbo_events-prod-~1.0.0 f018919f-907d-418f-914c-6a413ee8a7e5
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+X-NETFLIX.PROXY.EXECUTION-TIME: 47
+--------------------------------------------------response headers:
+X-NETFLIX.NFSTATUS  : 1_1
+--------------------------------------------------response headers:
+VIA                 : 2 i-0dfe93368b255b8b9 (us-east-1)
+--------------------------------------------------response headers:
+X-ORIGINATING-URL   : https://ios.prod.ftl.netflix.com:7009/nq/iosplatform/pbo_events/~1.0.0/router
+--------------------------------------------------response headers:
+SET-COOKIE          : memclid=TkZBUFBMLTAxLUlQQUQ1PTEtNDYyMDlBMDNBRjA0MDMzRTc5MDhGQkNGOTk4MDNGQzE3ODI0QTVFQjdGNUYzM0ZENTc1OTFBRDJCMUFBMjFCQQ; Max-Age=31536000; Expires=Fri, 11 Dec 2020 02:01:58 GMT; Path=/; Domain=.netflix.com
+--------------------------------------------------response headers:
+X-NETFLIX.NETWORKPREDICTION: {"aws":0,"oc":0,"aka":0,"asn":"12271"}
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/json
+--------------------------------------------------response headers:
+
+=
+POST /nq/iosplatform/pbo_events/~1.0.0/router HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : ios.prod.ftl.netflix.com
+CONTENT-ENCODING    : msl_v1
+X-ALLOWCOMPRESSION  : false
+X-NETFLIX.CLIENT.TYPE: argo
+X-CLIENT-REQUEST-ID : 18440436429330470768
+USER-AGENT          : Argo/2925 CFNetwork/1107.1 Darwin/19.0.0
+X-NETFLIX.CLIENT.IOSVERSION: 13.1
+X-NETFLIX.CLIENT.IDIOM: pad
+X-NETFLIX.PBOBRAHV  : 4
+X-NETFLIX.REQUEST.EXPIRY.TIMEOUT: 15000
+X-NETFLIX.REQUEST.ATTEMPT: 1
+X-NETFLIX.CLIENT.APPVERSION: 12.13.0
+ACCEPT-LANGUAGE     : en-us
+X-NETFLIX.ARGO.NFNSM: 11
+ACCEPT              : */*
+CONTENT-TYPE        : application/json
+ACCEPT-ENCODING     : gzip, deflate, br
+X-NETFLIX.ARGO.TRANSLATED: true
+X-NETFLIX.ESN       : NFAPPL-01-IPAD5=1-46209A03AF04033E7908FBCF99803FC17824A5EB7F5F33FD57591AD2B1AA21BA
+COOKIE              : memclid=TkZBUFBMLTAxLUlQQUQ1PTEtNDYyMDlBMDNBRjA0MDMzRTc5MDhGQkNGOTk4MDNGQzE3ODI0QTVFQjdGNUYzM0ZENTc1OTFBRDJCMUFBMjFCQQ; nfvdid=BQFmAAEBEKPdk-mWoen2pW6u1sb0FWFgZrGblzrwPHxXPBG7Yh0z4GGfoBut_QUKGT6pMB8XVRK2jWjwgy6BjwgZl7x4dxXF-3BAP5UidJkdFGCTY3ZFIl2N8O9Nhtmooy7KOs1JtJ7XO3pcwid2RSHzRmjdptr_
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:01:58 GMT
+--------------------------------------------------response headers:
+SERVER              : nq_iosplatform_pbo_events-prod-~1.0.0 de490e5f-bda8-47ff-8a49-3ec5270acfc7
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+X-NETFLIX.PROXY.EXECUTION-TIME: 25
+--------------------------------------------------response headers:
+X-NETFLIX.NFSTATUS  : 1_1
+--------------------------------------------------response headers:
+VIA                 : 2 i-0dfe93368b255b8b9 (us-east-1)
+--------------------------------------------------response headers:
+X-ORIGINATING-URL   : https://ios.prod.ftl.netflix.com:7009/nq/iosplatform/pbo_events/~1.0.0/router
+--------------------------------------------------response headers:
+SET-COOKIE          : memclid=TkZBUFBMLTAxLUlQQUQ1PTEtNDYyMDlBMDNBRjA0MDMzRTc5MDhGQkNGOTk4MDNGQzE3ODI0QTVFQjdGNUYzM0ZENTc1OTFBRDJCMUFBMjFCQQ; Max-Age=31536000; Expires=Fri, 11 Dec 2020 02:01:58 GMT; Path=/; Domain=.netflix.com
+--------------------------------------------------response headers:
+X-NETFLIX.NETWORKPREDICTION: {"aws":0,"oc":0,"aka":0,"asn":"12271"}
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/json
+--------------------------------------------------response headers:

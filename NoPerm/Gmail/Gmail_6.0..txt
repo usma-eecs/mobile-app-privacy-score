@@ -1,0 +1,67 @@
+
+=
+POST /log/batch HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : play.googleapis.com
+ACCEPT              : */*
+CONTENT-TYPE        : application/x-www-form-urlencoded
+CONTENT-LENGTH      : 8881
+ACCEPT-ENCODING     : gzip, deflate, br
+CONTENT-ENCODING    : gzip
+USER-AGENT          : Gmail/6.0.191117.990155 CFNetwork/1107.1 Darwin/19.0.0
+ACCEPT-LANGUAGE     : en-us
+X-SERVER-TOKEN      : CAESKQDyi0h8DqUMAFSt833h3eYVYiRgL6uEdcudM-Og1MVD5u_596cPaNER
+COOKIE              : NID=193=M_RL95ekqe2cqQviANl56IttU1ncUGEePSRhGzk3i2loEfeex88R8C4qskRqzyd5l3ic8EO2uqOW1DXGsA6zb-YbewotbpGi0d47oL8wd9biNub-arr2TrwnpwjDbAYbUj3iQ_n87mmrDBxIqtt7yfYUJuqJxRKGj_1D3IcLkak
+--------------------------------------------------response headers:
+CONTENT-TYPE        : text/plain; charset=UTF-8
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:21:32 GMT
+--------------------------------------------------response headers:
+SERVER              : Playlog
+--------------------------------------------------response headers:
+CACHE-CONTROL       : private
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 145
+--------------------------------------------------response headers:
+X-XSS-PROTECTION    : 0
+--------------------------------------------------response headers:
+X-FRAME-OPTIONS     : SAMEORIGIN
+--------------------------------------------------response headers:
+ALT-SVC             : quic=":443"; ma=2592000; v="46,43",h3-Q050=":443"; ma=2592000,h3-Q049=":443"; ma=2592000,h3-Q048=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000
+--------------------------------------------------response headers:
+
+=
+POST /log/batch HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : play.googleapis.com
+CONTENT-TYPE        : application/x-www-form-urlencoded
+ACCEPT              : */*
+AUTHORIZATION       : Bearer ya29.ItQBtAdn-LVYQ71Pu8KCXyFMqIxDQo6ibKJWTpOZpdEh75Va6oc85UNqLjMfnOyNOcWfg9wQ_xtYMG-0YWRzx3z7y2hfd8Ve5Ah8dK2Opa19o_5sO5jP3nCP7AeSCBZRS8n57XnRuyytb0ho4F_SoZjibYdTOQkH_V7uuqi4iNOxkuq4eBS_AltoVIRTJck3UEbHf6sevTSgJkVHw5BONXSskh3_uNudiihp2FBuEVcoJaArtQckROzFA8W6BxQpF3KDKhZXWYOY_BNUKoA0WTnjsIdM5RA
+CONTENT-ENCODING    : gzip
+ACCEPT-ENCODING     : gzip, deflate, br
+ACCEPT-LANGUAGE     : en-us
+CONTENT-LENGTH      : 2945
+USER-AGENT          : Gmail/6.0.191117.990155 CFNetwork/1107.1 Darwin/19.0.0
+X-SERVER-TOKEN      : CAESKQDyi0h8DqUMAFSt833h3eYVYiRgL6uEdcudM-Og1MVD5u_596cPaNER
+COOKIE              : NID=193=M_RL95ekqe2cqQviANl56IttU1ncUGEePSRhGzk3i2loEfeex88R8C4qskRqzyd5l3ic8EO2uqOW1DXGsA6zb-YbewotbpGi0d47oL8wd9biNub-arr2TrwnpwjDbAYbUj3iQ_n87mmrDBxIqtt7yfYUJuqJxRKGj_1D3IcLkak
+--------------------------------------------------response headers:
+CONTENT-TYPE        : text/plain; charset=UTF-8
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:21:33 GMT
+--------------------------------------------------response headers:
+SERVER              : Playlog
+--------------------------------------------------response headers:
+CACHE-CONTROL       : private
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 143
+--------------------------------------------------response headers:
+X-XSS-PROTECTION    : 0
+--------------------------------------------------response headers:
+X-FRAME-OPTIONS     : SAMEORIGIN
+--------------------------------------------------response headers:
+ALT-SVC             : quic=":443"; ma=2592000; v="46,43",h3-Q050=":443"; ma=2592000,h3-Q049=":443"; ma=2592000,h3-Q048=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000
+--------------------------------------------------response headers:

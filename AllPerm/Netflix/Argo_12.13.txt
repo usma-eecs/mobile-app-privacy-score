@@ -1,0 +1,479 @@
+
+=
+GET /iosui/ping/12.13 HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : ios.prod.ftl.netflix.com
+X-NETFLIX.ARGO.ABTESTS: 16226:2|16826:3|2144:1
+X-NETFLIX.CLIENT.APPVERSION: 12.13.0
+ACCEPT              : */*
+ACCEPT-LANGUAGE     : en-US;q=1
+ACCEPT-ENCODING     : gzip, deflate, br
+X-NETFLIX.REQUEST.ATTEMPT: 1
+X-NETFLIX.CLIENT.IDIOM: pad
+X-NETFLIX.ESN       : NFAPPL-01-IPAD5=1-46209A03AF04033E7908FBCF99803FC17824A5EB7F5F33FD57591AD2B1AA21BA
+USER-AGENT          : Argo/12.13.0 (iPad; iOS 13.1; Scale/2.00)
+X-NETFLIX.REQUEST.CLIENT.USER.GUID: ZYEUUDEBLZCHRNFGS2IEFCBY2I
+X-NETFLIX.CLIENT.TYPE: argo
+X-NETFLIX.CLIENT.IOSVERSION: 13.1
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:57:45 GMT
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 22
+--------------------------------------------------response headers:
+SERVER              : api-prod-mobile i-0f750a5938c6fec0c
+--------------------------------------------------response headers:
+X-NETFLIX.PROXY.EXECUTION-TIME: 9
+--------------------------------------------------response headers:
+X-NETFLIX.NFSTATUS  : 1_1
+--------------------------------------------------response headers:
+X-NETFLIX.EXECUTION-TIME: 1
+--------------------------------------------------response headers:
+X-NETFLIX.REQUEST.TOPLEVEL.UUID: a8bfc4d6-9e3c-45a3-83de-4df1d7cb1eb2-2125593
+--------------------------------------------------response headers:
+X-NETFLIX.ARGO.FALCOR.SCHEMAVERSION: 1.0.0
+--------------------------------------------------response headers:
+VIA                 : 2 i-012fc6233c2132748 (us-east-1)
+--------------------------------------------------response headers:
+X-ORIGINATING-URL   : https://ios.prod.ftl.netflix.com:7009/iosui/ping/12.13
+--------------------------------------------------response headers:
+SET-COOKIE          : nfvdid=BQFmAAEBEEtNm-CMHXykoBvk02m7sSdAf48zhxTX4HJ-1rG2-_pWU90k8w0JnUtmhvzXjeWbuvlM6piut2T3OeVsh8j-OPBWWWMG0ud1MuNgq7Rp2_i-Kw%3D%3D; Domain=.netflix.com; Path=/; Max-Age=31536000, memclid=TkZBUFBMLTAxLUlQQUQ1PTEtNDYyMDlBMDNBRjA0MDMzRTc5MDhGQkNGOTk4MDNGQzE3ODI0QTVFQjdGNUYzM0ZENTc1OTFBRDJCMUFBMjFCQQ; Max-Age=31536000; Expires=Fri, 11 Dec 2020 01:57:45 GMT; Path=/; Domain=.netflix.com
+--------------------------------------------------response headers:
+X-NETFLIX.NETWORKPREDICTION: {"aws":0,"oc":0,"aka":0,"asn":"12271"}
+--------------------------------------------------response headers:
+X-ROBOTS-TAG        : noindex, nofollow
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/json;charset=UTF-8
+--------------------------------------------------response headers:
+
+=
+GET /iosui/ping/12.13 HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : ios.prod.ftl.netflix.com
+X-NETFLIX.ARGO.ABTESTS: 16226:2|16826:3|2144:1
+X-NETFLIX.CLIENT.APPVERSION: 12.13.0
+ACCEPT              : */*
+ACCEPT-LANGUAGE     : en-US;q=1
+ACCEPT-ENCODING     : gzip, deflate, br
+X-NETFLIX.REQUEST.ATTEMPT: 1
+X-NETFLIX.CLIENT.IDIOM: pad
+X-NETFLIX.ESN       : NFAPPL-01-IPAD5=1-46209A03AF04033E7908FBCF99803FC17824A5EB7F5F33FD57591AD2B1AA21BA
+USER-AGENT          : Argo/12.13.0 (iPad; iOS 13.1; Scale/2.00)
+X-NETFLIX.REQUEST.CLIENT.USER.GUID: ZYEUUDEBLZCHRNFGS2IEFCBY2I
+X-NETFLIX.CLIENT.TYPE: argo
+X-NETFLIX.CLIENT.IOSVERSION: 13.1
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:57:44 GMT
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 22
+--------------------------------------------------response headers:
+SERVER              : api-prod-mobile i-074bb7598574d7068
+--------------------------------------------------response headers:
+X-NETFLIX.PROXY.EXECUTION-TIME: 11
+--------------------------------------------------response headers:
+X-NETFLIX.NFSTATUS  : 1_1
+--------------------------------------------------response headers:
+X-NETFLIX.EXECUTION-TIME: 1
+--------------------------------------------------response headers:
+X-NETFLIX.REQUEST.TOPLEVEL.UUID: a8bfc4d6-9e3c-45a3-83de-4df1d7cb1eb2-2125613
+--------------------------------------------------response headers:
+X-NETFLIX.ARGO.FALCOR.SCHEMAVERSION: 1.0.0
+--------------------------------------------------response headers:
+VIA                 : 2 i-012fc6233c2132748 (us-east-1)
+--------------------------------------------------response headers:
+X-ORIGINATING-URL   : https://ios.prod.ftl.netflix.com:7009/iosui/ping/12.13
+--------------------------------------------------response headers:
+SET-COOKIE          : nfvdid=BQFmAAEBEE0tub62Xvcy9wxcKhyawu1AREjY1jG_LWlv_zjSjp1bd8eZIu5ogSR7yzhKUsPq-VVt__KG4xlKLg8gLm1W7UjEkn2iF3-W7OfYsXs2i9qhoQ%3D%3D; Domain=.netflix.com; Path=/; Max-Age=31536000, memclid=TkZBUFBMLTAxLUlQQUQ1PTEtNDYyMDlBMDNBRjA0MDMzRTc5MDhGQkNGOTk4MDNGQzE3ODI0QTVFQjdGNUYzM0ZENTc1OTFBRDJCMUFBMjFCQQ; Max-Age=31536000; Expires=Fri, 11 Dec 2020 01:57:45 GMT; Path=/; Domain=.netflix.com
+--------------------------------------------------response headers:
+X-NETFLIX.NETWORKPREDICTION: {"aws":0,"oc":0,"aka":0,"asn":"12271"}
+--------------------------------------------------response headers:
+X-ROBOTS-TAG        : noindex, nofollow
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/json;charset=UTF-8
+--------------------------------------------------response headers:
+
+=
+GET /iosui/user/12.13?appInternalVersion=12.13.0&appVersion=12.13.0&config=%7B%22useSecureImages%22%3Atrue%2C%22billboardTrailerEnabled%22%3A%22false%22%2C%22clipsEnabled%22%3A%22false%22%2C%22titleCapabilityFlattenedShowEnabled%22%3A%22true%22%2C%22previewsBrandingEnabled%22%3A%22true%22%2C%22seasonRenewalPostPlayEnabled%22%3A%22true%22%2C%22aroGalleriesEnabled%22%3A%22true%22%2C%22interactiveFeatureSugarPuffsEnabled%22%3A%22true%22%2C%22showMoreDirectors%22%3Atrue%2C%22isDPShortPreviewEnabled%22%3Afalse%2C%22isDPAutoPlayIntoTitleEnabled%22%3Afalse%2C%22billboardEnabled%22%3A%22true%22%2C%22interactiveFeaturePIBEnabled%22%3A%22true%22%2C%22interactiveDataGatewayEnabled%22%3A%22true%22%2C%22warmerHasGenres%22%3Atrue%2C%22previewsRowEnabled%22%3A%22false%22%2C%22interactiveFeatureBadgeIconTestEnabled%22%3A%229.57.0%22%2C%22kidsMyListEnabled%22%3A%22true%22%2C%22isDPaudioSilencedByDefault%22%3Afalse%2C%22kidsBillboardEnabled%22%3A%22true%22%2C%22characterBarOnPhoneEnabled%22%3A%22false%22%2C%22contentWarningEnabled%22%3A%22true%22%2C%22postplayProductizationEnabled%22%3A%22false%22%2C%22bigRowEnabled%22%3A%22true%22%2C%22videoMerchInDPEnabled%22%3A%22false%22%2C%22interactiveFeatureAppUpdateDialogueEnabled%22%3A%22true%22%2C%22familiarityUIEnabled%22%3A%22false%22%2C%22bigrowNewUIEnabled%22%3A%22false%22%2C%22isAccountProfileLinkEnabled%22%3Afalse%2C%22interactiveFeatureSugarPuffsPreplayEnabled%22%3A%22true%22%2C%22previewsInBillboardEnabled%22%3A%22false%22%2C%22interactiveFeatureTemplatesEnabled%22%3A%22true%22%2C%22motionCharacterEnabled%22%3A%22true%22%2C%22billboardKidsTrailerEnabled%22%3A%22false%22%2C%22roarEnabled%22%3A%22true%22%2C%22topTenListEnabled%22%3A%22false%22%2C%22mobileCollectionsEnabled%22%3A%22false%22%2C%22isCreatorHomeForRMEnabled%22%3A%22true%22%2C%22interactiveFeatureMinecraftEnabled%22%3A%22true%22%2C%22kidsParityLolomoDefaultsEnabled%22%3A%22false%22%2C%22isDPInlineMerchEnabled%22%3Afalse%2C%22titleGroupsRowPatchedEnabled%22%3A%22false%22%2C%22interactiveFeatureKimmyEnabled%22%3A%22true%22%2C%22interactiveFeatureYouVsWildEnabled%22%3A%22true%22%2C%22mobileCollectionsTitleGroupsEnabled%22%3A%22false%22%2C%22kidsTrailers%22%3Atrue%2C%22isDPMerchButtonEnabled%22%3Afalse%7D&device_type=NFAPPL-01-&esn=NFAPPL-01-IPAD5%3D1-46209A03AF04033E7908FBCF99803FC17824A5EB7F5F33FD57591AD2B1AA21BA&idiom=pad&iosVersion=13.1&isTablet=true&kids=false&maxDeviceWidth=1024&model=hall&modelType=IPAD5-1&odpAware=true&path=%5B%22messaging%22%2C%22alerts%22%5D&path=%5B%22messaging%22%2C%22surveys%22%5D&path=%5B%22customerSupportVoipAuthorizations%22%5D&path=%5B%22geolocation%22%5D&path=%5B%22languages%22%5D&path=%5B%22config%22%5D&path=%5B%22ablanguagestrings%22%5D&path=%5B%22profilesList%22%5D&pathFormat=graph&pixelDensity=2.0&progressive=false&responseFormat=json HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : ios.prod.ftl.netflix.com
+X-NETFLIX.CLIENT.IOSVERSION: 13.1
+X-NETFLIX.ARGO.ABTESTS: 16226:2|16826:3|2144:1
+X-NETFLIX.CLIENT.APPVERSION: 12.13.0
+ACCEPT              : */*
+X-NETFLIX.ARGO.NFNSM: 9
+ACCEPT-LANGUAGE     : en-US;q=1
+ACCEPT-ENCODING     : gzip, deflate, br
+X-NETFLIX.ESN       : NFAPPL-01-IPAD5=1-46209A03AF04033E7908FBCF99803FC17824A5EB7F5F33FD57591AD2B1AA21BA
+X-NETFLIX.CLIENT.IDIOM: pad
+X-NETFLIX.REQUEST.ROUTING: {"path":"/nq/iosui/argo/~12.13.0/user","control_tag":"iosui_argo"}
+USER-AGENT          : Argo/12.13.0 (iPad; iOS 13.1; Scale/2.00)
+X-NETFLIX.REQUEST.CLIENT.USER.GUID: ZYEUUDEBLZCHRNFGS2IEFCBY2I
+X-NETFLIX.CLIENT.TYPE: argo
+X-NETFLIX.REQUEST.ATTEMPT: 1
+COOKIE              : NetflixId=v%3D2%26ct%3DBQAOAAEBEMYMJa1UDv-EdME8yChbrGeB4Me1s5U2v8h_IPVQeyXqc08o-jT1qEMHBqlFJI3fFzP-4rK1GcN7MZNg66ZWzwzFEDhvFd1-ycr22r6bW1z3GTyufE2HZHcTIadOmrP41euHhMAn8n6HEL6JiTGQC3iv0xDaOb2kL5J60nU7As7hIRaLYmHHXMK3i_0FXLQGwdWTh_D7xWawfNu2KF22pL7AGC1DmVFW_DQgbSEKm43nvnFBFneZGETrA2EYNRJ3FfkTxV8R3_zldb01G3yCb-ADXVRRZotQcSQ0dyr8BzP2aeyMMZ7l6uyboNbgPLQ1dqO1LCf_4QOnn4LiecCGpcAO1XlOIo8U727Dkdx4nQIIhiIPgoDFU77vCeYeUyGEFiNNSchB3xHkkt9xSBThZwvsp1UXRJ2sTvp1uNDt0o2FrC4nQXv8xR35yPKymldhCFxNJlG02GAjR0PB-aqt_QD6jhSk3uSORxXGfcD4b3cejpcIDfwJnZUOvl5oMKiGFR6R6y-7afrwPr58JjRwdssQxIiGX54fL23U4UD__XiTRNWcRn9Yirp7A9_3-IFKJkjjj1TmenD_MU5T_7z9ekds10Fha4Xl6OiZ6zOPpAukYLAaVvDQilKGnnBzv2vVFUTUl7FnwyPmOkX8u9c_1BtnUw..%26bt%3Ddbl%26ch%3DAQEAEAABABTkrLG2peDZwQ78vL2VhD7aWD3MVvFV72k.%26mac%3DAQEAEAABABQ2b0XxD27x6IG6K97AMzC8i24aw4Vw3tI.; SecureNetflixId=v%3D2%26mac%3DAQEAEQABABR9GJZiXg0qs3y8nmKTFWrXXw44RNp-Iw0.%26dt%3D1576108437686; nfvdid=BQFmAAEBEKPdk-mWoen2pW6u1sb0FWFgZrGblzrwPHxXPBG7Yh0z4GGfoBut_QUKGT6pMB8XVRK2jWjwgy6BjwgZl7x4dxXF-3BAP5UidJkdFGCTY3ZFIl2N8O9Nhtmooy7KOs1JtJ7XO3pcwid2RSHzRmjdptr_
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:57:46 GMT
+--------------------------------------------------response headers:
+SERVER              : nq_iosui_argo-prod-~12.13.0 4e852d6d-193c-4a00-9eb3-3babbf535a31
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+X-NETFLIX.PROXY.EXECUTION-TIME: 1201
+--------------------------------------------------response headers:
+X-NETFLIX.NFSTATUS  : 1_1
+--------------------------------------------------response headers:
+X-NETFLIX.ARGO.FALCOR.SCHEMAVERSION: 1.0.0
+--------------------------------------------------response headers:
+VIA                 : 2 i-0f54d6059073b9006 (us-east-1)
+--------------------------------------------------response headers:
+X-ORIGINATING-URL   : https://ios.prod.ftl.netflix.com:7009/iosui/user/12.13?esn=NFAPPL-01-IPAD5%3D1-46209A03AF04033E7908FBCF99803FC17824A5EB7F5F33FD57591AD2B1AA21BA&appVersion=12.13.0&appInternalVersion=12.13.0&device_type=NFAPPL-01-&responseFormat=json&iosVersion=13.1&modelType=IPAD5-1&path=%5B%22messaging%22%2C%22alerts%22%5D&path=%5B%22messaging%22%2C%22surveys%22%5D&path=%5B%22customerSupportVoipAuthorizations%22%5D&path=%5B%22geolocation%22%5D&path=%5B%22languages%22%5D&path=%5B%22config%22%5D&path=%5B%22ablanguagestrings%22%5D&path=%5B%22profilesList%22%5D&isTablet=true&pixelDensity=2.0&odpAware=true&pathFormat=graph&progressive=false&idiom=pad&model=hall&maxDeviceWidth=1024&config=%7B%22useSecureImages%22%3Atrue%2C%22billboardTrailerEnabled%22%3A%22false%22%2C%22clipsEnabled%22%3A%22false%22%2C%22titleCapabilityFlattenedShowEnabled%22%3A%22true%22%2C%22previewsBrandingEnabled%22%3A%22true%22%2C%22seasonRenewalPostPlayEnabled%22%3A%22true%22%2C%22aroGalleriesEnabled%22%3A%22true%22%2C%22interactiveFeatureSugarPuffsEnabled%22%3A%22true%22%2C%22showMoreDirectors%22%3Atrue%2C%22isDPShortPreviewEnabled%22%3Afalse%2C%22isDPAutoPlayIntoTitleEnabled%22%3Afalse%2C%22billboardEnabled%22%3A%22true%22%2C%22interactiveFeaturePIBEnabled%22%3A%22true%22%2C%22interactiveDataGatewayEnabled%22%3A%22true%22%2C%22warmerHasGenres%22%3Atrue%2C%22previewsRowEnabled%22%3A%22false%22%2C%22interactiveFeatureBadgeIconTestEnabled%22%3A%229.57.0%22%2C%22kidsMyListEnabled%22%3A%22true%22%2C%22isDPaudioSilencedByDefault%22%3Afalse%2C%22kidsBillboardEnabled%22%3A%22true%22%2C%22characterBarOnPhoneEnabled%22%3A%22false%22%2C%22contentWarningEnabled%22%3A%22true%22%2C%22postplayProductizationEnabled%22%3A%22false%22%2C%22bigRowEnabled%22%3A%22true%22%2C%22videoMerchInDPEnabled%22%3A%22false%22%2C%22interactiveFeatureAppUpdateDialogueEnabled%22%3A%22true%22%2C%22familiarityUIEnabled%22%3A%22false%22%2C%22bigrowNewUIEnabled%22%3A%22false%22%2C%22isAccountProfileLinkEnabled%22%3Afalse%2C%22interactiveFeatureSugarPuffsPreplayEnabled%22%3A%22true%22%2C%22previewsInBillboardEnabled%22%3A%22false%22%2C%22interactiveFeatureTemplatesEnabled%22%3A%22true%22%2C%22motionCharacterEnabled%22%3A%22true%22%2C%22billboardKidsTrailerEnabled%22%3A%22false%22%2C%22roarEnabled%22%3A%22true%22%2C%22topTenListEnabled%22%3A%22false%22%2C%22mobileCollectionsEnabled%22%3A%22false%22%2C%22isCreatorHomeForRMEnabled%22%3A%22true%22%2C%22interactiveFeatureMinecraftEnabled%22%3A%22true%22%2C%22kidsParityLolomoDefaultsEnabled%22%3A%22false%22%2C%22isDPInlineMerchEnabled%22%3Afalse%2C%22titleGroupsRowPatchedEnabled%22%3A%22false%22%2C%22interactiveFeatureKimmyEnabled%22%3A%22true%22%2C%22interactiveFeatureYouVsWildEnabled%22%3A%22true%22%2C%22mobileCollectionsTitleGroupsEnabled%22%3A%22false%22%2C%22kidsTrailers%22%3Atrue%2C%22isDPMerchButtonEnabled%22%3Afalse%7D&kids=false
+--------------------------------------------------response headers:
+SET-COOKIE          : memclid=TkZBUFBMLTAxLUlQQUQ1PTEtNDYyMDlBMDNBRjA0MDMzRTc5MDhGQkNGOTk4MDNGQzE3ODI0QTVFQjdGNUYzM0ZENTc1OTFBRDJCMUFBMjFCQQ; Max-Age=31536000; Expires=Fri, 11 Dec 2020 01:57:46 GMT; Path=/; Domain=.netflix.com
+--------------------------------------------------response headers:
+X-NETFLIX.NETWORKPREDICTION: {"aws":0,"oc":0,"aka":0,"asn":"12271"}
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/json
+--------------------------------------------------response headers:
+
+=
+POST /iosui/user/12.13 HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : ios.prod.ftl.netflix.com
+CONTENT-TYPE        : application/x-www-form-urlencoded
+X-NETFLIX.ARGO.ABTESTS: 16226:2|16826:3|2144:1
+X-NETFLIX.CLIENT.APPVERSION: 12.13.0
+ACCEPT              : */*
+CONTENT-LENGTH      : 2607
+X-NETFLIX.ARGO.NFNSM: 9
+X-NETFLIX.CLIENT.IOSVERSION: 13.1
+ACCEPT-LANGUAGE     : en-US;q=1
+ACCEPT-ENCODING     : gzip, deflate, br
+X-NETFLIX.ESN       : NFAPPL-01-IPAD5=1-46209A03AF04033E7908FBCF99803FC17824A5EB7F5F33FD57591AD2B1AA21BA
+X-NETFLIX.CLIENT.IDIOM: pad
+X-NETFLIX.REQUEST.ROUTING: {"path":"/nq/iosui/argo/~12.13.0/user","control_tag":"iosui_argo"}
+USER-AGENT          : Argo/12.13.0 (iPad; iOS 13.1; Scale/2.00)
+X-NETFLIX.REQUEST.CLIENT.USER.GUID: ZYEUUDEBLZCHRNFGS2IEFCBY2I
+X-NETFLIX.CLIENT.TYPE: argo
+X-NETFLIX.REQUEST.ATTEMPT: 1
+COOKIE              : NetflixId=v%3D2%26ct%3DBQAOAAEBEMYMJa1UDv-EdME8yChbrGeB4Me1s5U2v8h_IPVQeyXqc08o-jT1qEMHBqlFJI3fFzP-4rK1GcN7MZNg66ZWzwzFEDhvFd1-ycr22r6bW1z3GTyufE2HZHcTIadOmrP41euHhMAn8n6HEL6JiTGQC3iv0xDaOb2kL5J60nU7As7hIRaLYmHHXMK3i_0FXLQGwdWTh_D7xWawfNu2KF22pL7AGC1DmVFW_DQgbSEKm43nvnFBFneZGETrA2EYNRJ3FfkTxV8R3_zldb01G3yCb-ADXVRRZotQcSQ0dyr8BzP2aeyMMZ7l6uyboNbgPLQ1dqO1LCf_4QOnn4LiecCGpcAO1XlOIo8U727Dkdx4nQIIhiIPgoDFU77vCeYeUyGEFiNNSchB3xHkkt9xSBThZwvsp1UXRJ2sTvp1uNDt0o2FrC4nQXv8xR35yPKymldhCFxNJlG02GAjR0PB-aqt_QD6jhSk3uSORxXGfcD4b3cejpcIDfwJnZUOvl5oMKiGFR6R6y-7afrwPr58JjRwdssQxIiGX54fL23U4UD__XiTRNWcRn9Yirp7A9_3-IFKJkjjj1TmenD_MU5T_7z9ekds10Fha4Xl6OiZ6zOPpAukYLAaVvDQilKGnnBzv2vVFUTUl7FnwyPmOkX8u9c_1BtnUw..%26bt%3Ddbl%26ch%3DAQEAEAABABTkrLG2peDZwQ78vL2VhD7aWD3MVvFV72k.%26mac%3DAQEAEAABABQ2b0XxD27x6IG6K97AMzC8i24aw4Vw3tI.; SecureNetflixId=v%3D2%26mac%3DAQEAEQABABR9GJZiXg0qs3y8nmKTFWrXXw44RNp-Iw0.%26dt%3D1576108437686; nfvdid=BQFmAAEBEKPdk-mWoen2pW6u1sb0FWFgZrGblzrwPHxXPBG7Yh0z4GGfoBut_QUKGT6pMB8XVRK2jWjwgy6BjwgZl7x4dxXF-3BAP5UidJkdFGCTY3ZFIl2N8O9Nhtmooy7KOs1JtJ7XO3pcwid2RSHzRmjdptr_
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:57:47 GMT
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 97
+--------------------------------------------------response headers:
+SERVER              : nq_iosui_argo-prod-~12.13.0 06512209-56e3-455a-a576-453bf8259909
+--------------------------------------------------response headers:
+X-NETFLIX.PROXY.EXECUTION-TIME: 64
+--------------------------------------------------response headers:
+X-NETFLIX.NFSTATUS  : 1_1
+--------------------------------------------------response headers:
+X-NETFLIX.ARGO.FALCOR.SCHEMAVERSION: 1.0.0
+--------------------------------------------------response headers:
+VIA                 : 2 i-0b7518a21a26138d8 (us-east-1)
+--------------------------------------------------response headers:
+X-ORIGINATING-URL   : https://ios.prod.ftl.netflix.com:7009/iosui/user/12.13
+--------------------------------------------------response headers:
+SET-COOKIE          : memclid=TkZBUFBMLTAxLUlQQUQ1PTEtNDYyMDlBMDNBRjA0MDMzRTc5MDhGQkNGOTk4MDNGQzE3ODI0QTVFQjdGNUYzM0ZENTc1OTFBRDJCMUFBMjFCQQ; Max-Age=31536000; Expires=Fri, 11 Dec 2020 01:57:47 GMT; Path=/; Domain=.netflix.com
+--------------------------------------------------response headers:
+X-NETFLIX.NETWORKPREDICTION: {"aws":0,"oc":0,"aka":0,"asn":"12271"}
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/json
+--------------------------------------------------response headers:
+
+=
+GET /iosui/warmer/12.13?appInternalVersion=12.13.0&appVersion=12.13.0&clientAppCanHandleFloatingCharacterRow=true&clientAppMaxRows=40&clientAppMaxTitlesPerRow=75&clientAppViewPortWidth=6&config=%7B%22useSecureImages%22%3Atrue%2C%22billboardTrailerEnabled%22%3A%22false%22%2C%22clipsEnabled%22%3A%22false%22%2C%22titleCapabilityFlattenedShowEnabled%22%3A%22true%22%2C%22previewsBrandingEnabled%22%3A%22true%22%2C%22seasonRenewalPostPlayEnabled%22%3A%22true%22%2C%22aroGalleriesEnabled%22%3A%22true%22%2C%22interactiveFeatureSugarPuffsEnabled%22%3A%22true%22%2C%22showMoreDirectors%22%3Atrue%2C%22isDPShortPreviewEnabled%22%3Afalse%2C%22isDPAutoPlayIntoTitleEnabled%22%3Afalse%2C%22billboardEnabled%22%3A%22true%22%2C%22interactiveFeaturePIBEnabled%22%3A%22true%22%2C%22interactiveDataGatewayEnabled%22%3A%22true%22%2C%22warmerHasGenres%22%3Atrue%2C%22previewsRowEnabled%22%3A%22false%22%2C%22interactiveFeatureBadgeIconTestEnabled%22%3A%229.57.0%22%2C%22kidsMyListEnabled%22%3A%22true%22%2C%22isDPaudioSilencedByDefault%22%3Afalse%2C%22kidsBillboardEnabled%22%3A%22true%22%2C%22characterBarOnPhoneEnabled%22%3A%22false%22%2C%22contentWarningEnabled%22%3A%22true%22%2C%22postplayProductizationEnabled%22%3A%22false%22%2C%22bigRowEnabled%22%3A%22true%22%2C%22videoMerchInDPEnabled%22%3A%22false%22%2C%22interactiveFeatureAppUpdateDialogueEnabled%22%3A%22true%22%2C%22familiarityUIEnabled%22%3A%22false%22%2C%22bigrowNewUIEnabled%22%3A%22false%22%2C%22isAccountProfileLinkEnabled%22%3Afalse%2C%22interactiveFeatureSugarPuffsPreplayEnabled%22%3A%22true%22%2C%22previewsInBillboardEnabled%22%3A%22false%22%2C%22interactiveFeatureTemplatesEnabled%22%3A%22true%22%2C%22motionCharacterEnabled%22%3A%22true%22%2C%22billboardKidsTrailerEnabled%22%3A%22false%22%2C%22roarEnabled%22%3A%22true%22%2C%22topTenListEnabled%22%3A%22false%22%2C%22mobileCollectionsEnabled%22%3A%22false%22%2C%22isCreatorHomeForRMEnabled%22%3A%22true%22%2C%22interactiveFeatureMinecraftEnabled%22%3A%22true%22%2C%22kidsParityLolomoDefaultsEnabled%22%3A%22false%22%2C%22isDPInlineMerchEnabled%22%3Afalse%2C%22titleGroupsRowPatchedEnabled%22%3A%22false%22%2C%22interactiveFeatureKimmyEnabled%22%3A%22true%22%2C%22interactiveFeatureYouVsWildEnabled%22%3A%22true%22%2C%22mobileCollectionsTitleGroupsEnabled%22%3A%22false%22%2C%22kidsTrailers%22%3Atrue%2C%22isDPMerchButtonEnabled%22%3Afalse%7D&device_type=NFAPPL-01-&esn=NFAPPL-01-IPAD5%3D1-46209A03AF04033E7908FBCF99803FC17824A5EB7F5F33FD57591AD2B1AA21BA&idiom=pad&iosVersion=13.1&isTablet=true&kids=false&languages=en-US&locale=en-US&maxDeviceWidth=1024&method=get&model=hall&modelType=IPAD5-1&odpAware=true&pathFormat=graph&pixelDensity=2.0&progressive=false&refresh=%7B%22c4c601ea-c46a-41d7-bfa5-68adfbba34c2_ROOT%22%3A%7B%22c4c601ea-c46a-41d7-bfa5-68adfbba34c2_1130439X3XX1576111999225%22%3A%5B%22continueWatching%22%2C1%5D%7D%7D&renoId=28ccd011-8933-4118-b1a7-5cb2ad0e8c81-68948788&responseFormat=json&type=list HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : ios.prod.ftl.netflix.com
+X-NETFLIX.CLIENT.IOSVERSION: 13.1
+X-NETFLIX.ARGO.ABTESTS: 16226:2|16826:3|2144:1
+X-NETFLIX.CLIENT.APPVERSION: 12.13.0
+ACCEPT              : */*
+X-NETFLIX.ARGO.NFNSM: 7
+ACCEPT-LANGUAGE     : en-US;q=1
+ACCEPT-ENCODING     : gzip, deflate, br
+X-NETFLIX.ESN       : NFAPPL-01-IPAD5=1-46209A03AF04033E7908FBCF99803FC17824A5EB7F5F33FD57591AD2B1AA21BA
+X-NETFLIX.CLIENT.IDIOM: pad
+X-NETFLIX.REQUEST.ROUTING: {"path":"/nq/iosui/argo/~12.13.0/warmer","control_tag":"iosui_argo_warmer"}
+USER-AGENT          : Argo/12.13.0 (iPad; iOS 13.1; Scale/2.00)
+X-NETFLIX.REQUEST.CLIENT.USER.GUID: ZYEUUDEBLZCHRNFGS2IEFCBY2I
+X-NETFLIX.CLIENT.TYPE: argo
+X-NETFLIX.REQUEST.ATTEMPT: 1
+COOKIE              : NetflixId=v%3D2%26ct%3DBQAOAAEBEMYMJa1UDv-EdME8yChbrGeB4Me1s5U2v8h_IPVQeyXqc08o-jT1qEMHBqlFJI3fFzP-4rK1GcN7MZNg66ZWzwzFEDhvFd1-ycr22r6bW1z3GTyufE2HZHcTIadOmrP41euHhMAn8n6HEL6JiTGQC3iv0xDaOb2kL5J60nU7As7hIRaLYmHHXMK3i_0FXLQGwdWTh_D7xWawfNu2KF22pL7AGC1DmVFW_DQgbSEKm43nvnFBFneZGETrA2EYNRJ3FfkTxV8R3_zldb01G3yCb-ADXVRRZotQcSQ0dyr8BzP2aeyMMZ7l6uyboNbgPLQ1dqO1LCf_4QOnn4LiecCGpcAO1XlOIo8U727Dkdx4nQIIhiIPgoDFU77vCeYeUyGEFiNNSchB3xHkkt9xSBThZwvsp1UXRJ2sTvp1uNDt0o2FrC4nQXv8xR35yPKymldhCFxNJlG02GAjR0PB-aqt_QD6jhSk3uSORxXGfcD4b3cejpcIDfwJnZUOvl5oMKiGFR6R6y-7afrwPr58JjRwdssQxIiGX54fL23U4UD__XiTRNWcRn9Yirp7A9_3-IFKJkjjj1TmenD_MU5T_7z9ekds10Fha4Xl6OiZ6zOPpAukYLAaVvDQilKGnnBzv2vVFUTUl7FnwyPmOkX8u9c_1BtnUw..%26bt%3Ddbl%26ch%3DAQEAEAABABTkrLG2peDZwQ78vL2VhD7aWD3MVvFV72k.%26mac%3DAQEAEAABABQ2b0XxD27x6IG6K97AMzC8i24aw4Vw3tI.; SecureNetflixId=v%3D2%26mac%3DAQEAEQABABR9GJZiXg0qs3y8nmKTFWrXXw44RNp-Iw0.%26dt%3D1576108437686; nfvdid=BQFmAAEBEKPdk-mWoen2pW6u1sb0FWFgZrGblzrwPHxXPBG7Yh0z4GGfoBut_QUKGT6pMB8XVRK2jWjwgy6BjwgZl7x4dxXF-3BAP5UidJkdFGCTY3ZFIl2N8O9Nhtmooy7KOs1JtJ7XO3pcwid2RSHzRmjdptr_
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:57:48 GMT
+--------------------------------------------------response headers:
+SERVER              : nq_iosui_argo-prod-~12.13.0 408ed188-3f52-4a7a-8913-a6539b070c1c
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+X-NETFLIX.PROXY.EXECUTION-TIME: 638
+--------------------------------------------------response headers:
+X-NETFLIX.NFSTATUS  : 1_1
+--------------------------------------------------response headers:
+VIA                 : 2 i-0b7518a21a26138d8 (us-east-1)
+--------------------------------------------------response headers:
+X-ORIGINATING-URL   : https://ios.prod.ftl.netflix.com:7009/iosui/warmer/12.13?esn=NFAPPL-01-IPAD5%3D1-46209A03AF04033E7908FBCF99803FC17824A5EB7F5F33FD57591AD2B1AA21BA&appVersion=12.13.0&appInternalVersion=12.13.0&device_type=NFAPPL-01-&responseFormat=json&locale=en-US&type=list&clientAppCanHandleFloatingCharacterRow=true&isTablet=true&odpAware=true&pathFormat=graph&model=hall&maxDeviceWidth=1024&clientAppMaxRows=40&kids=false&clientAppViewPortWidth=6&languages=en-US&method=get&renoId=28ccd011-8933-4118-b1a7-5cb2ad0e8c81-68948788&clientAppMaxTitlesPerRow=75&refresh=%7B%22c4c601ea-c46a-41d7-bfa5-68adfbba34c2_ROOT%22%3A%7B%22c4c601ea-c46a-41d7-bfa5-68adfbba34c2_1130439X3XX1576111999225%22%3A%5B%22continueWatching%22%2C1%5D%7D%7D&iosVersion=13.1&modelType=IPAD5-1&pixelDensity=2.0&progressive=false&idiom=pad&config=%7B%22useSecureImages%22%3Atrue%2C%22billboardTrailerEnabled%22%3A%22false%22%2C%22clipsEnabled%22%3A%22false%22%2C%22titleCapabilityFlattenedShowEnabled%22%3A%22true%22%2C%22previewsBrandingEnabled%22%3A%22true%22%2C%22seasonRenewalPostPlayEnabled%22%3A%22true%22%2C%22aroGalleriesEnabled%22%3A%22true%22%2C%22interactiveFeatureSugarPuffsEnabled%22%3A%22true%22%2C%22showMoreDirectors%22%3Atrue%2C%22isDPShortPreviewEnabled%22%3Afalse%2C%22isDPAutoPlayIntoTitleEnabled%22%3Afalse%2C%22billboardEnabled%22%3A%22true%22%2C%22interactiveFeaturePIBEnabled%22%3A%22true%22%2C%22interactiveDataGatewayEnabled%22%3A%22true%22%2C%22warmerHasGenres%22%3Atrue%2C%22previewsRowEnabled%22%3A%22false%22%2C%22interactiveFeatureBadgeIconTestEnabled%22%3A%229.57.0%22%2C%22kidsMyListEnabled%22%3A%22true%22%2C%22isDPaudioSilencedByDefault%22%3Afalse%2C%22kidsBillboardEnabled%22%3A%22true%22%2C%22characterBarOnPhoneEnabled%22%3A%22false%22%2C%22contentWarningEnabled%22%3A%22true%22%2C%22postplayProductizationEnabled%22%3A%22false%22%2C%22bigRowEnabled%22%3A%22true%22%2C%22videoMerchInDPEnabled%22%3A%22false%22%2C%22interactiveFeatureAppUpdateDialogueEnabled%22%3A%22true%22%2C%22familiarityUIEnabled%22%3A%22false%22%2C%22bigrowNewUIEnabled%22%3A%22false%22%2C%22isAccountProfileLinkEnabled%22%3Afalse%2C%22interactiveFeatureSugarPuffsPreplayEnabled%22%3A%22true%22%2C%22previewsInBillboardEnabled%22%3A%22false%22%2C%22interactiveFeatureTemplatesEnabled%22%3A%22true%22%2C%22motionCharacterEnabled%22%3A%22true%22%2C%22billboardKidsTrailerEnabled%22%3A%22false%22%2C%22roarEnabled%22%3A%22true%22%2C%22topTenListEnabled%22%3A%22false%22%2C%22mobileCollectionsEnabled%22%3A%22false%22%2C%22isCreatorHomeForRMEnabled%22%3A%22true%22%2C%22interactiveFeatureMinecraftEnabled%22%3A%22true%22%2C%22kidsParityLolomoDefaultsEnabled%22%3A%22false%22%2C%22isDPInlineMerchEnabled%22%3Afalse%2C%22titleGroupsRowPatchedEnabled%22%3A%22false%22%2C%22interactiveFeatureKimmyEnabled%22%3A%22true%22%2C%22interactiveFeatureYouVsWildEnabled%22%3A%22true%22%2C%22mobileCollectionsTitleGroupsEnabled%22%3A%22false%22%2C%22kidsTrailers%22%3Atrue%2C%22isDPMerchButtonEnabled%22%3Afalse%7D
+--------------------------------------------------response headers:
+SET-COOKIE          : memclid=TkZBUFBMLTAxLUlQQUQ1PTEtNDYyMDlBMDNBRjA0MDMzRTc5MDhGQkNGOTk4MDNGQzE3ODI0QTVFQjdGNUYzM0ZENTc1OTFBRDJCMUFBMjFCQQ; Max-Age=31536000; Expires=Fri, 11 Dec 2020 01:57:48 GMT; Path=/; Domain=.netflix.com
+--------------------------------------------------response headers:
+X-NETFLIX.NETWORKPREDICTION: {"aws":0,"oc":0,"aka":0,"asn":"12271"}
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/json
+--------------------------------------------------response headers:
+
+=
+POST /iosui/user/12.13 HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : ios.prod.ftl.netflix.com
+CONTENT-TYPE        : application/x-www-form-urlencoded
+X-NETFLIX.ARGO.ABTESTS: 16226:2|16826:3|2144:1
+X-NETFLIX.CLIENT.APPVERSION: 12.13.0
+ACCEPT              : */*
+CONTENT-LENGTH      : 2649
+X-NETFLIX.ARGO.NFNSM: 9
+X-NETFLIX.CLIENT.IOSVERSION: 13.1
+ACCEPT-LANGUAGE     : en-US;q=1
+ACCEPT-ENCODING     : gzip, deflate, br
+X-NETFLIX.ESN       : NFAPPL-01-IPAD5=1-46209A03AF04033E7908FBCF99803FC17824A5EB7F5F33FD57591AD2B1AA21BA
+X-NETFLIX.CLIENT.IDIOM: pad
+X-NETFLIX.REQUEST.ROUTING: {"path":"/nq/iosui/argo/~12.13.0/user","control_tag":"iosui_argo"}
+USER-AGENT          : Argo/12.13.0 (iPad; iOS 13.1; Scale/2.00)
+X-NETFLIX.REQUEST.CLIENT.USER.GUID: ZYEUUDEBLZCHRNFGS2IEFCBY2I
+X-NETFLIX.CLIENT.TYPE: argo
+X-NETFLIX.REQUEST.ATTEMPT: 1
+COOKIE              : NetflixId=v%3D2%26ct%3DBQAOAAEBEMYMJa1UDv-EdME8yChbrGeB4Me1s5U2v8h_IPVQeyXqc08o-jT1qEMHBqlFJI3fFzP-4rK1GcN7MZNg66ZWzwzFEDhvFd1-ycr22r6bW1z3GTyufE2HZHcTIadOmrP41euHhMAn8n6HEL6JiTGQC3iv0xDaOb2kL5J60nU7As7hIRaLYmHHXMK3i_0FXLQGwdWTh_D7xWawfNu2KF22pL7AGC1DmVFW_DQgbSEKm43nvnFBFneZGETrA2EYNRJ3FfkTxV8R3_zldb01G3yCb-ADXVRRZotQcSQ0dyr8BzP2aeyMMZ7l6uyboNbgPLQ1dqO1LCf_4QOnn4LiecCGpcAO1XlOIo8U727Dkdx4nQIIhiIPgoDFU77vCeYeUyGEFiNNSchB3xHkkt9xSBThZwvsp1UXRJ2sTvp1uNDt0o2FrC4nQXv8xR35yPKymldhCFxNJlG02GAjR0PB-aqt_QD6jhSk3uSORxXGfcD4b3cejpcIDfwJnZUOvl5oMKiGFR6R6y-7afrwPr58JjRwdssQxIiGX54fL23U4UD__XiTRNWcRn9Yirp7A9_3-IFKJkjjj1TmenD_MU5T_7z9ekds10Fha4Xl6OiZ6zOPpAukYLAaVvDQilKGnnBzv2vVFUTUl7FnwyPmOkX8u9c_1BtnUw..%26bt%3Ddbl%26ch%3DAQEAEAABABTkrLG2peDZwQ78vL2VhD7aWD3MVvFV72k.%26mac%3DAQEAEAABABQ2b0XxD27x6IG6K97AMzC8i24aw4Vw3tI.; SecureNetflixId=v%3D2%26mac%3DAQEAEQABABR9GJZiXg0qs3y8nmKTFWrXXw44RNp-Iw0.%26dt%3D1576108437686; nfvdid=BQFmAAEBEKPdk-mWoen2pW6u1sb0FWFgZrGblzrwPHxXPBG7Yh0z4GGfoBut_QUKGT6pMB8XVRK2jWjwgy6BjwgZl7x4dxXF-3BAP5UidJkdFGCTY3ZFIl2N8O9Nhtmooy7KOs1JtJ7XO3pcwid2RSHzRmjdptr_
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:57:51 GMT
+--------------------------------------------------response headers:
+SERVER              : nq_iosui_argo-prod-~12.13.0 31933edc-cbf8-48f8-9b7a-f9203c6d2986
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+X-NETFLIX.PROXY.EXECUTION-TIME: 108
+--------------------------------------------------response headers:
+X-NETFLIX.NFSTATUS  : 1_1
+--------------------------------------------------response headers:
+X-NETFLIX.ARGO.FALCOR.SCHEMAVERSION: 1.0.0
+--------------------------------------------------response headers:
+VIA                 : 2 i-0b7518a21a26138d8 (us-east-1)
+--------------------------------------------------response headers:
+X-ORIGINATING-URL   : https://ios.prod.ftl.netflix.com:7009/iosui/user/12.13
+--------------------------------------------------response headers:
+SET-COOKIE          : memclid=TkZBUFBMLTAxLUlQQUQ1PTEtNDYyMDlBMDNBRjA0MDMzRTc5MDhGQkNGOTk4MDNGQzE3ODI0QTVFQjdGNUYzM0ZENTc1OTFBRDJCMUFBMjFCQQ; Max-Age=31536000; Expires=Fri, 11 Dec 2020 01:57:51 GMT; Path=/; Domain=.netflix.com
+--------------------------------------------------response headers:
+X-NETFLIX.NETWORKPREDICTION: {"aws":0,"oc":0,"aka":0,"asn":"12271"}
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/json
+--------------------------------------------------response headers:
+
+=
+POST /iosui/user/12.13 HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : ios.prod.ftl.netflix.com
+CONTENT-TYPE        : application/x-www-form-urlencoded
+X-NETFLIX.ARGO.ABTESTS: 16226:2|16826:3|2144:1
+X-NETFLIX.CLIENT.APPVERSION: 12.13.0
+ACCEPT              : */*
+CONTENT-LENGTH      : 3484
+X-NETFLIX.ARGO.NFNSM: 9
+X-NETFLIX.CLIENT.IOSVERSION: 13.1
+ACCEPT-LANGUAGE     : en-US;q=1
+ACCEPT-ENCODING     : gzip, deflate, br
+X-NETFLIX.ESN       : NFAPPL-01-IPAD5=1-46209A03AF04033E7908FBCF99803FC17824A5EB7F5F33FD57591AD2B1AA21BA
+X-NETFLIX.CLIENT.IDIOM: pad
+X-NETFLIX.REQUEST.ROUTING: {"path":"/nq/iosui/argo/~12.13.0/user","control_tag":"iosui_argo"}
+USER-AGENT          : Argo/12.13.0 (iPad; iOS 13.1; Scale/2.00)
+X-NETFLIX.REQUEST.CLIENT.USER.GUID: ZYEUUDEBLZCHRNFGS2IEFCBY2I
+X-NETFLIX.CLIENT.TYPE: argo
+X-NETFLIX.REQUEST.ATTEMPT: 1
+COOKIE              : NetflixId=v%3D2%26ct%3DBQAOAAEBEMYMJa1UDv-EdME8yChbrGeB4Me1s5U2v8h_IPVQeyXqc08o-jT1qEMHBqlFJI3fFzP-4rK1GcN7MZNg66ZWzwzFEDhvFd1-ycr22r6bW1z3GTyufE2HZHcTIadOmrP41euHhMAn8n6HEL6JiTGQC3iv0xDaOb2kL5J60nU7As7hIRaLYmHHXMK3i_0FXLQGwdWTh_D7xWawfNu2KF22pL7AGC1DmVFW_DQgbSEKm43nvnFBFneZGETrA2EYNRJ3FfkTxV8R3_zldb01G3yCb-ADXVRRZotQcSQ0dyr8BzP2aeyMMZ7l6uyboNbgPLQ1dqO1LCf_4QOnn4LiecCGpcAO1XlOIo8U727Dkdx4nQIIhiIPgoDFU77vCeYeUyGEFiNNSchB3xHkkt9xSBThZwvsp1UXRJ2sTvp1uNDt0o2FrC4nQXv8xR35yPKymldhCFxNJlG02GAjR0PB-aqt_QD6jhSk3uSORxXGfcD4b3cejpcIDfwJnZUOvl5oMKiGFR6R6y-7afrwPr58JjRwdssQxIiGX54fL23U4UD__XiTRNWcRn9Yirp7A9_3-IFKJkjjj1TmenD_MU5T_7z9ekds10Fha4Xl6OiZ6zOPpAukYLAaVvDQilKGnnBzv2vVFUTUl7FnwyPmOkX8u9c_1BtnUw..%26bt%3Ddbl%26ch%3DAQEAEAABABTkrLG2peDZwQ78vL2VhD7aWD3MVvFV72k.%26mac%3DAQEAEAABABQ2b0XxD27x6IG6K97AMzC8i24aw4Vw3tI.; SecureNetflixId=v%3D2%26mac%3DAQEAEQABABR9GJZiXg0qs3y8nmKTFWrXXw44RNp-Iw0.%26dt%3D1576108437686; nfvdid=BQFmAAEBEKPdk-mWoen2pW6u1sb0FWFgZrGblzrwPHxXPBG7Yh0z4GGfoBut_QUKGT6pMB8XVRK2jWjwgy6BjwgZl7x4dxXF-3BAP5UidJkdFGCTY3ZFIl2N8O9Nhtmooy7KOs1JtJ7XO3pcwid2RSHzRmjdptr_
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:57:54 GMT
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 93
+--------------------------------------------------response headers:
+SERVER              : nq_iosui_argo-prod-~12.13.0 0aceb372-f9c8-4da0-9db9-64637e75b893
+--------------------------------------------------response headers:
+X-NETFLIX.PROXY.EXECUTION-TIME: 111
+--------------------------------------------------response headers:
+X-NETFLIX.NFSTATUS  : 1_1
+--------------------------------------------------response headers:
+X-NETFLIX.ARGO.FALCOR.SCHEMAVERSION: 1.0.0
+--------------------------------------------------response headers:
+VIA                 : 2 i-0b7518a21a26138d8 (us-east-1)
+--------------------------------------------------response headers:
+X-ORIGINATING-URL   : https://ios.prod.ftl.netflix.com:7009/iosui/user/12.13
+--------------------------------------------------response headers:
+SET-COOKIE          : memclid=TkZBUFBMLTAxLUlQQUQ1PTEtNDYyMDlBMDNBRjA0MDMzRTc5MDhGQkNGOTk4MDNGQzE3ODI0QTVFQjdGNUYzM0ZENTc1OTFBRDJCMUFBMjFCQQ; Max-Age=31536000; Expires=Fri, 11 Dec 2020 01:57:54 GMT; Path=/; Domain=.netflix.com
+--------------------------------------------------response headers:
+X-NETFLIX.NETWORKPREDICTION: {"aws":0,"oc":0,"aka":0,"asn":"12271"}
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/json
+--------------------------------------------------response headers:
+
+=
+GET /iosui/warmer/12.13?appInternalVersion=12.13.0&appVersion=12.13.0&clientAppCanHandleFloatingCharacterRow=true&clientAppMaxRows=40&clientAppMaxTitlesPerRow=75&clientAppViewPortWidth=6&config=%7B%22useSecureImages%22%3Atrue%2C%22billboardTrailerEnabled%22%3A%22false%22%2C%22clipsEnabled%22%3A%22false%22%2C%22titleCapabilityFlattenedShowEnabled%22%3A%22true%22%2C%22previewsBrandingEnabled%22%3A%22true%22%2C%22seasonRenewalPostPlayEnabled%22%3A%22true%22%2C%22aroGalleriesEnabled%22%3A%22true%22%2C%22interactiveFeatureSugarPuffsEnabled%22%3A%22true%22%2C%22showMoreDirectors%22%3Atrue%2C%22isDPShortPreviewEnabled%22%3Afalse%2C%22isDPAutoPlayIntoTitleEnabled%22%3Afalse%2C%22billboardEnabled%22%3A%22true%22%2C%22interactiveFeaturePIBEnabled%22%3A%22true%22%2C%22interactiveDataGatewayEnabled%22%3A%22true%22%2C%22warmerHasGenres%22%3Atrue%2C%22previewsRowEnabled%22%3A%22false%22%2C%22interactiveFeatureBadgeIconTestEnabled%22%3A%229.57.0%22%2C%22kidsMyListEnabled%22%3A%22true%22%2C%22isDPaudioSilencedByDefault%22%3Afalse%2C%22kidsBillboardEnabled%22%3A%22true%22%2C%22characterBarOnPhoneEnabled%22%3A%22false%22%2C%22contentWarningEnabled%22%3A%22true%22%2C%22postplayProductizationEnabled%22%3A%22false%22%2C%22bigRowEnabled%22%3A%22true%22%2C%22videoMerchInDPEnabled%22%3A%22false%22%2C%22interactiveFeatureAppUpdateDialogueEnabled%22%3A%22true%22%2C%22familiarityUIEnabled%22%3A%22false%22%2C%22bigrowNewUIEnabled%22%3A%22false%22%2C%22isAccountProfileLinkEnabled%22%3Afalse%2C%22interactiveFeatureSugarPuffsPreplayEnabled%22%3A%22true%22%2C%22previewsInBillboardEnabled%22%3A%22false%22%2C%22interactiveFeatureTemplatesEnabled%22%3A%22true%22%2C%22motionCharacterEnabled%22%3A%22true%22%2C%22billboardKidsTrailerEnabled%22%3A%22false%22%2C%22roarEnabled%22%3A%22true%22%2C%22topTenListEnabled%22%3A%22false%22%2C%22mobileCollectionsEnabled%22%3A%22false%22%2C%22isCreatorHomeForRMEnabled%22%3A%22true%22%2C%22interactiveFeatureMinecraftEnabled%22%3A%22true%22%2C%22kidsParityLolomoDefaultsEnabled%22%3A%22false%22%2C%22isDPInlineMerchEnabled%22%3Afalse%2C%22titleGroupsRowPatchedEnabled%22%3A%22false%22%2C%22interactiveFeatureKimmyEnabled%22%3A%22true%22%2C%22interactiveFeatureYouVsWildEnabled%22%3A%22true%22%2C%22mobileCollectionsTitleGroupsEnabled%22%3A%22false%22%2C%22kidsTrailers%22%3Atrue%2C%22isDPMerchButtonEnabled%22%3Afalse%7D&device_type=NFAPPL-01-&esn=NFAPPL-01-IPAD5%3D1-46209A03AF04033E7908FBCF99803FC17824A5EB7F5F33FD57591AD2B1AA21BA&idiom=pad&iosVersion=13.1&isTablet=true&kids=false&languages=en-US&locale=en-US&maxDeviceWidth=1024&method=get&model=hall&modelType=IPAD5-1&odpAware=true&pathFormat=graph&pixelDensity=2.0&progressive=false&refresh=%7B%22c4c601ea-c46a-41d7-bfa5-68adfbba34c2_ROOT%22%3A%7B%22c4c601ea-c46a-41d7-bfa5-68adfbba34c2_1130478X6XX1576111999225%22%3A%5B%22queue%22%2C40%5D%2C%22c4c601ea-c46a-41d7-bfa5-68adfbba34c2_93895204X3XX1576115867665%22%3A%5B%22continueWatching%22%2C1%5D%2C%22c4c601ea-c46a-41d7-bfa5-68adfbba34c2_1130441X54XX1576111999225%22%3A%5B%22trendingNow%22%2C3%5D%7D%7D&responseFormat=json&type=list HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : ios.prod.ftl.netflix.com
+X-NETFLIX.CLIENT.IOSVERSION: 13.1
+X-NETFLIX.ARGO.ABTESTS: 16226:2|16826:3|2144:1
+X-NETFLIX.CLIENT.APPVERSION: 12.13.0
+ACCEPT              : */*
+X-NETFLIX.ARGO.NFNSM: 7
+ACCEPT-LANGUAGE     : en-US;q=1
+ACCEPT-ENCODING     : gzip, deflate, br
+X-NETFLIX.ESN       : NFAPPL-01-IPAD5=1-46209A03AF04033E7908FBCF99803FC17824A5EB7F5F33FD57591AD2B1AA21BA
+X-NETFLIX.CLIENT.IDIOM: pad
+X-NETFLIX.REQUEST.ROUTING: {"path":"/nq/iosui/argo/~12.13.0/warmer","control_tag":"iosui_argo_warmer"}
+USER-AGENT          : Argo/12.13.0 (iPad; iOS 13.1; Scale/2.00)
+X-NETFLIX.REQUEST.CLIENT.USER.GUID: ZYEUUDEBLZCHRNFGS2IEFCBY2I
+X-NETFLIX.CLIENT.TYPE: argo
+X-NETFLIX.REQUEST.ATTEMPT: 1
+COOKIE              : NetflixId=v%3D2%26ct%3DBQAOAAEBEMYMJa1UDv-EdME8yChbrGeB4Me1s5U2v8h_IPVQeyXqc08o-jT1qEMHBqlFJI3fFzP-4rK1GcN7MZNg66ZWzwzFEDhvFd1-ycr22r6bW1z3GTyufE2HZHcTIadOmrP41euHhMAn8n6HEL6JiTGQC3iv0xDaOb2kL5J60nU7As7hIRaLYmHHXMK3i_0FXLQGwdWTh_D7xWawfNu2KF22pL7AGC1DmVFW_DQgbSEKm43nvnFBFneZGETrA2EYNRJ3FfkTxV8R3_zldb01G3yCb-ADXVRRZotQcSQ0dyr8BzP2aeyMMZ7l6uyboNbgPLQ1dqO1LCf_4QOnn4LiecCGpcAO1XlOIo8U727Dkdx4nQIIhiIPgoDFU77vCeYeUyGEFiNNSchB3xHkkt9xSBThZwvsp1UXRJ2sTvp1uNDt0o2FrC4nQXv8xR35yPKymldhCFxNJlG02GAjR0PB-aqt_QD6jhSk3uSORxXGfcD4b3cejpcIDfwJnZUOvl5oMKiGFR6R6y-7afrwPr58JjRwdssQxIiGX54fL23U4UD__XiTRNWcRn9Yirp7A9_3-IFKJkjjj1TmenD_MU5T_7z9ekds10Fha4Xl6OiZ6zOPpAukYLAaVvDQilKGnnBzv2vVFUTUl7FnwyPmOkX8u9c_1BtnUw..%26bt%3Ddbl%26ch%3DAQEAEAABABTkrLG2peDZwQ78vL2VhD7aWD3MVvFV72k.%26mac%3DAQEAEAABABQ2b0XxD27x6IG6K97AMzC8i24aw4Vw3tI.; SecureNetflixId=v%3D2%26mac%3DAQEAEQABABR9GJZiXg0qs3y8nmKTFWrXXw44RNp-Iw0.%26dt%3D1576108437686; nfvdid=BQFmAAEBEKPdk-mWoen2pW6u1sb0FWFgZrGblzrwPHxXPBG7Yh0z4GGfoBut_QUKGT6pMB8XVRK2jWjwgy6BjwgZl7x4dxXF-3BAP5UidJkdFGCTY3ZFIl2N8O9Nhtmooy7KOs1JtJ7XO3pcwid2RSHzRmjdptr_
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:57:54 GMT
+--------------------------------------------------response headers:
+SERVER              : nq_iosui_argo-prod-~12.13.0 b3bf2ffd-b2a6-4426-874f-81ad9e743f9c
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+X-NETFLIX.PROXY.EXECUTION-TIME: 549
+--------------------------------------------------response headers:
+X-NETFLIX.NFSTATUS  : 1_1
+--------------------------------------------------response headers:
+VIA                 : 2 i-0b7518a21a26138d8 (us-east-1)
+--------------------------------------------------response headers:
+X-ORIGINATING-URL   : https://ios.prod.ftl.netflix.com:7009/iosui/warmer/12.13?esn=NFAPPL-01-IPAD5%3D1-46209A03AF04033E7908FBCF99803FC17824A5EB7F5F33FD57591AD2B1AA21BA&appVersion=12.13.0&appInternalVersion=12.13.0&device_type=NFAPPL-01-&responseFormat=json&locale=en-US&type=list&clientAppCanHandleFloatingCharacterRow=true&isTablet=true&odpAware=true&pathFormat=graph&model=hall&maxDeviceWidth=1024&clientAppMaxRows=40&kids=false&clientAppViewPortWidth=6&languages=en-US&method=get&clientAppMaxTitlesPerRow=75&refresh=%7B%22c4c601ea-c46a-41d7-bfa5-68adfbba34c2_ROOT%22%3A%7B%22c4c601ea-c46a-41d7-bfa5-68adfbba34c2_1130478X6XX1576111999225%22%3A%5B%22queue%22%2C40%5D%2C%22c4c601ea-c46a-41d7-bfa5-68adfbba34c2_93895204X3XX1576115867665%22%3A%5B%22continueWatching%22%2C1%5D%2C%22c4c601ea-c46a-41d7-bfa5-68adfbba34c2_1130441X54XX1576111999225%22%3A%5B%22trendingNow%22%2C3%5D%7D%7D&iosVersion=13.1&modelType=IPAD5-1&pixelDensity=2.0&progressive=false&idiom=pad&config=%7B%22useSecureImages%22%3Atrue%2C%22billboardTrailerEnabled%22%3A%22false%22%2C%22clipsEnabled%22%3A%22false%22%2C%22titleCapabilityFlattenedShowEnabled%22%3A%22true%22%2C%22previewsBrandingEnabled%22%3A%22true%22%2C%22seasonRenewalPostPlayEnabled%22%3A%22true%22%2C%22aroGalleriesEnabled%22%3A%22true%22%2C%22interactiveFeatureSugarPuffsEnabled%22%3A%22true%22%2C%22showMoreDirectors%22%3Atrue%2C%22isDPShortPreviewEnabled%22%3Afalse%2C%22isDPAutoPlayIntoTitleEnabled%22%3Afalse%2C%22billboardEnabled%22%3A%22true%22%2C%22interactiveFeaturePIBEnabled%22%3A%22true%22%2C%22interactiveDataGatewayEnabled%22%3A%22true%22%2C%22warmerHasGenres%22%3Atrue%2C%22previewsRowEnabled%22%3A%22false%22%2C%22interactiveFeatureBadgeIconTestEnabled%22%3A%229.57.0%22%2C%22kidsMyListEnabled%22%3A%22true%22%2C%22isDPaudioSilencedByDefault%22%3Afalse%2C%22kidsBillboardEnabled%22%3A%22true%22%2C%22characterBarOnPhoneEnabled%22%3A%22false%22%2C%22contentWarningEnabled%22%3A%22true%22%2C%22postplayProductizationEnabled%22%3A%22false%22%2C%22bigRowEnabled%22%3A%22true%22%2C%22videoMerchInDPEnabled%22%3A%22false%22%2C%22interactiveFeatureAppUpdateDialogueEnabled%22%3A%22true%22%2C%22familiarityUIEnabled%22%3A%22false%22%2C%22bigrowNewUIEnabled%22%3A%22false%22%2C%22isAccountProfileLinkEnabled%22%3Afalse%2C%22interactiveFeatureSugarPuffsPreplayEnabled%22%3A%22true%22%2C%22previewsInBillboardEnabled%22%3A%22false%22%2C%22interactiveFeatureTemplatesEnabled%22%3A%22true%22%2C%22motionCharacterEnabled%22%3A%22true%22%2C%22billboardKidsTrailerEnabled%22%3A%22false%22%2C%22roarEnabled%22%3A%22true%22%2C%22topTenListEnabled%22%3A%22false%22%2C%22mobileCollectionsEnabled%22%3A%22false%22%2C%22isCreatorHomeForRMEnabled%22%3A%22true%22%2C%22interactiveFeatureMinecraftEnabled%22%3A%22true%22%2C%22kidsParityLolomoDefaultsEnabled%22%3A%22false%22%2C%22isDPInlineMerchEnabled%22%3Afalse%2C%22titleGroupsRowPatchedEnabled%22%3A%22false%22%2C%22interactiveFeatureKimmyEnabled%22%3A%22true%22%2C%22interactiveFeatureYouVsWildEnabled%22%3A%22true%22%2C%22mobileCollectionsTitleGroupsEnabled%22%3A%22false%22%2C%22kidsTrailers%22%3Atrue%2C%22isDPMerchButtonEnabled%22%3Afalse%7D
+--------------------------------------------------response headers:
+SET-COOKIE          : memclid=TkZBUFBMLTAxLUlQQUQ1PTEtNDYyMDlBMDNBRjA0MDMzRTc5MDhGQkNGOTk4MDNGQzE3ODI0QTVFQjdGNUYzM0ZENTc1OTFBRDJCMUFBMjFCQQ; Max-Age=31536000; Expires=Fri, 11 Dec 2020 01:57:54 GMT; Path=/; Domain=.netflix.com
+--------------------------------------------------response headers:
+X-NETFLIX.NETWORKPREDICTION: {"aws":0,"oc":0,"aka":0,"asn":"12271"}
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/json
+--------------------------------------------------response headers:
+
+=
+GET /iosui/user/12.13?appInternalVersion=12.13.0&appVersion=12.13.0&config=%7B%22useSecureImages%22%3Atrue%2C%22billboardTrailerEnabled%22%3A%22false%22%2C%22clipsEnabled%22%3A%22false%22%2C%22titleCapabilityFlattenedShowEnabled%22%3A%22true%22%2C%22previewsBrandingEnabled%22%3A%22true%22%2C%22seasonRenewalPostPlayEnabled%22%3A%22true%22%2C%22aroGalleriesEnabled%22%3A%22true%22%2C%22interactiveFeatureSugarPuffsEnabled%22%3A%22true%22%2C%22showMoreDirectors%22%3Atrue%2C%22isDPShortPreviewEnabled%22%3Afalse%2C%22isDPAutoPlayIntoTitleEnabled%22%3Afalse%2C%22billboardEnabled%22%3A%22true%22%2C%22interactiveFeaturePIBEnabled%22%3A%22true%22%2C%22interactiveDataGatewayEnabled%22%3A%22true%22%2C%22warmerHasGenres%22%3Atrue%2C%22previewsRowEnabled%22%3A%22false%22%2C%22interactiveFeatureBadgeIconTestEnabled%22%3A%229.57.0%22%2C%22kidsMyListEnabled%22%3A%22true%22%2C%22isDPaudioSilencedByDefault%22%3Afalse%2C%22kidsBillboardEnabled%22%3A%22true%22%2C%22characterBarOnPhoneEnabled%22%3A%22false%22%2C%22contentWarningEnabled%22%3A%22true%22%2C%22postplayProductizationEnabled%22%3A%22false%22%2C%22bigRowEnabled%22%3A%22true%22%2C%22videoMerchInDPEnabled%22%3A%22false%22%2C%22interactiveFeatureAppUpdateDialogueEnabled%22%3A%22true%22%2C%22familiarityUIEnabled%22%3A%22false%22%2C%22bigrowNewUIEnabled%22%3A%22false%22%2C%22isAccountProfileLinkEnabled%22%3Afalse%2C%22interactiveFeatureSugarPuffsPreplayEnabled%22%3A%22true%22%2C%22previewsInBillboardEnabled%22%3A%22false%22%2C%22interactiveFeatureTemplatesEnabled%22%3A%22true%22%2C%22motionCharacterEnabled%22%3A%22true%22%2C%22billboardKidsTrailerEnabled%22%3A%22false%22%2C%22roarEnabled%22%3A%22true%22%2C%22topTenListEnabled%22%3A%22false%22%2C%22mobileCollectionsEnabled%22%3A%22false%22%2C%22isCreatorHomeForRMEnabled%22%3A%22true%22%2C%22interactiveFeatureMinecraftEnabled%22%3A%22true%22%2C%22kidsParityLolomoDefaultsEnabled%22%3A%22false%22%2C%22isDPInlineMerchEnabled%22%3Afalse%2C%22titleGroupsRowPatchedEnabled%22%3A%22false%22%2C%22interactiveFeatureKimmyEnabled%22%3A%22true%22%2C%22interactiveFeatureYouVsWildEnabled%22%3A%22true%22%2C%22mobileCollectionsTitleGroupsEnabled%22%3A%22false%22%2C%22kidsTrailers%22%3Atrue%2C%22isDPMerchButtonEnabled%22%3Afalse%7D&device_type=NFAPPL-01-&esn=NFAPPL-01-IPAD5%3D1-46209A03AF04033E7908FBCF99803FC17824A5EB7F5F33FD57591AD2B1AA21BA&idiom=pad&iosVersion=13.1&isTablet=true&kids=false&languages=en-US&locale=en-US&maxDeviceWidth=1024&model=hall&modelType=IPAD5-1&odpAware=true&path=%5B%22videos%22%2C%2280111427%22%2C%22current%22%2C%22summary%22%5D&path=%5B%22videos%22%2C%2280111427%22%2C%22current%22%2C%22volatile%22%5D&path=%5B%22videos%22%2C%2280111427%22%2C%22current%22%2C%22downloadAssetDetails%22%5D&path=%5B%22videos%22%2C%2280111427%22%2C%22current%22%2C%22playbackAdvisories%22%5D&path=%5B%22videos%22%2C%2280111427%22%2C%22current%22%2C%22prePlay%22%5D&path=%5B%22videos%22%2C%2280111427%22%2C%22skipContent%22%5D&path=%5B%22videos%22%2C%2270151958%22%2C%22current%22%2C%22summary%22%5D&path=%5B%22videos%22%2C%2270151958%22%2C%22current%22%2C%22volatile%22%5D&path=%5B%22videos%22%2C%2270151958%22%2C%22current%22%2C%22downloadAssetDetails%22%5D&path=%5B%22videos%22%2C%2270151958%22%2C%22current%22%2C%22playbackAdvisories%22%5D&path=%5B%22videos%22%2C%2270151958%22%2C%22current%22%2C%22prePlay%22%5D&path=%5B%22videos%22%2C%2270151958%22%2C%22skipContent%22%5D&path=%5B%22videos%22%2C%2281035175%22%2C%22current%22%2C%22summary%22%5D&path=%5B%22videos%22%2C%2281035175%22%2C%22current%22%2C%22volatile%22%5D&path=%5B%22videos%22%2C%2281035175%22%2C%22current%22%2C%22downloadAssetDetails%22%5D&path=%5B%22videos%22%2C%2281035175%22%2C%22current%22%2C%22playbackAdvisories%22%5D&path=%5B%22videos%22%2C%2281035175%22%2C%22current%22%2C%22prePlay%22%5D&path=%5B%22videos%22%2C%2281035175%22%2C%22skipContent%22%5D&pathFormat=graph&pixelDensity=2.0&progressive=false&responseFormat=json HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : ios.prod.ftl.netflix.com
+X-NETFLIX.CLIENT.IOSVERSION: 13.1
+X-NETFLIX.ARGO.ABTESTS: 16226:2|16826:3|2144:1
+X-NETFLIX.CLIENT.APPVERSION: 12.13.0
+ACCEPT              : */*
+X-NETFLIX.ARGO.NFNSM: 9
+ACCEPT-LANGUAGE     : en-US;q=1
+ACCEPT-ENCODING     : gzip, deflate, br
+X-NETFLIX.ESN       : NFAPPL-01-IPAD5=1-46209A03AF04033E7908FBCF99803FC17824A5EB7F5F33FD57591AD2B1AA21BA
+X-NETFLIX.CLIENT.IDIOM: pad
+X-NETFLIX.REQUEST.ROUTING: {"path":"/nq/iosui/argo/~12.13.0/user","control_tag":"iosui_argo"}
+USER-AGENT          : Argo/12.13.0 (iPad; iOS 13.1; Scale/2.00)
+X-NETFLIX.REQUEST.CLIENT.USER.GUID: ZYEUUDEBLZCHRNFGS2IEFCBY2I
+X-NETFLIX.CLIENT.TYPE: argo
+X-NETFLIX.REQUEST.ATTEMPT: 1
+COOKIE              : NetflixId=v%3D2%26ct%3DBQAOAAEBEMYMJa1UDv-EdME8yChbrGeB4Me1s5U2v8h_IPVQeyXqc08o-jT1qEMHBqlFJI3fFzP-4rK1GcN7MZNg66ZWzwzFEDhvFd1-ycr22r6bW1z3GTyufE2HZHcTIadOmrP41euHhMAn8n6HEL6JiTGQC3iv0xDaOb2kL5J60nU7As7hIRaLYmHHXMK3i_0FXLQGwdWTh_D7xWawfNu2KF22pL7AGC1DmVFW_DQgbSEKm43nvnFBFneZGETrA2EYNRJ3FfkTxV8R3_zldb01G3yCb-ADXVRRZotQcSQ0dyr8BzP2aeyMMZ7l6uyboNbgPLQ1dqO1LCf_4QOnn4LiecCGpcAO1XlOIo8U727Dkdx4nQIIhiIPgoDFU77vCeYeUyGEFiNNSchB3xHkkt9xSBThZwvsp1UXRJ2sTvp1uNDt0o2FrC4nQXv8xR35yPKymldhCFxNJlG02GAjR0PB-aqt_QD6jhSk3uSORxXGfcD4b3cejpcIDfwJnZUOvl5oMKiGFR6R6y-7afrwPr58JjRwdssQxIiGX54fL23U4UD__XiTRNWcRn9Yirp7A9_3-IFKJkjjj1TmenD_MU5T_7z9ekds10Fha4Xl6OiZ6zOPpAukYLAaVvDQilKGnnBzv2vVFUTUl7FnwyPmOkX8u9c_1BtnUw..%26bt%3Ddbl%26ch%3DAQEAEAABABTkrLG2peDZwQ78vL2VhD7aWD3MVvFV72k.%26mac%3DAQEAEAABABQ2b0XxD27x6IG6K97AMzC8i24aw4Vw3tI.; SecureNetflixId=v%3D2%26mac%3DAQEAEQABABR9GJZiXg0qs3y8nmKTFWrXXw44RNp-Iw0.%26dt%3D1576108437686; nfvdid=BQFmAAEBEKPdk-mWoen2pW6u1sb0FWFgZrGblzrwPHxXPBG7Yh0z4GGfoBut_QUKGT6pMB8XVRK2jWjwgy6BjwgZl7x4dxXF-3BAP5UidJkdFGCTY3ZFIl2N8O9Nhtmooy7KOs1JtJ7XO3pcwid2RSHzRmjdptr_
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:57:54 GMT
+--------------------------------------------------response headers:
+SERVER              : nq_iosui_argo-prod-~12.13.0 251e820a-4306-4009-8540-dc7ac884db59
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+X-NETFLIX.PROXY.EXECUTION-TIME: 115
+--------------------------------------------------response headers:
+X-NETFLIX.NFSTATUS  : 1_1
+--------------------------------------------------response headers:
+X-NETFLIX.ARGO.FALCOR.SCHEMAVERSION: 1.0.0
+--------------------------------------------------response headers:
+VIA                 : 2 i-0b7518a21a26138d8 (us-east-1)
+--------------------------------------------------response headers:
+X-ORIGINATING-URL   : https://ios.prod.ftl.netflix.com:7009/iosui/user/12.13?esn=NFAPPL-01-IPAD5%3D1-46209A03AF04033E7908FBCF99803FC17824A5EB7F5F33FD57591AD2B1AA21BA&appVersion=12.13.0&languages=en-US&appInternalVersion=12.13.0&device_type=NFAPPL-01-&responseFormat=json&iosVersion=13.1&modelType=IPAD5-1&locale=en-US&path=%5B%22videos%22%2C%2280111427%22%2C%22current%22%2C%22summary%22%5D&path=%5B%22videos%22%2C%2280111427%22%2C%22current%22%2C%22volatile%22%5D&path=%5B%22videos%22%2C%2280111427%22%2C%22current%22%2C%22downloadAssetDetails%22%5D&path=%5B%22videos%22%2C%2280111427%22%2C%22current%22%2C%22playbackAdvisories%22%5D&path=%5B%22videos%22%2C%2280111427%22%2C%22current%22%2C%22prePlay%22%5D&path=%5B%22videos%22%2C%2280111427%22%2C%22skipContent%22%5D&path=%5B%22videos%22%2C%2270151958%22%2C%22current%22%2C%22summary%22%5D&path=%5B%22videos%22%2C%2270151958%22%2C%22current%22%2C%22volatile%22%5D&path=%5B%22videos%22%2C%2270151958%22%2C%22current%22%2C%22downloadAssetDetails%22%5D&path=%5B%22videos%22%2C%2270151958%22%2C%22current%22%2C%22playbackAdvisories%22%5D&path=%5B%22videos%22%2C%2270151958%22%2C%22current%22%2C%22prePlay%22%5D&path=%5B%22videos%22%2C%2270151958%22%2C%22skipContent%22%5D&path=%5B%22videos%22%2C%2281035175%22%2C%22current%22%2C%22summary%22%5D&path=%5B%22videos%22%2C%2281035175%22%2C%22current%22%2C%22volatile%22%5D&path=%5B%22videos%22%2C%2281035175%22%2C%22current%22%2C%22downloadAssetDetails%22%5D&path=%5B%22videos%22%2C%2281035175%22%2C%22current%22%2C%22playbackAdvisories%22%5D&path=%5B%22videos%22%2C%2281035175%22%2C%22current%22%2C%22prePlay%22%5D&path=%5B%22videos%22%2C%2281035175%22%2C%22skipContent%22%5D&isTablet=true&pixelDensity=2.0&odpAware=true&pathFormat=graph&progressive=false&idiom=pad&model=hall&maxDeviceWidth=1024&config=%7B%22useSecureImages%22%3Atrue%2C%22billboardTrailerEnabled%22%3A%22false%22%2C%22clipsEnabled%22%3A%22false%22%2C%22titleCapabilityFlattenedShowEnabled%22%3A%22true%22%2C%22previewsBrandingEnabled%22%3A%22true%22%2C%22seasonRenewalPostPlayEnabled%22%3A%22true%22%2C%22aroGalleriesEnabled%22%3A%22true%22%2C%22interactiveFeatureSugarPuffsEnabled%22%3A%22true%22%2C%22showMoreDirectors%22%3Atrue%2C%22isDPShortPreviewEnabled%22%3Afalse%2C%22isDPAutoPlayIntoTitleEnabled%22%3Afalse%2C%22billboardEnabled%22%3A%22true%22%2C%22interactiveFeaturePIBEnabled%22%3A%22true%22%2C%22interactiveDataGatewayEnabled%22%3A%22true%22%2C%22warmerHasGenres%22%3Atrue%2C%22previewsRowEnabled%22%3A%22false%22%2C%22interactiveFeatureBadgeIconTestEnabled%22%3A%229.57.0%22%2C%22kidsMyListEnabled%22%3A%22true%22%2C%22isDPaudioSilencedByDefault%22%3Afalse%2C%22kidsBillboardEnabled%22%3A%22true%22%2C%22characterBarOnPhoneEnabled%22%3A%22false%22%2C%22contentWarningEnabled%22%3A%22true%22%2C%22postplayProductizationEnabled%22%3A%22false%22%2C%22bigRowEnabled%22%3A%22true%22%2C%22videoMerchInDPEnabled%22%3A%22false%22%2C%22interactiveFeatureAppUpdateDialogueEnabled%22%3A%22true%22%2C%22familiarityUIEnabled%22%3A%22false%22%2C%22bigrowNewUIEnabled%22%3A%22false%22%2C%22isAccountProfileLinkEnabled%22%3Afalse%2C%22interactiveFeatureSugarPuffsPreplayEnabled%22%3A%22true%22%2C%22previewsInBillboardEnabled%22%3A%22false%22%2C%22interactiveFeatureTemplatesEnabled%22%3A%22true%22%2C%22motionCharacterEnabled%22%3A%22true%22%2C%22billboardKidsTrailerEnabled%22%3A%22false%22%2C%22roarEnabled%22%3A%22true%22%2C%22topTenListEnabled%22%3A%22false%22%2C%22mobileCollectionsEnabled%22%3A%22false%22%2C%22isCreatorHomeForRMEnabled%22%3A%22true%22%2C%22interactiveFeatureMinecraftEnabled%22%3A%22true%22%2C%22kidsParityLolomoDefaultsEnabled%22%3A%22false%22%2C%22isDPInlineMerchEnabled%22%3Afalse%2C%22titleGroupsRowPatchedEnabled%22%3A%22false%22%2C%22interactiveFeatureKimmyEnabled%22%3A%22true%22%2C%22interactiveFeatureYouVsWildEnabled%22%3A%22true%22%2C%22mobileCollectionsTitleGroupsEnabled%22%3A%22false%22%2C%22kidsTrailers%22%3Atrue%2C%22isDPMerchButtonEnabled%22%3Afalse%7D&kids=false
+--------------------------------------------------response headers:
+SET-COOKIE          : memclid=TkZBUFBMLTAxLUlQQUQ1PTEtNDYyMDlBMDNBRjA0MDMzRTc5MDhGQkNGOTk4MDNGQzE3ODI0QTVFQjdGNUYzM0ZENTc1OTFBRDJCMUFBMjFCQQ; Max-Age=31536000; Expires=Fri, 11 Dec 2020 01:57:54 GMT; Path=/; Domain=.netflix.com
+--------------------------------------------------response headers:
+X-NETFLIX.NETWORKPREDICTION: {"aws":0,"oc":0,"aka":0,"asn":"12271"}
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/json
+--------------------------------------------------response headers:
+
+=
+GET /iosui/user/12.13?appInternalVersion=12.13.0&appVersion=12.13.0&config=%7B%22useSecureImages%22%3Atrue%2C%22billboardTrailerEnabled%22%3A%22false%22%2C%22clipsEnabled%22%3A%22false%22%2C%22titleCapabilityFlattenedShowEnabled%22%3A%22true%22%2C%22previewsBrandingEnabled%22%3A%22true%22%2C%22seasonRenewalPostPlayEnabled%22%3A%22true%22%2C%22aroGalleriesEnabled%22%3A%22true%22%2C%22interactiveFeatureSugarPuffsEnabled%22%3A%22true%22%2C%22showMoreDirectors%22%3Atrue%2C%22isDPShortPreviewEnabled%22%3Afalse%2C%22isDPAutoPlayIntoTitleEnabled%22%3Afalse%2C%22billboardEnabled%22%3A%22true%22%2C%22interactiveFeaturePIBEnabled%22%3A%22true%22%2C%22interactiveDataGatewayEnabled%22%3A%22true%22%2C%22warmerHasGenres%22%3Atrue%2C%22previewsRowEnabled%22%3A%22false%22%2C%22interactiveFeatureBadgeIconTestEnabled%22%3A%229.57.0%22%2C%22kidsMyListEnabled%22%3A%22true%22%2C%22isDPaudioSilencedByDefault%22%3Afalse%2C%22kidsBillboardEnabled%22%3A%22true%22%2C%22characterBarOnPhoneEnabled%22%3A%22false%22%2C%22contentWarningEnabled%22%3A%22true%22%2C%22postplayProductizationEnabled%22%3A%22false%22%2C%22bigRowEnabled%22%3A%22true%22%2C%22videoMerchInDPEnabled%22%3A%22false%22%2C%22interactiveFeatureAppUpdateDialogueEnabled%22%3A%22true%22%2C%22familiarityUIEnabled%22%3A%22false%22%2C%22bigrowNewUIEnabled%22%3A%22false%22%2C%22isAccountProfileLinkEnabled%22%3Afalse%2C%22interactiveFeatureSugarPuffsPreplayEnabled%22%3A%22true%22%2C%22previewsInBillboardEnabled%22%3A%22false%22%2C%22interactiveFeatureTemplatesEnabled%22%3A%22true%22%2C%22motionCharacterEnabled%22%3A%22true%22%2C%22billboardKidsTrailerEnabled%22%3A%22false%22%2C%22roarEnabled%22%3A%22true%22%2C%22topTenListEnabled%22%3A%22false%22%2C%22mobileCollectionsEnabled%22%3A%22false%22%2C%22isCreatorHomeForRMEnabled%22%3A%22true%22%2C%22interactiveFeatureMinecraftEnabled%22%3A%22true%22%2C%22kidsParityLolomoDefaultsEnabled%22%3A%22false%22%2C%22isDPInlineMerchEnabled%22%3Afalse%2C%22titleGroupsRowPatchedEnabled%22%3A%22false%22%2C%22interactiveFeatureKimmyEnabled%22%3A%22true%22%2C%22interactiveFeatureYouVsWildEnabled%22%3A%22true%22%2C%22mobileCollectionsTitleGroupsEnabled%22%3A%22false%22%2C%22kidsTrailers%22%3Atrue%2C%22isDPMerchButtonEnabled%22%3Afalse%7D&device_type=NFAPPL-01-&esn=NFAPPL-01-IPAD5%3D1-46209A03AF04033E7908FBCF99803FC17824A5EB7F5F33FD57591AD2B1AA21BA&idiom=pad&iosVersion=13.1&isTablet=true&kids=false&languages=en-US&locale=en-US&maxDeviceWidth=1024&model=hall&modelType=IPAD5-1&odpAware=true&path=%5B%22videos%22%2C%2280111427%22%2C%22externalPlayerArtWork%22%5D&path=%5B%22videos%22%2C%2280111427%22%2C%22trickplayInfo%22%5D&path=%5B%22videos%22%2C%2280111427%22%2C%22nextEpisode%22%2C%22summary%22%5D&path=%5B%22videos%22%2C%2280111427%22%2C%22contentAdvisory%22%5D&pathFormat=graph&pixelDensity=2.0&progressive=false&responseFormat=json HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : ios.prod.ftl.netflix.com
+X-NETFLIX.CLIENT.IOSVERSION: 13.1
+X-NETFLIX.ARGO.ABTESTS: 16226:2|16826:3|2144:1
+X-NETFLIX.CLIENT.APPVERSION: 12.13.0
+ACCEPT              : */*
+X-NETFLIX.ARGO.NFNSM: 9
+ACCEPT-LANGUAGE     : en-US;q=1
+ACCEPT-ENCODING     : gzip, deflate, br
+X-NETFLIX.ESN       : NFAPPL-01-IPAD5=1-46209A03AF04033E7908FBCF99803FC17824A5EB7F5F33FD57591AD2B1AA21BA
+X-NETFLIX.CLIENT.IDIOM: pad
+X-NETFLIX.REQUEST.ROUTING: {"path":"/nq/iosui/argo/~12.13.0/user","control_tag":"iosui_argo"}
+USER-AGENT          : Argo/12.13.0 (iPad; iOS 13.1; Scale/2.00)
+X-NETFLIX.REQUEST.CLIENT.USER.GUID: ZYEUUDEBLZCHRNFGS2IEFCBY2I
+X-NETFLIX.CLIENT.TYPE: argo
+X-NETFLIX.REQUEST.ATTEMPT: 1
+COOKIE              : NetflixId=v%3D2%26ct%3DBQAOAAEBEMYMJa1UDv-EdME8yChbrGeB4Me1s5U2v8h_IPVQeyXqc08o-jT1qEMHBqlFJI3fFzP-4rK1GcN7MZNg66ZWzwzFEDhvFd1-ycr22r6bW1z3GTyufE2HZHcTIadOmrP41euHhMAn8n6HEL6JiTGQC3iv0xDaOb2kL5J60nU7As7hIRaLYmHHXMK3i_0FXLQGwdWTh_D7xWawfNu2KF22pL7AGC1DmVFW_DQgbSEKm43nvnFBFneZGETrA2EYNRJ3FfkTxV8R3_zldb01G3yCb-ADXVRRZotQcSQ0dyr8BzP2aeyMMZ7l6uyboNbgPLQ1dqO1LCf_4QOnn4LiecCGpcAO1XlOIo8U727Dkdx4nQIIhiIPgoDFU77vCeYeUyGEFiNNSchB3xHkkt9xSBThZwvsp1UXRJ2sTvp1uNDt0o2FrC4nQXv8xR35yPKymldhCFxNJlG02GAjR0PB-aqt_QD6jhSk3uSORxXGfcD4b3cejpcIDfwJnZUOvl5oMKiGFR6R6y-7afrwPr58JjRwdssQxIiGX54fL23U4UD__XiTRNWcRn9Yirp7A9_3-IFKJkjjj1TmenD_MU5T_7z9ekds10Fha4Xl6OiZ6zOPpAukYLAaVvDQilKGnnBzv2vVFUTUl7FnwyPmOkX8u9c_1BtnUw..%26bt%3Ddbl%26ch%3DAQEAEAABABTkrLG2peDZwQ78vL2VhD7aWD3MVvFV72k.%26mac%3DAQEAEAABABQ2b0XxD27x6IG6K97AMzC8i24aw4Vw3tI.; SecureNetflixId=v%3D2%26mac%3DAQEAEQABABR9GJZiXg0qs3y8nmKTFWrXXw44RNp-Iw0.%26dt%3D1576108437686; nfvdid=BQFmAAEBEKPdk-mWoen2pW6u1sb0FWFgZrGblzrwPHxXPBG7Yh0z4GGfoBut_QUKGT6pMB8XVRK2jWjwgy6BjwgZl7x4dxXF-3BAP5UidJkdFGCTY3ZFIl2N8O9Nhtmooy7KOs1JtJ7XO3pcwid2RSHzRmjdptr_
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:57:57 GMT
+--------------------------------------------------response headers:
+SERVER              : nq_iosui_argo-prod-~12.13.0 bb9d157b-5598-4132-9c26-a4b784b20a12
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+X-NETFLIX.PROXY.EXECUTION-TIME: 96
+--------------------------------------------------response headers:
+X-NETFLIX.NFSTATUS  : 1_1
+--------------------------------------------------response headers:
+X-NETFLIX.ARGO.FALCOR.SCHEMAVERSION: 1.0.0
+--------------------------------------------------response headers:
+VIA                 : 2 i-0b7518a21a26138d8 (us-east-1)
+--------------------------------------------------response headers:
+X-ORIGINATING-URL   : https://ios.prod.ftl.netflix.com:7009/iosui/user/12.13?esn=NFAPPL-01-IPAD5%3D1-46209A03AF04033E7908FBCF99803FC17824A5EB7F5F33FD57591AD2B1AA21BA&appVersion=12.13.0&languages=en-US&appInternalVersion=12.13.0&device_type=NFAPPL-01-&responseFormat=json&iosVersion=13.1&modelType=IPAD5-1&locale=en-US&path=%5B%22videos%22%2C%2280111427%22%2C%22externalPlayerArtWork%22%5D&path=%5B%22videos%22%2C%2280111427%22%2C%22trickplayInfo%22%5D&path=%5B%22videos%22%2C%2280111427%22%2C%22nextEpisode%22%2C%22summary%22%5D&path=%5B%22videos%22%2C%2280111427%22%2C%22contentAdvisory%22%5D&isTablet=true&pixelDensity=2.0&odpAware=true&pathFormat=graph&progressive=false&idiom=pad&model=hall&maxDeviceWidth=1024&config=%7B%22useSecureImages%22%3Atrue%2C%22billboardTrailerEnabled%22%3A%22false%22%2C%22clipsEnabled%22%3A%22false%22%2C%22titleCapabilityFlattenedShowEnabled%22%3A%22true%22%2C%22previewsBrandingEnabled%22%3A%22true%22%2C%22seasonRenewalPostPlayEnabled%22%3A%22true%22%2C%22aroGalleriesEnabled%22%3A%22true%22%2C%22interactiveFeatureSugarPuffsEnabled%22%3A%22true%22%2C%22showMoreDirectors%22%3Atrue%2C%22isDPShortPreviewEnabled%22%3Afalse%2C%22isDPAutoPlayIntoTitleEnabled%22%3Afalse%2C%22billboardEnabled%22%3A%22true%22%2C%22interactiveFeaturePIBEnabled%22%3A%22true%22%2C%22interactiveDataGatewayEnabled%22%3A%22true%22%2C%22warmerHasGenres%22%3Atrue%2C%22previewsRowEnabled%22%3A%22false%22%2C%22interactiveFeatureBadgeIconTestEnabled%22%3A%229.57.0%22%2C%22kidsMyListEnabled%22%3A%22true%22%2C%22isDPaudioSilencedByDefault%22%3Afalse%2C%22kidsBillboardEnabled%22%3A%22true%22%2C%22characterBarOnPhoneEnabled%22%3A%22false%22%2C%22contentWarningEnabled%22%3A%22true%22%2C%22postplayProductizationEnabled%22%3A%22false%22%2C%22bigRowEnabled%22%3A%22true%22%2C%22videoMerchInDPEnabled%22%3A%22false%22%2C%22interactiveFeatureAppUpdateDialogueEnabled%22%3A%22true%22%2C%22familiarityUIEnabled%22%3A%22false%22%2C%22bigrowNewUIEnabled%22%3A%22false%22%2C%22isAccountProfileLinkEnabled%22%3Afalse%2C%22interactiveFeatureSugarPuffsPreplayEnabled%22%3A%22true%22%2C%22previewsInBillboardEnabled%22%3A%22false%22%2C%22interactiveFeatureTemplatesEnabled%22%3A%22true%22%2C%22motionCharacterEnabled%22%3A%22true%22%2C%22billboardKidsTrailerEnabled%22%3A%22false%22%2C%22roarEnabled%22%3A%22true%22%2C%22topTenListEnabled%22%3A%22false%22%2C%22mobileCollectionsEnabled%22%3A%22false%22%2C%22isCreatorHomeForRMEnabled%22%3A%22true%22%2C%22interactiveFeatureMinecraftEnabled%22%3A%22true%22%2C%22kidsParityLolomoDefaultsEnabled%22%3A%22false%22%2C%22isDPInlineMerchEnabled%22%3Afalse%2C%22titleGroupsRowPatchedEnabled%22%3A%22false%22%2C%22interactiveFeatureKimmyEnabled%22%3A%22true%22%2C%22interactiveFeatureYouVsWildEnabled%22%3A%22true%22%2C%22mobileCollectionsTitleGroupsEnabled%22%3A%22false%22%2C%22kidsTrailers%22%3Atrue%2C%22isDPMerchButtonEnabled%22%3Afalse%7D&kids=false
+--------------------------------------------------response headers:
+SET-COOKIE          : memclid=TkZBUFBMLTAxLUlQQUQ1PTEtNDYyMDlBMDNBRjA0MDMzRTc5MDhGQkNGOTk4MDNGQzE3ODI0QTVFQjdGNUYzM0ZENTc1OTFBRDJCMUFBMjFCQQ; Max-Age=31536000; Expires=Fri, 11 Dec 2020 01:57:57 GMT; Path=/; Domain=.netflix.com
+--------------------------------------------------response headers:
+X-NETFLIX.NETWORKPREDICTION: {"aws":0,"oc":0,"aka":0,"asn":"12271"}
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/json
+--------------------------------------------------response headers:
+
+=
+GET /iosui/warmer/12.13?appInternalVersion=12.13.0&appVersion=12.13.0&clientAppCanHandleFloatingCharacterRow=true&clientAppMaxRows=40&clientAppMaxTitlesPerRow=75&clientAppViewPortWidth=6&config=%7B%22useSecureImages%22%3Atrue%2C%22billboardTrailerEnabled%22%3A%22false%22%2C%22clipsEnabled%22%3A%22false%22%2C%22titleCapabilityFlattenedShowEnabled%22%3A%22true%22%2C%22previewsBrandingEnabled%22%3A%22true%22%2C%22seasonRenewalPostPlayEnabled%22%3A%22true%22%2C%22aroGalleriesEnabled%22%3A%22true%22%2C%22interactiveFeatureSugarPuffsEnabled%22%3A%22true%22%2C%22showMoreDirectors%22%3Atrue%2C%22isDPShortPreviewEnabled%22%3Afalse%2C%22isDPAutoPlayIntoTitleEnabled%22%3Afalse%2C%22billboardEnabled%22%3A%22true%22%2C%22interactiveFeaturePIBEnabled%22%3A%22true%22%2C%22interactiveDataGatewayEnabled%22%3A%22true%22%2C%22warmerHasGenres%22%3Atrue%2C%22previewsRowEnabled%22%3A%22false%22%2C%22interactiveFeatureBadgeIconTestEnabled%22%3A%229.57.0%22%2C%22kidsMyListEnabled%22%3A%22true%22%2C%22isDPaudioSilencedByDefault%22%3Afalse%2C%22kidsBillboardEnabled%22%3A%22true%22%2C%22characterBarOnPhoneEnabled%22%3A%22false%22%2C%22contentWarningEnabled%22%3A%22true%22%2C%22postplayProductizationEnabled%22%3A%22false%22%2C%22bigRowEnabled%22%3A%22true%22%2C%22videoMerchInDPEnabled%22%3A%22false%22%2C%22interactiveFeatureAppUpdateDialogueEnabled%22%3A%22true%22%2C%22familiarityUIEnabled%22%3A%22false%22%2C%22bigrowNewUIEnabled%22%3A%22false%22%2C%22isAccountProfileLinkEnabled%22%3Afalse%2C%22interactiveFeatureSugarPuffsPreplayEnabled%22%3A%22true%22%2C%22previewsInBillboardEnabled%22%3A%22false%22%2C%22interactiveFeatureTemplatesEnabled%22%3A%22true%22%2C%22motionCharacterEnabled%22%3A%22true%22%2C%22billboardKidsTrailerEnabled%22%3A%22false%22%2C%22roarEnabled%22%3A%22true%22%2C%22topTenListEnabled%22%3A%22false%22%2C%22mobileCollectionsEnabled%22%3A%22false%22%2C%22isCreatorHomeForRMEnabled%22%3A%22true%22%2C%22interactiveFeatureMinecraftEnabled%22%3A%22true%22%2C%22kidsParityLolomoDefaultsEnabled%22%3A%22false%22%2C%22isDPInlineMerchEnabled%22%3Afalse%2C%22titleGroupsRowPatchedEnabled%22%3A%22false%22%2C%22interactiveFeatureKimmyEnabled%22%3A%22true%22%2C%22interactiveFeatureYouVsWildEnabled%22%3A%22true%22%2C%22mobileCollectionsTitleGroupsEnabled%22%3A%22false%22%2C%22kidsTrailers%22%3Atrue%2C%22isDPMerchButtonEnabled%22%3Afalse%7D&device_type=NFAPPL-01-&esn=NFAPPL-01-IPAD5%3D1-46209A03AF04033E7908FBCF99803FC17824A5EB7F5F33FD57591AD2B1AA21BA&idiom=pad&iosVersion=13.1&isTablet=true&kids=false&languages=en-US&locale=en-US&maxDeviceWidth=1024&method=get&model=hall&modelType=IPAD5-1&odpAware=true&pathFormat=graph&pixelDensity=2.0&progressive=false&renoId=28ccd011-8933-4118-b1a7-5cb2ad0e8c81-69053650&responseFormat=json&type=lolomo-ath&warmerHasCategories=1 HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : ios.prod.ftl.netflix.com
+X-NETFLIX.CLIENT.IOSVERSION: 13.1
+X-NETFLIX.ARGO.ABTESTS: 16226:2|16826:3|2144:1
+X-NETFLIX.CLIENT.APPVERSION: 12.13.0
+ACCEPT              : */*
+X-NETFLIX.ARGO.NFNSM: 7
+ACCEPT-LANGUAGE     : en-US;q=1
+ACCEPT-ENCODING     : gzip, deflate, br
+X-NETFLIX.ESN       : NFAPPL-01-IPAD5=1-46209A03AF04033E7908FBCF99803FC17824A5EB7F5F33FD57591AD2B1AA21BA
+X-NETFLIX.CLIENT.IDIOM: pad
+X-NETFLIX.REQUEST.ROUTING: {"path":"/nq/iosui/argo/~12.13.0/warmer","control_tag":"iosui_argo_warmer"}
+USER-AGENT          : Argo/12.13.0 (iPad; iOS 13.1; Scale/2.00)
+X-NETFLIX.REQUEST.CLIENT.USER.GUID: ZYEUUDEBLZCHRNFGS2IEFCBY2I
+X-NETFLIX.CLIENT.TYPE: argo
+X-NETFLIX.REQUEST.ATTEMPT: 1
+COOKIE              : NetflixId=v%3D2%26ct%3DBQAOAAEBEMYMJa1UDv-EdME8yChbrGeB4Me1s5U2v8h_IPVQeyXqc08o-jT1qEMHBqlFJI3fFzP-4rK1GcN7MZNg66ZWzwzFEDhvFd1-ycr22r6bW1z3GTyufE2HZHcTIadOmrP41euHhMAn8n6HEL6JiTGQC3iv0xDaOb2kL5J60nU7As7hIRaLYmHHXMK3i_0FXLQGwdWTh_D7xWawfNu2KF22pL7AGC1DmVFW_DQgbSEKm43nvnFBFneZGETrA2EYNRJ3FfkTxV8R3_zldb01G3yCb-ADXVRRZotQcSQ0dyr8BzP2aeyMMZ7l6uyboNbgPLQ1dqO1LCf_4QOnn4LiecCGpcAO1XlOIo8U727Dkdx4nQIIhiIPgoDFU77vCeYeUyGEFiNNSchB3xHkkt9xSBThZwvsp1UXRJ2sTvp1uNDt0o2FrC4nQXv8xR35yPKymldhCFxNJlG02GAjR0PB-aqt_QD6jhSk3uSORxXGfcD4b3cejpcIDfwJnZUOvl5oMKiGFR6R6y-7afrwPr58JjRwdssQxIiGX54fL23U4UD__XiTRNWcRn9Yirp7A9_3-IFKJkjjj1TmenD_MU5T_7z9ekds10Fha4Xl6OiZ6zOPpAukYLAaVvDQilKGnnBzv2vVFUTUl7FnwyPmOkX8u9c_1BtnUw..%26bt%3Ddbl%26ch%3DAQEAEAABABTkrLG2peDZwQ78vL2VhD7aWD3MVvFV72k.%26mac%3DAQEAEAABABQ2b0XxD27x6IG6K97AMzC8i24aw4Vw3tI.; SecureNetflixId=v%3D2%26mac%3DAQEAEQABABR9GJZiXg0qs3y8nmKTFWrXXw44RNp-Iw0.%26dt%3D1576108437686; nfvdid=BQFmAAEBEKPdk-mWoen2pW6u1sb0FWFgZrGblzrwPHxXPBG7Yh0z4GGfoBut_QUKGT6pMB8XVRK2jWjwgy6BjwgZl7x4dxXF-3BAP5UidJkdFGCTY3ZFIl2N8O9Nhtmooy7KOs1JtJ7XO3pcwid2RSHzRmjdptr_
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:00:01 GMT
+--------------------------------------------------response headers:
+SERVER              : nq_iosui_argo-prod-~12.13.0 0a6b3fec-8ad2-4e8c-bdb5-4fe9a61e6f7b
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+X-NETFLIX.PROXY.EXECUTION-TIME: 2251
+--------------------------------------------------response headers:
+X-NETFLIX.NFSTATUS  : 1_1
+--------------------------------------------------response headers:
+VIA                 : 2 i-0b7518a21a26138d8 (us-east-1)
+--------------------------------------------------response headers:
+X-ORIGINATING-URL   : https://ios.prod.ftl.netflix.com:7009/iosui/warmer/12.13?esn=NFAPPL-01-IPAD5%3D1-46209A03AF04033E7908FBCF99803FC17824A5EB7F5F33FD57591AD2B1AA21BA&appVersion=12.13.0&appInternalVersion=12.13.0&device_type=NFAPPL-01-&responseFormat=json&warmerHasCategories=1&locale=en-US&type=lolomo-ath&clientAppCanHandleFloatingCharacterRow=true&isTablet=true&odpAware=true&pathFormat=graph&model=hall&maxDeviceWidth=1024&clientAppMaxRows=40&kids=false&clientAppViewPortWidth=6&languages=en-US&method=get&renoId=28ccd011-8933-4118-b1a7-5cb2ad0e8c81-69053650&clientAppMaxTitlesPerRow=75&iosVersion=13.1&modelType=IPAD5-1&pixelDensity=2.0&progressive=false&idiom=pad&config=%7B%22useSecureImages%22%3Atrue%2C%22billboardTrailerEnabled%22%3A%22false%22%2C%22clipsEnabled%22%3A%22false%22%2C%22titleCapabilityFlattenedShowEnabled%22%3A%22true%22%2C%22previewsBrandingEnabled%22%3A%22true%22%2C%22seasonRenewalPostPlayEnabled%22%3A%22true%22%2C%22aroGalleriesEnabled%22%3A%22true%22%2C%22interactiveFeatureSugarPuffsEnabled%22%3A%22true%22%2C%22showMoreDirectors%22%3Atrue%2C%22isDPShortPreviewEnabled%22%3Afalse%2C%22isDPAutoPlayIntoTitleEnabled%22%3Afalse%2C%22billboardEnabled%22%3A%22true%22%2C%22interactiveFeaturePIBEnabled%22%3A%22true%22%2C%22interactiveDataGatewayEnabled%22%3A%22true%22%2C%22warmerHasGenres%22%3Atrue%2C%22previewsRowEnabled%22%3A%22false%22%2C%22interactiveFeatureBadgeIconTestEnabled%22%3A%229.57.0%22%2C%22kidsMyListEnabled%22%3A%22true%22%2C%22isDPaudioSilencedByDefault%22%3Afalse%2C%22kidsBillboardEnabled%22%3A%22true%22%2C%22characterBarOnPhoneEnabled%22%3A%22false%22%2C%22contentWarningEnabled%22%3A%22true%22%2C%22postplayProductizationEnabled%22%3A%22false%22%2C%22bigRowEnabled%22%3A%22true%22%2C%22videoMerchInDPEnabled%22%3A%22false%22%2C%22interactiveFeatureAppUpdateDialogueEnabled%22%3A%22true%22%2C%22familiarityUIEnabled%22%3A%22false%22%2C%22bigrowNewUIEnabled%22%3A%22false%22%2C%22isAccountProfileLinkEnabled%22%3Afalse%2C%22interactiveFeatureSugarPuffsPreplayEnabled%22%3A%22true%22%2C%22previewsInBillboardEnabled%22%3A%22false%22%2C%22interactiveFeatureTemplatesEnabled%22%3A%22true%22%2C%22motionCharacterEnabled%22%3A%22true%22%2C%22billboardKidsTrailerEnabled%22%3A%22false%22%2C%22roarEnabled%22%3A%22true%22%2C%22topTenListEnabled%22%3A%22false%22%2C%22mobileCollectionsEnabled%22%3A%22false%22%2C%22isCreatorHomeForRMEnabled%22%3A%22true%22%2C%22interactiveFeatureMinecraftEnabled%22%3A%22true%22%2C%22kidsParityLolomoDefaultsEnabled%22%3A%22false%22%2C%22isDPInlineMerchEnabled%22%3Afalse%2C%22titleGroupsRowPatchedEnabled%22%3A%22false%22%2C%22interactiveFeatureKimmyEnabled%22%3A%22true%22%2C%22interactiveFeatureYouVsWildEnabled%22%3A%22true%22%2C%22mobileCollectionsTitleGroupsEnabled%22%3A%22false%22%2C%22kidsTrailers%22%3Atrue%2C%22isDPMerchButtonEnabled%22%3Afalse%7D
+--------------------------------------------------response headers:
+SET-COOKIE          : memclid=TkZBUFBMLTAxLUlQQUQ1PTEtNDYyMDlBMDNBRjA0MDMzRTc5MDhGQkNGOTk4MDNGQzE3ODI0QTVFQjdGNUYzM0ZENTc1OTFBRDJCMUFBMjFCQQ; Max-Age=31536000; Expires=Fri, 11 Dec 2020 02:00:01 GMT; Path=/; Domain=.netflix.com
+--------------------------------------------------response headers:
+X-NETFLIX.NETWORKPREDICTION: {"aws":0,"oc":0,"aka":0,"asn":"12271"}
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/json
+--------------------------------------------------response headers:

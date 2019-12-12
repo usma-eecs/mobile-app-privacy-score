@@ -1,0 +1,87 @@
+
+=
+GET /generate_204 HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : connectivitycheck.gstatic.com
+ACCEPT              : */*
+ACCEPT-LANGUAGE     : en-us
+CONNECTION          : keep-alive
+ACCEPT-ENCODING     : gzip, deflate
+USER-AGENT          : Twitter/8.3.5 CFNetwork/1107.1 Darwin/19.0.0
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 0
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:14:11 GMT
+--------------------------------------------------response headers:
+
+=
+GET /robots.txt HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : video.twimg.com
+USER-AGENT          : Twitter/8.3.5 CFNetwork/1107.1 Darwin/19.0.0
+ACCEPT              : */*
+ACCEPT-LANGUAGE     : en-us
+ACCEPT-ENCODING     : gzip, deflate, br
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+ACCEPT-RANGES       : bytes
+--------------------------------------------------response headers:
+CONTENT-TYPE        : text/plain;charset=utf-8
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:14:11 GMT
+--------------------------------------------------response headers:
+LAST-MODIFIED       : Wed, 11 Dec 2019 09:03:25 GMT
+--------------------------------------------------response headers:
+SERVER              : ECAcc (nya/788C)
+--------------------------------------------------response headers:
+VARY                : Accept-Encoding
+--------------------------------------------------response headers:
+X-CACHE             : HIT
+--------------------------------------------------response headers:
+X-CONNECTION-HASH   : 1f382db47861c7b500b75ea2de3c7c23
+--------------------------------------------------response headers:
+X-CONTENT-TYPE-OPTIONS: nosniff
+--------------------------------------------------response headers:
+X-RESPONSE-TIME     : 3
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 52
+--------------------------------------------------response headers:
+
+=
+GET /robots.txt HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : pbs.twimg.com
+USER-AGENT          : Twitter/8.3.5 CFNetwork/1107.1 Darwin/19.0.0
+ACCEPT              : */*
+ACCEPT-LANGUAGE     : en-us
+ACCEPT-ENCODING     : gzip, deflate, br
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+ACCEPT-RANGES       : bytes
+--------------------------------------------------response headers:
+CACHE-CONTROL       : max-age=600, must-revalidate
+--------------------------------------------------response headers:
+CONTENT-TYPE        : text/plain;charset=utf-8
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:14:11 GMT
+--------------------------------------------------response headers:
+LAST-MODIFIED       : Thu, 12 Dec 2019 02:01:02 GMT
+--------------------------------------------------response headers:
+SERVER              : ECS (nyb/1D18)
+--------------------------------------------------response headers:
+STRICT-TRANSPORT-SECURITY: max-age=631138519
+--------------------------------------------------response headers:
+VARY                : Accept-Encoding
+--------------------------------------------------response headers:
+X-CACHE             : HIT
+--------------------------------------------------response headers:
+X-CONNECTION-HASH   : 769d5eb85aa543e607734354fe9fbacb
+--------------------------------------------------response headers:
+X-CONTENT-TYPE-OPTIONS: nosniff
+--------------------------------------------------response headers:
+X-RESPONSE-TIME     : 7
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 69
+--------------------------------------------------response headers:

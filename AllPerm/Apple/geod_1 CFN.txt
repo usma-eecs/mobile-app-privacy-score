@@ -1,0 +1,108 @@
+
+=
+POST /dispatcher.arpc HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : gsp-ssl.ls.apple.com
+ACCEPT              : */*
+CONTENT-TYPE        : application/octet-stream
+CONNECTION          : keep-alive
+X-MSG-PRIORITY      : 5
+ACCEPT-LANGUAGE     : en-us
+CONTENT-LENGTH      : 644
+ACCEPT-ENCODING     : gzip, deflate, br
+USER-AGENT          : geod/1 CFNetwork/1107.1 Darwin/19.0.0
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : deflate
+--------------------------------------------------response headers:
+X-RID               : 520afa5e-8478-4dbf-9d6e-9c616cdec76d
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 908
+--------------------------------------------------response headers:
+
+=
+POST /hvr/v3/use HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : gsp64-ssl.ls.apple.com
+CONTENT-TYPE        : application/octet-stream
+CONNECTION          : keep-alive
+ACCEPT              : */*
+USER-AGENT          : geod/1 CFNetwork/1107.1 Darwin/19.0.0
+ACCEPT-LANGUAGE     : en-us
+CONTENT-LENGTH      : 451
+ACCEPT-ENCODING     : gzip, deflate, br
+--------------------------------------------------response headers:
+SERVER              : dlb/1.0.2
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:43:45 GMT
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 10
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+X-RID               : 74693621-6015-42ad-be39-16abeefc493c
+--------------------------------------------------response headers:
+STRICT-TRANSPORT-SECURITY: max-age=31536000; includeSubDomains;
+--------------------------------------------------response headers:
+VIA                 : 17.57.12.11
+--------------------------------------------------response headers:
+X-DLB-UPSTREAM      : 10.9.78.214:4001
+--------------------------------------------------response headers:
+
+=
+POST /wifi_request HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : gsp85-ssl.ls.apple.com
+CONTENT-TYPE        : application/octet-stream
+CONNECTION          : keep-alive
+ACCEPT              : */*
+USER-AGENT          : geod/1 CFNetwork/1107.1 Darwin/19.0.0
+CONTENT-LENGTH      : 101
+ACCEPT-LANGUAGE     : en-us
+ACCEPT-ENCODING     : gzip, deflate, br
+--------------------------------------------------response headers:
+X-RID               : 28036310-6999-4ab3-9ea7-98f13e7123dc
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 64
+--------------------------------------------------response headers:
+
+=
+GET /pep/gcc HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : gspe1-ssl.ls.apple.com
+ACCEPT              : */*
+ACCEPT-LANGUAGE     : en-us
+CONNECTION          : keep-alive
+ACCEPT-ENCODING     : gzip, deflate, br
+USER-AGENT          : geod/1 CFNetwork/1107.1 Darwin/19.0.0
+--------------------------------------------------response headers:
+CONTENT-TYPE        : text/html
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 2
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:06:17 GMT
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+
+=
+POST /hvr/v3/use HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : gsp64-ssl.ls.apple.com
+CONTENT-TYPE        : application/octet-stream
+CONNECTION          : keep-alive
+ACCEPT              : */*
+USER-AGENT          : geod/1 CFNetwork/1107.1 Darwin/19.0.0
+ACCEPT-LANGUAGE     : en-us
+CONTENT-LENGTH      : 449
+ACCEPT-ENCODING     : gzip, deflate, br
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 10
+--------------------------------------------------response headers:
+X-RID               : 34fac31b-8fb9-4241-858f-aca4e48c114c
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:

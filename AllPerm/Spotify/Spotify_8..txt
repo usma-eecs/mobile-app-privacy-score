@@ -1,0 +1,3356 @@
+
+=
+GET /quicksilver/v2/triggers HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : spclient.wg.spotify.com
+ACCEPT              : */*
+X-CLIENT-ID         : 58bd3c95768941ea9eb4350aaa033eb3
+ACCEPT-ENCODING     : gzip
+SPOTIFY-APP-VERSION : 8.5.34
+APP-PLATFORM        : iOS
+USER-AGENT          : Spotify/8.5.34 iOS/13.1 (iPad5,1)
+ACCEPT-LANGUAGE     : en
+AUTHORIZATION       : Bearer BQAzAFu0Bpwg-dccDl8KRy9vSJYEaECyI4XcOLb7v96dZjbzVhf6IZLh1ieYxAFugCIqn9ahNDVcjdyTcIlh88aABTlKon_apw9yaPexB08ouFI8fDi_-uDgrgqh-c9htR-GOM00GN6FgIR8ej-tzGVyLg
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/json; charset=utf-8
+--------------------------------------------------response headers:
+CACHE-CONTROL       : private, max-age=0
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-HEADERS: Accept, Authorization, Origin, Content-Type, Spotify-App-Version, App-Platform, X-Spotify-Connection-Id, X-Client-Id
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-METHODS: GET, POST, OPTIONS, PUT, DELETE, PATCH
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-CREDENTIALS: true
+--------------------------------------------------response headers:
+ACCESS-CONTROL-MAX-AGE: 604800
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 476
+--------------------------------------------------response headers:
+STRICT-TRANSPORT-SECURITY: max-age=31536000
+--------------------------------------------------response headers:
+X-CONTENT-TYPE-OPTIONS: nosniff
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:02:02 GMT
+--------------------------------------------------response headers:
+VIA                 : 1.1 google
+--------------------------------------------------response headers:
+ALT-SVC             : clear
+--------------------------------------------------response headers:
+
+=
+GET /abba-service/v1/resolve?format=json HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : spclient.wg.spotify.com
+ACCEPT              : */*
+X-CLIENT-ID         : 58bd3c95768941ea9eb4350aaa033eb3
+AUTHORIZATION       : Bearer BQAzAFu0Bpwg-dccDl8KRy9vSJYEaECyI4XcOLb7v96dZjbzVhf6IZLh1ieYxAFugCIqn9ahNDVcjdyTcIlh88aABTlKon_apw9yaPexB08ouFI8fDi_-uDgrgqh-c9htR-GOM00GN6FgIR8ej-tzGVyLg
+SPOTIFY-APP-VERSION : 8.5.34
+APP-PLATFORM        : iOS
+USER-AGENT          : Spotify/8.5.34 iOS/13.1 (iPad5,1)
+ACCEPT-LANGUAGE     : en
+ACCEPT-ENCODING     : gzip, deflate, br
+--------------------------------------------------response headers:
+CONTENT-TYPE        : vnd.spotify/abba-feature-flags+json
+--------------------------------------------------response headers:
+CACHE-CONTROL       : private, max-age=30
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-HEADERS: Accept, Authorization, Origin, Content-Type, Spotify-App-Version, App-Platform, X-Spotify-Connection-Id, X-Client-Id
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-METHODS: GET, POST, OPTIONS, PUT, DELETE, PATCH
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-CREDENTIALS: true
+--------------------------------------------------response headers:
+ACCESS-CONTROL-MAX-AGE: 604800
+--------------------------------------------------response headers:
+STRICT-TRANSPORT-SECURITY: max-age=31536000
+--------------------------------------------------response headers:
+X-CONTENT-TYPE-OPTIONS: nosniff
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 14216
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:02:02 GMT
+--------------------------------------------------response headers:
+VIA                 : 1.1 google
+--------------------------------------------------response headers:
+ALT-SVC             : clear
+--------------------------------------------------response headers:
+
+=
+GET /sellout/v3/upsell/promoted_offer?device_id=2ebd42225041a2788873e32910bddd24 HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : spclient.wg.spotify.com
+ACCEPT              : */*
+X-CLIENT-ID         : 58bd3c95768941ea9eb4350aaa033eb3
+AUTHORIZATION       : Bearer BQAzAFu0Bpwg-dccDl8KRy9vSJYEaECyI4XcOLb7v96dZjbzVhf6IZLh1ieYxAFugCIqn9ahNDVcjdyTcIlh88aABTlKon_apw9yaPexB08ouFI8fDi_-uDgrgqh-c9htR-GOM00GN6FgIR8ej-tzGVyLg
+SPOTIFY-APP-VERSION : 8.5.34
+APP-PLATFORM        : iOS
+USER-AGENT          : Spotify/8.5.34 iOS/13.1 (iPad5,1)
+ACCEPT-LANGUAGE     : en
+ACCEPT-ENCODING     : gzip, deflate, br
+--------------------------------------------------response headers:
+CACHE-CONTROL       : private, max-age=0
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-HEADERS: Accept, Authorization, Origin, Content-Type, Spotify-App-Version, App-Platform, X-Spotify-Connection-Id, X-Client-Id
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-METHODS: GET, POST, OPTIONS, PUT, DELETE, PATCH
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-CREDENTIALS: true
+--------------------------------------------------response headers:
+ACCESS-CONTROL-MAX-AGE: 604800
+--------------------------------------------------response headers:
+STRICT-TRANSPORT-SECURITY: max-age=31536000
+--------------------------------------------------response headers:
+X-CONTENT-TYPE-OPTIONS: nosniff
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 196
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:02:02 GMT
+--------------------------------------------------response headers:
+VIA                 : 1.1 google
+--------------------------------------------------response headers:
+ALT-SVC             : clear
+--------------------------------------------------response headers:
+
+=
+GET /abba-service/v1/resolve?format=json HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : spclient.wg.spotify.com
+ACCEPT              : */*
+X-CLIENT-ID         : 58bd3c95768941ea9eb4350aaa033eb3
+AUTHORIZATION       : Bearer BQAzAFu0Bpwg-dccDl8KRy9vSJYEaECyI4XcOLb7v96dZjbzVhf6IZLh1ieYxAFugCIqn9ahNDVcjdyTcIlh88aABTlKon_apw9yaPexB08ouFI8fDi_-uDgrgqh-c9htR-GOM00GN6FgIR8ej-tzGVyLg
+SPOTIFY-APP-VERSION : 8.5.34
+APP-PLATFORM        : iOS
+USER-AGENT          : Spotify/8.5.34 iOS/13.1 (iPad5,1)
+ACCEPT-LANGUAGE     : en
+ACCEPT-ENCODING     : gzip, deflate, br
+--------------------------------------------------response headers:
+CONTENT-TYPE        : vnd.spotify/abba-feature-flags+json
+--------------------------------------------------response headers:
+CACHE-CONTROL       : private, max-age=30
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-HEADERS: Accept, Authorization, Origin, Content-Type, Spotify-App-Version, App-Platform, X-Spotify-Connection-Id, X-Client-Id
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-METHODS: GET, POST, OPTIONS, PUT, DELETE, PATCH
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-CREDENTIALS: true
+--------------------------------------------------response headers:
+ACCESS-CONTROL-MAX-AGE: 604800
+--------------------------------------------------response headers:
+STRICT-TRANSPORT-SECURITY: max-age=31536000
+--------------------------------------------------response headers:
+X-CONTENT-TYPE-OPTIONS: nosniff
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 14216
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:02:02 GMT
+--------------------------------------------------response headers:
+VIA                 : 1.1 google
+--------------------------------------------------response headers:
+ALT-SVC             : clear
+--------------------------------------------------response headers:
+
+=
+POST /pushka-tokens/register HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : spclient.wg.spotify.com
+CONTENT-TYPE        : application/x-www-form-urlencoded
+SPOTIFY-APP-VERSION : 8.5.34
+ACCEPT              : */*
+AUTHORIZATION       : Bearer BQAzAFu0Bpwg-dccDl8KRy9vSJYEaECyI4XcOLb7v96dZjbzVhf6IZLh1ieYxAFugCIqn9ahNDVcjdyTcIlh88aABTlKon_apw9yaPexB08ouFI8fDi_-uDgrgqh-c9htR-GOM00GN6FgIR8ej-tzGVyLg
+APP-PLATFORM        : iOS
+ACCEPT-ENCODING     : gzip, deflate, br
+ACCEPT-LANGUAGE     : en
+CONTENT-LENGTH      : 187
+USER-AGENT          : Spotify/8.5.34 iOS/13.1 (iPad5,1)
+X-CLIENT-ID         : 58bd3c95768941ea9eb4350aaa033eb3
+--------------------------------------------------response headers:
+CACHE-CONTROL       : private, max-age=0
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-HEADERS: Accept, Authorization, Origin, Content-Type, Spotify-App-Version, App-Platform, X-Spotify-Connection-Id, X-Client-Id
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-METHODS: GET, POST, OPTIONS, PUT, DELETE, PATCH
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-CREDENTIALS: true
+--------------------------------------------------response headers:
+ACCESS-CONTROL-MAX-AGE: 604800
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 0
+--------------------------------------------------response headers:
+STRICT-TRANSPORT-SECURITY: max-age=31536000
+--------------------------------------------------response headers:
+X-CONTENT-TYPE-OPTIONS: nosniff
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:02:02 GMT
+--------------------------------------------------response headers:
+VIA                 : 1.1 google
+--------------------------------------------------response headers:
+ALT-SVC             : clear
+--------------------------------------------------response headers:
+
+=
+GET /voice-user-info/v1/voice-user-info HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : spclient.wg.spotify.com
+ACCEPT              : */*
+X-CLIENT-ID         : 58bd3c95768941ea9eb4350aaa033eb3
+AUTHORIZATION       : Bearer BQAzAFu0Bpwg-dccDl8KRy9vSJYEaECyI4XcOLb7v96dZjbzVhf6IZLh1ieYxAFugCIqn9ahNDVcjdyTcIlh88aABTlKon_apw9yaPexB08ouFI8fDi_-uDgrgqh-c9htR-GOM00GN6FgIR8ej-tzGVyLg
+SPOTIFY-APP-VERSION : 8.5.34
+APP-PLATFORM        : iOS
+USER-AGENT          : Spotify/8.5.34 iOS/13.1 (iPad5,1)
+ACCEPT-LANGUAGE     : en
+ACCEPT-ENCODING     : gzip, deflate, br
+--------------------------------------------------response headers:
+CACHE-CONTROL       : private, max-age=0
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-HEADERS: Accept, Authorization, Origin, Content-Type, Spotify-App-Version, App-Platform, X-Spotify-Connection-Id, X-Client-Id
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-METHODS: GET, POST, OPTIONS, PUT, DELETE, PATCH
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-CREDENTIALS: true
+--------------------------------------------------response headers:
+ACCESS-CONTROL-MAX-AGE: 604800
+--------------------------------------------------response headers:
+STRICT-TRANSPORT-SECURITY: max-age=31536000
+--------------------------------------------------response headers:
+X-CONTENT-TYPE-OPTIONS: nosniff
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 95
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:02:03 GMT
+--------------------------------------------------response headers:
+VIA                 : 1.1 google
+--------------------------------------------------response headers:
+ALT-SVC             : clear
+--------------------------------------------------response headers:
+
+=
+PUT /connect-state/v1/devices/fbe78edb4c9720c34e1e05d180122b7ab7f56d5e HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : spclient.wg.spotify.com
+X-TRANSFER-ENCODING : gzip
+CONTENT-TYPE        : application/protobuf
+ACCEPT              : */*
+ACCEPT-LANGUAGE     : en
+AUTHORIZATION       : Bearer BQBqABCvb4OMCcDfge38-oAcOAphkiG-XBPox_xEBNmNIhXjzL45R2j2SSxnxj3-P5E8foj9Loibjy-Bevm2Xkf5zC3-41SIScKKiJe-zsb7m93HTbU-FWmsKhdtOES3ARepCz1WCghSvaRq30Kkw4DQryhnffZR7Ze10fMOSNcwfGi72rNyn-1I1eco7qjJUjXZk-A
+X-SPOTIFY-CONNECTION-ID: MmViZDQyMjI1MDQxYTI3ODg4NzNlMzI5MTBiZGRkMjQrZGVhbGVyK3RjcDovL2d1YzMtZGVhbGVyLWItZzI4cy5ndWMzLnNwb3RpZnkubmV0OjU3MDArNzg0QTUwRkJGQzJGN0VBMjdBMjI4NThCNUQ0NEQwQkE3MzgzN0VGMDUxQTQwMjY2Njk1RkFBNkM0NERCQzdBQw==
+USER-AGENT          : Spotify/8.5.34 iOS/Version 13.1 (Build 17A844)
+CONTENT-LENGTH      : 320
+ACCEPT-ENCODING     : gzip, deflate, br
+--------------------------------------------------response headers:
+CACHE-CONTROL       : private, max-age=0
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-HEADERS: Accept, Authorization, Origin, Content-Type, Spotify-App-Version, App-Platform, X-Spotify-Connection-Id, X-Client-Id
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-METHODS: GET, POST, OPTIONS, PUT, DELETE, PATCH
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-CREDENTIALS: true
+--------------------------------------------------response headers:
+ACCESS-CONTROL-MAX-AGE: 604800
+--------------------------------------------------response headers:
+STRICT-TRANSPORT-SECURITY: max-age=31536000
+--------------------------------------------------response headers:
+X-CONTENT-TYPE-OPTIONS: nosniff
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 2969
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:02:03 GMT
+--------------------------------------------------response headers:
+VIA                 : 1.1 google
+--------------------------------------------------response headers:
+ALT-SVC             : clear
+--------------------------------------------------response headers:
+
+=
+POST /metadata/4/episodes?country=US&product=premium HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : spclient.wg.spotify.com
+ACCEPT              : */*
+CONTENT-TYPE        : vnd.spotify/mercury-mget-request
+AUTHORIZATION       : Bearer BQD46omcDalO5v94wZME6GXCYCgcUSqZscfSs7PcBWPZnN0zZpffJi5WAACE3TQ-Fms2MSgYTyAQ-o4NzI-pJtf7hOTM8ZvhQzK_tqvyPQi-EdJW2ao2-pKkOj8Z1fq5I-M6GGS6D1rmxDM69RH-EfjUNcwe6vKDbr46kaqWu22yTbC6GipGU8GDwvTK8vHNUH8f7JE
+CONTENT-LENGTH      : 116
+USER-AGENT          : Spotify/8.5.34 iOS/Version 13.1 (Build 17A844)
+ACCEPT-LANGUAGE     : en
+ACCEPT-ENCODING     : gzip, deflate, br
+--------------------------------------------------response headers:
+CONTENT-TYPE        : vnd.spotify/mercury-mget-reply
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-HEADERS: Accept, Authorization, Origin, Content-Type, Spotify-App-Version, App-Platform, X-Spotify-Connection-Id, X-Client-Id
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-METHODS: GET, POST, OPTIONS, PUT, DELETE, PATCH
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-CREDENTIALS: true
+--------------------------------------------------response headers:
+ACCESS-CONTROL-MAX-AGE: 604800
+--------------------------------------------------response headers:
+CACHE-CONTROL       : no-cache
+--------------------------------------------------response headers:
+STRICT-TRANSPORT-SECURITY: max-age=31536000
+--------------------------------------------------response headers:
+X-CONTENT-TYPE-OPTIONS: nosniff
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 67
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:02:03 GMT
+--------------------------------------------------response headers:
+VIA                 : 1.1 google
+--------------------------------------------------response headers:
+ALT-SVC             : clear
+--------------------------------------------------response headers:
+
+=
+POST /ad-logic/state/config HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : spclient.wg.spotify.com
+ACCEPT              : */*
+CONTENT-TYPE        : application/x-www-form-urlencoded
+AUTHORIZATION       : Bearer BQD46omcDalO5v94wZME6GXCYCgcUSqZscfSs7PcBWPZnN0zZpffJi5WAACE3TQ-Fms2MSgYTyAQ-o4NzI-pJtf7hOTM8ZvhQzK_tqvyPQi-EdJW2ao2-pKkOj8Z1fq5I-M6GGS6D1rmxDM69RH-EfjUNcwe6vKDbr46kaqWu22yTbC6GipGU8GDwvTK8vHNUH8f7JE
+ACCEPT-LANGUAGE     : en-us
+USER-AGENT          : Spotify/8.5.34 iOS/13.1 (iPad5,1)
+CONTENT-LENGTH      : 433
+ACCEPT-ENCODING     : gzip, deflate, br
+--------------------------------------------------response headers:
+CACHE-CONTROL       : private, max-age=0
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-HEADERS: Accept, Authorization, Origin, Content-Type, Spotify-App-Version, App-Platform, X-Spotify-Connection-Id, X-Client-Id
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-METHODS: GET, POST, OPTIONS, PUT, DELETE, PATCH
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-CREDENTIALS: true
+--------------------------------------------------response headers:
+ACCESS-CONTROL-MAX-AGE: 604800
+--------------------------------------------------response headers:
+STRICT-TRANSPORT-SECURITY: max-age=31536000
+--------------------------------------------------response headers:
+X-CONTENT-TYPE-OPTIONS: nosniff
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 129
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:02:03 GMT
+--------------------------------------------------response headers:
+VIA                 : 1.1 google
+--------------------------------------------------response headers:
+ALT-SVC             : clear
+--------------------------------------------------response headers:
+
+=
+POST /metadata/4/episodes?country=US&product=premium HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : spclient.wg.spotify.com
+ACCEPT              : */*
+CONTENT-TYPE        : vnd.spotify/mercury-mget-request
+AUTHORIZATION       : Bearer BQD46omcDalO5v94wZME6GXCYCgcUSqZscfSs7PcBWPZnN0zZpffJi5WAACE3TQ-Fms2MSgYTyAQ-o4NzI-pJtf7hOTM8ZvhQzK_tqvyPQi-EdJW2ao2-pKkOj8Z1fq5I-M6GGS6D1rmxDM69RH-EfjUNcwe6vKDbr46kaqWu22yTbC6GipGU8GDwvTK8vHNUH8f7JE
+CONTENT-LENGTH      : 116
+USER-AGENT          : Spotify/8.5.34 iOS/Version 13.1 (Build 17A844)
+ACCEPT-LANGUAGE     : en
+ACCEPT-ENCODING     : gzip, deflate, br
+--------------------------------------------------response headers:
+CONTENT-TYPE        : vnd.spotify/mercury-mget-reply
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-HEADERS: Accept, Authorization, Origin, Content-Type, Spotify-App-Version, App-Platform, X-Spotify-Connection-Id, X-Client-Id
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-METHODS: GET, POST, OPTIONS, PUT, DELETE, PATCH
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-CREDENTIALS: true
+--------------------------------------------------response headers:
+ACCESS-CONTROL-MAX-AGE: 604800
+--------------------------------------------------response headers:
+CACHE-CONTROL       : no-cache
+--------------------------------------------------response headers:
+STRICT-TRANSPORT-SECURITY: max-age=31536000
+--------------------------------------------------response headers:
+X-CONTENT-TYPE-OPTIONS: nosniff
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 64
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:02:03 GMT
+--------------------------------------------------response headers:
+VIA                 : 1.1 google
+--------------------------------------------------response headers:
+ALT-SVC             : clear
+--------------------------------------------------response headers:
+
+=
+GET /ads/v2/config?payload=eyJ1c2VyX2FnZW50IjoiTW96aWxsYVwvNS4wIChpUGFkOyBDUFUgT1MgMTNfMV8wIGxpa2UgTWFjIE9TIFgpIEFwcGxlV2ViS2l0XC81MzYuMjYgKEtIVE1MLCBsaWtlIEdlY2tvKSBWZXJzaW9uXC82LjAgTW9iaWxlXC8xMEE1MzU1ZCBTYWZhcmlcLzg1MzYuMjUgU3BvdGlmeVwvODUzNDAwNjQ0ICgzNjsgMjsgMykiLCJzZXNzaW9uX2lkIjoiMzBjMzJkYzQtMDA1ZS00YmI5LWFiYzktMTg1MWEwY2Y4NGRlIn0= HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : spclient.wg.spotify.com
+ACCEPT              : */*
+VND.SPOTIFY.ADS-PAYLOAD: {"user_agent":"Mozilla\/5.0 (iPad; CPU OS 13_1_0 like Mac OS X) AppleWebKit\/536.26 (KHTML, like Gecko) Version\/6.0 Mobile\/10A5355d Safari\/8536.25 Spotify\/853400644 (36; 2; 3)","session_id":"30c32dc4-005e-4bb9-abc9-1851a0cf84de"}
+ACCEPT-LANGUAGE     : en-us
+USER-AGENT          : Spotify/8.5.34 iOS/13.1 (iPad5,1)
+AUTHORIZATION       : Bearer BQD46omcDalO5v94wZME6GXCYCgcUSqZscfSs7PcBWPZnN0zZpffJi5WAACE3TQ-Fms2MSgYTyAQ-o4NzI-pJtf7hOTM8ZvhQzK_tqvyPQi-EdJW2ao2-pKkOj8Z1fq5I-M6GGS6D1rmxDM69RH-EfjUNcwe6vKDbr46kaqWu22yTbC6GipGU8GDwvTK8vHNUH8f7JE
+ACCEPT-ENCODING     : gzip, deflate, br
+--------------------------------------------------response headers:
+CACHE-CONTROL       : public, max-age=600
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-HEADERS: Accept, Authorization, Origin, Content-Type, Spotify-App-Version, App-Platform, X-Spotify-Connection-Id, X-Client-Id
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-METHODS: GET, POST, OPTIONS, PUT, DELETE, PATCH
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-CREDENTIALS: true
+--------------------------------------------------response headers:
+ACCESS-CONTROL-MAX-AGE: 604800
+--------------------------------------------------response headers:
+STRICT-TRANSPORT-SECURITY: max-age=31536000
+--------------------------------------------------response headers:
+X-CONTENT-TYPE-OPTIONS: nosniff
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 109
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:02:03 GMT
+--------------------------------------------------response headers:
+VIA                 : 1.1 google
+--------------------------------------------------response headers:
+ALT-SVC             : clear
+--------------------------------------------------response headers:
+
+=
+GET /abba-service/v1/resolve?format=json HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : spclient.wg.spotify.com
+ACCEPT              : */*
+ACCEPT-ENCODING     : gzip, deflate, br
+USER-AGENT          : Spotify/8.5.34 iOS/Version 13.1 (Build 17A844)
+ACCEPT-LANGUAGE     : en
+AUTHORIZATION       : Bearer BQD46omcDalO5v94wZME6GXCYCgcUSqZscfSs7PcBWPZnN0zZpffJi5WAACE3TQ-Fms2MSgYTyAQ-o4NzI-pJtf7hOTM8ZvhQzK_tqvyPQi-EdJW2ao2-pKkOj8Z1fq5I-M6GGS6D1rmxDM69RH-EfjUNcwe6vKDbr46kaqWu22yTbC6GipGU8GDwvTK8vHNUH8f7JE
+--------------------------------------------------response headers:
+CONTENT-TYPE        : vnd.spotify/abba-feature-flags+json
+--------------------------------------------------response headers:
+CACHE-CONTROL       : private, max-age=30
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-HEADERS: Accept, Authorization, Origin, Content-Type, Spotify-App-Version, App-Platform, X-Spotify-Connection-Id, X-Client-Id
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-METHODS: GET, POST, OPTIONS, PUT, DELETE, PATCH
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-CREDENTIALS: true
+--------------------------------------------------response headers:
+ACCESS-CONTROL-MAX-AGE: 604800
+--------------------------------------------------response headers:
+STRICT-TRANSPORT-SECURITY: max-age=31536000
+--------------------------------------------------response headers:
+X-CONTENT-TYPE-OPTIONS: nosniff
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 14216
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:02:03 GMT
+--------------------------------------------------response headers:
+VIA                 : 1.1 google
+--------------------------------------------------response headers:
+ALT-SVC             : clear
+--------------------------------------------------response headers:
+
+=
+GET /homeview/v1/home?client-timezone=America/New_York&is_car_connected=false&locale=en&platform=ipad&podcast=true&video=true HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : spclient.wg.spotify.com
+ACCEPT              : */*
+X-CLIENT-ID         : 58bd3c95768941ea9eb4350aaa033eb3
+AUTHORIZATION       : Bearer BQAzAFu0Bpwg-dccDl8KRy9vSJYEaECyI4XcOLb7v96dZjbzVhf6IZLh1ieYxAFugCIqn9ahNDVcjdyTcIlh88aABTlKon_apw9yaPexB08ouFI8fDi_-uDgrgqh-c9htR-GOM00GN6FgIR8ej-tzGVyLg
+SPOTIFY-APP-VERSION : 8.5.34
+APP-PLATFORM        : iOS
+USER-AGENT          : Spotify/8.5.34 iOS/13.1 (iPad5,1)
+ACCEPT-LANGUAGE     : en
+ACCEPT-ENCODING     : gzip, deflate, br
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/json; charset=UTF8
+--------------------------------------------------response headers:
+CACHE-CONTROL       : public, max-age=900
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-HEADERS: Accept, Authorization, Origin, Content-Type, Spotify-App-Version, App-Platform, X-Spotify-Connection-Id, X-Client-Id
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-METHODS: GET, POST, OPTIONS, PUT, DELETE, PATCH
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-CREDENTIALS: true
+--------------------------------------------------response headers:
+ACCESS-CONTROL-MAX-AGE: 604800
+--------------------------------------------------response headers:
+STRICT-TRANSPORT-SECURITY: max-age=31536000
+--------------------------------------------------response headers:
+X-CONTENT-TYPE-OPTIONS: nosniff
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 19655
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:02:03 GMT
+--------------------------------------------------response headers:
+VIA                 : 1.1 google
+--------------------------------------------------response headers:
+ALT-SVC             : clear
+--------------------------------------------------response headers:
+
+=
+PUT /connect-state/v1/devices/fbe78edb4c9720c34e1e05d180122b7ab7f56d5e HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : spclient.wg.spotify.com
+X-TRANSFER-ENCODING : gzip
+CONTENT-TYPE        : application/protobuf
+ACCEPT              : */*
+ACCEPT-LANGUAGE     : en
+AUTHORIZATION       : Bearer BQBqABCvb4OMCcDfge38-oAcOAphkiG-XBPox_xEBNmNIhXjzL45R2j2SSxnxj3-P5E8foj9Loibjy-Bevm2Xkf5zC3-41SIScKKiJe-zsb7m93HTbU-FWmsKhdtOES3ARepCz1WCghSvaRq30Kkw4DQryhnffZR7Ze10fMOSNcwfGi72rNyn-1I1eco7qjJUjXZk-A
+X-SPOTIFY-CONNECTION-ID: MmViZDQyMjI1MDQxYTI3ODg4NzNlMzI5MTBiZGRkMjQrZGVhbGVyK3RjcDovL2d1YzMtZGVhbGVyLWItZzI4cy5ndWMzLnNwb3RpZnkubmV0OjU3MDArNzg0QTUwRkJGQzJGN0VBMjdBMjI4NThCNUQ0NEQwQkE3MzgzN0VGMDUxQTQwMjY2Njk1RkFBNkM0NERCQzdBQw==
+USER-AGENT          : Spotify/8.5.34 iOS/Version 13.1 (Build 17A844)
+CONTENT-LENGTH      : 3221
+ACCEPT-ENCODING     : gzip, deflate, br
+--------------------------------------------------response headers:
+CACHE-CONTROL       : private, max-age=0
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-HEADERS: Accept, Authorization, Origin, Content-Type, Spotify-App-Version, App-Platform, X-Spotify-Connection-Id, X-Client-Id
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-METHODS: GET, POST, OPTIONS, PUT, DELETE, PATCH
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-CREDENTIALS: true
+--------------------------------------------------response headers:
+ACCESS-CONTROL-MAX-AGE: 604800
+--------------------------------------------------response headers:
+STRICT-TRANSPORT-SECURITY: max-age=31536000
+--------------------------------------------------response headers:
+X-CONTENT-TYPE-OPTIONS: nosniff
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 4916
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:02:04 GMT
+--------------------------------------------------response headers:
+VIA                 : 1.1 google
+--------------------------------------------------response headers:
+ALT-SVC             : clear
+--------------------------------------------------response headers:
+
+=
+PUT /connect-state/v1/devices/fbe78edb4c9720c34e1e05d180122b7ab7f56d5e HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : spclient.wg.spotify.com
+X-TRANSFER-ENCODING : gzip
+CONTENT-TYPE        : application/protobuf
+ACCEPT              : */*
+ACCEPT-LANGUAGE     : en
+AUTHORIZATION       : Bearer BQBqABCvb4OMCcDfge38-oAcOAphkiG-XBPox_xEBNmNIhXjzL45R2j2SSxnxj3-P5E8foj9Loibjy-Bevm2Xkf5zC3-41SIScKKiJe-zsb7m93HTbU-FWmsKhdtOES3ARepCz1WCghSvaRq30Kkw4DQryhnffZR7Ze10fMOSNcwfGi72rNyn-1I1eco7qjJUjXZk-A
+X-SPOTIFY-CONNECTION-ID: MmViZDQyMjI1MDQxYTI3ODg4NzNlMzI5MTBiZGRkMjQrZGVhbGVyK3RjcDovL2d1YzMtZGVhbGVyLWItZzI4cy5ndWMzLnNwb3RpZnkubmV0OjU3MDArNzg0QTUwRkJGQzJGN0VBMjdBMjI4NThCNUQ0NEQwQkE3MzgzN0VGMDUxQTQwMjY2Njk1RkFBNkM0NERCQzdBQw==
+USER-AGENT          : Spotify/8.5.34 iOS/Version 13.1 (Build 17A844)
+CONTENT-LENGTH      : 3165
+ACCEPT-ENCODING     : gzip, deflate, br
+--------------------------------------------------response headers:
+CACHE-CONTROL       : private, max-age=0
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-HEADERS: Accept, Authorization, Origin, Content-Type, Spotify-App-Version, App-Platform, X-Spotify-Connection-Id, X-Client-Id
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-METHODS: GET, POST, OPTIONS, PUT, DELETE, PATCH
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-CREDENTIALS: true
+--------------------------------------------------response headers:
+ACCESS-CONTROL-MAX-AGE: 604800
+--------------------------------------------------response headers:
+STRICT-TRANSPORT-SECURITY: max-age=31536000
+--------------------------------------------------response headers:
+X-CONTENT-TYPE-OPTIONS: nosniff
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 4833
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:02:05 GMT
+--------------------------------------------------response headers:
+VIA                 : 1.1 google
+--------------------------------------------------response headers:
+ALT-SVC             : clear
+--------------------------------------------------response headers:
+
+=
+GET /image/ab67616d0000b27398a02fef3a8b1d80a0f164ec HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : i.scdn.co
+ACCEPT              : */*
+ACCEPT-LANGUAGE     : en-us
+CONNECTION          : keep-alive
+ACCEPT-ENCODING     : gzip, deflate, br
+USER-AGENT          : Spotify/8.5.34 iOS/13.1 (iPad5,1)
+--------------------------------------------------response headers:
+LAST-MODIFIED       : Wed, 04 Sep 2019 10:56:24 GMT
+--------------------------------------------------response headers:
+ETAG                : "d3ebf99099690a049272c642d3afda91"
+--------------------------------------------------response headers:
+CONTENT-TYPE        : image/jpeg
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 118896
+--------------------------------------------------response headers:
+ACCEPT-RANGES       : bytes
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:02:05 GMT
+--------------------------------------------------response headers:
+AGE                 : 1276179
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+TIMING-ALLOW-ORIGIN : *
+--------------------------------------------------response headers:
+X-SERVED-BY         : cache-ord1721-ORD, cache-bwi5070-BWI
+--------------------------------------------------response headers:
+X-CACHE             : HIT, HIT
+--------------------------------------------------response headers:
+X-CACHE-HITS        : 3762, 1
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+CACHE-CONTROL       : max-age=315360000
+--------------------------------------------------response headers:
+
+=
+GET /image/ab67616d00001e0298a02fef3a8b1d80a0f164ec HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : i.scdn.co
+ACCEPT              : */*
+ACCEPT-LANGUAGE     : en-us
+CONNECTION          : keep-alive
+ACCEPT-ENCODING     : gzip, deflate, br
+USER-AGENT          : Spotify/8.5.34 iOS/13.1 (iPad5,1)
+--------------------------------------------------response headers:
+LAST-MODIFIED       : Wed, 04 Sep 2019 10:56:23 GMT
+--------------------------------------------------response headers:
+ETAG                : "42268546633545417bb5444f01969c57"
+--------------------------------------------------response headers:
+CONTENT-TYPE        : image/jpeg
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 28995
+--------------------------------------------------response headers:
+ACCEPT-RANGES       : bytes
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:02:05 GMT
+--------------------------------------------------response headers:
+AGE                 : 1276148
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+TIMING-ALLOW-ORIGIN : *
+--------------------------------------------------response headers:
+X-SERVED-BY         : cache-ord1738-ORD, cache-bwi5046-BWI
+--------------------------------------------------response headers:
+X-CACHE             : HIT, HIT
+--------------------------------------------------response headers:
+X-CACHE-HITS        : 3151, 3
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+CACHE-CONTROL       : max-age=315360000
+--------------------------------------------------response headers:
+
+=
+PUT /connect-state/v1/devices/fbe78edb4c9720c34e1e05d180122b7ab7f56d5e HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : spclient.wg.spotify.com
+X-TRANSFER-ENCODING : gzip
+CONTENT-TYPE        : application/protobuf
+ACCEPT              : */*
+ACCEPT-LANGUAGE     : en
+AUTHORIZATION       : Bearer BQBqABCvb4OMCcDfge38-oAcOAphkiG-XBPox_xEBNmNIhXjzL45R2j2SSxnxj3-P5E8foj9Loibjy-Bevm2Xkf5zC3-41SIScKKiJe-zsb7m93HTbU-FWmsKhdtOES3ARepCz1WCghSvaRq30Kkw4DQryhnffZR7Ze10fMOSNcwfGi72rNyn-1I1eco7qjJUjXZk-A
+X-SPOTIFY-CONNECTION-ID: MmViZDQyMjI1MDQxYTI3ODg4NzNlMzI5MTBiZGRkMjQrZGVhbGVyK3RjcDovL2d1YzMtZGVhbGVyLWItZzI4cy5ndWMzLnNwb3RpZnkubmV0OjU3MDArNzg0QTUwRkJGQzJGN0VBMjdBMjI4NThCNUQ0NEQwQkE3MzgzN0VGMDUxQTQwMjY2Njk1RkFBNkM0NERCQzdBQw==
+USER-AGENT          : Spotify/8.5.34 iOS/Version 13.1 (Build 17A844)
+CONTENT-LENGTH      : 3241
+ACCEPT-ENCODING     : gzip, deflate, br
+--------------------------------------------------response headers:
+CACHE-CONTROL       : private, max-age=0
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-HEADERS: Accept, Authorization, Origin, Content-Type, Spotify-App-Version, App-Platform, X-Spotify-Connection-Id, X-Client-Id
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-METHODS: GET, POST, OPTIONS, PUT, DELETE, PATCH
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-CREDENTIALS: true
+--------------------------------------------------response headers:
+ACCESS-CONTROL-MAX-AGE: 604800
+--------------------------------------------------response headers:
+STRICT-TRANSPORT-SECURITY: max-age=31536000
+--------------------------------------------------response headers:
+X-CONTENT-TYPE-OPTIONS: nosniff
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 4906
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:02:06 GMT
+--------------------------------------------------response headers:
+VIA                 : 1.1 google
+--------------------------------------------------response headers:
+ALT-SVC             : clear
+--------------------------------------------------response headers:
+
+=
+GET /image/475a5d46cf92bccce46ab199bd68169e441df699 HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : i.scdn.co
+ACCEPT              : */*
+ACCEPT-LANGUAGE     : en-us
+CONNECTION          : keep-alive
+ACCEPT-ENCODING     : gzip, deflate, br
+USER-AGENT          : Spotify/8.5.34 iOS/13.1 (iPad5,1)
+--------------------------------------------------response headers:
+LAST-MODIFIED       : Tue, 24 Sep 2019 05:03:27 GMT
+--------------------------------------------------response headers:
+ETAG                : "2f78febeb0a0abfa4754d1b7654985c2"
+--------------------------------------------------response headers:
+CONTENT-TYPE        : image/jpeg
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 56256
+--------------------------------------------------response headers:
+ACCEPT-RANGES       : bytes
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:02:06 GMT
+--------------------------------------------------response headers:
+AGE                 : 2818906
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+TIMING-ALLOW-ORIGIN : *
+--------------------------------------------------response headers:
+X-SERVED-BY         : cache-ord1742-ORD, cache-bwi5070-BWI
+--------------------------------------------------response headers:
+X-CACHE             : HIT, HIT
+--------------------------------------------------response headers:
+X-CACHE-HITS        : 3940, 2
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+CACHE-CONTROL       : max-age=315360000
+--------------------------------------------------response headers:
+
+=
+GET /image/c4b49902870bc369f597884d5939c933b5e65ced HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : i.scdn.co
+ACCEPT              : */*
+ACCEPT-LANGUAGE     : en-us
+CONNECTION          : keep-alive
+ACCEPT-ENCODING     : gzip, deflate, br
+USER-AGENT          : Spotify/8.5.34 iOS/13.1 (iPad5,1)
+--------------------------------------------------response headers:
+LAST-MODIFIED       : Tue, 24 Sep 2019 05:03:26 GMT
+--------------------------------------------------response headers:
+ETAG                : "7896ab6b2441f0060ac694ed823ae111"
+--------------------------------------------------response headers:
+CONTENT-TYPE        : image/jpeg
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 19240
+--------------------------------------------------response headers:
+ACCEPT-RANGES       : bytes
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:02:07 GMT
+--------------------------------------------------response headers:
+AGE                 : 5843072
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+TIMING-ALLOW-ORIGIN : *
+--------------------------------------------------response headers:
+X-SERVED-BY         : cache-ord1721-ORD, cache-bwi5070-BWI
+--------------------------------------------------response headers:
+X-CACHE             : HIT, HIT
+--------------------------------------------------response headers:
+X-CACHE-HITS        : 11194, 5
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+CACHE-CONTROL       : max-age=315360000
+--------------------------------------------------response headers:
+
+=
+GET /image/65fef75a3eeaf35d94f1d9e7553222c8d0194cb3 HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : i.scdn.co
+ACCEPT              : */*
+ACCEPT-LANGUAGE     : en-us
+CONNECTION          : keep-alive
+ACCEPT-ENCODING     : gzip, deflate, br
+USER-AGENT          : Spotify/8.5.34 iOS/13.1 (iPad5,1)
+--------------------------------------------------response headers:
+LAST-MODIFIED       : Fri, 20 Sep 2019 04:55:46 GMT
+--------------------------------------------------response headers:
+ETAG                : "3257e4986c3b7739231083e9ac3d06fe"
+--------------------------------------------------response headers:
+CONTENT-TYPE        : image/jpeg
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 57756
+--------------------------------------------------response headers:
+ACCEPT-RANGES       : bytes
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:02:07 GMT
+--------------------------------------------------response headers:
+AGE                 : 4028275
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+TIMING-ALLOW-ORIGIN : *
+--------------------------------------------------response headers:
+X-SERVED-BY         : cache-ord1736-ORD, cache-bwi5070-BWI
+--------------------------------------------------response headers:
+X-CACHE             : HIT, HIT
+--------------------------------------------------response headers:
+X-CACHE-HITS        : 9349, 4
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+CACHE-CONTROL       : max-age=315360000
+--------------------------------------------------response headers:
+
+=
+PUT /connect-state/v1/devices/fbe78edb4c9720c34e1e05d180122b7ab7f56d5e HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : spclient.wg.spotify.com
+X-TRANSFER-ENCODING : gzip
+CONTENT-TYPE        : application/protobuf
+ACCEPT              : */*
+ACCEPT-LANGUAGE     : en
+AUTHORIZATION       : Bearer BQBqABCvb4OMCcDfge38-oAcOAphkiG-XBPox_xEBNmNIhXjzL45R2j2SSxnxj3-P5E8foj9Loibjy-Bevm2Xkf5zC3-41SIScKKiJe-zsb7m93HTbU-FWmsKhdtOES3ARepCz1WCghSvaRq30Kkw4DQryhnffZR7Ze10fMOSNcwfGi72rNyn-1I1eco7qjJUjXZk-A
+X-SPOTIFY-CONNECTION-ID: MmViZDQyMjI1MDQxYTI3ODg4NzNlMzI5MTBiZGRkMjQrZGVhbGVyK3RjcDovL2d1YzMtZGVhbGVyLWItZzI4cy5ndWMzLnNwb3RpZnkubmV0OjU3MDArNzg0QTUwRkJGQzJGN0VBMjdBMjI4NThCNUQ0NEQwQkE3MzgzN0VGMDUxQTQwMjY2Njk1RkFBNkM0NERCQzdBQw==
+USER-AGENT          : Spotify/8.5.34 iOS/Version 13.1 (Build 17A844)
+CONTENT-LENGTH      : 3291
+ACCEPT-ENCODING     : gzip, deflate, br
+--------------------------------------------------response headers:
+CACHE-CONTROL       : private, max-age=0
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-HEADERS: Accept, Authorization, Origin, Content-Type, Spotify-App-Version, App-Platform, X-Spotify-Connection-Id, X-Client-Id
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-METHODS: GET, POST, OPTIONS, PUT, DELETE, PATCH
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-CREDENTIALS: true
+--------------------------------------------------response headers:
+ACCESS-CONTROL-MAX-AGE: 604800
+--------------------------------------------------response headers:
+STRICT-TRANSPORT-SECURITY: max-age=31536000
+--------------------------------------------------response headers:
+X-CONTENT-TYPE-OPTIONS: nosniff
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 4963
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:02:07 GMT
+--------------------------------------------------response headers:
+VIA                 : 1.1 google
+--------------------------------------------------response headers:
+ALT-SVC             : clear
+--------------------------------------------------response headers:
+
+=
+GET /storage-resolve/files/audio/interactive/9e24c6cae68df7ffb56d0998d93a7aa074503eb9?product=0 HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : spclient.wg.spotify.com
+ACCEPT              : */*
+AUTHORIZATION       : Bearer BQBqABCvb4OMCcDfge38-oAcOAphkiG-XBPox_xEBNmNIhXjzL45R2j2SSxnxj3-P5E8foj9Loibjy-Bevm2Xkf5zC3-41SIScKKiJe-zsb7m93HTbU-FWmsKhdtOES3ARepCz1WCghSvaRq30Kkw4DQryhnffZR7Ze10fMOSNcwfGi72rNyn-1I1eco7qjJUjXZk-A
+CACHE-CONTROL       : no-cache
+USER-AGENT          : Spotify/8.5.34 iOS/Version 13.1 (Build 17A844)
+ACCEPT-LANGUAGE     : en
+ACCEPT-ENCODING     : gzip, deflate, br
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/x-protobuf
+--------------------------------------------------response headers:
+CACHE-CONTROL       : private, max-age=0
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-HEADERS: Accept, Authorization, Origin, Content-Type, Spotify-App-Version, App-Platform, X-Spotify-Connection-Id, X-Client-Id
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-METHODS: GET, POST, OPTIONS, PUT, DELETE, PATCH
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-CREDENTIALS: true
+--------------------------------------------------response headers:
+ACCESS-CONTROL-MAX-AGE: 604800
+--------------------------------------------------response headers:
+STRICT-TRANSPORT-SECURITY: max-age=31536000
+--------------------------------------------------response headers:
+X-CONTENT-TYPE-OPTIONS: nosniff
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 288
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:02:07 GMT
+--------------------------------------------------response headers:
+VIA                 : 1.1 google
+--------------------------------------------------response headers:
+ALT-SVC             : clear
+--------------------------------------------------response headers:
+
+=
+GET /head/9e24c6cae68df7ffb56d0998d93a7aa074503eb9 HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : heads-ak-spotify-com.akamaized.net
+ACCEPT              : */*
+ACCEPT-LANGUAGE     : en-us
+CONNECTION          : keep-alive
+ACCEPT-ENCODING     : 
+USER-AGENT          : Spotify/8.5.34 iOS/13.1 (iPad5,1)
+--------------------------------------------------response headers:
+LAST-MODIFIED       : Tue, 24 Sep 2019 01:52:24 GMT
+--------------------------------------------------response headers:
+ETAG                : "f31c7184eda5829864e0040978a54a23"
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/octet-stream
+--------------------------------------------------response headers:
+ACCEPT-RANGES       : bytes
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 131072
+--------------------------------------------------response headers:
+PRAGMA              : no-cache
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:02:07 GMT
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+ACCESS-CONTROL-MAX-AGE: 86400
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-HEADERS: range
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-METHODS: GET
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+EXPIRES             : Sun, 09 Dec 2029 02:02:07 GMT
+--------------------------------------------------response headers:
+CACHE-CONTROL       : max-age=315360000, no-transform
+--------------------------------------------------response headers:
+
+=
+PUT /connect-state/v1/devices/fbe78edb4c9720c34e1e05d180122b7ab7f56d5e HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : spclient.wg.spotify.com
+X-TRANSFER-ENCODING : gzip
+CONTENT-TYPE        : application/protobuf
+ACCEPT              : */*
+ACCEPT-LANGUAGE     : en
+AUTHORIZATION       : Bearer BQBqABCvb4OMCcDfge38-oAcOAphkiG-XBPox_xEBNmNIhXjzL45R2j2SSxnxj3-P5E8foj9Loibjy-Bevm2Xkf5zC3-41SIScKKiJe-zsb7m93HTbU-FWmsKhdtOES3ARepCz1WCghSvaRq30Kkw4DQryhnffZR7Ze10fMOSNcwfGi72rNyn-1I1eco7qjJUjXZk-A
+X-SPOTIFY-CONNECTION-ID: MmViZDQyMjI1MDQxYTI3ODg4NzNlMzI5MTBiZGRkMjQrZGVhbGVyK3RjcDovL2d1YzMtZGVhbGVyLWItZzI4cy5ndWMzLnNwb3RpZnkubmV0OjU3MDArNzg0QTUwRkJGQzJGN0VBMjdBMjI4NThCNUQ0NEQwQkE3MzgzN0VGMDUxQTQwMjY2Njk1RkFBNkM0NERCQzdBQw==
+USER-AGENT          : Spotify/8.5.34 iOS/Version 13.1 (Build 17A844)
+CONTENT-LENGTH      : 3295
+ACCEPT-ENCODING     : gzip, deflate, br
+--------------------------------------------------response headers:
+CACHE-CONTROL       : private, max-age=0
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-HEADERS: Accept, Authorization, Origin, Content-Type, Spotify-App-Version, App-Platform, X-Spotify-Connection-Id, X-Client-Id
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-METHODS: GET, POST, OPTIONS, PUT, DELETE, PATCH
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-CREDENTIALS: true
+--------------------------------------------------response headers:
+ACCESS-CONTROL-MAX-AGE: 604800
+--------------------------------------------------response headers:
+STRICT-TRANSPORT-SECURITY: max-age=31536000
+--------------------------------------------------response headers:
+X-CONTENT-TYPE-OPTIONS: nosniff
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 4969
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:02:07 GMT
+--------------------------------------------------response headers:
+VIA                 : 1.1 google
+--------------------------------------------------response headers:
+ALT-SVC             : clear
+--------------------------------------------------response headers:
+
+=
+GET /audio/9e24c6cae68df7ffb56d0998d93a7aa074503eb9?1576202527_c9ORRGBU2UfDsV_sRb83Y8jXhPyib3-3VYYkrfyNLts= HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : audio-fa.scdn.co
+CONNECTION          : keep-alive
+RANGE               : bytes=0-524287
+ACCEPT              : */*
+USER-AGENT          : Spotify/8.5.34 iOS/13.1 (iPad5,1)
+ACCEPT-LANGUAGE     : en-us
+CACHE-CONTROL       : no-cache, no-store
+ACCEPT-ENCODING     : 
+--------------------------------------------------response headers:
+LAST-MODIFIED       : Tue, 24 Sep 2019 01:52:23 GMT
+--------------------------------------------------response headers:
+ETAG                : "92d2c8239289187ae8fcdb39e19631e9"
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/octet-stream
+--------------------------------------------------response headers:
+ACCEPT-RANGES       : bytes, bytes
+--------------------------------------------------response headers:
+AGE                 : 6704942
+--------------------------------------------------response headers:
+CONTENT-RANGE       : bytes 0-524287/2985308
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 524288
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:02:07 GMT
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+X-SERVED-BY         : cache-ord1737-ORD, cache-bwi5081-BWI
+--------------------------------------------------response headers:
+X-CACHE             : HIT, HIT
+--------------------------------------------------response headers:
+X-CACHE-HITS        : 1, 0
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+CACHE-CONTROL       : max-age=315360000, no-transform
+--------------------------------------------------response headers:
+
+=
+GET /image/caa5fccf92fc878f79d4fd65cdf21e6610f2b13c HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : i.scdn.co
+ACCEPT              : */*
+ACCEPT-LANGUAGE     : en-us
+CONNECTION          : keep-alive
+ACCEPT-ENCODING     : gzip, deflate, br
+USER-AGENT          : Spotify/8.5.34 iOS/13.1 (iPad5,1)
+--------------------------------------------------response headers:
+LAST-MODIFIED       : Fri, 20 Sep 2019 04:55:46 GMT
+--------------------------------------------------response headers:
+ETAG                : "408cc4994f8ca46781ad6449f9253737"
+--------------------------------------------------response headers:
+CONTENT-TYPE        : image/jpeg
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 16878
+--------------------------------------------------response headers:
+ACCEPT-RANGES       : bytes
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:02:08 GMT
+--------------------------------------------------response headers:
+AGE                 : 1004342
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+TIMING-ALLOW-ORIGIN : *
+--------------------------------------------------response headers:
+X-SERVED-BY         : cache-ord1734-ORD, cache-bwi5070-BWI
+--------------------------------------------------response headers:
+X-CACHE             : HIT, HIT
+--------------------------------------------------response headers:
+X-CACHE-HITS        : 2235, 3
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+CACHE-CONTROL       : max-age=315360000
+--------------------------------------------------response headers:
+
+=
+GET /image/cd89c09ece48d687d4b6a894e28300064ade5512 HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : i.scdn.co
+ACCEPT              : */*
+ACCEPT-LANGUAGE     : en-us
+CONNECTION          : keep-alive
+ACCEPT-ENCODING     : gzip, deflate, br
+USER-AGENT          : Spotify/8.5.34 iOS/13.1 (iPad5,1)
+--------------------------------------------------response headers:
+LAST-MODIFIED       : Sat, 21 Sep 2019 02:12:14 GMT
+--------------------------------------------------response headers:
+ETAG                : "d27f33f8ec8df67d2544998067cf250c"
+--------------------------------------------------response headers:
+CONTENT-TYPE        : image/jpeg
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 43446
+--------------------------------------------------response headers:
+ACCEPT-RANGES       : bytes
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:02:08 GMT
+--------------------------------------------------response headers:
+AGE                 : 311967
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+TIMING-ALLOW-ORIGIN : *
+--------------------------------------------------response headers:
+X-SERVED-BY         : cache-ord1736-ORD, cache-bwi5046-BWI
+--------------------------------------------------response headers:
+X-CACHE             : HIT, HIT
+--------------------------------------------------response headers:
+X-CACHE-HITS        : 8863, 593
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+CACHE-CONTROL       : max-age=315360000
+--------------------------------------------------response headers:
+
+=
+PUT /connect-state/v1/devices/fbe78edb4c9720c34e1e05d180122b7ab7f56d5e HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : spclient.wg.spotify.com
+X-TRANSFER-ENCODING : gzip
+CONTENT-TYPE        : application/protobuf
+ACCEPT              : */*
+ACCEPT-LANGUAGE     : en
+AUTHORIZATION       : Bearer BQBqABCvb4OMCcDfge38-oAcOAphkiG-XBPox_xEBNmNIhXjzL45R2j2SSxnxj3-P5E8foj9Loibjy-Bevm2Xkf5zC3-41SIScKKiJe-zsb7m93HTbU-FWmsKhdtOES3ARepCz1WCghSvaRq30Kkw4DQryhnffZR7Ze10fMOSNcwfGi72rNyn-1I1eco7qjJUjXZk-A
+X-SPOTIFY-CONNECTION-ID: MmViZDQyMjI1MDQxYTI3ODg4NzNlMzI5MTBiZGRkMjQrZGVhbGVyK3RjcDovL2d1YzMtZGVhbGVyLWItZzI4cy5ndWMzLnNwb3RpZnkubmV0OjU3MDArNzg0QTUwRkJGQzJGN0VBMjdBMjI4NThCNUQ0NEQwQkE3MzgzN0VGMDUxQTQwMjY2Njk1RkFBNkM0NERCQzdBQw==
+USER-AGENT          : Spotify/8.5.34 iOS/Version 13.1 (Build 17A844)
+CONTENT-LENGTH      : 3329
+ACCEPT-ENCODING     : gzip, deflate, br
+--------------------------------------------------response headers:
+CACHE-CONTROL       : private, max-age=0
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-HEADERS: Accept, Authorization, Origin, Content-Type, Spotify-App-Version, App-Platform, X-Spotify-Connection-Id, X-Client-Id
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-METHODS: GET, POST, OPTIONS, PUT, DELETE, PATCH
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-CREDENTIALS: true
+--------------------------------------------------response headers:
+ACCESS-CONTROL-MAX-AGE: 604800
+--------------------------------------------------response headers:
+STRICT-TRANSPORT-SECURITY: max-age=31536000
+--------------------------------------------------response headers:
+X-CONTENT-TYPE-OPTIONS: nosniff
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 5008
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:02:08 GMT
+--------------------------------------------------response headers:
+VIA                 : 1.1 google
+--------------------------------------------------response headers:
+ALT-SVC             : clear
+--------------------------------------------------response headers:
+
+=
+GET /head/04393af97496e08fb17cf0093ecbff94fd12bb3d HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : heads-ak-spotify-com.akamaized.net
+ACCEPT              : */*
+ACCEPT-LANGUAGE     : en-us
+CONNECTION          : keep-alive
+ACCEPT-ENCODING     : 
+USER-AGENT          : Spotify/8.5.34 iOS/13.1 (iPad5,1)
+--------------------------------------------------response headers:
+LAST-MODIFIED       : Fri, 20 Sep 2019 04:53:47 GMT
+--------------------------------------------------response headers:
+ETAG                : "1fa051253225146e7768bc0612841d57"
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/octet-stream
+--------------------------------------------------response headers:
+ACCEPT-RANGES       : bytes
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 131072
+--------------------------------------------------response headers:
+PRAGMA              : no-cache
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:02:08 GMT
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+ACCESS-CONTROL-MAX-AGE: 86400
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-HEADERS: range
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-METHODS: GET
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+EXPIRES             : Sun, 09 Dec 2029 02:02:08 GMT
+--------------------------------------------------response headers:
+CACHE-CONTROL       : max-age=315360000, no-transform
+--------------------------------------------------response headers:
+
+=
+GET /storage-resolve/files/audio/interactive/04393af97496e08fb17cf0093ecbff94fd12bb3d?product=0 HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : spclient.wg.spotify.com
+ACCEPT              : */*
+AUTHORIZATION       : Bearer BQBqABCvb4OMCcDfge38-oAcOAphkiG-XBPox_xEBNmNIhXjzL45R2j2SSxnxj3-P5E8foj9Loibjy-Bevm2Xkf5zC3-41SIScKKiJe-zsb7m93HTbU-FWmsKhdtOES3ARepCz1WCghSvaRq30Kkw4DQryhnffZR7Ze10fMOSNcwfGi72rNyn-1I1eco7qjJUjXZk-A
+CACHE-CONTROL       : no-cache
+USER-AGENT          : Spotify/8.5.34 iOS/Version 13.1 (Build 17A844)
+ACCEPT-LANGUAGE     : en
+ACCEPT-ENCODING     : gzip, deflate, br
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/x-protobuf
+--------------------------------------------------response headers:
+CACHE-CONTROL       : private, max-age=0
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-HEADERS: Accept, Authorization, Origin, Content-Type, Spotify-App-Version, App-Platform, X-Spotify-Connection-Id, X-Client-Id
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-METHODS: GET, POST, OPTIONS, PUT, DELETE, PATCH
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-CREDENTIALS: true
+--------------------------------------------------response headers:
+ACCESS-CONTROL-MAX-AGE: 604800
+--------------------------------------------------response headers:
+STRICT-TRANSPORT-SECURITY: max-age=31536000
+--------------------------------------------------response headers:
+X-CONTENT-TYPE-OPTIONS: nosniff
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 283
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:02:09 GMT
+--------------------------------------------------response headers:
+VIA                 : 1.1 google
+--------------------------------------------------response headers:
+ALT-SVC             : clear
+--------------------------------------------------response headers:
+
+=
+PUT /connect-state/v1/devices/fbe78edb4c9720c34e1e05d180122b7ab7f56d5e HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : spclient.wg.spotify.com
+X-TRANSFER-ENCODING : gzip
+CONTENT-TYPE        : application/protobuf
+ACCEPT              : */*
+ACCEPT-LANGUAGE     : en
+AUTHORIZATION       : Bearer BQBqABCvb4OMCcDfge38-oAcOAphkiG-XBPox_xEBNmNIhXjzL45R2j2SSxnxj3-P5E8foj9Loibjy-Bevm2Xkf5zC3-41SIScKKiJe-zsb7m93HTbU-FWmsKhdtOES3ARepCz1WCghSvaRq30Kkw4DQryhnffZR7Ze10fMOSNcwfGi72rNyn-1I1eco7qjJUjXZk-A
+X-SPOTIFY-CONNECTION-ID: MmViZDQyMjI1MDQxYTI3ODg4NzNlMzI5MTBiZGRkMjQrZGVhbGVyK3RjcDovL2d1YzMtZGVhbGVyLWItZzI4cy5ndWMzLnNwb3RpZnkubmV0OjU3MDArNzg0QTUwRkJGQzJGN0VBMjdBMjI4NThCNUQ0NEQwQkE3MzgzN0VGMDUxQTQwMjY2Njk1RkFBNkM0NERCQzdBQw==
+USER-AGENT          : Spotify/8.5.34 iOS/Version 13.1 (Build 17A844)
+CONTENT-LENGTH      : 3330
+ACCEPT-ENCODING     : gzip, deflate, br
+--------------------------------------------------response headers:
+CACHE-CONTROL       : private, max-age=0
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-HEADERS: Accept, Authorization, Origin, Content-Type, Spotify-App-Version, App-Platform, X-Spotify-Connection-Id, X-Client-Id
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-METHODS: GET, POST, OPTIONS, PUT, DELETE, PATCH
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-CREDENTIALS: true
+--------------------------------------------------response headers:
+ACCESS-CONTROL-MAX-AGE: 604800
+--------------------------------------------------response headers:
+STRICT-TRANSPORT-SECURITY: max-age=31536000
+--------------------------------------------------response headers:
+X-CONTENT-TYPE-OPTIONS: nosniff
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 5013
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:02:09 GMT
+--------------------------------------------------response headers:
+VIA                 : 1.1 google
+--------------------------------------------------response headers:
+ALT-SVC             : clear
+--------------------------------------------------response headers:
+
+=
+GET /audio/04393af97496e08fb17cf0093ecbff94fd12bb3d?1576202529_gEpdry61xZIb0uQtXas3aXK0ACGmuGQ6sdux_wfst7I= HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : audio-fa.scdn.co
+CONNECTION          : keep-alive
+RANGE               : bytes=81920-606207
+ACCEPT              : */*
+USER-AGENT          : Spotify/8.5.34 iOS/13.1 (iPad5,1)
+ACCEPT-LANGUAGE     : en-us
+CACHE-CONTROL       : no-cache, no-store
+ACCEPT-ENCODING     : 
+--------------------------------------------------response headers:
+LAST-MODIFIED       : Fri, 20 Sep 2019 04:53:46 GMT
+--------------------------------------------------response headers:
+ETAG                : "8e078db4ae13cf6bb8bfe6dba685d6c2"
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/octet-stream
+--------------------------------------------------response headers:
+ACCEPT-RANGES       : bytes, bytes
+--------------------------------------------------response headers:
+AGE                 : 4728360
+--------------------------------------------------response headers:
+CONTENT-RANGE       : bytes 81920-606207/3188052
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 524288
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:02:09 GMT
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+X-SERVED-BY         : cache-ord1727-ORD, cache-bwi5058-BWI
+--------------------------------------------------response headers:
+X-CACHE             : HIT, HIT
+--------------------------------------------------response headers:
+X-CACHE-HITS        : 1, 0
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+CACHE-CONTROL       : max-age=315360000, no-transform
+--------------------------------------------------response headers:
+
+=
+GET /image/ab67616d0000b273e2a93f34e3c52c12f2a5578f HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : i.scdn.co
+ACCEPT              : */*
+ACCEPT-LANGUAGE     : en-us
+CONNECTION          : keep-alive
+ACCEPT-ENCODING     : gzip, deflate, br
+USER-AGENT          : Spotify/8.5.34 iOS/13.1 (iPad5,1)
+--------------------------------------------------response headers:
+LAST-MODIFIED       : Wed, 04 Sep 2019 11:51:07 GMT
+--------------------------------------------------response headers:
+ETAG                : "e275a055e8a6af2a279d6da50db6773d"
+--------------------------------------------------response headers:
+CONTENT-TYPE        : image/jpeg
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 102538
+--------------------------------------------------response headers:
+ACCEPT-RANGES       : bytes
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:02:09 GMT
+--------------------------------------------------response headers:
+AGE                 : 2832752
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+TIMING-ALLOW-ORIGIN : *
+--------------------------------------------------response headers:
+X-SERVED-BY         : cache-ord1731-ORD, cache-bwi5070-BWI
+--------------------------------------------------response headers:
+X-CACHE             : HIT, HIT
+--------------------------------------------------response headers:
+X-CACHE-HITS        : 1105, 1
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+CACHE-CONTROL       : max-age=315360000
+--------------------------------------------------response headers:
+
+=
+PUT /connect-state/v1/devices/fbe78edb4c9720c34e1e05d180122b7ab7f56d5e HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : spclient.wg.spotify.com
+X-TRANSFER-ENCODING : gzip
+CONTENT-TYPE        : application/protobuf
+ACCEPT              : */*
+ACCEPT-LANGUAGE     : en
+AUTHORIZATION       : Bearer BQBqABCvb4OMCcDfge38-oAcOAphkiG-XBPox_xEBNmNIhXjzL45R2j2SSxnxj3-P5E8foj9Loibjy-Bevm2Xkf5zC3-41SIScKKiJe-zsb7m93HTbU-FWmsKhdtOES3ARepCz1WCghSvaRq30Kkw4DQryhnffZR7Ze10fMOSNcwfGi72rNyn-1I1eco7qjJUjXZk-A
+X-SPOTIFY-CONNECTION-ID: MmViZDQyMjI1MDQxYTI3ODg4NzNlMzI5MTBiZGRkMjQrZGVhbGVyK3RjcDovL2d1YzMtZGVhbGVyLWItZzI4cy5ndWMzLnNwb3RpZnkubmV0OjU3MDArNzg0QTUwRkJGQzJGN0VBMjdBMjI4NThCNUQ0NEQwQkE3MzgzN0VGMDUxQTQwMjY2Njk1RkFBNkM0NERCQzdBQw==
+USER-AGENT          : Spotify/8.5.34 iOS/Version 13.1 (Build 17A844)
+CONTENT-LENGTH      : 3365
+ACCEPT-ENCODING     : gzip, deflate, br
+--------------------------------------------------response headers:
+CACHE-CONTROL       : private, max-age=0
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-HEADERS: Accept, Authorization, Origin, Content-Type, Spotify-App-Version, App-Platform, X-Spotify-Connection-Id, X-Client-Id
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-METHODS: GET, POST, OPTIONS, PUT, DELETE, PATCH
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-CREDENTIALS: true
+--------------------------------------------------response headers:
+ACCESS-CONTROL-MAX-AGE: 604800
+--------------------------------------------------response headers:
+STRICT-TRANSPORT-SECURITY: max-age=31536000
+--------------------------------------------------response headers:
+X-CONTENT-TYPE-OPTIONS: nosniff
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 5056
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:02:10 GMT
+--------------------------------------------------response headers:
+VIA                 : 1.1 google
+--------------------------------------------------response headers:
+ALT-SVC             : clear
+--------------------------------------------------response headers:
+
+=
+GET /head/5c1f4efa1deb8ae5daa2c123035dc8a82412acd2 HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : heads-ak-spotify-com.akamaized.net
+ACCEPT              : */*
+ACCEPT-LANGUAGE     : en-us
+CONNECTION          : keep-alive
+ACCEPT-ENCODING     : 
+USER-AGENT          : Spotify/8.5.34 iOS/13.1 (iPad5,1)
+--------------------------------------------------response headers:
+LAST-MODIFIED       : Sat, 21 Sep 2019 02:14:22 GMT
+--------------------------------------------------response headers:
+ETAG                : "d951262188fb843b6caa29d5355c2da8"
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/octet-stream
+--------------------------------------------------response headers:
+ACCEPT-RANGES       : bytes
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 131072
+--------------------------------------------------response headers:
+PRAGMA              : no-cache
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:02:10 GMT
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+ACCESS-CONTROL-MAX-AGE: 86400
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-HEADERS: range
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-METHODS: GET
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+EXPIRES             : Sun, 09 Dec 2029 02:02:10 GMT
+--------------------------------------------------response headers:
+CACHE-CONTROL       : max-age=315360000, no-transform
+--------------------------------------------------response headers:
+
+=
+GET /storage-resolve/files/audio/interactive/5c1f4efa1deb8ae5daa2c123035dc8a82412acd2?product=0 HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : spclient.wg.spotify.com
+ACCEPT              : */*
+AUTHORIZATION       : Bearer BQBqABCvb4OMCcDfge38-oAcOAphkiG-XBPox_xEBNmNIhXjzL45R2j2SSxnxj3-P5E8foj9Loibjy-Bevm2Xkf5zC3-41SIScKKiJe-zsb7m93HTbU-FWmsKhdtOES3ARepCz1WCghSvaRq30Kkw4DQryhnffZR7Ze10fMOSNcwfGi72rNyn-1I1eco7qjJUjXZk-A
+CACHE-CONTROL       : no-cache
+USER-AGENT          : Spotify/8.5.34 iOS/Version 13.1 (Build 17A844)
+ACCEPT-LANGUAGE     : en
+ACCEPT-ENCODING     : gzip, deflate, br
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/x-protobuf
+--------------------------------------------------response headers:
+CACHE-CONTROL       : private, max-age=0
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-HEADERS: Accept, Authorization, Origin, Content-Type, Spotify-App-Version, App-Platform, X-Spotify-Connection-Id, X-Client-Id
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-METHODS: GET, POST, OPTIONS, PUT, DELETE, PATCH
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-CREDENTIALS: true
+--------------------------------------------------response headers:
+ACCESS-CONTROL-MAX-AGE: 604800
+--------------------------------------------------response headers:
+STRICT-TRANSPORT-SECURITY: max-age=31536000
+--------------------------------------------------response headers:
+X-CONTENT-TYPE-OPTIONS: nosniff
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 290
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:02:10 GMT
+--------------------------------------------------response headers:
+VIA                 : 1.1 google
+--------------------------------------------------response headers:
+ALT-SVC             : clear
+--------------------------------------------------response headers:
+
+=
+PUT /connect-state/v1/devices/fbe78edb4c9720c34e1e05d180122b7ab7f56d5e HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : spclient.wg.spotify.com
+X-TRANSFER-ENCODING : gzip
+CONTENT-TYPE        : application/protobuf
+ACCEPT              : */*
+ACCEPT-LANGUAGE     : en
+AUTHORIZATION       : Bearer BQBqABCvb4OMCcDfge38-oAcOAphkiG-XBPox_xEBNmNIhXjzL45R2j2SSxnxj3-P5E8foj9Loibjy-Bevm2Xkf5zC3-41SIScKKiJe-zsb7m93HTbU-FWmsKhdtOES3ARepCz1WCghSvaRq30Kkw4DQryhnffZR7Ze10fMOSNcwfGi72rNyn-1I1eco7qjJUjXZk-A
+X-SPOTIFY-CONNECTION-ID: MmViZDQyMjI1MDQxYTI3ODg4NzNlMzI5MTBiZGRkMjQrZGVhbGVyK3RjcDovL2d1YzMtZGVhbGVyLWItZzI4cy5ndWMzLnNwb3RpZnkubmV0OjU3MDArNzg0QTUwRkJGQzJGN0VBMjdBMjI4NThCNUQ0NEQwQkE3MzgzN0VGMDUxQTQwMjY2Njk1RkFBNkM0NERCQzdBQw==
+USER-AGENT          : Spotify/8.5.34 iOS/Version 13.1 (Build 17A844)
+CONTENT-LENGTH      : 3367
+ACCEPT-ENCODING     : gzip, deflate, br
+--------------------------------------------------response headers:
+CACHE-CONTROL       : private, max-age=0
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-HEADERS: Accept, Authorization, Origin, Content-Type, Spotify-App-Version, App-Platform, X-Spotify-Connection-Id, X-Client-Id
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-METHODS: GET, POST, OPTIONS, PUT, DELETE, PATCH
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-CREDENTIALS: true
+--------------------------------------------------response headers:
+ACCESS-CONTROL-MAX-AGE: 604800
+--------------------------------------------------response headers:
+STRICT-TRANSPORT-SECURITY: max-age=31536000
+--------------------------------------------------response headers:
+X-CONTENT-TYPE-OPTIONS: nosniff
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 5069
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:02:10 GMT
+--------------------------------------------------response headers:
+VIA                 : 1.1 google
+--------------------------------------------------response headers:
+ALT-SVC             : clear
+--------------------------------------------------response headers:
+
+=
+PUT /connect-state/v1/devices/fbe78edb4c9720c34e1e05d180122b7ab7f56d5e HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : spclient.wg.spotify.com
+X-TRANSFER-ENCODING : gzip
+CONTENT-TYPE        : application/protobuf
+ACCEPT              : */*
+ACCEPT-LANGUAGE     : en
+AUTHORIZATION       : Bearer BQBqABCvb4OMCcDfge38-oAcOAphkiG-XBPox_xEBNmNIhXjzL45R2j2SSxnxj3-P5E8foj9Loibjy-Bevm2Xkf5zC3-41SIScKKiJe-zsb7m93HTbU-FWmsKhdtOES3ARepCz1WCghSvaRq30Kkw4DQryhnffZR7Ze10fMOSNcwfGi72rNyn-1I1eco7qjJUjXZk-A
+X-SPOTIFY-CONNECTION-ID: MmViZDQyMjI1MDQxYTI3ODg4NzNlMzI5MTBiZGRkMjQrZGVhbGVyK3RjcDovL2d1YzMtZGVhbGVyLWItZzI4cy5ndWMzLnNwb3RpZnkubmV0OjU3MDArNzg0QTUwRkJGQzJGN0VBMjdBMjI4NThCNUQ0NEQwQkE3MzgzN0VGMDUxQTQwMjY2Njk1RkFBNkM0NERCQzdBQw==
+USER-AGENT          : Spotify/8.5.34 iOS/Version 13.1 (Build 17A844)
+CONTENT-LENGTH      : 3327
+ACCEPT-ENCODING     : gzip, deflate, br
+--------------------------------------------------response headers:
+CACHE-CONTROL       : private, max-age=0
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-HEADERS: Accept, Authorization, Origin, Content-Type, Spotify-App-Version, App-Platform, X-Spotify-Connection-Id, X-Client-Id
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-METHODS: GET, POST, OPTIONS, PUT, DELETE, PATCH
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-CREDENTIALS: true
+--------------------------------------------------response headers:
+ACCESS-CONTROL-MAX-AGE: 604800
+--------------------------------------------------response headers:
+STRICT-TRANSPORT-SECURITY: max-age=31536000
+--------------------------------------------------response headers:
+X-CONTENT-TYPE-OPTIONS: nosniff
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 5017
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:02:11 GMT
+--------------------------------------------------response headers:
+VIA                 : 1.1 google
+--------------------------------------------------response headers:
+ALT-SVC             : clear
+--------------------------------------------------response headers:
+
+=
+GET /storage-resolve/files/audio/interactive/04393af97496e08fb17cf0093ecbff94fd12bb3d?product=0 HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : spclient.wg.spotify.com
+ACCEPT              : */*
+AUTHORIZATION       : Bearer BQBqABCvb4OMCcDfge38-oAcOAphkiG-XBPox_xEBNmNIhXjzL45R2j2SSxnxj3-P5E8foj9Loibjy-Bevm2Xkf5zC3-41SIScKKiJe-zsb7m93HTbU-FWmsKhdtOES3ARepCz1WCghSvaRq30Kkw4DQryhnffZR7Ze10fMOSNcwfGi72rNyn-1I1eco7qjJUjXZk-A
+CACHE-CONTROL       : no-cache
+USER-AGENT          : Spotify/8.5.34 iOS/Version 13.1 (Build 17A844)
+ACCEPT-LANGUAGE     : en
+ACCEPT-ENCODING     : gzip, deflate, br
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/x-protobuf
+--------------------------------------------------response headers:
+CACHE-CONTROL       : private, max-age=0
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-HEADERS: Accept, Authorization, Origin, Content-Type, Spotify-App-Version, App-Platform, X-Spotify-Connection-Id, X-Client-Id
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-METHODS: GET, POST, OPTIONS, PUT, DELETE, PATCH
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-CREDENTIALS: true
+--------------------------------------------------response headers:
+ACCESS-CONTROL-MAX-AGE: 604800
+--------------------------------------------------response headers:
+STRICT-TRANSPORT-SECURITY: max-age=31536000
+--------------------------------------------------response headers:
+X-CONTENT-TYPE-OPTIONS: nosniff
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 287
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:02:11 GMT
+--------------------------------------------------response headers:
+VIA                 : 1.1 google
+--------------------------------------------------response headers:
+ALT-SVC             : clear
+--------------------------------------------------response headers:
+
+=
+GET /audio/04393af97496e08fb17cf0093ecbff94fd12bb3d?1576202531_i_kTq3JpeolWwfhdEYXHeWt25HAFubonYx-vpc-r9WQ= HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : audio-fa.scdn.co
+CONNECTION          : keep-alive
+RANGE               : bytes=311296-835583
+ACCEPT              : */*
+USER-AGENT          : Spotify/8.5.34 iOS/13.1 (iPad5,1)
+ACCEPT-LANGUAGE     : en-us
+CACHE-CONTROL       : no-cache, no-store
+ACCEPT-ENCODING     : 
+--------------------------------------------------response headers:
+LAST-MODIFIED       : Fri, 20 Sep 2019 04:53:46 GMT
+--------------------------------------------------response headers:
+ETAG                : "8e078db4ae13cf6bb8bfe6dba685d6c2"
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/octet-stream
+--------------------------------------------------response headers:
+ACCEPT-RANGES       : bytes, bytes
+--------------------------------------------------response headers:
+AGE                 : 4728362
+--------------------------------------------------response headers:
+CONTENT-RANGE       : bytes 311296-835583/3188052
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 524288
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:02:11 GMT
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+X-SERVED-BY         : cache-ord1727-ORD, cache-bwi5071-BWI
+--------------------------------------------------response headers:
+X-CACHE             : HIT, HIT
+--------------------------------------------------response headers:
+X-CACHE-HITS        : 1, 0
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+CACHE-CONTROL       : max-age=315360000, no-transform
+--------------------------------------------------response headers:
+
+=
+GET /audio/04393af97496e08fb17cf0093ecbff94fd12bb3d?1576202531_i_kTq3JpeolWwfhdEYXHeWt25HAFubonYx-vpc-r9WQ= HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : audio-fa.scdn.co
+CONNECTION          : keep-alive
+RANGE               : bytes=835584-1359871
+ACCEPT              : */*
+USER-AGENT          : Spotify/8.5.34 iOS/13.1 (iPad5,1)
+ACCEPT-LANGUAGE     : en-us
+CACHE-CONTROL       : no-cache, no-store
+ACCEPT-ENCODING     : 
+--------------------------------------------------response headers:
+LAST-MODIFIED       : Fri, 20 Sep 2019 04:53:46 GMT
+--------------------------------------------------response headers:
+ETAG                : "8e078db4ae13cf6bb8bfe6dba685d6c2"
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/octet-stream
+--------------------------------------------------response headers:
+ACCEPT-RANGES       : bytes, bytes
+--------------------------------------------------response headers:
+AGE                 : 4728363
+--------------------------------------------------response headers:
+CONTENT-RANGE       : bytes 835584-1359871/3188052
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 524288
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:02:12 GMT
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+X-SERVED-BY         : cache-ord1727-ORD, cache-bwi5071-BWI
+--------------------------------------------------response headers:
+X-CACHE             : HIT, HIT
+--------------------------------------------------response headers:
+X-CACHE-HITS        : 1, 0
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+CACHE-CONTROL       : max-age=315360000, no-transform
+--------------------------------------------------response headers:
+
+=
+GET /audio/04393af97496e08fb17cf0093ecbff94fd12bb3d?1576202531_i_kTq3JpeolWwfhdEYXHeWt25HAFubonYx-vpc-r9WQ= HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : audio-fa.scdn.co
+CONNECTION          : keep-alive
+RANGE               : bytes=1359872-1884159
+ACCEPT              : */*
+USER-AGENT          : Spotify/8.5.34 iOS/13.1 (iPad5,1)
+ACCEPT-LANGUAGE     : en-us
+CACHE-CONTROL       : no-cache, no-store
+ACCEPT-ENCODING     : 
+--------------------------------------------------response headers:
+LAST-MODIFIED       : Fri, 20 Sep 2019 04:53:46 GMT
+--------------------------------------------------response headers:
+ETAG                : "8e078db4ae13cf6bb8bfe6dba685d6c2"
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/octet-stream
+--------------------------------------------------response headers:
+ACCEPT-RANGES       : bytes, bytes
+--------------------------------------------------response headers:
+AGE                 : 4728365
+--------------------------------------------------response headers:
+CONTENT-RANGE       : bytes 1359872-1884159/3188052
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 524288
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:02:14 GMT
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+X-SERVED-BY         : cache-ord1727-ORD, cache-bwi5071-BWI
+--------------------------------------------------response headers:
+X-CACHE             : HIT, HIT
+--------------------------------------------------response headers:
+X-CACHE-HITS        : 1, 0
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+CACHE-CONTROL       : max-age=315360000, no-transform
+--------------------------------------------------response headers:
+
+=
+GET /storage-resolve/files/audio/interactive_prefetch/5c1f4efa1deb8ae5daa2c123035dc8a82412acd2?product=0 HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : spclient.wg.spotify.com
+ACCEPT              : */*
+AUTHORIZATION       : Bearer BQBqABCvb4OMCcDfge38-oAcOAphkiG-XBPox_xEBNmNIhXjzL45R2j2SSxnxj3-P5E8foj9Loibjy-Bevm2Xkf5zC3-41SIScKKiJe-zsb7m93HTbU-FWmsKhdtOES3ARepCz1WCghSvaRq30Kkw4DQryhnffZR7Ze10fMOSNcwfGi72rNyn-1I1eco7qjJUjXZk-A
+CACHE-CONTROL       : no-cache
+USER-AGENT          : Spotify/8.5.34 iOS/Version 13.1 (Build 17A844)
+ACCEPT-LANGUAGE     : en
+ACCEPT-ENCODING     : gzip, deflate, br
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/x-protobuf
+--------------------------------------------------response headers:
+CACHE-CONTROL       : private, max-age=0
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-HEADERS: Accept, Authorization, Origin, Content-Type, Spotify-App-Version, App-Platform, X-Spotify-Connection-Id, X-Client-Id
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-METHODS: GET, POST, OPTIONS, PUT, DELETE, PATCH
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-CREDENTIALS: true
+--------------------------------------------------response headers:
+ACCESS-CONTROL-MAX-AGE: 604800
+--------------------------------------------------response headers:
+STRICT-TRANSPORT-SECURITY: max-age=31536000
+--------------------------------------------------response headers:
+X-CONTENT-TYPE-OPTIONS: nosniff
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 291
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:02:16 GMT
+--------------------------------------------------response headers:
+VIA                 : 1.1 google
+--------------------------------------------------response headers:
+ALT-SVC             : clear
+--------------------------------------------------response headers:
+
+=
+GET /audio/04393af97496e08fb17cf0093ecbff94fd12bb3d?1576202531_i_kTq3JpeolWwfhdEYXHeWt25HAFubonYx-vpc-r9WQ= HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : audio-fa.scdn.co
+CONNECTION          : keep-alive
+RANGE               : bytes=1884160-2408447
+ACCEPT              : */*
+USER-AGENT          : Spotify/8.5.34 iOS/13.1 (iPad5,1)
+ACCEPT-LANGUAGE     : en-us
+CACHE-CONTROL       : no-cache, no-store
+ACCEPT-ENCODING     : 
+--------------------------------------------------response headers:
+LAST-MODIFIED       : Fri, 20 Sep 2019 04:53:46 GMT
+--------------------------------------------------response headers:
+ETAG                : "8e078db4ae13cf6bb8bfe6dba685d6c2"
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/octet-stream
+--------------------------------------------------response headers:
+ACCEPT-RANGES       : bytes, bytes
+--------------------------------------------------response headers:
+AGE                 : 4728367
+--------------------------------------------------response headers:
+CONTENT-RANGE       : bytes 1884160-2408447/3188052
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 524288
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:02:16 GMT
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+X-SERVED-BY         : cache-ord1727-ORD, cache-bwi5071-BWI
+--------------------------------------------------response headers:
+X-CACHE             : HIT, HIT
+--------------------------------------------------response headers:
+X-CACHE-HITS        : 1, 0
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+CACHE-CONTROL       : max-age=315360000, no-transform
+--------------------------------------------------response headers:
+
+=
+GET /audio/04393af97496e08fb17cf0093ecbff94fd12bb3d?1576202531_i_kTq3JpeolWwfhdEYXHeWt25HAFubonYx-vpc-r9WQ= HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : audio-fa.scdn.co
+CONNECTION          : keep-alive
+RANGE               : bytes=2408448-2932735
+ACCEPT              : */*
+USER-AGENT          : Spotify/8.5.34 iOS/13.1 (iPad5,1)
+ACCEPT-LANGUAGE     : en-us
+CACHE-CONTROL       : no-cache, no-store
+ACCEPT-ENCODING     : 
+--------------------------------------------------response headers:
+LAST-MODIFIED       : Fri, 20 Sep 2019 04:53:46 GMT
+--------------------------------------------------response headers:
+ETAG                : "8e078db4ae13cf6bb8bfe6dba685d6c2"
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/octet-stream
+--------------------------------------------------response headers:
+ACCEPT-RANGES       : bytes, bytes
+--------------------------------------------------response headers:
+AGE                 : 4728368
+--------------------------------------------------response headers:
+CONTENT-RANGE       : bytes 2408448-2932735/3188052
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 524288
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:02:18 GMT
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+X-SERVED-BY         : cache-ord1727-ORD, cache-bwi5071-BWI
+--------------------------------------------------response headers:
+X-CACHE             : HIT, HIT
+--------------------------------------------------response headers:
+X-CACHE-HITS        : 1, 0
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+CACHE-CONTROL       : max-age=315360000, no-transform
+--------------------------------------------------response headers:
+
+=
+GET /audio/5c1f4efa1deb8ae5daa2c123035dc8a82412acd2?1576202536_9NfSrFC3700D6RPk8YjfbjYOTk9AilSHNywGZvn6nZc= HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : audio-fa.scdn.co
+CONNECTION          : keep-alive
+RANGE               : bytes=0-10485759
+ACCEPT              : */*
+USER-AGENT          : Spotify/8.5.34 iOS/13.1 (iPad5,1)
+ACCEPT-LANGUAGE     : en-us
+CACHE-CONTROL       : no-cache, no-store
+ACCEPT-ENCODING     : 
+--------------------------------------------------response headers:
+LAST-MODIFIED       : Sat, 21 Sep 2019 02:14:21 GMT
+--------------------------------------------------response headers:
+ETAG                : "e5dfc645f221a661c0f14594eda1b5f7"
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/octet-stream
+--------------------------------------------------response headers:
+ACCEPT-RANGES       : bytes, bytes
+--------------------------------------------------response headers:
+AGE                 : 6964803
+--------------------------------------------------response headers:
+CONTENT-RANGE       : bytes 0-2501483/2501484
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 2501484
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:02:20 GMT
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+X-SERVED-BY         : cache-ord1738-ORD, cache-bwi5071-BWI
+--------------------------------------------------response headers:
+X-CACHE             : HIT, HIT
+--------------------------------------------------response headers:
+X-CACHE-HITS        : 1, 0
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+CACHE-CONTROL       : max-age=315360000, no-transform
+--------------------------------------------------response headers:
+
+=
+GET /audio/04393af97496e08fb17cf0093ecbff94fd12bb3d?1576202531_i_kTq3JpeolWwfhdEYXHeWt25HAFubonYx-vpc-r9WQ= HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : audio-fa.scdn.co
+CONNECTION          : keep-alive
+RANGE               : bytes=2932736-3188051
+ACCEPT              : */*
+USER-AGENT          : Spotify/8.5.34 iOS/13.1 (iPad5,1)
+ACCEPT-LANGUAGE     : en-us
+CACHE-CONTROL       : no-cache, no-store
+ACCEPT-ENCODING     : 
+--------------------------------------------------response headers:
+LAST-MODIFIED       : Fri, 20 Sep 2019 04:53:46 GMT
+--------------------------------------------------response headers:
+ETAG                : "8e078db4ae13cf6bb8bfe6dba685d6c2"
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/octet-stream
+--------------------------------------------------response headers:
+ACCEPT-RANGES       : bytes, bytes
+--------------------------------------------------response headers:
+AGE                 : 4728371
+--------------------------------------------------response headers:
+CONTENT-RANGE       : bytes 2932736-3188051/3188052
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 255316
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:02:21 GMT
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+X-SERVED-BY         : cache-ord1727-ORD, cache-bwi5042-BWI
+--------------------------------------------------response headers:
+X-CACHE             : HIT, HIT
+--------------------------------------------------response headers:
+X-CACHE-HITS        : 1, 0
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+CACHE-CONTROL       : max-age=315360000, no-transform
+--------------------------------------------------response headers:
+
+=
+POST /gabo-receiver-service/v3/events HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : spclient.wg.spotify.com
+CONTENT-TYPE        : application/x-www-form-urlencoded
+SPOTIFY-APP-VERSION : 8.5.34
+ACCEPT              : */*
+AUTHORIZATION       : Bearer BQAzAFu0Bpwg-dccDl8KRy9vSJYEaECyI4XcOLb7v96dZjbzVhf6IZLh1ieYxAFugCIqn9ahNDVcjdyTcIlh88aABTlKon_apw9yaPexB08ouFI8fDi_-uDgrgqh-c9htR-GOM00GN6FgIR8ej-tzGVyLg
+APP-PLATFORM        : iOS
+ACCEPT-ENCODING     : gzip, deflate, br
+ACCEPT-LANGUAGE     : en
+CONTENT-LENGTH      : 7193
+USER-AGENT          : Spotify/8.5.34 iOS/13.1 (iPad5,1)
+X-CLIENT-ID         : 58bd3c95768941ea9eb4350aaa033eb3
+--------------------------------------------------response headers:
+CACHE-CONTROL       : private, max-age=0
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-HEADERS: Accept, Authorization, Origin, Content-Type, Spotify-App-Version, App-Platform, X-Spotify-Connection-Id, X-Client-Id
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-METHODS: GET, POST, OPTIONS, PUT, DELETE, PATCH
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-CREDENTIALS: true
+--------------------------------------------------response headers:
+ACCESS-CONTROL-MAX-AGE: 604800
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 0
+--------------------------------------------------response headers:
+STRICT-TRANSPORT-SECURITY: max-age=31536000
+--------------------------------------------------response headers:
+X-CONTENT-TYPE-OPTIONS: nosniff
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:02:30 GMT
+--------------------------------------------------response headers:
+VIA                 : 1.1 google
+--------------------------------------------------response headers:
+ALT-SVC             : clear
+--------------------------------------------------response headers:
+
+=
+GET /remote-config-resolver/v2/configs/platforms/ios/clients/com.spotify.client/property-sets/8.5.34.644?installation-id=2BF77ABB-F7FE-4F42-9A35-5E560FFC1735&version=8.5.34.644&fetch-type=delayed HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : spclient.wg.spotify.com
+ACCEPT              : application/protobuf
+X-CLIENT-ID         : 58bd3c95768941ea9eb4350aaa033eb3
+USER-AGENT          : Spotify/8.5.34 iOS/13.1 (iPad5,1)
+SPOTIFY-APP-VERSION : 8.5.34
+APP-PLATFORM        : iOS
+ACCEPT-LANGUAGE     : en
+AUTHORIZATION       : Bearer BQAzAFu0Bpwg-dccDl8KRy9vSJYEaECyI4XcOLb7v96dZjbzVhf6IZLh1ieYxAFugCIqn9ahNDVcjdyTcIlh88aABTlKon_apw9yaPexB08ouFI8fDi_-uDgrgqh-c9htR-GOM00GN6FgIR8ej-tzGVyLg
+ACCEPT-ENCODING     : gzip, deflate, br
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/protobuf
+--------------------------------------------------response headers:
+CACHE-CONTROL       : private, max-age=0
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-HEADERS: Accept, Authorization, Origin, Content-Type, Spotify-App-Version, App-Platform, X-Spotify-Connection-Id, X-Client-Id
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-METHODS: GET, POST, OPTIONS, PUT, DELETE, PATCH
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-CREDENTIALS: true
+--------------------------------------------------response headers:
+ACCESS-CONTROL-MAX-AGE: 604800
+--------------------------------------------------response headers:
+STRICT-TRANSPORT-SECURITY: max-age=31536000
+--------------------------------------------------response headers:
+X-CONTENT-TYPE-OPTIONS: nosniff
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 665
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:04:02 GMT
+--------------------------------------------------response headers:
+VIA                 : 1.1 google
+--------------------------------------------------response headers:
+ALT-SVC             : clear
+--------------------------------------------------response headers:
+
+=
+POST /gabo-receiver-service/v3/events HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : spclient.wg.spotify.com
+CONTENT-TYPE        : application/x-www-form-urlencoded
+SPOTIFY-APP-VERSION : 8.5.34
+ACCEPT              : */*
+AUTHORIZATION       : Bearer BQAzAFu0Bpwg-dccDl8KRy9vSJYEaECyI4XcOLb7v96dZjbzVhf6IZLh1ieYxAFugCIqn9ahNDVcjdyTcIlh88aABTlKon_apw9yaPexB08ouFI8fDi_-uDgrgqh-c9htR-GOM00GN6FgIR8ej-tzGVyLg
+APP-PLATFORM        : iOS
+ACCEPT-ENCODING     : gzip, deflate, br
+ACCEPT-LANGUAGE     : en
+CONTENT-LENGTH      : 386
+USER-AGENT          : Spotify/8.5.34 iOS/13.1 (iPad5,1)
+X-CLIENT-ID         : 58bd3c95768941ea9eb4350aaa033eb3
+--------------------------------------------------response headers:
+CACHE-CONTROL       : private, max-age=0
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-HEADERS: Accept, Authorization, Origin, Content-Type, Spotify-App-Version, App-Platform, X-Spotify-Connection-Id, X-Client-Id
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-METHODS: GET, POST, OPTIONS, PUT, DELETE, PATCH
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-CREDENTIALS: true
+--------------------------------------------------response headers:
+ACCESS-CONTROL-MAX-AGE: 604800
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 0
+--------------------------------------------------response headers:
+STRICT-TRANSPORT-SECURITY: max-age=31536000
+--------------------------------------------------response headers:
+X-CONTENT-TYPE-OPTIONS: nosniff
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:04:30 GMT
+--------------------------------------------------response headers:
+VIA                 : 1.1 google
+--------------------------------------------------response headers:
+ALT-SVC             : clear
+--------------------------------------------------response headers:
+
+=
+GET /quicksilver/v2/triggers HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : spclient.wg.spotify.com
+ACCEPT              : */*
+X-CLIENT-ID         : 58bd3c95768941ea9eb4350aaa033eb3
+ACCEPT-ENCODING     : gzip
+SPOTIFY-APP-VERSION : 8.5.34
+APP-PLATFORM        : iOS
+USER-AGENT          : Spotify/8.5.34 iOS/13.1 (iPad5,1)
+ACCEPT-LANGUAGE     : en
+AUTHORIZATION       : Bearer BQAzAFu0Bpwg-dccDl8KRy9vSJYEaECyI4XcOLb7v96dZjbzVhf6IZLh1ieYxAFugCIqn9ahNDVcjdyTcIlh88aABTlKon_apw9yaPexB08ouFI8fDi_-uDgrgqh-c9htR-GOM00GN6FgIR8ej-tzGVyLg
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/json; charset=utf-8
+--------------------------------------------------response headers:
+CACHE-CONTROL       : private, max-age=0
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-HEADERS: Accept, Authorization, Origin, Content-Type, Spotify-App-Version, App-Platform, X-Spotify-Connection-Id, X-Client-Id
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-METHODS: GET, POST, OPTIONS, PUT, DELETE, PATCH
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-CREDENTIALS: true
+--------------------------------------------------response headers:
+ACCESS-CONTROL-MAX-AGE: 604800
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 476
+--------------------------------------------------response headers:
+STRICT-TRANSPORT-SECURITY: max-age=31536000
+--------------------------------------------------response headers:
+X-CONTENT-TYPE-OPTIONS: nosniff
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:04:47 GMT
+--------------------------------------------------response headers:
+VIA                 : 1.1 google
+--------------------------------------------------response headers:
+ALT-SVC             : clear
+--------------------------------------------------response headers:
+
+=
+GET /storage-resolve/files/audio/interactive/aa87886723edd25848e32f21c19eccd2056f64a2?product=0 HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : spclient.wg.spotify.com
+ACCEPT              : */*
+AUTHORIZATION       : Bearer BQBqABCvb4OMCcDfge38-oAcOAphkiG-XBPox_xEBNmNIhXjzL45R2j2SSxnxj3-P5E8foj9Loibjy-Bevm2Xkf5zC3-41SIScKKiJe-zsb7m93HTbU-FWmsKhdtOES3ARepCz1WCghSvaRq30Kkw4DQryhnffZR7Ze10fMOSNcwfGi72rNyn-1I1eco7qjJUjXZk-A
+CACHE-CONTROL       : no-cache
+USER-AGENT          : Spotify/8.5.34 iOS/Version 13.1 (Build 17A844)
+ACCEPT-LANGUAGE     : en
+ACCEPT-ENCODING     : gzip, deflate, br
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/x-protobuf
+--------------------------------------------------response headers:
+CACHE-CONTROL       : private, max-age=0
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-HEADERS: Accept, Authorization, Origin, Content-Type, Spotify-App-Version, App-Platform, X-Spotify-Connection-Id, X-Client-Id
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-METHODS: GET, POST, OPTIONS, PUT, DELETE, PATCH
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-CREDENTIALS: true
+--------------------------------------------------response headers:
+ACCESS-CONTROL-MAX-AGE: 604800
+--------------------------------------------------response headers:
+STRICT-TRANSPORT-SECURITY: max-age=31536000
+--------------------------------------------------response headers:
+X-CONTENT-TYPE-OPTIONS: nosniff
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 287
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:04:49 GMT
+--------------------------------------------------response headers:
+VIA                 : 1.1 google
+--------------------------------------------------response headers:
+ALT-SVC             : clear
+--------------------------------------------------response headers:
+
+=
+GET /storage-resolve/files/audio/interactive_prefetch/28c603237aa0286c1cafbf96f0f49e6ce52fa3d4?product=0 HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : spclient.wg.spotify.com
+ACCEPT              : */*
+AUTHORIZATION       : Bearer BQBqABCvb4OMCcDfge38-oAcOAphkiG-XBPox_xEBNmNIhXjzL45R2j2SSxnxj3-P5E8foj9Loibjy-Bevm2Xkf5zC3-41SIScKKiJe-zsb7m93HTbU-FWmsKhdtOES3ARepCz1WCghSvaRq30Kkw4DQryhnffZR7Ze10fMOSNcwfGi72rNyn-1I1eco7qjJUjXZk-A
+CACHE-CONTROL       : no-cache
+USER-AGENT          : Spotify/8.5.34 iOS/Version 13.1 (Build 17A844)
+ACCEPT-LANGUAGE     : en
+ACCEPT-ENCODING     : gzip, deflate, br
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/x-protobuf
+--------------------------------------------------response headers:
+CACHE-CONTROL       : private, max-age=0
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-HEADERS: Accept, Authorization, Origin, Content-Type, Spotify-App-Version, App-Platform, X-Spotify-Connection-Id, X-Client-Id
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-METHODS: GET, POST, OPTIONS, PUT, DELETE, PATCH
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-CREDENTIALS: true
+--------------------------------------------------response headers:
+ACCESS-CONTROL-MAX-AGE: 604800
+--------------------------------------------------response headers:
+STRICT-TRANSPORT-SECURITY: max-age=31536000
+--------------------------------------------------response headers:
+X-CONTENT-TYPE-OPTIONS: nosniff
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 346
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:04:55 GMT
+--------------------------------------------------response headers:
+VIA                 : 1.1 google
+--------------------------------------------------response headers:
+ALT-SVC             : clear
+--------------------------------------------------response headers:
+
+=
+GET /storage-resolve/files/audio/interactive/aa87886723edd25848e32f21c19eccd2056f64a2?product=0 HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : spclient.wg.spotify.com
+ACCEPT              : */*
+AUTHORIZATION       : Bearer BQBqABCvb4OMCcDfge38-oAcOAphkiG-XBPox_xEBNmNIhXjzL45R2j2SSxnxj3-P5E8foj9Loibjy-Bevm2Xkf5zC3-41SIScKKiJe-zsb7m93HTbU-FWmsKhdtOES3ARepCz1WCghSvaRq30Kkw4DQryhnffZR7Ze10fMOSNcwfGi72rNyn-1I1eco7qjJUjXZk-A
+CACHE-CONTROL       : no-cache
+USER-AGENT          : Spotify/8.5.34 iOS/Version 13.1 (Build 17A844)
+ACCEPT-LANGUAGE     : en
+ACCEPT-ENCODING     : gzip, deflate, br
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/x-protobuf
+--------------------------------------------------response headers:
+CACHE-CONTROL       : private, max-age=0
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-HEADERS: Accept, Authorization, Origin, Content-Type, Spotify-App-Version, App-Platform, X-Spotify-Connection-Id, X-Client-Id
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-METHODS: GET, POST, OPTIONS, PUT, DELETE, PATCH
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-CREDENTIALS: true
+--------------------------------------------------response headers:
+ACCESS-CONTROL-MAX-AGE: 604800
+--------------------------------------------------response headers:
+STRICT-TRANSPORT-SECURITY: max-age=31536000
+--------------------------------------------------response headers:
+X-CONTENT-TYPE-OPTIONS: nosniff
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 287
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:04:59 GMT
+--------------------------------------------------response headers:
+VIA                 : 1.1 google
+--------------------------------------------------response headers:
+ALT-SVC             : clear
+--------------------------------------------------response headers:
+
+=
+GET /storage-resolve/files/audio/interactive_prefetch/28c603237aa0286c1cafbf96f0f49e6ce52fa3d4?product=0 HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : spclient.wg.spotify.com
+ACCEPT              : */*
+AUTHORIZATION       : Bearer BQBqABCvb4OMCcDfge38-oAcOAphkiG-XBPox_xEBNmNIhXjzL45R2j2SSxnxj3-P5E8foj9Loibjy-Bevm2Xkf5zC3-41SIScKKiJe-zsb7m93HTbU-FWmsKhdtOES3ARepCz1WCghSvaRq30Kkw4DQryhnffZR7Ze10fMOSNcwfGi72rNyn-1I1eco7qjJUjXZk-A
+CACHE-CONTROL       : no-cache
+USER-AGENT          : Spotify/8.5.34 iOS/Version 13.1 (Build 17A844)
+ACCEPT-LANGUAGE     : en
+ACCEPT-ENCODING     : gzip, deflate, br
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/x-protobuf
+--------------------------------------------------response headers:
+CACHE-CONTROL       : private, max-age=0
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-HEADERS: Accept, Authorization, Origin, Content-Type, Spotify-App-Version, App-Platform, X-Spotify-Connection-Id, X-Client-Id
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-METHODS: GET, POST, OPTIONS, PUT, DELETE, PATCH
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-CREDENTIALS: true
+--------------------------------------------------response headers:
+ACCESS-CONTROL-MAX-AGE: 604800
+--------------------------------------------------response headers:
+STRICT-TRANSPORT-SECURITY: max-age=31536000
+--------------------------------------------------response headers:
+X-CONTENT-TYPE-OPTIONS: nosniff
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 352
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:05:04 GMT
+--------------------------------------------------response headers:
+VIA                 : 1.1 google
+--------------------------------------------------response headers:
+ALT-SVC             : clear
+--------------------------------------------------response headers:
+
+=
+POST /ad-logic/state/config HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : spclient.wg.spotify.com
+ACCEPT              : */*
+CONTENT-TYPE        : application/x-www-form-urlencoded
+AUTHORIZATION       : Bearer BQDorZIMmTWQyO1SMjEXCTjLsgXhjaSovz9Au0ZAN7t6JWgIQNq-fon3J_5C72Bgt_cMcydS4kwNRlnImlqn3Tx3unIXv4HK0wibv5jM0E90zFyRP6b85AtXRG6UHBB2phnrs1zD18251BxNE_j5Coi_IE2J5Rassz8j-gL0BMtFk8KW87EWaFZ9FaEF4pcpjTC0pMU
+ACCEPT-LANGUAGE     : en-us
+USER-AGENT          : Spotify/8.5.34 iOS/13.1 (iPad5,1)
+CONTENT-LENGTH      : 431
+ACCEPT-ENCODING     : gzip, deflate, br
+--------------------------------------------------response headers:
+CACHE-CONTROL       : private, max-age=0
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-HEADERS: Accept, Authorization, Origin, Content-Type, Spotify-App-Version, App-Platform, X-Spotify-Connection-Id, X-Client-Id
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-METHODS: GET, POST, OPTIONS, PUT, DELETE, PATCH
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-CREDENTIALS: true
+--------------------------------------------------response headers:
+ACCESS-CONTROL-MAX-AGE: 604800
+--------------------------------------------------response headers:
+STRICT-TRANSPORT-SECURITY: max-age=31536000
+--------------------------------------------------response headers:
+X-CONTENT-TYPE-OPTIONS: nosniff
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 129
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:06:17 GMT
+--------------------------------------------------response headers:
+VIA                 : 1.1 google
+--------------------------------------------------response headers:
+ALT-SVC             : clear
+--------------------------------------------------response headers:
+
+=
+PUT /connect-state/v1/devices/fbe78edb4c9720c34e1e05d180122b7ab7f56d5e HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : spclient.wg.spotify.com
+X-TRANSFER-ENCODING : gzip
+CONTENT-TYPE        : application/protobuf
+ACCEPT              : */*
+ACCEPT-LANGUAGE     : en
+AUTHORIZATION       : Bearer BQDorZIMmTWQyO1SMjEXCTjLsgXhjaSovz9Au0ZAN7t6JWgIQNq-fon3J_5C72Bgt_cMcydS4kwNRlnImlqn3Tx3unIXv4HK0wibv5jM0E90zFyRP6b85AtXRG6UHBB2phnrs1zD18251BxNE_j5Coi_IE2J5Rassz8j-gL0BMtFk8KW87EWaFZ9FaEF4pcpjTC0pMU
+X-SPOTIFY-CONNECTION-ID: MmViZDQyMjI1MDQxYTI3ODg4NzNlMzI5MTBiZGRkMjQrZGVhbGVyK3RjcDovL2d1YzMtZGVhbGVyLWItdnY0Mi5ndWMzLnNwb3RpZnkubmV0OjU3MDArNTJEMzcxOEVBNkE1MURCQjUyOUQxMjk1MzQ4NEJFMDk3NTY4NTcwOTY0MkI5RjU4MTk1MjVGQjgyMEM3MzBCQQ==
+USER-AGENT          : Spotify/8.5.34 iOS/Version 13.1 (Build 17A844)
+CONTENT-LENGTH      : 3354
+ACCEPT-ENCODING     : gzip, deflate, br
+--------------------------------------------------response headers:
+CACHE-CONTROL       : private, max-age=0
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-HEADERS: Accept, Authorization, Origin, Content-Type, Spotify-App-Version, App-Platform, X-Spotify-Connection-Id, X-Client-Id
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-METHODS: GET, POST, OPTIONS, PUT, DELETE, PATCH
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-CREDENTIALS: true
+--------------------------------------------------response headers:
+ACCESS-CONTROL-MAX-AGE: 604800
+--------------------------------------------------response headers:
+STRICT-TRANSPORT-SECURITY: max-age=31536000
+--------------------------------------------------response headers:
+X-CONTENT-TYPE-OPTIONS: nosniff
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 5048
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:06:17 GMT
+--------------------------------------------------response headers:
+VIA                 : 1.1 google
+--------------------------------------------------response headers:
+ALT-SVC             : clear
+--------------------------------------------------response headers:
+
+=
+GET /ads/v2/config?payload=eyJ1c2VyX2FnZW50IjoiTW96aWxsYVwvNS4wIChpUGFkOyBDUFUgT1MgMTNfMV8wIGxpa2UgTWFjIE9TIFgpIEFwcGxlV2ViS2l0XC81MzYuMjYgKEtIVE1MLCBsaWtlIEdlY2tvKSBWZXJzaW9uXC82LjAgTW9iaWxlXC8xMEE1MzU1ZCBTYWZhcmlcLzg1MzYuMjUgU3BvdGlmeVwvODUzNDAwNjQ0ICgzNjsgMjsgMykiLCJzZXNzaW9uX2lkIjoiYWNlMDdmM2UtMWE1OC00NDVmLWEwNWQtYTI1MTllNjdkN2JjIn0= HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : spclient.wg.spotify.com
+ACCEPT              : */*
+VND.SPOTIFY.ADS-PAYLOAD: {"user_agent":"Mozilla\/5.0 (iPad; CPU OS 13_1_0 like Mac OS X) AppleWebKit\/536.26 (KHTML, like Gecko) Version\/6.0 Mobile\/10A5355d Safari\/8536.25 Spotify\/853400644 (36; 2; 3)","session_id":"ace07f3e-1a58-445f-a05d-a2519e67d7bc"}
+ACCEPT-LANGUAGE     : en-us
+USER-AGENT          : Spotify/8.5.34 iOS/13.1 (iPad5,1)
+AUTHORIZATION       : Bearer BQDorZIMmTWQyO1SMjEXCTjLsgXhjaSovz9Au0ZAN7t6JWgIQNq-fon3J_5C72Bgt_cMcydS4kwNRlnImlqn3Tx3unIXv4HK0wibv5jM0E90zFyRP6b85AtXRG6UHBB2phnrs1zD18251BxNE_j5Coi_IE2J5Rassz8j-gL0BMtFk8KW87EWaFZ9FaEF4pcpjTC0pMU
+ACCEPT-ENCODING     : gzip, deflate, br
+--------------------------------------------------response headers:
+CACHE-CONTROL       : public, max-age=600
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-HEADERS: Accept, Authorization, Origin, Content-Type, Spotify-App-Version, App-Platform, X-Spotify-Connection-Id, X-Client-Id
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-METHODS: GET, POST, OPTIONS, PUT, DELETE, PATCH
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-CREDENTIALS: true
+--------------------------------------------------response headers:
+ACCESS-CONTROL-MAX-AGE: 604800
+--------------------------------------------------response headers:
+STRICT-TRANSPORT-SECURITY: max-age=31536000
+--------------------------------------------------response headers:
+X-CONTENT-TYPE-OPTIONS: nosniff
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 109
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:06:17 GMT
+--------------------------------------------------response headers:
+VIA                 : 1.1 google
+--------------------------------------------------response headers:
+ALT-SVC             : clear
+--------------------------------------------------response headers:
+
+=
+GET /abba-service/v1/resolve?format=json HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : spclient.wg.spotify.com
+ACCEPT              : */*
+ACCEPT-ENCODING     : gzip, deflate, br
+USER-AGENT          : Spotify/8.5.34 iOS/Version 13.1 (Build 17A844)
+ACCEPT-LANGUAGE     : en
+AUTHORIZATION       : Bearer BQDorZIMmTWQyO1SMjEXCTjLsgXhjaSovz9Au0ZAN7t6JWgIQNq-fon3J_5C72Bgt_cMcydS4kwNRlnImlqn3Tx3unIXv4HK0wibv5jM0E90zFyRP6b85AtXRG6UHBB2phnrs1zD18251BxNE_j5Coi_IE2J5Rassz8j-gL0BMtFk8KW87EWaFZ9FaEF4pcpjTC0pMU
+--------------------------------------------------response headers:
+CONTENT-TYPE        : vnd.spotify/abba-feature-flags+json
+--------------------------------------------------response headers:
+CACHE-CONTROL       : private, max-age=30
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-HEADERS: Accept, Authorization, Origin, Content-Type, Spotify-App-Version, App-Platform, X-Spotify-Connection-Id, X-Client-Id
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-METHODS: GET, POST, OPTIONS, PUT, DELETE, PATCH
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-CREDENTIALS: true
+--------------------------------------------------response headers:
+ACCESS-CONTROL-MAX-AGE: 604800
+--------------------------------------------------response headers:
+STRICT-TRANSPORT-SECURITY: max-age=31536000
+--------------------------------------------------response headers:
+X-CONTENT-TYPE-OPTIONS: nosniff
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 14216
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:06:17 GMT
+--------------------------------------------------response headers:
+VIA                 : 1.1 google
+--------------------------------------------------response headers:
+ALT-SVC             : clear
+--------------------------------------------------response headers:
+
+=
+PUT /connect-state/v1/devices/fbe78edb4c9720c34e1e05d180122b7ab7f56d5e HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : spclient.wg.spotify.com
+X-TRANSFER-ENCODING : gzip
+CONTENT-TYPE        : application/protobuf
+ACCEPT              : */*
+ACCEPT-LANGUAGE     : en
+AUTHORIZATION       : Bearer BQDorZIMmTWQyO1SMjEXCTjLsgXhjaSovz9Au0ZAN7t6JWgIQNq-fon3J_5C72Bgt_cMcydS4kwNRlnImlqn3Tx3unIXv4HK0wibv5jM0E90zFyRP6b85AtXRG6UHBB2phnrs1zD18251BxNE_j5Coi_IE2J5Rassz8j-gL0BMtFk8KW87EWaFZ9FaEF4pcpjTC0pMU
+X-SPOTIFY-CONNECTION-ID: MmViZDQyMjI1MDQxYTI3ODg4NzNlMzI5MTBiZGRkMjQrZGVhbGVyK3RjcDovL2d1YzMtZGVhbGVyLWItdnY0Mi5ndWMzLnNwb3RpZnkubmV0OjU3MDArNTJEMzcxOEVBNkE1MURCQjUyOUQxMjk1MzQ4NEJFMDk3NTY4NTcwOTY0MkI5RjU4MTk1MjVGQjgyMEM3MzBCQQ==
+USER-AGENT          : Spotify/8.5.34 iOS/Version 13.1 (Build 17A844)
+CONTENT-LENGTH      : 3379
+ACCEPT-ENCODING     : gzip, deflate, br
+--------------------------------------------------response headers:
+CACHE-CONTROL       : private, max-age=0
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-HEADERS: Accept, Authorization, Origin, Content-Type, Spotify-App-Version, App-Platform, X-Spotify-Connection-Id, X-Client-Id
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-METHODS: GET, POST, OPTIONS, PUT, DELETE, PATCH
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-CREDENTIALS: true
+--------------------------------------------------response headers:
+ACCESS-CONTROL-MAX-AGE: 604800
+--------------------------------------------------response headers:
+STRICT-TRANSPORT-SECURITY: max-age=31536000
+--------------------------------------------------response headers:
+X-CONTENT-TYPE-OPTIONS: nosniff
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 5048
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:06:17 GMT
+--------------------------------------------------response headers:
+VIA                 : 1.1 google
+--------------------------------------------------response headers:
+ALT-SVC             : clear
+--------------------------------------------------response headers:
+
+=
+PUT /connect-state/v1/devices/fbe78edb4c9720c34e1e05d180122b7ab7f56d5e HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : spclient.wg.spotify.com
+X-TRANSFER-ENCODING : gzip
+CONTENT-TYPE        : application/protobuf
+ACCEPT              : */*
+ACCEPT-LANGUAGE     : en
+AUTHORIZATION       : Bearer BQDorZIMmTWQyO1SMjEXCTjLsgXhjaSovz9Au0ZAN7t6JWgIQNq-fon3J_5C72Bgt_cMcydS4kwNRlnImlqn3Tx3unIXv4HK0wibv5jM0E90zFyRP6b85AtXRG6UHBB2phnrs1zD18251BxNE_j5Coi_IE2J5Rassz8j-gL0BMtFk8KW87EWaFZ9FaEF4pcpjTC0pMU
+X-SPOTIFY-CONNECTION-ID: MmViZDQyMjI1MDQxYTI3ODg4NzNlMzI5MTBiZGRkMjQrZGVhbGVyK3RjcDovL2d1YzMtZGVhbGVyLWItdnY0Mi5ndWMzLnNwb3RpZnkubmV0OjU3MDArNTJEMzcxOEVBNkE1MURCQjUyOUQxMjk1MzQ4NEJFMDk3NTY4NTcwOTY0MkI5RjU4MTk1MjVGQjgyMEM3MzBCQQ==
+USER-AGENT          : Spotify/8.5.34 iOS/Version 13.1 (Build 17A844)
+CONTENT-LENGTH      : 3370
+ACCEPT-ENCODING     : gzip, deflate, br
+--------------------------------------------------response headers:
+CACHE-CONTROL       : private, max-age=0
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-HEADERS: Accept, Authorization, Origin, Content-Type, Spotify-App-Version, App-Platform, X-Spotify-Connection-Id, X-Client-Id
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-METHODS: GET, POST, OPTIONS, PUT, DELETE, PATCH
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-CREDENTIALS: true
+--------------------------------------------------response headers:
+ACCESS-CONTROL-MAX-AGE: 604800
+--------------------------------------------------response headers:
+STRICT-TRANSPORT-SECURITY: max-age=31536000
+--------------------------------------------------response headers:
+X-CONTENT-TYPE-OPTIONS: nosniff
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 5061
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:06:17 GMT
+--------------------------------------------------response headers:
+VIA                 : 1.1 google
+--------------------------------------------------response headers:
+ALT-SVC             : clear
+--------------------------------------------------response headers:
+
+=
+GET /abba-service/v1/resolve?format=json HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : spclient.wg.spotify.com
+ACCEPT              : */*
+X-CLIENT-ID         : 58bd3c95768941ea9eb4350aaa033eb3
+AUTHORIZATION       : Bearer BQDFnB0Jd2htfdKaS2PcrTU1URBVRFNJlZgCpetOsIv_he8ekMQN9BswmUbf8exucXk-eZoAYKDYoVJrPK7TkxYWAPHZRh1x-RiJkcqNoob_R4fCQ9MYJsULVjnGfi6qQ_N3SWG930uSdAxtCwTiyab62A
+SPOTIFY-APP-VERSION : 8.5.34
+APP-PLATFORM        : iOS
+USER-AGENT          : Spotify/8.5.34 iOS/13.1 (iPad5,1)
+ACCEPT-LANGUAGE     : en
+ACCEPT-ENCODING     : gzip, deflate, br
+--------------------------------------------------response headers:
+CONTENT-TYPE        : vnd.spotify/abba-feature-flags+json
+--------------------------------------------------response headers:
+CACHE-CONTROL       : private, max-age=30
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-HEADERS: Accept, Authorization, Origin, Content-Type, Spotify-App-Version, App-Platform, X-Spotify-Connection-Id, X-Client-Id
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-METHODS: GET, POST, OPTIONS, PUT, DELETE, PATCH
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-CREDENTIALS: true
+--------------------------------------------------response headers:
+ACCESS-CONTROL-MAX-AGE: 604800
+--------------------------------------------------response headers:
+STRICT-TRANSPORT-SECURITY: max-age=31536000
+--------------------------------------------------response headers:
+X-CONTENT-TYPE-OPTIONS: nosniff
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 14216
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:06:17 GMT
+--------------------------------------------------response headers:
+VIA                 : 1.1 google
+--------------------------------------------------response headers:
+ALT-SVC             : clear
+--------------------------------------------------response headers:
+
+=
+GET /sellout/v3/upsell/promoted_offer?device_id=2ebd42225041a2788873e32910bddd24 HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : spclient.wg.spotify.com
+ACCEPT              : */*
+X-CLIENT-ID         : 58bd3c95768941ea9eb4350aaa033eb3
+AUTHORIZATION       : Bearer BQDFnB0Jd2htfdKaS2PcrTU1URBVRFNJlZgCpetOsIv_he8ekMQN9BswmUbf8exucXk-eZoAYKDYoVJrPK7TkxYWAPHZRh1x-RiJkcqNoob_R4fCQ9MYJsULVjnGfi6qQ_N3SWG930uSdAxtCwTiyab62A
+SPOTIFY-APP-VERSION : 8.5.34
+APP-PLATFORM        : iOS
+USER-AGENT          : Spotify/8.5.34 iOS/13.1 (iPad5,1)
+ACCEPT-LANGUAGE     : en
+ACCEPT-ENCODING     : gzip, deflate, br
+--------------------------------------------------response headers:
+CACHE-CONTROL       : private, max-age=0
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-HEADERS: Accept, Authorization, Origin, Content-Type, Spotify-App-Version, App-Platform, X-Spotify-Connection-Id, X-Client-Id
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-METHODS: GET, POST, OPTIONS, PUT, DELETE, PATCH
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-CREDENTIALS: true
+--------------------------------------------------response headers:
+ACCESS-CONTROL-MAX-AGE: 604800
+--------------------------------------------------response headers:
+STRICT-TRANSPORT-SECURITY: max-age=31536000
+--------------------------------------------------response headers:
+X-CONTENT-TYPE-OPTIONS: nosniff
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 196
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:06:17 GMT
+--------------------------------------------------response headers:
+VIA                 : 1.1 google
+--------------------------------------------------response headers:
+ALT-SVC             : clear
+--------------------------------------------------response headers:
+
+=
+GET /abba-service/v1/resolve?format=json HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : spclient.wg.spotify.com
+ACCEPT              : */*
+X-CLIENT-ID         : 58bd3c95768941ea9eb4350aaa033eb3
+AUTHORIZATION       : Bearer BQDFnB0Jd2htfdKaS2PcrTU1URBVRFNJlZgCpetOsIv_he8ekMQN9BswmUbf8exucXk-eZoAYKDYoVJrPK7TkxYWAPHZRh1x-RiJkcqNoob_R4fCQ9MYJsULVjnGfi6qQ_N3SWG930uSdAxtCwTiyab62A
+SPOTIFY-APP-VERSION : 8.5.34
+APP-PLATFORM        : iOS
+USER-AGENT          : Spotify/8.5.34 iOS/13.1 (iPad5,1)
+ACCEPT-LANGUAGE     : en
+ACCEPT-ENCODING     : gzip, deflate, br
+--------------------------------------------------response headers:
+CONTENT-TYPE        : vnd.spotify/abba-feature-flags+json
+--------------------------------------------------response headers:
+CACHE-CONTROL       : private, max-age=30
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-HEADERS: Accept, Authorization, Origin, Content-Type, Spotify-App-Version, App-Platform, X-Spotify-Connection-Id, X-Client-Id
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-METHODS: GET, POST, OPTIONS, PUT, DELETE, PATCH
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-CREDENTIALS: true
+--------------------------------------------------response headers:
+ACCESS-CONTROL-MAX-AGE: 604800
+--------------------------------------------------response headers:
+STRICT-TRANSPORT-SECURITY: max-age=31536000
+--------------------------------------------------response headers:
+X-CONTENT-TYPE-OPTIONS: nosniff
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 14216
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:06:17 GMT
+--------------------------------------------------response headers:
+VIA                 : 1.1 google
+--------------------------------------------------response headers:
+ALT-SVC             : clear
+--------------------------------------------------response headers:
+
+=
+GET /quicksilver/v2/triggers HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : spclient.wg.spotify.com
+ACCEPT              : */*
+X-CLIENT-ID         : 58bd3c95768941ea9eb4350aaa033eb3
+ACCEPT-ENCODING     : gzip
+SPOTIFY-APP-VERSION : 8.5.34
+APP-PLATFORM        : iOS
+USER-AGENT          : Spotify/8.5.34 iOS/13.1 (iPad5,1)
+ACCEPT-LANGUAGE     : en
+AUTHORIZATION       : Bearer BQDFnB0Jd2htfdKaS2PcrTU1URBVRFNJlZgCpetOsIv_he8ekMQN9BswmUbf8exucXk-eZoAYKDYoVJrPK7TkxYWAPHZRh1x-RiJkcqNoob_R4fCQ9MYJsULVjnGfi6qQ_N3SWG930uSdAxtCwTiyab62A
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/json; charset=utf-8
+--------------------------------------------------response headers:
+CACHE-CONTROL       : private, max-age=0
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-HEADERS: Accept, Authorization, Origin, Content-Type, Spotify-App-Version, App-Platform, X-Spotify-Connection-Id, X-Client-Id
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-METHODS: GET, POST, OPTIONS, PUT, DELETE, PATCH
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-CREDENTIALS: true
+--------------------------------------------------response headers:
+ACCESS-CONTROL-MAX-AGE: 604800
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 476
+--------------------------------------------------response headers:
+STRICT-TRANSPORT-SECURITY: max-age=31536000
+--------------------------------------------------response headers:
+X-CONTENT-TYPE-OPTIONS: nosniff
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:06:17 GMT
+--------------------------------------------------response headers:
+VIA                 : 1.1 google
+--------------------------------------------------response headers:
+ALT-SVC             : clear
+--------------------------------------------------response headers:
+
+=
+GET /voice-user-info/v1/voice-user-info HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : spclient.wg.spotify.com
+ACCEPT              : */*
+X-CLIENT-ID         : 58bd3c95768941ea9eb4350aaa033eb3
+AUTHORIZATION       : Bearer BQDFnB0Jd2htfdKaS2PcrTU1URBVRFNJlZgCpetOsIv_he8ekMQN9BswmUbf8exucXk-eZoAYKDYoVJrPK7TkxYWAPHZRh1x-RiJkcqNoob_R4fCQ9MYJsULVjnGfi6qQ_N3SWG930uSdAxtCwTiyab62A
+SPOTIFY-APP-VERSION : 8.5.34
+APP-PLATFORM        : iOS
+USER-AGENT          : Spotify/8.5.34 iOS/13.1 (iPad5,1)
+ACCEPT-LANGUAGE     : en
+ACCEPT-ENCODING     : gzip, deflate, br
+--------------------------------------------------response headers:
+CACHE-CONTROL       : private, max-age=0
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-HEADERS: Accept, Authorization, Origin, Content-Type, Spotify-App-Version, App-Platform, X-Spotify-Connection-Id, X-Client-Id
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-METHODS: GET, POST, OPTIONS, PUT, DELETE, PATCH
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-CREDENTIALS: true
+--------------------------------------------------response headers:
+ACCESS-CONTROL-MAX-AGE: 604800
+--------------------------------------------------response headers:
+STRICT-TRANSPORT-SECURITY: max-age=31536000
+--------------------------------------------------response headers:
+X-CONTENT-TYPE-OPTIONS: nosniff
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 95
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:06:17 GMT
+--------------------------------------------------response headers:
+VIA                 : 1.1 google
+--------------------------------------------------response headers:
+ALT-SVC             : clear
+--------------------------------------------------response headers:
+
+=
+GET /storage-resolve/files/audio/interactive/aa87886723edd25848e32f21c19eccd2056f64a2?product=0 HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : spclient.wg.spotify.com
+ACCEPT              : */*
+AUTHORIZATION       : Bearer BQDorZIMmTWQyO1SMjEXCTjLsgXhjaSovz9Au0ZAN7t6JWgIQNq-fon3J_5C72Bgt_cMcydS4kwNRlnImlqn3Tx3unIXv4HK0wibv5jM0E90zFyRP6b85AtXRG6UHBB2phnrs1zD18251BxNE_j5Coi_IE2J5Rassz8j-gL0BMtFk8KW87EWaFZ9FaEF4pcpjTC0pMU
+CACHE-CONTROL       : no-cache
+USER-AGENT          : Spotify/8.5.34 iOS/Version 13.1 (Build 17A844)
+ACCEPT-LANGUAGE     : en
+ACCEPT-ENCODING     : gzip, deflate, br
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/x-protobuf
+--------------------------------------------------response headers:
+CACHE-CONTROL       : private, max-age=0
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-HEADERS: Accept, Authorization, Origin, Content-Type, Spotify-App-Version, App-Platform, X-Spotify-Connection-Id, X-Client-Id
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-METHODS: GET, POST, OPTIONS, PUT, DELETE, PATCH
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-CREDENTIALS: true
+--------------------------------------------------response headers:
+ACCESS-CONTROL-MAX-AGE: 604800
+--------------------------------------------------response headers:
+STRICT-TRANSPORT-SECURITY: max-age=31536000
+--------------------------------------------------response headers:
+X-CONTENT-TYPE-OPTIONS: nosniff
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 284
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:06:17 GMT
+--------------------------------------------------response headers:
+VIA                 : 1.1 google
+--------------------------------------------------response headers:
+ALT-SVC             : clear
+--------------------------------------------------response headers:
+
+=
+GET /storage-resolve/files/audio/interactive_prefetch/28c603237aa0286c1cafbf96f0f49e6ce52fa3d4?product=0 HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : spclient.wg.spotify.com
+ACCEPT              : */*
+AUTHORIZATION       : Bearer BQDorZIMmTWQyO1SMjEXCTjLsgXhjaSovz9Au0ZAN7t6JWgIQNq-fon3J_5C72Bgt_cMcydS4kwNRlnImlqn3Tx3unIXv4HK0wibv5jM0E90zFyRP6b85AtXRG6UHBB2phnrs1zD18251BxNE_j5Coi_IE2J5Rassz8j-gL0BMtFk8KW87EWaFZ9FaEF4pcpjTC0pMU
+CACHE-CONTROL       : no-cache
+USER-AGENT          : Spotify/8.5.34 iOS/Version 13.1 (Build 17A844)
+ACCEPT-LANGUAGE     : en
+ACCEPT-ENCODING     : gzip, deflate, br
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/x-protobuf
+--------------------------------------------------response headers:
+CACHE-CONTROL       : private, max-age=0
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-HEADERS: Accept, Authorization, Origin, Content-Type, Spotify-App-Version, App-Platform, X-Spotify-Connection-Id, X-Client-Id
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-METHODS: GET, POST, OPTIONS, PUT, DELETE, PATCH
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-CREDENTIALS: true
+--------------------------------------------------response headers:
+ACCESS-CONTROL-MAX-AGE: 604800
+--------------------------------------------------response headers:
+STRICT-TRANSPORT-SECURITY: max-age=31536000
+--------------------------------------------------response headers:
+X-CONTENT-TYPE-OPTIONS: nosniff
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 292
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:06:17 GMT
+--------------------------------------------------response headers:
+VIA                 : 1.1 google
+--------------------------------------------------response headers:
+ALT-SVC             : clear
+--------------------------------------------------response headers:
+
+=
+POST /pushka-tokens/register HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : spclient.wg.spotify.com
+CONTENT-TYPE        : application/x-www-form-urlencoded
+SPOTIFY-APP-VERSION : 8.5.34
+ACCEPT              : */*
+AUTHORIZATION       : Bearer BQDFnB0Jd2htfdKaS2PcrTU1URBVRFNJlZgCpetOsIv_he8ekMQN9BswmUbf8exucXk-eZoAYKDYoVJrPK7TkxYWAPHZRh1x-RiJkcqNoob_R4fCQ9MYJsULVjnGfi6qQ_N3SWG930uSdAxtCwTiyab62A
+APP-PLATFORM        : iOS
+ACCEPT-ENCODING     : gzip, deflate, br
+ACCEPT-LANGUAGE     : en
+CONTENT-LENGTH      : 187
+USER-AGENT          : Spotify/8.5.34 iOS/13.1 (iPad5,1)
+X-CLIENT-ID         : 58bd3c95768941ea9eb4350aaa033eb3
+--------------------------------------------------response headers:
+CACHE-CONTROL       : private, max-age=0
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-HEADERS: Accept, Authorization, Origin, Content-Type, Spotify-App-Version, App-Platform, X-Spotify-Connection-Id, X-Client-Id
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-METHODS: GET, POST, OPTIONS, PUT, DELETE, PATCH
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-CREDENTIALS: true
+--------------------------------------------------response headers:
+ACCESS-CONTROL-MAX-AGE: 604800
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 0
+--------------------------------------------------response headers:
+STRICT-TRANSPORT-SECURITY: max-age=31536000
+--------------------------------------------------response headers:
+X-CONTENT-TYPE-OPTIONS: nosniff
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:06:17 GMT
+--------------------------------------------------response headers:
+VIA                 : 1.1 google
+--------------------------------------------------response headers:
+ALT-SVC             : clear
+--------------------------------------------------response headers:
+
+=
+PUT /connect-state/v1/devices/fbe78edb4c9720c34e1e05d180122b7ab7f56d5e HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : spclient.wg.spotify.com
+X-TRANSFER-ENCODING : gzip
+CONTENT-TYPE        : application/protobuf
+ACCEPT              : */*
+ACCEPT-LANGUAGE     : en
+AUTHORIZATION       : Bearer BQDk-_Q_SaigHdE9EWhX7RdWlSCMO9uivWCuNTHXSBnrbSKODr-6NMn7nDTmIGRX4izCvdwdQDFrXGHU725eYJiaZWYQtaC8APTllU9pQNy6ko4D-W6wsC2OoKnHOakb0hCqhbBe4oa7kIHObdkr3-AaGPt2FkRaXCsFBDUOC0GEk_qnzCfhWCsmH8TS4IvVDpS_Zkw
+X-SPOTIFY-CONNECTION-ID: MmViZDQyMjI1MDQxYTI3ODg4NzNlMzI5MTBiZGRkMjQrZGVhbGVyK3RjcDovL2d1YzMtZGVhbGVyLWItdnY0Mi5ndWMzLnNwb3RpZnkubmV0OjU3MDArNTJEMzcxOEVBNkE1MURCQjUyOUQxMjk1MzQ4NEJFMDk3NTY4NTcwOTY0MkI5RjU4MTk1MjVGQjgyMEM3MzBCQQ==
+USER-AGENT          : Spotify/8.5.34 iOS/Version 13.1 (Build 17A844)
+CONTENT-LENGTH      : 3372
+ACCEPT-ENCODING     : gzip, deflate, br
+--------------------------------------------------response headers:
+CACHE-CONTROL       : private, max-age=0
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-HEADERS: Accept, Authorization, Origin, Content-Type, Spotify-App-Version, App-Platform, X-Spotify-Connection-Id, X-Client-Id
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-METHODS: GET, POST, OPTIONS, PUT, DELETE, PATCH
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-CREDENTIALS: true
+--------------------------------------------------response headers:
+ACCESS-CONTROL-MAX-AGE: 604800
+--------------------------------------------------response headers:
+STRICT-TRANSPORT-SECURITY: max-age=31536000
+--------------------------------------------------response headers:
+X-CONTENT-TYPE-OPTIONS: nosniff
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 5064
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:06:17 GMT
+--------------------------------------------------response headers:
+VIA                 : 1.1 google
+--------------------------------------------------response headers:
+ALT-SVC             : clear
+--------------------------------------------------response headers:
+
+=
+GET /audio/aa87886723edd25848e32f21c19eccd2056f64a2?1576202777_Je0Mu2RdYuTsm1J6R_VYW48n-aJ1L6T0e7q6vGm1hzw= HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : audio-fa.scdn.co
+CONNECTION          : keep-alive
+RANGE               : bytes=0-524287
+ACCEPT              : */*
+USER-AGENT          : Spotify/8.5.34 iOS/13.1 (iPad5,1)
+ACCEPT-LANGUAGE     : en-us
+CACHE-CONTROL       : no-cache, no-store
+ACCEPT-ENCODING     : 
+--------------------------------------------------response headers:
+LAST-MODIFIED       : Wed, 11 Jan 2017 19:49:31 GMT
+--------------------------------------------------response headers:
+ETAG                : "54f375b4e7bbcf1ab534c3b36160aa06"
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/octet-stream
+--------------------------------------------------response headers:
+ACCEPT-RANGES       : bytes, bytes
+--------------------------------------------------response headers:
+AGE                 : 33936421
+--------------------------------------------------response headers:
+CONTENT-RANGE       : bytes 0-524287/2545200
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 524288
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:06:18 GMT
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+X-SERVED-BY         : cache-ord1737-ORD, cache-bwi5026-BWI
+--------------------------------------------------response headers:
+X-CACHE             : HIT, HIT
+--------------------------------------------------response headers:
+X-CACHE-HITS        : 1, 0
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+CACHE-CONTROL       : max-age=315360000, no-transform
+--------------------------------------------------response headers:
+
+=
+PUT /connect-state/v1/devices/fbe78edb4c9720c34e1e05d180122b7ab7f56d5e HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : spclient.wg.spotify.com
+X-TRANSFER-ENCODING : gzip
+CONTENT-TYPE        : application/protobuf
+ACCEPT              : */*
+ACCEPT-LANGUAGE     : en
+AUTHORIZATION       : Bearer BQDk-_Q_SaigHdE9EWhX7RdWlSCMO9uivWCuNTHXSBnrbSKODr-6NMn7nDTmIGRX4izCvdwdQDFrXGHU725eYJiaZWYQtaC8APTllU9pQNy6ko4D-W6wsC2OoKnHOakb0hCqhbBe4oa7kIHObdkr3-AaGPt2FkRaXCsFBDUOC0GEk_qnzCfhWCsmH8TS4IvVDpS_Zkw
+X-SPOTIFY-CONNECTION-ID: MmViZDQyMjI1MDQxYTI3ODg4NzNlMzI5MTBiZGRkMjQrZGVhbGVyK3RjcDovL2d1YzMtZGVhbGVyLWItdnY0Mi5ndWMzLnNwb3RpZnkubmV0OjU3MDArNTJEMzcxOEVBNkE1MURCQjUyOUQxMjk1MzQ4NEJFMDk3NTY4NTcwOTY0MkI5RjU4MTk1MjVGQjgyMEM3MzBCQQ==
+USER-AGENT          : Spotify/8.5.34 iOS/Version 13.1 (Build 17A844)
+CONTENT-LENGTH      : 3385
+ACCEPT-ENCODING     : gzip, deflate, br
+--------------------------------------------------response headers:
+CACHE-CONTROL       : private, max-age=0
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-HEADERS: Accept, Authorization, Origin, Content-Type, Spotify-App-Version, App-Platform, X-Spotify-Connection-Id, X-Client-Id
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-METHODS: GET, POST, OPTIONS, PUT, DELETE, PATCH
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-CREDENTIALS: true
+--------------------------------------------------response headers:
+ACCESS-CONTROL-MAX-AGE: 604800
+--------------------------------------------------response headers:
+STRICT-TRANSPORT-SECURITY: max-age=31536000
+--------------------------------------------------response headers:
+X-CONTENT-TYPE-OPTIONS: nosniff
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 5079
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:06:18 GMT
+--------------------------------------------------response headers:
+VIA                 : 1.1 google
+--------------------------------------------------response headers:
+ALT-SVC             : clear
+--------------------------------------------------response headers:
+
+=
+GET /audio/aa87886723edd25848e32f21c19eccd2056f64a2?1576202777_Je0Mu2RdYuTsm1J6R_VYW48n-aJ1L6T0e7q6vGm1hzw= HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : audio-fa.scdn.co
+CONNECTION          : keep-alive
+RANGE               : bytes=524288-1048575
+ACCEPT              : */*
+USER-AGENT          : Spotify/8.5.34 iOS/13.1 (iPad5,1)
+ACCEPT-LANGUAGE     : en-us
+CACHE-CONTROL       : no-cache, no-store
+ACCEPT-ENCODING     : 
+--------------------------------------------------response headers:
+LAST-MODIFIED       : Wed, 11 Jan 2017 19:49:31 GMT
+--------------------------------------------------response headers:
+ETAG                : "54f375b4e7bbcf1ab534c3b36160aa06"
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/octet-stream
+--------------------------------------------------response headers:
+ACCEPT-RANGES       : bytes, bytes
+--------------------------------------------------response headers:
+AGE                 : 33936423
+--------------------------------------------------response headers:
+CONTENT-RANGE       : bytes 524288-1048575/2545200
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 524288
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:06:19 GMT
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+X-SERVED-BY         : cache-ord1737-ORD, cache-bwi5026-BWI
+--------------------------------------------------response headers:
+X-CACHE             : HIT, HIT
+--------------------------------------------------response headers:
+X-CACHE-HITS        : 1, 0
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+CACHE-CONTROL       : max-age=315360000, no-transform
+--------------------------------------------------response headers:
+
+=
+GET /audio/aa87886723edd25848e32f21c19eccd2056f64a2?1576202777_Je0Mu2RdYuTsm1J6R_VYW48n-aJ1L6T0e7q6vGm1hzw= HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : audio-fa.scdn.co
+CONNECTION          : keep-alive
+RANGE               : bytes=1048576-1572863
+ACCEPT              : */*
+USER-AGENT          : Spotify/8.5.34 iOS/13.1 (iPad5,1)
+ACCEPT-LANGUAGE     : en-us
+CACHE-CONTROL       : no-cache, no-store
+ACCEPT-ENCODING     : 
+--------------------------------------------------response headers:
+LAST-MODIFIED       : Wed, 11 Jan 2017 19:49:31 GMT
+--------------------------------------------------response headers:
+ETAG                : "54f375b4e7bbcf1ab534c3b36160aa06"
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/octet-stream
+--------------------------------------------------response headers:
+ACCEPT-RANGES       : bytes, bytes
+--------------------------------------------------response headers:
+AGE                 : 33936424
+--------------------------------------------------response headers:
+CONTENT-RANGE       : bytes 1048576-1572863/2545200
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 524288
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:06:21 GMT
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+X-SERVED-BY         : cache-ord1737-ORD, cache-bwi5026-BWI
+--------------------------------------------------response headers:
+X-CACHE             : HIT, HIT
+--------------------------------------------------response headers:
+X-CACHE-HITS        : 1, 0
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+CACHE-CONTROL       : max-age=315360000, no-transform
+--------------------------------------------------response headers:
+
+=
+PUT /connect-state/v1/devices/fbe78edb4c9720c34e1e05d180122b7ab7f56d5e HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : spclient.wg.spotify.com
+X-TRANSFER-ENCODING : gzip
+CONTENT-TYPE        : application/protobuf
+ACCEPT              : */*
+ACCEPT-LANGUAGE     : en
+AUTHORIZATION       : Bearer BQDk-_Q_SaigHdE9EWhX7RdWlSCMO9uivWCuNTHXSBnrbSKODr-6NMn7nDTmIGRX4izCvdwdQDFrXGHU725eYJiaZWYQtaC8APTllU9pQNy6ko4D-W6wsC2OoKnHOakb0hCqhbBe4oa7kIHObdkr3-AaGPt2FkRaXCsFBDUOC0GEk_qnzCfhWCsmH8TS4IvVDpS_Zkw
+X-SPOTIFY-CONNECTION-ID: MmViZDQyMjI1MDQxYTI3ODg4NzNlMzI5MTBiZGRkMjQrZGVhbGVyK3RjcDovL2d1YzMtZGVhbGVyLWItdnY0Mi5ndWMzLnNwb3RpZnkubmV0OjU3MDArNTJEMzcxOEVBNkE1MURCQjUyOUQxMjk1MzQ4NEJFMDk3NTY4NTcwOTY0MkI5RjU4MTk1MjVGQjgyMEM3MzBCQQ==
+USER-AGENT          : Spotify/8.5.34 iOS/Version 13.1 (Build 17A844)
+CONTENT-LENGTH      : 3387
+ACCEPT-ENCODING     : gzip, deflate, br
+--------------------------------------------------response headers:
+CACHE-CONTROL       : private, max-age=0
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-HEADERS: Accept, Authorization, Origin, Content-Type, Spotify-App-Version, App-Platform, X-Spotify-Connection-Id, X-Client-Id
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-METHODS: GET, POST, OPTIONS, PUT, DELETE, PATCH
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-CREDENTIALS: true
+--------------------------------------------------response headers:
+ACCESS-CONTROL-MAX-AGE: 604800
+--------------------------------------------------response headers:
+STRICT-TRANSPORT-SECURITY: max-age=31536000
+--------------------------------------------------response headers:
+X-CONTENT-TYPE-OPTIONS: nosniff
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 5079
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:06:21 GMT
+--------------------------------------------------response headers:
+VIA                 : 1.1 google
+--------------------------------------------------response headers:
+ALT-SVC             : clear
+--------------------------------------------------response headers:
+
+=
+GET /audio/28c603237aa0286c1cafbf96f0f49e6ce52fa3d4?1576202777_Lr-RZVOtyvFNttZ-BaP-pO1PHBl8xL9Zg8EqT8Ifxl0= HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : audio-fa.scdn.co
+CONNECTION          : keep-alive
+RANGE               : bytes=0-10485759
+ACCEPT              : */*
+USER-AGENT          : Spotify/8.5.34 iOS/13.1 (iPad5,1)
+ACCEPT-LANGUAGE     : en-us
+CACHE-CONTROL       : no-cache, no-store
+ACCEPT-ENCODING     : 
+--------------------------------------------------response headers:
+LAST-MODIFIED       : Wed, 27 Nov 2019 05:20:47 GMT
+--------------------------------------------------response headers:
+ETAG                : "c7f0f3410d3072dd5a21ee9f6b388bcc"
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/octet-stream
+--------------------------------------------------response headers:
+ACCEPT-RANGES       : bytes, bytes
+--------------------------------------------------response headers:
+AGE                 : 1186751
+--------------------------------------------------response headers:
+CONTENT-RANGE       : bytes 0-2306919/2306920
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 2306920
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:06:23 GMT
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+X-SERVED-BY         : cache-ord1725-ORD, cache-bwi5026-BWI
+--------------------------------------------------response headers:
+X-CACHE             : HIT, HIT
+--------------------------------------------------response headers:
+X-CACHE-HITS        : 2, 0
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+CACHE-CONTROL       : max-age=315360000, no-transform
+--------------------------------------------------response headers:
+
+=
+POST /gabo-receiver-service/v3/events HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : spclient.wg.spotify.com
+CONTENT-TYPE        : application/x-www-form-urlencoded
+SPOTIFY-APP-VERSION : 8.5.34
+ACCEPT              : */*
+AUTHORIZATION       : Bearer BQDFnB0Jd2htfdKaS2PcrTU1URBVRFNJlZgCpetOsIv_he8ekMQN9BswmUbf8exucXk-eZoAYKDYoVJrPK7TkxYWAPHZRh1x-RiJkcqNoob_R4fCQ9MYJsULVjnGfi6qQ_N3SWG930uSdAxtCwTiyab62A
+APP-PLATFORM        : iOS
+ACCEPT-ENCODING     : gzip, deflate, br
+ACCEPT-LANGUAGE     : en
+CONTENT-LENGTH      : 5617
+USER-AGENT          : Spotify/8.5.34 iOS/13.1 (iPad5,1)
+X-CLIENT-ID         : 58bd3c95768941ea9eb4350aaa033eb3
+--------------------------------------------------response headers:
+CACHE-CONTROL       : private, max-age=0
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-HEADERS: Accept, Authorization, Origin, Content-Type, Spotify-App-Version, App-Platform, X-Spotify-Connection-Id, X-Client-Id
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-METHODS: GET, POST, OPTIONS, PUT, DELETE, PATCH
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-CREDENTIALS: true
+--------------------------------------------------response headers:
+ACCESS-CONTROL-MAX-AGE: 604800
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 0
+--------------------------------------------------response headers:
+STRICT-TRANSPORT-SECURITY: max-age=31536000
+--------------------------------------------------response headers:
+X-CONTENT-TYPE-OPTIONS: nosniff
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:06:24 GMT
+--------------------------------------------------response headers:
+VIA                 : 1.1 google
+--------------------------------------------------response headers:
+ALT-SVC             : clear
+--------------------------------------------------response headers:
+
+=
+GET /audio/aa87886723edd25848e32f21c19eccd2056f64a2?1576202777_Je0Mu2RdYuTsm1J6R_VYW48n-aJ1L6T0e7q6vGm1hzw= HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : audio-fa.scdn.co
+CONNECTION          : keep-alive
+RANGE               : bytes=1572864-2097151
+ACCEPT              : */*
+USER-AGENT          : Spotify/8.5.34 iOS/13.1 (iPad5,1)
+ACCEPT-LANGUAGE     : en-us
+CACHE-CONTROL       : no-cache, no-store
+ACCEPT-ENCODING     : 
+--------------------------------------------------response headers:
+LAST-MODIFIED       : Wed, 11 Jan 2017 19:49:31 GMT
+--------------------------------------------------response headers:
+ETAG                : "54f375b4e7bbcf1ab534c3b36160aa06"
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/octet-stream
+--------------------------------------------------response headers:
+ACCEPT-RANGES       : bytes, bytes
+--------------------------------------------------response headers:
+AGE                 : 33936427
+--------------------------------------------------response headers:
+CONTENT-RANGE       : bytes 1572864-2097151/2545200
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 524288
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:06:24 GMT
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+X-SERVED-BY         : cache-ord1737-ORD, cache-bwi5071-BWI
+--------------------------------------------------response headers:
+X-CACHE             : HIT, HIT
+--------------------------------------------------response headers:
+X-CACHE-HITS        : 1, 0
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+CACHE-CONTROL       : max-age=315360000, no-transform
+--------------------------------------------------response headers:
+
+=
+GET /audio/aa87886723edd25848e32f21c19eccd2056f64a2?1576202777_Je0Mu2RdYuTsm1J6R_VYW48n-aJ1L6T0e7q6vGm1hzw= HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : audio-fa.scdn.co
+CONNECTION          : keep-alive
+RANGE               : bytes=2097152-2545199
+ACCEPT              : */*
+USER-AGENT          : Spotify/8.5.34 iOS/13.1 (iPad5,1)
+ACCEPT-LANGUAGE     : en-us
+CACHE-CONTROL       : no-cache, no-store
+ACCEPT-ENCODING     : 
+--------------------------------------------------response headers:
+LAST-MODIFIED       : Wed, 11 Jan 2017 19:49:31 GMT
+--------------------------------------------------response headers:
+ETAG                : "54f375b4e7bbcf1ab534c3b36160aa06"
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/octet-stream
+--------------------------------------------------response headers:
+ACCEPT-RANGES       : bytes, bytes
+--------------------------------------------------response headers:
+AGE                 : 33936440
+--------------------------------------------------response headers:
+CONTENT-RANGE       : bytes 2097152-2545199/2545200
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 448048
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:06:37 GMT
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+X-SERVED-BY         : cache-ord1737-ORD, cache-bwi5026-BWI
+--------------------------------------------------response headers:
+X-CACHE             : HIT, HIT
+--------------------------------------------------response headers:
+X-CACHE-HITS        : 1, 0
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+CACHE-CONTROL       : max-age=315360000, no-transform
+--------------------------------------------------response headers:
+
+=
+POST /gabo-receiver-service/v3/events HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : spclient.wg.spotify.com
+CONTENT-TYPE        : application/x-www-form-urlencoded
+SPOTIFY-APP-VERSION : 8.5.34
+ACCEPT              : */*
+AUTHORIZATION       : Bearer BQDFnB0Jd2htfdKaS2PcrTU1URBVRFNJlZgCpetOsIv_he8ekMQN9BswmUbf8exucXk-eZoAYKDYoVJrPK7TkxYWAPHZRh1x-RiJkcqNoob_R4fCQ9MYJsULVjnGfi6qQ_N3SWG930uSdAxtCwTiyab62A
+APP-PLATFORM        : iOS
+ACCEPT-ENCODING     : gzip, deflate, br
+ACCEPT-LANGUAGE     : en
+CONTENT-LENGTH      : 4528
+USER-AGENT          : Spotify/8.5.34 iOS/13.1 (iPad5,1)
+X-CLIENT-ID         : 58bd3c95768941ea9eb4350aaa033eb3
+--------------------------------------------------response headers:
+CACHE-CONTROL       : private, max-age=0
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-HEADERS: Accept, Authorization, Origin, Content-Type, Spotify-App-Version, App-Platform, X-Spotify-Connection-Id, X-Client-Id
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-METHODS: GET, POST, OPTIONS, PUT, DELETE, PATCH
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-CREDENTIALS: true
+--------------------------------------------------response headers:
+ACCESS-CONTROL-MAX-AGE: 604800
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 0
+--------------------------------------------------response headers:
+STRICT-TRANSPORT-SECURITY: max-age=31536000
+--------------------------------------------------response headers:
+X-CONTENT-TYPE-OPTIONS: nosniff
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:06:38 GMT
+--------------------------------------------------response headers:
+VIA                 : 1.1 google
+--------------------------------------------------response headers:
+ALT-SVC             : clear
+--------------------------------------------------response headers:
+
+=
+GET /remote-config-resolver/v2/configs/platforms/ios/clients/com.spotify.client/property-sets/8.5.34.644?installation-id=2BF77ABB-F7FE-4F42-9A35-5E560FFC1735&version=8.5.34.644&fetch-type=delayed HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : spclient.wg.spotify.com
+ACCEPT              : application/protobuf
+X-CLIENT-ID         : 58bd3c95768941ea9eb4350aaa033eb3
+USER-AGENT          : Spotify/8.5.34 iOS/13.1 (iPad5,1)
+SPOTIFY-APP-VERSION : 8.5.34
+APP-PLATFORM        : iOS
+ACCEPT-LANGUAGE     : en
+AUTHORIZATION       : Bearer BQDFnB0Jd2htfdKaS2PcrTU1URBVRFNJlZgCpetOsIv_he8ekMQN9BswmUbf8exucXk-eZoAYKDYoVJrPK7TkxYWAPHZRh1x-RiJkcqNoob_R4fCQ9MYJsULVjnGfi6qQ_N3SWG930uSdAxtCwTiyab62A
+ACCEPT-ENCODING     : gzip, deflate, br
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/protobuf
+--------------------------------------------------response headers:
+CACHE-CONTROL       : private, max-age=0
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-HEADERS: Accept, Authorization, Origin, Content-Type, Spotify-App-Version, App-Platform, X-Spotify-Connection-Id, X-Client-Id
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-METHODS: GET, POST, OPTIONS, PUT, DELETE, PATCH
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-CREDENTIALS: true
+--------------------------------------------------response headers:
+ACCESS-CONTROL-MAX-AGE: 604800
+--------------------------------------------------response headers:
+STRICT-TRANSPORT-SECURITY: max-age=31536000
+--------------------------------------------------response headers:
+X-CONTENT-TYPE-OPTIONS: nosniff
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 666
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:07:35 GMT
+--------------------------------------------------response headers:
+VIA                 : 1.1 google
+--------------------------------------------------response headers:
+ALT-SVC             : clear
+--------------------------------------------------response headers:
+
+=
+PUT /connect-state/v1/devices/fbe78edb4c9720c34e1e05d180122b7ab7f56d5e HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : spclient.wg.spotify.com
+X-TRANSFER-ENCODING : gzip
+CONTENT-TYPE        : application/protobuf
+ACCEPT              : */*
+ACCEPT-LANGUAGE     : en
+AUTHORIZATION       : Bearer BQDk-_Q_SaigHdE9EWhX7RdWlSCMO9uivWCuNTHXSBnrbSKODr-6NMn7nDTmIGRX4izCvdwdQDFrXGHU725eYJiaZWYQtaC8APTllU9pQNy6ko4D-W6wsC2OoKnHOakb0hCqhbBe4oa7kIHObdkr3-AaGPt2FkRaXCsFBDUOC0GEk_qnzCfhWCsmH8TS4IvVDpS_Zkw
+X-SPOTIFY-CONNECTION-ID: MmViZDQyMjI1MDQxYTI3ODg4NzNlMzI5MTBiZGRkMjQrZGVhbGVyK3RjcDovL2d1YzMtZGVhbGVyLWItdnY0Mi5ndWMzLnNwb3RpZnkubmV0OjU3MDArNTJEMzcxOEVBNkE1MURCQjUyOUQxMjk1MzQ4NEJFMDk3NTY4NTcwOTY0MkI5RjU4MTk1MjVGQjgyMEM3MzBCQQ==
+USER-AGENT          : Spotify/8.5.34 iOS/Version 13.1 (Build 17A844)
+CONTENT-LENGTH      : 3382
+ACCEPT-ENCODING     : gzip, deflate, br
+--------------------------------------------------response headers:
+CACHE-CONTROL       : private, max-age=0
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-HEADERS: Accept, Authorization, Origin, Content-Type, Spotify-App-Version, App-Platform, X-Spotify-Connection-Id, X-Client-Id
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-METHODS: GET, POST, OPTIONS, PUT, DELETE, PATCH
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-CREDENTIALS: true
+--------------------------------------------------response headers:
+ACCESS-CONTROL-MAX-AGE: 604800
+--------------------------------------------------response headers:
+STRICT-TRANSPORT-SECURITY: max-age=31536000
+--------------------------------------------------response headers:
+X-CONTENT-TYPE-OPTIONS: nosniff
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 5071
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:08:33 GMT
+--------------------------------------------------response headers:
+VIA                 : 1.1 google
+--------------------------------------------------response headers:
+ALT-SVC             : clear
+--------------------------------------------------response headers:

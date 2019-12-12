@@ -1,0 +1,104 @@
+
+=
+POST /rt/mobile/recovery-action HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : cn-geo1.uber.com
+ACCEPT              : application/json
+CONTENT-TYPE        : application/json
+ACCEPT-ENCODING     : gzip, deflate, br
+USER-AGENT          : Uber/3.382.10006 CFNetwork/1107.1 Darwin/19.0.0
+CONTENT-LENGTH      : 356
+ACCEPT-LANGUAGE     : en-us
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:07:06 GMT
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/json
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 16
+--------------------------------------------------response headers:
+RPC-SERVICE         : edge-gateway
+--------------------------------------------------response headers:
+X-UBER-APP          : edge-gateway
+--------------------------------------------------response headers:
+X-UBER-RTAPI-DURATION: 3
+--------------------------------------------------response headers:
+X-UBER-EDGE         : e4-dca1:p:18
+--------------------------------------------------response headers:
+STRICT-TRANSPORT-SECURITY: max-age=604800
+--------------------------------------------------response headers:
+X-CONTENT-TYPE-OPTIONS: nosniff
+--------------------------------------------------response headers:
+X-XSS-PROTECTION    : 1; mode=block
+--------------------------------------------------response headers:
+X-ENVOY-UPSTREAM-SERVICE-TIME: 35
+--------------------------------------------------response headers:
+SERVER              : ufe
+--------------------------------------------------response headers:
+VIA                 : 1.1 muttley, 1.1 muttley, 1.1 google
+--------------------------------------------------response headers:
+ALT-SVC             : quic=":443"; ma=2592000; v="46,43",h3-Q050=":443"; ma=2592000,h3-Q049=":443"; ma=2592000,h3-Q048=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000
+--------------------------------------------------response headers:
+
+=
+POST /log HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : play.googleapis.com
+ACCEPT              : */*
+CONTENT-TYPE        : application/x-www-form-urlencoded
+CACHE-CONTROL       : no-cache
+ACCEPT-ENCODING     : gzip, deflate, br
+CONTENT-ENCODING    : gzip
+USER-AGENT          : Uber/3.382.10006 CFNetwork/1107.1 Darwin/19.0.0
+ACCEPT-LANGUAGE     : en-us
+CONTENT-LENGTH      : 536
+--------------------------------------------------response headers:
+CONTENT-TYPE        : text/plain; charset=UTF-8
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:07:10 GMT
+--------------------------------------------------response headers:
+SERVER              : Playlog
+--------------------------------------------------response headers:
+CACHE-CONTROL       : private
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 102
+--------------------------------------------------response headers:
+X-XSS-PROTECTION    : 0
+--------------------------------------------------response headers:
+X-FRAME-OPTIONS     : SAMEORIGIN
+--------------------------------------------------response headers:
+ALT-SVC             : quic=":443"; ma=2592000; v="46,43",h3-Q050=":443"; ma=2592000,h3-Q049=":443"; ma=2592000,h3-Q048=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000
+--------------------------------------------------response headers:
+
+=
+POST /log HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : play.googleapis.com
+ACCEPT              : */*
+CONTENT-TYPE        : application/x-www-form-urlencoded
+CACHE-CONTROL       : no-cache
+ACCEPT-ENCODING     : gzip, deflate, br
+CONTENT-ENCODING    : gzip
+USER-AGENT          : Uber/3.382.10006 CFNetwork/1107.1 Darwin/19.0.0
+ACCEPT-LANGUAGE     : en-us
+CONTENT-LENGTH      : 559
+--------------------------------------------------response headers:
+CONTENT-TYPE        : text/plain; charset=UTF-8
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:07:10 GMT
+--------------------------------------------------response headers:
+SERVER              : Playlog
+--------------------------------------------------response headers:
+CACHE-CONTROL       : private
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 102
+--------------------------------------------------response headers:
+X-XSS-PROTECTION    : 0
+--------------------------------------------------response headers:
+X-FRAME-OPTIONS     : SAMEORIGIN
+--------------------------------------------------response headers:
+ALT-SVC             : quic=":443"; ma=2592000; v="46,43",h3-Q050=":443"; ma=2592000,h3-Q049=":443"; ma=2592000,h3-Q048=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000
+--------------------------------------------------response headers:

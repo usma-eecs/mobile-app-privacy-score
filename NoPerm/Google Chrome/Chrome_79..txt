@@ -1,0 +1,31 @@
+
+=
+POST /log HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : play.googleapis.com
+ACCEPT              : */*
+CONTENT-TYPE        : application/x-www-form-urlencoded
+USER-AGENT          : Chrome/79.0.3945.73 CFNetwork/1107.1 Darwin/19.0.0
+CONTENT-ENCODING    : gzip
+ACCEPT-LANGUAGE     : en-us
+CONTENT-LENGTH      : 284
+ACCEPT-ENCODING     : gzip, deflate, br
+--------------------------------------------------response headers:
+CONTENT-TYPE        : text/plain; charset=UTF-8
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 00:39:07 GMT
+--------------------------------------------------response headers:
+SERVER              : Playlog
+--------------------------------------------------response headers:
+CACHE-CONTROL       : private
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 102
+--------------------------------------------------response headers:
+X-XSS-PROTECTION    : 0
+--------------------------------------------------response headers:
+X-FRAME-OPTIONS     : SAMEORIGIN
+--------------------------------------------------response headers:
+ALT-SVC             : quic=":443"; ma=2592000; v="46,43",h3-Q050=":443"; ma=2592000,h3-Q049=":443"; ma=2592000,h3-Q048=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000
+--------------------------------------------------response headers:

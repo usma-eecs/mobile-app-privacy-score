@@ -1,0 +1,1989 @@
+
+=
+POST /sync/i/bv?hl=en-US&c=0 HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : inbox.google.com:443
+X-GOOGLE-BTD        : 1
+CONTENT-TYPE        : application/x-protobuf
+ACCEPT              : */*
+AUTHORIZATION       : OAuth ya29.IoACtAf8Uhz2CvZdUFYaozvs5yt6SSzj62caGxKN51Gaca-ct7d6wd05czBgyQaN_xljWw56UDwk7n-uUA4wezv6d1q0PS_-eIBWI4aejXw6fP0TPywiFw5RINUU9W9o8UFAS5NieybMl2nm8s1GxUiulNSGJK6cgyABYtgM2kNQnxWbBCs8zNFohVrixHVFg6gVU2PVyomtbGBtupXgNfqElkMyv5jZvydoH0txW0OmrjzfipTfLPSP0z0paWMkUJOJhmHcd7b-jim1LydAVDOhMdlv3I9e-ve_t2GM90aAWINHuZ_VN9pSJI5sHLmAnEG5EFODip2yEIaXhVStivf2zw
+ACCEPT-LANGUAGE     : en-us
+X-GMAIL-BTAI        : GrwBMABQAVgBaAF4AYABAYgBAZABAJgBAbABALgBAcABAcgBAdABAdgBAOABAegBAfABAfgBAIACAIgCAJACAZgCAKACAKoCAmVusgI1R29vZ2xlIEdtYWlsLzYuMC4xOTExMTcuOTkwMTU1IG1vZGVsL2lQYWQ1LDEgaU9TLzEzLjHAAgDIAhnQAgDYAgDgAgDoAgDwAgD4AgCAAwGIAwGQAwCYAwCgAwCoAwCwAwC4AwDAAwDIAwDQAwDYAwA4FEIqY29tLmdvb2dsZS5HbWFpbC1yZWxlYXNlLTYuMC4xOTExMTcuOTkwMTU1SARQA1oHaVBhZDUsMWCAr7X3//////8BahBBbWVyaWNhL05ld19Zb3JrcAGAAcu3PIoBAJIBJDUwRDBENEFELTVENkUtNDRBMi1CN0RDLTE2MkI0ODcxRDE4RJgB3e7avu8t
+USER-AGENT          : Google Gmail/6.0.191117.990155 model/iPad5,1 iOS/13.1
+CONTENT-LENGTH      : 242
+ACCEPT-ENCODING     : gzip, deflate, br
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/vnd.google.octet-stream-compressible
+--------------------------------------------------response headers:
+CACHE-CONTROL       : no-cache, no-store, max-age=0, must-revalidate
+--------------------------------------------------response headers:
+PRAGMA              : no-cache
+--------------------------------------------------response headers:
+EXPIRES             : Mon, 01 Jan 1990 00:00:00 GMT
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:01:15 GMT
+--------------------------------------------------response headers:
+CONTENT-DISPOSITION : attachment; filename="response.bin"; filename*=UTF-8''response.bin
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+P3P                 : CP="This is not a P3P policy! See g.co/p3phelp for more info."
+--------------------------------------------------response headers:
+X-GOOG-SERVER-LATENCY: 158
+--------------------------------------------------response headers:
+X-CONTENT-TYPE-OPTIONS: nosniff
+--------------------------------------------------response headers:
+X-FRAME-OPTIONS     : SAMEORIGIN
+--------------------------------------------------response headers:
+X-XSS-PROTECTION    : 1; mode=block
+--------------------------------------------------response headers:
+SERVER              : GSE
+--------------------------------------------------response headers:
+SET-COOKIE          : NID=193=cKLMqtpgJQJctMUjGwLw-IlKZMH-8I_1puzcijBD2rxmOkF5V_HPI5WlPh5hHwaPUbV5AEG0BF3tg41kK5wX2YmyRwsZoNaT39h3ijDClVXHfcwPIsaqOX8v_lB31T3mSPOJNMzs3tBt-_27WFZOmQIaGPAqVx6qLApxv6OsRa0; expires=Fri, 12-Jun-2020 02:01:14 GMT; path=/; domain=.google.com; HttpOnly, COMPASS=bigtop-sync=Co8BAAlriVeOF-iB1mAPtMnGOLYCj0k0fyvpErqdbfzwfs_UobTt8NYjpUw19X32CoVQxV4e0KbF_l2hAtqIj4w6yLZ6lTOfFckTxmSLgRILPe73_k212cvzp-WAW1O7Gz2QqnNVA-EPcIVwBhVQazDJQLe8scwVYRlUIVW6Dy0byPcC6s14tA0VZy0CHGy4qFIQidvG7wUaoQEACWuJV1H-CY9in7N8kOPm3k8WA6adZaCZp5Nn6CLr1AEw9HZEa-DX-vHhBVafabv_393yGhk99XjlydtFWvCuI4YhnpTZ_8DdJZn8srjHSSMdmcqK3hz26vckxhhXy_DwKiHMdtyDswWNj4bexMdcgcPi9SsQxqQe8L5XypipKceDUkG7LYqu-2QDzDqn_jQe7D7s1FmsXgcAk6xA6B9Vlg; expires=Sun, 22-Dec-2019 02:01:15 GMT; path=/sync; Secure; HttpOnly
+--------------------------------------------------response headers:
+ALT-SVC             : clear
+--------------------------------------------------response headers:
+
+=
+POST /ios-notifications/deviceregistrationservice/register HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : mail.google.com
+ACCEPT              : application/x-protobuffer
+CONTENT-TYPE        : application/x-www-form-urlencoded
+AUTHORIZATION       : Bearer ya29.IoACtAf8Uhz2CvZdUFYaozvs5yt6SSzj62caGxKN51Gaca-ct7d6wd05czBgyQaN_xljWw56UDwk7n-uUA4wezv6d1q0PS_-eIBWI4aejXw6fP0TPywiFw5RINUU9W9o8UFAS5NieybMl2nm8s1GxUiulNSGJK6cgyABYtgM2kNQnxWbBCs8zNFohVrixHVFg6gVU2PVyomtbGBtupXgNfqElkMyv5jZvydoH0txW0OmrjzfipTfLPSP0z0paWMkUJOJhmHcd7b-jim1LydAVDOhMdlv3I9e-ve_t2GM90aAWINHuZ_VN9pSJI5sHLmAnEG5EFODip2yEIaXhVStivf2zw
+CONTENT-LENGTH      : 530
+X-SECURITY-TOKEN    : 
+ACCEPT-LANGUAGE     : en-us
+USER-AGENT          : Google Gmail/6.0.191117.990155 model/iPad5,1 iOS/13.1
+ACCEPT-ENCODING     : gzip, deflate, br
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:01:14 GMT
+--------------------------------------------------response headers:
+PRAGMA              : no-cache
+--------------------------------------------------response headers:
+EXPIRES             : Fri, 01 Jan 1990 00:00:00 GMT
+--------------------------------------------------response headers:
+CACHE-CONTROL       : no-cache, no-store, must-revalidate
+--------------------------------------------------response headers:
+CONTENT-DISPOSITION : attachment
+--------------------------------------------------response headers:
+X-CONTENT-TYPE-OPTIONS: nosniff
+--------------------------------------------------response headers:
+CONTENT-TYPE        : text/html
+--------------------------------------------------response headers:
+SERVER              : 1.0
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 47
+--------------------------------------------------response headers:
+X-XSS-PROTECTION    : 0
+--------------------------------------------------response headers:
+X-FRAME-OPTIONS     : SAMEORIGIN
+--------------------------------------------------response headers:
+ALT-SVC             : clear
+--------------------------------------------------response headers:
+
+=
+POST /sync/i/s?hl=en-US&c=2 HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : inbox.google.com:443
+CONTENT-TYPE        : application/x-protobuf
+ACCEPT              : */*
+AUTHORIZATION       : OAuth ya29.IoACtAf8Uhz2CvZdUFYaozvs5yt6SSzj62caGxKN51Gaca-ct7d6wd05czBgyQaN_xljWw56UDwk7n-uUA4wezv6d1q0PS_-eIBWI4aejXw6fP0TPywiFw5RINUU9W9o8UFAS5NieybMl2nm8s1GxUiulNSGJK6cgyABYtgM2kNQnxWbBCs8zNFohVrixHVFg6gVU2PVyomtbGBtupXgNfqElkMyv5jZvydoH0txW0OmrjzfipTfLPSP0z0paWMkUJOJhmHcd7b-jim1LydAVDOhMdlv3I9e-ve_t2GM90aAWINHuZ_VN9pSJI5sHLmAnEG5EFODip2yEIaXhVStivf2zw
+ACCEPT-ENCODING     : gzip, deflate, br
+ACCEPT-LANGUAGE     : en-us
+CONTENT-LENGTH      : 28
+USER-AGENT          : Google Gmail/6.0.191117.990155 model/iPad5,1 iOS/13.1
+X-GMAIL-BTAI        : GrwBMABQAVgBaAF4AYABAYgBAZABAJgBAbABALgBAcABAcgBAdABAdgBAOABAegBAfABAfgBAIACAIgCAJACAZgCAKACAKoCAmVusgI1R29vZ2xlIEdtYWlsLzYuMC4xOTExMTcuOTkwMTU1IG1vZGVsL2lQYWQ1LDEgaU9TLzEzLjHAAgDIAhnQAgDYAgDgAgDoAgDwAgD4AgCAAwGIAwGQAwCYAwCgAwCoAwCwAwC4AwDAAwDIAwDQAwDYAwA4FEIqY29tLmdvb2dsZS5HbWFpbC1yZWxlYXNlLTYuMC4xOTExMTcuOTkwMTU1SARQA1oHaVBhZDUsMWCAr7X3//////8BahBBbWVyaWNhL05ld19Zb3JrcAGAAcu3PIoBAJIBJDUwRDBENEFELTVENkUtNDRBMi1CN0RDLTE2MkI0ODcxRDE4RJgBifzavu8tqAGGzM0B
+X-GOOGLE-BTD        : 1
+COOKIE              : NID=193=cKLMqtpgJQJctMUjGwLw-IlKZMH-8I_1puzcijBD2rxmOkF5V_HPI5WlPh5hHwaPUbV5AEG0BF3tg41kK5wX2YmyRwsZoNaT39h3ijDClVXHfcwPIsaqOX8v_lB31T3mSPOJNMzs3tBt-_27WFZOmQIaGPAqVx6qLApxv6OsRa0; COMPASS=bigtop-sync=Co8BAAlriVeOF-iB1mAPtMnGOLYCj0k0fyvpErqdbfzwfs_UobTt8NYjpUw19X32CoVQxV4e0KbF_l2hAtqIj4w6yLZ6lTOfFckTxmSLgRILPe73_k212cvzp-WAW1O7Gz2QqnNVA-EPcIVwBhVQazDJQLe8scwVYRlUIVW6Dy0byPcC6s14tA0VZy0CHGy4qFIQidvG7wUaoQEACWuJV1H-CY9in7N8kOPm3k8WA6adZaCZp5Nn6CLr1AEw9HZEa-DX-vHhBVafabv_393yGhk99XjlydtFWvCuI4YhnpTZ_8DdJZn8srjHSSMdmcqK3hz26vckxhhXy_DwKiHMdtyDswWNj4bexMdcgcPi9SsQxqQe8L5XypipKceDUkG7LYqu-2QDzDqn_jQe7D7s1FmsXgcAk6xA6B9Vlg
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/vnd.google.octet-stream-compressible
+--------------------------------------------------response headers:
+CACHE-CONTROL       : no-cache, no-store, max-age=0, must-revalidate
+--------------------------------------------------response headers:
+PRAGMA              : no-cache
+--------------------------------------------------response headers:
+EXPIRES             : Mon, 01 Jan 1990 00:00:00 GMT
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:01:16 GMT
+--------------------------------------------------response headers:
+CONTENT-DISPOSITION : attachment; filename="response.bin"; filename*=UTF-8''response.bin
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+P3P                 : CP="This is not a P3P policy! See g.co/p3phelp for more info."
+--------------------------------------------------response headers:
+X-GOOG-SERVER-LATENCY: 139
+--------------------------------------------------response headers:
+X-CONTENT-TYPE-OPTIONS: nosniff
+--------------------------------------------------response headers:
+X-FRAME-OPTIONS     : SAMEORIGIN
+--------------------------------------------------response headers:
+X-XSS-PROTECTION    : 1; mode=block
+--------------------------------------------------response headers:
+SERVER              : GSE
+--------------------------------------------------response headers:
+SET-COOKIE          : NID=193=cpINYMkY2z_7S8PcXGxTHAAuG2_UBWpGx3HPrURgP472jw-_6oLUvKOvBCxE1w05hhFjqVs7NLBvgQp9cpV_1GWcHLS2HEtrClmwkHx5bEU7vZTrVoPgwxtuMRmqOx_7tni55_1A5dVndDvMeZEEAGkwmItiQU1CN5ni8oBx26nmmy28Kc4; expires=Fri, 12-Jun-2020 02:01:16 GMT; path=/; domain=.google.com; HttpOnly
+--------------------------------------------------response headers:
+ALT-SVC             : clear
+--------------------------------------------------response headers:
+
+=
+POST /sync/st/s?hl=en-US&c=1 HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : inbox.google.com:443
+CONTENT-TYPE        : application/x-protobuf
+ACCEPT              : */*
+AUTHORIZATION       : OAuth ya29.IoACtAf8Uhz2CvZdUFYaozvs5yt6SSzj62caGxKN51Gaca-ct7d6wd05czBgyQaN_xljWw56UDwk7n-uUA4wezv6d1q0PS_-eIBWI4aejXw6fP0TPywiFw5RINUU9W9o8UFAS5NieybMl2nm8s1GxUiulNSGJK6cgyABYtgM2kNQnxWbBCs8zNFohVrixHVFg6gVU2PVyomtbGBtupXgNfqElkMyv5jZvydoH0txW0OmrjzfipTfLPSP0z0paWMkUJOJhmHcd7b-jim1LydAVDOhMdlv3I9e-ve_t2GM90aAWINHuZ_VN9pSJI5sHLmAnEG5EFODip2yEIaXhVStivf2zw
+ACCEPT-ENCODING     : gzip, deflate, br
+ACCEPT-LANGUAGE     : en-us
+CONTENT-LENGTH      : 26
+USER-AGENT          : Google Gmail/6.0.191117.990155 model/iPad5,1 iOS/13.1
+X-GMAIL-BTAI        : GrwBMABQAVgBaAF4AYABAYgBAZABAJgBAbABALgBAcABAcgBAdABAdgBAOABAegBAfABAfgBAIACAIgCAJACAZgCAKACAKoCAmVusgI1R29vZ2xlIEdtYWlsLzYuMC4xOTExMTcuOTkwMTU1IG1vZGVsL2lQYWQ1LDEgaU9TLzEzLjHAAgDIAhnQAgDYAgDgAgDoAgDwAgD4AgCAAwGIAwGQAwCYAwCgAwCoAwCwAwC4AwDAAwDIAwDQAwDYAwA4FEIqY29tLmdvb2dsZS5HbWFpbC1yZWxlYXNlLTYuMC4xOTExMTcuOTkwMTU1SARQA1oHaVBhZDUsMWCAr7X3//////8BahBBbWVyaWNhL05ld19Zb3JrcAGAAcu3PIoBAJIBJDUwRDBENEFELTVENkUtNDRBMi1CN0RDLTE2MkI0ODcxRDE4RJgB9Pvavu8tqAGGzM0B
+X-GOOGLE-BTD        : 1
+COOKIE              : NID=193=cKLMqtpgJQJctMUjGwLw-IlKZMH-8I_1puzcijBD2rxmOkF5V_HPI5WlPh5hHwaPUbV5AEG0BF3tg41kK5wX2YmyRwsZoNaT39h3ijDClVXHfcwPIsaqOX8v_lB31T3mSPOJNMzs3tBt-_27WFZOmQIaGPAqVx6qLApxv6OsRa0; COMPASS=bigtop-sync=Co8BAAlriVeOF-iB1mAPtMnGOLYCj0k0fyvpErqdbfzwfs_UobTt8NYjpUw19X32CoVQxV4e0KbF_l2hAtqIj4w6yLZ6lTOfFckTxmSLgRILPe73_k212cvzp-WAW1O7Gz2QqnNVA-EPcIVwBhVQazDJQLe8scwVYRlUIVW6Dy0byPcC6s14tA0VZy0CHGy4qFIQidvG7wUaoQEACWuJV1H-CY9in7N8kOPm3k8WA6adZaCZp5Nn6CLr1AEw9HZEa-DX-vHhBVafabv_393yGhk99XjlydtFWvCuI4YhnpTZ_8DdJZn8srjHSSMdmcqK3hz26vckxhhXy_DwKiHMdtyDswWNj4bexMdcgcPi9SsQxqQe8L5XypipKceDUkG7LYqu-2QDzDqn_jQe7D7s1FmsXgcAk6xA6B9Vlg
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/vnd.google.octet-stream-compressible
+--------------------------------------------------response headers:
+CACHE-CONTROL       : no-cache, no-store, max-age=0, must-revalidate
+--------------------------------------------------response headers:
+PRAGMA              : no-cache
+--------------------------------------------------response headers:
+EXPIRES             : Mon, 01 Jan 1990 00:00:00 GMT
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:01:16 GMT
+--------------------------------------------------response headers:
+CONTENT-DISPOSITION : attachment; filename="response.bin"; filename*=UTF-8''response.bin
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+P3P                 : CP="This is not a P3P policy! See g.co/p3phelp for more info."
+--------------------------------------------------response headers:
+X-GOOG-SERVER-LATENCY: 140
+--------------------------------------------------response headers:
+X-CONTENT-TYPE-OPTIONS: nosniff
+--------------------------------------------------response headers:
+X-FRAME-OPTIONS     : SAMEORIGIN
+--------------------------------------------------response headers:
+X-XSS-PROTECTION    : 1; mode=block
+--------------------------------------------------response headers:
+SERVER              : GSE
+--------------------------------------------------response headers:
+SET-COOKIE          : NID=193=ATDZmohBg29taeT8HIRc04diidc32pFmJhlH9kpofVa3FeLcyHaZvLguYCEOwz3NITquhe1O-lLEaxxsit5VB2ChCF1bx0EQqHxlvWNdlovgmckw19QYCbiovy0YKHinILtoMrJ_GlH0htMSgx6V7Nuy9sjlYGMTIpK3V312nsjbEnwn034; expires=Fri, 12-Jun-2020 02:01:16 GMT; path=/; domain=.google.com; HttpOnly
+--------------------------------------------------response headers:
+ALT-SVC             : clear
+--------------------------------------------------response headers:
+
+=
+POST /sync/el2?hl=en-US&c=3 HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : inbox.google.com:443
+CONTENT-TYPE        : application/x-protobuf
+ACCEPT              : */*
+AUTHORIZATION       : OAuth ya29.IoACtAf8Uhz2CvZdUFYaozvs5yt6SSzj62caGxKN51Gaca-ct7d6wd05czBgyQaN_xljWw56UDwk7n-uUA4wezv6d1q0PS_-eIBWI4aejXw6fP0TPywiFw5RINUU9W9o8UFAS5NieybMl2nm8s1GxUiulNSGJK6cgyABYtgM2kNQnxWbBCs8zNFohVrixHVFg6gVU2PVyomtbGBtupXgNfqElkMyv5jZvydoH0txW0OmrjzfipTfLPSP0z0paWMkUJOJhmHcd7b-jim1LydAVDOhMdlv3I9e-ve_t2GM90aAWINHuZ_VN9pSJI5sHLmAnEG5EFODip2yEIaXhVStivf2zw
+ACCEPT-ENCODING     : gzip, deflate, br
+ACCEPT-LANGUAGE     : en-us
+CONTENT-LENGTH      : 592
+USER-AGENT          : Google Gmail/6.0.191117.990155 model/iPad5,1 iOS/13.1
+X-GMAIL-BTAI        : GrwBMABQAVgBaAF4AYABAYgBAZABAJgBAbABALgBAcABAcgBAdABAdgBAOABAegBAfABAfgBAIACAIgCAJACAZgCAKACAKoCAmVusgI1R29vZ2xlIEdtYWlsLzYuMC4xOTExMTcuOTkwMTU1IG1vZGVsL2lQYWQ1LDEgaU9TLzEzLjHAAgDIAhnQAgDYAgDgAgDoAgDwAgD4AgCAAwGIAwGQAwCYAwCgAwCoAwCwAwC4AwDAAwDIAwDQAwDYAwA4FEIqY29tLmdvb2dsZS5HbWFpbC1yZWxlYXNlLTYuMC4xOTExMTcuOTkwMTU1SARQA1oHaVBhZDUsMWCAr7X3//////8BahBBbWVyaWNhL05ld19Zb3JrcAGAAcu3PIoBAJIBJDUwRDBENEFELTVENkUtNDRBMi1CN0RDLTE2MkI0ODcxRDE4RJgBpvzavu8tqAGGzM0B
+X-GOOGLE-BTD        : 1
+COOKIE              : NID=193=cKLMqtpgJQJctMUjGwLw-IlKZMH-8I_1puzcijBD2rxmOkF5V_HPI5WlPh5hHwaPUbV5AEG0BF3tg41kK5wX2YmyRwsZoNaT39h3ijDClVXHfcwPIsaqOX8v_lB31T3mSPOJNMzs3tBt-_27WFZOmQIaGPAqVx6qLApxv6OsRa0; COMPASS=bigtop-sync=Co8BAAlriVeOF-iB1mAPtMnGOLYCj0k0fyvpErqdbfzwfs_UobTt8NYjpUw19X32CoVQxV4e0KbF_l2hAtqIj4w6yLZ6lTOfFckTxmSLgRILPe73_k212cvzp-WAW1O7Gz2QqnNVA-EPcIVwBhVQazDJQLe8scwVYRlUIVW6Dy0byPcC6s14tA0VZy0CHGy4qFIQidvG7wUaoQEACWuJV1H-CY9in7N8kOPm3k8WA6adZaCZp5Nn6CLr1AEw9HZEa-DX-vHhBVafabv_393yGhk99XjlydtFWvCuI4YhnpTZ_8DdJZn8srjHSSMdmcqK3hz26vckxhhXy_DwKiHMdtyDswWNj4bexMdcgcPi9SsQxqQe8L5XypipKceDUkG7LYqu-2QDzDqn_jQe7D7s1FmsXgcAk6xA6B9Vlg
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/vnd.google.octet-stream-compressible
+--------------------------------------------------response headers:
+CACHE-CONTROL       : no-cache, no-store, max-age=0, must-revalidate
+--------------------------------------------------response headers:
+PRAGMA              : no-cache
+--------------------------------------------------response headers:
+EXPIRES             : Mon, 01 Jan 1990 00:00:00 GMT
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:01:16 GMT
+--------------------------------------------------response headers:
+CONTENT-DISPOSITION : attachment; filename="response.bin"; filename*=UTF-8''response.bin
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+P3P                 : CP="This is not a P3P policy! See g.co/p3phelp for more info."
+--------------------------------------------------response headers:
+X-GOOG-SERVER-LATENCY: 12
+--------------------------------------------------response headers:
+X-CONTENT-TYPE-OPTIONS: nosniff
+--------------------------------------------------response headers:
+X-FRAME-OPTIONS     : SAMEORIGIN
+--------------------------------------------------response headers:
+X-XSS-PROTECTION    : 1; mode=block
+--------------------------------------------------response headers:
+SERVER              : GSE
+--------------------------------------------------response headers:
+SET-COOKIE          : NID=193=WwGzbaSX7AjMiKfrAPmNs3QBZ9vzzRu8HoO1l0FooY65gqtFPmqPE2DIup58keZE7ABbJS5xfrw_cYMfmKGJKOaklBcVCxOlPDNwiO2o4glOMyA0UG-7VDCYdQ1mEG1dQ4nRntEV5tWd7fiIAFIU2GkSIZs61QZbD3AMw5gih-TgqKbdU7Q; expires=Fri, 12-Jun-2020 02:01:16 GMT; path=/; domain=.google.com; HttpOnly
+--------------------------------------------------response headers:
+ALT-SVC             : clear
+--------------------------------------------------response headers:
+
+=
+POST /sync/suggest0?hl=en-US&c=4 HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : inbox.google.com:443
+X-GOOGLE-BTD        : 1
+CONTENT-TYPE        : application/octet-stream
+ACCEPT              : */*
+CONTENT-LENGTH      : 364
+ACCEPT-LANGUAGE     : en-us
+USER-AGENT          : Google Gmail/6.0.191117.990155 model/iPad5,1 iOS/13.1
+AUTHORIZATION       : OAuth ya29.IoACtAf8Uhz2CvZdUFYaozvs5yt6SSzj62caGxKN51Gaca-ct7d6wd05czBgyQaN_xljWw56UDwk7n-uUA4wezv6d1q0PS_-eIBWI4aejXw6fP0TPywiFw5RINUU9W9o8UFAS5NieybMl2nm8s1GxUiulNSGJK6cgyABYtgM2kNQnxWbBCs8zNFohVrixHVFg6gVU2PVyomtbGBtupXgNfqElkMyv5jZvydoH0txW0OmrjzfipTfLPSP0z0paWMkUJOJhmHcd7b-jim1LydAVDOhMdlv3I9e-ve_t2GM90aAWINHuZ_VN9pSJI5sHLmAnEG5EFODip2yEIaXhVStivf2zw
+ACCEPT-ENCODING     : gzip, deflate, br
+COOKIE              : NID=193=cKLMqtpgJQJctMUjGwLw-IlKZMH-8I_1puzcijBD2rxmOkF5V_HPI5WlPh5hHwaPUbV5AEG0BF3tg41kK5wX2YmyRwsZoNaT39h3ijDClVXHfcwPIsaqOX8v_lB31T3mSPOJNMzs3tBt-_27WFZOmQIaGPAqVx6qLApxv6OsRa0; COMPASS=bigtop-sync=Co8BAAlriVeOF-iB1mAPtMnGOLYCj0k0fyvpErqdbfzwfs_UobTt8NYjpUw19X32CoVQxV4e0KbF_l2hAtqIj4w6yLZ6lTOfFckTxmSLgRILPe73_k212cvzp-WAW1O7Gz2QqnNVA-EPcIVwBhVQazDJQLe8scwVYRlUIVW6Dy0byPcC6s14tA0VZy0CHGy4qFIQidvG7wUaoQEACWuJV1H-CY9in7N8kOPm3k8WA6adZaCZp5Nn6CLr1AEw9HZEa-DX-vHhBVafabv_393yGhk99XjlydtFWvCuI4YhnpTZ_8DdJZn8srjHSSMdmcqK3hz26vckxhhXy_DwKiHMdtyDswWNj4bexMdcgcPi9SsQxqQe8L5XypipKceDUkG7LYqu-2QDzDqn_jQe7D7s1FmsXgcAk6xA6B9Vlg
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/x-protobuffer
+--------------------------------------------------response headers:
+X-CONTENT-TYPE-OPTIONS: nosniff
+--------------------------------------------------response headers:
+CONTENT-DISPOSITION : attachment
+--------------------------------------------------response headers:
+CACHE-CONTROL       : no-cache, no-store, max-age=0, must-revalidate
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+P3P                 : CP="This is not a P3P policy! See g.co/p3phelp for more info."
+--------------------------------------------------response headers:
+X-GOOG-SERVER-LATENCY: 34
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:01:16 GMT
+--------------------------------------------------response headers:
+X-FRAME-OPTIONS     : SAMEORIGIN
+--------------------------------------------------response headers:
+X-XSS-PROTECTION    : 1; mode=block
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 139
+--------------------------------------------------response headers:
+SERVER              : GSE
+--------------------------------------------------response headers:
+EXPIRES             : Thu, 12 Dec 2019 02:01:16 GMT
+--------------------------------------------------response headers:
+SET-COOKIE          : NID=193=ClWCxinFrIA8V4Y2gVtnmXqnBYiTxWKh407L_0mdyFIWLs5SbHQEfJTfthFjNR9AhNA5HLNPaj7_6g1g2IZHkc1gKg23pLoV9XdhVpXc4OLQzlVR9L-WsTbMrq2xO5DgVfa70gdNLGGkl9rUjLUC5MU-qNKHsKpGSf80b25aQv3tasb85bw; expires=Fri, 12-Jun-2020 02:01:16 GMT; path=/; domain=.google.com; HttpOnly
+--------------------------------------------------response headers:
+ALT-SVC             : clear
+--------------------------------------------------response headers:
+
+=
+POST /sync/el2?hl=en-US&c=6 HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : inbox.google.com:443
+CONTENT-TYPE        : application/x-protobuf
+ACCEPT              : */*
+AUTHORIZATION       : OAuth ya29.IoACtAf8Uhz2CvZdUFYaozvs5yt6SSzj62caGxKN51Gaca-ct7d6wd05czBgyQaN_xljWw56UDwk7n-uUA4wezv6d1q0PS_-eIBWI4aejXw6fP0TPywiFw5RINUU9W9o8UFAS5NieybMl2nm8s1GxUiulNSGJK6cgyABYtgM2kNQnxWbBCs8zNFohVrixHVFg6gVU2PVyomtbGBtupXgNfqElkMyv5jZvydoH0txW0OmrjzfipTfLPSP0z0paWMkUJOJhmHcd7b-jim1LydAVDOhMdlv3I9e-ve_t2GM90aAWINHuZ_VN9pSJI5sHLmAnEG5EFODip2yEIaXhVStivf2zw
+ACCEPT-ENCODING     : gzip, deflate, br
+ACCEPT-LANGUAGE     : en-us
+CONTENT-LENGTH      : 15
+USER-AGENT          : Google Gmail/6.0.191117.990155 model/iPad5,1 iOS/13.1
+X-GMAIL-BTAI        : GrwBMABQAVgBaAF4AYABAYgBAZABAJgBAbABALgBAcABAcgBAdABAdgBAOABAegBAfABAfgBAIACAIgCAJACAZgCAKACAKoCAmVusgI1R29vZ2xlIEdtYWlsLzYuMC4xOTExMTcuOTkwMTU1IG1vZGVsL2lQYWQ1LDEgaU9TLzEzLjHAAgDIAhnQAgDYAgDgAgDoAgDwAgD4AgCAAwGIAwGQAwCYAwCgAwCoAwCwAwC4AwDAAwDIAwDQAwDYAwA4FEIqY29tLmdvb2dsZS5HbWFpbC1yZWxlYXNlLTYuMC4xOTExMTcuOTkwMTU1SARQA1oHaVBhZDUsMWCAr7X3//////8BahBBbWVyaWNhL05ld19Zb3JrcAGAAcu3PIoBAJIBJDUwRDBENEFELTVENkUtNDRBMi1CN0RDLTE2MkI0ODcxRDE4RJgBgoDbvu8tqAGGzM0B
+X-GOOGLE-BTD        : 1
+COOKIE              : COMPASS=bigtop-sync=Co8BAAlriVeOF-iB1mAPtMnGOLYCj0k0fyvpErqdbfzwfs_UobTt8NYjpUw19X32CoVQxV4e0KbF_l2hAtqIj4w6yLZ6lTOfFckTxmSLgRILPe73_k212cvzp-WAW1O7Gz2QqnNVA-EPcIVwBhVQazDJQLe8scwVYRlUIVW6Dy0byPcC6s14tA0VZy0CHGy4qFIQidvG7wUaoQEACWuJV1H-CY9in7N8kOPm3k8WA6adZaCZp5Nn6CLr1AEw9HZEa-DX-vHhBVafabv_393yGhk99XjlydtFWvCuI4YhnpTZ_8DdJZn8srjHSSMdmcqK3hz26vckxhhXy_DwKiHMdtyDswWNj4bexMdcgcPi9SsQxqQe8L5XypipKceDUkG7LYqu-2QDzDqn_jQe7D7s1FmsXgcAk6xA6B9Vlg; NID=193=WwGzbaSX7AjMiKfrAPmNs3QBZ9vzzRu8HoO1l0FooY65gqtFPmqPE2DIup58keZE7ABbJS5xfrw_cYMfmKGJKOaklBcVCxOlPDNwiO2o4glOMyA0UG-7VDCYdQ1mEG1dQ4nRntEV5tWd7fiIAFIU2GkSIZs61QZbD3AMw5gih-TgqKbdU7Q
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/vnd.google.octet-stream-compressible
+--------------------------------------------------response headers:
+CACHE-CONTROL       : no-cache, no-store, max-age=0, must-revalidate
+--------------------------------------------------response headers:
+PRAGMA              : no-cache
+--------------------------------------------------response headers:
+EXPIRES             : Mon, 01 Jan 1990 00:00:00 GMT
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:01:16 GMT
+--------------------------------------------------response headers:
+CONTENT-DISPOSITION : attachment; filename="response.bin"; filename*=UTF-8''response.bin
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+X-GOOG-SERVER-LATENCY: 8
+--------------------------------------------------response headers:
+X-CONTENT-TYPE-OPTIONS: nosniff
+--------------------------------------------------response headers:
+X-FRAME-OPTIONS     : SAMEORIGIN
+--------------------------------------------------response headers:
+X-XSS-PROTECTION    : 1; mode=block
+--------------------------------------------------response headers:
+SERVER              : GSE
+--------------------------------------------------response headers:
+ALT-SVC             : clear
+--------------------------------------------------response headers:
+
+=
+POST /sync/i/s?hl=en-US&c=5 HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : inbox.google.com:443
+CONTENT-TYPE        : application/x-protobuf
+ACCEPT              : */*
+AUTHORIZATION       : OAuth ya29.IoACtAf8Uhz2CvZdUFYaozvs5yt6SSzj62caGxKN51Gaca-ct7d6wd05czBgyQaN_xljWw56UDwk7n-uUA4wezv6d1q0PS_-eIBWI4aejXw6fP0TPywiFw5RINUU9W9o8UFAS5NieybMl2nm8s1GxUiulNSGJK6cgyABYtgM2kNQnxWbBCs8zNFohVrixHVFg6gVU2PVyomtbGBtupXgNfqElkMyv5jZvydoH0txW0OmrjzfipTfLPSP0z0paWMkUJOJhmHcd7b-jim1LydAVDOhMdlv3I9e-ve_t2GM90aAWINHuZ_VN9pSJI5sHLmAnEG5EFODip2yEIaXhVStivf2zw
+ACCEPT-ENCODING     : gzip, deflate, br
+ACCEPT-LANGUAGE     : en-us
+CONTENT-LENGTH      : 119
+USER-AGENT          : Google Gmail/6.0.191117.990155 model/iPad5,1 iOS/13.1
+X-GMAIL-BTAI        : GrwBMABQAVgBaAF4AYABAYgBAZABAJgBAbABALgBAcABAcgBAdABAdgBAOABAegBAfABAfgBAIACAIgCAJACAZgCAKACAKoCAmVusgI1R29vZ2xlIEdtYWlsLzYuMC4xOTExMTcuOTkwMTU1IG1vZGVsL2lQYWQ1LDEgaU9TLzEzLjHAAgDIAhnQAgDYAgDgAgDoAgDwAgD4AgCAAwGIAwGQAwCYAwCgAwCoAwCwAwC4AwDAAwDIAwDQAwDYAwA4FEIqY29tLmdvb2dsZS5HbWFpbC1yZWxlYXNlLTYuMC4xOTExMTcuOTkwMTU1SARQA1oHaVBhZDUsMWCAr7X3//////8BahBBbWVyaWNhL05ld19Zb3JrcAGAAcu3PIoBAJIBJDUwRDBENEFELTVENkUtNDRBMi1CN0RDLTE2MkI0ODcxRDE4RJgBkv/avu8tqAGGzM0B
+X-GOOGLE-BTD        : 1
+COOKIE              : COMPASS=bigtop-sync=Co8BAAlriVeOF-iB1mAPtMnGOLYCj0k0fyvpErqdbfzwfs_UobTt8NYjpUw19X32CoVQxV4e0KbF_l2hAtqIj4w6yLZ6lTOfFckTxmSLgRILPe73_k212cvzp-WAW1O7Gz2QqnNVA-EPcIVwBhVQazDJQLe8scwVYRlUIVW6Dy0byPcC6s14tA0VZy0CHGy4qFIQidvG7wUaoQEACWuJV1H-CY9in7N8kOPm3k8WA6adZaCZp5Nn6CLr1AEw9HZEa-DX-vHhBVafabv_393yGhk99XjlydtFWvCuI4YhnpTZ_8DdJZn8srjHSSMdmcqK3hz26vckxhhXy_DwKiHMdtyDswWNj4bexMdcgcPi9SsQxqQe8L5XypipKceDUkG7LYqu-2QDzDqn_jQe7D7s1FmsXgcAk6xA6B9Vlg; NID=193=cpINYMkY2z_7S8PcXGxTHAAuG2_UBWpGx3HPrURgP472jw-_6oLUvKOvBCxE1w05hhFjqVs7NLBvgQp9cpV_1GWcHLS2HEtrClmwkHx5bEU7vZTrVoPgwxtuMRmqOx_7tni55_1A5dVndDvMeZEEAGkwmItiQU1CN5ni8oBx26nmmy28Kc4
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/vnd.google.octet-stream-compressible
+--------------------------------------------------response headers:
+CACHE-CONTROL       : no-cache, no-store, max-age=0, must-revalidate
+--------------------------------------------------response headers:
+PRAGMA              : no-cache
+--------------------------------------------------response headers:
+EXPIRES             : Mon, 01 Jan 1990 00:00:00 GMT
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:01:16 GMT
+--------------------------------------------------response headers:
+CONTENT-DISPOSITION : attachment; filename="response.bin"; filename*=UTF-8''response.bin
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+X-GOOG-SERVER-LATENCY: 248
+--------------------------------------------------response headers:
+X-CONTENT-TYPE-OPTIONS: nosniff
+--------------------------------------------------response headers:
+X-FRAME-OPTIONS     : SAMEORIGIN
+--------------------------------------------------response headers:
+X-XSS-PROTECTION    : 1; mode=block
+--------------------------------------------------response headers:
+SERVER              : GSE
+--------------------------------------------------response headers:
+ALT-SVC             : clear
+--------------------------------------------------response headers:
+
+=
+POST /mail/ads/main?rt=b&client=20 HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : mail.google.com
+ACCEPT              : */*
+CONTENT-TYPE        : application/x-protobuf
+CONTENT-LENGTH      : 158
+ACCEPT-LANGUAGE     : en-us
+USER-AGENT          : Google Gmail/6.0.191117.990155 model/iPad5,1 iOS/13.1
+AUTHORIZATION       : OAuth ya29.IoACtAf8Uhz2CvZdUFYaozvs5yt6SSzj62caGxKN51Gaca-ct7d6wd05czBgyQaN_xljWw56UDwk7n-uUA4wezv6d1q0PS_-eIBWI4aejXw6fP0TPywiFw5RINUU9W9o8UFAS5NieybMl2nm8s1GxUiulNSGJK6cgyABYtgM2kNQnxWbBCs8zNFohVrixHVFg6gVU2PVyomtbGBtupXgNfqElkMyv5jZvydoH0txW0OmrjzfipTfLPSP0z0paWMkUJOJhmHcd7b-jim1LydAVDOhMdlv3I9e-ve_t2GM90aAWINHuZ_VN9pSJI5sHLmAnEG5EFODip2yEIaXhVStivf2zw
+ACCEPT-ENCODING     : gzip, deflate, br
+COOKIE              : NID=193=cKLMqtpgJQJctMUjGwLw-IlKZMH-8I_1puzcijBD2rxmOkF5V_HPI5WlPh5hHwaPUbV5AEG0BF3tg41kK5wX2YmyRwsZoNaT39h3ijDClVXHfcwPIsaqOX8v_lB31T3mSPOJNMzs3tBt-_27WFZOmQIaGPAqVx6qLApxv6OsRa0
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/octet-stream; charset=UTF-8
+--------------------------------------------------response headers:
+CONTENT-SECURITY-POLICY: script-src https://clients4.google.com/insights/consumersurveys/ https://www.google.com/js/bg/ 'self' 'unsafe-inline' 'unsafe-eval' https://mail.google.com/_/scs/mail-static/ https://hangouts.google.com/ https://talkgadget.google.com/ https://*.talkgadget.google.com/ https://www.googleapis.com/appsmarket/v2/installedApps/ https://www-gm-opensocial.googleusercontent.com/gadgets/js/ https://docs.google.com/static/doclist/client/js/ https://www.google.com/tools/feedback/ https://s.ytimg.com/yts/jsbin/ https://www.youtube.com/iframe_api https://apis.google.com/_/scs/abc-static/ https://apis.google.com/js/ https://clients1.google.com/complete/ https://apis.google.com/_/scs/apps-static/_/js/ https://ssl.gstatic.com/inputtools/js/ https://inputtools.google.com/request https://ssl.gstatic.com/cloudsearch/static/o/js/ https://www.gstatic.com/feedback/js/ https://www.gstatic.com/common_sharing/static/client/js/ https://www.gstatic.com/og/_/js/;frame-src https://clients4.google.com/insights/consumersurveys/ https://calendar.google.com/accounts/ https://ogs.google.com https://onegoogle-autopush.sandbox.google.com 'self' https://accounts.google.com/ https://apis.google.com/u/ https://apis.google.com/_/streamwidgets/ https://clients6.google.com/static/ https://content.googleapis.com/static/ https://mail-attachment.googleusercontent.com/ https://www.google.com/calendar/ https://calendar.google.com/calendar/ https://docs.google.com/ https://drive.google.com https://*.googleusercontent.com/docs/securesc/ https://feedback.googleusercontent.com/resources/ https://www.google.com/tools/feedback/ https://support.google.com/inapp/ https://*.googleusercontent.com/gadgets/ifr https://hangouts.google.com/ https://talkgadget.google.com/ https://*.talkgadget.google.com/ https://www-gm-opensocial.googleusercontent.com/gadgets/ https://plus.google.com/ https://wallet.google.com/gmail/ https://www.youtube.com/embed/ https://clients5.google.com/pagead/drt/dn/ https://clients5.google.com/ads/measurement/jn/ https://www.gstatic.com/mail/ww/ https://www.gstatic.com/mail/intl/ https://clients5.google.com/webstore/wall/ https://ci3.googleusercontent.com/ https://gsuite.google.com/u/ https://gsuite.google.com/marketplace/appfinder https://www.gstatic.com/mail/promo/ https://notifications.google.com/ https://tracedepot-pa.clients6.google.com/static/ https://mail-payments.google.com/mail/payments/ https://staging-taskassist-pa-googleapis.sandbox.google.com https://taskassist-pa.clients6.google.com https://*.client-channel.google.com/client-channel/client https://clients4.google.com/invalidation/lcs/client https://tasks.google.com/embed/ https://keep.google.com/companion https://addons.gsuite.google.com https://contacts.google.com/widget/hovercard/v/2 https://*.googleusercontent.com/confidential-mail/attachments/;report-uri https://mail.google.com/mail/cspreport;object-src https://mail-attachment.googleusercontent.com/attachment/
+--------------------------------------------------response headers:
+CACHE-CONTROL       : no-cache, no-store, max-age=0, must-revalidate
+--------------------------------------------------response headers:
+PRAGMA              : no-cache
+--------------------------------------------------response headers:
+EXPIRES             : Mon, 01 Jan 1990 00:00:00 GMT
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:01:16 GMT
+--------------------------------------------------response headers:
+CONTENT-DISPOSITION : attachment; filename="response.bin"; filename*=UTF-8''response.bin
+--------------------------------------------------response headers:
+X-CONTENT-TYPE-OPTIONS: nosniff
+--------------------------------------------------response headers:
+X-FRAME-OPTIONS     : SAMEORIGIN
+--------------------------------------------------response headers:
+X-XSS-PROTECTION    : 1; mode=block
+--------------------------------------------------response headers:
+SERVER              : GSE
+--------------------------------------------------response headers:
+SET-COOKIE          : COMPASS=gmail=Co4BAAlriVcFKlbWeUQGArYCOHC1-tFDdFCsigt3HI4S3nXxImTENMn-pM6LvgkY5v3_1rpvYiWk-s4_Z5433n3SYV98zN_gN4nvCiQU5PLR3tUjdvQLN8Jjq9A6l-4OdWU3OBI_zEvKdcEUQ1AQHGomNL1wZAR08tF0NhGadjt8Yj_u0xqT9dQwMN5gCDpTPRDU2sbvBRqgAQAJa4lXrYk5Bi7ncdoHrNgeDP0jtnw__Lfx2VbwhS3lgK3MpUrI3RMf9Kfnjla-Dn3ii-hGE5zMOJowC8kVZQD4K4zOa4_ubS-Rk33xe-B-DKrmEfrtssjICXt_BM05ISfmcsLBAO1Z6t-r5qv-A1xJOq-aRcOQS52pEGBpsiJO-wFXZMcQvHU_DgXEl799nrIpc00SB5IF7C6kgbsVzU0; expires=Sun, 22-Dec-2019 02:01:16 GMT; path=/mail; Secure; HttpOnly
+--------------------------------------------------response headers:
+ALT-SVC             : clear
+--------------------------------------------------response headers:
+
+=
+POST /sync/i/s?hl=en-US&c=7 HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : inbox.google.com:443
+CONTENT-TYPE        : application/x-protobuf
+ACCEPT              : */*
+AUTHORIZATION       : OAuth ya29.IoACtAf8Uhz2CvZdUFYaozvs5yt6SSzj62caGxKN51Gaca-ct7d6wd05czBgyQaN_xljWw56UDwk7n-uUA4wezv6d1q0PS_-eIBWI4aejXw6fP0TPywiFw5RINUU9W9o8UFAS5NieybMl2nm8s1GxUiulNSGJK6cgyABYtgM2kNQnxWbBCs8zNFohVrixHVFg6gVU2PVyomtbGBtupXgNfqElkMyv5jZvydoH0txW0OmrjzfipTfLPSP0z0paWMkUJOJhmHcd7b-jim1LydAVDOhMdlv3I9e-ve_t2GM90aAWINHuZ_VN9pSJI5sHLmAnEG5EFODip2yEIaXhVStivf2zw
+ACCEPT-ENCODING     : gzip, deflate, br
+ACCEPT-LANGUAGE     : en-us
+CONTENT-LENGTH      : 28
+USER-AGENT          : Google Gmail/6.0.191117.990155 model/iPad5,1 iOS/13.1
+X-GMAIL-BTAI        : GrwBMABQAVgBaAF4AYABAYgBAZABAJgBAbABALgBAcABAcgBAdABAdgBAOABAegBAfABAfgBAIACAIgCAJACAZgCAKACAKoCAmVusgI1R29vZ2xlIEdtYWlsLzYuMC4xOTExMTcuOTkwMTU1IG1vZGVsL2lQYWQ1LDEgaU9TLzEzLjHAAgDIAhnQAgDYAgDgAgDoAgDwAgD4AgCAAwGIAwGQAwCYAwCgAwCoAwCwAwC4AwDAAwDIAwDQAwDYAwA4FEIqY29tLmdvb2dsZS5HbWFpbC1yZWxlYXNlLTYuMC4xOTExMTcuOTkwMTU1SARQA1oHaVBhZDUsMWCAr7X3//////8BahBBbWVyaWNhL05ld19Zb3JrcAGAAcu3PIoBAJIBJDUwRDBENEFELTVENkUtNDRBMi1CN0RDLTE2MkI0ODcxRDE4RJgB9oLbvu8tqAGLzM0B
+X-GOOGLE-BTD        : 1
+COOKIE              : COMPASS=bigtop-sync=Co8BAAlriVeOF-iB1mAPtMnGOLYCj0k0fyvpErqdbfzwfs_UobTt8NYjpUw19X32CoVQxV4e0KbF_l2hAtqIj4w6yLZ6lTOfFckTxmSLgRILPe73_k212cvzp-WAW1O7Gz2QqnNVA-EPcIVwBhVQazDJQLe8scwVYRlUIVW6Dy0byPcC6s14tA0VZy0CHGy4qFIQidvG7wUaoQEACWuJV1H-CY9in7N8kOPm3k8WA6adZaCZp5Nn6CLr1AEw9HZEa-DX-vHhBVafabv_393yGhk99XjlydtFWvCuI4YhnpTZ_8DdJZn8srjHSSMdmcqK3hz26vckxhhXy_DwKiHMdtyDswWNj4bexMdcgcPi9SsQxqQe8L5XypipKceDUkG7LYqu-2QDzDqn_jQe7D7s1FmsXgcAk6xA6B9Vlg; NID=193=ClWCxinFrIA8V4Y2gVtnmXqnBYiTxWKh407L_0mdyFIWLs5SbHQEfJTfthFjNR9AhNA5HLNPaj7_6g1g2IZHkc1gKg23pLoV9XdhVpXc4OLQzlVR9L-WsTbMrq2xO5DgVfa70gdNLGGkl9rUjLUC5MU-qNKHsKpGSf80b25aQv3tasb85bw
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/vnd.google.octet-stream-compressible
+--------------------------------------------------response headers:
+CACHE-CONTROL       : no-cache, no-store, max-age=0, must-revalidate
+--------------------------------------------------response headers:
+PRAGMA              : no-cache
+--------------------------------------------------response headers:
+EXPIRES             : Mon, 01 Jan 1990 00:00:00 GMT
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:01:17 GMT
+--------------------------------------------------response headers:
+CONTENT-DISPOSITION : attachment; filename="response.bin"; filename*=UTF-8''response.bin
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+X-GOOG-SERVER-LATENCY: 32
+--------------------------------------------------response headers:
+X-CONTENT-TYPE-OPTIONS: nosniff
+--------------------------------------------------response headers:
+X-FRAME-OPTIONS     : SAMEORIGIN
+--------------------------------------------------response headers:
+X-XSS-PROTECTION    : 1; mode=block
+--------------------------------------------------response headers:
+SERVER              : GSE
+--------------------------------------------------response headers:
+ALT-SVC             : clear
+--------------------------------------------------response headers:
+
+=
+POST /sync/i/bv?hl=en-US&c=8 HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : inbox.google.com:443
+CONTENT-TYPE        : application/x-protobuf
+ACCEPT              : */*
+AUTHORIZATION       : OAuth ya29.IoACtAf8Uhz2CvZdUFYaozvs5yt6SSzj62caGxKN51Gaca-ct7d6wd05czBgyQaN_xljWw56UDwk7n-uUA4wezv6d1q0PS_-eIBWI4aejXw6fP0TPywiFw5RINUU9W9o8UFAS5NieybMl2nm8s1GxUiulNSGJK6cgyABYtgM2kNQnxWbBCs8zNFohVrixHVFg6gVU2PVyomtbGBtupXgNfqElkMyv5jZvydoH0txW0OmrjzfipTfLPSP0z0paWMkUJOJhmHcd7b-jim1LydAVDOhMdlv3I9e-ve_t2GM90aAWINHuZ_VN9pSJI5sHLmAnEG5EFODip2yEIaXhVStivf2zw
+ACCEPT-ENCODING     : gzip, deflate, br
+ACCEPT-LANGUAGE     : en-us
+CONTENT-LENGTH      : 257
+USER-AGENT          : Google Gmail/6.0.191117.990155 model/iPad5,1 iOS/13.1
+X-GMAIL-BTAI        : GrwBMABQAVgBaAF4AYABAYgBAZABAJgBAbABALgBAcABAcgBAdABAdgBAOABAegBAfABAfgBAIACAIgCAJACAZgCAKACAKoCAmVusgI1R29vZ2xlIEdtYWlsLzYuMC4xOTExMTcuOTkwMTU1IG1vZGVsL2lQYWQ1LDEgaU9TLzEzLjHAAgDIAhnQAgDYAgDgAgDoAgDwAgD4AgCAAwGIAwGQAwCYAwCgAwCoAwCwAwC4AwDAAwDIAwDQAwDYAwA4FEIqY29tLmdvb2dsZS5HbWFpbC1yZWxlYXNlLTYuMC4xOTExMTcuOTkwMTU1SARQA1oHaVBhZDUsMWCAr7X3//////8BahBBbWVyaWNhL05ld19Zb3JrcAGAAcu3PIoBAJIBJDUwRDBENEFELTVENkUtNDRBMi1CN0RDLTE2MkI0ODcxRDE4RJgB54fbvu8tqAGLzM0B
+X-GOOGLE-BTD        : 1
+COOKIE              : COMPASS=bigtop-sync=Co8BAAlriVeOF-iB1mAPtMnGOLYCj0k0fyvpErqdbfzwfs_UobTt8NYjpUw19X32CoVQxV4e0KbF_l2hAtqIj4w6yLZ6lTOfFckTxmSLgRILPe73_k212cvzp-WAW1O7Gz2QqnNVA-EPcIVwBhVQazDJQLe8scwVYRlUIVW6Dy0byPcC6s14tA0VZy0CHGy4qFIQidvG7wUaoQEACWuJV1H-CY9in7N8kOPm3k8WA6adZaCZp5Nn6CLr1AEw9HZEa-DX-vHhBVafabv_393yGhk99XjlydtFWvCuI4YhnpTZ_8DdJZn8srjHSSMdmcqK3hz26vckxhhXy_DwKiHMdtyDswWNj4bexMdcgcPi9SsQxqQe8L5XypipKceDUkG7LYqu-2QDzDqn_jQe7D7s1FmsXgcAk6xA6B9Vlg; NID=193=ClWCxinFrIA8V4Y2gVtnmXqnBYiTxWKh407L_0mdyFIWLs5SbHQEfJTfthFjNR9AhNA5HLNPaj7_6g1g2IZHkc1gKg23pLoV9XdhVpXc4OLQzlVR9L-WsTbMrq2xO5DgVfa70gdNLGGkl9rUjLUC5MU-qNKHsKpGSf80b25aQv3tasb85bw
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/vnd.google.octet-stream-compressible
+--------------------------------------------------response headers:
+CACHE-CONTROL       : no-cache, no-store, max-age=0, must-revalidate
+--------------------------------------------------response headers:
+PRAGMA              : no-cache
+--------------------------------------------------response headers:
+EXPIRES             : Mon, 01 Jan 1990 00:00:00 GMT
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:01:17 GMT
+--------------------------------------------------response headers:
+CONTENT-DISPOSITION : attachment; filename="response.bin"; filename*=UTF-8''response.bin
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+X-GOOG-SERVER-LATENCY: 17
+--------------------------------------------------response headers:
+X-CONTENT-TYPE-OPTIONS: nosniff
+--------------------------------------------------response headers:
+X-FRAME-OPTIONS     : SAMEORIGIN
+--------------------------------------------------response headers:
+X-XSS-PROTECTION    : 1; mode=block
+--------------------------------------------------response headers:
+SERVER              : GSE
+--------------------------------------------------response headers:
+ALT-SVC             : clear
+--------------------------------------------------response headers:
+
+=
+POST /mail/ads/main?rt=b&client=20 HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : mail.google.com
+ACCEPT              : */*
+CONTENT-TYPE        : application/x-protobuf
+CONTENT-LENGTH      : 182
+ACCEPT-LANGUAGE     : en-us
+USER-AGENT          : Google Gmail/6.0.191117.990155 model/iPad5,1 iOS/13.1
+AUTHORIZATION       : OAuth ya29.IoACtAf8Uhz2CvZdUFYaozvs5yt6SSzj62caGxKN51Gaca-ct7d6wd05czBgyQaN_xljWw56UDwk7n-uUA4wezv6d1q0PS_-eIBWI4aejXw6fP0TPywiFw5RINUU9W9o8UFAS5NieybMl2nm8s1GxUiulNSGJK6cgyABYtgM2kNQnxWbBCs8zNFohVrixHVFg6gVU2PVyomtbGBtupXgNfqElkMyv5jZvydoH0txW0OmrjzfipTfLPSP0z0paWMkUJOJhmHcd7b-jim1LydAVDOhMdlv3I9e-ve_t2GM90aAWINHuZ_VN9pSJI5sHLmAnEG5EFODip2yEIaXhVStivf2zw
+ACCEPT-ENCODING     : gzip, deflate, br
+COOKIE              : NID=193=ClWCxinFrIA8V4Y2gVtnmXqnBYiTxWKh407L_0mdyFIWLs5SbHQEfJTfthFjNR9AhNA5HLNPaj7_6g1g2IZHkc1gKg23pLoV9XdhVpXc4OLQzlVR9L-WsTbMrq2xO5DgVfa70gdNLGGkl9rUjLUC5MU-qNKHsKpGSf80b25aQv3tasb85bw; COMPASS=gmail=Co4BAAlriVcFKlbWeUQGArYCOHC1-tFDdFCsigt3HI4S3nXxImTENMn-pM6LvgkY5v3_1rpvYiWk-s4_Z5433n3SYV98zN_gN4nvCiQU5PLR3tUjdvQLN8Jjq9A6l-4OdWU3OBI_zEvKdcEUQ1AQHGomNL1wZAR08tF0NhGadjt8Yj_u0xqT9dQwMN5gCDpTPRDU2sbvBRqgAQAJa4lXrYk5Bi7ncdoHrNgeDP0jtnw__Lfx2VbwhS3lgK3MpUrI3RMf9Kfnjla-Dn3ii-hGE5zMOJowC8kVZQD4K4zOa4_ubS-Rk33xe-B-DKrmEfrtssjICXt_BM05ISfmcsLBAO1Z6t-r5qv-A1xJOq-aRcOQS52pEGBpsiJO-wFXZMcQvHU_DgXEl799nrIpc00SB5IF7C6kgbsVzU0
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/octet-stream; charset=UTF-8
+--------------------------------------------------response headers:
+CONTENT-SECURITY-POLICY: script-src https://clients4.google.com/insights/consumersurveys/ https://www.google.com/js/bg/ 'self' 'unsafe-inline' 'unsafe-eval' https://mail.google.com/_/scs/mail-static/ https://hangouts.google.com/ https://talkgadget.google.com/ https://*.talkgadget.google.com/ https://www.googleapis.com/appsmarket/v2/installedApps/ https://www-gm-opensocial.googleusercontent.com/gadgets/js/ https://docs.google.com/static/doclist/client/js/ https://www.google.com/tools/feedback/ https://s.ytimg.com/yts/jsbin/ https://www.youtube.com/iframe_api https://apis.google.com/_/scs/abc-static/ https://apis.google.com/js/ https://clients1.google.com/complete/ https://apis.google.com/_/scs/apps-static/_/js/ https://ssl.gstatic.com/inputtools/js/ https://inputtools.google.com/request https://ssl.gstatic.com/cloudsearch/static/o/js/ https://www.gstatic.com/feedback/js/ https://www.gstatic.com/common_sharing/static/client/js/ https://www.gstatic.com/og/_/js/;frame-src https://clients4.google.com/insights/consumersurveys/ https://calendar.google.com/accounts/ https://ogs.google.com https://onegoogle-autopush.sandbox.google.com 'self' https://accounts.google.com/ https://apis.google.com/u/ https://apis.google.com/_/streamwidgets/ https://clients6.google.com/static/ https://content.googleapis.com/static/ https://mail-attachment.googleusercontent.com/ https://www.google.com/calendar/ https://calendar.google.com/calendar/ https://docs.google.com/ https://drive.google.com https://*.googleusercontent.com/docs/securesc/ https://feedback.googleusercontent.com/resources/ https://www.google.com/tools/feedback/ https://support.google.com/inapp/ https://*.googleusercontent.com/gadgets/ifr https://hangouts.google.com/ https://talkgadget.google.com/ https://*.talkgadget.google.com/ https://www-gm-opensocial.googleusercontent.com/gadgets/ https://plus.google.com/ https://wallet.google.com/gmail/ https://www.youtube.com/embed/ https://clients5.google.com/pagead/drt/dn/ https://clients5.google.com/ads/measurement/jn/ https://www.gstatic.com/mail/ww/ https://www.gstatic.com/mail/intl/ https://clients5.google.com/webstore/wall/ https://ci3.googleusercontent.com/ https://gsuite.google.com/u/ https://gsuite.google.com/marketplace/appfinder https://www.gstatic.com/mail/promo/ https://notifications.google.com/ https://tracedepot-pa.clients6.google.com/static/ https://mail-payments.google.com/mail/payments/ https://staging-taskassist-pa-googleapis.sandbox.google.com https://taskassist-pa.clients6.google.com https://*.client-channel.google.com/client-channel/client https://clients4.google.com/invalidation/lcs/client https://tasks.google.com/embed/ https://keep.google.com/companion https://addons.gsuite.google.com https://contacts.google.com/widget/hovercard/v/2 https://*.googleusercontent.com/confidential-mail/attachments/;report-uri https://mail.google.com/mail/cspreport;object-src https://mail-attachment.googleusercontent.com/attachment/
+--------------------------------------------------response headers:
+CACHE-CONTROL       : no-cache, no-store, max-age=0, must-revalidate
+--------------------------------------------------response headers:
+PRAGMA              : no-cache
+--------------------------------------------------response headers:
+EXPIRES             : Mon, 01 Jan 1990 00:00:00 GMT
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:01:17 GMT
+--------------------------------------------------response headers:
+CONTENT-DISPOSITION : attachment; filename="response.bin"; filename*=UTF-8''response.bin
+--------------------------------------------------response headers:
+X-CONTENT-TYPE-OPTIONS: nosniff
+--------------------------------------------------response headers:
+X-FRAME-OPTIONS     : SAMEORIGIN
+--------------------------------------------------response headers:
+X-XSS-PROTECTION    : 1; mode=block
+--------------------------------------------------response headers:
+SERVER              : GSE
+--------------------------------------------------response headers:
+ALT-SVC             : clear
+--------------------------------------------------response headers:
+
+=
+POST /sync/i/bv?hl=en-US&c=9 HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : inbox.google.com:443
+CONTENT-TYPE        : application/x-protobuf
+ACCEPT              : */*
+AUTHORIZATION       : OAuth ya29.IoACtAf8Uhz2CvZdUFYaozvs5yt6SSzj62caGxKN51Gaca-ct7d6wd05czBgyQaN_xljWw56UDwk7n-uUA4wezv6d1q0PS_-eIBWI4aejXw6fP0TPywiFw5RINUU9W9o8UFAS5NieybMl2nm8s1GxUiulNSGJK6cgyABYtgM2kNQnxWbBCs8zNFohVrixHVFg6gVU2PVyomtbGBtupXgNfqElkMyv5jZvydoH0txW0OmrjzfipTfLPSP0z0paWMkUJOJhmHcd7b-jim1LydAVDOhMdlv3I9e-ve_t2GM90aAWINHuZ_VN9pSJI5sHLmAnEG5EFODip2yEIaXhVStivf2zw
+ACCEPT-ENCODING     : gzip, deflate, br
+ACCEPT-LANGUAGE     : en-us
+CONTENT-LENGTH      : 252
+USER-AGENT          : Google Gmail/6.0.191117.990155 model/iPad5,1 iOS/13.1
+X-GMAIL-BTAI        : GrwBMABQAVgBaAF4AYABAYgBAZABAJgBAbABALgBAcABAcgBAdABAdgBAOABAegBAfABAfgBAIACAIgCAJACAZgCAKACAKoCAmVusgI1R29vZ2xlIEdtYWlsLzYuMC4xOTExMTcuOTkwMTU1IG1vZGVsL2lQYWQ1LDEgaU9TLzEzLjHAAgDIAhnQAgDYAgDgAgDoAgDwAgD4AgCAAwGIAwGQAwCYAwCgAwCoAwCwAwC4AwDAAwDIAwDQAwDYAwA4FEIqY29tLmdvb2dsZS5HbWFpbC1yZWxlYXNlLTYuMC4xOTExMTcuOTkwMTU1SARQA1oHaVBhZDUsMWCAr7X3//////8BahBBbWVyaWNhL05ld19Zb3JrcAGAAcu3PIoBAJIBJDUwRDBENEFELTVENkUtNDRBMi1CN0RDLTE2MkI0ODcxRDE4RJgBm53bvu8tqAGLzM0B
+X-GOOGLE-BTD        : 1
+COOKIE              : COMPASS=bigtop-sync=Co8BAAlriVeOF-iB1mAPtMnGOLYCj0k0fyvpErqdbfzwfs_UobTt8NYjpUw19X32CoVQxV4e0KbF_l2hAtqIj4w6yLZ6lTOfFckTxmSLgRILPe73_k212cvzp-WAW1O7Gz2QqnNVA-EPcIVwBhVQazDJQLe8scwVYRlUIVW6Dy0byPcC6s14tA0VZy0CHGy4qFIQidvG7wUaoQEACWuJV1H-CY9in7N8kOPm3k8WA6adZaCZp5Nn6CLr1AEw9HZEa-DX-vHhBVafabv_393yGhk99XjlydtFWvCuI4YhnpTZ_8DdJZn8srjHSSMdmcqK3hz26vckxhhXy_DwKiHMdtyDswWNj4bexMdcgcPi9SsQxqQe8L5XypipKceDUkG7LYqu-2QDzDqn_jQe7D7s1FmsXgcAk6xA6B9Vlg; NID=193=ClWCxinFrIA8V4Y2gVtnmXqnBYiTxWKh407L_0mdyFIWLs5SbHQEfJTfthFjNR9AhNA5HLNPaj7_6g1g2IZHkc1gKg23pLoV9XdhVpXc4OLQzlVR9L-WsTbMrq2xO5DgVfa70gdNLGGkl9rUjLUC5MU-qNKHsKpGSf80b25aQv3tasb85bw
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/vnd.google.octet-stream-compressible
+--------------------------------------------------response headers:
+CACHE-CONTROL       : no-cache, no-store, max-age=0, must-revalidate
+--------------------------------------------------response headers:
+PRAGMA              : no-cache
+--------------------------------------------------response headers:
+EXPIRES             : Mon, 01 Jan 1990 00:00:00 GMT
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:01:20 GMT
+--------------------------------------------------response headers:
+CONTENT-DISPOSITION : attachment; filename="response.bin"; filename*=UTF-8''response.bin
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+X-GOOG-SERVER-LATENCY: 18
+--------------------------------------------------response headers:
+X-CONTENT-TYPE-OPTIONS: nosniff
+--------------------------------------------------response headers:
+X-FRAME-OPTIONS     : SAMEORIGIN
+--------------------------------------------------response headers:
+X-XSS-PROTECTION    : 1; mode=block
+--------------------------------------------------response headers:
+SERVER              : GSE
+--------------------------------------------------response headers:
+ALT-SVC             : clear
+--------------------------------------------------response headers:
+
+=
+POST /sync/i/bv?hl=en-US&c=10 HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : inbox.google.com:443
+CONTENT-TYPE        : application/x-protobuf
+ACCEPT              : */*
+AUTHORIZATION       : OAuth ya29.IoACtAf8Uhz2CvZdUFYaozvs5yt6SSzj62caGxKN51Gaca-ct7d6wd05czBgyQaN_xljWw56UDwk7n-uUA4wezv6d1q0PS_-eIBWI4aejXw6fP0TPywiFw5RINUU9W9o8UFAS5NieybMl2nm8s1GxUiulNSGJK6cgyABYtgM2kNQnxWbBCs8zNFohVrixHVFg6gVU2PVyomtbGBtupXgNfqElkMyv5jZvydoH0txW0OmrjzfipTfLPSP0z0paWMkUJOJhmHcd7b-jim1LydAVDOhMdlv3I9e-ve_t2GM90aAWINHuZ_VN9pSJI5sHLmAnEG5EFODip2yEIaXhVStivf2zw
+ACCEPT-ENCODING     : gzip, deflate, br
+ACCEPT-LANGUAGE     : en-us
+CONTENT-LENGTH      : 252
+USER-AGENT          : Google Gmail/6.0.191117.990155 model/iPad5,1 iOS/13.1
+X-GMAIL-BTAI        : GrwBMABQAVgBaAF4AYABAYgBAZABAJgBAbABALgBAcABAcgBAdABAdgBAOABAegBAfABAfgBAIACAIgCAJACAZgCAKACAKoCAmVusgI1R29vZ2xlIEdtYWlsLzYuMC4xOTExMTcuOTkwMTU1IG1vZGVsL2lQYWQ1LDEgaU9TLzEzLjHAAgDIAhnQAgDYAgDgAgDoAgDwAgD4AgCAAwGIAwGQAwCYAwCgAwCoAwCwAwC4AwDAAwDIAwDQAwDYAwA4FEIqY29tLmdvb2dsZS5HbWFpbC1yZWxlYXNlLTYuMC4xOTExMTcuOTkwMTU1SARQA1oHaVBhZDUsMWCAr7X3//////8BahBBbWVyaWNhL05ld19Zb3JrcAGAAcu3PIoBAJIBJDUwRDBENEFELTVENkUtNDRBMi1CN0RDLTE2MkI0ODcxRDE4RJgBtKfbvu8tqAGLzM0B
+X-GOOGLE-BTD        : 1
+COOKIE              : COMPASS=bigtop-sync=Co8BAAlriVeOF-iB1mAPtMnGOLYCj0k0fyvpErqdbfzwfs_UobTt8NYjpUw19X32CoVQxV4e0KbF_l2hAtqIj4w6yLZ6lTOfFckTxmSLgRILPe73_k212cvzp-WAW1O7Gz2QqnNVA-EPcIVwBhVQazDJQLe8scwVYRlUIVW6Dy0byPcC6s14tA0VZy0CHGy4qFIQidvG7wUaoQEACWuJV1H-CY9in7N8kOPm3k8WA6adZaCZp5Nn6CLr1AEw9HZEa-DX-vHhBVafabv_393yGhk99XjlydtFWvCuI4YhnpTZ_8DdJZn8srjHSSMdmcqK3hz26vckxhhXy_DwKiHMdtyDswWNj4bexMdcgcPi9SsQxqQe8L5XypipKceDUkG7LYqu-2QDzDqn_jQe7D7s1FmsXgcAk6xA6B9Vlg; NID=193=ClWCxinFrIA8V4Y2gVtnmXqnBYiTxWKh407L_0mdyFIWLs5SbHQEfJTfthFjNR9AhNA5HLNPaj7_6g1g2IZHkc1gKg23pLoV9XdhVpXc4OLQzlVR9L-WsTbMrq2xO5DgVfa70gdNLGGkl9rUjLUC5MU-qNKHsKpGSf80b25aQv3tasb85bw
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/vnd.google.octet-stream-compressible
+--------------------------------------------------response headers:
+CACHE-CONTROL       : no-cache, no-store, max-age=0, must-revalidate
+--------------------------------------------------response headers:
+PRAGMA              : no-cache
+--------------------------------------------------response headers:
+EXPIRES             : Mon, 01 Jan 1990 00:00:00 GMT
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:01:21 GMT
+--------------------------------------------------response headers:
+CONTENT-DISPOSITION : attachment; filename="response.bin"; filename*=UTF-8''response.bin
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+X-GOOG-SERVER-LATENCY: 17
+--------------------------------------------------response headers:
+X-CONTENT-TYPE-OPTIONS: nosniff
+--------------------------------------------------response headers:
+X-FRAME-OPTIONS     : SAMEORIGIN
+--------------------------------------------------response headers:
+X-XSS-PROTECTION    : 1; mode=block
+--------------------------------------------------response headers:
+SERVER              : GSE
+--------------------------------------------------response headers:
+ALT-SVC             : clear
+--------------------------------------------------response headers:
+
+=
+POST /sync/i/s?hl=en-US&c=11 HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : inbox.google.com:443
+CONTENT-TYPE        : application/x-protobuf
+ACCEPT              : */*
+AUTHORIZATION       : OAuth ya29.IoACtAf8Uhz2CvZdUFYaozvs5yt6SSzj62caGxKN51Gaca-ct7d6wd05czBgyQaN_xljWw56UDwk7n-uUA4wezv6d1q0PS_-eIBWI4aejXw6fP0TPywiFw5RINUU9W9o8UFAS5NieybMl2nm8s1GxUiulNSGJK6cgyABYtgM2kNQnxWbBCs8zNFohVrixHVFg6gVU2PVyomtbGBtupXgNfqElkMyv5jZvydoH0txW0OmrjzfipTfLPSP0z0paWMkUJOJhmHcd7b-jim1LydAVDOhMdlv3I9e-ve_t2GM90aAWINHuZ_VN9pSJI5sHLmAnEG5EFODip2yEIaXhVStivf2zw
+ACCEPT-ENCODING     : gzip, deflate, br
+ACCEPT-LANGUAGE     : en-us
+CONTENT-LENGTH      : 119
+USER-AGENT          : Google Gmail/6.0.191117.990155 model/iPad5,1 iOS/13.1
+X-GMAIL-BTAI        : GrwBMABQAVgBaAF4AYABAYgBAZABAJgBAbABALgBAcABAcgBAdABAdgBAOABAegBAfABAfgBAIACAIgCAJACAZgCAKACAKoCAmVusgI1R29vZ2xlIEdtYWlsLzYuMC4xOTExMTcuOTkwMTU1IG1vZGVsL2lQYWQ1LDEgaU9TLzEzLjHAAgDIAhnQAgDYAgDgAgDoAgDwAgD4AgCAAwGIAwGQAwCYAwCgAwCoAwCwAwC4AwDAAwDIAwDQAwDYAwA4FEIqY29tLmdvb2dsZS5HbWFpbC1yZWxlYXNlLTYuMC4xOTExMTcuOTkwMTU1SARQA1oHaVBhZDUsMWCAr7X3//////8BahBBbWVyaWNhL05ld19Zb3JrcAGAAcu3PIoBAJIBJDUwRDBENEFELTVENkUtNDRBMi1CN0RDLTE2MkI0ODcxRDE4RJgB2bjbvu8tqAGLzM0B
+X-GOOGLE-BTD        : 1
+COOKIE              : COMPASS=bigtop-sync=Co8BAAlriVeOF-iB1mAPtMnGOLYCj0k0fyvpErqdbfzwfs_UobTt8NYjpUw19X32CoVQxV4e0KbF_l2hAtqIj4w6yLZ6lTOfFckTxmSLgRILPe73_k212cvzp-WAW1O7Gz2QqnNVA-EPcIVwBhVQazDJQLe8scwVYRlUIVW6Dy0byPcC6s14tA0VZy0CHGy4qFIQidvG7wUaoQEACWuJV1H-CY9in7N8kOPm3k8WA6adZaCZp5Nn6CLr1AEw9HZEa-DX-vHhBVafabv_393yGhk99XjlydtFWvCuI4YhnpTZ_8DdJZn8srjHSSMdmcqK3hz26vckxhhXy_DwKiHMdtyDswWNj4bexMdcgcPi9SsQxqQe8L5XypipKceDUkG7LYqu-2QDzDqn_jQe7D7s1FmsXgcAk6xA6B9Vlg; NID=193=ClWCxinFrIA8V4Y2gVtnmXqnBYiTxWKh407L_0mdyFIWLs5SbHQEfJTfthFjNR9AhNA5HLNPaj7_6g1g2IZHkc1gKg23pLoV9XdhVpXc4OLQzlVR9L-WsTbMrq2xO5DgVfa70gdNLGGkl9rUjLUC5MU-qNKHsKpGSf80b25aQv3tasb85bw
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/vnd.google.octet-stream-compressible
+--------------------------------------------------response headers:
+CACHE-CONTROL       : no-cache, no-store, max-age=0, must-revalidate
+--------------------------------------------------response headers:
+PRAGMA              : no-cache
+--------------------------------------------------response headers:
+EXPIRES             : Mon, 01 Jan 1990 00:00:00 GMT
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:01:24 GMT
+--------------------------------------------------response headers:
+CONTENT-DISPOSITION : attachment; filename="response.bin"; filename*=UTF-8''response.bin
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+X-GOOG-SERVER-LATENCY: 261
+--------------------------------------------------response headers:
+X-CONTENT-TYPE-OPTIONS: nosniff
+--------------------------------------------------response headers:
+X-FRAME-OPTIONS     : SAMEORIGIN
+--------------------------------------------------response headers:
+X-XSS-PROTECTION    : 1; mode=block
+--------------------------------------------------response headers:
+SERVER              : GSE
+--------------------------------------------------response headers:
+ALT-SVC             : clear
+--------------------------------------------------response headers:
+
+=
+POST /sync/i/s?hl=en-US&c=12 HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : inbox.google.com:443
+CONTENT-TYPE        : application/x-protobuf
+ACCEPT              : */*
+AUTHORIZATION       : OAuth ya29.IoACtAf8Uhz2CvZdUFYaozvs5yt6SSzj62caGxKN51Gaca-ct7d6wd05czBgyQaN_xljWw56UDwk7n-uUA4wezv6d1q0PS_-eIBWI4aejXw6fP0TPywiFw5RINUU9W9o8UFAS5NieybMl2nm8s1GxUiulNSGJK6cgyABYtgM2kNQnxWbBCs8zNFohVrixHVFg6gVU2PVyomtbGBtupXgNfqElkMyv5jZvydoH0txW0OmrjzfipTfLPSP0z0paWMkUJOJhmHcd7b-jim1LydAVDOhMdlv3I9e-ve_t2GM90aAWINHuZ_VN9pSJI5sHLmAnEG5EFODip2yEIaXhVStivf2zw
+ACCEPT-ENCODING     : gzip, deflate, br
+ACCEPT-LANGUAGE     : en-us
+CONTENT-LENGTH      : 222
+USER-AGENT          : Google Gmail/6.0.191117.990155 model/iPad5,1 iOS/13.1
+X-GMAIL-BTAI        : GrwBMABQAVgBaAF4AYABAYgBAZABAJgBAbABALgBAcABAcgBAdABAdgBAOABAegBAfABAfgBAIACAIgCAJACAZgCAKACAKoCAmVusgI1R29vZ2xlIEdtYWlsLzYuMC4xOTExMTcuOTkwMTU1IG1vZGVsL2lQYWQ1LDEgaU9TLzEzLjHAAgDIAhnQAgDYAgDgAgDoAgDwAgD4AgCAAwGIAwGQAwCYAwCgAwCoAwCwAwC4AwDAAwDIAwDQAwDYAwA4FEIqY29tLmdvb2dsZS5HbWFpbC1yZWxlYXNlLTYuMC4xOTExMTcuOTkwMTU1SARQA1oHaVBhZDUsMWCAr7X3//////8BahBBbWVyaWNhL05ld19Zb3JrcAGAAcu3PIoBAJIBJDUwRDBENEFELTVENkUtNDRBMi1CN0RDLTE2MkI0ODcxRDE4RJgBq8zbvu8tqAGOzM0B
+X-GOOGLE-BTD        : 1
+COOKIE              : COMPASS=bigtop-sync=Co8BAAlriVeOF-iB1mAPtMnGOLYCj0k0fyvpErqdbfzwfs_UobTt8NYjpUw19X32CoVQxV4e0KbF_l2hAtqIj4w6yLZ6lTOfFckTxmSLgRILPe73_k212cvzp-WAW1O7Gz2QqnNVA-EPcIVwBhVQazDJQLe8scwVYRlUIVW6Dy0byPcC6s14tA0VZy0CHGy4qFIQidvG7wUaoQEACWuJV1H-CY9in7N8kOPm3k8WA6adZaCZp5Nn6CLr1AEw9HZEa-DX-vHhBVafabv_393yGhk99XjlydtFWvCuI4YhnpTZ_8DdJZn8srjHSSMdmcqK3hz26vckxhhXy_DwKiHMdtyDswWNj4bexMdcgcPi9SsQxqQe8L5XypipKceDUkG7LYqu-2QDzDqn_jQe7D7s1FmsXgcAk6xA6B9Vlg; NID=193=ClWCxinFrIA8V4Y2gVtnmXqnBYiTxWKh407L_0mdyFIWLs5SbHQEfJTfthFjNR9AhNA5HLNPaj7_6g1g2IZHkc1gKg23pLoV9XdhVpXc4OLQzlVR9L-WsTbMrq2xO5DgVfa70gdNLGGkl9rUjLUC5MU-qNKHsKpGSf80b25aQv3tasb85bw
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/vnd.google.octet-stream-compressible
+--------------------------------------------------response headers:
+CACHE-CONTROL       : no-cache, no-store, max-age=0, must-revalidate
+--------------------------------------------------response headers:
+PRAGMA              : no-cache
+--------------------------------------------------response headers:
+EXPIRES             : Mon, 01 Jan 1990 00:00:00 GMT
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:01:26 GMT
+--------------------------------------------------response headers:
+CONTENT-DISPOSITION : attachment; filename="response.bin"; filename*=UTF-8''response.bin
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+X-GOOG-SERVER-LATENCY: 283
+--------------------------------------------------response headers:
+X-CONTENT-TYPE-OPTIONS: nosniff
+--------------------------------------------------response headers:
+X-FRAME-OPTIONS     : SAMEORIGIN
+--------------------------------------------------response headers:
+X-XSS-PROTECTION    : 1; mode=block
+--------------------------------------------------response headers:
+SERVER              : GSE
+--------------------------------------------------response headers:
+ALT-SVC             : clear
+--------------------------------------------------response headers:
+
+=
+POST /sync/i/s?hl=en-US&c=13 HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : inbox.google.com:443
+CONTENT-TYPE        : application/x-protobuf
+ACCEPT              : */*
+AUTHORIZATION       : OAuth ya29.IoACtAf8Uhz2CvZdUFYaozvs5yt6SSzj62caGxKN51Gaca-ct7d6wd05czBgyQaN_xljWw56UDwk7n-uUA4wezv6d1q0PS_-eIBWI4aejXw6fP0TPywiFw5RINUU9W9o8UFAS5NieybMl2nm8s1GxUiulNSGJK6cgyABYtgM2kNQnxWbBCs8zNFohVrixHVFg6gVU2PVyomtbGBtupXgNfqElkMyv5jZvydoH0txW0OmrjzfipTfLPSP0z0paWMkUJOJhmHcd7b-jim1LydAVDOhMdlv3I9e-ve_t2GM90aAWINHuZ_VN9pSJI5sHLmAnEG5EFODip2yEIaXhVStivf2zw
+ACCEPT-ENCODING     : gzip, deflate, br
+ACCEPT-LANGUAGE     : en-us
+CONTENT-LENGTH      : 119
+USER-AGENT          : Google Gmail/6.0.191117.990155 model/iPad5,1 iOS/13.1
+X-GMAIL-BTAI        : GrwBMABQAVgBaAF4AYABAYgBAZABAJgBAbABALgBAcABAcgBAdABAdgBAOABAegBAfABAfgBAIACAIgCAJACAZgCAKACAKoCAmVusgI1R29vZ2xlIEdtYWlsLzYuMC4xOTExMTcuOTkwMTU1IG1vZGVsL2lQYWQ1LDEgaU9TLzEzLjHAAgDIAhnQAgDYAgDgAgDoAgDwAgD4AgCAAwGIAwGQAwCYAwCgAwCoAwCwAwC4AwDAAwDIAwDQAwDYAwA4FEIqY29tLmdvb2dsZS5HbWFpbC1yZWxlYXNlLTYuMC4xOTExMTcuOTkwMTU1SARQA1oHaVBhZDUsMWCAr7X3//////8BahBBbWVyaWNhL05ld19Zb3JrcAGAAcu3PIoBAJIBJDUwRDBENEFELTVENkUtNDRBMi1CN0RDLTE2MkI0ODcxRDE4RJgBxdXbvu8tqAGWzM0B
+X-GOOGLE-BTD        : 1
+COOKIE              : COMPASS=bigtop-sync=Co8BAAlriVeOF-iB1mAPtMnGOLYCj0k0fyvpErqdbfzwfs_UobTt8NYjpUw19X32CoVQxV4e0KbF_l2hAtqIj4w6yLZ6lTOfFckTxmSLgRILPe73_k212cvzp-WAW1O7Gz2QqnNVA-EPcIVwBhVQazDJQLe8scwVYRlUIVW6Dy0byPcC6s14tA0VZy0CHGy4qFIQidvG7wUaoQEACWuJV1H-CY9in7N8kOPm3k8WA6adZaCZp5Nn6CLr1AEw9HZEa-DX-vHhBVafabv_393yGhk99XjlydtFWvCuI4YhnpTZ_8DdJZn8srjHSSMdmcqK3hz26vckxhhXy_DwKiHMdtyDswWNj4bexMdcgcPi9SsQxqQe8L5XypipKceDUkG7LYqu-2QDzDqn_jQe7D7s1FmsXgcAk6xA6B9Vlg; NID=193=ClWCxinFrIA8V4Y2gVtnmXqnBYiTxWKh407L_0mdyFIWLs5SbHQEfJTfthFjNR9AhNA5HLNPaj7_6g1g2IZHkc1gKg23pLoV9XdhVpXc4OLQzlVR9L-WsTbMrq2xO5DgVfa70gdNLGGkl9rUjLUC5MU-qNKHsKpGSf80b25aQv3tasb85bw
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/vnd.google.octet-stream-compressible
+--------------------------------------------------response headers:
+CACHE-CONTROL       : no-cache, no-store, max-age=0, must-revalidate
+--------------------------------------------------response headers:
+PRAGMA              : no-cache
+--------------------------------------------------response headers:
+EXPIRES             : Mon, 01 Jan 1990 00:00:00 GMT
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:01:27 GMT
+--------------------------------------------------response headers:
+CONTENT-DISPOSITION : attachment; filename="response.bin"; filename*=UTF-8''response.bin
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+X-GOOG-SERVER-LATENCY: 241
+--------------------------------------------------response headers:
+X-CONTENT-TYPE-OPTIONS: nosniff
+--------------------------------------------------response headers:
+X-FRAME-OPTIONS     : SAMEORIGIN
+--------------------------------------------------response headers:
+X-XSS-PROTECTION    : 1; mode=block
+--------------------------------------------------response headers:
+SERVER              : GSE
+--------------------------------------------------response headers:
+ALT-SVC             : clear
+--------------------------------------------------response headers:
+
+=
+POST /sync/el2?hl=en-US&c=14 HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : inbox.google.com:443
+CONTENT-TYPE        : application/x-protobuf
+ACCEPT              : */*
+AUTHORIZATION       : OAuth ya29.IoACtAf8Uhz2CvZdUFYaozvs5yt6SSzj62caGxKN51Gaca-ct7d6wd05czBgyQaN_xljWw56UDwk7n-uUA4wezv6d1q0PS_-eIBWI4aejXw6fP0TPywiFw5RINUU9W9o8UFAS5NieybMl2nm8s1GxUiulNSGJK6cgyABYtgM2kNQnxWbBCs8zNFohVrixHVFg6gVU2PVyomtbGBtupXgNfqElkMyv5jZvydoH0txW0OmrjzfipTfLPSP0z0paWMkUJOJhmHcd7b-jim1LydAVDOhMdlv3I9e-ve_t2GM90aAWINHuZ_VN9pSJI5sHLmAnEG5EFODip2yEIaXhVStivf2zw
+ACCEPT-ENCODING     : gzip, deflate, br
+ACCEPT-LANGUAGE     : en-us
+CONTENT-LENGTH      : 811
+USER-AGENT          : Google Gmail/6.0.191117.990155 model/iPad5,1 iOS/13.1
+X-GMAIL-BTAI        : GrwBMABQAVgBaAF4AYABAYgBAZABAJgBAbABALgBAcABAcgBAdABAdgBAOABAegBAfABAfgBAIACAIgCAJACAZgCAKACAKoCAmVusgI1R29vZ2xlIEdtYWlsLzYuMC4xOTExMTcuOTkwMTU1IG1vZGVsL2lQYWQ1LDEgaU9TLzEzLjHAAgDIAhnQAgDYAgDgAgDoAgDwAgD4AgCAAwGIAwGQAwCYAwCgAwCoAwCwAwC4AwDAAwDIAwDQAwDYAwA4FEIqY29tLmdvb2dsZS5HbWFpbC1yZWxlYXNlLTYuMC4xOTExMTcuOTkwMTU1SARQA1oHaVBhZDUsMWCAr7X3//////8BahBBbWVyaWNhL05ld19Zb3JrcAGAAcu3PIoBAJIBJDUwRDBENEFELTVENkUtNDRBMi1CN0RDLTE2MkI0ODcxRDE4RJgB1f/bvu8tqAGdzM0B
+X-GOOGLE-BTD        : 1
+COOKIE              : COMPASS=bigtop-sync=Co8BAAlriVeOF-iB1mAPtMnGOLYCj0k0fyvpErqdbfzwfs_UobTt8NYjpUw19X32CoVQxV4e0KbF_l2hAtqIj4w6yLZ6lTOfFckTxmSLgRILPe73_k212cvzp-WAW1O7Gz2QqnNVA-EPcIVwBhVQazDJQLe8scwVYRlUIVW6Dy0byPcC6s14tA0VZy0CHGy4qFIQidvG7wUaoQEACWuJV1H-CY9in7N8kOPm3k8WA6adZaCZp5Nn6CLr1AEw9HZEa-DX-vHhBVafabv_393yGhk99XjlydtFWvCuI4YhnpTZ_8DdJZn8srjHSSMdmcqK3hz26vckxhhXy_DwKiHMdtyDswWNj4bexMdcgcPi9SsQxqQe8L5XypipKceDUkG7LYqu-2QDzDqn_jQe7D7s1FmsXgcAk6xA6B9Vlg; NID=193=ClWCxinFrIA8V4Y2gVtnmXqnBYiTxWKh407L_0mdyFIWLs5SbHQEfJTfthFjNR9AhNA5HLNPaj7_6g1g2IZHkc1gKg23pLoV9XdhVpXc4OLQzlVR9L-WsTbMrq2xO5DgVfa70gdNLGGkl9rUjLUC5MU-qNKHsKpGSf80b25aQv3tasb85bw
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/vnd.google.octet-stream-compressible
+--------------------------------------------------response headers:
+CACHE-CONTROL       : no-cache, no-store, max-age=0, must-revalidate
+--------------------------------------------------response headers:
+PRAGMA              : no-cache
+--------------------------------------------------response headers:
+EXPIRES             : Mon, 01 Jan 1990 00:00:00 GMT
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:01:32 GMT
+--------------------------------------------------response headers:
+CONTENT-DISPOSITION : attachment; filename="response.bin"; filename*=UTF-8''response.bin
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+X-GOOG-SERVER-LATENCY: 9
+--------------------------------------------------response headers:
+X-CONTENT-TYPE-OPTIONS: nosniff
+--------------------------------------------------response headers:
+X-FRAME-OPTIONS     : SAMEORIGIN
+--------------------------------------------------response headers:
+X-XSS-PROTECTION    : 1; mode=block
+--------------------------------------------------response headers:
+SERVER              : GSE
+--------------------------------------------------response headers:
+ALT-SVC             : clear
+--------------------------------------------------response headers:
+
+=
+POST /sync/i/s?hl=en-US&c=15 HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : inbox.google.com:443
+CONTENT-TYPE        : application/x-protobuf
+ACCEPT              : */*
+AUTHORIZATION       : OAuth ya29.IoACtAf8Uhz2CvZdUFYaozvs5yt6SSzj62caGxKN51Gaca-ct7d6wd05czBgyQaN_xljWw56UDwk7n-uUA4wezv6d1q0PS_-eIBWI4aejXw6fP0TPywiFw5RINUU9W9o8UFAS5NieybMl2nm8s1GxUiulNSGJK6cgyABYtgM2kNQnxWbBCs8zNFohVrixHVFg6gVU2PVyomtbGBtupXgNfqElkMyv5jZvydoH0txW0OmrjzfipTfLPSP0z0paWMkUJOJhmHcd7b-jim1LydAVDOhMdlv3I9e-ve_t2GM90aAWINHuZ_VN9pSJI5sHLmAnEG5EFODip2yEIaXhVStivf2zw
+ACCEPT-ENCODING     : gzip, deflate, br
+ACCEPT-LANGUAGE     : en-us
+CONTENT-LENGTH      : 324
+USER-AGENT          : Google Gmail/6.0.191117.990155 model/iPad5,1 iOS/13.1
+X-GMAIL-BTAI        : GrwBMABQAVgBaAF4AYABAYgBAZABAJgBAbABALgBAcABAcgBAdABAdgBAOABAegBAfABAfgBAIACAIgCAJACAZgCAKACAKoCAmVusgI1R29vZ2xlIEdtYWlsLzYuMC4xOTExMTcuOTkwMTU1IG1vZGVsL2lQYWQ1LDEgaU9TLzEzLjHAAgDIAhnQAgDYAgDgAgDoAgDwAgD4AgCAAwGIAwGQAwCYAwCgAwCoAwCwAwC4AwDAAwDIAwDQAwDYAwA4FEIqY29tLmdvb2dsZS5HbWFpbC1yZWxlYXNlLTYuMC4xOTExMTcuOTkwMTU1SARQA1oHaVBhZDUsMWCAr7X3//////8BahBBbWVyaWNhL05ld19Zb3JrcAGAAcu3PIoBAJIBJDUwRDBENEFELTVENkUtNDRBMi1CN0RDLTE2MkI0ODcxRDE4RJgB1oDcvu8tqAGdzM0B
+X-GOOGLE-BTD        : 1
+COOKIE              : COMPASS=bigtop-sync=Co8BAAlriVeOF-iB1mAPtMnGOLYCj0k0fyvpErqdbfzwfs_UobTt8NYjpUw19X32CoVQxV4e0KbF_l2hAtqIj4w6yLZ6lTOfFckTxmSLgRILPe73_k212cvzp-WAW1O7Gz2QqnNVA-EPcIVwBhVQazDJQLe8scwVYRlUIVW6Dy0byPcC6s14tA0VZy0CHGy4qFIQidvG7wUaoQEACWuJV1H-CY9in7N8kOPm3k8WA6adZaCZp5Nn6CLr1AEw9HZEa-DX-vHhBVafabv_393yGhk99XjlydtFWvCuI4YhnpTZ_8DdJZn8srjHSSMdmcqK3hz26vckxhhXy_DwKiHMdtyDswWNj4bexMdcgcPi9SsQxqQe8L5XypipKceDUkG7LYqu-2QDzDqn_jQe7D7s1FmsXgcAk6xA6B9Vlg; NID=193=ClWCxinFrIA8V4Y2gVtnmXqnBYiTxWKh407L_0mdyFIWLs5SbHQEfJTfthFjNR9AhNA5HLNPaj7_6g1g2IZHkc1gKg23pLoV9XdhVpXc4OLQzlVR9L-WsTbMrq2xO5DgVfa70gdNLGGkl9rUjLUC5MU-qNKHsKpGSf80b25aQv3tasb85bw
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/vnd.google.octet-stream-compressible
+--------------------------------------------------response headers:
+CACHE-CONTROL       : no-cache, no-store, max-age=0, must-revalidate
+--------------------------------------------------response headers:
+PRAGMA              : no-cache
+--------------------------------------------------response headers:
+EXPIRES             : Mon, 01 Jan 1990 00:00:00 GMT
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:01:33 GMT
+--------------------------------------------------response headers:
+CONTENT-DISPOSITION : attachment; filename="response.bin"; filename*=UTF-8''response.bin
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+X-GOOG-SERVER-LATENCY: 262
+--------------------------------------------------response headers:
+X-CONTENT-TYPE-OPTIONS: nosniff
+--------------------------------------------------response headers:
+X-FRAME-OPTIONS     : SAMEORIGIN
+--------------------------------------------------response headers:
+X-XSS-PROTECTION    : 1; mode=block
+--------------------------------------------------response headers:
+SERVER              : GSE
+--------------------------------------------------response headers:
+ALT-SVC             : clear
+--------------------------------------------------response headers:
+
+=
+POST /sync/i/s?hl=en-US&c=16 HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : inbox.google.com:443
+CONTENT-TYPE        : application/x-protobuf
+ACCEPT              : */*
+AUTHORIZATION       : OAuth ya29.IoACtAf8Uhz2CvZdUFYaozvs5yt6SSzj62caGxKN51Gaca-ct7d6wd05czBgyQaN_xljWw56UDwk7n-uUA4wezv6d1q0PS_-eIBWI4aejXw6fP0TPywiFw5RINUU9W9o8UFAS5NieybMl2nm8s1GxUiulNSGJK6cgyABYtgM2kNQnxWbBCs8zNFohVrixHVFg6gVU2PVyomtbGBtupXgNfqElkMyv5jZvydoH0txW0OmrjzfipTfLPSP0z0paWMkUJOJhmHcd7b-jim1LydAVDOhMdlv3I9e-ve_t2GM90aAWINHuZ_VN9pSJI5sHLmAnEG5EFODip2yEIaXhVStivf2zw
+ACCEPT-ENCODING     : gzip, deflate, br
+ACCEPT-LANGUAGE     : en-us
+CONTENT-LENGTH      : 222
+USER-AGENT          : Google Gmail/6.0.191117.990155 model/iPad5,1 iOS/13.1
+X-GMAIL-BTAI        : GrwBMABQAVgBaAF4AYABAYgBAZABAJgBAbABALgBAcABAcgBAdABAdgBAOABAegBAfABAfgBAIACAIgCAJACAZgCAKACAKoCAmVusgI1R29vZ2xlIEdtYWlsLzYuMC4xOTExMTcuOTkwMTU1IG1vZGVsL2lQYWQ1LDEgaU9TLzEzLjHAAgDIAhnQAgDYAgDgAgDoAgDwAgD4AgCAAwGIAwGQAwCYAwCgAwCoAwCwAwC4AwDAAwDIAwDQAwDYAwA4FEIqY29tLmdvb2dsZS5HbWFpbC1yZWxlYXNlLTYuMC4xOTExMTcuOTkwMTU1SARQA1oHaVBhZDUsMWCAr7X3//////8BahBBbWVyaWNhL05ld19Zb3JrcAGAAcu3PIoBAJIBJDUwRDBENEFELTVENkUtNDRBMi1CN0RDLTE2MkI0ODcxRDE4RJgBxMncvu8tqAGizM0B
+X-GOOGLE-BTD        : 1
+COOKIE              : COMPASS=bigtop-sync=Co8BAAlriVeOF-iB1mAPtMnGOLYCj0k0fyvpErqdbfzwfs_UobTt8NYjpUw19X32CoVQxV4e0KbF_l2hAtqIj4w6yLZ6lTOfFckTxmSLgRILPe73_k212cvzp-WAW1O7Gz2QqnNVA-EPcIVwBhVQazDJQLe8scwVYRlUIVW6Dy0byPcC6s14tA0VZy0CHGy4qFIQidvG7wUaoQEACWuJV1H-CY9in7N8kOPm3k8WA6adZaCZp5Nn6CLr1AEw9HZEa-DX-vHhBVafabv_393yGhk99XjlydtFWvCuI4YhnpTZ_8DdJZn8srjHSSMdmcqK3hz26vckxhhXy_DwKiHMdtyDswWNj4bexMdcgcPi9SsQxqQe8L5XypipKceDUkG7LYqu-2QDzDqn_jQe7D7s1FmsXgcAk6xA6B9Vlg; NID=193=ClWCxinFrIA8V4Y2gVtnmXqnBYiTxWKh407L_0mdyFIWLs5SbHQEfJTfthFjNR9AhNA5HLNPaj7_6g1g2IZHkc1gKg23pLoV9XdhVpXc4OLQzlVR9L-WsTbMrq2xO5DgVfa70gdNLGGkl9rUjLUC5MU-qNKHsKpGSf80b25aQv3tasb85bw
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/vnd.google.octet-stream-compressible
+--------------------------------------------------response headers:
+CACHE-CONTROL       : no-cache, no-store, max-age=0, must-revalidate
+--------------------------------------------------response headers:
+PRAGMA              : no-cache
+--------------------------------------------------response headers:
+EXPIRES             : Mon, 01 Jan 1990 00:00:00 GMT
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:01:42 GMT
+--------------------------------------------------response headers:
+CONTENT-DISPOSITION : attachment; filename="response.bin"; filename*=UTF-8''response.bin
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+X-GOOG-SERVER-LATENCY: 254
+--------------------------------------------------response headers:
+X-CONTENT-TYPE-OPTIONS: nosniff
+--------------------------------------------------response headers:
+X-FRAME-OPTIONS     : SAMEORIGIN
+--------------------------------------------------response headers:
+X-XSS-PROTECTION    : 1; mode=block
+--------------------------------------------------response headers:
+SERVER              : GSE
+--------------------------------------------------response headers:
+ALT-SVC             : clear
+--------------------------------------------------response headers:
+
+=
+POST /sync/el2?hl=en-US&c=17 HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : inbox.google.com:443
+CONTENT-TYPE        : application/x-protobuf
+ACCEPT              : */*
+AUTHORIZATION       : OAuth ya29.IoACtAf8Uhz2CvZdUFYaozvs5yt6SSzj62caGxKN51Gaca-ct7d6wd05czBgyQaN_xljWw56UDwk7n-uUA4wezv6d1q0PS_-eIBWI4aejXw6fP0TPywiFw5RINUU9W9o8UFAS5NieybMl2nm8s1GxUiulNSGJK6cgyABYtgM2kNQnxWbBCs8zNFohVrixHVFg6gVU2PVyomtbGBtupXgNfqElkMyv5jZvydoH0txW0OmrjzfipTfLPSP0z0paWMkUJOJhmHcd7b-jim1LydAVDOhMdlv3I9e-ve_t2GM90aAWINHuZ_VN9pSJI5sHLmAnEG5EFODip2yEIaXhVStivf2zw
+ACCEPT-ENCODING     : gzip, deflate, br
+ACCEPT-LANGUAGE     : en-us
+CONTENT-LENGTH      : 515
+USER-AGENT          : Google Gmail/6.0.191117.990155 model/iPad5,1 iOS/13.1
+X-GMAIL-BTAI        : GrwBMABQAVgBaAF4AYABAYgBAZABAJgBAbABALgBAcABAcgBAdABAdgBAOABAegBAfABAfgBAIACAIgCAJACAZgCAKACAKoCAmVusgI1R29vZ2xlIEdtYWlsLzYuMC4xOTExMTcuOTkwMTU1IG1vZGVsL2lQYWQ1LDEgaU9TLzEzLjHAAgDIAhnQAgDYAgDgAgDoAgDwAgD4AgCAAwGIAwGQAwCYAwCgAwCoAwCwAwC4AwDAAwDIAwDQAwDYAwA4FEIqY29tLmdvb2dsZS5HbWFpbC1yZWxlYXNlLTYuMC4xOTExMTcuOTkwMTU1SARQA1oHaVBhZDUsMWCAr7X3//////8BahBBbWVyaWNhL05ld19Zb3JrcAGAAcu3PIoBAJIBJDUwRDBENEFELTVENkUtNDRBMi1CN0RDLTE2MkI0ODcxRDE4RJgBldPcvu8tqAGnzM0B
+X-GOOGLE-BTD        : 1
+COOKIE              : COMPASS=bigtop-sync=Co8BAAlriVeOF-iB1mAPtMnGOLYCj0k0fyvpErqdbfzwfs_UobTt8NYjpUw19X32CoVQxV4e0KbF_l2hAtqIj4w6yLZ6lTOfFckTxmSLgRILPe73_k212cvzp-WAW1O7Gz2QqnNVA-EPcIVwBhVQazDJQLe8scwVYRlUIVW6Dy0byPcC6s14tA0VZy0CHGy4qFIQidvG7wUaoQEACWuJV1H-CY9in7N8kOPm3k8WA6adZaCZp5Nn6CLr1AEw9HZEa-DX-vHhBVafabv_393yGhk99XjlydtFWvCuI4YhnpTZ_8DdJZn8srjHSSMdmcqK3hz26vckxhhXy_DwKiHMdtyDswWNj4bexMdcgcPi9SsQxqQe8L5XypipKceDUkG7LYqu-2QDzDqn_jQe7D7s1FmsXgcAk6xA6B9Vlg; NID=193=ClWCxinFrIA8V4Y2gVtnmXqnBYiTxWKh407L_0mdyFIWLs5SbHQEfJTfthFjNR9AhNA5HLNPaj7_6g1g2IZHkc1gKg23pLoV9XdhVpXc4OLQzlVR9L-WsTbMrq2xO5DgVfa70gdNLGGkl9rUjLUC5MU-qNKHsKpGSf80b25aQv3tasb85bw
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/vnd.google.octet-stream-compressible
+--------------------------------------------------response headers:
+CACHE-CONTROL       : no-cache, no-store, max-age=0, must-revalidate
+--------------------------------------------------response headers:
+PRAGMA              : no-cache
+--------------------------------------------------response headers:
+EXPIRES             : Mon, 01 Jan 1990 00:00:00 GMT
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:01:43 GMT
+--------------------------------------------------response headers:
+CONTENT-DISPOSITION : attachment; filename="response.bin"; filename*=UTF-8''response.bin
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+X-GOOG-SERVER-LATENCY: 8
+--------------------------------------------------response headers:
+X-CONTENT-TYPE-OPTIONS: nosniff
+--------------------------------------------------response headers:
+X-FRAME-OPTIONS     : SAMEORIGIN
+--------------------------------------------------response headers:
+X-XSS-PROTECTION    : 1; mode=block
+--------------------------------------------------response headers:
+SERVER              : GSE
+--------------------------------------------------response headers:
+ALT-SVC             : clear
+--------------------------------------------------response headers:
+
+=
+POST /sync/el2?hl=en-US&c=19 HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : inbox.google.com:443
+CONTENT-TYPE        : application/x-protobuf
+ACCEPT              : */*
+AUTHORIZATION       : OAuth ya29.IoACtAf8Uhz2CvZdUFYaozvs5yt6SSzj62caGxKN51Gaca-ct7d6wd05czBgyQaN_xljWw56UDwk7n-uUA4wezv6d1q0PS_-eIBWI4aejXw6fP0TPywiFw5RINUU9W9o8UFAS5NieybMl2nm8s1GxUiulNSGJK6cgyABYtgM2kNQnxWbBCs8zNFohVrixHVFg6gVU2PVyomtbGBtupXgNfqElkMyv5jZvydoH0txW0OmrjzfipTfLPSP0z0paWMkUJOJhmHcd7b-jim1LydAVDOhMdlv3I9e-ve_t2GM90aAWINHuZ_VN9pSJI5sHLmAnEG5EFODip2yEIaXhVStivf2zw
+ACCEPT-ENCODING     : gzip, deflate, br
+ACCEPT-LANGUAGE     : en-us
+CONTENT-LENGTH      : 287
+USER-AGENT          : Google Gmail/6.0.191117.990155 model/iPad5,1 iOS/13.1
+X-GMAIL-BTAI        : GrwBMABQAVgBaAF4AYABAYgBAZABAJgBAbABALgBAcABAcgBAdABAdgBAOABAegBAfABAfgBAIACAIgCAJACAZgCAKACAKoCAmVusgI1R29vZ2xlIEdtYWlsLzYuMC4xOTExMTcuOTkwMTU1IG1vZGVsL2lQYWQ1LDEgaU9TLzEzLjHAAgDIAhnQAgDYAgDgAgDoAgDwAgD4AgCAAwGIAwGQAwCYAwCgAwCoAwCwAwC4AwDAAwDIAwDQAwDYAwA4FEIqY29tLmdvb2dsZS5HbWFpbC1yZWxlYXNlLTYuMC4xOTExMTcuOTkwMTU1SARQA1oHaVBhZDUsMWCAr7X3//////8BahBBbWVyaWNhL05ld19Zb3JrcAGAAcu3PIoBAJIBJDUwRDBENEFELTVENkUtNDRBMi1CN0RDLTE2MkI0ODcxRDE4RJgBmdbcvu8tqAGnzM0B
+X-GOOGLE-BTD        : 1
+COOKIE              : COMPASS=bigtop-sync=Co8BAAlriVeOF-iB1mAPtMnGOLYCj0k0fyvpErqdbfzwfs_UobTt8NYjpUw19X32CoVQxV4e0KbF_l2hAtqIj4w6yLZ6lTOfFckTxmSLgRILPe73_k212cvzp-WAW1O7Gz2QqnNVA-EPcIVwBhVQazDJQLe8scwVYRlUIVW6Dy0byPcC6s14tA0VZy0CHGy4qFIQidvG7wUaoQEACWuJV1H-CY9in7N8kOPm3k8WA6adZaCZp5Nn6CLr1AEw9HZEa-DX-vHhBVafabv_393yGhk99XjlydtFWvCuI4YhnpTZ_8DdJZn8srjHSSMdmcqK3hz26vckxhhXy_DwKiHMdtyDswWNj4bexMdcgcPi9SsQxqQe8L5XypipKceDUkG7LYqu-2QDzDqn_jQe7D7s1FmsXgcAk6xA6B9Vlg; NID=193=ClWCxinFrIA8V4Y2gVtnmXqnBYiTxWKh407L_0mdyFIWLs5SbHQEfJTfthFjNR9AhNA5HLNPaj7_6g1g2IZHkc1gKg23pLoV9XdhVpXc4OLQzlVR9L-WsTbMrq2xO5DgVfa70gdNLGGkl9rUjLUC5MU-qNKHsKpGSf80b25aQv3tasb85bw
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/vnd.google.octet-stream-compressible
+--------------------------------------------------response headers:
+CACHE-CONTROL       : no-cache, no-store, max-age=0, must-revalidate
+--------------------------------------------------response headers:
+PRAGMA              : no-cache
+--------------------------------------------------response headers:
+EXPIRES             : Mon, 01 Jan 1990 00:00:00 GMT
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:01:44 GMT
+--------------------------------------------------response headers:
+CONTENT-DISPOSITION : attachment; filename="response.bin"; filename*=UTF-8''response.bin
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+X-GOOG-SERVER-LATENCY: 7
+--------------------------------------------------response headers:
+X-CONTENT-TYPE-OPTIONS: nosniff
+--------------------------------------------------response headers:
+X-FRAME-OPTIONS     : SAMEORIGIN
+--------------------------------------------------response headers:
+X-XSS-PROTECTION    : 1; mode=block
+--------------------------------------------------response headers:
+SERVER              : GSE
+--------------------------------------------------response headers:
+ALT-SVC             : clear
+--------------------------------------------------response headers:
+
+=
+POST /sync/i/s?hl=en-US&c=18 HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : inbox.google.com:443
+CONTENT-TYPE        : application/x-protobuf
+ACCEPT              : */*
+AUTHORIZATION       : OAuth ya29.IoACtAf8Uhz2CvZdUFYaozvs5yt6SSzj62caGxKN51Gaca-ct7d6wd05czBgyQaN_xljWw56UDwk7n-uUA4wezv6d1q0PS_-eIBWI4aejXw6fP0TPywiFw5RINUU9W9o8UFAS5NieybMl2nm8s1GxUiulNSGJK6cgyABYtgM2kNQnxWbBCs8zNFohVrixHVFg6gVU2PVyomtbGBtupXgNfqElkMyv5jZvydoH0txW0OmrjzfipTfLPSP0z0paWMkUJOJhmHcd7b-jim1LydAVDOhMdlv3I9e-ve_t2GM90aAWINHuZ_VN9pSJI5sHLmAnEG5EFODip2yEIaXhVStivf2zw
+ACCEPT-ENCODING     : gzip, deflate, br
+ACCEPT-LANGUAGE     : en-us
+CONTENT-LENGTH      : 195
+USER-AGENT          : Google Gmail/6.0.191117.990155 model/iPad5,1 iOS/13.1
+X-GMAIL-BTAI        : GrwBMABQAVgBaAF4AYABAYgBAZABAJgBAbABALgBAcABAcgBAdABAdgBAOABAegBAfABAfgBAIACAIgCAJACAZgCAKACAKoCAmVusgI1R29vZ2xlIEdtYWlsLzYuMC4xOTExMTcuOTkwMTU1IG1vZGVsL2lQYWQ1LDEgaU9TLzEzLjHAAgDIAhnQAgDYAgDgAgDoAgDwAgD4AgCAAwGIAwGQAwCYAwCgAwCoAwCwAwC4AwDAAwDIAwDQAwDYAwA4FEIqY29tLmdvb2dsZS5HbWFpbC1yZWxlYXNlLTYuMC4xOTExMTcuOTkwMTU1SARQA1oHaVBhZDUsMWCAr7X3//////8BahBBbWVyaWNhL05ld19Zb3JrcAGAAcu3PIoBAJIBJDUwRDBENEFELTVENkUtNDRBMi1CN0RDLTE2MkI0ODcxRDE4RJgBktbcvu8tqAGnzM0B
+X-GOOGLE-BTD        : 1
+COOKIE              : COMPASS=bigtop-sync=Co8BAAlriVeOF-iB1mAPtMnGOLYCj0k0fyvpErqdbfzwfs_UobTt8NYjpUw19X32CoVQxV4e0KbF_l2hAtqIj4w6yLZ6lTOfFckTxmSLgRILPe73_k212cvzp-WAW1O7Gz2QqnNVA-EPcIVwBhVQazDJQLe8scwVYRlUIVW6Dy0byPcC6s14tA0VZy0CHGy4qFIQidvG7wUaoQEACWuJV1H-CY9in7N8kOPm3k8WA6adZaCZp5Nn6CLr1AEw9HZEa-DX-vHhBVafabv_393yGhk99XjlydtFWvCuI4YhnpTZ_8DdJZn8srjHSSMdmcqK3hz26vckxhhXy_DwKiHMdtyDswWNj4bexMdcgcPi9SsQxqQe8L5XypipKceDUkG7LYqu-2QDzDqn_jQe7D7s1FmsXgcAk6xA6B9Vlg; NID=193=ClWCxinFrIA8V4Y2gVtnmXqnBYiTxWKh407L_0mdyFIWLs5SbHQEfJTfthFjNR9AhNA5HLNPaj7_6g1g2IZHkc1gKg23pLoV9XdhVpXc4OLQzlVR9L-WsTbMrq2xO5DgVfa70gdNLGGkl9rUjLUC5MU-qNKHsKpGSf80b25aQv3tasb85bw
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/vnd.google.octet-stream-compressible
+--------------------------------------------------response headers:
+CACHE-CONTROL       : no-cache, no-store, max-age=0, must-revalidate
+--------------------------------------------------response headers:
+PRAGMA              : no-cache
+--------------------------------------------------response headers:
+EXPIRES             : Mon, 01 Jan 1990 00:00:00 GMT
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:01:44 GMT
+--------------------------------------------------response headers:
+CONTENT-DISPOSITION : attachment; filename="response.bin"; filename*=UTF-8''response.bin
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+X-GOOG-SERVER-LATENCY: 249
+--------------------------------------------------response headers:
+X-CONTENT-TYPE-OPTIONS: nosniff
+--------------------------------------------------response headers:
+X-FRAME-OPTIONS     : SAMEORIGIN
+--------------------------------------------------response headers:
+X-XSS-PROTECTION    : 1; mode=block
+--------------------------------------------------response headers:
+SERVER              : GSE
+--------------------------------------------------response headers:
+ALT-SVC             : clear
+--------------------------------------------------response headers:
+
+=
+POST /sync/i/bv?hl=en-US&c=20 HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : inbox.google.com:443
+CONTENT-TYPE        : application/x-protobuf
+ACCEPT              : */*
+AUTHORIZATION       : OAuth ya29.IoACtAf8Uhz2CvZdUFYaozvs5yt6SSzj62caGxKN51Gaca-ct7d6wd05czBgyQaN_xljWw56UDwk7n-uUA4wezv6d1q0PS_-eIBWI4aejXw6fP0TPywiFw5RINUU9W9o8UFAS5NieybMl2nm8s1GxUiulNSGJK6cgyABYtgM2kNQnxWbBCs8zNFohVrixHVFg6gVU2PVyomtbGBtupXgNfqElkMyv5jZvydoH0txW0OmrjzfipTfLPSP0z0paWMkUJOJhmHcd7b-jim1LydAVDOhMdlv3I9e-ve_t2GM90aAWINHuZ_VN9pSJI5sHLmAnEG5EFODip2yEIaXhVStivf2zw
+ACCEPT-ENCODING     : gzip, deflate, br
+ACCEPT-LANGUAGE     : en-us
+CONTENT-LENGTH      : 252
+USER-AGENT          : Google Gmail/6.0.191117.990155 model/iPad5,1 iOS/13.1
+X-GMAIL-BTAI        : GrwBMABQAVgBaAF4AYABAYgBAZABAJgBAbABALgBAcABAcgBAdABAdgBAOABAegBAfABAfgBAIACAIgCAJACAZgCAKACAKoCAmVusgI1R29vZ2xlIEdtYWlsLzYuMC4xOTExMTcuOTkwMTU1IG1vZGVsL2lQYWQ1LDEgaU9TLzEzLjHAAgDIAhnQAgDYAgDgAgDoAgDwAgD4AgCAAwGIAwGQAwCYAwCgAwCoAwCwAwC4AwDAAwDIAwDQAwDYAwA4FEIqY29tLmdvb2dsZS5HbWFpbC1yZWxlYXNlLTYuMC4xOTExMTcuOTkwMTU1SARQA1oHaVBhZDUsMWCAr7X3//////8BahBBbWVyaWNhL05ld19Zb3JrcAGAAcu3PIoBAJIBJDUwRDBENEFELTVENkUtNDRBMi1CN0RDLTE2MkI0ODcxRDE4RJgB1N/cvu8tqAGszM0B
+X-GOOGLE-BTD        : 1
+COOKIE              : COMPASS=bigtop-sync=Co8BAAlriVeOF-iB1mAPtMnGOLYCj0k0fyvpErqdbfzwfs_UobTt8NYjpUw19X32CoVQxV4e0KbF_l2hAtqIj4w6yLZ6lTOfFckTxmSLgRILPe73_k212cvzp-WAW1O7Gz2QqnNVA-EPcIVwBhVQazDJQLe8scwVYRlUIVW6Dy0byPcC6s14tA0VZy0CHGy4qFIQidvG7wUaoQEACWuJV1H-CY9in7N8kOPm3k8WA6adZaCZp5Nn6CLr1AEw9HZEa-DX-vHhBVafabv_393yGhk99XjlydtFWvCuI4YhnpTZ_8DdJZn8srjHSSMdmcqK3hz26vckxhhXy_DwKiHMdtyDswWNj4bexMdcgcPi9SsQxqQe8L5XypipKceDUkG7LYqu-2QDzDqn_jQe7D7s1FmsXgcAk6xA6B9Vlg; NID=193=ClWCxinFrIA8V4Y2gVtnmXqnBYiTxWKh407L_0mdyFIWLs5SbHQEfJTfthFjNR9AhNA5HLNPaj7_6g1g2IZHkc1gKg23pLoV9XdhVpXc4OLQzlVR9L-WsTbMrq2xO5DgVfa70gdNLGGkl9rUjLUC5MU-qNKHsKpGSf80b25aQv3tasb85bw
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/vnd.google.octet-stream-compressible
+--------------------------------------------------response headers:
+CACHE-CONTROL       : no-cache, no-store, max-age=0, must-revalidate
+--------------------------------------------------response headers:
+PRAGMA              : no-cache
+--------------------------------------------------response headers:
+EXPIRES             : Mon, 01 Jan 1990 00:00:00 GMT
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:01:45 GMT
+--------------------------------------------------response headers:
+CONTENT-DISPOSITION : attachment; filename="response.bin"; filename*=UTF-8''response.bin
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+X-GOOG-SERVER-LATENCY: 19
+--------------------------------------------------response headers:
+X-CONTENT-TYPE-OPTIONS: nosniff
+--------------------------------------------------response headers:
+X-FRAME-OPTIONS     : SAMEORIGIN
+--------------------------------------------------response headers:
+X-XSS-PROTECTION    : 1; mode=block
+--------------------------------------------------response headers:
+SERVER              : GSE
+--------------------------------------------------response headers:
+ALT-SVC             : clear
+--------------------------------------------------response headers:
+
+=
+POST /sync/i/s?hl=en-US&c=21 HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : inbox.google.com:443
+CONTENT-TYPE        : application/x-protobuf
+ACCEPT              : */*
+AUTHORIZATION       : OAuth ya29.IoACtAf8Uhz2CvZdUFYaozvs5yt6SSzj62caGxKN51Gaca-ct7d6wd05czBgyQaN_xljWw56UDwk7n-uUA4wezv6d1q0PS_-eIBWI4aejXw6fP0TPywiFw5RINUU9W9o8UFAS5NieybMl2nm8s1GxUiulNSGJK6cgyABYtgM2kNQnxWbBCs8zNFohVrixHVFg6gVU2PVyomtbGBtupXgNfqElkMyv5jZvydoH0txW0OmrjzfipTfLPSP0z0paWMkUJOJhmHcd7b-jim1LydAVDOhMdlv3I9e-ve_t2GM90aAWINHuZ_VN9pSJI5sHLmAnEG5EFODip2yEIaXhVStivf2zw
+ACCEPT-ENCODING     : gzip, deflate, br
+ACCEPT-LANGUAGE     : en-us
+CONTENT-LENGTH      : 195
+USER-AGENT          : Google Gmail/6.0.191117.990155 model/iPad5,1 iOS/13.1
+X-GMAIL-BTAI        : GrwBMABQAVgBaAF4AYABAYgBAZABAJgBAbABALgBAcABAcgBAdABAdgBAOABAegBAfABAfgBAIACAIgCAJACAZgCAKACAKoCAmVusgI1R29vZ2xlIEdtYWlsLzYuMC4xOTExMTcuOTkwMTU1IG1vZGVsL2lQYWQ1LDEgaU9TLzEzLjHAAgDIAhnQAgDYAgDgAgDoAgDwAgD4AgCAAwGIAwGQAwCYAwCgAwCoAwCwAwC4AwDAAwDIAwDQAwDYAwA4FEIqY29tLmdvb2dsZS5HbWFpbC1yZWxlYXNlLTYuMC4xOTExMTcuOTkwMTU1SARQA1oHaVBhZDUsMWCAr7X3//////8BahBBbWVyaWNhL05ld19Zb3JrcAGAAcu3PIoBAJIBJDUwRDBENEFELTVENkUtNDRBMi1CN0RDLTE2MkI0ODcxRDE4RJgBj+bcvu8tqAGszM0B
+X-GOOGLE-BTD        : 1
+COOKIE              : COMPASS=bigtop-sync=Co8BAAlriVeOF-iB1mAPtMnGOLYCj0k0fyvpErqdbfzwfs_UobTt8NYjpUw19X32CoVQxV4e0KbF_l2hAtqIj4w6yLZ6lTOfFckTxmSLgRILPe73_k212cvzp-WAW1O7Gz2QqnNVA-EPcIVwBhVQazDJQLe8scwVYRlUIVW6Dy0byPcC6s14tA0VZy0CHGy4qFIQidvG7wUaoQEACWuJV1H-CY9in7N8kOPm3k8WA6adZaCZp5Nn6CLr1AEw9HZEa-DX-vHhBVafabv_393yGhk99XjlydtFWvCuI4YhnpTZ_8DdJZn8srjHSSMdmcqK3hz26vckxhhXy_DwKiHMdtyDswWNj4bexMdcgcPi9SsQxqQe8L5XypipKceDUkG7LYqu-2QDzDqn_jQe7D7s1FmsXgcAk6xA6B9Vlg; NID=193=ClWCxinFrIA8V4Y2gVtnmXqnBYiTxWKh407L_0mdyFIWLs5SbHQEfJTfthFjNR9AhNA5HLNPaj7_6g1g2IZHkc1gKg23pLoV9XdhVpXc4OLQzlVR9L-WsTbMrq2xO5DgVfa70gdNLGGkl9rUjLUC5MU-qNKHsKpGSf80b25aQv3tasb85bw
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/vnd.google.octet-stream-compressible
+--------------------------------------------------response headers:
+CACHE-CONTROL       : no-cache, no-store, max-age=0, must-revalidate
+--------------------------------------------------response headers:
+PRAGMA              : no-cache
+--------------------------------------------------response headers:
+EXPIRES             : Mon, 01 Jan 1990 00:00:00 GMT
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:01:46 GMT
+--------------------------------------------------response headers:
+CONTENT-DISPOSITION : attachment; filename="response.bin"; filename*=UTF-8''response.bin
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+X-GOOG-SERVER-LATENCY: 248
+--------------------------------------------------response headers:
+X-CONTENT-TYPE-OPTIONS: nosniff
+--------------------------------------------------response headers:
+X-FRAME-OPTIONS     : SAMEORIGIN
+--------------------------------------------------response headers:
+X-XSS-PROTECTION    : 1; mode=block
+--------------------------------------------------response headers:
+SERVER              : GSE
+--------------------------------------------------response headers:
+ALT-SVC             : clear
+--------------------------------------------------response headers:
+
+=
+POST /sync/i/s?hl=en-US&c=22 HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : inbox.google.com:443
+CONTENT-TYPE        : application/x-protobuf
+ACCEPT              : */*
+AUTHORIZATION       : OAuth ya29.IoACtAf8Uhz2CvZdUFYaozvs5yt6SSzj62caGxKN51Gaca-ct7d6wd05czBgyQaN_xljWw56UDwk7n-uUA4wezv6d1q0PS_-eIBWI4aejXw6fP0TPywiFw5RINUU9W9o8UFAS5NieybMl2nm8s1GxUiulNSGJK6cgyABYtgM2kNQnxWbBCs8zNFohVrixHVFg6gVU2PVyomtbGBtupXgNfqElkMyv5jZvydoH0txW0OmrjzfipTfLPSP0z0paWMkUJOJhmHcd7b-jim1LydAVDOhMdlv3I9e-ve_t2GM90aAWINHuZ_VN9pSJI5sHLmAnEG5EFODip2yEIaXhVStivf2zw
+ACCEPT-ENCODING     : gzip, deflate, br
+ACCEPT-LANGUAGE     : en-us
+CONTENT-LENGTH      : 112
+USER-AGENT          : Google Gmail/6.0.191117.990155 model/iPad5,1 iOS/13.1
+X-GMAIL-BTAI        : GrwBMABQAVgBaAF4AYABAYgBAZABAJgBAbABALgBAcABAcgBAdABAdgBAOABAegBAfABAfgBAIACAIgCAJACAZgCAKACAKoCAmVusgI1R29vZ2xlIEdtYWlsLzYuMC4xOTExMTcuOTkwMTU1IG1vZGVsL2lQYWQ1LDEgaU9TLzEzLjHAAgDIAhnQAgDYAgDgAgDoAgDwAgD4AgCAAwGIAwGQAwCYAwCgAwCoAwCwAwC4AwDAAwDIAwDQAwDYAwA4FEIqY29tLmdvb2dsZS5HbWFpbC1yZWxlYXNlLTYuMC4xOTExMTcuOTkwMTU1SARQA1oHaVBhZDUsMWCAr7X3//////8BahBBbWVyaWNhL05ld19Zb3JrcAGAAcu3PIoBAJIBJDUwRDBENEFELTVENkUtNDRBMi1CN0RDLTE2MkI0ODcxRDE4RJgB4u3cvu8tqAGwzM0B
+X-GOOGLE-BTD        : 1
+COOKIE              : COMPASS=bigtop-sync=Co8BAAlriVeOF-iB1mAPtMnGOLYCj0k0fyvpErqdbfzwfs_UobTt8NYjpUw19X32CoVQxV4e0KbF_l2hAtqIj4w6yLZ6lTOfFckTxmSLgRILPe73_k212cvzp-WAW1O7Gz2QqnNVA-EPcIVwBhVQazDJQLe8scwVYRlUIVW6Dy0byPcC6s14tA0VZy0CHGy4qFIQidvG7wUaoQEACWuJV1H-CY9in7N8kOPm3k8WA6adZaCZp5Nn6CLr1AEw9HZEa-DX-vHhBVafabv_393yGhk99XjlydtFWvCuI4YhnpTZ_8DdJZn8srjHSSMdmcqK3hz26vckxhhXy_DwKiHMdtyDswWNj4bexMdcgcPi9SsQxqQe8L5XypipKceDUkG7LYqu-2QDzDqn_jQe7D7s1FmsXgcAk6xA6B9Vlg; NID=193=ClWCxinFrIA8V4Y2gVtnmXqnBYiTxWKh407L_0mdyFIWLs5SbHQEfJTfthFjNR9AhNA5HLNPaj7_6g1g2IZHkc1gKg23pLoV9XdhVpXc4OLQzlVR9L-WsTbMrq2xO5DgVfa70gdNLGGkl9rUjLUC5MU-qNKHsKpGSf80b25aQv3tasb85bw
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/vnd.google.octet-stream-compressible
+--------------------------------------------------response headers:
+CACHE-CONTROL       : no-cache, no-store, max-age=0, must-revalidate
+--------------------------------------------------response headers:
+PRAGMA              : no-cache
+--------------------------------------------------response headers:
+EXPIRES             : Mon, 01 Jan 1990 00:00:00 GMT
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:01:47 GMT
+--------------------------------------------------response headers:
+CONTENT-DISPOSITION : attachment; filename="response.bin"; filename*=UTF-8''response.bin
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+X-GOOG-SERVER-LATENCY: 246
+--------------------------------------------------response headers:
+X-CONTENT-TYPE-OPTIONS: nosniff
+--------------------------------------------------response headers:
+X-FRAME-OPTIONS     : SAMEORIGIN
+--------------------------------------------------response headers:
+X-XSS-PROTECTION    : 1; mode=block
+--------------------------------------------------response headers:
+SERVER              : GSE
+--------------------------------------------------response headers:
+ALT-SVC             : clear
+--------------------------------------------------response headers:
+
+=
+POST /sync/i/bv?hl=en-US&c=23 HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : inbox.google.com:443
+CONTENT-TYPE        : application/x-protobuf
+ACCEPT              : */*
+AUTHORIZATION       : OAuth ya29.IoACtAf8Uhz2CvZdUFYaozvs5yt6SSzj62caGxKN51Gaca-ct7d6wd05czBgyQaN_xljWw56UDwk7n-uUA4wezv6d1q0PS_-eIBWI4aejXw6fP0TPywiFw5RINUU9W9o8UFAS5NieybMl2nm8s1GxUiulNSGJK6cgyABYtgM2kNQnxWbBCs8zNFohVrixHVFg6gVU2PVyomtbGBtupXgNfqElkMyv5jZvydoH0txW0OmrjzfipTfLPSP0z0paWMkUJOJhmHcd7b-jim1LydAVDOhMdlv3I9e-ve_t2GM90aAWINHuZ_VN9pSJI5sHLmAnEG5EFODip2yEIaXhVStivf2zw
+ACCEPT-ENCODING     : gzip, deflate, br
+ACCEPT-LANGUAGE     : en-us
+CONTENT-LENGTH      : 129
+USER-AGENT          : Google Gmail/6.0.191117.990155 model/iPad5,1 iOS/13.1
+X-GMAIL-BTAI        : GrwBMABQAVgBaAF4AYABAYgBAZABAJgBAbABALgBAcABAcgBAdABAdgBAOABAegBAfABAfgBAIACAIgCAJACAZgCAKACAKoCAmVusgI1R29vZ2xlIEdtYWlsLzYuMC4xOTExMTcuOTkwMTU1IG1vZGVsL2lQYWQ1LDEgaU9TLzEzLjHAAgDIAhnQAgDYAgDgAgDoAgDwAgD4AgCAAwGIAwGQAwCYAwCgAwCoAwCwAwC4AwDAAwDIAwDQAwDYAwA4FEIqY29tLmdvb2dsZS5HbWFpbC1yZWxlYXNlLTYuMC4xOTExMTcuOTkwMTU1SARQA1oHaVBhZDUsMWCAr7X3//////8BahBBbWVyaWNhL05ld19Zb3JrcAGAAcu3PIoBAJIBJDUwRDBENEFELTVENkUtNDRBMi1CN0RDLTE2MkI0ODcxRDE4RJgBkPLcvu8tqAGzzM0B
+X-GOOGLE-BTD        : 1
+COOKIE              : COMPASS=bigtop-sync=Co8BAAlriVeOF-iB1mAPtMnGOLYCj0k0fyvpErqdbfzwfs_UobTt8NYjpUw19X32CoVQxV4e0KbF_l2hAtqIj4w6yLZ6lTOfFckTxmSLgRILPe73_k212cvzp-WAW1O7Gz2QqnNVA-EPcIVwBhVQazDJQLe8scwVYRlUIVW6Dy0byPcC6s14tA0VZy0CHGy4qFIQidvG7wUaoQEACWuJV1H-CY9in7N8kOPm3k8WA6adZaCZp5Nn6CLr1AEw9HZEa-DX-vHhBVafabv_393yGhk99XjlydtFWvCuI4YhnpTZ_8DdJZn8srjHSSMdmcqK3hz26vckxhhXy_DwKiHMdtyDswWNj4bexMdcgcPi9SsQxqQe8L5XypipKceDUkG7LYqu-2QDzDqn_jQe7D7s1FmsXgcAk6xA6B9Vlg; NID=193=ClWCxinFrIA8V4Y2gVtnmXqnBYiTxWKh407L_0mdyFIWLs5SbHQEfJTfthFjNR9AhNA5HLNPaj7_6g1g2IZHkc1gKg23pLoV9XdhVpXc4OLQzlVR9L-WsTbMrq2xO5DgVfa70gdNLGGkl9rUjLUC5MU-qNKHsKpGSf80b25aQv3tasb85bw
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/vnd.google.octet-stream-compressible
+--------------------------------------------------response headers:
+CACHE-CONTROL       : no-cache, no-store, max-age=0, must-revalidate
+--------------------------------------------------response headers:
+PRAGMA              : no-cache
+--------------------------------------------------response headers:
+EXPIRES             : Mon, 01 Jan 1990 00:00:00 GMT
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:01:47 GMT
+--------------------------------------------------response headers:
+CONTENT-DISPOSITION : attachment; filename="response.bin"; filename*=UTF-8''response.bin
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+X-GOOG-SERVER-LATENCY: 71
+--------------------------------------------------response headers:
+X-CONTENT-TYPE-OPTIONS: nosniff
+--------------------------------------------------response headers:
+X-FRAME-OPTIONS     : SAMEORIGIN
+--------------------------------------------------response headers:
+X-XSS-PROTECTION    : 1; mode=block
+--------------------------------------------------response headers:
+SERVER              : GSE
+--------------------------------------------------response headers:
+ALT-SVC             : clear
+--------------------------------------------------response headers:
+
+=
+POST /mail/ads/main?rt=b&client=20 HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : mail.google.com
+ACCEPT              : */*
+CONTENT-TYPE        : application/x-protobuf
+CONTENT-LENGTH      : 342
+ACCEPT-LANGUAGE     : en-us
+USER-AGENT          : Google Gmail/6.0.191117.990155 model/iPad5,1 iOS/13.1
+AUTHORIZATION       : OAuth ya29.IoACtAf8Uhz2CvZdUFYaozvs5yt6SSzj62caGxKN51Gaca-ct7d6wd05czBgyQaN_xljWw56UDwk7n-uUA4wezv6d1q0PS_-eIBWI4aejXw6fP0TPywiFw5RINUU9W9o8UFAS5NieybMl2nm8s1GxUiulNSGJK6cgyABYtgM2kNQnxWbBCs8zNFohVrixHVFg6gVU2PVyomtbGBtupXgNfqElkMyv5jZvydoH0txW0OmrjzfipTfLPSP0z0paWMkUJOJhmHcd7b-jim1LydAVDOhMdlv3I9e-ve_t2GM90aAWINHuZ_VN9pSJI5sHLmAnEG5EFODip2yEIaXhVStivf2zw
+ACCEPT-ENCODING     : gzip, deflate, br
+COOKIE              : NID=193=ClWCxinFrIA8V4Y2gVtnmXqnBYiTxWKh407L_0mdyFIWLs5SbHQEfJTfthFjNR9AhNA5HLNPaj7_6g1g2IZHkc1gKg23pLoV9XdhVpXc4OLQzlVR9L-WsTbMrq2xO5DgVfa70gdNLGGkl9rUjLUC5MU-qNKHsKpGSf80b25aQv3tasb85bw; COMPASS=gmail=Co4BAAlriVcFKlbWeUQGArYCOHC1-tFDdFCsigt3HI4S3nXxImTENMn-pM6LvgkY5v3_1rpvYiWk-s4_Z5433n3SYV98zN_gN4nvCiQU5PLR3tUjdvQLN8Jjq9A6l-4OdWU3OBI_zEvKdcEUQ1AQHGomNL1wZAR08tF0NhGadjt8Yj_u0xqT9dQwMN5gCDpTPRDU2sbvBRqgAQAJa4lXrYk5Bi7ncdoHrNgeDP0jtnw__Lfx2VbwhS3lgK3MpUrI3RMf9Kfnjla-Dn3ii-hGE5zMOJowC8kVZQD4K4zOa4_ubS-Rk33xe-B-DKrmEfrtssjICXt_BM05ISfmcsLBAO1Z6t-r5qv-A1xJOq-aRcOQS52pEGBpsiJO-wFXZMcQvHU_DgXEl799nrIpc00SB5IF7C6kgbsVzU0
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/octet-stream; charset=UTF-8
+--------------------------------------------------response headers:
+CONTENT-SECURITY-POLICY: script-src https://clients4.google.com/insights/consumersurveys/ https://www.google.com/js/bg/ 'self' 'unsafe-inline' 'unsafe-eval' https://mail.google.com/_/scs/mail-static/ https://hangouts.google.com/ https://talkgadget.google.com/ https://*.talkgadget.google.com/ https://www.googleapis.com/appsmarket/v2/installedApps/ https://www-gm-opensocial.googleusercontent.com/gadgets/js/ https://docs.google.com/static/doclist/client/js/ https://www.google.com/tools/feedback/ https://s.ytimg.com/yts/jsbin/ https://www.youtube.com/iframe_api https://apis.google.com/_/scs/abc-static/ https://apis.google.com/js/ https://clients1.google.com/complete/ https://apis.google.com/_/scs/apps-static/_/js/ https://ssl.gstatic.com/inputtools/js/ https://inputtools.google.com/request https://ssl.gstatic.com/cloudsearch/static/o/js/ https://www.gstatic.com/feedback/js/ https://www.gstatic.com/common_sharing/static/client/js/ https://www.gstatic.com/og/_/js/;frame-src https://clients4.google.com/insights/consumersurveys/ https://calendar.google.com/accounts/ https://ogs.google.com https://onegoogle-autopush.sandbox.google.com 'self' https://accounts.google.com/ https://apis.google.com/u/ https://apis.google.com/_/streamwidgets/ https://clients6.google.com/static/ https://content.googleapis.com/static/ https://mail-attachment.googleusercontent.com/ https://www.google.com/calendar/ https://calendar.google.com/calendar/ https://docs.google.com/ https://drive.google.com https://*.googleusercontent.com/docs/securesc/ https://feedback.googleusercontent.com/resources/ https://www.google.com/tools/feedback/ https://support.google.com/inapp/ https://*.googleusercontent.com/gadgets/ifr https://hangouts.google.com/ https://talkgadget.google.com/ https://*.talkgadget.google.com/ https://www-gm-opensocial.googleusercontent.com/gadgets/ https://plus.google.com/ https://wallet.google.com/gmail/ https://www.youtube.com/embed/ https://clients5.google.com/pagead/drt/dn/ https://clients5.google.com/ads/measurement/jn/ https://www.gstatic.com/mail/ww/ https://www.gstatic.com/mail/intl/ https://clients5.google.com/webstore/wall/ https://ci3.googleusercontent.com/ https://gsuite.google.com/u/ https://gsuite.google.com/marketplace/appfinder https://www.gstatic.com/mail/promo/ https://notifications.google.com/ https://tracedepot-pa.clients6.google.com/static/ https://mail-payments.google.com/mail/payments/ https://staging-taskassist-pa-googleapis.sandbox.google.com https://taskassist-pa.clients6.google.com https://*.client-channel.google.com/client-channel/client https://clients4.google.com/invalidation/lcs/client https://tasks.google.com/embed/ https://keep.google.com/companion https://addons.gsuite.google.com https://contacts.google.com/widget/hovercard/v/2 https://*.googleusercontent.com/confidential-mail/attachments/;report-uri https://mail.google.com/mail/cspreport;object-src https://mail-attachment.googleusercontent.com/attachment/
+--------------------------------------------------response headers:
+CACHE-CONTROL       : no-cache, no-store, max-age=0, must-revalidate
+--------------------------------------------------response headers:
+PRAGMA              : no-cache
+--------------------------------------------------response headers:
+EXPIRES             : Mon, 01 Jan 1990 00:00:00 GMT
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:01:48 GMT
+--------------------------------------------------response headers:
+CONTENT-DISPOSITION : attachment; filename="response.bin"; filename*=UTF-8''response.bin
+--------------------------------------------------response headers:
+X-CONTENT-TYPE-OPTIONS: nosniff
+--------------------------------------------------response headers:
+X-FRAME-OPTIONS     : SAMEORIGIN
+--------------------------------------------------response headers:
+X-XSS-PROTECTION    : 1; mode=block
+--------------------------------------------------response headers:
+SERVER              : GSE
+--------------------------------------------------response headers:
+ALT-SVC             : clear
+--------------------------------------------------response headers:
+
+=
+POST /mail/ads/main?rt=b&client=20 HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : mail.google.com
+ACCEPT              : */*
+CONTENT-TYPE        : application/x-protobuf
+CONTENT-LENGTH      : 346
+ACCEPT-LANGUAGE     : en-us
+USER-AGENT          : Google Gmail/6.0.191117.990155 model/iPad5,1 iOS/13.1
+AUTHORIZATION       : OAuth ya29.IoACtAf8Uhz2CvZdUFYaozvs5yt6SSzj62caGxKN51Gaca-ct7d6wd05czBgyQaN_xljWw56UDwk7n-uUA4wezv6d1q0PS_-eIBWI4aejXw6fP0TPywiFw5RINUU9W9o8UFAS5NieybMl2nm8s1GxUiulNSGJK6cgyABYtgM2kNQnxWbBCs8zNFohVrixHVFg6gVU2PVyomtbGBtupXgNfqElkMyv5jZvydoH0txW0OmrjzfipTfLPSP0z0paWMkUJOJhmHcd7b-jim1LydAVDOhMdlv3I9e-ve_t2GM90aAWINHuZ_VN9pSJI5sHLmAnEG5EFODip2yEIaXhVStivf2zw
+ACCEPT-ENCODING     : gzip, deflate, br
+COOKIE              : NID=193=ClWCxinFrIA8V4Y2gVtnmXqnBYiTxWKh407L_0mdyFIWLs5SbHQEfJTfthFjNR9AhNA5HLNPaj7_6g1g2IZHkc1gKg23pLoV9XdhVpXc4OLQzlVR9L-WsTbMrq2xO5DgVfa70gdNLGGkl9rUjLUC5MU-qNKHsKpGSf80b25aQv3tasb85bw; COMPASS=gmail=Co4BAAlriVcFKlbWeUQGArYCOHC1-tFDdFCsigt3HI4S3nXxImTENMn-pM6LvgkY5v3_1rpvYiWk-s4_Z5433n3SYV98zN_gN4nvCiQU5PLR3tUjdvQLN8Jjq9A6l-4OdWU3OBI_zEvKdcEUQ1AQHGomNL1wZAR08tF0NhGadjt8Yj_u0xqT9dQwMN5gCDpTPRDU2sbvBRqgAQAJa4lXrYk5Bi7ncdoHrNgeDP0jtnw__Lfx2VbwhS3lgK3MpUrI3RMf9Kfnjla-Dn3ii-hGE5zMOJowC8kVZQD4K4zOa4_ubS-Rk33xe-B-DKrmEfrtssjICXt_BM05ISfmcsLBAO1Z6t-r5qv-A1xJOq-aRcOQS52pEGBpsiJO-wFXZMcQvHU_DgXEl799nrIpc00SB5IF7C6kgbsVzU0
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/octet-stream; charset=UTF-8
+--------------------------------------------------response headers:
+CONTENT-SECURITY-POLICY: script-src https://clients4.google.com/insights/consumersurveys/ https://www.google.com/js/bg/ 'self' 'unsafe-inline' 'unsafe-eval' https://mail.google.com/_/scs/mail-static/ https://hangouts.google.com/ https://talkgadget.google.com/ https://*.talkgadget.google.com/ https://www.googleapis.com/appsmarket/v2/installedApps/ https://www-gm-opensocial.googleusercontent.com/gadgets/js/ https://docs.google.com/static/doclist/client/js/ https://www.google.com/tools/feedback/ https://s.ytimg.com/yts/jsbin/ https://www.youtube.com/iframe_api https://apis.google.com/_/scs/abc-static/ https://apis.google.com/js/ https://clients1.google.com/complete/ https://apis.google.com/_/scs/apps-static/_/js/ https://ssl.gstatic.com/inputtools/js/ https://inputtools.google.com/request https://ssl.gstatic.com/cloudsearch/static/o/js/ https://www.gstatic.com/feedback/js/ https://www.gstatic.com/common_sharing/static/client/js/ https://www.gstatic.com/og/_/js/;frame-src https://clients4.google.com/insights/consumersurveys/ https://calendar.google.com/accounts/ https://ogs.google.com https://onegoogle-autopush.sandbox.google.com 'self' https://accounts.google.com/ https://apis.google.com/u/ https://apis.google.com/_/streamwidgets/ https://clients6.google.com/static/ https://content.googleapis.com/static/ https://mail-attachment.googleusercontent.com/ https://www.google.com/calendar/ https://calendar.google.com/calendar/ https://docs.google.com/ https://drive.google.com https://*.googleusercontent.com/docs/securesc/ https://feedback.googleusercontent.com/resources/ https://www.google.com/tools/feedback/ https://support.google.com/inapp/ https://*.googleusercontent.com/gadgets/ifr https://hangouts.google.com/ https://talkgadget.google.com/ https://*.talkgadget.google.com/ https://www-gm-opensocial.googleusercontent.com/gadgets/ https://plus.google.com/ https://wallet.google.com/gmail/ https://www.youtube.com/embed/ https://clients5.google.com/pagead/drt/dn/ https://clients5.google.com/ads/measurement/jn/ https://www.gstatic.com/mail/ww/ https://www.gstatic.com/mail/intl/ https://clients5.google.com/webstore/wall/ https://ci3.googleusercontent.com/ https://gsuite.google.com/u/ https://gsuite.google.com/marketplace/appfinder https://www.gstatic.com/mail/promo/ https://notifications.google.com/ https://tracedepot-pa.clients6.google.com/static/ https://mail-payments.google.com/mail/payments/ https://staging-taskassist-pa-googleapis.sandbox.google.com https://taskassist-pa.clients6.google.com https://*.client-channel.google.com/client-channel/client https://clients4.google.com/invalidation/lcs/client https://tasks.google.com/embed/ https://keep.google.com/companion https://addons.gsuite.google.com https://contacts.google.com/widget/hovercard/v/2 https://*.googleusercontent.com/confidential-mail/attachments/;report-uri https://mail.google.com/mail/cspreport;object-src https://mail-attachment.googleusercontent.com/attachment/
+--------------------------------------------------response headers:
+CACHE-CONTROL       : no-cache, no-store, max-age=0, must-revalidate
+--------------------------------------------------response headers:
+PRAGMA              : no-cache
+--------------------------------------------------response headers:
+EXPIRES             : Mon, 01 Jan 1990 00:00:00 GMT
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:01:48 GMT
+--------------------------------------------------response headers:
+CONTENT-DISPOSITION : attachment; filename="response.bin"; filename*=UTF-8''response.bin
+--------------------------------------------------response headers:
+X-CONTENT-TYPE-OPTIONS: nosniff
+--------------------------------------------------response headers:
+X-FRAME-OPTIONS     : SAMEORIGIN
+--------------------------------------------------response headers:
+X-XSS-PROTECTION    : 1; mode=block
+--------------------------------------------------response headers:
+SERVER              : GSE
+--------------------------------------------------response headers:
+ALT-SVC             : clear
+--------------------------------------------------response headers:
+
+=
+POST /sync/i/fd?hl=en-US&c=24 HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : inbox.google.com:443
+CONTENT-TYPE        : application/x-protobuf
+ACCEPT              : */*
+AUTHORIZATION       : OAuth ya29.IoACtAf8Uhz2CvZdUFYaozvs5yt6SSzj62caGxKN51Gaca-ct7d6wd05czBgyQaN_xljWw56UDwk7n-uUA4wezv6d1q0PS_-eIBWI4aejXw6fP0TPywiFw5RINUU9W9o8UFAS5NieybMl2nm8s1GxUiulNSGJK6cgyABYtgM2kNQnxWbBCs8zNFohVrixHVFg6gVU2PVyomtbGBtupXgNfqElkMyv5jZvydoH0txW0OmrjzfipTfLPSP0z0paWMkUJOJhmHcd7b-jim1LydAVDOhMdlv3I9e-ve_t2GM90aAWINHuZ_VN9pSJI5sHLmAnEG5EFODip2yEIaXhVStivf2zw
+ACCEPT-ENCODING     : gzip, deflate, br
+ACCEPT-LANGUAGE     : en-us
+CONTENT-LENGTH      : 61
+USER-AGENT          : Google Gmail/6.0.191117.990155 model/iPad5,1 iOS/13.1
+X-GMAIL-BTAI        : GrwBMABQAVgBaAF4AYABAYgBAZABAJgBAbABALgBAcABAcgBAdABAdgBAOABAegBAfABAfgBAIACAIgCAJACAZgCAKACAKoCAmVusgI1R29vZ2xlIEdtYWlsLzYuMC4xOTExMTcuOTkwMTU1IG1vZGVsL2lQYWQ1LDEgaU9TLzEzLjHAAgDIAhnQAgDYAgDgAgDoAgDwAgD4AgCAAwGIAwGQAwCYAwCgAwCoAwCwAwC4AwDAAwDIAwDQAwDYAwA4FEIqY29tLmdvb2dsZS5HbWFpbC1yZWxlYXNlLTYuMC4xOTExMTcuOTkwMTU1SARQA1oHaVBhZDUsMWCAr7X3//////8BahBBbWVyaWNhL05ld19Zb3JrcAGAAcu3PIoBAJIBJDUwRDBENEFELTVENkUtNDRBMi1CN0RDLTE2MkI0ODcxRDE4RJgBnvXcvu8tqAGzzM0B
+X-GOOGLE-BTD        : 1
+COOKIE              : COMPASS=bigtop-sync=Co8BAAlriVeOF-iB1mAPtMnGOLYCj0k0fyvpErqdbfzwfs_UobTt8NYjpUw19X32CoVQxV4e0KbF_l2hAtqIj4w6yLZ6lTOfFckTxmSLgRILPe73_k212cvzp-WAW1O7Gz2QqnNVA-EPcIVwBhVQazDJQLe8scwVYRlUIVW6Dy0byPcC6s14tA0VZy0CHGy4qFIQidvG7wUaoQEACWuJV1H-CY9in7N8kOPm3k8WA6adZaCZp5Nn6CLr1AEw9HZEa-DX-vHhBVafabv_393yGhk99XjlydtFWvCuI4YhnpTZ_8DdJZn8srjHSSMdmcqK3hz26vckxhhXy_DwKiHMdtyDswWNj4bexMdcgcPi9SsQxqQe8L5XypipKceDUkG7LYqu-2QDzDqn_jQe7D7s1FmsXgcAk6xA6B9Vlg; NID=193=ClWCxinFrIA8V4Y2gVtnmXqnBYiTxWKh407L_0mdyFIWLs5SbHQEfJTfthFjNR9AhNA5HLNPaj7_6g1g2IZHkc1gKg23pLoV9XdhVpXc4OLQzlVR9L-WsTbMrq2xO5DgVfa70gdNLGGkl9rUjLUC5MU-qNKHsKpGSf80b25aQv3tasb85bw
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/vnd.google.octet-stream-compressible
+--------------------------------------------------response headers:
+CACHE-CONTROL       : no-cache, no-store, max-age=0, must-revalidate
+--------------------------------------------------response headers:
+PRAGMA              : no-cache
+--------------------------------------------------response headers:
+EXPIRES             : Mon, 01 Jan 1990 00:00:00 GMT
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:01:48 GMT
+--------------------------------------------------response headers:
+CONTENT-DISPOSITION : attachment; filename="response.bin"; filename*=UTF-8''response.bin
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+X-GOOG-SERVER-LATENCY: 83
+--------------------------------------------------response headers:
+X-CONTENT-TYPE-OPTIONS: nosniff
+--------------------------------------------------response headers:
+X-FRAME-OPTIONS     : SAMEORIGIN
+--------------------------------------------------response headers:
+X-XSS-PROTECTION    : 1; mode=block
+--------------------------------------------------response headers:
+SERVER              : GSE
+--------------------------------------------------response headers:
+ALT-SVC             : clear
+--------------------------------------------------response headers:
+
+=
+POST /sync/i/s?hl=en-US&c=25 HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : inbox.google.com:443
+CONTENT-TYPE        : application/x-protobuf
+ACCEPT              : */*
+AUTHORIZATION       : OAuth ya29.IoACtAf8Uhz2CvZdUFYaozvs5yt6SSzj62caGxKN51Gaca-ct7d6wd05czBgyQaN_xljWw56UDwk7n-uUA4wezv6d1q0PS_-eIBWI4aejXw6fP0TPywiFw5RINUU9W9o8UFAS5NieybMl2nm8s1GxUiulNSGJK6cgyABYtgM2kNQnxWbBCs8zNFohVrixHVFg6gVU2PVyomtbGBtupXgNfqElkMyv5jZvydoH0txW0OmrjzfipTfLPSP0z0paWMkUJOJhmHcd7b-jim1LydAVDOhMdlv3I9e-ve_t2GM90aAWINHuZ_VN9pSJI5sHLmAnEG5EFODip2yEIaXhVStivf2zw
+ACCEPT-ENCODING     : gzip, deflate, br
+ACCEPT-LANGUAGE     : en-us
+CONTENT-LENGTH      : 119
+USER-AGENT          : Google Gmail/6.0.191117.990155 model/iPad5,1 iOS/13.1
+X-GMAIL-BTAI        : GrwBMABQAVgBaAF4AYABAYgBAZABAJgBAbABALgBAcABAcgBAdABAdgBAOABAegBAfABAfgBAIACAIgCAJACAZgCAKACAKoCAmVusgI1R29vZ2xlIEdtYWlsLzYuMC4xOTExMTcuOTkwMTU1IG1vZGVsL2lQYWQ1LDEgaU9TLzEzLjHAAgDIAhnQAgDYAgDgAgDoAgDwAgD4AgCAAwGIAwGQAwCYAwCgAwCoAwCwAwC4AwDAAwDIAwDQAwDYAwA4FEIqY29tLmdvb2dsZS5HbWFpbC1yZWxlYXNlLTYuMC4xOTExMTcuOTkwMTU1SARQA1oHaVBhZDUsMWCAr7X3//////8BahBBbWVyaWNhL05ld19Zb3JrcAGAAcu3PIoBAJIBJDUwRDBENEFELTVENkUtNDRBMi1CN0RDLTE2MkI0ODcxRDE4RJgB3/bcvu8tqAGzzM0B
+X-GOOGLE-BTD        : 1
+COOKIE              : COMPASS=bigtop-sync=Co8BAAlriVeOF-iB1mAPtMnGOLYCj0k0fyvpErqdbfzwfs_UobTt8NYjpUw19X32CoVQxV4e0KbF_l2hAtqIj4w6yLZ6lTOfFckTxmSLgRILPe73_k212cvzp-WAW1O7Gz2QqnNVA-EPcIVwBhVQazDJQLe8scwVYRlUIVW6Dy0byPcC6s14tA0VZy0CHGy4qFIQidvG7wUaoQEACWuJV1H-CY9in7N8kOPm3k8WA6adZaCZp5Nn6CLr1AEw9HZEa-DX-vHhBVafabv_393yGhk99XjlydtFWvCuI4YhnpTZ_8DdJZn8srjHSSMdmcqK3hz26vckxhhXy_DwKiHMdtyDswWNj4bexMdcgcPi9SsQxqQe8L5XypipKceDUkG7LYqu-2QDzDqn_jQe7D7s1FmsXgcAk6xA6B9Vlg; NID=193=ClWCxinFrIA8V4Y2gVtnmXqnBYiTxWKh407L_0mdyFIWLs5SbHQEfJTfthFjNR9AhNA5HLNPaj7_6g1g2IZHkc1gKg23pLoV9XdhVpXc4OLQzlVR9L-WsTbMrq2xO5DgVfa70gdNLGGkl9rUjLUC5MU-qNKHsKpGSf80b25aQv3tasb85bw
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/vnd.google.octet-stream-compressible
+--------------------------------------------------response headers:
+CACHE-CONTROL       : no-cache, no-store, max-age=0, must-revalidate
+--------------------------------------------------response headers:
+PRAGMA              : no-cache
+--------------------------------------------------response headers:
+EXPIRES             : Mon, 01 Jan 1990 00:00:00 GMT
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:01:48 GMT
+--------------------------------------------------response headers:
+CONTENT-DISPOSITION : attachment; filename="response.bin"; filename*=UTF-8''response.bin
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+X-GOOG-SERVER-LATENCY: 231
+--------------------------------------------------response headers:
+X-CONTENT-TYPE-OPTIONS: nosniff
+--------------------------------------------------response headers:
+X-FRAME-OPTIONS     : SAMEORIGIN
+--------------------------------------------------response headers:
+X-XSS-PROTECTION    : 1; mode=block
+--------------------------------------------------response headers:
+SERVER              : GSE
+--------------------------------------------------response headers:
+ALT-SVC             : clear
+--------------------------------------------------response headers:
+
+=
+GET /pagead/adview?ai=CVQFtbZ_xXZzwDIKeygWFzqmgAvmWnudYsOS_mNcK8-G_hJ4KEAEgho-AAmDJ5pmLwKTYD6ABxIX9_QPIAQaoAwGqBK0BT9BpsmyA_Wm6QpqhoRpqDZCIqmbdimVo8Z6WT6JITN9KRJnDMM4bj97Dqle77FtK1lsx5-JbDnV2UuiiEVqw4-4cLCxTlveVDqNtSS_leLGzlzw82LR34-xHS-ddZulAASZR85zLzi6fcwUaeSmPL2wI9qgN8FKl2g01UapFEtgWKRPD3mi7pAAjuGgG8PwWZ8ejyy2N55uIwefRXvbaizC9EiqfPcN0BjuSA-zABN2Xy9uaAogFzZXN6RiSBQYIBhABGAGQBgGgBlzYBgSAB8rU7aMBiAcBkAcCqAeOzhuoB9XJG6gHk9gbqAe6BqgH8tkbqAemvhuoB-zVG9gHAfIHBRDC9ZIMoAipyaUEqAgBsAgC0ggGCAAQAhgCgAoTyAsFwhMGGMSF_f0D2BMCghQRGg9tYWlsLmdvb2dsZS5jb22oFQc&sigh=jflkdPJZhP8&cid=CAQSIgDwy9IZd1G0zfAAlmVebnbEgxjXaroozIx2PLvujZfJbjc&template_id=464&tpd=AGWhJmtrb-gUKjhEvfVlb_BUswLhP2Cjpe0KkSHP6C8KXyox1Q&gm_fcb=true HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : www.google.com
+USER-AGENT          : Google Gmail/6.0.191117.990155 model/iPad5,1 iOS/13.1
+ACCEPT              : */*
+ACCEPT-LANGUAGE     : en-us
+ACCEPT-ENCODING     : gzip, deflate, br
+--------------------------------------------------response headers:
+P3P                 : policyref="https://www.googleadservices.com/pagead/p3p.xml", CP="NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC"
+--------------------------------------------------response headers:
+TIMING-ALLOW-ORIGIN : *
+--------------------------------------------------response headers:
+CONTENT-SECURITY-POLICY: script-src 'none'; object-src 'none'
+--------------------------------------------------response headers:
+CONTENT-TYPE        : text/html; charset=ISO-8859-1
+--------------------------------------------------response headers:
+X-CONTENT-TYPE-OPTIONS: nosniff
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:01:48 GMT
+--------------------------------------------------response headers:
+SERVER              : cafe
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 0
+--------------------------------------------------response headers:
+X-XSS-PROTECTION    : 0
+--------------------------------------------------response headers:
+ALT-SVC             : quic=":443"; ma=2592000; v="46,43",h3-Q050=":443"; ma=2592000,h3-Q049=":443"; ma=2592000,h3-Q048=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000
+--------------------------------------------------response headers:
+
+=
+GET /pagead/adview?ai=CQZ7GbZ_xXZ3wDIKeygWFzqmgAsa6zJFa2fqEm7QKofbXpfwMEAEgho-AAmDJ5pmLwKTYD6ABi6Lk2gPIAQGoAwGqBK8BT9DPeMRCr3UipfF17lcngpwk8wyo7jPlIa9TzYk1wbOxJlgkLsfQzfMDoPTX6TmRHXBIS6TSjjVpl-bTpROkPrI543zagjC21NNCz9_wPhvZ_Fd0Dbmx7PVo7iCcUDZyC7zwxbGcBHdeXXCqom7Y6bfwcc6odhrAMf-osa5ng4J113clVjVldw0MIz2WbyRQPlwQtY_uPkPphgMATN_Zj4OQb4xN8mv4YnE2jbKl-8AErdSI45ICiAWf97PkB5IFBggGEAEYAZAGAaAGbtgGBIAH3d2bJYgHAZAHAqgHjs4bqAfVyRuoB5PYG6gHugaoB_LZG6gHpr4bqAfs1RvYBwHyBwUQ2PupB6AIqcmlBKgIAbAIAtIIBggAEAIYAoAKE8gLBcITBhiLouTaA9gTDIIUERoPbWFpbC5nb29nbGUuY29tqBUHmBYB&sigh=wTewMkyGa4I&cid=CAQSIgDwy9IZd1G0zfAAlmVebnbEgxjXaroozIx2PLvujZfJbjc&tpd=AGWhJmtOVv0Yo2bbOC6Qh1HJaHEAiZ5O8mr38jhNk2EKe6Antg&gm_fcb=true HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : www.google.com
+USER-AGENT          : Google Gmail/6.0.191117.990155 model/iPad5,1 iOS/13.1
+ACCEPT              : */*
+ACCEPT-LANGUAGE     : en-us
+ACCEPT-ENCODING     : gzip, deflate, br
+--------------------------------------------------response headers:
+P3P                 : policyref="https://www.googleadservices.com/pagead/p3p.xml", CP="NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC"
+--------------------------------------------------response headers:
+TIMING-ALLOW-ORIGIN : *
+--------------------------------------------------response headers:
+CONTENT-SECURITY-POLICY: script-src 'none'; object-src 'none'
+--------------------------------------------------response headers:
+CONTENT-TYPE        : text/html; charset=ISO-8859-1
+--------------------------------------------------response headers:
+X-CONTENT-TYPE-OPTIONS: nosniff
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:01:48 GMT
+--------------------------------------------------response headers:
+SERVER              : cafe
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 0
+--------------------------------------------------response headers:
+X-XSS-PROTECTION    : 0
+--------------------------------------------------response headers:
+ALT-SVC             : quic=":443"; ma=2592000; v="46,43",h3-Q050=":443"; ma=2592000,h3-Q049=":443"; ma=2592000,h3-Q048=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000
+--------------------------------------------------response headers:
+
+=
+POST /sync/i/fd?hl=en-US&c=26 HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : inbox.google.com:443
+CONTENT-TYPE        : application/x-protobuf
+ACCEPT              : */*
+AUTHORIZATION       : OAuth ya29.IoACtAf8Uhz2CvZdUFYaozvs5yt6SSzj62caGxKN51Gaca-ct7d6wd05czBgyQaN_xljWw56UDwk7n-uUA4wezv6d1q0PS_-eIBWI4aejXw6fP0TPywiFw5RINUU9W9o8UFAS5NieybMl2nm8s1GxUiulNSGJK6cgyABYtgM2kNQnxWbBCs8zNFohVrixHVFg6gVU2PVyomtbGBtupXgNfqElkMyv5jZvydoH0txW0OmrjzfipTfLPSP0z0paWMkUJOJhmHcd7b-jim1LydAVDOhMdlv3I9e-ve_t2GM90aAWINHuZ_VN9pSJI5sHLmAnEG5EFODip2yEIaXhVStivf2zw
+ACCEPT-ENCODING     : gzip, deflate, br
+ACCEPT-LANGUAGE     : en-us
+CONTENT-LENGTH      : 61
+USER-AGENT          : Google Gmail/6.0.191117.990155 model/iPad5,1 iOS/13.1
+X-GMAIL-BTAI        : GrwBMABQAVgBaAF4AYABAYgBAZABAJgBAbABALgBAcABAcgBAdABAdgBAOABAegBAfABAfgBAIACAIgCAJACAZgCAKACAKoCAmVusgI1R29vZ2xlIEdtYWlsLzYuMC4xOTExMTcuOTkwMTU1IG1vZGVsL2lQYWQ1LDEgaU9TLzEzLjHAAgDIAhnQAgDYAgDgAgDoAgDwAgD4AgCAAwGIAwGQAwCYAwCgAwCoAwCwAwC4AwDAAwDIAwDQAwDYAwA4FEIqY29tLmdvb2dsZS5HbWFpbC1yZWxlYXNlLTYuMC4xOTExMTcuOTkwMTU1SARQA1oHaVBhZDUsMWCAr7X3//////8BahBBbWVyaWNhL05ld19Zb3JrcAGAAcu3PIoBAJIBJDUwRDBENEFELTVENkUtNDRBMi1CN0RDLTE2MkI0ODcxRDE4RJgBlfjcvu8tqAGzzM0B
+X-GOOGLE-BTD        : 1
+COOKIE              : COMPASS=bigtop-sync=Co8BAAlriVeOF-iB1mAPtMnGOLYCj0k0fyvpErqdbfzwfs_UobTt8NYjpUw19X32CoVQxV4e0KbF_l2hAtqIj4w6yLZ6lTOfFckTxmSLgRILPe73_k212cvzp-WAW1O7Gz2QqnNVA-EPcIVwBhVQazDJQLe8scwVYRlUIVW6Dy0byPcC6s14tA0VZy0CHGy4qFIQidvG7wUaoQEACWuJV1H-CY9in7N8kOPm3k8WA6adZaCZp5Nn6CLr1AEw9HZEa-DX-vHhBVafabv_393yGhk99XjlydtFWvCuI4YhnpTZ_8DdJZn8srjHSSMdmcqK3hz26vckxhhXy_DwKiHMdtyDswWNj4bexMdcgcPi9SsQxqQe8L5XypipKceDUkG7LYqu-2QDzDqn_jQe7D7s1FmsXgcAk6xA6B9Vlg; NID=193=ClWCxinFrIA8V4Y2gVtnmXqnBYiTxWKh407L_0mdyFIWLs5SbHQEfJTfthFjNR9AhNA5HLNPaj7_6g1g2IZHkc1gKg23pLoV9XdhVpXc4OLQzlVR9L-WsTbMrq2xO5DgVfa70gdNLGGkl9rUjLUC5MU-qNKHsKpGSf80b25aQv3tasb85bw
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/vnd.google.octet-stream-compressible
+--------------------------------------------------response headers:
+CACHE-CONTROL       : no-cache, no-store, max-age=0, must-revalidate
+--------------------------------------------------response headers:
+PRAGMA              : no-cache
+--------------------------------------------------response headers:
+EXPIRES             : Mon, 01 Jan 1990 00:00:00 GMT
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:01:48 GMT
+--------------------------------------------------response headers:
+CONTENT-DISPOSITION : attachment; filename="response.bin"; filename*=UTF-8''response.bin
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+X-GOOG-SERVER-LATENCY: 47
+--------------------------------------------------response headers:
+X-CONTENT-TYPE-OPTIONS: nosniff
+--------------------------------------------------response headers:
+X-FRAME-OPTIONS     : SAMEORIGIN
+--------------------------------------------------response headers:
+X-XSS-PROTECTION    : 1; mode=block
+--------------------------------------------------response headers:
+SERVER              : GSE
+--------------------------------------------------response headers:
+ALT-SVC             : clear
+--------------------------------------------------response headers:
+
+=
+POST /sync/i/fd?hl=en-US&c=27 HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : inbox.google.com:443
+CONTENT-TYPE        : application/x-protobuf
+ACCEPT              : */*
+AUTHORIZATION       : OAuth ya29.IoACtAf8Uhz2CvZdUFYaozvs5yt6SSzj62caGxKN51Gaca-ct7d6wd05czBgyQaN_xljWw56UDwk7n-uUA4wezv6d1q0PS_-eIBWI4aejXw6fP0TPywiFw5RINUU9W9o8UFAS5NieybMl2nm8s1GxUiulNSGJK6cgyABYtgM2kNQnxWbBCs8zNFohVrixHVFg6gVU2PVyomtbGBtupXgNfqElkMyv5jZvydoH0txW0OmrjzfipTfLPSP0z0paWMkUJOJhmHcd7b-jim1LydAVDOhMdlv3I9e-ve_t2GM90aAWINHuZ_VN9pSJI5sHLmAnEG5EFODip2yEIaXhVStivf2zw
+ACCEPT-ENCODING     : gzip, deflate, br
+ACCEPT-LANGUAGE     : en-us
+CONTENT-LENGTH      : 61
+USER-AGENT          : Google Gmail/6.0.191117.990155 model/iPad5,1 iOS/13.1
+X-GMAIL-BTAI        : GrwBMABQAVgBaAF4AYABAYgBAZABAJgBAbABALgBAcABAcgBAdABAdgBAOABAegBAfABAfgBAIACAIgCAJACAZgCAKACAKoCAmVusgI1R29vZ2xlIEdtYWlsLzYuMC4xOTExMTcuOTkwMTU1IG1vZGVsL2lQYWQ1LDEgaU9TLzEzLjHAAgDIAhnQAgDYAgDgAgDoAgDwAgD4AgCAAwGIAwGQAwCYAwCgAwCoAwCwAwC4AwDAAwDIAwDQAwDYAwA4FEIqY29tLmdvb2dsZS5HbWFpbC1yZWxlYXNlLTYuMC4xOTExMTcuOTkwMTU1SARQA1oHaVBhZDUsMWCAr7X3//////8BahBBbWVyaWNhL05ld19Zb3JrcAGAAcu3PIoBAJIBJDUwRDBENEFELTVENkUtNDRBMi1CN0RDLTE2MkI0ODcxRDE4RJgBzvvcvu8tqAG2zM0B
+X-GOOGLE-BTD        : 1
+COOKIE              : COMPASS=bigtop-sync=Co8BAAlriVeOF-iB1mAPtMnGOLYCj0k0fyvpErqdbfzwfs_UobTt8NYjpUw19X32CoVQxV4e0KbF_l2hAtqIj4w6yLZ6lTOfFckTxmSLgRILPe73_k212cvzp-WAW1O7Gz2QqnNVA-EPcIVwBhVQazDJQLe8scwVYRlUIVW6Dy0byPcC6s14tA0VZy0CHGy4qFIQidvG7wUaoQEACWuJV1H-CY9in7N8kOPm3k8WA6adZaCZp5Nn6CLr1AEw9HZEa-DX-vHhBVafabv_393yGhk99XjlydtFWvCuI4YhnpTZ_8DdJZn8srjHSSMdmcqK3hz26vckxhhXy_DwKiHMdtyDswWNj4bexMdcgcPi9SsQxqQe8L5XypipKceDUkG7LYqu-2QDzDqn_jQe7D7s1FmsXgcAk6xA6B9Vlg; NID=193=ClWCxinFrIA8V4Y2gVtnmXqnBYiTxWKh407L_0mdyFIWLs5SbHQEfJTfthFjNR9AhNA5HLNPaj7_6g1g2IZHkc1gKg23pLoV9XdhVpXc4OLQzlVR9L-WsTbMrq2xO5DgVfa70gdNLGGkl9rUjLUC5MU-qNKHsKpGSf80b25aQv3tasb85bw
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/vnd.google.octet-stream-compressible
+--------------------------------------------------response headers:
+CACHE-CONTROL       : no-cache, no-store, max-age=0, must-revalidate
+--------------------------------------------------response headers:
+PRAGMA              : no-cache
+--------------------------------------------------response headers:
+EXPIRES             : Mon, 01 Jan 1990 00:00:00 GMT
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:01:48 GMT
+--------------------------------------------------response headers:
+CONTENT-DISPOSITION : attachment; filename="response.bin"; filename*=UTF-8''response.bin
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+X-GOOG-SERVER-LATENCY: 56
+--------------------------------------------------response headers:
+X-CONTENT-TYPE-OPTIONS: nosniff
+--------------------------------------------------response headers:
+X-FRAME-OPTIONS     : SAMEORIGIN
+--------------------------------------------------response headers:
+X-XSS-PROTECTION    : 1; mode=block
+--------------------------------------------------response headers:
+SERVER              : GSE
+--------------------------------------------------response headers:
+ALT-SVC             : clear
+--------------------------------------------------response headers:
+
+=
+POST /sync/i/fd?hl=en-US&c=28 HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : inbox.google.com:443
+CONTENT-TYPE        : application/x-protobuf
+ACCEPT              : */*
+AUTHORIZATION       : OAuth ya29.IoACtAf8Uhz2CvZdUFYaozvs5yt6SSzj62caGxKN51Gaca-ct7d6wd05czBgyQaN_xljWw56UDwk7n-uUA4wezv6d1q0PS_-eIBWI4aejXw6fP0TPywiFw5RINUU9W9o8UFAS5NieybMl2nm8s1GxUiulNSGJK6cgyABYtgM2kNQnxWbBCs8zNFohVrixHVFg6gVU2PVyomtbGBtupXgNfqElkMyv5jZvydoH0txW0OmrjzfipTfLPSP0z0paWMkUJOJhmHcd7b-jim1LydAVDOhMdlv3I9e-ve_t2GM90aAWINHuZ_VN9pSJI5sHLmAnEG5EFODip2yEIaXhVStivf2zw
+ACCEPT-ENCODING     : gzip, deflate, br
+ACCEPT-LANGUAGE     : en-us
+CONTENT-LENGTH      : 61
+USER-AGENT          : Google Gmail/6.0.191117.990155 model/iPad5,1 iOS/13.1
+X-GMAIL-BTAI        : GrwBMABQAVgBaAF4AYABAYgBAZABAJgBAbABALgBAcABAcgBAdABAdgBAOABAegBAfABAfgBAIACAIgCAJACAZgCAKACAKoCAmVusgI1R29vZ2xlIEdtYWlsLzYuMC4xOTExMTcuOTkwMTU1IG1vZGVsL2lQYWQ1LDEgaU9TLzEzLjHAAgDIAhnQAgDYAgDgAgDoAgDwAgD4AgCAAwGIAwGQAwCYAwCgAwCoAwCwAwC4AwDAAwDIAwDQAwDYAwA4FEIqY29tLmdvb2dsZS5HbWFpbC1yZWxlYXNlLTYuMC4xOTExMTcuOTkwMTU1SARQA1oHaVBhZDUsMWCAr7X3//////8BahBBbWVyaWNhL05ld19Zb3JrcAGAAcu3PIoBAJIBJDUwRDBENEFELTVENkUtNDRBMi1CN0RDLTE2MkI0ODcxRDE4RJgBiondvu8tqAG2zM0B
+X-GOOGLE-BTD        : 1
+COOKIE              : COMPASS=bigtop-sync=Co8BAAlriVeOF-iB1mAPtMnGOLYCj0k0fyvpErqdbfzwfs_UobTt8NYjpUw19X32CoVQxV4e0KbF_l2hAtqIj4w6yLZ6lTOfFckTxmSLgRILPe73_k212cvzp-WAW1O7Gz2QqnNVA-EPcIVwBhVQazDJQLe8scwVYRlUIVW6Dy0byPcC6s14tA0VZy0CHGy4qFIQidvG7wUaoQEACWuJV1H-CY9in7N8kOPm3k8WA6adZaCZp5Nn6CLr1AEw9HZEa-DX-vHhBVafabv_393yGhk99XjlydtFWvCuI4YhnpTZ_8DdJZn8srjHSSMdmcqK3hz26vckxhhXy_DwKiHMdtyDswWNj4bexMdcgcPi9SsQxqQe8L5XypipKceDUkG7LYqu-2QDzDqn_jQe7D7s1FmsXgcAk6xA6B9Vlg; NID=193=ClWCxinFrIA8V4Y2gVtnmXqnBYiTxWKh407L_0mdyFIWLs5SbHQEfJTfthFjNR9AhNA5HLNPaj7_6g1g2IZHkc1gKg23pLoV9XdhVpXc4OLQzlVR9L-WsTbMrq2xO5DgVfa70gdNLGGkl9rUjLUC5MU-qNKHsKpGSf80b25aQv3tasb85bw
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/vnd.google.octet-stream-compressible
+--------------------------------------------------response headers:
+CACHE-CONTROL       : no-cache, no-store, max-age=0, must-revalidate
+--------------------------------------------------response headers:
+PRAGMA              : no-cache
+--------------------------------------------------response headers:
+EXPIRES             : Mon, 01 Jan 1990 00:00:00 GMT
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:01:50 GMT
+--------------------------------------------------response headers:
+CONTENT-DISPOSITION : attachment; filename="response.bin"; filename*=UTF-8''response.bin
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+X-GOOG-SERVER-LATENCY: 142
+--------------------------------------------------response headers:
+X-CONTENT-TYPE-OPTIONS: nosniff
+--------------------------------------------------response headers:
+X-FRAME-OPTIONS     : SAMEORIGIN
+--------------------------------------------------response headers:
+X-XSS-PROTECTION    : 1; mode=block
+--------------------------------------------------response headers:
+SERVER              : GSE
+--------------------------------------------------response headers:
+ALT-SVC             : clear
+--------------------------------------------------response headers:
+
+=
+POST /sync/i/fd?hl=en-US&c=29 HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : inbox.google.com:443
+CONTENT-TYPE        : application/x-protobuf
+ACCEPT              : */*
+AUTHORIZATION       : OAuth ya29.IoACtAf8Uhz2CvZdUFYaozvs5yt6SSzj62caGxKN51Gaca-ct7d6wd05czBgyQaN_xljWw56UDwk7n-uUA4wezv6d1q0PS_-eIBWI4aejXw6fP0TPywiFw5RINUU9W9o8UFAS5NieybMl2nm8s1GxUiulNSGJK6cgyABYtgM2kNQnxWbBCs8zNFohVrixHVFg6gVU2PVyomtbGBtupXgNfqElkMyv5jZvydoH0txW0OmrjzfipTfLPSP0z0paWMkUJOJhmHcd7b-jim1LydAVDOhMdlv3I9e-ve_t2GM90aAWINHuZ_VN9pSJI5sHLmAnEG5EFODip2yEIaXhVStivf2zw
+ACCEPT-ENCODING     : gzip, deflate, br
+ACCEPT-LANGUAGE     : en-us
+CONTENT-LENGTH      : 61
+USER-AGENT          : Google Gmail/6.0.191117.990155 model/iPad5,1 iOS/13.1
+X-GMAIL-BTAI        : GrwBMABQAVgBaAF4AYABAYgBAZABAJgBAbABALgBAcABAcgBAdABAdgBAOABAegBAfABAfgBAIACAIgCAJACAZgCAKACAKoCAmVusgI1R29vZ2xlIEdtYWlsLzYuMC4xOTExMTcuOTkwMTU1IG1vZGVsL2lQYWQ1LDEgaU9TLzEzLjHAAgDIAhnQAgDYAgDgAgDoAgDwAgD4AgCAAwGIAwGQAwCYAwCgAwCoAwCwAwC4AwDAAwDIAwDQAwDYAwA4FEIqY29tLmdvb2dsZS5HbWFpbC1yZWxlYXNlLTYuMC4xOTExMTcuOTkwMTU1SARQA1oHaVBhZDUsMWCAr7X3//////8BahBBbWVyaWNhL05ld19Zb3JrcAGAAcu3PIoBAJIBJDUwRDBENEFELTVENkUtNDRBMi1CN0RDLTE2MkI0ODcxRDE4RJgBpYzdvu8tqAG2zM0B
+X-GOOGLE-BTD        : 1
+COOKIE              : COMPASS=bigtop-sync=Co8BAAlriVeOF-iB1mAPtMnGOLYCj0k0fyvpErqdbfzwfs_UobTt8NYjpUw19X32CoVQxV4e0KbF_l2hAtqIj4w6yLZ6lTOfFckTxmSLgRILPe73_k212cvzp-WAW1O7Gz2QqnNVA-EPcIVwBhVQazDJQLe8scwVYRlUIVW6Dy0byPcC6s14tA0VZy0CHGy4qFIQidvG7wUaoQEACWuJV1H-CY9in7N8kOPm3k8WA6adZaCZp5Nn6CLr1AEw9HZEa-DX-vHhBVafabv_393yGhk99XjlydtFWvCuI4YhnpTZ_8DdJZn8srjHSSMdmcqK3hz26vckxhhXy_DwKiHMdtyDswWNj4bexMdcgcPi9SsQxqQe8L5XypipKceDUkG7LYqu-2QDzDqn_jQe7D7s1FmsXgcAk6xA6B9Vlg; NID=193=ClWCxinFrIA8V4Y2gVtnmXqnBYiTxWKh407L_0mdyFIWLs5SbHQEfJTfthFjNR9AhNA5HLNPaj7_6g1g2IZHkc1gKg23pLoV9XdhVpXc4OLQzlVR9L-WsTbMrq2xO5DgVfa70gdNLGGkl9rUjLUC5MU-qNKHsKpGSf80b25aQv3tasb85bw
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/vnd.google.octet-stream-compressible
+--------------------------------------------------response headers:
+CACHE-CONTROL       : no-cache, no-store, max-age=0, must-revalidate
+--------------------------------------------------response headers:
+PRAGMA              : no-cache
+--------------------------------------------------response headers:
+EXPIRES             : Mon, 01 Jan 1990 00:00:00 GMT
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:01:51 GMT
+--------------------------------------------------response headers:
+CONTENT-DISPOSITION : attachment; filename="response.bin"; filename*=UTF-8''response.bin
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+X-GOOG-SERVER-LATENCY: 107
+--------------------------------------------------response headers:
+X-CONTENT-TYPE-OPTIONS: nosniff
+--------------------------------------------------response headers:
+X-FRAME-OPTIONS     : SAMEORIGIN
+--------------------------------------------------response headers:
+X-XSS-PROTECTION    : 1; mode=block
+--------------------------------------------------response headers:
+SERVER              : GSE
+--------------------------------------------------response headers:
+ALT-SVC             : clear
+--------------------------------------------------response headers:
+
+=
+POST /sync/i/fd?hl=en-US&c=30 HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : inbox.google.com:443
+CONTENT-TYPE        : application/x-protobuf
+ACCEPT              : */*
+AUTHORIZATION       : OAuth ya29.IoACtAf8Uhz2CvZdUFYaozvs5yt6SSzj62caGxKN51Gaca-ct7d6wd05czBgyQaN_xljWw56UDwk7n-uUA4wezv6d1q0PS_-eIBWI4aejXw6fP0TPywiFw5RINUU9W9o8UFAS5NieybMl2nm8s1GxUiulNSGJK6cgyABYtgM2kNQnxWbBCs8zNFohVrixHVFg6gVU2PVyomtbGBtupXgNfqElkMyv5jZvydoH0txW0OmrjzfipTfLPSP0z0paWMkUJOJhmHcd7b-jim1LydAVDOhMdlv3I9e-ve_t2GM90aAWINHuZ_VN9pSJI5sHLmAnEG5EFODip2yEIaXhVStivf2zw
+ACCEPT-ENCODING     : gzip, deflate, br
+ACCEPT-LANGUAGE     : en-us
+CONTENT-LENGTH      : 179
+USER-AGENT          : Google Gmail/6.0.191117.990155 model/iPad5,1 iOS/13.1
+X-GMAIL-BTAI        : GrwBMABQAVgBaAF4AYABAYgBAZABAJgBAbABALgBAcABAcgBAdABAdgBAOABAegBAfABAfgBAIACAIgCAJACAZgCAKACAKoCAmVusgI1R29vZ2xlIEdtYWlsLzYuMC4xOTExMTcuOTkwMTU1IG1vZGVsL2lQYWQ1LDEgaU9TLzEzLjHAAgDIAhnQAgDYAgDgAgDoAgDwAgD4AgCAAwGIAwGQAwCYAwCgAwCoAwCwAwC4AwDAAwDIAwDQAwDYAwA4FEIqY29tLmdvb2dsZS5HbWFpbC1yZWxlYXNlLTYuMC4xOTExMTcuOTkwMTU1SARQA1oHaVBhZDUsMWCAr7X3//////8BahBBbWVyaWNhL05ld19Zb3JrcAGAAcu3PIoBAJIBJDUwRDBENEFELTVENkUtNDRBMi1CN0RDLTE2MkI0ODcxRDE4RJgBk5zdvu8tqAG2zM0B
+X-GOOGLE-BTD        : 1
+COOKIE              : COMPASS=bigtop-sync=Co8BAAlriVeOF-iB1mAPtMnGOLYCj0k0fyvpErqdbfzwfs_UobTt8NYjpUw19X32CoVQxV4e0KbF_l2hAtqIj4w6yLZ6lTOfFckTxmSLgRILPe73_k212cvzp-WAW1O7Gz2QqnNVA-EPcIVwBhVQazDJQLe8scwVYRlUIVW6Dy0byPcC6s14tA0VZy0CHGy4qFIQidvG7wUaoQEACWuJV1H-CY9in7N8kOPm3k8WA6adZaCZp5Nn6CLr1AEw9HZEa-DX-vHhBVafabv_393yGhk99XjlydtFWvCuI4YhnpTZ_8DdJZn8srjHSSMdmcqK3hz26vckxhhXy_DwKiHMdtyDswWNj4bexMdcgcPi9SsQxqQe8L5XypipKceDUkG7LYqu-2QDzDqn_jQe7D7s1FmsXgcAk6xA6B9Vlg; NID=193=ClWCxinFrIA8V4Y2gVtnmXqnBYiTxWKh407L_0mdyFIWLs5SbHQEfJTfthFjNR9AhNA5HLNPaj7_6g1g2IZHkc1gKg23pLoV9XdhVpXc4OLQzlVR9L-WsTbMrq2xO5DgVfa70gdNLGGkl9rUjLUC5MU-qNKHsKpGSf80b25aQv3tasb85bw
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/vnd.google.octet-stream-compressible
+--------------------------------------------------response headers:
+CACHE-CONTROL       : no-cache, no-store, max-age=0, must-revalidate
+--------------------------------------------------response headers:
+PRAGMA              : no-cache
+--------------------------------------------------response headers:
+EXPIRES             : Mon, 01 Jan 1990 00:00:00 GMT
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:01:53 GMT
+--------------------------------------------------response headers:
+CONTENT-DISPOSITION : attachment; filename="response.bin"; filename*=UTF-8''response.bin
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+X-GOOG-SERVER-LATENCY: 209
+--------------------------------------------------response headers:
+X-CONTENT-TYPE-OPTIONS: nosniff
+--------------------------------------------------response headers:
+X-FRAME-OPTIONS     : SAMEORIGIN
+--------------------------------------------------response headers:
+X-XSS-PROTECTION    : 1; mode=block
+--------------------------------------------------response headers:
+SERVER              : GSE
+--------------------------------------------------response headers:
+ALT-SVC             : clear
+--------------------------------------------------response headers:
+
+=
+POST /sync/i/fd?hl=en-US&c=31 HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : inbox.google.com:443
+CONTENT-TYPE        : application/x-protobuf
+ACCEPT              : */*
+AUTHORIZATION       : OAuth ya29.IoACtAf8Uhz2CvZdUFYaozvs5yt6SSzj62caGxKN51Gaca-ct7d6wd05czBgyQaN_xljWw56UDwk7n-uUA4wezv6d1q0PS_-eIBWI4aejXw6fP0TPywiFw5RINUU9W9o8UFAS5NieybMl2nm8s1GxUiulNSGJK6cgyABYtgM2kNQnxWbBCs8zNFohVrixHVFg6gVU2PVyomtbGBtupXgNfqElkMyv5jZvydoH0txW0OmrjzfipTfLPSP0z0paWMkUJOJhmHcd7b-jim1LydAVDOhMdlv3I9e-ve_t2GM90aAWINHuZ_VN9pSJI5sHLmAnEG5EFODip2yEIaXhVStivf2zw
+ACCEPT-ENCODING     : gzip, deflate, br
+ACCEPT-LANGUAGE     : en-us
+CONTENT-LENGTH      : 61
+USER-AGENT          : Google Gmail/6.0.191117.990155 model/iPad5,1 iOS/13.1
+X-GMAIL-BTAI        : GrwBMABQAVgBaAF4AYABAYgBAZABAJgBAbABALgBAcABAcgBAdABAdgBAOABAegBAfABAfgBAIACAIgCAJACAZgCAKACAKoCAmVusgI1R29vZ2xlIEdtYWlsLzYuMC4xOTExMTcuOTkwMTU1IG1vZGVsL2lQYWQ1LDEgaU9TLzEzLjHAAgDIAhnQAgDYAgDgAgDoAgDwAgD4AgCAAwGIAwGQAwCYAwCgAwCoAwCwAwC4AwDAAwDIAwDQAwDYAwA4FEIqY29tLmdvb2dsZS5HbWFpbC1yZWxlYXNlLTYuMC4xOTExMTcuOTkwMTU1SARQA1oHaVBhZDUsMWCAr7X3//////8BahBBbWVyaWNhL05ld19Zb3JrcAGAAcu3PIoBAJIBJDUwRDBENEFELTVENkUtNDRBMi1CN0RDLTE2MkI0ODcxRDE4RJgBrp7dvu8tqAG2zM0B
+X-GOOGLE-BTD        : 1
+COOKIE              : COMPASS=bigtop-sync=Co8BAAlriVeOF-iB1mAPtMnGOLYCj0k0fyvpErqdbfzwfs_UobTt8NYjpUw19X32CoVQxV4e0KbF_l2hAtqIj4w6yLZ6lTOfFckTxmSLgRILPe73_k212cvzp-WAW1O7Gz2QqnNVA-EPcIVwBhVQazDJQLe8scwVYRlUIVW6Dy0byPcC6s14tA0VZy0CHGy4qFIQidvG7wUaoQEACWuJV1H-CY9in7N8kOPm3k8WA6adZaCZp5Nn6CLr1AEw9HZEa-DX-vHhBVafabv_393yGhk99XjlydtFWvCuI4YhnpTZ_8DdJZn8srjHSSMdmcqK3hz26vckxhhXy_DwKiHMdtyDswWNj4bexMdcgcPi9SsQxqQe8L5XypipKceDUkG7LYqu-2QDzDqn_jQe7D7s1FmsXgcAk6xA6B9Vlg; NID=193=ClWCxinFrIA8V4Y2gVtnmXqnBYiTxWKh407L_0mdyFIWLs5SbHQEfJTfthFjNR9AhNA5HLNPaj7_6g1g2IZHkc1gKg23pLoV9XdhVpXc4OLQzlVR9L-WsTbMrq2xO5DgVfa70gdNLGGkl9rUjLUC5MU-qNKHsKpGSf80b25aQv3tasb85bw
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/vnd.google.octet-stream-compressible
+--------------------------------------------------response headers:
+CACHE-CONTROL       : no-cache, no-store, max-age=0, must-revalidate
+--------------------------------------------------response headers:
+PRAGMA              : no-cache
+--------------------------------------------------response headers:
+EXPIRES             : Mon, 01 Jan 1990 00:00:00 GMT
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:01:53 GMT
+--------------------------------------------------response headers:
+CONTENT-DISPOSITION : attachment; filename="response.bin"; filename*=UTF-8''response.bin
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+X-GOOG-SERVER-LATENCY: 34
+--------------------------------------------------response headers:
+X-CONTENT-TYPE-OPTIONS: nosniff
+--------------------------------------------------response headers:
+X-FRAME-OPTIONS     : SAMEORIGIN
+--------------------------------------------------response headers:
+X-XSS-PROTECTION    : 1; mode=block
+--------------------------------------------------response headers:
+SERVER              : GSE
+--------------------------------------------------response headers:
+ALT-SVC             : clear
+--------------------------------------------------response headers:
+
+=
+POST /sync/i/fd?hl=en-US&c=32 HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : inbox.google.com:443
+CONTENT-TYPE        : application/x-protobuf
+ACCEPT              : */*
+AUTHORIZATION       : OAuth ya29.IoACtAf8Uhz2CvZdUFYaozvs5yt6SSzj62caGxKN51Gaca-ct7d6wd05czBgyQaN_xljWw56UDwk7n-uUA4wezv6d1q0PS_-eIBWI4aejXw6fP0TPywiFw5RINUU9W9o8UFAS5NieybMl2nm8s1GxUiulNSGJK6cgyABYtgM2kNQnxWbBCs8zNFohVrixHVFg6gVU2PVyomtbGBtupXgNfqElkMyv5jZvydoH0txW0OmrjzfipTfLPSP0z0paWMkUJOJhmHcd7b-jim1LydAVDOhMdlv3I9e-ve_t2GM90aAWINHuZ_VN9pSJI5sHLmAnEG5EFODip2yEIaXhVStivf2zw
+ACCEPT-ENCODING     : gzip, deflate, br
+ACCEPT-LANGUAGE     : en-us
+CONTENT-LENGTH      : 415
+USER-AGENT          : Google Gmail/6.0.191117.990155 model/iPad5,1 iOS/13.1
+X-GMAIL-BTAI        : GrwBMABQAVgBaAF4AYABAYgBAZABAJgBAbABALgBAcABAcgBAdABAdgBAOABAegBAfABAfgBAIACAIgCAJACAZgCAKACAKoCAmVusgI1R29vZ2xlIEdtYWlsLzYuMC4xOTExMTcuOTkwMTU1IG1vZGVsL2lQYWQ1LDEgaU9TLzEzLjHAAgDIAhnQAgDYAgDgAgDoAgDwAgD4AgCAAwGIAwGQAwCYAwCgAwCoAwCwAwC4AwDAAwDIAwDQAwDYAwA4FEIqY29tLmdvb2dsZS5HbWFpbC1yZWxlYXNlLTYuMC4xOTExMTcuOTkwMTU1SARQA1oHaVBhZDUsMWCAr7X3//////8BahBBbWVyaWNhL05ld19Zb3JrcAGAAcu3PIoBAJIBJDUwRDBENEFELTVENkUtNDRBMi1CN0RDLTE2MkI0ODcxRDE4RJgB86Ddvu8tqAG2zM0B
+X-GOOGLE-BTD        : 1
+COOKIE              : COMPASS=bigtop-sync=Co8BAAlriVeOF-iB1mAPtMnGOLYCj0k0fyvpErqdbfzwfs_UobTt8NYjpUw19X32CoVQxV4e0KbF_l2hAtqIj4w6yLZ6lTOfFckTxmSLgRILPe73_k212cvzp-WAW1O7Gz2QqnNVA-EPcIVwBhVQazDJQLe8scwVYRlUIVW6Dy0byPcC6s14tA0VZy0CHGy4qFIQidvG7wUaoQEACWuJV1H-CY9in7N8kOPm3k8WA6adZaCZp5Nn6CLr1AEw9HZEa-DX-vHhBVafabv_393yGhk99XjlydtFWvCuI4YhnpTZ_8DdJZn8srjHSSMdmcqK3hz26vckxhhXy_DwKiHMdtyDswWNj4bexMdcgcPi9SsQxqQe8L5XypipKceDUkG7LYqu-2QDzDqn_jQe7D7s1FmsXgcAk6xA6B9Vlg; NID=193=ClWCxinFrIA8V4Y2gVtnmXqnBYiTxWKh407L_0mdyFIWLs5SbHQEfJTfthFjNR9AhNA5HLNPaj7_6g1g2IZHkc1gKg23pLoV9XdhVpXc4OLQzlVR9L-WsTbMrq2xO5DgVfa70gdNLGGkl9rUjLUC5MU-qNKHsKpGSf80b25aQv3tasb85bw
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/vnd.google.octet-stream-compressible
+--------------------------------------------------response headers:
+CACHE-CONTROL       : no-cache, no-store, max-age=0, must-revalidate
+--------------------------------------------------response headers:
+PRAGMA              : no-cache
+--------------------------------------------------response headers:
+EXPIRES             : Mon, 01 Jan 1990 00:00:00 GMT
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:01:53 GMT
+--------------------------------------------------response headers:
+CONTENT-DISPOSITION : attachment; filename="response.bin"; filename*=UTF-8''response.bin
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+X-GOOG-SERVER-LATENCY: 134
+--------------------------------------------------response headers:
+X-CONTENT-TYPE-OPTIONS: nosniff
+--------------------------------------------------response headers:
+X-FRAME-OPTIONS     : SAMEORIGIN
+--------------------------------------------------response headers:
+X-XSS-PROTECTION    : 1; mode=block
+--------------------------------------------------response headers:
+SERVER              : GSE
+--------------------------------------------------response headers:
+ALT-SVC             : clear
+--------------------------------------------------response headers:
+
+=
+POST /sync/el2?hl=en-US&c=33 HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : inbox.google.com:443
+CONTENT-TYPE        : application/x-protobuf
+ACCEPT              : */*
+AUTHORIZATION       : OAuth ya29.IoACtAf8Uhz2CvZdUFYaozvs5yt6SSzj62caGxKN51Gaca-ct7d6wd05czBgyQaN_xljWw56UDwk7n-uUA4wezv6d1q0PS_-eIBWI4aejXw6fP0TPywiFw5RINUU9W9o8UFAS5NieybMl2nm8s1GxUiulNSGJK6cgyABYtgM2kNQnxWbBCs8zNFohVrixHVFg6gVU2PVyomtbGBtupXgNfqElkMyv5jZvydoH0txW0OmrjzfipTfLPSP0z0paWMkUJOJhmHcd7b-jim1LydAVDOhMdlv3I9e-ve_t2GM90aAWINHuZ_VN9pSJI5sHLmAnEG5EFODip2yEIaXhVStivf2zw
+ACCEPT-ENCODING     : gzip, deflate, br
+ACCEPT-LANGUAGE     : en-us
+CONTENT-LENGTH      : 698
+USER-AGENT          : Google Gmail/6.0.191117.990155 model/iPad5,1 iOS/13.1
+X-GMAIL-BTAI        : GrwBMABQAVgBaAF4AYABAYgBAZABAJgBAbABALgBAcABAcgBAdABAdgBAOABAegBAfABAfgBAIACAIgCAJACAZgCAKACAKoCAmVusgI1R29vZ2xlIEdtYWlsLzYuMC4xOTExMTcuOTkwMTU1IG1vZGVsL2lQYWQ1LDEgaU9TLzEzLjHAAgDIAhnQAgDYAgDgAgDoAgDwAgD4AgCAAwGIAwGQAwCYAwCgAwCoAwCwAwC4AwDAAwDIAwDQAwDYAwA4FEIqY29tLmdvb2dsZS5HbWFpbC1yZWxlYXNlLTYuMC4xOTExMTcuOTkwMTU1SARQA1oHaVBhZDUsMWCAr7X3//////8BahBBbWVyaWNhL05ld19Zb3JrcAGAAcu3PIoBAJIBJDUwRDBENEFELTVENkUtNDRBMi1CN0RDLTE2MkI0ODcxRDE4RJgBxaHdvu8tqAG2zM0B
+X-GOOGLE-BTD        : 1
+COOKIE              : COMPASS=bigtop-sync=Co8BAAlriVeOF-iB1mAPtMnGOLYCj0k0fyvpErqdbfzwfs_UobTt8NYjpUw19X32CoVQxV4e0KbF_l2hAtqIj4w6yLZ6lTOfFckTxmSLgRILPe73_k212cvzp-WAW1O7Gz2QqnNVA-EPcIVwBhVQazDJQLe8scwVYRlUIVW6Dy0byPcC6s14tA0VZy0CHGy4qFIQidvG7wUaoQEACWuJV1H-CY9in7N8kOPm3k8WA6adZaCZp5Nn6CLr1AEw9HZEa-DX-vHhBVafabv_393yGhk99XjlydtFWvCuI4YhnpTZ_8DdJZn8srjHSSMdmcqK3hz26vckxhhXy_DwKiHMdtyDswWNj4bexMdcgcPi9SsQxqQe8L5XypipKceDUkG7LYqu-2QDzDqn_jQe7D7s1FmsXgcAk6xA6B9Vlg; NID=193=ClWCxinFrIA8V4Y2gVtnmXqnBYiTxWKh407L_0mdyFIWLs5SbHQEfJTfthFjNR9AhNA5HLNPaj7_6g1g2IZHkc1gKg23pLoV9XdhVpXc4OLQzlVR9L-WsTbMrq2xO5DgVfa70gdNLGGkl9rUjLUC5MU-qNKHsKpGSf80b25aQv3tasb85bw
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/vnd.google.octet-stream-compressible
+--------------------------------------------------response headers:
+CACHE-CONTROL       : no-cache, no-store, max-age=0, must-revalidate
+--------------------------------------------------response headers:
+PRAGMA              : no-cache
+--------------------------------------------------response headers:
+EXPIRES             : Mon, 01 Jan 1990 00:00:00 GMT
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:01:53 GMT
+--------------------------------------------------response headers:
+CONTENT-DISPOSITION : attachment; filename="response.bin"; filename*=UTF-8''response.bin
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+X-GOOG-SERVER-LATENCY: 10
+--------------------------------------------------response headers:
+X-CONTENT-TYPE-OPTIONS: nosniff
+--------------------------------------------------response headers:
+X-FRAME-OPTIONS     : SAMEORIGIN
+--------------------------------------------------response headers:
+X-XSS-PROTECTION    : 1; mode=block
+--------------------------------------------------response headers:
+SERVER              : GSE
+--------------------------------------------------response headers:
+ALT-SVC             : clear
+--------------------------------------------------response headers:
+
+=
+POST /sync/i/s?hl=en-US&c=34 HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : inbox.google.com:443
+CONTENT-TYPE        : application/x-protobuf
+ACCEPT              : */*
+AUTHORIZATION       : OAuth ya29.IoACtAf8Uhz2CvZdUFYaozvs5yt6SSzj62caGxKN51Gaca-ct7d6wd05czBgyQaN_xljWw56UDwk7n-uUA4wezv6d1q0PS_-eIBWI4aejXw6fP0TPywiFw5RINUU9W9o8UFAS5NieybMl2nm8s1GxUiulNSGJK6cgyABYtgM2kNQnxWbBCs8zNFohVrixHVFg6gVU2PVyomtbGBtupXgNfqElkMyv5jZvydoH0txW0OmrjzfipTfLPSP0z0paWMkUJOJhmHcd7b-jim1LydAVDOhMdlv3I9e-ve_t2GM90aAWINHuZ_VN9pSJI5sHLmAnEG5EFODip2yEIaXhVStivf2zw
+ACCEPT-ENCODING     : gzip, deflate, br
+ACCEPT-LANGUAGE     : en-us
+CONTENT-LENGTH      : 119
+USER-AGENT          : Google Gmail/6.0.191117.990155 model/iPad5,1 iOS/13.1
+X-GMAIL-BTAI        : GrwBMABQAVgBaAF4AYABAYgBAZABAJgBAbABALgBAcABAcgBAdABAdgBAOABAegBAfABAfgBAIACAIgCAJACAZgCAKACAKoCAmVusgI1R29vZ2xlIEdtYWlsLzYuMC4xOTExMTcuOTkwMTU1IG1vZGVsL2lQYWQ1LDEgaU9TLzEzLjHAAgDIAhnQAgDYAgDgAgDoAgDwAgD4AgCAAwGIAwGQAwCYAwCgAwCoAwCwAwC4AwDAAwDIAwDQAwDYAwA4FEIqY29tLmdvb2dsZS5HbWFpbC1yZWxlYXNlLTYuMC4xOTExMTcuOTkwMTU1SARQA1oHaVBhZDUsMWCAr7X3//////8BahBBbWVyaWNhL05ld19Zb3JrcAGAAcu3PIoBAJIBJDUwRDBENEFELTVENkUtNDRBMi1CN0RDLTE2MkI0ODcxRDE4RJgB66Ldvu8tqAG2zM0B
+X-GOOGLE-BTD        : 1
+COOKIE              : COMPASS=bigtop-sync=Co8BAAlriVeOF-iB1mAPtMnGOLYCj0k0fyvpErqdbfzwfs_UobTt8NYjpUw19X32CoVQxV4e0KbF_l2hAtqIj4w6yLZ6lTOfFckTxmSLgRILPe73_k212cvzp-WAW1O7Gz2QqnNVA-EPcIVwBhVQazDJQLe8scwVYRlUIVW6Dy0byPcC6s14tA0VZy0CHGy4qFIQidvG7wUaoQEACWuJV1H-CY9in7N8kOPm3k8WA6adZaCZp5Nn6CLr1AEw9HZEa-DX-vHhBVafabv_393yGhk99XjlydtFWvCuI4YhnpTZ_8DdJZn8srjHSSMdmcqK3hz26vckxhhXy_DwKiHMdtyDswWNj4bexMdcgcPi9SsQxqQe8L5XypipKceDUkG7LYqu-2QDzDqn_jQe7D7s1FmsXgcAk6xA6B9Vlg; NID=193=ClWCxinFrIA8V4Y2gVtnmXqnBYiTxWKh407L_0mdyFIWLs5SbHQEfJTfthFjNR9AhNA5HLNPaj7_6g1g2IZHkc1gKg23pLoV9XdhVpXc4OLQzlVR9L-WsTbMrq2xO5DgVfa70gdNLGGkl9rUjLUC5MU-qNKHsKpGSf80b25aQv3tasb85bw
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/vnd.google.octet-stream-compressible
+--------------------------------------------------response headers:
+CACHE-CONTROL       : no-cache, no-store, max-age=0, must-revalidate
+--------------------------------------------------response headers:
+PRAGMA              : no-cache
+--------------------------------------------------response headers:
+EXPIRES             : Mon, 01 Jan 1990 00:00:00 GMT
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:01:54 GMT
+--------------------------------------------------response headers:
+CONTENT-DISPOSITION : attachment; filename="response.bin"; filename*=UTF-8''response.bin
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+X-GOOG-SERVER-LATENCY: 231
+--------------------------------------------------response headers:
+X-CONTENT-TYPE-OPTIONS: nosniff
+--------------------------------------------------response headers:
+X-FRAME-OPTIONS     : SAMEORIGIN
+--------------------------------------------------response headers:
+X-XSS-PROTECTION    : 1; mode=block
+--------------------------------------------------response headers:
+SERVER              : GSE
+--------------------------------------------------response headers:
+ALT-SVC             : clear
+--------------------------------------------------response headers:
+
+=
+POST /sync/el2?hl=en-US&c=35 HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : inbox.google.com:443
+CONTENT-TYPE        : application/x-protobuf
+ACCEPT              : */*
+AUTHORIZATION       : OAuth ya29.IoACtAf8Uhz2CvZdUFYaozvs5yt6SSzj62caGxKN51Gaca-ct7d6wd05czBgyQaN_xljWw56UDwk7n-uUA4wezv6d1q0PS_-eIBWI4aejXw6fP0TPywiFw5RINUU9W9o8UFAS5NieybMl2nm8s1GxUiulNSGJK6cgyABYtgM2kNQnxWbBCs8zNFohVrixHVFg6gVU2PVyomtbGBtupXgNfqElkMyv5jZvydoH0txW0OmrjzfipTfLPSP0z0paWMkUJOJhmHcd7b-jim1LydAVDOhMdlv3I9e-ve_t2GM90aAWINHuZ_VN9pSJI5sHLmAnEG5EFODip2yEIaXhVStivf2zw
+ACCEPT-ENCODING     : gzip, deflate, br
+ACCEPT-LANGUAGE     : en-us
+CONTENT-LENGTH      : 110
+USER-AGENT          : Google Gmail/6.0.191117.990155 model/iPad5,1 iOS/13.1
+X-GMAIL-BTAI        : GrwBMABQAVgBaAF4AYABAYgBAZABAJgBAbABALgBAcABAcgBAdABAdgBAOABAegBAfABAfgBAIACAIgCAJACAZgCAKACAKoCAmVusgI1R29vZ2xlIEdtYWlsLzYuMC4xOTExMTcuOTkwMTU1IG1vZGVsL2lQYWQ1LDEgaU9TLzEzLjHAAgDIAhnQAgDYAgDgAgDoAgDwAgD4AgCAAwGIAwGQAwCYAwCgAwCoAwCwAwC4AwDAAwDIAwDQAwDYAwA4FEIqY29tLmdvb2dsZS5HbWFpbC1yZWxlYXNlLTYuMC4xOTExMTcuOTkwMTU1SARQA1oHaVBhZDUsMWCAr7X3//////8BahBBbWVyaWNhL05ld19Zb3JrcAGAAcu3PIoBAJIBJDUwRDBENEFELTVENkUtNDRBMi1CN0RDLTE2MkI0ODcxRDE4RJgBua3dvu8tqAG5zM0B
+X-GOOGLE-BTD        : 1
+COOKIE              : COMPASS=bigtop-sync=Co8BAAlriVeOF-iB1mAPtMnGOLYCj0k0fyvpErqdbfzwfs_UobTt8NYjpUw19X32CoVQxV4e0KbF_l2hAtqIj4w6yLZ6lTOfFckTxmSLgRILPe73_k212cvzp-WAW1O7Gz2QqnNVA-EPcIVwBhVQazDJQLe8scwVYRlUIVW6Dy0byPcC6s14tA0VZy0CHGy4qFIQidvG7wUaoQEACWuJV1H-CY9in7N8kOPm3k8WA6adZaCZp5Nn6CLr1AEw9HZEa-DX-vHhBVafabv_393yGhk99XjlydtFWvCuI4YhnpTZ_8DdJZn8srjHSSMdmcqK3hz26vckxhhXy_DwKiHMdtyDswWNj4bexMdcgcPi9SsQxqQe8L5XypipKceDUkG7LYqu-2QDzDqn_jQe7D7s1FmsXgcAk6xA6B9Vlg; NID=193=ClWCxinFrIA8V4Y2gVtnmXqnBYiTxWKh407L_0mdyFIWLs5SbHQEfJTfthFjNR9AhNA5HLNPaj7_6g1g2IZHkc1gKg23pLoV9XdhVpXc4OLQzlVR9L-WsTbMrq2xO5DgVfa70gdNLGGkl9rUjLUC5MU-qNKHsKpGSf80b25aQv3tasb85bw
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/vnd.google.octet-stream-compressible
+--------------------------------------------------response headers:
+CACHE-CONTROL       : no-cache, no-store, max-age=0, must-revalidate
+--------------------------------------------------response headers:
+PRAGMA              : no-cache
+--------------------------------------------------response headers:
+EXPIRES             : Mon, 01 Jan 1990 00:00:00 GMT
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:01:55 GMT
+--------------------------------------------------response headers:
+CONTENT-DISPOSITION : attachment; filename="response.bin"; filename*=UTF-8''response.bin
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+X-GOOG-SERVER-LATENCY: 9
+--------------------------------------------------response headers:
+X-CONTENT-TYPE-OPTIONS: nosniff
+--------------------------------------------------response headers:
+X-FRAME-OPTIONS     : SAMEORIGIN
+--------------------------------------------------response headers:
+X-XSS-PROTECTION    : 1; mode=block
+--------------------------------------------------response headers:
+SERVER              : GSE
+--------------------------------------------------response headers:
+ALT-SVC             : clear
+--------------------------------------------------response headers:
+
+=
+POST /sync/el2?hl=en-US&c=37 HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : inbox.google.com:443
+CONTENT-TYPE        : application/x-protobuf
+ACCEPT              : */*
+AUTHORIZATION       : OAuth ya29.IoACtAf8Uhz2CvZdUFYaozvs5yt6SSzj62caGxKN51Gaca-ct7d6wd05czBgyQaN_xljWw56UDwk7n-uUA4wezv6d1q0PS_-eIBWI4aejXw6fP0TPywiFw5RINUU9W9o8UFAS5NieybMl2nm8s1GxUiulNSGJK6cgyABYtgM2kNQnxWbBCs8zNFohVrixHVFg6gVU2PVyomtbGBtupXgNfqElkMyv5jZvydoH0txW0OmrjzfipTfLPSP0z0paWMkUJOJhmHcd7b-jim1LydAVDOhMdlv3I9e-ve_t2GM90aAWINHuZ_VN9pSJI5sHLmAnEG5EFODip2yEIaXhVStivf2zw
+ACCEPT-ENCODING     : gzip, deflate, br
+ACCEPT-LANGUAGE     : en-us
+CONTENT-LENGTH      : 176
+USER-AGENT          : Google Gmail/6.0.191117.990155 model/iPad5,1 iOS/13.1
+X-GMAIL-BTAI        : GrwBMABQAVgBaAF4AYABAYgBAZABAJgBAbABALgBAcABAcgBAdABAdgBAOABAegBAfABAfgBAIACAIgCAJACAZgCAKACAKoCAmVusgI1R29vZ2xlIEdtYWlsLzYuMC4xOTExMTcuOTkwMTU1IG1vZGVsL2lQYWQ1LDEgaU9TLzEzLjHAAgDIAhnQAgDYAgDgAgDoAgDwAgD4AgCAAwGIAwGQAwCYAwCgAwCoAwCwAwC4AwDAAwDIAwDQAwDYAwA4FEIqY29tLmdvb2dsZS5HbWFpbC1yZWxlYXNlLTYuMC4xOTExMTcuOTkwMTU1SARQA1oHaVBhZDUsMWCAr7X3//////8BahBBbWVyaWNhL05ld19Zb3JrcAGAAcu3PIoBAJIBJDUwRDBENEFELTVENkUtNDRBMi1CN0RDLTE2MkI0ODcxRDE4RJgBueGDv+8tqAG5zM0B
+X-GOOGLE-BTD        : 1
+COOKIE              : COMPASS=bigtop-sync=Co8BAAlriVeOF-iB1mAPtMnGOLYCj0k0fyvpErqdbfzwfs_UobTt8NYjpUw19X32CoVQxV4e0KbF_l2hAtqIj4w6yLZ6lTOfFckTxmSLgRILPe73_k212cvzp-WAW1O7Gz2QqnNVA-EPcIVwBhVQazDJQLe8scwVYRlUIVW6Dy0byPcC6s14tA0VZy0CHGy4qFIQidvG7wUaoQEACWuJV1H-CY9in7N8kOPm3k8WA6adZaCZp5Nn6CLr1AEw9HZEa-DX-vHhBVafabv_393yGhk99XjlydtFWvCuI4YhnpTZ_8DdJZn8srjHSSMdmcqK3hz26vckxhhXy_DwKiHMdtyDswWNj4bexMdcgcPi9SsQxqQe8L5XypipKceDUkG7LYqu-2QDzDqn_jQe7D7s1FmsXgcAk6xA6B9Vlg; NID=193=ClWCxinFrIA8V4Y2gVtnmXqnBYiTxWKh407L_0mdyFIWLs5SbHQEfJTfthFjNR9AhNA5HLNPaj7_6g1g2IZHkc1gKg23pLoV9XdhVpXc4OLQzlVR9L-WsTbMrq2xO5DgVfa70gdNLGGkl9rUjLUC5MU-qNKHsKpGSf80b25aQv3tasb85bw
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/vnd.google.octet-stream-compressible
+--------------------------------------------------response headers:
+CACHE-CONTROL       : no-cache, no-store, max-age=0, must-revalidate
+--------------------------------------------------response headers:
+PRAGMA              : no-cache
+--------------------------------------------------response headers:
+EXPIRES             : Mon, 01 Jan 1990 00:00:00 GMT
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:12:26 GMT
+--------------------------------------------------response headers:
+CONTENT-DISPOSITION : attachment; filename="response.bin"; filename*=UTF-8''response.bin
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+X-GOOG-SERVER-LATENCY: 12
+--------------------------------------------------response headers:
+X-CONTENT-TYPE-OPTIONS: nosniff
+--------------------------------------------------response headers:
+X-FRAME-OPTIONS     : SAMEORIGIN
+--------------------------------------------------response headers:
+X-XSS-PROTECTION    : 1; mode=block
+--------------------------------------------------response headers:
+SERVER              : GSE
+--------------------------------------------------response headers:
+ALT-SVC             : clear
+--------------------------------------------------response headers:
+
+=
+POST /sync/cm?hl=en-US&c=36 HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : inbox.google.com:443
+X-GOOGLE-BTD        : 1
+CONTENT-TYPE        : application/octet-stream
+ACCEPT              : */*
+CONTENT-LENGTH      : 627
+ACCEPT-LANGUAGE     : en-us
+USER-AGENT          : Google Gmail/6.0.191117.990155 model/iPad5,1 iOS/13.1
+AUTHORIZATION       : OAuth ya29.IoACtAf8Uhz2CvZdUFYaozvs5yt6SSzj62caGxKN51Gaca-ct7d6wd05czBgyQaN_xljWw56UDwk7n-uUA4wezv6d1q0PS_-eIBWI4aejXw6fP0TPywiFw5RINUU9W9o8UFAS5NieybMl2nm8s1GxUiulNSGJK6cgyABYtgM2kNQnxWbBCs8zNFohVrixHVFg6gVU2PVyomtbGBtupXgNfqElkMyv5jZvydoH0txW0OmrjzfipTfLPSP0z0paWMkUJOJhmHcd7b-jim1LydAVDOhMdlv3I9e-ve_t2GM90aAWINHuZ_VN9pSJI5sHLmAnEG5EFODip2yEIaXhVStivf2zw
+ACCEPT-ENCODING     : gzip, deflate, br
+COOKIE              : COMPASS=bigtop-sync=Co8BAAlriVeOF-iB1mAPtMnGOLYCj0k0fyvpErqdbfzwfs_UobTt8NYjpUw19X32CoVQxV4e0KbF_l2hAtqIj4w6yLZ6lTOfFckTxmSLgRILPe73_k212cvzp-WAW1O7Gz2QqnNVA-EPcIVwBhVQazDJQLe8scwVYRlUIVW6Dy0byPcC6s14tA0VZy0CHGy4qFIQidvG7wUaoQEACWuJV1H-CY9in7N8kOPm3k8WA6adZaCZp5Nn6CLr1AEw9HZEa-DX-vHhBVafabv_393yGhk99XjlydtFWvCuI4YhnpTZ_8DdJZn8srjHSSMdmcqK3hz26vckxhhXy_DwKiHMdtyDswWNj4bexMdcgcPi9SsQxqQe8L5XypipKceDUkG7LYqu-2QDzDqn_jQe7D7s1FmsXgcAk6xA6B9Vlg; NID=193=ClWCxinFrIA8V4Y2gVtnmXqnBYiTxWKh407L_0mdyFIWLs5SbHQEfJTfthFjNR9AhNA5HLNPaj7_6g1g2IZHkc1gKg23pLoV9XdhVpXc4OLQzlVR9L-WsTbMrq2xO5DgVfa70gdNLGGkl9rUjLUC5MU-qNKHsKpGSf80b25aQv3tasb85bw
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/x-protobuffer
+--------------------------------------------------response headers:
+X-CONTENT-TYPE-OPTIONS: nosniff
+--------------------------------------------------response headers:
+CONTENT-DISPOSITION : attachment
+--------------------------------------------------response headers:
+CACHE-CONTROL       : no-cache, no-store, max-age=0, must-revalidate
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+X-GOOG-SERVER-LATENCY: 16
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:12:26 GMT
+--------------------------------------------------response headers:
+X-FRAME-OPTIONS     : SAMEORIGIN
+--------------------------------------------------response headers:
+X-XSS-PROTECTION    : 1; mode=block
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 34
+--------------------------------------------------response headers:
+SERVER              : GSE
+--------------------------------------------------response headers:
+ALT-SVC             : clear
+--------------------------------------------------response headers:
+
+=
+POST /sync/i/s?hl=en-US&c=38 HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : inbox.google.com:443
+CONTENT-TYPE        : application/x-protobuf
+ACCEPT              : */*
+AUTHORIZATION       : OAuth ya29.IoACtAf8Uhz2CvZdUFYaozvs5yt6SSzj62caGxKN51Gaca-ct7d6wd05czBgyQaN_xljWw56UDwk7n-uUA4wezv6d1q0PS_-eIBWI4aejXw6fP0TPywiFw5RINUU9W9o8UFAS5NieybMl2nm8s1GxUiulNSGJK6cgyABYtgM2kNQnxWbBCs8zNFohVrixHVFg6gVU2PVyomtbGBtupXgNfqElkMyv5jZvydoH0txW0OmrjzfipTfLPSP0z0paWMkUJOJhmHcd7b-jim1LydAVDOhMdlv3I9e-ve_t2GM90aAWINHuZ_VN9pSJI5sHLmAnEG5EFODip2yEIaXhVStivf2zw
+ACCEPT-ENCODING     : gzip, deflate, br
+ACCEPT-LANGUAGE     : en-us
+CONTENT-LENGTH      : 28
+USER-AGENT          : Google Gmail/6.0.191117.990155 model/iPad5,1 iOS/13.1
+X-GMAIL-BTAI        : GrwBMABQAVgBaAF4AYABAYgBAZABAJgBAbABALgBAcABAcgBAdABAdgBAOABAegBAfABAfgBAIACAIgCAJACAZgCAKACAKoCAmVusgI1R29vZ2xlIEdtYWlsLzYuMC4xOTExMTcuOTkwMTU1IG1vZGVsL2lQYWQ1LDEgaU9TLzEzLjHAAgDIAhnQAgDYAgDgAgDoAgDwAgD4AgCAAwGIAwGQAwCYAwCgAwCoAwCwAwC4AwDAAwDIAwDQAwDYAwA4FEIqY29tLmdvb2dsZS5HbWFpbC1yZWxlYXNlLTYuMC4xOTExMTcuOTkwMTU1SARQA1oHaVBhZDUsMWCAr7X3//////8BahBBbWVyaWNhL05ld19Zb3JrcAGAAcu3PIoBAJIBJDUwRDBENEFELTVENkUtNDRBMi1CN0RDLTE2MkI0ODcxRDE4RJgB2eSDv+8tqAG5zM0B
+X-GOOGLE-BTD        : 1
+COOKIE              : COMPASS=bigtop-sync=Co8BAAlriVeOF-iB1mAPtMnGOLYCj0k0fyvpErqdbfzwfs_UobTt8NYjpUw19X32CoVQxV4e0KbF_l2hAtqIj4w6yLZ6lTOfFckTxmSLgRILPe73_k212cvzp-WAW1O7Gz2QqnNVA-EPcIVwBhVQazDJQLe8scwVYRlUIVW6Dy0byPcC6s14tA0VZy0CHGy4qFIQidvG7wUaoQEACWuJV1H-CY9in7N8kOPm3k8WA6adZaCZp5Nn6CLr1AEw9HZEa-DX-vHhBVafabv_393yGhk99XjlydtFWvCuI4YhnpTZ_8DdJZn8srjHSSMdmcqK3hz26vckxhhXy_DwKiHMdtyDswWNj4bexMdcgcPi9SsQxqQe8L5XypipKceDUkG7LYqu-2QDzDqn_jQe7D7s1FmsXgcAk6xA6B9Vlg; NID=193=ClWCxinFrIA8V4Y2gVtnmXqnBYiTxWKh407L_0mdyFIWLs5SbHQEfJTfthFjNR9AhNA5HLNPaj7_6g1g2IZHkc1gKg23pLoV9XdhVpXc4OLQzlVR9L-WsTbMrq2xO5DgVfa70gdNLGGkl9rUjLUC5MU-qNKHsKpGSf80b25aQv3tasb85bw
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/vnd.google.octet-stream-compressible
+--------------------------------------------------response headers:
+CACHE-CONTROL       : no-cache, no-store, max-age=0, must-revalidate
+--------------------------------------------------response headers:
+PRAGMA              : no-cache
+--------------------------------------------------response headers:
+EXPIRES             : Mon, 01 Jan 1990 00:00:00 GMT
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:12:26 GMT
+--------------------------------------------------response headers:
+CONTENT-DISPOSITION : attachment; filename="response.bin"; filename*=UTF-8''response.bin
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+X-GOOG-SERVER-LATENCY: 42
+--------------------------------------------------response headers:
+X-CONTENT-TYPE-OPTIONS: nosniff
+--------------------------------------------------response headers:
+X-FRAME-OPTIONS     : SAMEORIGIN
+--------------------------------------------------response headers:
+X-XSS-PROTECTION    : 1; mode=block
+--------------------------------------------------response headers:
+SERVER              : GSE
+--------------------------------------------------response headers:
+ALT-SVC             : clear
+--------------------------------------------------response headers:
+
+=
+POST /sync/el2?hl=en-US&c=39 HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : inbox.google.com:443
+CONTENT-TYPE        : application/x-protobuf
+ACCEPT              : */*
+AUTHORIZATION       : OAuth ya29.IoACtAf8Uhz2CvZdUFYaozvs5yt6SSzj62caGxKN51Gaca-ct7d6wd05czBgyQaN_xljWw56UDwk7n-uUA4wezv6d1q0PS_-eIBWI4aejXw6fP0TPywiFw5RINUU9W9o8UFAS5NieybMl2nm8s1GxUiulNSGJK6cgyABYtgM2kNQnxWbBCs8zNFohVrixHVFg6gVU2PVyomtbGBtupXgNfqElkMyv5jZvydoH0txW0OmrjzfipTfLPSP0z0paWMkUJOJhmHcd7b-jim1LydAVDOhMdlv3I9e-ve_t2GM90aAWINHuZ_VN9pSJI5sHLmAnEG5EFODip2yEIaXhVStivf2zw
+ACCEPT-ENCODING     : gzip, deflate, br
+ACCEPT-LANGUAGE     : en-us
+CONTENT-LENGTH      : 46
+USER-AGENT          : Google Gmail/6.0.191117.990155 model/iPad5,1 iOS/13.1
+X-GMAIL-BTAI        : GrwBMABQAVgBaAF4AYABAYgBAZABAJgBAbABALgBAcABAcgBAdABAdgBAOABAegBAfABAfgBAIACAIgCAJACAZgCAKACAKoCAmVusgI1R29vZ2xlIEdtYWlsLzYuMC4xOTExMTcuOTkwMTU1IG1vZGVsL2lQYWQ1LDEgaU9TLzEzLjHAAgDIAhnQAgDYAgDgAgDoAgDwAgD4AgCAAwGIAwGQAwCYAwCgAwCoAwCwAwC4AwDAAwDIAwDQAwDYAwA4FEIqY29tLmdvb2dsZS5HbWFpbC1yZWxlYXNlLTYuMC4xOTExMTcuOTkwMTU1SARQA1oHaVBhZDUsMWCAr7X3//////8BahBBbWVyaWNhL05ld19Zb3JrcAGAAcu3PIoBAJIBJDUwRDBENEFELTVENkUtNDRBMi1CN0RDLTE2MkI0ODcxRDE4RJgBufSDv+8tqAG5zc0B
+X-GOOGLE-BTD        : 1
+COOKIE              : COMPASS=bigtop-sync=Co8BAAlriVeOF-iB1mAPtMnGOLYCj0k0fyvpErqdbfzwfs_UobTt8NYjpUw19X32CoVQxV4e0KbF_l2hAtqIj4w6yLZ6lTOfFckTxmSLgRILPe73_k212cvzp-WAW1O7Gz2QqnNVA-EPcIVwBhVQazDJQLe8scwVYRlUIVW6Dy0byPcC6s14tA0VZy0CHGy4qFIQidvG7wUaoQEACWuJV1H-CY9in7N8kOPm3k8WA6adZaCZp5Nn6CLr1AEw9HZEa-DX-vHhBVafabv_393yGhk99XjlydtFWvCuI4YhnpTZ_8DdJZn8srjHSSMdmcqK3hz26vckxhhXy_DwKiHMdtyDswWNj4bexMdcgcPi9SsQxqQe8L5XypipKceDUkG7LYqu-2QDzDqn_jQe7D7s1FmsXgcAk6xA6B9Vlg; NID=193=ClWCxinFrIA8V4Y2gVtnmXqnBYiTxWKh407L_0mdyFIWLs5SbHQEfJTfthFjNR9AhNA5HLNPaj7_6g1g2IZHkc1gKg23pLoV9XdhVpXc4OLQzlVR9L-WsTbMrq2xO5DgVfa70gdNLGGkl9rUjLUC5MU-qNKHsKpGSf80b25aQv3tasb85bw
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/vnd.google.octet-stream-compressible
+--------------------------------------------------response headers:
+CACHE-CONTROL       : no-cache, no-store, max-age=0, must-revalidate
+--------------------------------------------------response headers:
+PRAGMA              : no-cache
+--------------------------------------------------response headers:
+EXPIRES             : Mon, 01 Jan 1990 00:00:00 GMT
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:12:26 GMT
+--------------------------------------------------response headers:
+CONTENT-DISPOSITION : attachment; filename="response.bin"; filename*=UTF-8''response.bin
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+X-GOOG-SERVER-LATENCY: 9
+--------------------------------------------------response headers:
+X-CONTENT-TYPE-OPTIONS: nosniff
+--------------------------------------------------response headers:
+X-FRAME-OPTIONS     : SAMEORIGIN
+--------------------------------------------------response headers:
+X-XSS-PROTECTION    : 1; mode=block
+--------------------------------------------------response headers:
+SERVER              : GSE
+--------------------------------------------------response headers:
+ALT-SVC             : clear
+--------------------------------------------------response headers:
+
+=
+POST /sync/i/fd?hl=en-US&c=40 HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : inbox.google.com:443
+CONTENT-TYPE        : application/x-protobuf
+ACCEPT              : */*
+AUTHORIZATION       : OAuth ya29.IoACtAf8Uhz2CvZdUFYaozvs5yt6SSzj62caGxKN51Gaca-ct7d6wd05czBgyQaN_xljWw56UDwk7n-uUA4wezv6d1q0PS_-eIBWI4aejXw6fP0TPywiFw5RINUU9W9o8UFAS5NieybMl2nm8s1GxUiulNSGJK6cgyABYtgM2kNQnxWbBCs8zNFohVrixHVFg6gVU2PVyomtbGBtupXgNfqElkMyv5jZvydoH0txW0OmrjzfipTfLPSP0z0paWMkUJOJhmHcd7b-jim1LydAVDOhMdlv3I9e-ve_t2GM90aAWINHuZ_VN9pSJI5sHLmAnEG5EFODip2yEIaXhVStivf2zw
+ACCEPT-ENCODING     : gzip, deflate, br
+ACCEPT-LANGUAGE     : en-us
+CONTENT-LENGTH      : 120
+USER-AGENT          : Google Gmail/6.0.191117.990155 model/iPad5,1 iOS/13.1
+X-GMAIL-BTAI        : GrwBMABQAVgBaAF4AYABAYgBAZABAJgBAbABALgBAcABAcgBAdABAdgBAOABAegBAfABAfgBAIACAIgCAJACAZgCAKACAKoCAmVusgI1R29vZ2xlIEdtYWlsLzYuMC4xOTExMTcuOTkwMTU1IG1vZGVsL2lQYWQ1LDEgaU9TLzEzLjHAAgDIAhnQAgDYAgDgAgDoAgDwAgD4AgCAAwGIAwGQAwCYAwCgAwCoAwCwAwC4AwDAAwDIAwDQAwDYAwA4FEIqY29tLmdvb2dsZS5HbWFpbC1yZWxlYXNlLTYuMC4xOTExMTcuOTkwMTU1SARQA1oHaVBhZDUsMWCAr7X3//////8BahBBbWVyaWNhL05ld19Zb3JrcAGAAcu3PIoBAJIBJDUwRDBENEFELTVENkUtNDRBMi1CN0RDLTE2MkI0ODcxRDE4RJgB7PaDv+8tqAG5zc0B
+X-GOOGLE-BTD        : 1
+COOKIE              : COMPASS=bigtop-sync=Co8BAAlriVeOF-iB1mAPtMnGOLYCj0k0fyvpErqdbfzwfs_UobTt8NYjpUw19X32CoVQxV4e0KbF_l2hAtqIj4w6yLZ6lTOfFckTxmSLgRILPe73_k212cvzp-WAW1O7Gz2QqnNVA-EPcIVwBhVQazDJQLe8scwVYRlUIVW6Dy0byPcC6s14tA0VZy0CHGy4qFIQidvG7wUaoQEACWuJV1H-CY9in7N8kOPm3k8WA6adZaCZp5Nn6CLr1AEw9HZEa-DX-vHhBVafabv_393yGhk99XjlydtFWvCuI4YhnpTZ_8DdJZn8srjHSSMdmcqK3hz26vckxhhXy_DwKiHMdtyDswWNj4bexMdcgcPi9SsQxqQe8L5XypipKceDUkG7LYqu-2QDzDqn_jQe7D7s1FmsXgcAk6xA6B9Vlg; NID=193=ClWCxinFrIA8V4Y2gVtnmXqnBYiTxWKh407L_0mdyFIWLs5SbHQEfJTfthFjNR9AhNA5HLNPaj7_6g1g2IZHkc1gKg23pLoV9XdhVpXc4OLQzlVR9L-WsTbMrq2xO5DgVfa70gdNLGGkl9rUjLUC5MU-qNKHsKpGSf80b25aQv3tasb85bw
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/vnd.google.octet-stream-compressible
+--------------------------------------------------response headers:
+CACHE-CONTROL       : no-cache, no-store, max-age=0, must-revalidate
+--------------------------------------------------response headers:
+PRAGMA              : no-cache
+--------------------------------------------------response headers:
+EXPIRES             : Mon, 01 Jan 1990 00:00:00 GMT
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:12:27 GMT
+--------------------------------------------------response headers:
+CONTENT-DISPOSITION : attachment; filename="response.bin"; filename*=UTF-8''response.bin
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+X-GOOG-SERVER-LATENCY: 87
+--------------------------------------------------response headers:
+X-CONTENT-TYPE-OPTIONS: nosniff
+--------------------------------------------------response headers:
+X-FRAME-OPTIONS     : SAMEORIGIN
+--------------------------------------------------response headers:
+X-XSS-PROTECTION    : 1; mode=block
+--------------------------------------------------response headers:
+SERVER              : GSE
+--------------------------------------------------response headers:
+ALT-SVC             : clear
+--------------------------------------------------response headers:

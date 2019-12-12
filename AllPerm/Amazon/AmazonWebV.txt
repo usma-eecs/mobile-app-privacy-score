@@ -1,0 +1,120 @@
+
+=
+POST /auth/token HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : api.amazon.com
+CONTENT-TYPE        : application/x-www-form-urlencoded
+ACCEPT-CHARSET      : utf-8
+X-AMZN-IDENTITY-AUTH-DOMAIN: api.amazon.com
+COOKIE              : amzn-app-ctxt=1.7%20{"ast":3%2C"os":"iOS"%2C"ov":"13.1"%2C"an":"Amazon"%2C"av":"13.21.4"%2C"aid":"com.amazon.Amazon"%2C"uiv":5%2C"dm":{"pb":"0"%2C"w":"2048"%2C"pt":"0"%2C"h":"1536"%2C"ld":"2.000000"}%2C"cp":854929%2C"xv":"1.12"%2C"di":{"ct":"Wifi"%2C"dsn":"970F73F1-79C2-43DD-95DF-6C51DADA6DD4"%2C"mf":"Apple"%2C"pr":"iPad"%2C"md":"iPad"%2C"v":"Unknown_iPad5%2C1"%2C"dti":"AR2BAPR0KDREK"}}; amzn-app-id=Amazon/13.21.4/1-267354.0; amzn-ssnap-ctxt={"version":"6"%2C"isAvailable":"YES"}; apn-privacy=false; i18n-prefs=USD; lc-main=en_US; mobile-device-info=scale:2|w:1024|h:768; search-network-type=wifi; session-id=147-3794517-6505103; session-id-time=2082787201l; session-token=B8dkUUhBIWMCsa8yck8AeY3naaGRIqhI+znf1LM1fjAtQfhAJRXi2XwU1GBYWVgoifl5lUJz2FBdy3etWS0jRqtTmLMKJTA6igYR5Z4vT+S/HVWnoSEW1FpXLcaHU2R9gR4QXYB1cyIBf7dCNhIDneSa3IqpRCvILVv15tqzuMMuvuucZw3xIFi1VqP8pqGapjY7RwvZpli+aqqfMqSIdG1iS18fs64UvYsrG0tNq3JnkSD0KqXejidI6WysUjheODBBUzIYFhsyhIzeHjcH5g==; ubid-main=132-4215000-4971112; x-wl-uid=1Kp/qassl7+dGz2w9knDvl9P8LizjFZVSDmBoyGfPwC+K8aX38mlojlACz8ARPEB6ZZJqzfl/56K/2V8x6UWyR0PbkH39i5thOqZaAMlounLsqy3h+Nr9pkHvXHA/IOP+Qc9pnH2h5Vo=; at-main="Atza|IwEBIJh4LKUcODb1t9IS2bUY8mf4E839UoEX01cu2ccQsxpbfpXuyfD3w-xUzGDwa-A76j07n_LcCO388IxUCR1K7ICFUY0MdZO9QzvfTT1n-YoofPDuJy-yABnIOGHsrDcToJOxXLedDB9M5KgoZenyVBQtGfZRaZOxoOXtJDqjN1p18LjPVBM6VKIUnAEQ43kwSDVv6zGB4lx5EWTGgSYrcUjDMBj2pniSRclRI1XFzRF3LYh4MSmdszgfwUi_O514PfOPjnB0zUZFF3WPjbcBBwlzE7wlPxmo1Lk5NBpAyE5ivya8mtudKGkkTj7yOGxgDepsLgQB3W-MGwXlLjZQWjKOtclqU_pMZc_sz0h7kiampAfa6TkQQjxsCTMfL5hevpC0zuWsxJU-Ic8vyAQ0MJEH7hnnSyazUkHaTHFJ8Js2Z8KWPN9Z3MNa-W4OmCFqZT8"; sess-at-main="ZOjswPQwMe2KheQFCJaLA56gOwwdFz9MqSrjzY4flS8="; x-main="D@@wWcfA2SvxY?qfzyxB?ftQ06@FUmpVyFcorqAc5Xl3rZZNaQC2mIHNfIY@HH0O"
+CONNECTION          : keep-alive
+ACCEPT              : application/json
+USER-AGENT          : AmazonWebView/Amazon/13.21.4/iOS/13.1/iPad
+ACCEPT-LANGUAGE     : en-US
+ACCEPT-ENCODING     : gzip
+CONTENT-LENGTH      : 661
+--------------------------------------------------response headers:
+SERVER              : Server
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:02:28 GMT
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/json;charset=UTF-8
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 396
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+X-AMZN-REQUESTID    : 7625b6e0-c2b3-4b1b-84a3-8b9655a9fdff
+--------------------------------------------------response headers:
+X-AMZ-DATE          : Thu, 12 Dec 2019 02:02:28 GMT
+--------------------------------------------------response headers:
+CACHE-CONTROL       : no-cache, no-store, must-revalidate
+--------------------------------------------------response headers:
+PRAGMA              : no-cache
+--------------------------------------------------response headers:
+VARY                : Accept-Encoding,X-Amzn-CDN-Cache,X-Amzn-AX-Treatment,User-Agent
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+X-AMZ-RID           : 9DTXN7G38RD88KZH5WCR
+--------------------------------------------------response headers:
+
+=
+POST /auth/token HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : api.amazon.com
+CONTENT-TYPE        : application/x-www-form-urlencoded
+ACCEPT-CHARSET      : utf-8
+X-AMZN-IDENTITY-AUTH-DOMAIN: api.amazon.com
+COOKIE              : amzn-app-ctxt=1.7%20{"ast":3%2C"os":"iOS"%2C"ov":"13.1"%2C"an":"Amazon"%2C"av":"13.21.4"%2C"aid":"com.amazon.Amazon"%2C"uiv":5%2C"dm":{"pb":"0"%2C"w":"2048"%2C"pt":"0"%2C"h":"1536"%2C"ld":"2.000000"}%2C"cp":854929%2C"xv":"1.12"%2C"di":{"ct":"Wifi"%2C"dsn":"970F73F1-79C2-43DD-95DF-6C51DADA6DD4"%2C"mf":"Apple"%2C"pr":"iPad"%2C"md":"iPad"%2C"v":"Unknown_iPad5%2C1"%2C"dti":"AR2BAPR0KDREK"}}; amzn-app-id=Amazon/13.21.4/1-267354.0; amzn-ssnap-ctxt={"version":"6"%2C"isAvailable":"YES"}; apn-privacy=false; i18n-prefs=USD; lc-main=en_US; mobile-device-info=scale:2|w:1024|h:768; search-network-type=wifi; session-id=147-3794517-6505103; session-id-time=2082787201l; session-token=B8dkUUhBIWMCsa8yck8AeY3naaGRIqhI+znf1LM1fjAtQfhAJRXi2XwU1GBYWVgoifl5lUJz2FBdy3etWS0jRqtTmLMKJTA6igYR5Z4vT+S/HVWnoSEW1FpXLcaHU2R9gR4QXYB1cyIBf7dCNhIDneSa3IqpRCvILVv15tqzuMMuvuucZw3xIFi1VqP8pqGapjY7RwvZpli+aqqfMqSIdG1iS18fs64UvYsrG0tNq3JnkSD0KqXejidI6WysUjheODBBUzIYFhsyhIzeHjcH5g==; ubid-main=132-4215000-4971112; x-wl-uid=1Kp/qassl7+dGz2w9knDvl9P8LizjFZVSDmBoyGfPwC+K8aX38mlojlACz8ARPEB6ZZJqzfl/56K/2V8x6UWyR0PbkH39i5thOqZaAMlounLsqy3h+Nr9pkHvXHA/IOP+Qc9pnH2h5Vo=; at-main="Atza|IwEBIJh4LKUcODb1t9IS2bUY8mf4E839UoEX01cu2ccQsxpbfpXuyfD3w-xUzGDwa-A76j07n_LcCO388IxUCR1K7ICFUY0MdZO9QzvfTT1n-YoofPDuJy-yABnIOGHsrDcToJOxXLedDB9M5KgoZenyVBQtGfZRaZOxoOXtJDqjN1p18LjPVBM6VKIUnAEQ43kwSDVv6zGB4lx5EWTGgSYrcUjDMBj2pniSRclRI1XFzRF3LYh4MSmdszgfwUi_O514PfOPjnB0zUZFF3WPjbcBBwlzE7wlPxmo1Lk5NBpAyE5ivya8mtudKGkkTj7yOGxgDepsLgQB3W-MGwXlLjZQWjKOtclqU_pMZc_sz0h7kiampAfa6TkQQjxsCTMfL5hevpC0zuWsxJU-Ic8vyAQ0MJEH7hnnSyazUkHaTHFJ8Js2Z8KWPN9Z3MNa-W4OmCFqZT8"; sess-at-main="ZOjswPQwMe2KheQFCJaLA56gOwwdFz9MqSrjzY4flS8="; x-main="D@@wWcfA2SvxY?qfzyxB?ftQ06@FUmpVyFcorqAc5Xl3rZZNaQC2mIHNfIY@HH0O"
+CONNECTION          : keep-alive
+ACCEPT              : application/json
+USER-AGENT          : AmazonWebView/Amazon/13.21.4/iOS/13.1/iPad
+ACCEPT-LANGUAGE     : en-US
+ACCEPT-ENCODING     : gzip
+CONTENT-LENGTH      : 661
+--------------------------------------------------response headers:
+SERVER              : Server
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:02:28 GMT
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/json;charset=UTF-8
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 398
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+X-AMZN-REQUESTID    : 8833cc3b-50eb-4c8c-ad9c-934c69eb8062
+--------------------------------------------------response headers:
+X-AMZ-DATE          : Thu, 12 Dec 2019 02:02:28 GMT
+--------------------------------------------------response headers:
+CACHE-CONTROL       : no-cache, no-store, must-revalidate
+--------------------------------------------------response headers:
+PRAGMA              : no-cache
+--------------------------------------------------response headers:
+VARY                : Accept-Encoding,X-Amzn-CDN-Cache,X-Amzn-AX-Treatment,User-Agent
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+X-AMZ-RID           : 2AJ97A5M4H80KCRWW2FG
+--------------------------------------------------response headers:
+
+=
+POST /auth/token HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : api.amazon.com
+CONTENT-TYPE        : application/x-www-form-urlencoded
+ACCEPT-CHARSET      : utf-8
+X-AMZN-IDENTITY-AUTH-DOMAIN: api.amazon.com
+COOKIE              : search-network-type=wifi; amzn-app-ctxt=1.7%20{"ast":3%2C"os":"iOS"%2C"ov":"13.1"%2C"an":"Amazon"%2C"av":"13.21.4"%2C"aid":"com.amazon.Amazon"%2C"uiv":5%2C"dm":{"pb":"0"%2C"w":"1536"%2C"pt":"0"%2C"h":"1908"%2C"ld":"2.000000"}%2C"cp":9243537%2C"xv":"1.12"%2C"di":{"ct":"Wifi"%2C"dsn":"970F73F1-79C2-43DD-95DF-6C51DADA6DD4"%2C"mf":"Apple"%2C"pr":"iPad"%2C"md":"iPad"%2C"v":"Unknown_iPad5%2C1"%2C"dti":"AR2BAPR0KDREK"}}; amzn-app-id=Amazon/13.21.4/1-267354.0; mobile-device-info=scale:2|w:768|h:954; amzn-ssnap-ctxt={"version":"6"%2C"isAvailable":"YES"}; apn-privacy=false; lc-main=en_US; session-id=147-3794517-6505103; session-id-time=2082787201l; ubid-main=132-4215000-4971112; session-token="B8dkUUhBIWMCsa8yck8AeY3naaGRIqhI+znf1LM1fjAtQfhAJRXi2XwU1GBYWVgoifl5lUJz2FBdy3etWS0jRqtTmLMKJTA6igYR5Z4vT+S/HVWnoSEW1FpXLcaHU2R9gR4QXYB1cyIBf7dCNhIDneSa3IqpRCvILVv15tqzuMMuvuucZw3xIFi1VqP8pqGapjY7RwvZpli+aqqfMqSIdG1iS18fs64UvYsrG0tNq3JnkSD0KqXejidI6WysUjheODBBUzIYFhsyhIzeHjcH5g=="; i18n-prefs=USD; x-wl-uid=1Kp/qassl7+dGz2w9knDvl9P8LizjFZVSDmBoyGfPwC+K8aX38mlojlACz8ARPEB6ZZJqzfl/56K/2V8x6UWyR0PbkH39i5thOqZaAMlounLsqy3h+Nr9pkHvXHA/IOP+Qc9pnH2h5Vo=; at-main="Atza|IwEBIJh4LKUcODb1t9IS2bUY8mf4E839UoEX01cu2ccQsxpbfpXuyfD3w-xUzGDwa-A76j07n_LcCO388IxUCR1K7ICFUY0MdZO9QzvfTT1n-YoofPDuJy-yABnIOGHsrDcToJOxXLedDB9M5KgoZenyVBQtGfZRaZOxoOXtJDqjN1p18LjPVBM6VKIUnAEQ43kwSDVv6zGB4lx5EWTGgSYrcUjDMBj2pniSRclRI1XFzRF3LYh4MSmdszgfwUi_O514PfOPjnB0zUZFF3WPjbcBBwlzE7wlPxmo1Lk5NBpAyE5ivya8mtudKGkkTj7yOGxgDepsLgQB3W-MGwXlLjZQWjKOtclqU_pMZc_sz0h7kiampAfa6TkQQjxsCTMfL5hevpC0zuWsxJU-Ic8vyAQ0MJEH7hnnSyazUkHaTHFJ8Js2Z8KWPN9Z3MNa-W4OmCFqZT8"; sess-at-main="ZOjswPQwMe2KheQFCJaLA56gOwwdFz9MqSrjzY4flS8="; x-main="D@@wWcfA2SvxY?qfzyxB?ftQ06@FUmpVyFcorqAc5Xl3rZZNaQC2mIHNfIY@HH0O"
+CONNECTION          : keep-alive
+ACCEPT              : application/json
+USER-AGENT          : AmazonWebView/Amazon/13.21.4/iOS/13.1/iPad
+ACCEPT-LANGUAGE     : en-US
+ACCEPT-ENCODING     : gzip
+CONTENT-LENGTH      : 661
+--------------------------------------------------response headers:
+SERVER              : Server
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:06:27 GMT
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/json;charset=UTF-8
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 398
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+X-AMZN-REQUESTID    : 503aafa2-cd52-4791-9669-1363df634580
+--------------------------------------------------response headers:
+X-AMZ-DATE          : Thu, 12 Dec 2019 02:06:27 GMT
+--------------------------------------------------response headers:
+CACHE-CONTROL       : no-cache, no-store, must-revalidate
+--------------------------------------------------response headers:
+PRAGMA              : no-cache
+--------------------------------------------------response headers:
+VARY                : Accept-Encoding,X-Amzn-CDN-Cache,X-Amzn-AX-Treatment,User-Agent
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+X-AMZ-RID           : 183VJGESF3PND52P54TW
+--------------------------------------------------response headers:

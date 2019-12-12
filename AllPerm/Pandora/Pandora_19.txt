@@ -1,0 +1,1170 @@
+
+=
+POST /services/json/?method=auth.partnerLogin HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : ios-tuner.pandora.com:443
+CONTENT-TYPE        : application/json
+CONNECTION          : keep-alive
+ACCEPT              : */*
+USER-AGENT          : Pandora/1911.2 (iPad; iOS 13.1; Scale/2.00)
+ACCEPT-LANGUAGE     : en-US;q=1
+CONTENT-LENGTH      : 457
+ACCEPT-ENCODING     : gzip, deflate, br
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:07:28 GMT
+--------------------------------------------------response headers:
+SERVER              : Apache
+--------------------------------------------------response headers:
+CONTENT-TYPE        : text/plain;charset=utf-8
+--------------------------------------------------response headers:
+CACHE-CONTROL       : must-revalidate, max-age=0
+--------------------------------------------------response headers:
+EXPIRES             : -1
+--------------------------------------------------response headers:
+VARY                : Accept-Encoding,User-Agent
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 669
+--------------------------------------------------response headers:
+KEEP-ALIVE          : timeout=15, max=808
+--------------------------------------------------response headers:
+CONNECTION          : Keep-Alive
+--------------------------------------------------response headers:
+
+=
+POST /services/json/?method=auto.getWhitelists&partner_id=20&auth_token=VAPvcl9In%2B6RfGcyNa4XndyDLyRG36MUNl HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : ios-tuner.pandora.com:443
+CONTENT-TYPE        : text/plain
+CONNECTION          : keep-alive
+ACCEPT              : */*
+USER-AGENT          : Pandora/1911.2 (iPad; iOS 13.1; Scale/2.00)
+ACCEPT-LANGUAGE     : en-US;q=1
+CONTENT-LENGTH      : 2256
+ACCEPT-ENCODING     : gzip, deflate, br
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:07:28 GMT
+--------------------------------------------------response headers:
+SERVER              : Apache
+--------------------------------------------------response headers:
+CONTENT-TYPE        : text/plain;charset=utf-8
+--------------------------------------------------response headers:
+CACHE-CONTROL       : must-revalidate, max-age=0
+--------------------------------------------------response headers:
+EXPIRES             : -1
+--------------------------------------------------response headers:
+VARY                : Accept-Encoding,User-Agent
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 1462
+--------------------------------------------------response headers:
+KEEP-ALIVE          : timeout=15, max=947
+--------------------------------------------------response headers:
+CONNECTION          : Keep-Alive
+--------------------------------------------------response headers:
+
+=
+POST /services/json/?method=user.inboxGetMessages&user_id=&auth_token=&partner_id=20 HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : ios-tuner.pandora.com:80
+CONTENT-TYPE        : text/plain
+CONNECTION          : keep-alive
+ACCEPT              : */*
+USER-AGENT          : Pandora/1911.2 (iPad; iOS 13.1; Scale/2.00)
+ACCEPT-LANGUAGE     : en-US;q=1
+CONTENT-LENGTH      : 560
+ACCEPT-ENCODING     : gzip, deflate
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:07:28 GMT
+--------------------------------------------------response headers:
+SERVER              : Apache
+--------------------------------------------------response headers:
+CONTENT-TYPE        : text/plain;charset=utf-8
+--------------------------------------------------response headers:
+CACHE-CONTROL       : no-cache, no-store, no-transform, must-revalidate, max-age=0
+--------------------------------------------------response headers:
+EXPIRES             : -1
+--------------------------------------------------response headers:
+VARY                : Accept-Encoding,User-Agent
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 65
+--------------------------------------------------response headers:
+KEEP-ALIVE          : timeout=15, max=1000
+--------------------------------------------------response headers:
+CONNECTION          : Keep-Alive
+--------------------------------------------------response headers:
+
+=
+POST /services/json/?method=auth.userLogin&partner_id=20&auth_token=VAPvcl9In%2B6RfGcyNa4XndyDLyRG36MUNl HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : ios-tuner.pandora.com:443
+CONTENT-TYPE        : text/plain
+CONNECTION          : keep-alive
+ACCEPT              : */*
+USER-AGENT          : Pandora/1911.2 (iPad; iOS 13.1; Scale/2.00)
+ACCEPT-LANGUAGE     : en-US;q=1
+CONTENT-LENGTH      : 4960
+ACCEPT-ENCODING     : gzip, deflate, br
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:07:54 GMT
+--------------------------------------------------response headers:
+SERVER              : Apache
+--------------------------------------------------response headers:
+CONTENT-TYPE        : text/plain;charset=utf-8
+--------------------------------------------------response headers:
+CACHE-CONTROL       : must-revalidate, max-age=0
+--------------------------------------------------response headers:
+EXPIRES             : -1
+--------------------------------------------------response headers:
+VARY                : Accept-Encoding,User-Agent
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 68
+--------------------------------------------------response headers:
+KEEP-ALIVE          : timeout=15, max=939
+--------------------------------------------------response headers:
+CONNECTION          : Keep-Alive
+--------------------------------------------------response headers:
+
+=
+POST /services/json/?method=user.createUser&partner_id=20&auth_token=VAPvcl9In%2B6RfGcyNa4XndyDLyRG36MUNl HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : ios-tuner.pandora.com:443
+CONTENT-TYPE        : text/plain
+CONNECTION          : keep-alive
+ACCEPT              : */*
+USER-AGENT          : Pandora/1911.2 (iPad; iOS 13.1; Scale/2.00)
+ACCEPT-LANGUAGE     : en-US;q=1
+CONTENT-LENGTH      : 3792
+ACCEPT-ENCODING     : gzip, deflate, br
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:08:21 GMT
+--------------------------------------------------response headers:
+SERVER              : Apache
+--------------------------------------------------response headers:
+CONTENT-TYPE        : text/plain;charset=utf-8
+--------------------------------------------------response headers:
+CACHE-CONTROL       : must-revalidate, max-age=0
+--------------------------------------------------response headers:
+EXPIRES             : -1
+--------------------------------------------------response headers:
+VARY                : Accept-Encoding,User-Agent
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 12108
+--------------------------------------------------response headers:
+KEEP-ALIVE          : timeout=15, max=900
+--------------------------------------------------response headers:
+CONNECTION          : Keep-Alive
+--------------------------------------------------response headers:
+
+=
+POST /services/json/?method=user.associateDevice&user_id=1555097649&auth_token=VIxCZoiyKcEOVmIDxNL2Vt3kpqOMB4HZYIjCajeDTOODW5OglXUgB2mA%3D%3D&partner_id=20 HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : ios-tuner.pandora.com:443
+CONTENT-TYPE        : text/plain
+CONNECTION          : keep-alive
+ACCEPT              : */*
+USER-AGENT          : Pandora/1911.2 (iPad; iOS 13.1; Scale/2.00)
+ACCEPT-LANGUAGE     : en-US;q=1
+CONTENT-LENGTH      : 2400
+ACCEPT-ENCODING     : gzip, deflate, br
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:08:22 GMT
+--------------------------------------------------response headers:
+SERVER              : Apache
+--------------------------------------------------response headers:
+CONTENT-TYPE        : text/plain;charset=utf-8
+--------------------------------------------------response headers:
+CACHE-CONTROL       : must-revalidate, max-age=0
+--------------------------------------------------response headers:
+EXPIRES             : -1
+--------------------------------------------------response headers:
+VARY                : Accept-Encoding,User-Agent
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 13
+--------------------------------------------------response headers:
+KEEP-ALIVE          : timeout=15, max=894
+--------------------------------------------------response headers:
+CONNECTION          : Keep-Alive
+--------------------------------------------------response headers:
+
+=
+POST /services/json/?method=user.getStationList&user_id=1555097649&auth_token=VIxCZoiyKcEOVmIDxNL2Vt3kpqOMB4HZYIjCajeDTOODW5OglXUgB2mA%3D%3D&partner_id=20 HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : ios-tuner.pandora.com:443
+CONTENT-TYPE        : text/plain
+CONNECTION          : keep-alive
+ACCEPT              : */*
+USER-AGENT          : Pandora/1911.2 (iPad; iOS 13.1; Scale/2.00)
+ACCEPT-LANGUAGE     : en-US;q=1
+CONTENT-LENGTH      : 2928
+ACCEPT-ENCODING     : gzip, deflate, br
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:08:23 GMT
+--------------------------------------------------response headers:
+SERVER              : Apache
+--------------------------------------------------response headers:
+CONTENT-TYPE        : text/plain;charset=utf-8
+--------------------------------------------------response headers:
+CACHE-CONTROL       : must-revalidate, max-age=0
+--------------------------------------------------response headers:
+EXPIRES             : -1
+--------------------------------------------------response headers:
+VARY                : Accept-Encoding,User-Agent
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 131
+--------------------------------------------------response headers:
+KEEP-ALIVE          : timeout=15, max=963
+--------------------------------------------------response headers:
+CONNECTION          : Keep-Alive
+--------------------------------------------------response headers:
+
+=
+POST /services/json/?method=user.getStationList&user_id=1555097649&auth_token=VIxCZoiyKcEOVmIDxNL2Vt3kpqOMB4HZYIjCajeDTOODW5OglXUgB2mA%3D%3D&partner_id=20 HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : ios-tuner.pandora.com:443
+CONTENT-TYPE        : text/plain
+CONNECTION          : keep-alive
+ACCEPT              : */*
+USER-AGENT          : Pandora/1911.2 (iPad; iOS 13.1; Scale/2.00)
+ACCEPT-LANGUAGE     : en-US;q=1
+CONTENT-LENGTH      : 2928
+ACCEPT-ENCODING     : gzip, deflate, br
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:08:23 GMT
+--------------------------------------------------response headers:
+SERVER              : Apache
+--------------------------------------------------response headers:
+CONTENT-TYPE        : text/plain;charset=utf-8
+--------------------------------------------------response headers:
+CACHE-CONTROL       : must-revalidate, max-age=0
+--------------------------------------------------response headers:
+EXPIRES             : -1
+--------------------------------------------------response headers:
+VARY                : Accept-Encoding,User-Agent
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 131
+--------------------------------------------------response headers:
+KEEP-ALIVE          : timeout=15, max=973
+--------------------------------------------------response headers:
+CONNECTION          : Keep-Alive
+--------------------------------------------------response headers:
+
+=
+POST /services/json/?method=lcx.v2.isAccountLinked&user_id=1555097649&auth_token=VIxCZoiyKcEOVmIDxNL2Vt3kpqOMB4HZYIjCajeDTOODW5OglXUgB2mA%3D%3D&partner_id=20 HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : ios-tuner.pandora.com:443
+CONTENT-TYPE        : application/json
+CONNECTION          : keep-alive
+ACCEPT              : */*
+USER-AGENT          : Pandora/1911.2 (iPad; iOS 13.1; Scale/2.00)
+ACCEPT-LANGUAGE     : en-US;q=1
+CONTENT-LENGTH      : 1143
+ACCEPT-ENCODING     : gzip, deflate, br
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:08:23 GMT
+--------------------------------------------------response headers:
+SERVER              : Apache
+--------------------------------------------------response headers:
+CONTENT-TYPE        : text/plain;charset=utf-8
+--------------------------------------------------response headers:
+VARY                : Accept-Encoding,User-Agent
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 39
+--------------------------------------------------response headers:
+KEEP-ALIVE          : timeout=15, max=924
+--------------------------------------------------response headers:
+CONNECTION          : Keep-Alive
+--------------------------------------------------response headers:
+
+=
+POST /services/json/?method=user.getSettings&user_id=1555097649&auth_token=VIxCZoiyKcEOVmIDxNL2Vt3kpqOMB4HZYIjCajeDTOODW5OglXUgB2mA%3D%3D&partner_id=20 HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : ios-tuner.pandora.com:443
+CONTENT-TYPE        : text/plain
+CONNECTION          : keep-alive
+ACCEPT              : */*
+USER-AGENT          : Pandora/1911.2 (iPad; iOS 13.1; Scale/2.00)
+ACCEPT-LANGUAGE     : en-US;q=1
+CONTENT-LENGTH      : 2336
+ACCEPT-ENCODING     : gzip, deflate, br
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:08:23 GMT
+--------------------------------------------------response headers:
+SERVER              : Apache
+--------------------------------------------------response headers:
+CONTENT-TYPE        : text/plain;charset=utf-8
+--------------------------------------------------response headers:
+CACHE-CONTROL       : must-revalidate, max-age=0
+--------------------------------------------------response headers:
+EXPIRES             : -1
+--------------------------------------------------response headers:
+VARY                : Accept-Encoding,User-Agent
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 279
+--------------------------------------------------response headers:
+KEEP-ALIVE          : timeout=15, max=969
+--------------------------------------------------response headers:
+CONNECTION          : Keep-Alive
+--------------------------------------------------response headers:
+
+=
+POST /services/json/?method=user.changeSettings&user_id=1555097649&auth_token=VIxCZoiyKcEOVmIDxNL2Vt3kpqOMB4HZYIjCajeDTOODW5OglXUgB2mA%3D%3D&partner_id=20 HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : ios-tuner.pandora.com:443
+CONTENT-TYPE        : text/plain
+CONNECTION          : keep-alive
+ACCEPT              : */*
+USER-AGENT          : Pandora/1911.2 (iPad; iOS 13.1; Scale/2.00)
+ACCEPT-LANGUAGE     : en-US;q=1
+CONTENT-LENGTH      : 2448
+ACCEPT-ENCODING     : gzip, deflate, br
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:08:24 GMT
+--------------------------------------------------response headers:
+SERVER              : Apache
+--------------------------------------------------response headers:
+CONTENT-TYPE        : text/plain;charset=utf-8
+--------------------------------------------------response headers:
+CACHE-CONTROL       : must-revalidate, max-age=0
+--------------------------------------------------response headers:
+EXPIRES             : -1
+--------------------------------------------------response headers:
+VARY                : Accept-Encoding,User-Agent
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 279
+--------------------------------------------------response headers:
+KEEP-ALIVE          : timeout=15, max=933
+--------------------------------------------------response headers:
+CONNECTION          : Keep-Alive
+--------------------------------------------------response headers:
+
+=
+POST /services/json/?method=purchase.getInAppPurchaseProductsV2&user_id=1555097649&auth_token=VIxCZoiyKcEOVmIDxNL2Vt3kpqOMB4HZYIjCajeDTOODW5OglXUgB2mA%3D%3D&partner_id=20 HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : ios-tuner.pandora.com:443
+CONTENT-TYPE        : text/plain
+CONNECTION          : keep-alive
+ACCEPT              : */*
+USER-AGENT          : Pandora/1911.2 (iPad; iOS 13.1; Scale/2.00)
+ACCEPT-LANGUAGE     : en-US;q=1
+CONTENT-LENGTH      : 15280
+ACCEPT-ENCODING     : gzip, deflate, br
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:08:24 GMT
+--------------------------------------------------response headers:
+SERVER              : Apache
+--------------------------------------------------response headers:
+CONTENT-TYPE        : text/plain;charset=utf-8
+--------------------------------------------------response headers:
+CACHE-CONTROL       : must-revalidate, max-age=0
+--------------------------------------------------response headers:
+EXPIRES             : -1
+--------------------------------------------------response headers:
+VARY                : Accept-Encoding,User-Agent
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 178
+--------------------------------------------------response headers:
+KEEP-ALIVE          : timeout=15, max=732
+--------------------------------------------------response headers:
+CONNECTION          : Keep-Alive
+--------------------------------------------------response headers:
+
+=
+POST /services/json/?method=user.getFacebookInfo&user_id=1555097649&auth_token=VIxCZoiyKcEOVmIDxNL2Vt3kpqOMB4HZYIjCajeDTOODW5OglXUgB2mA%3D%3D&partner_id=20 HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : ios-tuner.pandora.com:443
+CONTENT-TYPE        : text/plain
+CONNECTION          : keep-alive
+ACCEPT              : */*
+USER-AGENT          : Pandora/1911.2 (iPad; iOS 13.1; Scale/2.00)
+ACCEPT-LANGUAGE     : en-US;q=1
+CONTENT-LENGTH      : 2336
+ACCEPT-ENCODING     : gzip, deflate, br
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:08:24 GMT
+--------------------------------------------------response headers:
+SERVER              : Apache
+--------------------------------------------------response headers:
+CONTENT-TYPE        : text/plain;charset=utf-8
+--------------------------------------------------response headers:
+CACHE-CONTROL       : must-revalidate, max-age=0
+--------------------------------------------------response headers:
+EXPIRES             : -1
+--------------------------------------------------response headers:
+VARY                : Accept-Encoding,User-Agent
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 114
+--------------------------------------------------response headers:
+KEEP-ALIVE          : timeout=15, max=922
+--------------------------------------------------response headers:
+CONNECTION          : Keep-Alive
+--------------------------------------------------response headers:
+
+=
+POST /services/json/?method=browse.getMusicRecommendation&user_id=1555097649&auth_token=VIxCZoiyKcEOVmIDxNL2Vt3kpqOMB4HZYIjCajeDTOODW5OglXUgB2mA%3D%3D&partner_id=20 HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : ios-tuner.pandora.com:443
+CONTENT-TYPE        : text/plain
+CONNECTION          : keep-alive
+ACCEPT              : */*
+USER-AGENT          : Pandora/1911.2 (iPad; iOS 13.1; Scale/2.00)
+ACCEPT-LANGUAGE     : en-US;q=1
+CONTENT-LENGTH      : 2704
+ACCEPT-ENCODING     : gzip, deflate, br
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:08:24 GMT
+--------------------------------------------------response headers:
+SERVER              : Apache
+--------------------------------------------------response headers:
+CONTENT-TYPE        : text/plain;charset=utf-8
+--------------------------------------------------response headers:
+VARY                : Accept-Encoding,User-Agent
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 2616
+--------------------------------------------------response headers:
+KEEP-ALIVE          : timeout=15, max=993
+--------------------------------------------------response headers:
+CONNECTION          : Keep-Alive
+--------------------------------------------------response headers:
+
+=
+POST /services/json/?method=user.updateRemoteNotificationToken&user_id=1555097649&auth_token=VIxCZoiyKcEOVmIDxNL2Vt3kpqOMB4HZYIjCajeDTOODW5OglXUgB2mA%3D%3D&partner_id=20 HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : ios-tuner.pandora.com:443
+CONTENT-TYPE        : text/plain
+CONNECTION          : keep-alive
+ACCEPT              : */*
+USER-AGENT          : Pandora/1911.2 (iPad; iOS 13.1; Scale/2.00)
+ACCEPT-LANGUAGE     : en-US;q=1
+CONTENT-LENGTH      : 2688
+ACCEPT-ENCODING     : gzip, deflate, br
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:08:25 GMT
+--------------------------------------------------response headers:
+SERVER              : Apache
+--------------------------------------------------response headers:
+CONTENT-TYPE        : text/plain;charset=utf-8
+--------------------------------------------------response headers:
+CACHE-CONTROL       : must-revalidate, max-age=0
+--------------------------------------------------response headers:
+EXPIRES             : -1
+--------------------------------------------------response headers:
+VARY                : Accept-Encoding,User-Agent
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 13
+--------------------------------------------------response headers:
+KEEP-ALIVE          : timeout=15, max=968
+--------------------------------------------------response headers:
+CONNECTION          : Keep-Alive
+--------------------------------------------------response headers:
+
+=
+POST /services/json/?method=profile.v1.getFullProfile&user_id=1555097649&auth_token=VIxCZoiyKcEOVmIDxNL2Vt3kpqOMB4HZYIjCajeDTOODW5OglXUgB2mA%3D%3D&partner_id=20 HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : ios-tuner.pandora.com:443
+CONTENT-TYPE        : application/json
+CONNECTION          : keep-alive
+ACCEPT              : */*
+USER-AGENT          : Pandora/1911.2 (iPad; iOS 13.1; Scale/2.00)
+ACCEPT-LANGUAGE     : en-US;q=1
+CONTENT-LENGTH      : 1194
+ACCEPT-ENCODING     : gzip, deflate, br
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:08:25 GMT
+--------------------------------------------------response headers:
+SERVER              : Apache
+--------------------------------------------------response headers:
+CONTENT-TYPE        : text/plain;charset=utf-8
+--------------------------------------------------response headers:
+VARY                : Accept-Encoding,User-Agent
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 352
+--------------------------------------------------response headers:
+KEEP-ALIVE          : timeout=15, max=854
+--------------------------------------------------response headers:
+CONNECTION          : Keep-Alive
+--------------------------------------------------response headers:
+
+=
+POST /services/json/?method=lcx.v2.isAccountLinked&user_id=1555097649&auth_token=VIxCZoiyKcEOVmIDxNL2Vt3kpqOMB4HZYIjCajeDTOODW5OglXUgB2mA%3D%3D&partner_id=20 HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : ios-tuner.pandora.com:443
+CONTENT-TYPE        : application/json
+CONNECTION          : keep-alive
+ACCEPT              : */*
+USER-AGENT          : Pandora/1911.2 (iPad; iOS 13.1; Scale/2.00)
+ACCEPT-LANGUAGE     : en-US;q=1
+CONTENT-LENGTH      : 1143
+ACCEPT-ENCODING     : gzip, deflate, br
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:08:25 GMT
+--------------------------------------------------response headers:
+SERVER              : Apache
+--------------------------------------------------response headers:
+CONTENT-TYPE        : text/plain;charset=utf-8
+--------------------------------------------------response headers:
+VARY                : Accept-Encoding,User-Agent
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 39
+--------------------------------------------------response headers:
+KEEP-ALIVE          : timeout=15, max=921
+--------------------------------------------------response headers:
+CONNECTION          : Keep-Alive
+--------------------------------------------------response headers:
+
+=
+POST /services/json/?method=lcx.v2.isAccountLinked&user_id=1555097649&auth_token=VIxCZoiyKcEOVmIDxNL2Vt3kpqOMB4HZYIjCajeDTOODW5OglXUgB2mA%3D%3D&partner_id=20 HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : ios-tuner.pandora.com:443
+CONTENT-TYPE        : application/json
+CONNECTION          : keep-alive
+ACCEPT              : */*
+USER-AGENT          : Pandora/1911.2 (iPad; iOS 13.1; Scale/2.00)
+ACCEPT-LANGUAGE     : en-US;q=1
+CONTENT-LENGTH      : 1143
+ACCEPT-ENCODING     : gzip, deflate, br
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:08:34 GMT
+--------------------------------------------------response headers:
+SERVER              : Apache
+--------------------------------------------------response headers:
+CONTENT-TYPE        : text/plain;charset=utf-8
+--------------------------------------------------response headers:
+VARY                : Accept-Encoding,User-Agent
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 39
+--------------------------------------------------response headers:
+KEEP-ALIVE          : timeout=15, max=735
+--------------------------------------------------response headers:
+CONNECTION          : Keep-Alive
+--------------------------------------------------response headers:
+
+=
+POST /services/json/?method=station.createStation&user_id=1555097649&auth_token=VIxCZoiyKcEOVmIDxNL2Vt3kpqOMB4HZYIjCajeDTOODW5OglXUgB2mA%3D%3D&partner_id=20 HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : ios-tuner.pandora.com:443
+CONTENT-TYPE        : text/plain
+CONNECTION          : keep-alive
+ACCEPT              : */*
+USER-AGENT          : Pandora/1911.2 (iPad; iOS 13.1; Scale/2.00)
+ACCEPT-LANGUAGE     : en-US;q=1
+CONTENT-LENGTH      : 3088
+ACCEPT-ENCODING     : gzip, deflate, br
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:08:47 GMT
+--------------------------------------------------response headers:
+SERVER              : Apache
+--------------------------------------------------response headers:
+CONTENT-TYPE        : text/plain;charset=utf-8
+--------------------------------------------------response headers:
+CACHE-CONTROL       : must-revalidate, max-age=0
+--------------------------------------------------response headers:
+EXPIRES             : -1
+--------------------------------------------------response headers:
+VARY                : Accept-Encoding,User-Agent
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 1108
+--------------------------------------------------response headers:
+KEEP-ALIVE          : timeout=15, max=715
+--------------------------------------------------response headers:
+CONNECTION          : Keep-Alive
+--------------------------------------------------response headers:
+
+=
+POST /services/json/?method=station.getPersonalizationDetails&user_id=1555097649&auth_token=VIxCZoiyKcEOVmIDxNL2Vt3kpqOMB4HZYIjCajeDTOODW5OglXUgB2mA%3D%3D&partner_id=20 HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : ios-tuner.pandora.com:443
+CONTENT-TYPE        : text/plain
+CONNECTION          : keep-alive
+ACCEPT              : */*
+USER-AGENT          : Pandora/1911.2 (iPad; iOS 13.1; Scale/2.00)
+ACCEPT-LANGUAGE     : en-US;q=1
+CONTENT-LENGTH      : 2368
+ACCEPT-ENCODING     : gzip, deflate, br
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:08:48 GMT
+--------------------------------------------------response headers:
+SERVER              : Apache
+--------------------------------------------------response headers:
+CONTENT-TYPE        : text/plain;charset=utf-8
+--------------------------------------------------response headers:
+CACHE-CONTROL       : must-revalidate, max-age=0
+--------------------------------------------------response headers:
+EXPIRES             : -1
+--------------------------------------------------response headers:
+VARY                : Accept-Encoding,User-Agent
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 126
+--------------------------------------------------response headers:
+KEEP-ALIVE          : timeout=15, max=950
+--------------------------------------------------response headers:
+CONNECTION          : Keep-Alive
+--------------------------------------------------response headers:
+
+=
+POST /services/json/?method=user.getStationList&user_id=1555097649&auth_token=VIxCZoiyKcEOVmIDxNL2Vt3kpqOMB4HZYIjCajeDTOODW5OglXUgB2mA%3D%3D&partner_id=20 HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : ios-tuner.pandora.com:443
+CONTENT-TYPE        : text/plain
+CONNECTION          : keep-alive
+ACCEPT              : */*
+USER-AGENT          : Pandora/1911.2 (iPad; iOS 13.1; Scale/2.00)
+ACCEPT-LANGUAGE     : en-US;q=1
+CONTENT-LENGTH      : 2928
+ACCEPT-ENCODING     : gzip, deflate, br
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:08:49 GMT
+--------------------------------------------------response headers:
+SERVER              : Apache
+--------------------------------------------------response headers:
+CONTENT-TYPE        : text/plain;charset=utf-8
+--------------------------------------------------response headers:
+CACHE-CONTROL       : must-revalidate, max-age=0
+--------------------------------------------------response headers:
+EXPIRES             : -1
+--------------------------------------------------response headers:
+VARY                : Accept-Encoding,User-Agent
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 1358
+--------------------------------------------------response headers:
+KEEP-ALIVE          : timeout=15, max=996
+--------------------------------------------------response headers:
+CONNECTION          : Keep-Alive
+--------------------------------------------------response headers:
+
+=
+POST /services/json/?method=track.playbackResumed&user_id=1555097649&auth_token=VIxCZoiyKcEOVmIDxNL2Vt3kpqOMB4HZYIjCajeDTOODW5OglXUgB2mA%3D%3D&partner_id=20 HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : ios-tuner.pandora.com:443
+CONTENT-TYPE        : text/plain
+CONNECTION          : keep-alive
+ACCEPT              : */*
+USER-AGENT          : Pandora/1911.2 (iPad; iOS 13.1; Scale/2.00)
+ACCEPT-LANGUAGE     : en-US;q=1
+CONTENT-LENGTH      : 2480
+ACCEPT-ENCODING     : gzip, deflate, br
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:08:50 GMT
+--------------------------------------------------response headers:
+SERVER              : Apache
+--------------------------------------------------response headers:
+CONTENT-TYPE        : text/plain;charset=utf-8
+--------------------------------------------------response headers:
+CACHE-CONTROL       : must-revalidate, max-age=0
+--------------------------------------------------response headers:
+EXPIRES             : -1
+--------------------------------------------------response headers:
+VARY                : Accept-Encoding,User-Agent
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 13
+--------------------------------------------------response headers:
+KEEP-ALIVE          : timeout=15, max=999
+--------------------------------------------------response headers:
+CONNECTION          : Keep-Alive
+--------------------------------------------------response headers:
+
+=
+POST /services/json/?method=interactiveradio.v1.getAvailableModesSimple&user_id=1555097649&auth_token=VIxCZoiyKcEOVmIDxNL2Vt3kpqOMB4HZYIjCajeDTOODW5OglXUgB2mA%3D%3D&partner_id=20 HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : ios-tuner.pandora.com:443
+CONTENT-TYPE        : application/json
+CONNECTION          : keep-alive
+ACCEPT              : */*
+USER-AGENT          : Pandora/1911.2 (iPad; iOS 13.1; Scale/2.00)
+ACCEPT-LANGUAGE     : en-US;q=1
+CONTENT-LENGTH      : 1156
+ACCEPT-ENCODING     : gzip, deflate, br
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:08:50 GMT
+--------------------------------------------------response headers:
+SERVER              : Apache
+--------------------------------------------------response headers:
+CONTENT-TYPE        : text/plain;charset=utf-8
+--------------------------------------------------response headers:
+VARY                : Accept-Encoding,User-Agent
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 442
+--------------------------------------------------response headers:
+KEEP-ALIVE          : timeout=15, max=870
+--------------------------------------------------response headers:
+CONNECTION          : Keep-Alive
+--------------------------------------------------response headers:
+
+=
+POST /services/json/?method=browse.getMusicRecommendation&user_id=1555097649&auth_token=VIxCZoiyKcEOVmIDxNL2Vt3kpqOMB4HZYIjCajeDTOODW5OglXUgB2mA%3D%3D&partner_id=20 HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : ios-tuner.pandora.com:443
+CONTENT-TYPE        : text/plain
+CONNECTION          : keep-alive
+ACCEPT              : */*
+USER-AGENT          : Pandora/1911.2 (iPad; iOS 13.1; Scale/2.00)
+ACCEPT-LANGUAGE     : en-US;q=1
+CONTENT-LENGTH      : 2768
+ACCEPT-ENCODING     : gzip, deflate, br
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:08:50 GMT
+--------------------------------------------------response headers:
+SERVER              : Apache
+--------------------------------------------------response headers:
+CONTENT-TYPE        : text/plain;charset=utf-8
+--------------------------------------------------response headers:
+VARY                : Accept-Encoding,User-Agent
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 3929
+--------------------------------------------------response headers:
+KEEP-ALIVE          : timeout=15, max=991
+--------------------------------------------------response headers:
+CONNECTION          : Keep-Alive
+--------------------------------------------------response headers:
+
+=
+POST /services/json/?method=contentservice.getcontent&user_id=1555097649&auth_token=VIxCZoiyKcEOVmIDxNL2Vt3kpqOMB4HZYIjCajeDTOODW5OglXUgB2mA%3D%3D&partner_id=20 HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : ios-tuner.pandora.com:443
+CONTENT-TYPE        : application/json
+CONNECTION          : keep-alive
+ACCEPT              : */*
+USER-AGENT          : Pandora/1911.2 (iPad; iOS 13.1; Scale/2.00)
+ACCEPT-LANGUAGE     : en-US;q=1
+CONTENT-LENGTH      : 2470
+ACCEPT-ENCODING     : gzip, deflate, br
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:08:50 GMT
+--------------------------------------------------response headers:
+SERVER              : Apache
+--------------------------------------------------response headers:
+CONTENT-TYPE        : text/plain;charset=utf-8
+--------------------------------------------------response headers:
+VARY                : Accept-Encoding,User-Agent
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 4071
+--------------------------------------------------response headers:
+KEEP-ALIVE          : timeout=15, max=902
+--------------------------------------------------response headers:
+CONNECTION          : Keep-Alive
+--------------------------------------------------response headers:
+
+=
+POST /services/json/?method=music.getSearchRecommendations&user_id=1555097649&auth_token=VIxCZoiyKcEOVmIDxNL2Vt3kpqOMB4HZYIjCajeDTOODW5OglXUgB2mA%3D%3D&partner_id=20 HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : ios-tuner.pandora.com:443
+CONTENT-TYPE        : text/plain
+CONNECTION          : keep-alive
+ACCEPT              : */*
+USER-AGENT          : Pandora/1911.2 (iPad; iOS 13.1; Scale/2.00)
+ACCEPT-LANGUAGE     : en-US;q=1
+CONTENT-LENGTH      : 2448
+ACCEPT-ENCODING     : gzip, deflate, br
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:08:51 GMT
+--------------------------------------------------response headers:
+SERVER              : Apache
+--------------------------------------------------response headers:
+CONTENT-TYPE        : text/plain;charset=utf-8
+--------------------------------------------------response headers:
+CACHE-CONTROL       : must-revalidate, max-age=0
+--------------------------------------------------response headers:
+EXPIRES             : -1
+--------------------------------------------------response headers:
+VARY                : Accept-Encoding,User-Agent
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 1092
+--------------------------------------------------response headers:
+KEEP-ALIVE          : timeout=15, max=991
+--------------------------------------------------response headers:
+CONNECTION          : Keep-Alive
+--------------------------------------------------response headers:
+
+=
+POST /services/json/?method=track.trackStarted&user_id=1555097649&auth_token=VIxCZoiyKcEOVmIDxNL2Vt3kpqOMB4HZYIjCajeDTOODW5OglXUgB2mA%3D%3D&partner_id=20 HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : ios-tuner.pandora.com:443
+CONTENT-TYPE        : text/plain
+CONNECTION          : keep-alive
+ACCEPT              : */*
+USER-AGENT          : Pandora/1911.2 (iPad; iOS 13.1; Scale/2.00)
+ACCEPT-LANGUAGE     : en-US;q=1
+CONTENT-LENGTH      : 3216
+ACCEPT-ENCODING     : gzip, deflate, br
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:08:52 GMT
+--------------------------------------------------response headers:
+SERVER              : Apache
+--------------------------------------------------response headers:
+CONTENT-TYPE        : text/plain;charset=utf-8
+--------------------------------------------------response headers:
+CACHE-CONTROL       : must-revalidate, max-age=0
+--------------------------------------------------response headers:
+EXPIRES             : -1
+--------------------------------------------------response headers:
+VARY                : Accept-Encoding,User-Agent
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 51
+--------------------------------------------------response headers:
+KEEP-ALIVE          : timeout=15, max=924
+--------------------------------------------------response headers:
+CONNECTION          : Keep-Alive
+--------------------------------------------------response headers:
+
+=
+POST /services/json/?method=contentservice.getcontent&user_id=1555097649&auth_token=VIxCZoiyKcEOVmIDxNL2Vt3kpqOMB4HZYIjCajeDTOODW5OglXUgB2mA%3D%3D&partner_id=20 HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : ios-tuner.pandora.com:443
+CONTENT-TYPE        : application/json
+CONNECTION          : keep-alive
+ACCEPT              : */*
+USER-AGENT          : Pandora/1911.2 (iPad; iOS 13.1; Scale/2.00)
+ACCEPT-LANGUAGE     : en-US;q=1
+CONTENT-LENGTH      : 2995
+ACCEPT-ENCODING     : gzip, deflate, br
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:08:52 GMT
+--------------------------------------------------response headers:
+SERVER              : Apache
+--------------------------------------------------response headers:
+CONTENT-TYPE        : text/plain;charset=utf-8
+--------------------------------------------------response headers:
+VARY                : Accept-Encoding,User-Agent
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 4119
+--------------------------------------------------response headers:
+KEEP-ALIVE          : timeout=15, max=761
+--------------------------------------------------response headers:
+CONNECTION          : Keep-Alive
+--------------------------------------------------response headers:
+
+=
+POST /services/json/?method=browse.getMusicRecommendation&user_id=1555097649&auth_token=VIxCZoiyKcEOVmIDxNL2Vt3kpqOMB4HZYIjCajeDTOODW5OglXUgB2mA%3D%3D&partner_id=20 HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : ios-tuner.pandora.com:443
+CONTENT-TYPE        : text/plain
+CONNECTION          : keep-alive
+ACCEPT              : */*
+USER-AGENT          : Pandora/1911.2 (iPad; iOS 13.1; Scale/2.00)
+ACCEPT-LANGUAGE     : en-US;q=1
+CONTENT-LENGTH      : 2768
+ACCEPT-ENCODING     : gzip, deflate, br
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:08:53 GMT
+--------------------------------------------------response headers:
+SERVER              : Apache
+--------------------------------------------------response headers:
+CONTENT-TYPE        : text/plain;charset=utf-8
+--------------------------------------------------response headers:
+VARY                : Accept-Encoding,User-Agent
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 3930
+--------------------------------------------------response headers:
+KEEP-ALIVE          : timeout=15, max=846
+--------------------------------------------------response headers:
+CONNECTION          : Keep-Alive
+--------------------------------------------------response headers:
+
+=
+POST /services/json/?method=track.trackStarted&user_id=1555097649&auth_token=VIxCZoiyKcEOVmIDxNL2Vt3kpqOMB4HZYIjCajeDTOODW5OglXUgB2mA%3D%3D&partner_id=20 HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : ios-tuner.pandora.com:443
+CONTENT-TYPE        : text/plain
+CONNECTION          : keep-alive
+ACCEPT              : */*
+USER-AGENT          : Pandora/1911.2 (iPad; iOS 13.1; Scale/2.00)
+ACCEPT-LANGUAGE     : en-US;q=1
+CONTENT-LENGTH      : 3216
+ACCEPT-ENCODING     : gzip, deflate, br
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:11:30 GMT
+--------------------------------------------------response headers:
+SERVER              : Apache
+--------------------------------------------------response headers:
+CONTENT-TYPE        : text/plain;charset=utf-8
+--------------------------------------------------response headers:
+CACHE-CONTROL       : must-revalidate, max-age=0
+--------------------------------------------------response headers:
+EXPIRES             : -1
+--------------------------------------------------response headers:
+VARY                : Accept-Encoding,User-Agent
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 51
+--------------------------------------------------response headers:
+KEEP-ALIVE          : timeout=15, max=813
+--------------------------------------------------response headers:
+CONNECTION          : Keep-Alive
+--------------------------------------------------response headers:
+
+=
+POST /services/json/?method=contentservice.getcontent&user_id=1555097649&auth_token=VIxCZoiyKcEOVmIDxNL2Vt3kpqOMB4HZYIjCajeDTOODW5OglXUgB2mA%3D%3D&partner_id=20 HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : ios-tuner.pandora.com:443
+CONTENT-TYPE        : application/json
+CONNECTION          : keep-alive
+ACCEPT              : */*
+USER-AGENT          : Pandora/1911.2 (iPad; iOS 13.1; Scale/2.00)
+ACCEPT-LANGUAGE     : en-US;q=1
+CONTENT-LENGTH      : 3419
+ACCEPT-ENCODING     : gzip, deflate, br
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:11:31 GMT
+--------------------------------------------------response headers:
+SERVER              : Apache
+--------------------------------------------------response headers:
+CONTENT-TYPE        : text/plain;charset=utf-8
+--------------------------------------------------response headers:
+VARY                : Accept-Encoding,User-Agent
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 3972
+--------------------------------------------------response headers:
+KEEP-ALIVE          : timeout=15, max=933
+--------------------------------------------------response headers:
+CONNECTION          : Keep-Alive
+--------------------------------------------------response headers:
+
+=
+POST /services/json/?method=track.playbackPaused&user_id=1555097649&auth_token=VIxCZoiyKcEOVmIDxNL2Vt3kpqOMB4HZYIjCajeDTOODW5OglXUgB2mA%3D%3D&partner_id=20 HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : ios-tuner.pandora.com:443
+CONTENT-TYPE        : text/plain
+CONNECTION          : keep-alive
+ACCEPT              : */*
+USER-AGENT          : Pandora/1911.2 (iPad; iOS 13.1; Scale/2.00)
+ACCEPT-LANGUAGE     : en-US;q=1
+CONTENT-LENGTH      : 2432
+ACCEPT-ENCODING     : gzip, deflate, br
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:12:51 GMT
+--------------------------------------------------response headers:
+SERVER              : Apache
+--------------------------------------------------response headers:
+CONTENT-TYPE        : text/plain;charset=utf-8
+--------------------------------------------------response headers:
+CACHE-CONTROL       : must-revalidate, max-age=0
+--------------------------------------------------response headers:
+EXPIRES             : -1
+--------------------------------------------------response headers:
+VARY                : Accept-Encoding,User-Agent
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 13
+--------------------------------------------------response headers:
+KEEP-ALIVE          : timeout=15, max=894
+--------------------------------------------------response headers:
+CONNECTION          : Keep-Alive
+--------------------------------------------------response headers:
+
+=
+POST /services/json/?method=device.appForeground&user_id=1555097649&auth_token=VIxCZoiyKcEOVmIDxNL2Vt3kpqOMB4HZYIjCajeDTOODW5OglXUgB2mA%3D%3D&partner_id=20 HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : ios-tuner.pandora.com:443
+CONTENT-TYPE        : text/plain
+CONNECTION          : keep-alive
+ACCEPT              : */*
+USER-AGENT          : Pandora/1911.2 (iPad; iOS 13.1; Scale/2.00)
+ACCEPT-LANGUAGE     : en-US;q=1
+CONTENT-LENGTH      : 2304
+ACCEPT-ENCODING     : gzip, deflate, br
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:13:30 GMT
+--------------------------------------------------response headers:
+SERVER              : Apache
+--------------------------------------------------response headers:
+CONTENT-TYPE        : text/plain;charset=utf-8
+--------------------------------------------------response headers:
+CACHE-CONTROL       : must-revalidate, max-age=0
+--------------------------------------------------response headers:
+EXPIRES             : -1
+--------------------------------------------------response headers:
+VARY                : Accept-Encoding,User-Agent
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 13
+--------------------------------------------------response headers:
+KEEP-ALIVE          : timeout=15, max=949
+--------------------------------------------------response headers:
+CONNECTION          : Keep-Alive
+--------------------------------------------------response headers:
+
+=
+POST /services/json/?method=track.playbackResumed&user_id=1555097649&auth_token=VIxCZoiyKcEOVmIDxNL2Vt3kpqOMB4HZYIjCajeDTOODW5OglXUgB2mA%3D%3D&partner_id=20 HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : ios-tuner.pandora.com:443
+CONTENT-TYPE        : text/plain
+CONNECTION          : keep-alive
+ACCEPT              : */*
+USER-AGENT          : Pandora/1911.2 (iPad; iOS 13.1; Scale/2.00)
+ACCEPT-LANGUAGE     : en-US;q=1
+CONTENT-LENGTH      : 2480
+ACCEPT-ENCODING     : gzip, deflate, br
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:13:30 GMT
+--------------------------------------------------response headers:
+SERVER              : Apache
+--------------------------------------------------response headers:
+CONTENT-TYPE        : text/plain;charset=utf-8
+--------------------------------------------------response headers:
+CACHE-CONTROL       : must-revalidate, max-age=0
+--------------------------------------------------response headers:
+EXPIRES             : -1
+--------------------------------------------------response headers:
+VARY                : Accept-Encoding,User-Agent
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 13
+--------------------------------------------------response headers:
+KEEP-ALIVE          : timeout=15, max=960
+--------------------------------------------------response headers:
+CONNECTION          : Keep-Alive
+--------------------------------------------------response headers:
+
+=
+POST /services/json/?method=lcx.v2.isAccountLinked&user_id=1555097649&auth_token=VIxCZoiyKcEOVmIDxNL2Vt3kpqOMB4HZYIjCajeDTOODW5OglXUgB2mA%3D%3D&partner_id=20 HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : ios-tuner.pandora.com:443
+CONTENT-TYPE        : application/json
+CONNECTION          : keep-alive
+ACCEPT              : */*
+USER-AGENT          : Pandora/1911.2 (iPad; iOS 13.1; Scale/2.00)
+ACCEPT-LANGUAGE     : en-US;q=1
+CONTENT-LENGTH      : 1143
+ACCEPT-ENCODING     : gzip, deflate, br
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:13:31 GMT
+--------------------------------------------------response headers:
+SERVER              : Apache
+--------------------------------------------------response headers:
+CONTENT-TYPE        : text/plain;charset=utf-8
+--------------------------------------------------response headers:
+VARY                : Accept-Encoding,User-Agent
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 39
+--------------------------------------------------response headers:
+KEEP-ALIVE          : timeout=15, max=993
+--------------------------------------------------response headers:
+CONNECTION          : Keep-Alive
+--------------------------------------------------response headers:
+
+=
+POST /services/json/?method=track.trackStarted&user_id=1555097649&auth_token=VIxCZoiyKcEOVmIDxNL2Vt3kpqOMB4HZYIjCajeDTOODW5OglXUgB2mA%3D%3D&partner_id=20 HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : ios-tuner.pandora.com:443
+CONTENT-TYPE        : text/plain
+CONNECTION          : keep-alive
+ACCEPT              : */*
+USER-AGENT          : Pandora/1911.2 (iPad; iOS 13.1; Scale/2.00)
+ACCEPT-LANGUAGE     : en-US;q=1
+CONTENT-LENGTH      : 3216
+ACCEPT-ENCODING     : gzip, deflate, br
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:14:03 GMT
+--------------------------------------------------response headers:
+SERVER              : Apache
+--------------------------------------------------response headers:
+CONTENT-TYPE        : text/plain;charset=utf-8
+--------------------------------------------------response headers:
+CACHE-CONTROL       : must-revalidate, max-age=0
+--------------------------------------------------response headers:
+EXPIRES             : -1
+--------------------------------------------------response headers:
+VARY                : Accept-Encoding,User-Agent
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 51
+--------------------------------------------------response headers:
+KEEP-ALIVE          : timeout=15, max=873
+--------------------------------------------------response headers:
+CONNECTION          : Keep-Alive
+--------------------------------------------------response headers:
+
+=
+POST /services/json/?method=contentservice.getcontent&user_id=1555097649&auth_token=VIxCZoiyKcEOVmIDxNL2Vt3kpqOMB4HZYIjCajeDTOODW5OglXUgB2mA%3D%3D&partner_id=20 HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : ios-tuner.pandora.com:443
+CONTENT-TYPE        : application/json
+CONNECTION          : keep-alive
+ACCEPT              : */*
+USER-AGENT          : Pandora/1911.2 (iPad; iOS 13.1; Scale/2.00)
+ACCEPT-LANGUAGE     : en-US;q=1
+CONTENT-LENGTH      : 3419
+ACCEPT-ENCODING     : gzip, deflate, br
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:14:05 GMT
+--------------------------------------------------response headers:
+SERVER              : Apache
+--------------------------------------------------response headers:
+CONTENT-TYPE        : text/plain;charset=utf-8
+--------------------------------------------------response headers:
+VARY                : Accept-Encoding,User-Agent
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 4091
+--------------------------------------------------response headers:
+KEEP-ALIVE          : timeout=15, max=994
+--------------------------------------------------response headers:
+CONNECTION          : Keep-Alive
+--------------------------------------------------response headers:
+
+=
+POST /services/json/?method=track.playbackPaused&user_id=1555097649&auth_token=VIxCZoiyKcEOVmIDxNL2Vt3kpqOMB4HZYIjCajeDTOODW5OglXUgB2mA%3D%3D&partner_id=20 HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : ios-tuner.pandora.com:443
+CONTENT-TYPE        : text/plain
+CONNECTION          : keep-alive
+ACCEPT              : */*
+USER-AGENT          : Pandora/1911.2 (iPad; iOS 13.1; Scale/2.00)
+ACCEPT-LANGUAGE     : en-US;q=1
+CONTENT-LENGTH      : 2432
+ACCEPT-ENCODING     : gzip, deflate, br
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:14:43 GMT
+--------------------------------------------------response headers:
+SERVER              : Apache
+--------------------------------------------------response headers:
+CONTENT-TYPE        : text/plain;charset=utf-8
+--------------------------------------------------response headers:
+CACHE-CONTROL       : must-revalidate, max-age=0
+--------------------------------------------------response headers:
+EXPIRES             : -1
+--------------------------------------------------response headers:
+VARY                : Accept-Encoding,User-Agent
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 13
+--------------------------------------------------response headers:
+KEEP-ALIVE          : timeout=15, max=803
+--------------------------------------------------response headers:
+CONNECTION          : Keep-Alive
+--------------------------------------------------response headers:

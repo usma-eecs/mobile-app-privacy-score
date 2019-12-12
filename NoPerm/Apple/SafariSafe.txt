@@ -1,0 +1,74 @@
+
+=
+GET /v4/threatListUpdates:fetch?$ct=application%2Fx-protobuf&$req=ChgKBlNhZmFyaRIOMTQ2MDguMi4xMS4wLjEaKQgBEAUaGwoNCAQQAxgBIgMwMDEwARDT6QMaAhgFazJ30SIEIAEgAigBGikIAhAFGhsKDQgFEAMYASIDMDAxMAEQ_rsHGgIYBevcBhMiBCABIAIoAQ==&key=AIzaSyANT-dOXDTNxZS4flEImFNycnoeDh4ehQI HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : safebrowsing.googleapis.com
+ACCEPT              : */*
+X-HTTP-METHOD-OVERRIDE: POST
+USER-AGENT          : SafariSafeBrowsing/14608.2.11.0.1 CFNetwork/1107.1 Darwin/19.0.0
+ACCEPT-LANGUAGE     : en-us
+ACCEPT-ENCODING     : gzip, deflate, br
+--------------------------------------------------response headers:
+VARY                : Accept-Encoding
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/x-protobuf
+--------------------------------------------------response headers:
+CONTENT-DISPOSITION : attachment
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 00:38:49 GMT
+--------------------------------------------------response headers:
+SERVER              : ESF
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 577
+--------------------------------------------------response headers:
+X-XSS-PROTECTION    : 0
+--------------------------------------------------response headers:
+X-FRAME-OPTIONS     : SAMEORIGIN
+--------------------------------------------------response headers:
+X-CONTENT-TYPE-OPTIONS: nosniff
+--------------------------------------------------response headers:
+CACHE-CONTROL       : private
+--------------------------------------------------response headers:
+AGE                 : 418
+--------------------------------------------------response headers:
+ALT-SVC             : quic=":443"; ma=2592000; v="46,43",h3-Q050=":443"; ma=2592000,h3-Q049=":443"; ma=2592000,h3-Q048=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000
+--------------------------------------------------response headers:
+
+=
+GET /v4/threatListUpdates:fetch?$ct=application%2Fx-protobuf&$req=ChgKBlNhZmFyaRIOMTQ2MDguMi4xMS4wLjEaKQgBEAUaGwoNCAQQAxgBIgMwMDEwARDU6QMaAhgFSzDDtiIEIAEgAigBGikIAhAFGhsKDQgFEAMYASIDMDAxMAEQgLwHGgIYBUkrwIkiBCABIAIoAQ==&key=AIzaSyANT-dOXDTNxZS4flEImFNycnoeDh4ehQI HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : safebrowsing.googleapis.com
+ACCEPT              : */*
+X-HTTP-METHOD-OVERRIDE: POST
+USER-AGENT          : SafariSafeBrowsing/14608.2.11.0.1 CFNetwork/1107.1 Darwin/19.0.0
+ACCEPT-LANGUAGE     : en-us
+ACCEPT-ENCODING     : gzip, deflate, br
+--------------------------------------------------response headers:
+VARY                : Accept-Encoding
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/x-protobuf
+--------------------------------------------------response headers:
+CONTENT-DISPOSITION : attachment
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:19:28 GMT
+--------------------------------------------------response headers:
+SERVER              : ESF
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 617
+--------------------------------------------------response headers:
+X-XSS-PROTECTION    : 0
+--------------------------------------------------response headers:
+X-FRAME-OPTIONS     : SAMEORIGIN
+--------------------------------------------------response headers:
+X-CONTENT-TYPE-OPTIONS: nosniff
+--------------------------------------------------response headers:
+CACHE-CONTROL       : private
+--------------------------------------------------response headers:
+AGE                 : 88
+--------------------------------------------------response headers:
+ALT-SVC             : quic=":443"; ma=2592000; v="46,43",h3-Q050=":443"; ma=2592000,h3-Q049=":443"; ma=2592000,h3-Q048=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000
+--------------------------------------------------response headers:

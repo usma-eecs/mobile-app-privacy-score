@@ -1,0 +1,126 @@
+
+=
+POST /v3.2/227791440613076/activities HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : graph.facebook.com
+ACCEPT              : */*
+CONTENT-TYPE        : application/json
+ACCEPT-ENCODING     : gzip, deflate, br
+USER-AGENT          : FBiOSSDK.4.38.1
+CONTENT-LENGTH      : 1659
+ACCEPT-LANGUAGE     : en-us
+--------------------------------------------------response headers:
+X-APP-USAGE         : {"call_count":0,"total_cputime":0,"total_time":0}
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/json; charset=UTF-8
+--------------------------------------------------response headers:
+FACEBOOK-API-VERSION: v3.2
+--------------------------------------------------response headers:
+STRICT-TRANSPORT-SECURITY: max-age=15552000; preload
+--------------------------------------------------response headers:
+PRAGMA              : no-cache
+--------------------------------------------------response headers:
+X-FB-REV            : 1001529984
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+CACHE-CONTROL       : private, no-cache, no-store, must-revalidate
+--------------------------------------------------response headers:
+X-FB-TRACE-ID       : CRabNt0Dnsa
+--------------------------------------------------response headers:
+X-FB-REQUEST-ID     : AtHTQzunukysFgG4Ke1HoPv
+--------------------------------------------------response headers:
+EXPIRES             : Sat, 01 Jan 2000 00:00:00 GMT
+--------------------------------------------------response headers:
+X-FB-DEBUG          : +U8E7+RLh6I/UzmlQVcAhAXHGKexd4He/AhTUVoh0ol5EhC/R+fb9BcvmYgw7JDoZyNs2pYplXBlQ7k2GCO58A==
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 16
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:09:01 GMT
+--------------------------------------------------response headers:
+ALT-SVC             : h3-24=":443"; ma=3600
+--------------------------------------------------response headers:
+
+=
+POST /v3.2/227791440613076/activities HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : graph.facebook.com
+ACCEPT              : */*
+CONTENT-TYPE        : application/json
+ACCEPT-ENCODING     : gzip, deflate, br
+USER-AGENT          : FBiOSSDK.4.38.1
+CONTENT-LENGTH      : 896
+ACCEPT-LANGUAGE     : en-us
+--------------------------------------------------response headers:
+X-APP-USAGE         : {"call_count":0,"total_cputime":0,"total_time":0}
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/json; charset=UTF-8
+--------------------------------------------------response headers:
+FACEBOOK-API-VERSION: v3.2
+--------------------------------------------------response headers:
+STRICT-TRANSPORT-SECURITY: max-age=15552000; preload
+--------------------------------------------------response headers:
+PRAGMA              : no-cache
+--------------------------------------------------response headers:
+X-FB-REV            : 1001529984
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+CACHE-CONTROL       : private, no-cache, no-store, must-revalidate
+--------------------------------------------------response headers:
+X-FB-TRACE-ID       : G0Ig6LAxInx
+--------------------------------------------------response headers:
+X-FB-REQUEST-ID     : AN7YNe4pMcZv8O9mXrAmZck
+--------------------------------------------------response headers:
+EXPIRES             : Sat, 01 Jan 2000 00:00:00 GMT
+--------------------------------------------------response headers:
+X-FB-DEBUG          : kHPHUbhTTqp/qB4F/16l5Rxgf/tfcNtThAX34fDO6/FQTDoJQS/lWGJUSS/SFRwtWAVr5nnl/BBITZX81nsjFA==
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 16
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:09:19 GMT
+--------------------------------------------------response headers:
+ALT-SVC             : h3-24=":443"; ma=3600
+--------------------------------------------------response headers:
+
+=
+POST /v3.2/227791440613076/activities HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : graph.facebook.com
+ACCEPT              : */*
+CONTENT-TYPE        : application/json
+ACCEPT-ENCODING     : gzip, deflate, br
+USER-AGENT          : FBiOSSDK.4.38.1
+CONTENT-LENGTH      : 926
+ACCEPT-LANGUAGE     : en-us
+--------------------------------------------------response headers:
+X-APP-USAGE         : {"call_count":0,"total_cputime":0,"total_time":0}
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/json; charset=UTF-8
+--------------------------------------------------response headers:
+FACEBOOK-API-VERSION: v3.2
+--------------------------------------------------response headers:
+STRICT-TRANSPORT-SECURITY: max-age=15552000; preload
+--------------------------------------------------response headers:
+PRAGMA              : no-cache
+--------------------------------------------------response headers:
+X-FB-REV            : 1001529984
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+CACHE-CONTROL       : private, no-cache, no-store, must-revalidate
+--------------------------------------------------response headers:
+X-FB-TRACE-ID       : FXXGwx5AhYE
+--------------------------------------------------response headers:
+X-FB-REQUEST-ID     : AIzmxnXp1PZEQeKFiUHHiiR
+--------------------------------------------------response headers:
+EXPIRES             : Sat, 01 Jan 2000 00:00:00 GMT
+--------------------------------------------------response headers:
+X-FB-DEBUG          : VqF/dwqxCTDNFhwz9ZK6bmfrXcoEuQ9zRrxaNTXyEIZvalyxDgFhAvpHgbw5d4yWJszrUpbLtdjyaxGGwPMj9w==
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 16
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:10:18 GMT
+--------------------------------------------------response headers:
+ALT-SVC             : h3-24=":443"; ma=3600
+--------------------------------------------------response headers:

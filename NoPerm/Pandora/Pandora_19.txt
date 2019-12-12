@@ -1,0 +1,66 @@
+
+=
+POST /services/json/?method=auth.partnerLogin HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : ios-tuner.pandora.com:443
+CONTENT-TYPE        : application/json
+CONNECTION          : keep-alive
+ACCEPT              : */*
+USER-AGENT          : Pandora/1911.2 (iPad; iOS 13.1; Scale/2.00)
+ACCEPT-LANGUAGE     : en-US;q=1
+CONTENT-LENGTH      : 457
+ACCEPT-ENCODING     : gzip, deflate, br
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 00:39:07 GMT
+--------------------------------------------------response headers:
+SERVER              : Apache
+--------------------------------------------------response headers:
+CONTENT-TYPE        : text/plain;charset=utf-8
+--------------------------------------------------response headers:
+CACHE-CONTROL       : must-revalidate, max-age=0
+--------------------------------------------------response headers:
+EXPIRES             : -1
+--------------------------------------------------response headers:
+VARY                : Accept-Encoding,User-Agent
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 670
+--------------------------------------------------response headers:
+KEEP-ALIVE          : timeout=15, max=231
+--------------------------------------------------response headers:
+CONNECTION          : Keep-Alive
+--------------------------------------------------response headers:
+
+=
+POST /services/json/?method=auto.getWhitelists&partner_id=20&auth_token=VAWcK%2BxLaEQ0NicvwP8zt%2F%2FeVXL85q5RM7 HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : ios-tuner.pandora.com:443
+CONTENT-TYPE        : text/plain
+CONNECTION          : keep-alive
+ACCEPT              : */*
+USER-AGENT          : Pandora/1911.2 (iPad; iOS 13.1; Scale/2.00)
+ACCEPT-LANGUAGE     : en-US;q=1
+CONTENT-LENGTH      : 2256
+ACCEPT-ENCODING     : gzip, deflate, br
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 00:39:08 GMT
+--------------------------------------------------response headers:
+SERVER              : Apache
+--------------------------------------------------response headers:
+CONTENT-TYPE        : text/plain;charset=utf-8
+--------------------------------------------------response headers:
+CACHE-CONTROL       : must-revalidate, max-age=0
+--------------------------------------------------response headers:
+EXPIRES             : -1
+--------------------------------------------------response headers:
+VARY                : Accept-Encoding,User-Agent
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 1462
+--------------------------------------------------response headers:
+KEEP-ALIVE          : timeout=15, max=993
+--------------------------------------------------response headers:
+CONNECTION          : Keep-Alive
+--------------------------------------------------response headers:

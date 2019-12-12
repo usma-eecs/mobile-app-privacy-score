@@ -1,0 +1,3266 @@
+
+=
+GET /experiments HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : api.bitmoji.com
+BITMOJI-INSTALL-ID  : 88F3331C-3B90-4A17-A199-CEEAC2F70D25
+BITMOJI-USER-AGENT  : 1|com.bitstrips.imoji|10.72.0.3071|iOS|13.1.0|iPad5,1|BEFE76C9-A1E4-42D2-ABF0-A564A09D3951|2|en-US
+ACCEPT              : */*
+USER-AGENT          : imoji/10.72.0.3071 (iPad5,1; iOS 13.1.0)
+ACCEPT-LANGUAGE     : en-US;q=1.0
+ACCEPT-ENCODING     : gzip;q=1.0, compress;q=0.5
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+BITMOJI-API-VERSION : 1
+--------------------------------------------------response headers:
+CACHE-CONTROL       : max-age=300, must-revalidate, private
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/json; charset=utf-8
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:56:49 GMT
+--------------------------------------------------response headers:
+SERVER              : nginx
+--------------------------------------------------response headers:
+VARY                : origin,accept-encoding
+--------------------------------------------------response headers:
+X-REQUEST-ID        : 1576115809272:ip-10-0-31-241:11985:k41x906w:88920
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 444
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+
+=
+POST /metric/bitmoji/analytics HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : connect.bitmoji.com
+ACCEPT              : application/x-protobuf
+CONTENT-TYPE        : application/x-protobuf
+ACCEPT-ENCODING     : gzip;q=1.0, compress;q=0.5
+CONTENT-LENGTH      : 167
+X-BITMOJI-CLIENT-AUTH: v9:46928A97733593FF889A2ABA33E96634:69BFE34BE025AA0D87B987CBDD51FBCB81C109F9C352AD41091CECA58B28C3C24B2190F5CAA2E6C639E049D594913EF090E6244605ECEE2D75BC20C67E26B686409B9F10F0223C03CB4E905295CCEFF42EA7777EEDBDC10EFEACBB2BD954F1D223EA1CD49A40750FF8EF71FF83A18E2BEC92BFD9B2E6F041
+ACCEPT-LANGUAGE     : en-US;q=1.0
+USER-AGENT          : imoji/10.72.0 (com.bitstrips.imoji; build:10.72.0.3071; iOS 13.1.0) Alamofire/4.9.0
+TIMESTAMP           : 1576115808856
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:56:49 GMT
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 0
+--------------------------------------------------response headers:
+VARY                : Accept-Encoding, User-Agent
+--------------------------------------------------response headers:
+SERVER              : Jetty(9.3.13.v20161014)
+--------------------------------------------------response headers:
+
+=
+POST /metric/bitmoji/ops HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : connect.bitmoji.com
+ACCEPT              : application/x-protobuf
+CONTENT-TYPE        : application/x-protobuf
+ACCEPT-ENCODING     : gzip;q=1.0, compress;q=0.5
+CONTENT-LENGTH      : 90
+X-BITMOJI-CLIENT-AUTH: v9:B9F81233D3FC175153EA0374469E31AB:C6B9249B7D3DDFB777B2B5F19009FE6FACE8514C2091AAA711964E012D3AA0AAFDD3DA90C364B150BC9A715AE66FA935D5D623682DBD31166C5ECAFAED28F61CFA359A2A47010436E9D77754DB3EDA6A9F748A33ABE53A7EEFC260EA6B60E7D8A3445B3568B5FE03665DDFC5B2E6F041
+ACCEPT-LANGUAGE     : en-US;q=1.0
+USER-AGENT          : imoji/10.72.0 (com.bitstrips.imoji; build:10.72.0.3071; iOS 13.1.0) Alamofire/4.9.0
+TIMESTAMP           : 1576115808875
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:56:49 GMT
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 0
+--------------------------------------------------response headers:
+VARY                : Accept-Encoding, User-Agent
+--------------------------------------------------response headers:
+SERVER              : Jetty(9.3.13.v20161014)
+--------------------------------------------------response headers:
+
+=
+POST /accounts/oauth2/token HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : accounts.snapchat.com
+CONTENT-TYPE        : application/x-www-form-urlencoded
+COOKIE              : web_client_id=b66856d9-3ac7-4560-a8e8-44639f850297
+CONTENT-LENGTH      : 486
+CONNECTION          : keep-alive
+BITMOJI-USER-AGENT  : 1|com.bitstrips.imoji|10.72.0.3071|iOS|13.1.0|iPad5,1|BEFE76C9-A1E4-42D2-ABF0-A564A09D3951|2|en-US
+ACCEPT              : */*
+USER-AGENT          : imoji/10.72.0 (iPad; iOS 13.1; Scale/2.00)
+ACCEPT-LANGUAGE     : en-US;q=1
+AUTHORIZATION       : Basic MjAxM2M5NTctYTI4My00NmM2LWFiM2MtOGRhOTM1NTkwZGQ3OktpYVBCbXNhdUgtQTBIcTBDcUF2czZPV2gxQUJySV9yXzY0Z0FkMHI3MGc=
+ACCEPT-ENCODING     : gzip, deflate, br
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+ACCESS-CONTROL-MAX-AGE: 3600
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-CREDENTIALS: true
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-METHODS: OPTIONS,POST
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-HEADERS: Authorization
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/json;charset=utf-8
+--------------------------------------------------response headers:
+CACHE-CONTROL       : no-store
+--------------------------------------------------response headers:
+PRAGMA              : no-cache
+--------------------------------------------------response headers:
+X-CLOUD-TRACE-CONTEXT: dc3904e0961af31cd3a59da60a481f43, dc3904e0961af31cd3a59da60a481f43
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:56:49 GMT
+--------------------------------------------------response headers:
+SERVER              : Google Frontend
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 1617
+--------------------------------------------------response headers:
+
+=
+GET /experiments HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : api.bitmoji.com
+CONNECTION          : keep-alive
+BITMOJI-INSTALL-ID  : 88F3331C-3B90-4A17-A199-CEEAC2F70D25
+BITMOJI-USER-AGENT  : 1|com.bitstrips.imoji|10.72.0.3071|iOS|13.1.0|iPad5,1|BEFE76C9-A1E4-42D2-ABF0-A564A09D3951|2|en-US
+ACCEPT              : */*
+USER-AGENT          : imoji/10.72.0.3071 (iPad5,1; iOS 13.1.0)
+AUTHORIZATION       : Bearer eyJpc3MiOiJodHRwczpcL1wvYWNjb3VudHMuc25hcGNoYXQuY29tXC9hY2NvdW50c1wvb2F1dGgyXC90b2tlbiIsInR5cCI6IkpXVCIsImVuYyI6IkExMjhDQkMtSFMyNTYiLCJhbGciOiJkaXIiLCJraWQiOiJhY2Nlc3MtdG9rZW4tYTEyOGNiYy1oczI1Ni4wIn0..9vypAgA2OsKaiCNhF5deIw.JQD3zZOPw0za_56I7aj8g1OS-Wyoc11jflWkfOFqq7F81MaXtamUY5l8-2joCfBxjZjsgZrtKwecpbPzUnqOZf399xZ84k7pWrs7YneuxsbdKpg-haQ1xDcBNxMMROfQXVjr3Cwcaqg8Xp_GT0WBl-S1CbCTmMTGOhEy1LFl2zk0WRILUSSVv47M8CHH_12Nsy_KvcqzwCaeKir4YQ8xVysPv11KsALTXpZpHGK9sbRwnSwiGO9a5stQDlWH4nAR5AAHHb4fdqAmNfaydrjbzE-WsYIfacjywhRPOjk801Et_MNACRAvF5MZPBM0LmZNJfZhEwx-OzueN7Esd_0UOgpVidNqI6mLIg8f80q9cPEladV_7d2UJ-yfOdfYx5mlzb10bTuhtPZVWSLbIGQIE3J_n7XcWDQd2uSx3UyLBHBNvcmGTECtgpEk_GDfIE_psP0Gy2ghti19YEEEwlVFAcOJNq38U1u8-uE0Du3Br8Mt0m0HBw1piYlWYkoZFVsM0TtGQnvOlBJ_7YTMaZcmq6zrfDGPTBzbnC_8xI7PD0jpSxwNi6u62fGWWGvmwMWvLHnFC2xiqD_p0T17-HDjkqW7ka4b_ZCaWp9Du2OJ8JN8bXmTseyKqflX3gSwtrAeQQdgb2j7agzKDFrPsNLkwYKMoD4taGgYAmtAmCq2iT3y4RYXwZKoH_EEXW_SBrxhN9e-OXILyOxxd5MkLIDAIzHGHKHCCTC03HHm8jUExXyqDslazxtT3rFYIf1XXYahX3DCPF73FqsOtJCmkYLQXA.PW_95SuE_Yl42M_AJolMrA
+ACCEPT-LANGUAGE     : en-US;q=1.0
+ACCEPT-ENCODING     : gzip;q=1.0, compress;q=0.5
+--------------------------------------------------response headers:
+BITMOJI-API-VERSION : 1
+--------------------------------------------------response headers:
+CACHE-CONTROL       : no-cache
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/json; charset=utf-8
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:56:50 GMT
+--------------------------------------------------response headers:
+SERVER              : nginx
+--------------------------------------------------response headers:
+VARY                : origin,accept-encoding
+--------------------------------------------------response headers:
+X-REQUEST-ID        : 1576115809955:ip-10-0-21-60:15209:k41x26dw:98813
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 86
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+
+=
+POST /analytics/wevents HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : api.bitmoji.com
+CONTENT-TYPE        : application/json
+CONNECTION          : keep-alive
+BITMOJI-USER-AGENT  : 1|com.bitstrips.imoji|10.72.0.3071|iOS|13.1.0|iPad5,1|BEFE76C9-A1E4-42D2-ABF0-A564A09D3951|2|en-US
+ACCEPT              : */*
+USER-AGENT          : imoji/10.72.0.3071 (iPad5,1; iOS 13.1.0)
+ACCEPT-LANGUAGE     : en-US;q=1.0
+CONTENT-LENGTH      : 6893
+ACCEPT-ENCODING     : gzip;q=1.0, compress;q=0.5
+--------------------------------------------------response headers:
+BITMOJI-API-VERSION : 1
+--------------------------------------------------response headers:
+CACHE-CONTROL       : no-cache
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/json; charset=utf-8
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:56:50 GMT
+--------------------------------------------------response headers:
+SERVER              : nginx
+--------------------------------------------------response headers:
+VARY                : origin,accept-encoding
+--------------------------------------------------response headers:
+X-REQUEST-ID        : 1576115809974:ip-10-0-29-171:11720:k41wu683:19408
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 36
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+
+=
+POST /content/stickers?app_id=3 HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : api.bitmoji.com
+CONTENT-TYPE        : application/x-www-form-urlencoded; charset=utf-8
+USER-AGENT          : imoji/10.72.0.3071 (iPad5,1; iOS 13.1.0)
+CONNECTION          : keep-alive
+BITMOJI-USER-AGENT  : 1|com.bitstrips.imoji|10.72.0.3071|iOS|13.1.0|iPad5,1|BEFE76C9-A1E4-42D2-ABF0-A564A09D3951|2|en-US
+IF-NONE-MATCH       : "f4f342c76c32f6ca58628207927f8bba"
+ACCEPT              : application/content.stickers.v1+json
+ACCEPT-LANGUAGE     : en-US;q=1.0
+AUTHORIZATION       : Bearer eyJpc3MiOiJodHRwczpcL1wvYWNjb3VudHMuc25hcGNoYXQuY29tXC9hY2NvdW50c1wvb2F1dGgyXC90b2tlbiIsInR5cCI6IkpXVCIsImVuYyI6IkExMjhDQkMtSFMyNTYiLCJhbGciOiJkaXIiLCJraWQiOiJhY2Nlc3MtdG9rZW4tYTEyOGNiYy1oczI1Ni4wIn0..9vypAgA2OsKaiCNhF5deIw.JQD3zZOPw0za_56I7aj8g1OS-Wyoc11jflWkfOFqq7F81MaXtamUY5l8-2joCfBxjZjsgZrtKwecpbPzUnqOZf399xZ84k7pWrs7YneuxsbdKpg-haQ1xDcBNxMMROfQXVjr3Cwcaqg8Xp_GT0WBl-S1CbCTmMTGOhEy1LFl2zk0WRILUSSVv47M8CHH_12Nsy_KvcqzwCaeKir4YQ8xVysPv11KsALTXpZpHGK9sbRwnSwiGO9a5stQDlWH4nAR5AAHHb4fdqAmNfaydrjbzE-WsYIfacjywhRPOjk801Et_MNACRAvF5MZPBM0LmZNJfZhEwx-OzueN7Esd_0UOgpVidNqI6mLIg8f80q9cPEladV_7d2UJ-yfOdfYx5mlzb10bTuhtPZVWSLbIGQIE3J_n7XcWDQd2uSx3UyLBHBNvcmGTECtgpEk_GDfIE_psP0Gy2ghti19YEEEwlVFAcOJNq38U1u8-uE0Du3Br8Mt0m0HBw1piYlWYkoZFVsM0TtGQnvOlBJ_7YTMaZcmq6zrfDGPTBzbnC_8xI7PD0jpSxwNi6u62fGWWGvmwMWvLHnFC2xiqD_p0T17-HDjkqW7ka4b_ZCaWp9Du2OJ8JN8bXmTseyKqflX3gSwtrAeQQdgb2j7agzKDFrPsNLkwYKMoD4taGgYAmtAmCq2iT3y4RYXwZKoH_EEXW_SBrxhN9e-OXILyOxxd5MkLIDAIzHGHKHCCTC03HHm8jUExXyqDslazxtT3rFYIf1XXYahX3DCPF73FqsOtJCmkYLQXA.PW_95SuE_Yl42M_AJolMrA
+CONTENT-LENGTH      : 164
+ACCEPT-ENCODING     : gzip;q=1.0, compress;q=0.5
+--------------------------------------------------response headers:
+BITMOJI-API-VERSION : 1
+--------------------------------------------------response headers:
+CACHE-CONTROL       : no-cache
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/json; charset=utf-8
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:56:50 GMT
+--------------------------------------------------response headers:
+SERVER              : nginx
+--------------------------------------------------response headers:
+VARY                : origin,accept-encoding
+--------------------------------------------------response headers:
+X-REQUEST-ID        : 1576115810137:ip-10-0-23-172:11760:k41wot38:28502
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 86
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+
+=
+GET /merch/store-info?has_snapchat_installed=true HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : api.bitmoji.com
+BITMOJI-USER-AGENT  : 1|com.bitstrips.imoji|10.72.0.3071|iOS|13.1.0|iPad5,1|BEFE76C9-A1E4-42D2-ABF0-A564A09D3951|2|en-US
+ACCEPT              : */*
+USER-AGENT          : imoji/10.72.0.3071 (iPad5,1; iOS 13.1.0)
+ACCEPT-LANGUAGE     : en-US;q=1.0
+ACCEPT-ENCODING     : gzip;q=1.0, compress;q=0.5
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+BITMOJI-API-VERSION : 1
+--------------------------------------------------response headers:
+CACHE-CONTROL       : no-cache
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/json; charset=utf-8
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:56:50 GMT
+--------------------------------------------------response headers:
+SERVER              : nginx
+--------------------------------------------------response headers:
+VARY                : origin,accept-encoding
+--------------------------------------------------response headers:
+X-REQUEST-ID        : 1576115810143:ip-10-0-25-29:11972:k41xab6w:86891
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 56
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+
+=
+GET /avatar-builder-v3/avatar HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : api.bitmoji.com
+CONNECTION          : keep-alive
+BITMOJI-USER-AGENT  : 1|com.bitstrips.imoji|10.72.0.3071|iOS|13.1.0|iPad5,1|BEFE76C9-A1E4-42D2-ABF0-A564A09D3951|2|en-US
+IF-NONE-MATCH       : "7d80c51c-bff9-4801-86e2-bd602c3fa75a-gzip"
+ACCEPT              : */*
+USER-AGENT          : imoji/10.72.0.3071 (iPad5,1; iOS 13.1.0)
+ACCEPT-LANGUAGE     : en-US;q=1.0
+AUTHORIZATION       : Bearer eyJpc3MiOiJodHRwczpcL1wvYWNjb3VudHMuc25hcGNoYXQuY29tXC9hY2NvdW50c1wvb2F1dGgyXC90b2tlbiIsInR5cCI6IkpXVCIsImVuYyI6IkExMjhDQkMtSFMyNTYiLCJhbGciOiJkaXIiLCJraWQiOiJhY2Nlc3MtdG9rZW4tYTEyOGNiYy1oczI1Ni4wIn0..9vypAgA2OsKaiCNhF5deIw.JQD3zZOPw0za_56I7aj8g1OS-Wyoc11jflWkfOFqq7F81MaXtamUY5l8-2joCfBxjZjsgZrtKwecpbPzUnqOZf399xZ84k7pWrs7YneuxsbdKpg-haQ1xDcBNxMMROfQXVjr3Cwcaqg8Xp_GT0WBl-S1CbCTmMTGOhEy1LFl2zk0WRILUSSVv47M8CHH_12Nsy_KvcqzwCaeKir4YQ8xVysPv11KsALTXpZpHGK9sbRwnSwiGO9a5stQDlWH4nAR5AAHHb4fdqAmNfaydrjbzE-WsYIfacjywhRPOjk801Et_MNACRAvF5MZPBM0LmZNJfZhEwx-OzueN7Esd_0UOgpVidNqI6mLIg8f80q9cPEladV_7d2UJ-yfOdfYx5mlzb10bTuhtPZVWSLbIGQIE3J_n7XcWDQd2uSx3UyLBHBNvcmGTECtgpEk_GDfIE_psP0Gy2ghti19YEEEwlVFAcOJNq38U1u8-uE0Du3Br8Mt0m0HBw1piYlWYkoZFVsM0TtGQnvOlBJ_7YTMaZcmq6zrfDGPTBzbnC_8xI7PD0jpSxwNi6u62fGWWGvmwMWvLHnFC2xiqD_p0T17-HDjkqW7ka4b_ZCaWp9Du2OJ8JN8bXmTseyKqflX3gSwtrAeQQdgb2j7agzKDFrPsNLkwYKMoD4taGgYAmtAmCq2iT3y4RYXwZKoH_EEXW_SBrxhN9e-OXILyOxxd5MkLIDAIzHGHKHCCTC03HHm8jUExXyqDslazxtT3rFYIf1XXYahX3DCPF73FqsOtJCmkYLQXA.PW_95SuE_Yl42M_AJolMrA
+ACCEPT-ENCODING     : gzip;q=1.0, compress;q=0.5
+--------------------------------------------------response headers:
+BITMOJI-API-VERSION : 1
+--------------------------------------------------response headers:
+CACHE-CONTROL       : no-cache
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/json; charset=utf-8
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:56:50 GMT
+--------------------------------------------------response headers:
+SERVER              : nginx
+--------------------------------------------------response headers:
+VARY                : origin,accept-encoding
+--------------------------------------------------response headers:
+X-REQUEST-ID        : 1576115810156:ip-10-0-23-202:11879:k41wrgim:24074
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 86
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+
+=
+POST /accounts/oauth2/token HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : accounts.snapchat.com
+CONTENT-TYPE        : application/x-www-form-urlencoded
+COOKIE              : web_client_id=b66856d9-3ac7-4560-a8e8-44639f850297
+CONTENT-LENGTH      : 486
+CONNECTION          : keep-alive
+BITMOJI-USER-AGENT  : 1|com.bitstrips.imoji|10.72.0.3071|iOS|13.1.0|iPad5,1|BEFE76C9-A1E4-42D2-ABF0-A564A09D3951|2|en-US
+ACCEPT              : */*
+USER-AGENT          : imoji/10.72.0 (iPad; iOS 13.1; Scale/2.00)
+ACCEPT-LANGUAGE     : en-US;q=1
+AUTHORIZATION       : Basic MjAxM2M5NTctYTI4My00NmM2LWFiM2MtOGRhOTM1NTkwZGQ3OktpYVBCbXNhdUgtQTBIcTBDcUF2czZPV2gxQUJySV9yXzY0Z0FkMHI3MGc=
+ACCEPT-ENCODING     : gzip, deflate, br
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+ACCESS-CONTROL-MAX-AGE: 3600
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-CREDENTIALS: true
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-METHODS: OPTIONS,POST
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-HEADERS: Authorization
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/json;charset=utf-8
+--------------------------------------------------response headers:
+CACHE-CONTROL       : no-store
+--------------------------------------------------response headers:
+PRAGMA              : no-cache
+--------------------------------------------------response headers:
+X-CLOUD-TRACE-CONTEXT: 259b795416ec0a752cdf652a52fe3607, 259b795416ec0a752cdf652a52fe3607
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:56:50 GMT
+--------------------------------------------------response headers:
+SERVER              : Google Frontend
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 1617
+--------------------------------------------------response headers:
+
+=
+GET /avatar-builder-v3/avatar HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : api.bitmoji.com
+CONNECTION          : keep-alive
+BITMOJI-USER-AGENT  : 1|com.bitstrips.imoji|10.72.0.3071|iOS|13.1.0|iPad5,1|BEFE76C9-A1E4-42D2-ABF0-A564A09D3951|2|en-US
+IF-NONE-MATCH       : "7d80c51c-bff9-4801-86e2-bd602c3fa75a-gzip"
+ACCEPT              : */*
+USER-AGENT          : imoji/10.72.0.3071 (iPad5,1; iOS 13.1.0)
+ACCEPT-LANGUAGE     : en-US;q=1.0
+AUTHORIZATION       : Bearer eyJpc3MiOiJodHRwczpcL1wvYWNjb3VudHMuc25hcGNoYXQuY29tXC9hY2NvdW50c1wvb2F1dGgyXC90b2tlbiIsInR5cCI6IkpXVCIsImVuYyI6IkExMjhDQkMtSFMyNTYiLCJhbGciOiJkaXIiLCJraWQiOiJhY2Nlc3MtdG9rZW4tYTEyOGNiYy1oczI1Ni4wIn0..kFyEP8s_K5t4neI6YvcHRg.3JafdMYua8i0TNApk3YSU2dHAINOV1LI-ARD4KMNGNbaJeLMV59Ue8PRPNDxSHLvHwOIzAMz_mdTdCmC6VbSfvB8PkYQw0OJ6v58UpDUDvwg0z862qCWb1bXhpruXIPv6hyDbtWOqqaVa8B7QGIrVOge1UwVqrN3hoiUVReimoXPCvqeBGOvQUVyuN_bcd6buT0KOFsgDKNDRUqalIflgqqaWAAER4JAAEFcDd2KXsqv2jL6zSLaBV0lPzN8y7cSamXaDojgfVk9xhhFOBGHGv-4qaWuEDtoPvDcUeCwp_Squ1r0RRhSHboCuH_n92pmG-C3UQRJXQZtDNmGvrOcEL-ttOWmaxqz2aYyyCO5hufEzthauV7LESEiDPHdbX4MRFWQBzZOsEa8CaYaAWVwP4dh54VokqRCq4SLOJAE3o0pb4HlWk3-4HYCnmuLxWK7zbvrCJoGgnvo_hPJU_ljXk24FyQQIHMRHvpsQFyIyQEUDS102O9fYjwiCn9vji1IfM6KRrWf4jD4TS78j50qWo3kfousB_ekw4c6i8fqqQNIFNYG1gj3fIer41ByKoTuHDHvfwbI0ykm_HkpvYRCSJEcbfFjFa8bNKBDw7762u1XqEdImBY-m0uIO65MbahhcuSsEmBTSoATz3JR9rj_-n7SThKHp7S8lZZoKNdA50tEM-foj2t-5t-7B_vKbm3WtdcNNkRcFcF4SJRlEZWuKVMgbULARtxcuAB-tmQ2T9U1DFcD0m7uTXAJgUBdjNBPvbnNDPmF80CknxzG_Hy_lA.aJtdkelhP1L4HMtj37HuUA
+ACCEPT-ENCODING     : gzip;q=1.0, compress;q=0.5
+--------------------------------------------------response headers:
+BITMOJI-API-VERSION : 1
+--------------------------------------------------response headers:
+CACHE-CONTROL       : no-cache
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/json; charset=utf-8
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:56:50 GMT
+--------------------------------------------------response headers:
+ETAG                : "7d80c51c-bff9-4801-86e2-bd602c3fa75a-gzip"
+--------------------------------------------------response headers:
+SERVER              : nginx
+--------------------------------------------------response headers:
+VARY                : origin,accept-encoding
+--------------------------------------------------response headers:
+X-REQUEST-ID        : 1576115810355:ip-10-0-23-91:19344:k41xaa3a:86815
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+
+=
+POST /content/stickers?app_id=3 HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : api.bitmoji.com
+CONTENT-TYPE        : application/x-www-form-urlencoded; charset=utf-8
+USER-AGENT          : imoji/10.72.0.3071 (iPad5,1; iOS 13.1.0)
+CONNECTION          : keep-alive
+BITMOJI-USER-AGENT  : 1|com.bitstrips.imoji|10.72.0.3071|iOS|13.1.0|iPad5,1|BEFE76C9-A1E4-42D2-ABF0-A564A09D3951|2|en-US
+IF-NONE-MATCH       : "f4f342c76c32f6ca58628207927f8bba"
+ACCEPT              : application/content.stickers.v1+json
+ACCEPT-LANGUAGE     : en-US;q=1.0
+AUTHORIZATION       : Bearer eyJpc3MiOiJodHRwczpcL1wvYWNjb3VudHMuc25hcGNoYXQuY29tXC9hY2NvdW50c1wvb2F1dGgyXC90b2tlbiIsInR5cCI6IkpXVCIsImVuYyI6IkExMjhDQkMtSFMyNTYiLCJhbGciOiJkaXIiLCJraWQiOiJhY2Nlc3MtdG9rZW4tYTEyOGNiYy1oczI1Ni4wIn0..kFyEP8s_K5t4neI6YvcHRg.3JafdMYua8i0TNApk3YSU2dHAINOV1LI-ARD4KMNGNbaJeLMV59Ue8PRPNDxSHLvHwOIzAMz_mdTdCmC6VbSfvB8PkYQw0OJ6v58UpDUDvwg0z862qCWb1bXhpruXIPv6hyDbtWOqqaVa8B7QGIrVOge1UwVqrN3hoiUVReimoXPCvqeBGOvQUVyuN_bcd6buT0KOFsgDKNDRUqalIflgqqaWAAER4JAAEFcDd2KXsqv2jL6zSLaBV0lPzN8y7cSamXaDojgfVk9xhhFOBGHGv-4qaWuEDtoPvDcUeCwp_Squ1r0RRhSHboCuH_n92pmG-C3UQRJXQZtDNmGvrOcEL-ttOWmaxqz2aYyyCO5hufEzthauV7LESEiDPHdbX4MRFWQBzZOsEa8CaYaAWVwP4dh54VokqRCq4SLOJAE3o0pb4HlWk3-4HYCnmuLxWK7zbvrCJoGgnvo_hPJU_ljXk24FyQQIHMRHvpsQFyIyQEUDS102O9fYjwiCn9vji1IfM6KRrWf4jD4TS78j50qWo3kfousB_ekw4c6i8fqqQNIFNYG1gj3fIer41ByKoTuHDHvfwbI0ykm_HkpvYRCSJEcbfFjFa8bNKBDw7762u1XqEdImBY-m0uIO65MbahhcuSsEmBTSoATz3JR9rj_-n7SThKHp7S8lZZoKNdA50tEM-foj2t-5t-7B_vKbm3WtdcNNkRcFcF4SJRlEZWuKVMgbULARtxcuAB-tmQ2T9U1DFcD0m7uTXAJgUBdjNBPvbnNDPmF80CknxzG_Hy_lA.aJtdkelhP1L4HMtj37HuUA
+CONTENT-LENGTH      : 164
+ACCEPT-ENCODING     : gzip;q=1.0, compress;q=0.5
+--------------------------------------------------response headers:
+BITMOJI-API-VERSION : 1
+--------------------------------------------------response headers:
+CACHE-CONTROL       : no-cache
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:56:50 GMT
+--------------------------------------------------response headers:
+ETAG                : "f4f342c76c32f6ca58628207927f8bba"
+--------------------------------------------------response headers:
+SERVER              : nginx
+--------------------------------------------------response headers:
+VARY                : origin
+--------------------------------------------------response headers:
+X-REQUEST-ID        : 1576115810329:ip-10-0-23-118:16134:k41x2b2k:98147
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+
+=
+GET /user/data/8 HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : api.bitmoji.com
+CONNECTION          : keep-alive
+BITMOJI-USER-AGENT  : 1|com.bitstrips.imoji|10.72.0.3071|iOS|13.1.0|iPad5,1|BEFE76C9-A1E4-42D2-ABF0-A564A09D3951|2|en-US
+ACCEPT              : */*
+USER-AGENT          : imoji/10.72.0.3071 (iPad5,1; iOS 13.1.0)
+ACCEPT-LANGUAGE     : en-US;q=1.0
+AUTHORIZATION       : Bearer eyJpc3MiOiJodHRwczpcL1wvYWNjb3VudHMuc25hcGNoYXQuY29tXC9hY2NvdW50c1wvb2F1dGgyXC90b2tlbiIsInR5cCI6IkpXVCIsImVuYyI6IkExMjhDQkMtSFMyNTYiLCJhbGciOiJkaXIiLCJraWQiOiJhY2Nlc3MtdG9rZW4tYTEyOGNiYy1oczI1Ni4wIn0..4JOHIcvQCUc0SIK0ncVKsg.CbKFma72Q1QPZqzX5ckJ26wdH2aMcC5cb8iQe9dPwh1DBsOkX8pKzB6iPoTErsO8r6srBc-n2voYlPBOwTaSYDQJfqJmt8_wh9k4uc_0La3gsCM_YbijRybVkUCzl6jzvIp9qsIsbK_J1x9NldjjG4DoRADlkl5ybz43oLGB5BUetReEC0BxWhyYGMEXGrjqSlKSnar4BMIZ0F4JGiWp5fnpkq23wH8d6IDWElGlUeK5eQMxzFOIGpy8-WWV4ljMQaLDi00sYBNq77LtJtNILH-GRb-2LAwf_MKTwnZBsIvahaSEaz75xJns4KPaoiG7FuGUT4vq-6XY16aXybZyAKy4STuaXIHBgGtveiwCzbJ2z_JTeswJquooMvMPdAKmAL8HYShtOS3gY-DwPZVelNYWpQZ1uh3HA5mSI63aJdLllV1aDPMk0C5h2W2v-gNF0YiKYQ0OMfXi3Bap5wS_ZxhnP3wi4OE-1mysEbCUBP9A4NO80L-Wya6GIxWGrY__b1l29vHGFQYPy2SqfmGtj96R3iVq79xzqPpPXYTw04fioIUd3R90yFdZ2a7SpGJy6LdzcCjNAfqBA2ItptvIcVOOu2BDdp-qDOVb-SrDTmhhVL4g8WkxWWKBLL9_gOwmoYV0T3oJaZrRgOYfW8l8RQ5hqu1uBPmpvoymhTu1AbTh8KUbFNsX8p1AiaZz3UlAqSwFNkaGQaXIk743exViGNituQ9CeevReZnY4duYhpesZQZv0OpLF2AC3hPKzIQ8PLyd9BB3GGOllA5O9xx9bQ.nPrISSnYi38d-ClT9HcN2Q
+ACCEPT-ENCODING     : gzip;q=1.0, compress;q=0.5
+--------------------------------------------------response headers:
+BITMOJI-API-VERSION : 1
+--------------------------------------------------response headers:
+CACHE-CONTROL       : max-age=86400, must-revalidate, private
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/json; charset=utf-8
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:56:50 GMT
+--------------------------------------------------response headers:
+SERVER              : nginx
+--------------------------------------------------response headers:
+VARY                : origin,accept-encoding
+--------------------------------------------------response headers:
+X-REQUEST-ID        : 1576115810371:ip-10-0-26-58:11693:k41wzlzi:10922
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 118
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+
+=
+GET /avatar-builder-v3/avatar HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : api.bitmoji.com
+CONNECTION          : keep-alive
+BITMOJI-USER-AGENT  : 1|com.bitstrips.imoji|10.72.0.3071|iOS|13.1.0|iPad5,1|BEFE76C9-A1E4-42D2-ABF0-A564A09D3951|2|en-US
+IF-NONE-MATCH       : "7d80c51c-bff9-4801-86e2-bd602c3fa75a-gzip"
+ACCEPT              : */*
+USER-AGENT          : imoji/10.72.0.3071 (iPad5,1; iOS 13.1.0)
+ACCEPT-LANGUAGE     : en-US;q=1.0
+AUTHORIZATION       : Bearer eyJpc3MiOiJodHRwczpcL1wvYWNjb3VudHMuc25hcGNoYXQuY29tXC9hY2NvdW50c1wvb2F1dGgyXC90b2tlbiIsInR5cCI6IkpXVCIsImVuYyI6IkExMjhDQkMtSFMyNTYiLCJhbGciOiJkaXIiLCJraWQiOiJhY2Nlc3MtdG9rZW4tYTEyOGNiYy1oczI1Ni4wIn0..4JOHIcvQCUc0SIK0ncVKsg.CbKFma72Q1QPZqzX5ckJ26wdH2aMcC5cb8iQe9dPwh1DBsOkX8pKzB6iPoTErsO8r6srBc-n2voYlPBOwTaSYDQJfqJmt8_wh9k4uc_0La3gsCM_YbijRybVkUCzl6jzvIp9qsIsbK_J1x9NldjjG4DoRADlkl5ybz43oLGB5BUetReEC0BxWhyYGMEXGrjqSlKSnar4BMIZ0F4JGiWp5fnpkq23wH8d6IDWElGlUeK5eQMxzFOIGpy8-WWV4ljMQaLDi00sYBNq77LtJtNILH-GRb-2LAwf_MKTwnZBsIvahaSEaz75xJns4KPaoiG7FuGUT4vq-6XY16aXybZyAKy4STuaXIHBgGtveiwCzbJ2z_JTeswJquooMvMPdAKmAL8HYShtOS3gY-DwPZVelNYWpQZ1uh3HA5mSI63aJdLllV1aDPMk0C5h2W2v-gNF0YiKYQ0OMfXi3Bap5wS_ZxhnP3wi4OE-1mysEbCUBP9A4NO80L-Wya6GIxWGrY__b1l29vHGFQYPy2SqfmGtj96R3iVq79xzqPpPXYTw04fioIUd3R90yFdZ2a7SpGJy6LdzcCjNAfqBA2ItptvIcVOOu2BDdp-qDOVb-SrDTmhhVL4g8WkxWWKBLL9_gOwmoYV0T3oJaZrRgOYfW8l8RQ5hqu1uBPmpvoymhTu1AbTh8KUbFNsX8p1AiaZz3UlAqSwFNkaGQaXIk743exViGNituQ9CeevReZnY4duYhpesZQZv0OpLF2AC3hPKzIQ8PLyd9BB3GGOllA5O9xx9bQ.nPrISSnYi38d-ClT9HcN2Q
+ACCEPT-ENCODING     : gzip;q=1.0, compress;q=0.5
+--------------------------------------------------response headers:
+BITMOJI-API-VERSION : 1
+--------------------------------------------------response headers:
+CACHE-CONTROL       : no-cache
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/json; charset=utf-8
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:56:50 GMT
+--------------------------------------------------response headers:
+ETAG                : "7d80c51c-bff9-4801-86e2-bd602c3fa75a-gzip"
+--------------------------------------------------response headers:
+SERVER              : nginx
+--------------------------------------------------response headers:
+VARY                : origin,accept-encoding
+--------------------------------------------------response headers:
+X-REQUEST-ID        : 1576115810466:ip-10-0-31-135:11909:k41xbm66:84329
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+
+=
+POST /content/stickers?app_id=3 HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : api.bitmoji.com
+CONTENT-TYPE        : application/x-www-form-urlencoded; charset=utf-8
+USER-AGENT          : imoji/10.72.0.3071 (iPad5,1; iOS 13.1.0)
+CONNECTION          : keep-alive
+BITMOJI-USER-AGENT  : 1|com.bitstrips.imoji|10.72.0.3071|iOS|13.1.0|iPad5,1|BEFE76C9-A1E4-42D2-ABF0-A564A09D3951|2|en-US
+IF-NONE-MATCH       : "f4f342c76c32f6ca58628207927f8bba"
+ACCEPT              : application/content.stickers.v1+json
+ACCEPT-LANGUAGE     : en-US;q=1.0
+AUTHORIZATION       : Bearer eyJpc3MiOiJodHRwczpcL1wvYWNjb3VudHMuc25hcGNoYXQuY29tXC9hY2NvdW50c1wvb2F1dGgyXC90b2tlbiIsInR5cCI6IkpXVCIsImVuYyI6IkExMjhDQkMtSFMyNTYiLCJhbGciOiJkaXIiLCJraWQiOiJhY2Nlc3MtdG9rZW4tYTEyOGNiYy1oczI1Ni4wIn0..4JOHIcvQCUc0SIK0ncVKsg.CbKFma72Q1QPZqzX5ckJ26wdH2aMcC5cb8iQe9dPwh1DBsOkX8pKzB6iPoTErsO8r6srBc-n2voYlPBOwTaSYDQJfqJmt8_wh9k4uc_0La3gsCM_YbijRybVkUCzl6jzvIp9qsIsbK_J1x9NldjjG4DoRADlkl5ybz43oLGB5BUetReEC0BxWhyYGMEXGrjqSlKSnar4BMIZ0F4JGiWp5fnpkq23wH8d6IDWElGlUeK5eQMxzFOIGpy8-WWV4ljMQaLDi00sYBNq77LtJtNILH-GRb-2LAwf_MKTwnZBsIvahaSEaz75xJns4KPaoiG7FuGUT4vq-6XY16aXybZyAKy4STuaXIHBgGtveiwCzbJ2z_JTeswJquooMvMPdAKmAL8HYShtOS3gY-DwPZVelNYWpQZ1uh3HA5mSI63aJdLllV1aDPMk0C5h2W2v-gNF0YiKYQ0OMfXi3Bap5wS_ZxhnP3wi4OE-1mysEbCUBP9A4NO80L-Wya6GIxWGrY__b1l29vHGFQYPy2SqfmGtj96R3iVq79xzqPpPXYTw04fioIUd3R90yFdZ2a7SpGJy6LdzcCjNAfqBA2ItptvIcVOOu2BDdp-qDOVb-SrDTmhhVL4g8WkxWWKBLL9_gOwmoYV0T3oJaZrRgOYfW8l8RQ5hqu1uBPmpvoymhTu1AbTh8KUbFNsX8p1AiaZz3UlAqSwFNkaGQaXIk743exViGNituQ9CeevReZnY4duYhpesZQZv0OpLF2AC3hPKzIQ8PLyd9BB3GGOllA5O9xx9bQ.nPrISSnYi38d-ClT9HcN2Q
+CONTENT-LENGTH      : 164
+ACCEPT-ENCODING     : gzip;q=1.0, compress;q=0.5
+--------------------------------------------------response headers:
+BITMOJI-API-VERSION : 1
+--------------------------------------------------response headers:
+CACHE-CONTROL       : no-cache
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:56:50 GMT
+--------------------------------------------------response headers:
+ETAG                : "f4f342c76c32f6ca58628207927f8bba"
+--------------------------------------------------response headers:
+SERVER              : nginx
+--------------------------------------------------response headers:
+VARY                : origin
+--------------------------------------------------response headers:
+X-REQUEST-ID        : 1576115810480:ip-10-0-22-219:16298:k41wrgb8:24319
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+
+=
+GET /snapchat/user-data HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : api.bitmoji.com
+CONNECTION          : keep-alive
+BITMOJI-USER-AGENT  : 1|com.bitstrips.imoji|10.72.0.3071|iOS|13.1.0|iPad5,1|BEFE76C9-A1E4-42D2-ABF0-A564A09D3951|2|en-US
+ACCEPT              : */*
+USER-AGENT          : imoji/10.72.0.3071 (iPad5,1; iOS 13.1.0)
+ACCEPT-LANGUAGE     : en-US;q=1.0
+AUTHORIZATION       : Bearer eyJpc3MiOiJodHRwczpcL1wvYWNjb3VudHMuc25hcGNoYXQuY29tXC9hY2NvdW50c1wvb2F1dGgyXC90b2tlbiIsInR5cCI6IkpXVCIsImVuYyI6IkExMjhDQkMtSFMyNTYiLCJhbGciOiJkaXIiLCJraWQiOiJhY2Nlc3MtdG9rZW4tYTEyOGNiYy1oczI1Ni4wIn0..4JOHIcvQCUc0SIK0ncVKsg.CbKFma72Q1QPZqzX5ckJ26wdH2aMcC5cb8iQe9dPwh1DBsOkX8pKzB6iPoTErsO8r6srBc-n2voYlPBOwTaSYDQJfqJmt8_wh9k4uc_0La3gsCM_YbijRybVkUCzl6jzvIp9qsIsbK_J1x9NldjjG4DoRADlkl5ybz43oLGB5BUetReEC0BxWhyYGMEXGrjqSlKSnar4BMIZ0F4JGiWp5fnpkq23wH8d6IDWElGlUeK5eQMxzFOIGpy8-WWV4ljMQaLDi00sYBNq77LtJtNILH-GRb-2LAwf_MKTwnZBsIvahaSEaz75xJns4KPaoiG7FuGUT4vq-6XY16aXybZyAKy4STuaXIHBgGtveiwCzbJ2z_JTeswJquooMvMPdAKmAL8HYShtOS3gY-DwPZVelNYWpQZ1uh3HA5mSI63aJdLllV1aDPMk0C5h2W2v-gNF0YiKYQ0OMfXi3Bap5wS_ZxhnP3wi4OE-1mysEbCUBP9A4NO80L-Wya6GIxWGrY__b1l29vHGFQYPy2SqfmGtj96R3iVq79xzqPpPXYTw04fioIUd3R90yFdZ2a7SpGJy6LdzcCjNAfqBA2ItptvIcVOOu2BDdp-qDOVb-SrDTmhhVL4g8WkxWWKBLL9_gOwmoYV0T3oJaZrRgOYfW8l8RQ5hqu1uBPmpvoymhTu1AbTh8KUbFNsX8p1AiaZz3UlAqSwFNkaGQaXIk743exViGNituQ9CeevReZnY4duYhpesZQZv0OpLF2AC3hPKzIQ8PLyd9BB3GGOllA5O9xx9bQ.nPrISSnYi38d-ClT9HcN2Q
+ACCEPT-ENCODING     : gzip;q=1.0, compress;q=0.5
+--------------------------------------------------response headers:
+BITMOJI-API-VERSION : 1
+--------------------------------------------------response headers:
+CACHE-CONTROL       : no-cache
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/json; charset=utf-8
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:56:50 GMT
+--------------------------------------------------response headers:
+SERVER              : nginx
+--------------------------------------------------response headers:
+VARY                : origin,accept-encoding
+--------------------------------------------------response headers:
+X-REQUEST-ID        : 1576115810593:ip-10-0-22-225:5368:k41w0jdx:53645
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 48
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+
+=
+GET /avatar-builder-v3/avatar-styles HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : api.bitmoji.com
+CONNECTION          : keep-alive
+BITMOJI-USER-AGENT  : 1|com.bitstrips.imoji|10.72.0.3071|iOS|13.1.0|iPad5,1|BEFE76C9-A1E4-42D2-ABF0-A564A09D3951|2|en-US
+ACCEPT              : */*
+USER-AGENT          : imoji/10.72.0.3071 (iPad5,1; iOS 13.1.0)
+ACCEPT-LANGUAGE     : en-US;q=1.0
+AUTHORIZATION       : Bearer eyJpc3MiOiJodHRwczpcL1wvYWNjb3VudHMuc25hcGNoYXQuY29tXC9hY2NvdW50c1wvb2F1dGgyXC90b2tlbiIsInR5cCI6IkpXVCIsImVuYyI6IkExMjhDQkMtSFMyNTYiLCJhbGciOiJkaXIiLCJraWQiOiJhY2Nlc3MtdG9rZW4tYTEyOGNiYy1oczI1Ni4wIn0..4JOHIcvQCUc0SIK0ncVKsg.CbKFma72Q1QPZqzX5ckJ26wdH2aMcC5cb8iQe9dPwh1DBsOkX8pKzB6iPoTErsO8r6srBc-n2voYlPBOwTaSYDQJfqJmt8_wh9k4uc_0La3gsCM_YbijRybVkUCzl6jzvIp9qsIsbK_J1x9NldjjG4DoRADlkl5ybz43oLGB5BUetReEC0BxWhyYGMEXGrjqSlKSnar4BMIZ0F4JGiWp5fnpkq23wH8d6IDWElGlUeK5eQMxzFOIGpy8-WWV4ljMQaLDi00sYBNq77LtJtNILH-GRb-2LAwf_MKTwnZBsIvahaSEaz75xJns4KPaoiG7FuGUT4vq-6XY16aXybZyAKy4STuaXIHBgGtveiwCzbJ2z_JTeswJquooMvMPdAKmAL8HYShtOS3gY-DwPZVelNYWpQZ1uh3HA5mSI63aJdLllV1aDPMk0C5h2W2v-gNF0YiKYQ0OMfXi3Bap5wS_ZxhnP3wi4OE-1mysEbCUBP9A4NO80L-Wya6GIxWGrY__b1l29vHGFQYPy2SqfmGtj96R3iVq79xzqPpPXYTw04fioIUd3R90yFdZ2a7SpGJy6LdzcCjNAfqBA2ItptvIcVOOu2BDdp-qDOVb-SrDTmhhVL4g8WkxWWKBLL9_gOwmoYV0T3oJaZrRgOYfW8l8RQ5hqu1uBPmpvoymhTu1AbTh8KUbFNsX8p1AiaZz3UlAqSwFNkaGQaXIk743exViGNituQ9CeevReZnY4duYhpesZQZv0OpLF2AC3hPKzIQ8PLyd9BB3GGOllA5O9xx9bQ.nPrISSnYi38d-ClT9HcN2Q
+ACCEPT-ENCODING     : gzip;q=1.0, compress;q=0.5
+--------------------------------------------------response headers:
+BITMOJI-API-VERSION : 1
+--------------------------------------------------response headers:
+CACHE-CONTROL       : no-cache
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/json; charset=utf-8
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:56:50 GMT
+--------------------------------------------------response headers:
+SERVER              : nginx
+--------------------------------------------------response headers:
+VARY                : origin,accept-encoding
+--------------------------------------------------response headers:
+X-REQUEST-ID        : 1576115810546:ip-10-0-30-174:11990:k41wzlte:11726
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 199
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+
+=
+POST /metric/bitmoji/ops HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : connect.bitmoji.com
+ACCEPT              : application/x-protobuf
+CONTENT-TYPE        : application/x-protobuf
+ACCEPT-ENCODING     : gzip;q=1.0, compress;q=0.5
+CONTENT-LENGTH      : 1427
+X-BITMOJI-CLIENT-AUTH: v9:C5EF19F1679FC546720AC86C99F3A8A2:290926E694FD022CAC8A1A4C81EDE1EBB4A4BDEFCF32D512681E194AE7104E643ACB182B7B533FBB9EA8C491C203CA0623DB693D2D2AE0FE3DD9F71C6A09245371070F434F0384D7E34D6A68ED340CBE281E48D39F385C5662C2490FE86412266E03D762E489A417908CB341B2E6F041
+ACCEPT-LANGUAGE     : en-US;q=1.0
+USER-AGENT          : imoji/10.72.0 (com.bitstrips.imoji; build:10.72.0.3071; iOS 13.1.0) Alamofire/4.9.0
+TIMESTAMP           : 1576115816206
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:56:56 GMT
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 0
+--------------------------------------------------response headers:
+VARY                : Accept-Encoding, User-Agent
+--------------------------------------------------response headers:
+SERVER              : Jetty(9.3.13.v20161014)
+--------------------------------------------------response headers:
+
+=
+GET /snapchat/user-data HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : api.bitmoji.com
+CONNECTION          : keep-alive
+BITMOJI-USER-AGENT  : 1|com.bitstrips.imoji|10.72.0.3071|iOS|13.1.0|iPad5,1|BEFE76C9-A1E4-42D2-ABF0-A564A09D3951|2|en-US
+ACCEPT              : */*
+USER-AGENT          : imoji/10.72.0.3071 (iPad5,1; iOS 13.1.0)
+ACCEPT-LANGUAGE     : en-US;q=1.0
+AUTHORIZATION       : Bearer eyJpc3MiOiJodHRwczpcL1wvYWNjb3VudHMuc25hcGNoYXQuY29tXC9hY2NvdW50c1wvb2F1dGgyXC90b2tlbiIsInR5cCI6IkpXVCIsImVuYyI6IkExMjhDQkMtSFMyNTYiLCJhbGciOiJkaXIiLCJraWQiOiJhY2Nlc3MtdG9rZW4tYTEyOGNiYy1oczI1Ni4wIn0..4JOHIcvQCUc0SIK0ncVKsg.CbKFma72Q1QPZqzX5ckJ26wdH2aMcC5cb8iQe9dPwh1DBsOkX8pKzB6iPoTErsO8r6srBc-n2voYlPBOwTaSYDQJfqJmt8_wh9k4uc_0La3gsCM_YbijRybVkUCzl6jzvIp9qsIsbK_J1x9NldjjG4DoRADlkl5ybz43oLGB5BUetReEC0BxWhyYGMEXGrjqSlKSnar4BMIZ0F4JGiWp5fnpkq23wH8d6IDWElGlUeK5eQMxzFOIGpy8-WWV4ljMQaLDi00sYBNq77LtJtNILH-GRb-2LAwf_MKTwnZBsIvahaSEaz75xJns4KPaoiG7FuGUT4vq-6XY16aXybZyAKy4STuaXIHBgGtveiwCzbJ2z_JTeswJquooMvMPdAKmAL8HYShtOS3gY-DwPZVelNYWpQZ1uh3HA5mSI63aJdLllV1aDPMk0C5h2W2v-gNF0YiKYQ0OMfXi3Bap5wS_ZxhnP3wi4OE-1mysEbCUBP9A4NO80L-Wya6GIxWGrY__b1l29vHGFQYPy2SqfmGtj96R3iVq79xzqPpPXYTw04fioIUd3R90yFdZ2a7SpGJy6LdzcCjNAfqBA2ItptvIcVOOu2BDdp-qDOVb-SrDTmhhVL4g8WkxWWKBLL9_gOwmoYV0T3oJaZrRgOYfW8l8RQ5hqu1uBPmpvoymhTu1AbTh8KUbFNsX8p1AiaZz3UlAqSwFNkaGQaXIk743exViGNituQ9CeevReZnY4duYhpesZQZv0OpLF2AC3hPKzIQ8PLyd9BB3GGOllA5O9xx9bQ.nPrISSnYi38d-ClT9HcN2Q
+ACCEPT-ENCODING     : gzip;q=1.0, compress;q=0.5
+--------------------------------------------------response headers:
+BITMOJI-API-VERSION : 1
+--------------------------------------------------response headers:
+CACHE-CONTROL       : no-cache
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/json; charset=utf-8
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:56:57 GMT
+--------------------------------------------------response headers:
+SERVER              : nginx
+--------------------------------------------------response headers:
+VARY                : origin,accept-encoding
+--------------------------------------------------response headers:
+X-REQUEST-ID        : 1576115817209:ip-10-0-29-185:12246:k41wwun6:15571
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 48
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+
+=
+GET /avatar-builder-v3/avatar-styles HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : api.bitmoji.com
+CONNECTION          : keep-alive
+BITMOJI-USER-AGENT  : 1|com.bitstrips.imoji|10.72.0.3071|iOS|13.1.0|iPad5,1|BEFE76C9-A1E4-42D2-ABF0-A564A09D3951|2|en-US
+ACCEPT              : */*
+USER-AGENT          : imoji/10.72.0.3071 (iPad5,1; iOS 13.1.0)
+ACCEPT-LANGUAGE     : en-US;q=1.0
+AUTHORIZATION       : Bearer eyJpc3MiOiJodHRwczpcL1wvYWNjb3VudHMuc25hcGNoYXQuY29tXC9hY2NvdW50c1wvb2F1dGgyXC90b2tlbiIsInR5cCI6IkpXVCIsImVuYyI6IkExMjhDQkMtSFMyNTYiLCJhbGciOiJkaXIiLCJraWQiOiJhY2Nlc3MtdG9rZW4tYTEyOGNiYy1oczI1Ni4wIn0..4JOHIcvQCUc0SIK0ncVKsg.CbKFma72Q1QPZqzX5ckJ26wdH2aMcC5cb8iQe9dPwh1DBsOkX8pKzB6iPoTErsO8r6srBc-n2voYlPBOwTaSYDQJfqJmt8_wh9k4uc_0La3gsCM_YbijRybVkUCzl6jzvIp9qsIsbK_J1x9NldjjG4DoRADlkl5ybz43oLGB5BUetReEC0BxWhyYGMEXGrjqSlKSnar4BMIZ0F4JGiWp5fnpkq23wH8d6IDWElGlUeK5eQMxzFOIGpy8-WWV4ljMQaLDi00sYBNq77LtJtNILH-GRb-2LAwf_MKTwnZBsIvahaSEaz75xJns4KPaoiG7FuGUT4vq-6XY16aXybZyAKy4STuaXIHBgGtveiwCzbJ2z_JTeswJquooMvMPdAKmAL8HYShtOS3gY-DwPZVelNYWpQZ1uh3HA5mSI63aJdLllV1aDPMk0C5h2W2v-gNF0YiKYQ0OMfXi3Bap5wS_ZxhnP3wi4OE-1mysEbCUBP9A4NO80L-Wya6GIxWGrY__b1l29vHGFQYPy2SqfmGtj96R3iVq79xzqPpPXYTw04fioIUd3R90yFdZ2a7SpGJy6LdzcCjNAfqBA2ItptvIcVOOu2BDdp-qDOVb-SrDTmhhVL4g8WkxWWKBLL9_gOwmoYV0T3oJaZrRgOYfW8l8RQ5hqu1uBPmpvoymhTu1AbTh8KUbFNsX8p1AiaZz3UlAqSwFNkaGQaXIk743exViGNituQ9CeevReZnY4duYhpesZQZv0OpLF2AC3hPKzIQ8PLyd9BB3GGOllA5O9xx9bQ.nPrISSnYi38d-ClT9HcN2Q
+ACCEPT-ENCODING     : gzip;q=1.0, compress;q=0.5
+--------------------------------------------------response headers:
+BITMOJI-API-VERSION : 1
+--------------------------------------------------response headers:
+CACHE-CONTROL       : no-cache
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/json; charset=utf-8
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:56:57 GMT
+--------------------------------------------------response headers:
+SERVER              : nginx
+--------------------------------------------------response headers:
+VARY                : origin,accept-encoding
+--------------------------------------------------response headers:
+X-REQUEST-ID        : 1576115817199:ip-10-0-23-204:15277:k41x29w8:98333
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 198
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+
+=
+GET /avatar-builder-v3/assets HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : api.bitmoji.com
+BITMOJI-USER-AGENT  : 1|com.bitstrips.imoji|10.72.0.3071|iOS|13.1.0|iPad5,1|BEFE76C9-A1E4-42D2-ABF0-A564A09D3951|2|en-US
+ACCEPT              : */*
+USER-AGENT          : imoji/10.72.0.3071 (iPad5,1; iOS 13.1.0)
+ACCEPT-LANGUAGE     : en-US;q=1.0
+ACCEPT-ENCODING     : gzip;q=1.0, compress;q=0.5
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+BITMOJI-API-VERSION : 1
+--------------------------------------------------response headers:
+CACHE-CONTROL       : no-cache
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/json; charset=utf-8
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:57:00 GMT
+--------------------------------------------------response headers:
+SERVER              : nginx
+--------------------------------------------------response headers:
+VARY                : origin,accept-encoding
+--------------------------------------------------response headers:
+X-REQUEST-ID        : 1576115820588:ip-10-0-25-14:11820:k41wu6e2:18954
+--------------------------------------------------response headers:
+TRANSFER-ENCODING   : chunked
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+
+=
+GET /avatar-builder-v3/avatar HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : api.bitmoji.com
+CONNECTION          : keep-alive
+BITMOJI-USER-AGENT  : 1|com.bitstrips.imoji|10.72.0.3071|iOS|13.1.0|iPad5,1|BEFE76C9-A1E4-42D2-ABF0-A564A09D3951|2|en-US
+IF-NONE-MATCH       : "7d80c51c-bff9-4801-86e2-bd602c3fa75a-gzip"
+ACCEPT              : */*
+USER-AGENT          : imoji/10.72.0.3071 (iPad5,1; iOS 13.1.0)
+ACCEPT-LANGUAGE     : en-US;q=1.0
+AUTHORIZATION       : Bearer eyJpc3MiOiJodHRwczpcL1wvYWNjb3VudHMuc25hcGNoYXQuY29tXC9hY2NvdW50c1wvb2F1dGgyXC90b2tlbiIsInR5cCI6IkpXVCIsImVuYyI6IkExMjhDQkMtSFMyNTYiLCJhbGciOiJkaXIiLCJraWQiOiJhY2Nlc3MtdG9rZW4tYTEyOGNiYy1oczI1Ni4wIn0..4JOHIcvQCUc0SIK0ncVKsg.CbKFma72Q1QPZqzX5ckJ26wdH2aMcC5cb8iQe9dPwh1DBsOkX8pKzB6iPoTErsO8r6srBc-n2voYlPBOwTaSYDQJfqJmt8_wh9k4uc_0La3gsCM_YbijRybVkUCzl6jzvIp9qsIsbK_J1x9NldjjG4DoRADlkl5ybz43oLGB5BUetReEC0BxWhyYGMEXGrjqSlKSnar4BMIZ0F4JGiWp5fnpkq23wH8d6IDWElGlUeK5eQMxzFOIGpy8-WWV4ljMQaLDi00sYBNq77LtJtNILH-GRb-2LAwf_MKTwnZBsIvahaSEaz75xJns4KPaoiG7FuGUT4vq-6XY16aXybZyAKy4STuaXIHBgGtveiwCzbJ2z_JTeswJquooMvMPdAKmAL8HYShtOS3gY-DwPZVelNYWpQZ1uh3HA5mSI63aJdLllV1aDPMk0C5h2W2v-gNF0YiKYQ0OMfXi3Bap5wS_ZxhnP3wi4OE-1mysEbCUBP9A4NO80L-Wya6GIxWGrY__b1l29vHGFQYPy2SqfmGtj96R3iVq79xzqPpPXYTw04fioIUd3R90yFdZ2a7SpGJy6LdzcCjNAfqBA2ItptvIcVOOu2BDdp-qDOVb-SrDTmhhVL4g8WkxWWKBLL9_gOwmoYV0T3oJaZrRgOYfW8l8RQ5hqu1uBPmpvoymhTu1AbTh8KUbFNsX8p1AiaZz3UlAqSwFNkaGQaXIk743exViGNituQ9CeevReZnY4duYhpesZQZv0OpLF2AC3hPKzIQ8PLyd9BB3GGOllA5O9xx9bQ.nPrISSnYi38d-ClT9HcN2Q
+ACCEPT-ENCODING     : gzip;q=1.0, compress;q=0.5
+--------------------------------------------------response headers:
+BITMOJI-API-VERSION : 1
+--------------------------------------------------response headers:
+CACHE-CONTROL       : no-cache
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/json; charset=utf-8
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:57:01 GMT
+--------------------------------------------------response headers:
+ETAG                : "7d80c51c-bff9-4801-86e2-bd602c3fa75a-gzip"
+--------------------------------------------------response headers:
+SERVER              : nginx
+--------------------------------------------------response headers:
+VARY                : origin,accept-encoding
+--------------------------------------------------response headers:
+X-REQUEST-ID        : 1576115821439:ip-10-0-20-121:15423:k41wu5pq:19873
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+
+=
+POST /metric/bitmoji/ops HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : connect.bitmoji.com
+ACCEPT              : application/x-protobuf
+CONTENT-TYPE        : application/x-protobuf
+ACCEPT-ENCODING     : gzip;q=1.0, compress;q=0.5
+CONTENT-LENGTH      : 1356
+X-BITMOJI-CLIENT-AUTH: v9:D7132EEEC1B205F915AE68690844F32E:B6754A84CFD4DC2B8D9AF8F8435D6FBD9E9BE97D0D8914FA01B7E6507229451E437C15B6838E9B914BE5D156B8458267C0D1F5F6488CE8A5145D77FAEC5E869316040EFBE7CA4C1982822965A32BCF3354AA4042877C811753CE09C6B96CCFF1419B299BF3CAF5350A4DBF73B2E6F041
+ACCEPT-LANGUAGE     : en-US;q=1.0
+USER-AGENT          : imoji/10.72.0 (com.bitstrips.imoji; build:10.72.0.3071; iOS 13.1.0) Alamofire/4.9.0
+TIMESTAMP           : 1576115821843
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:57:01 GMT
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 0
+--------------------------------------------------response headers:
+VARY                : Accept-Encoding, User-Agent
+--------------------------------------------------response headers:
+SERVER              : Jetty(9.3.13.v20161014)
+--------------------------------------------------response headers:
+
+=
+GET /avatar-builder-v3/avatar HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : api.bitmoji.com
+CONNECTION          : keep-alive
+BITMOJI-USER-AGENT  : 1|com.bitstrips.imoji|10.72.0.3071|iOS|13.1.0|iPad5,1|BEFE76C9-A1E4-42D2-ABF0-A564A09D3951|2|en-US
+IF-NONE-MATCH       : "7d80c51c-bff9-4801-86e2-bd602c3fa75a-gzip"
+ACCEPT              : */*
+USER-AGENT          : imoji/10.72.0.3071 (iPad5,1; iOS 13.1.0)
+ACCEPT-LANGUAGE     : en-US;q=1.0
+AUTHORIZATION       : Bearer eyJpc3MiOiJodHRwczpcL1wvYWNjb3VudHMuc25hcGNoYXQuY29tXC9hY2NvdW50c1wvb2F1dGgyXC90b2tlbiIsInR5cCI6IkpXVCIsImVuYyI6IkExMjhDQkMtSFMyNTYiLCJhbGciOiJkaXIiLCJraWQiOiJhY2Nlc3MtdG9rZW4tYTEyOGNiYy1oczI1Ni4wIn0..4JOHIcvQCUc0SIK0ncVKsg.CbKFma72Q1QPZqzX5ckJ26wdH2aMcC5cb8iQe9dPwh1DBsOkX8pKzB6iPoTErsO8r6srBc-n2voYlPBOwTaSYDQJfqJmt8_wh9k4uc_0La3gsCM_YbijRybVkUCzl6jzvIp9qsIsbK_J1x9NldjjG4DoRADlkl5ybz43oLGB5BUetReEC0BxWhyYGMEXGrjqSlKSnar4BMIZ0F4JGiWp5fnpkq23wH8d6IDWElGlUeK5eQMxzFOIGpy8-WWV4ljMQaLDi00sYBNq77LtJtNILH-GRb-2LAwf_MKTwnZBsIvahaSEaz75xJns4KPaoiG7FuGUT4vq-6XY16aXybZyAKy4STuaXIHBgGtveiwCzbJ2z_JTeswJquooMvMPdAKmAL8HYShtOS3gY-DwPZVelNYWpQZ1uh3HA5mSI63aJdLllV1aDPMk0C5h2W2v-gNF0YiKYQ0OMfXi3Bap5wS_ZxhnP3wi4OE-1mysEbCUBP9A4NO80L-Wya6GIxWGrY__b1l29vHGFQYPy2SqfmGtj96R3iVq79xzqPpPXYTw04fioIUd3R90yFdZ2a7SpGJy6LdzcCjNAfqBA2ItptvIcVOOu2BDdp-qDOVb-SrDTmhhVL4g8WkxWWKBLL9_gOwmoYV0T3oJaZrRgOYfW8l8RQ5hqu1uBPmpvoymhTu1AbTh8KUbFNsX8p1AiaZz3UlAqSwFNkaGQaXIk743exViGNituQ9CeevReZnY4duYhpesZQZv0OpLF2AC3hPKzIQ8PLyd9BB3GGOllA5O9xx9bQ.nPrISSnYi38d-ClT9HcN2Q
+ACCEPT-ENCODING     : gzip;q=1.0, compress;q=0.5
+--------------------------------------------------response headers:
+BITMOJI-API-VERSION : 1
+--------------------------------------------------response headers:
+CACHE-CONTROL       : no-cache
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/json; charset=utf-8
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:57:25 GMT
+--------------------------------------------------response headers:
+ETAG                : "7d80c51c-bff9-4801-86e2-bd602c3fa75a-gzip"
+--------------------------------------------------response headers:
+SERVER              : nginx
+--------------------------------------------------response headers:
+VARY                : origin,accept-encoding
+--------------------------------------------------response headers:
+X-REQUEST-ID        : 1576115845581:ip-10-0-25-28:15371:k41wrg99:24506
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+
+=
+POST /content/stickers?app_id=3 HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : api.bitmoji.com
+CONTENT-TYPE        : application/x-www-form-urlencoded; charset=utf-8
+USER-AGENT          : imoji/10.72.0.3071 (iPad5,1; iOS 13.1.0)
+CONNECTION          : keep-alive
+BITMOJI-USER-AGENT  : 1|com.bitstrips.imoji|10.72.0.3071|iOS|13.1.0|iPad5,1|BEFE76C9-A1E4-42D2-ABF0-A564A09D3951|2|en-US
+IF-NONE-MATCH       : "f4f342c76c32f6ca58628207927f8bba"
+ACCEPT              : application/content.stickers.v1+json
+ACCEPT-LANGUAGE     : en-US;q=1.0
+AUTHORIZATION       : Bearer eyJpc3MiOiJodHRwczpcL1wvYWNjb3VudHMuc25hcGNoYXQuY29tXC9hY2NvdW50c1wvb2F1dGgyXC90b2tlbiIsInR5cCI6IkpXVCIsImVuYyI6IkExMjhDQkMtSFMyNTYiLCJhbGciOiJkaXIiLCJraWQiOiJhY2Nlc3MtdG9rZW4tYTEyOGNiYy1oczI1Ni4wIn0..4JOHIcvQCUc0SIK0ncVKsg.CbKFma72Q1QPZqzX5ckJ26wdH2aMcC5cb8iQe9dPwh1DBsOkX8pKzB6iPoTErsO8r6srBc-n2voYlPBOwTaSYDQJfqJmt8_wh9k4uc_0La3gsCM_YbijRybVkUCzl6jzvIp9qsIsbK_J1x9NldjjG4DoRADlkl5ybz43oLGB5BUetReEC0BxWhyYGMEXGrjqSlKSnar4BMIZ0F4JGiWp5fnpkq23wH8d6IDWElGlUeK5eQMxzFOIGpy8-WWV4ljMQaLDi00sYBNq77LtJtNILH-GRb-2LAwf_MKTwnZBsIvahaSEaz75xJns4KPaoiG7FuGUT4vq-6XY16aXybZyAKy4STuaXIHBgGtveiwCzbJ2z_JTeswJquooMvMPdAKmAL8HYShtOS3gY-DwPZVelNYWpQZ1uh3HA5mSI63aJdLllV1aDPMk0C5h2W2v-gNF0YiKYQ0OMfXi3Bap5wS_ZxhnP3wi4OE-1mysEbCUBP9A4NO80L-Wya6GIxWGrY__b1l29vHGFQYPy2SqfmGtj96R3iVq79xzqPpPXYTw04fioIUd3R90yFdZ2a7SpGJy6LdzcCjNAfqBA2ItptvIcVOOu2BDdp-qDOVb-SrDTmhhVL4g8WkxWWKBLL9_gOwmoYV0T3oJaZrRgOYfW8l8RQ5hqu1uBPmpvoymhTu1AbTh8KUbFNsX8p1AiaZz3UlAqSwFNkaGQaXIk743exViGNituQ9CeevReZnY4duYhpesZQZv0OpLF2AC3hPKzIQ8PLyd9BB3GGOllA5O9xx9bQ.nPrISSnYi38d-ClT9HcN2Q
+CONTENT-LENGTH      : 164
+ACCEPT-ENCODING     : gzip;q=1.0, compress;q=0.5
+--------------------------------------------------response headers:
+BITMOJI-API-VERSION : 1
+--------------------------------------------------response headers:
+CACHE-CONTROL       : no-cache
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:57:25 GMT
+--------------------------------------------------response headers:
+ETAG                : "f4f342c76c32f6ca58628207927f8bba"
+--------------------------------------------------response headers:
+SERVER              : nginx
+--------------------------------------------------response headers:
+VARY                : origin
+--------------------------------------------------response headers:
+X-REQUEST-ID        : 1576115845584:ip-10-0-31-229:19360:k41wwtqp:16346
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+
+=
+GET /avatar-builder-v3/avatar-styles HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : api.bitmoji.com
+CONNECTION          : keep-alive
+BITMOJI-USER-AGENT  : 1|com.bitstrips.imoji|10.72.0.3071|iOS|13.1.0|iPad5,1|BEFE76C9-A1E4-42D2-ABF0-A564A09D3951|2|en-US
+ACCEPT              : */*
+USER-AGENT          : imoji/10.72.0.3071 (iPad5,1; iOS 13.1.0)
+ACCEPT-LANGUAGE     : en-US;q=1.0
+AUTHORIZATION       : Bearer eyJpc3MiOiJodHRwczpcL1wvYWNjb3VudHMuc25hcGNoYXQuY29tXC9hY2NvdW50c1wvb2F1dGgyXC90b2tlbiIsInR5cCI6IkpXVCIsImVuYyI6IkExMjhDQkMtSFMyNTYiLCJhbGciOiJkaXIiLCJraWQiOiJhY2Nlc3MtdG9rZW4tYTEyOGNiYy1oczI1Ni4wIn0..4JOHIcvQCUc0SIK0ncVKsg.CbKFma72Q1QPZqzX5ckJ26wdH2aMcC5cb8iQe9dPwh1DBsOkX8pKzB6iPoTErsO8r6srBc-n2voYlPBOwTaSYDQJfqJmt8_wh9k4uc_0La3gsCM_YbijRybVkUCzl6jzvIp9qsIsbK_J1x9NldjjG4DoRADlkl5ybz43oLGB5BUetReEC0BxWhyYGMEXGrjqSlKSnar4BMIZ0F4JGiWp5fnpkq23wH8d6IDWElGlUeK5eQMxzFOIGpy8-WWV4ljMQaLDi00sYBNq77LtJtNILH-GRb-2LAwf_MKTwnZBsIvahaSEaz75xJns4KPaoiG7FuGUT4vq-6XY16aXybZyAKy4STuaXIHBgGtveiwCzbJ2z_JTeswJquooMvMPdAKmAL8HYShtOS3gY-DwPZVelNYWpQZ1uh3HA5mSI63aJdLllV1aDPMk0C5h2W2v-gNF0YiKYQ0OMfXi3Bap5wS_ZxhnP3wi4OE-1mysEbCUBP9A4NO80L-Wya6GIxWGrY__b1l29vHGFQYPy2SqfmGtj96R3iVq79xzqPpPXYTw04fioIUd3R90yFdZ2a7SpGJy6LdzcCjNAfqBA2ItptvIcVOOu2BDdp-qDOVb-SrDTmhhVL4g8WkxWWKBLL9_gOwmoYV0T3oJaZrRgOYfW8l8RQ5hqu1uBPmpvoymhTu1AbTh8KUbFNsX8p1AiaZz3UlAqSwFNkaGQaXIk743exViGNituQ9CeevReZnY4duYhpesZQZv0OpLF2AC3hPKzIQ8PLyd9BB3GGOllA5O9xx9bQ.nPrISSnYi38d-ClT9HcN2Q
+ACCEPT-ENCODING     : gzip;q=1.0, compress;q=0.5
+--------------------------------------------------response headers:
+BITMOJI-API-VERSION : 1
+--------------------------------------------------response headers:
+CACHE-CONTROL       : no-cache
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/json; charset=utf-8
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:57:25 GMT
+--------------------------------------------------response headers:
+SERVER              : nginx
+--------------------------------------------------response headers:
+VARY                : origin,accept-encoding
+--------------------------------------------------response headers:
+X-REQUEST-ID        : 1576115845699:ip-10-0-23-50:12111:k41x2ay6:99456
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 198
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+
+=
+GET /snapchat/user-data HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : api.bitmoji.com
+CONNECTION          : keep-alive
+BITMOJI-USER-AGENT  : 1|com.bitstrips.imoji|10.72.0.3071|iOS|13.1.0|iPad5,1|BEFE76C9-A1E4-42D2-ABF0-A564A09D3951|2|en-US
+ACCEPT              : */*
+USER-AGENT          : imoji/10.72.0.3071 (iPad5,1; iOS 13.1.0)
+ACCEPT-LANGUAGE     : en-US;q=1.0
+AUTHORIZATION       : Bearer eyJpc3MiOiJodHRwczpcL1wvYWNjb3VudHMuc25hcGNoYXQuY29tXC9hY2NvdW50c1wvb2F1dGgyXC90b2tlbiIsInR5cCI6IkpXVCIsImVuYyI6IkExMjhDQkMtSFMyNTYiLCJhbGciOiJkaXIiLCJraWQiOiJhY2Nlc3MtdG9rZW4tYTEyOGNiYy1oczI1Ni4wIn0..4JOHIcvQCUc0SIK0ncVKsg.CbKFma72Q1QPZqzX5ckJ26wdH2aMcC5cb8iQe9dPwh1DBsOkX8pKzB6iPoTErsO8r6srBc-n2voYlPBOwTaSYDQJfqJmt8_wh9k4uc_0La3gsCM_YbijRybVkUCzl6jzvIp9qsIsbK_J1x9NldjjG4DoRADlkl5ybz43oLGB5BUetReEC0BxWhyYGMEXGrjqSlKSnar4BMIZ0F4JGiWp5fnpkq23wH8d6IDWElGlUeK5eQMxzFOIGpy8-WWV4ljMQaLDi00sYBNq77LtJtNILH-GRb-2LAwf_MKTwnZBsIvahaSEaz75xJns4KPaoiG7FuGUT4vq-6XY16aXybZyAKy4STuaXIHBgGtveiwCzbJ2z_JTeswJquooMvMPdAKmAL8HYShtOS3gY-DwPZVelNYWpQZ1uh3HA5mSI63aJdLllV1aDPMk0C5h2W2v-gNF0YiKYQ0OMfXi3Bap5wS_ZxhnP3wi4OE-1mysEbCUBP9A4NO80L-Wya6GIxWGrY__b1l29vHGFQYPy2SqfmGtj96R3iVq79xzqPpPXYTw04fioIUd3R90yFdZ2a7SpGJy6LdzcCjNAfqBA2ItptvIcVOOu2BDdp-qDOVb-SrDTmhhVL4g8WkxWWKBLL9_gOwmoYV0T3oJaZrRgOYfW8l8RQ5hqu1uBPmpvoymhTu1AbTh8KUbFNsX8p1AiaZz3UlAqSwFNkaGQaXIk743exViGNituQ9CeevReZnY4duYhpesZQZv0OpLF2AC3hPKzIQ8PLyd9BB3GGOllA5O9xx9bQ.nPrISSnYi38d-ClT9HcN2Q
+ACCEPT-ENCODING     : gzip;q=1.0, compress;q=0.5
+--------------------------------------------------response headers:
+BITMOJI-API-VERSION : 1
+--------------------------------------------------response headers:
+CACHE-CONTROL       : no-cache
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/json; charset=utf-8
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:57:26 GMT
+--------------------------------------------------response headers:
+SERVER              : nginx
+--------------------------------------------------response headers:
+VARY                : origin,accept-encoding
+--------------------------------------------------response headers:
+X-REQUEST-ID        : 1576115845862:ip-10-0-30-105:15490:k41xaagq:86935
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 48
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+
+=
+GET /v2/cpanel/510435eb-7ece-4f75-bf25-1a3407c5f521-278361908_6-s4-v1.png?transparent=1&palette=1 HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : render.bitstrips.com
+ACCEPT              : */*
+ACCEPT-LANGUAGE     : en-us
+CONNECTION          : keep-alive
+ACCEPT-ENCODING     : gzip, deflate, br
+USER-AGENT          : imoji/10.72.0.3071 CFNetwork/1107.1 Darwin/19.0.0
+--------------------------------------------------response headers:
+CONTENT-TYPE        : image/png
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 81835
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:57:28 GMT
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+CACHE-CONTROL       : max-age=31557600
+--------------------------------------------------response headers:
+SERVER              : Jetty(9.3.13.v20161014)
+--------------------------------------------------response headers:
+X-CACHE             : Miss from cloudfront
+--------------------------------------------------response headers:
+VIA                 : 1.1 966d01179c7098b0cf2a20ba8c352dee.cloudfront.net (CloudFront)
+--------------------------------------------------response headers:
+X-AMZ-CF-POP        : IAD89-C2
+--------------------------------------------------response headers:
+X-AMZ-CF-ID         : ex9gRDa2KXxQ-rRbChsf7Cne8pG3Ivdyc9fwBmbVFjM8jr-DyQGTDg==
+--------------------------------------------------response headers:
+
+=
+GET /v2/cpanel/364ec046-0714-4238-ba13-060ae1e86456-278361908_6-s4-v1.png?transparent=1&palette=1 HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : render.bitstrips.com
+ACCEPT              : */*
+ACCEPT-LANGUAGE     : en-us
+CONNECTION          : keep-alive
+ACCEPT-ENCODING     : gzip, deflate, br
+USER-AGENT          : imoji/10.72.0.3071 CFNetwork/1107.1 Darwin/19.0.0
+--------------------------------------------------response headers:
+CONTENT-TYPE        : image/png
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 54876
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:57:28 GMT
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+CACHE-CONTROL       : max-age=31557600
+--------------------------------------------------response headers:
+SERVER              : Jetty(9.3.13.v20161014)
+--------------------------------------------------response headers:
+X-CACHE             : Miss from cloudfront
+--------------------------------------------------response headers:
+VIA                 : 1.1 3924198dd88678a1cab97875f32b6f20.cloudfront.net (CloudFront)
+--------------------------------------------------response headers:
+X-AMZ-CF-POP        : IAD89-C2
+--------------------------------------------------response headers:
+X-AMZ-CF-ID         : 7And_gV6ZT-PakqDAJn0Oge81Ya6uPSqxitOLAgC1VE6QWkhoDvNNw==
+--------------------------------------------------response headers:
+
+=
+GET /v2/cpanel/8f176416-342d-4744-ad16-4ab17c2d8bee-278361908_6-s4-v1.png?transparent=1&palette=1 HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : render.bitstrips.com
+ACCEPT              : */*
+ACCEPT-LANGUAGE     : en-us
+CONNECTION          : keep-alive
+ACCEPT-ENCODING     : gzip, deflate, br
+USER-AGENT          : imoji/10.72.0.3071 CFNetwork/1107.1 Darwin/19.0.0
+--------------------------------------------------response headers:
+CONTENT-TYPE        : image/png
+--------------------------------------------------response headers:
+TRANSFER-ENCODING   : chunked
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:57:28 GMT
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+CACHE-CONTROL       : max-age=31557600
+--------------------------------------------------response headers:
+SERVER              : Jetty(9.3.13.v20161014)
+--------------------------------------------------response headers:
+X-CACHE             : Miss from cloudfront
+--------------------------------------------------response headers:
+VIA                 : 1.1 ade18dc841d2e1cc8ef49611c5d4c93e.cloudfront.net (CloudFront)
+--------------------------------------------------response headers:
+X-AMZ-CF-POP        : IAD89-C2
+--------------------------------------------------response headers:
+X-AMZ-CF-ID         : GApiFwx6SifprsBXDN0CZnRl6Qmp9LoLO6qg1VTFdEdMWDOs86XkwQ==
+--------------------------------------------------response headers:
+
+=
+GET /v2/cpanel/2f9924f9-3fe3-4d72-8184-51a3eceb4a23-278361908_6-s4-v1.png?transparent=1&palette=1 HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : render.bitstrips.com
+ACCEPT              : */*
+ACCEPT-LANGUAGE     : en-us
+CONNECTION          : keep-alive
+ACCEPT-ENCODING     : gzip, deflate, br
+USER-AGENT          : imoji/10.72.0.3071 CFNetwork/1107.1 Darwin/19.0.0
+--------------------------------------------------response headers:
+CONTENT-TYPE        : image/png
+--------------------------------------------------response headers:
+TRANSFER-ENCODING   : chunked
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:57:28 GMT
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+CACHE-CONTROL       : max-age=31557600
+--------------------------------------------------response headers:
+SERVER              : Jetty(9.3.13.v20161014)
+--------------------------------------------------response headers:
+X-CACHE             : Miss from cloudfront
+--------------------------------------------------response headers:
+VIA                 : 1.1 a20436c6d109fe9002d093f519ad4399.cloudfront.net (CloudFront)
+--------------------------------------------------response headers:
+X-AMZ-CF-POP        : IAD89-C2
+--------------------------------------------------response headers:
+X-AMZ-CF-ID         : yrxsvXOahJH_YMG8bAtCUlE59a7TPuzLU25acJnu4ldn-wR59KvcqA==
+--------------------------------------------------response headers:
+
+=
+GET /v2/cpanel/3b7420c4-227b-4b17-a98f-fd2a89b326b6-278361908_6-s4-v1.png?transparent=1&palette=1 HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : render.bitstrips.com
+ACCEPT              : */*
+ACCEPT-LANGUAGE     : en-us
+CONNECTION          : keep-alive
+ACCEPT-ENCODING     : gzip, deflate, br
+USER-AGENT          : imoji/10.72.0.3071 CFNetwork/1107.1 Darwin/19.0.0
+--------------------------------------------------response headers:
+CONTENT-TYPE        : image/png
+--------------------------------------------------response headers:
+TRANSFER-ENCODING   : chunked
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:57:29 GMT
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+CACHE-CONTROL       : max-age=31557600
+--------------------------------------------------response headers:
+SERVER              : Jetty(9.3.13.v20161014)
+--------------------------------------------------response headers:
+X-CACHE             : Miss from cloudfront
+--------------------------------------------------response headers:
+VIA                 : 1.1 427271f19372c1be0d143a1d4c76a128.cloudfront.net (CloudFront)
+--------------------------------------------------response headers:
+X-AMZ-CF-POP        : IAD89-C2
+--------------------------------------------------response headers:
+X-AMZ-CF-ID         : bEiJUCBRgwMfxT4boM_0May7u5J6ariuuK5GH6V8SR9KPuYqW_RtTg==
+--------------------------------------------------response headers:
+
+=
+GET /v2/cpanel/7d3e1551-d828-4ece-9814-d9e40af4d7b0-278361908_6-s4-v1.png?transparent=1&palette=1 HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : render.bitstrips.com
+ACCEPT              : */*
+ACCEPT-LANGUAGE     : en-us
+CONNECTION          : keep-alive
+ACCEPT-ENCODING     : gzip, deflate, br
+USER-AGENT          : imoji/10.72.0.3071 CFNetwork/1107.1 Darwin/19.0.0
+--------------------------------------------------response headers:
+CONTENT-TYPE        : image/png
+--------------------------------------------------response headers:
+TRANSFER-ENCODING   : chunked
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:57:29 GMT
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+CACHE-CONTROL       : max-age=31557600
+--------------------------------------------------response headers:
+SERVER              : Jetty(9.3.13.v20161014)
+--------------------------------------------------response headers:
+X-CACHE             : Miss from cloudfront
+--------------------------------------------------response headers:
+VIA                 : 1.1 ab2f63669c9809614cbcf54bfba8ee06.cloudfront.net (CloudFront)
+--------------------------------------------------response headers:
+X-AMZ-CF-POP        : IAD89-C2
+--------------------------------------------------response headers:
+X-AMZ-CF-ID         : hQ8It0Zv0lhWZudZAdnvM-Ul74yYHBqXPh69deQMqaTJeLLGwFtZNw==
+--------------------------------------------------response headers:
+
+=
+GET /v2/cpanel/6a047456-11a0-49fc-80fa-8401949e8395-278361908_6-s4-v1.png?transparent=1&palette=1 HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : render.bitstrips.com
+ACCEPT              : */*
+ACCEPT-LANGUAGE     : en-us
+CONNECTION          : keep-alive
+ACCEPT-ENCODING     : gzip, deflate, br
+USER-AGENT          : imoji/10.72.0.3071 CFNetwork/1107.1 Darwin/19.0.0
+--------------------------------------------------response headers:
+CONTENT-TYPE        : image/png
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 63232
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:57:29 GMT
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+CACHE-CONTROL       : max-age=31557600
+--------------------------------------------------response headers:
+SERVER              : Jetty(9.3.13.v20161014)
+--------------------------------------------------response headers:
+X-CACHE             : Miss from cloudfront
+--------------------------------------------------response headers:
+VIA                 : 1.1 b051e9c33308597b659c33b8999b521d.cloudfront.net (CloudFront)
+--------------------------------------------------response headers:
+X-AMZ-CF-POP        : IAD89-C2
+--------------------------------------------------response headers:
+X-AMZ-CF-ID         : CZrMkr0Q42tcP6BtDe-qoSoq6TtL2E97XILFEgYSwud2s-ferZSx1A==
+--------------------------------------------------response headers:
+
+=
+GET /v2/cpanel/0159d254-d092-497f-ad26-b82fb7f7c522-278361908_6-s4-v1.png?transparent=1&palette=1 HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : render.bitstrips.com
+ACCEPT              : */*
+ACCEPT-LANGUAGE     : en-us
+CONNECTION          : keep-alive
+ACCEPT-ENCODING     : gzip, deflate, br
+USER-AGENT          : imoji/10.72.0.3071 CFNetwork/1107.1 Darwin/19.0.0
+--------------------------------------------------response headers:
+CONTENT-TYPE        : image/png
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 64694
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:57:29 GMT
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+CACHE-CONTROL       : max-age=31557600
+--------------------------------------------------response headers:
+SERVER              : Jetty(9.3.13.v20161014)
+--------------------------------------------------response headers:
+X-CACHE             : Miss from cloudfront
+--------------------------------------------------response headers:
+VIA                 : 1.1 8ad5a9cbb864898c238f716c1a12623d.cloudfront.net (CloudFront)
+--------------------------------------------------response headers:
+X-AMZ-CF-POP        : IAD89-C2
+--------------------------------------------------response headers:
+X-AMZ-CF-ID         : 3WtcWHSYz6Ahyk1gse6Av7BQ0yNu4wyLqZF3B9av6SToW1lF-lkSiA==
+--------------------------------------------------response headers:
+
+=
+GET /v2/cpanel/a0fe00ec-099d-4f20-95d0-c84931a64123-278361908_6-s4-v1.png?transparent=1&palette=1 HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : render.bitstrips.com
+ACCEPT              : */*
+ACCEPT-LANGUAGE     : en-us
+CONNECTION          : keep-alive
+ACCEPT-ENCODING     : gzip, deflate, br
+USER-AGENT          : imoji/10.72.0.3071 CFNetwork/1107.1 Darwin/19.0.0
+--------------------------------------------------response headers:
+CONTENT-TYPE        : image/png
+--------------------------------------------------response headers:
+TRANSFER-ENCODING   : chunked
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:57:29 GMT
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+CACHE-CONTROL       : max-age=31557600
+--------------------------------------------------response headers:
+SERVER              : Jetty(9.3.13.v20161014)
+--------------------------------------------------response headers:
+X-CACHE             : Miss from cloudfront
+--------------------------------------------------response headers:
+VIA                 : 1.1 b051e9c33308597b659c33b8999b521d.cloudfront.net (CloudFront)
+--------------------------------------------------response headers:
+X-AMZ-CF-POP        : IAD89-C2
+--------------------------------------------------response headers:
+X-AMZ-CF-ID         : P-hw6yLfP9ZkOxmJrQomBrHfTeaWuV0icnUvDFUttaBnqUSKqkSiow==
+--------------------------------------------------response headers:
+
+=
+GET /v2/cpanel/31140582-3236-4f52-8bbc-8655fda25838-278361908_6-s4-v1.png?transparent=1&palette=1 HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : render.bitstrips.com
+ACCEPT              : */*
+ACCEPT-LANGUAGE     : en-us
+CONNECTION          : keep-alive
+ACCEPT-ENCODING     : gzip, deflate, br
+USER-AGENT          : imoji/10.72.0.3071 CFNetwork/1107.1 Darwin/19.0.0
+--------------------------------------------------response headers:
+CONTENT-TYPE        : image/png
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 37077
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:57:29 GMT
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+CACHE-CONTROL       : max-age=31557600
+--------------------------------------------------response headers:
+SERVER              : Jetty(9.3.13.v20161014)
+--------------------------------------------------response headers:
+X-CACHE             : Miss from cloudfront
+--------------------------------------------------response headers:
+VIA                 : 1.1 427271f19372c1be0d143a1d4c76a128.cloudfront.net (CloudFront)
+--------------------------------------------------response headers:
+X-AMZ-CF-POP        : IAD89-C2
+--------------------------------------------------response headers:
+X-AMZ-CF-ID         : CrbXSH9XPYBvOZ2JDbhQvDIzhzTRub25UWD7V_eLFgCKsA1BL4KMfA==
+--------------------------------------------------response headers:
+
+=
+GET /v2/cpanel/4973e5d6-2c4d-4dbd-87db-53f6c4af9701-278361908_6-s4-v1.png?transparent=1&palette=1 HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : render.bitstrips.com
+ACCEPT              : */*
+ACCEPT-LANGUAGE     : en-us
+CONNECTION          : keep-alive
+ACCEPT-ENCODING     : gzip, deflate, br
+USER-AGENT          : imoji/10.72.0.3071 CFNetwork/1107.1 Darwin/19.0.0
+--------------------------------------------------response headers:
+CONTENT-TYPE        : image/png
+--------------------------------------------------response headers:
+TRANSFER-ENCODING   : chunked
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:57:29 GMT
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+CACHE-CONTROL       : max-age=31557600
+--------------------------------------------------response headers:
+SERVER              : Jetty(9.3.13.v20161014)
+--------------------------------------------------response headers:
+X-CACHE             : Miss from cloudfront
+--------------------------------------------------response headers:
+VIA                 : 1.1 8ad5a9cbb864898c238f716c1a12623d.cloudfront.net (CloudFront)
+--------------------------------------------------response headers:
+X-AMZ-CF-POP        : IAD89-C2
+--------------------------------------------------response headers:
+X-AMZ-CF-ID         : YFbWGYuiyHd1YkqVJhp0jwMj4AKrtVwwHwbUFkfjTMSKHT4TU3af1Q==
+--------------------------------------------------response headers:
+
+=
+GET /v2/cpanel/155c3952-b17e-47a7-ba3d-54bf9fb6f582-278361908_6-s4-v1.png?transparent=1&palette=1 HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : render.bitstrips.com
+ACCEPT              : */*
+ACCEPT-LANGUAGE     : en-us
+CONNECTION          : keep-alive
+ACCEPT-ENCODING     : gzip, deflate, br
+USER-AGENT          : imoji/10.72.0.3071 CFNetwork/1107.1 Darwin/19.0.0
+--------------------------------------------------response headers:
+CONTENT-TYPE        : image/png
+--------------------------------------------------response headers:
+TRANSFER-ENCODING   : chunked
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:57:29 GMT
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+CACHE-CONTROL       : max-age=31557600
+--------------------------------------------------response headers:
+SERVER              : Jetty(9.3.13.v20161014)
+--------------------------------------------------response headers:
+X-CACHE             : Miss from cloudfront
+--------------------------------------------------response headers:
+VIA                 : 1.1 ab2f63669c9809614cbcf54bfba8ee06.cloudfront.net (CloudFront)
+--------------------------------------------------response headers:
+X-AMZ-CF-POP        : IAD89-C2
+--------------------------------------------------response headers:
+X-AMZ-CF-ID         : --M7DGKPfHuU9Zm-fMj8i-_ztrBbeMbX-DKkStNRtBN-Fykhd4weHQ==
+--------------------------------------------------response headers:
+
+=
+GET /v2/cpanel/19bb15ab-b2f4-4ea8-8360-52110d6a18b9-278361908_6-s4-v1.png?transparent=1&palette=1 HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : render.bitstrips.com
+ACCEPT              : */*
+ACCEPT-LANGUAGE     : en-us
+CONNECTION          : keep-alive
+ACCEPT-ENCODING     : gzip, deflate, br
+USER-AGENT          : imoji/10.72.0.3071 CFNetwork/1107.1 Darwin/19.0.0
+--------------------------------------------------response headers:
+CONTENT-TYPE        : image/png
+--------------------------------------------------response headers:
+TRANSFER-ENCODING   : chunked
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:57:30 GMT
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+CACHE-CONTROL       : max-age=31557600
+--------------------------------------------------response headers:
+SERVER              : Jetty(9.3.13.v20161014)
+--------------------------------------------------response headers:
+X-CACHE             : Miss from cloudfront
+--------------------------------------------------response headers:
+VIA                 : 1.1 427271f19372c1be0d143a1d4c76a128.cloudfront.net (CloudFront)
+--------------------------------------------------response headers:
+X-AMZ-CF-POP        : IAD89-C2
+--------------------------------------------------response headers:
+X-AMZ-CF-ID         : wuVxuPhFP35Jol40BhzdmwxJ4CzgYiVoNC5Dz0T4reMU46NyMweR5w==
+--------------------------------------------------response headers:
+
+=
+GET /v2/cpanel/505fff11-e4de-4a7d-becb-4f72b115cdf9-278361908_6-s4-v1.png?transparent=1&palette=1 HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : render.bitstrips.com
+ACCEPT              : */*
+ACCEPT-LANGUAGE     : en-us
+CONNECTION          : keep-alive
+ACCEPT-ENCODING     : gzip, deflate, br
+USER-AGENT          : imoji/10.72.0.3071 CFNetwork/1107.1 Darwin/19.0.0
+--------------------------------------------------response headers:
+CONTENT-TYPE        : image/png
+--------------------------------------------------response headers:
+TRANSFER-ENCODING   : chunked
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:57:30 GMT
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+CACHE-CONTROL       : max-age=31557600
+--------------------------------------------------response headers:
+SERVER              : Jetty(9.3.13.v20161014)
+--------------------------------------------------response headers:
+X-CACHE             : Miss from cloudfront
+--------------------------------------------------response headers:
+VIA                 : 1.1 8ad5a9cbb864898c238f716c1a12623d.cloudfront.net (CloudFront)
+--------------------------------------------------response headers:
+X-AMZ-CF-POP        : IAD89-C2
+--------------------------------------------------response headers:
+X-AMZ-CF-ID         : PK5AIk5rYPjSspEgongkps1fwd-bDAjOOghKL8DrqdAnXyRE0PbyPA==
+--------------------------------------------------response headers:
+
+=
+GET /v2/cpanel/0e01334e-0aa6-463f-a650-62029f3469b2-278361908_6-s4-v1.png?transparent=1&palette=1 HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : render.bitstrips.com
+ACCEPT              : */*
+ACCEPT-LANGUAGE     : en-us
+CONNECTION          : keep-alive
+ACCEPT-ENCODING     : gzip, deflate, br
+USER-AGENT          : imoji/10.72.0.3071 CFNetwork/1107.1 Darwin/19.0.0
+--------------------------------------------------response headers:
+CONTENT-TYPE        : image/png
+--------------------------------------------------response headers:
+TRANSFER-ENCODING   : chunked
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:57:30 GMT
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+CACHE-CONTROL       : max-age=31557600
+--------------------------------------------------response headers:
+SERVER              : Jetty(9.3.13.v20161014)
+--------------------------------------------------response headers:
+X-CACHE             : Miss from cloudfront
+--------------------------------------------------response headers:
+VIA                 : 1.1 ab2f63669c9809614cbcf54bfba8ee06.cloudfront.net (CloudFront)
+--------------------------------------------------response headers:
+X-AMZ-CF-POP        : IAD89-C2
+--------------------------------------------------response headers:
+X-AMZ-CF-ID         : JnAXvnPzwCoD7pQv7en6VABN9VezuM9u80Mxx7-vxT-tbnYsKSEsHQ==
+--------------------------------------------------response headers:
+
+=
+GET /v2/cpanel/1c9081e0-499f-4ad3-90c1-29ad393c3a92-278361908_6-s4-v1.png?transparent=1&palette=1 HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : render.bitstrips.com
+ACCEPT              : */*
+ACCEPT-LANGUAGE     : en-us
+CONNECTION          : keep-alive
+ACCEPT-ENCODING     : gzip, deflate, br
+USER-AGENT          : imoji/10.72.0.3071 CFNetwork/1107.1 Darwin/19.0.0
+--------------------------------------------------response headers:
+CONTENT-TYPE        : image/png
+--------------------------------------------------response headers:
+TRANSFER-ENCODING   : chunked
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:57:30 GMT
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+CACHE-CONTROL       : max-age=31557600
+--------------------------------------------------response headers:
+SERVER              : Jetty(9.3.13.v20161014)
+--------------------------------------------------response headers:
+X-CACHE             : Miss from cloudfront
+--------------------------------------------------response headers:
+VIA                 : 1.1 b051e9c33308597b659c33b8999b521d.cloudfront.net (CloudFront)
+--------------------------------------------------response headers:
+X-AMZ-CF-POP        : IAD89-C2
+--------------------------------------------------response headers:
+X-AMZ-CF-ID         : 0YE1p7lW1aSh0YEHFaY9lQzhlSqT3pqs1_7wHtBGlBWUnSfJcs5Srw==
+--------------------------------------------------response headers:
+
+=
+GET /v2/cpanel/2e5f6ef7-984b-4bd8-9a5d-8d53ad1dc2eb-278361908_6-s4-v1.png?transparent=1&palette=1 HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : render.bitstrips.com
+ACCEPT              : */*
+ACCEPT-LANGUAGE     : en-us
+CONNECTION          : keep-alive
+ACCEPT-ENCODING     : gzip, deflate, br
+USER-AGENT          : imoji/10.72.0.3071 CFNetwork/1107.1 Darwin/19.0.0
+--------------------------------------------------response headers:
+CONTENT-TYPE        : image/png
+--------------------------------------------------response headers:
+TRANSFER-ENCODING   : chunked
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:57:30 GMT
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+CACHE-CONTROL       : max-age=31557600
+--------------------------------------------------response headers:
+SERVER              : Jetty(9.3.13.v20161014)
+--------------------------------------------------response headers:
+X-CACHE             : Miss from cloudfront
+--------------------------------------------------response headers:
+VIA                 : 1.1 427271f19372c1be0d143a1d4c76a128.cloudfront.net (CloudFront)
+--------------------------------------------------response headers:
+X-AMZ-CF-POP        : IAD89-C2
+--------------------------------------------------response headers:
+X-AMZ-CF-ID         : qScYYp4rC_96IIy8dyfEWtPjAMzHveek68KSHYsMQb4sbSYnjqQnBw==
+--------------------------------------------------response headers:
+
+=
+POST /metric/bitmoji/ops HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : connect.bitmoji.com
+ACCEPT              : application/x-protobuf
+CONTENT-TYPE        : application/x-protobuf
+ACCEPT-ENCODING     : gzip;q=1.0, compress;q=0.5
+CONTENT-LENGTH      : 730
+X-BITMOJI-CLIENT-AUTH: v9:5F0A3AFFA912881ED3B4FE1F7FAB445B:F2810673B9F8B9232E4DF75A5DDDF5319C1FCD31A5EA63BEDD9F3743673D2CF29780697ECC9BFC6A4939946780ACAEDF57C0BABDDB759C9D187BDB7F2EF60C70B70C16B60739B2279263DD4C028CBD9A138608A111529636A40ACD31B176F6580E01E8CEB578A3A152B27D92B2E6F041
+ACCEPT-LANGUAGE     : en-US;q=1.0
+USER-AGENT          : imoji/10.72.0 (com.bitstrips.imoji; build:10.72.0.3071; iOS 13.1.0) Alamofire/4.9.0
+TIMESTAMP           : 1576115850450
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:57:30 GMT
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 0
+--------------------------------------------------response headers:
+VARY                : Accept-Encoding, User-Agent
+--------------------------------------------------response headers:
+SERVER              : Jetty(9.3.13.v20161014)
+--------------------------------------------------response headers:
+
+=
+GET /v2/cpanel/55cd698b-3a6f-47a8-a014-47e81acfd53d-278361908_6-s4-v1.png?transparent=1&palette=1 HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : render.bitstrips.com
+ACCEPT              : */*
+ACCEPT-LANGUAGE     : en-us
+CONNECTION          : keep-alive
+ACCEPT-ENCODING     : gzip, deflate, br
+USER-AGENT          : imoji/10.72.0.3071 CFNetwork/1107.1 Darwin/19.0.0
+--------------------------------------------------response headers:
+CONTENT-TYPE        : image/png
+--------------------------------------------------response headers:
+TRANSFER-ENCODING   : chunked
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:57:30 GMT
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+CACHE-CONTROL       : max-age=31557600
+--------------------------------------------------response headers:
+SERVER              : Jetty(9.3.13.v20161014)
+--------------------------------------------------response headers:
+X-CACHE             : Miss from cloudfront
+--------------------------------------------------response headers:
+VIA                 : 1.1 8ad5a9cbb864898c238f716c1a12623d.cloudfront.net (CloudFront)
+--------------------------------------------------response headers:
+X-AMZ-CF-POP        : IAD89-C2
+--------------------------------------------------response headers:
+X-AMZ-CF-ID         : kialJQr6VGgruU4sn_3Gs5piuBnMDF7OLZhWEQSGbr_cwR7gskof_Q==
+--------------------------------------------------response headers:
+
+=
+GET /v2/cpanel/d9539aa0-e39d-4e72-9390-ff77d1577b67-278361908_6-s4-v1.png?transparent=1&palette=1 HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : render.bitstrips.com
+ACCEPT              : */*
+ACCEPT-LANGUAGE     : en-us
+CONNECTION          : keep-alive
+ACCEPT-ENCODING     : gzip, deflate, br
+USER-AGENT          : imoji/10.72.0.3071 CFNetwork/1107.1 Darwin/19.0.0
+--------------------------------------------------response headers:
+CONTENT-TYPE        : image/png
+--------------------------------------------------response headers:
+TRANSFER-ENCODING   : chunked
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:57:30 GMT
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+CACHE-CONTROL       : max-age=31557600
+--------------------------------------------------response headers:
+SERVER              : Jetty(9.3.13.v20161014)
+--------------------------------------------------response headers:
+X-CACHE             : Miss from cloudfront
+--------------------------------------------------response headers:
+VIA                 : 1.1 427271f19372c1be0d143a1d4c76a128.cloudfront.net (CloudFront)
+--------------------------------------------------response headers:
+X-AMZ-CF-POP        : IAD89-C2
+--------------------------------------------------response headers:
+X-AMZ-CF-ID         : ssOcnYq354QaAmbu22WWAV0R7kcI_UvfIdwWt96qo1F4pK6MKca7lA==
+--------------------------------------------------response headers:
+
+=
+GET /v2/cpanel/2f5d439d-f034-4816-9b09-3e1b32ec86ed-278361908_6-s4-v1.png?transparent=1&palette=1 HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : render.bitstrips.com
+ACCEPT              : */*
+ACCEPT-LANGUAGE     : en-us
+CONNECTION          : keep-alive
+ACCEPT-ENCODING     : gzip, deflate, br
+USER-AGENT          : imoji/10.72.0.3071 CFNetwork/1107.1 Darwin/19.0.0
+--------------------------------------------------response headers:
+CONTENT-TYPE        : image/png
+--------------------------------------------------response headers:
+TRANSFER-ENCODING   : chunked
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:57:30 GMT
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+CACHE-CONTROL       : max-age=31557600
+--------------------------------------------------response headers:
+SERVER              : Jetty(9.3.13.v20161014)
+--------------------------------------------------response headers:
+X-CACHE             : Miss from cloudfront
+--------------------------------------------------response headers:
+VIA                 : 1.1 ab2f63669c9809614cbcf54bfba8ee06.cloudfront.net (CloudFront)
+--------------------------------------------------response headers:
+X-AMZ-CF-POP        : IAD89-C2
+--------------------------------------------------response headers:
+X-AMZ-CF-ID         : 30p7uRPfrJs0XwyTw072-0VWX-ChXLrdbta2zTRFfKjp27GIXOawJg==
+--------------------------------------------------response headers:
+
+=
+GET /v2/cpanel/ea7ab00a-8055-4f6b-9933-d47005a9b8d4-278361908_6-s4-v1.png?transparent=1&palette=1 HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : render.bitstrips.com
+ACCEPT              : */*
+ACCEPT-LANGUAGE     : en-us
+CONNECTION          : keep-alive
+ACCEPT-ENCODING     : gzip, deflate, br
+USER-AGENT          : imoji/10.72.0.3071 CFNetwork/1107.1 Darwin/19.0.0
+--------------------------------------------------response headers:
+CONTENT-TYPE        : image/png
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 52474
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:57:30 GMT
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+CACHE-CONTROL       : max-age=31557600
+--------------------------------------------------response headers:
+SERVER              : Jetty(9.3.13.v20161014)
+--------------------------------------------------response headers:
+X-CACHE             : Miss from cloudfront
+--------------------------------------------------response headers:
+VIA                 : 1.1 b051e9c33308597b659c33b8999b521d.cloudfront.net (CloudFront)
+--------------------------------------------------response headers:
+X-AMZ-CF-POP        : IAD89-C2
+--------------------------------------------------response headers:
+X-AMZ-CF-ID         : 1_DPd6bZb5sxAEnmNkyfgi0xd0zgYrUVTezJRuHOxX5kZ8bow6sysw==
+--------------------------------------------------response headers:
+
+=
+GET /v2/cpanel/abdef5be-d8d1-42fe-bd75-7586b1a548f2-278361908_6-s4-v1.png?transparent=1&palette=1 HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : render.bitstrips.com
+ACCEPT              : */*
+ACCEPT-LANGUAGE     : en-us
+CONNECTION          : keep-alive
+ACCEPT-ENCODING     : gzip, deflate, br
+USER-AGENT          : imoji/10.72.0.3071 CFNetwork/1107.1 Darwin/19.0.0
+--------------------------------------------------response headers:
+CONTENT-TYPE        : image/png
+--------------------------------------------------response headers:
+TRANSFER-ENCODING   : chunked
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:57:31 GMT
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+CACHE-CONTROL       : max-age=31557600
+--------------------------------------------------response headers:
+SERVER              : Jetty(9.3.13.v20161014)
+--------------------------------------------------response headers:
+X-CACHE             : Miss from cloudfront
+--------------------------------------------------response headers:
+VIA                 : 1.1 427271f19372c1be0d143a1d4c76a128.cloudfront.net (CloudFront)
+--------------------------------------------------response headers:
+X-AMZ-CF-POP        : IAD89-C2
+--------------------------------------------------response headers:
+X-AMZ-CF-ID         : IBdADUz9eJutmjpD344p3ldznLmNyfNrobUfLDBNY3ZlGMzLTZgfhw==
+--------------------------------------------------response headers:
+
+=
+GET /v2/cpanel/e9c209fe-d2f3-4ca1-b023-47de9c09dbad-278361908_6-s4-v1.png?transparent=1&palette=1 HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : render.bitstrips.com
+ACCEPT              : */*
+ACCEPT-LANGUAGE     : en-us
+CONNECTION          : keep-alive
+ACCEPT-ENCODING     : gzip, deflate, br
+USER-AGENT          : imoji/10.72.0.3071 CFNetwork/1107.1 Darwin/19.0.0
+--------------------------------------------------response headers:
+CONTENT-TYPE        : image/png
+--------------------------------------------------response headers:
+TRANSFER-ENCODING   : chunked
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:57:31 GMT
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+CACHE-CONTROL       : max-age=31557600
+--------------------------------------------------response headers:
+SERVER              : Jetty(9.3.13.v20161014)
+--------------------------------------------------response headers:
+X-CACHE             : Miss from cloudfront
+--------------------------------------------------response headers:
+VIA                 : 1.1 ab2f63669c9809614cbcf54bfba8ee06.cloudfront.net (CloudFront)
+--------------------------------------------------response headers:
+X-AMZ-CF-POP        : IAD89-C2
+--------------------------------------------------response headers:
+X-AMZ-CF-ID         : -ZYMF64yzE8aGiD2eNkaAbK9M5YfK17eBq0znZuY84wn3BGYjzdlzw==
+--------------------------------------------------response headers:
+
+=
+GET /v2/cpanel/0debf544-5b3b-4275-b469-1d779e0dc91e-278361908_6-s4-v1.png?transparent=1&palette=1 HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : render.bitstrips.com
+ACCEPT              : */*
+ACCEPT-LANGUAGE     : en-us
+CONNECTION          : keep-alive
+ACCEPT-ENCODING     : gzip, deflate, br
+USER-AGENT          : imoji/10.72.0.3071 CFNetwork/1107.1 Darwin/19.0.0
+--------------------------------------------------response headers:
+CONTENT-TYPE        : image/png
+--------------------------------------------------response headers:
+TRANSFER-ENCODING   : chunked
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:57:31 GMT
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+CACHE-CONTROL       : max-age=31557600
+--------------------------------------------------response headers:
+SERVER              : Jetty(9.3.13.v20161014)
+--------------------------------------------------response headers:
+X-CACHE             : Miss from cloudfront
+--------------------------------------------------response headers:
+VIA                 : 1.1 b051e9c33308597b659c33b8999b521d.cloudfront.net (CloudFront)
+--------------------------------------------------response headers:
+X-AMZ-CF-POP        : IAD89-C2
+--------------------------------------------------response headers:
+X-AMZ-CF-ID         : ssrvLK_FF7CdcDOAlPBZ-Irqs5IA5JNL9ODTn7mgyFmC3waopQ0Ueg==
+--------------------------------------------------response headers:
+
+=
+GET /v2/cpanel/416fac98-ec48-4858-9508-298ec0826c2a-278361908_6-s4-v1.png?transparent=1&palette=1 HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : render.bitstrips.com
+ACCEPT              : */*
+ACCEPT-LANGUAGE     : en-us
+CONNECTION          : keep-alive
+ACCEPT-ENCODING     : gzip, deflate, br
+USER-AGENT          : imoji/10.72.0.3071 CFNetwork/1107.1 Darwin/19.0.0
+--------------------------------------------------response headers:
+CONTENT-TYPE        : image/png
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 43728
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:57:32 GMT
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+CACHE-CONTROL       : max-age=31557600
+--------------------------------------------------response headers:
+SERVER              : Jetty(9.3.13.v20161014)
+--------------------------------------------------response headers:
+X-CACHE             : Miss from cloudfront
+--------------------------------------------------response headers:
+VIA                 : 1.1 8ad5a9cbb864898c238f716c1a12623d.cloudfront.net (CloudFront)
+--------------------------------------------------response headers:
+X-AMZ-CF-POP        : IAD89-C2
+--------------------------------------------------response headers:
+X-AMZ-CF-ID         : vI-HkiKE1sXDUsYQUfP5PtyhwZbNoqt-EXeJXzhkZq9rM6GtcGqqHA==
+--------------------------------------------------response headers:
+
+=
+GET /v2/cpanel/29897768-37ef-481b-83f1-3e1c895116f6-278361908_6-s4-v1.png?transparent=1&palette=1 HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : render.bitstrips.com
+ACCEPT              : */*
+ACCEPT-LANGUAGE     : en-us
+CONNECTION          : keep-alive
+ACCEPT-ENCODING     : gzip, deflate, br
+USER-AGENT          : imoji/10.72.0.3071 CFNetwork/1107.1 Darwin/19.0.0
+--------------------------------------------------response headers:
+CONTENT-TYPE        : image/png
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 50856
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:57:33 GMT
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+CACHE-CONTROL       : max-age=31557600
+--------------------------------------------------response headers:
+SERVER              : Jetty(9.3.13.v20161014)
+--------------------------------------------------response headers:
+X-CACHE             : Miss from cloudfront
+--------------------------------------------------response headers:
+VIA                 : 1.1 8ad5a9cbb864898c238f716c1a12623d.cloudfront.net (CloudFront)
+--------------------------------------------------response headers:
+X-AMZ-CF-POP        : IAD89-C2
+--------------------------------------------------response headers:
+X-AMZ-CF-ID         : _u-b2BjYyElh1n40zfBO_JJeZlEnrQFhfuUufbq5lJ4s0W-QuRS-XQ==
+--------------------------------------------------response headers:
+
+=
+GET /v2/cpanel/ec48e54c-1ede-452a-ba29-4d4f918ccf2a-278361908_6-s4-v1.png?transparent=1&palette=1 HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : render.bitstrips.com
+ACCEPT              : */*
+ACCEPT-LANGUAGE     : en-us
+CONNECTION          : keep-alive
+ACCEPT-ENCODING     : gzip, deflate, br
+USER-AGENT          : imoji/10.72.0.3071 CFNetwork/1107.1 Darwin/19.0.0
+--------------------------------------------------response headers:
+CONTENT-TYPE        : image/png
+--------------------------------------------------response headers:
+TRANSFER-ENCODING   : chunked
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:57:33 GMT
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+CACHE-CONTROL       : max-age=31557600
+--------------------------------------------------response headers:
+SERVER              : Jetty(9.3.13.v20161014)
+--------------------------------------------------response headers:
+X-CACHE             : Miss from cloudfront
+--------------------------------------------------response headers:
+VIA                 : 1.1 ab2f63669c9809614cbcf54bfba8ee06.cloudfront.net (CloudFront)
+--------------------------------------------------response headers:
+X-AMZ-CF-POP        : IAD89-C2
+--------------------------------------------------response headers:
+X-AMZ-CF-ID         : 2ZFBCKdVaErPb8PfdZy3Vj3JLSh2IKTHxXX-o5HaSbXwR_Rc965NSg==
+--------------------------------------------------response headers:
+
+=
+GET /v2/cpanel/b3ca70b0-e7ab-4fd7-96b3-45af5dc1893a-278361908_6-s4-v1.png?transparent=1&palette=1 HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : render.bitstrips.com
+ACCEPT              : */*
+ACCEPT-LANGUAGE     : en-us
+CONNECTION          : keep-alive
+ACCEPT-ENCODING     : gzip, deflate, br
+USER-AGENT          : imoji/10.72.0.3071 CFNetwork/1107.1 Darwin/19.0.0
+--------------------------------------------------response headers:
+CONTENT-TYPE        : image/png
+--------------------------------------------------response headers:
+TRANSFER-ENCODING   : chunked
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:57:33 GMT
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+CACHE-CONTROL       : max-age=31557600
+--------------------------------------------------response headers:
+SERVER              : Jetty(9.3.13.v20161014)
+--------------------------------------------------response headers:
+X-CACHE             : Miss from cloudfront
+--------------------------------------------------response headers:
+VIA                 : 1.1 427271f19372c1be0d143a1d4c76a128.cloudfront.net (CloudFront)
+--------------------------------------------------response headers:
+X-AMZ-CF-POP        : IAD89-C2
+--------------------------------------------------response headers:
+X-AMZ-CF-ID         : 56Fl7VxjckglcHGftGiOAWLmuxjcBnxRdLQ3GfvICuTgrGRwSVMfZw==
+--------------------------------------------------response headers:
+
+=
+GET /v2/cpanel/bf4c7e1e-f269-464a-891b-3a295536fbdf-278361908_6-s4-v1.png?transparent=1&palette=1 HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : render.bitstrips.com
+ACCEPT              : */*
+ACCEPT-LANGUAGE     : en-us
+CONNECTION          : keep-alive
+ACCEPT-ENCODING     : gzip, deflate, br
+USER-AGENT          : imoji/10.72.0.3071 CFNetwork/1107.1 Darwin/19.0.0
+--------------------------------------------------response headers:
+CONTENT-TYPE        : image/png
+--------------------------------------------------response headers:
+TRANSFER-ENCODING   : chunked
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:57:33 GMT
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+CACHE-CONTROL       : max-age=31557600
+--------------------------------------------------response headers:
+SERVER              : Jetty(9.3.13.v20161014)
+--------------------------------------------------response headers:
+X-CACHE             : Miss from cloudfront
+--------------------------------------------------response headers:
+VIA                 : 1.1 b051e9c33308597b659c33b8999b521d.cloudfront.net (CloudFront)
+--------------------------------------------------response headers:
+X-AMZ-CF-POP        : IAD89-C2
+--------------------------------------------------response headers:
+X-AMZ-CF-ID         : b-JIDjxV5tCOJQXqjPQTIS6lma9r4Uj3urZuAw9kqLNyFAcAbCJegA==
+--------------------------------------------------response headers:
+
+=
+GET /v2/cpanel/6b574b3e-c969-4120-bb80-97c60044e7c3-278361908_6-s4-v1.png?transparent=1&palette=1 HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : render.bitstrips.com
+ACCEPT              : */*
+ACCEPT-LANGUAGE     : en-us
+CONNECTION          : keep-alive
+ACCEPT-ENCODING     : gzip, deflate, br
+USER-AGENT          : imoji/10.72.0.3071 CFNetwork/1107.1 Darwin/19.0.0
+--------------------------------------------------response headers:
+CONTENT-TYPE        : image/png
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 70214
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:57:33 GMT
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+CACHE-CONTROL       : max-age=31557600
+--------------------------------------------------response headers:
+SERVER              : Jetty(9.3.13.v20161014)
+--------------------------------------------------response headers:
+X-CACHE             : Miss from cloudfront
+--------------------------------------------------response headers:
+VIA                 : 1.1 8ad5a9cbb864898c238f716c1a12623d.cloudfront.net (CloudFront)
+--------------------------------------------------response headers:
+X-AMZ-CF-POP        : IAD89-C2
+--------------------------------------------------response headers:
+X-AMZ-CF-ID         : mVlRybuMrPgWwen7Ml8WTkN1QUlKinSTmmpygY3BNhmPXFmuCiHeWA==
+--------------------------------------------------response headers:
+
+=
+GET /v2/cpanel/402aed1d-430c-498e-8f25-42bd1746a2de-278361908_6-s4-v1.png?transparent=1&palette=1 HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : render.bitstrips.com
+ACCEPT              : */*
+ACCEPT-LANGUAGE     : en-us
+CONNECTION          : keep-alive
+ACCEPT-ENCODING     : gzip, deflate, br
+USER-AGENT          : imoji/10.72.0.3071 CFNetwork/1107.1 Darwin/19.0.0
+--------------------------------------------------response headers:
+CONTENT-TYPE        : image/png
+--------------------------------------------------response headers:
+TRANSFER-ENCODING   : chunked
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:57:33 GMT
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+CACHE-CONTROL       : max-age=31557600
+--------------------------------------------------response headers:
+SERVER              : Jetty(9.3.13.v20161014)
+--------------------------------------------------response headers:
+X-CACHE             : Miss from cloudfront
+--------------------------------------------------response headers:
+VIA                 : 1.1 ab2f63669c9809614cbcf54bfba8ee06.cloudfront.net (CloudFront)
+--------------------------------------------------response headers:
+X-AMZ-CF-POP        : IAD89-C2
+--------------------------------------------------response headers:
+X-AMZ-CF-ID         : 9hEBCHELLRLpkau-TX-ccbrFNdgWcTWD58v7qQmXkqtrBolX7Dwxcw==
+--------------------------------------------------response headers:
+
+=
+GET /v2/cpanel/cf7648af-2035-4e07-9237-89aa82985b3c-278361908_6-s4-v1.png?transparent=1&palette=1 HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : render.bitstrips.com
+ACCEPT              : */*
+ACCEPT-LANGUAGE     : en-us
+CONNECTION          : keep-alive
+ACCEPT-ENCODING     : gzip, deflate, br
+USER-AGENT          : imoji/10.72.0.3071 CFNetwork/1107.1 Darwin/19.0.0
+--------------------------------------------------response headers:
+CONTENT-TYPE        : image/png
+--------------------------------------------------response headers:
+TRANSFER-ENCODING   : chunked
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:57:33 GMT
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+CACHE-CONTROL       : max-age=31557600
+--------------------------------------------------response headers:
+SERVER              : Jetty(9.3.13.v20161014)
+--------------------------------------------------response headers:
+X-CACHE             : Miss from cloudfront
+--------------------------------------------------response headers:
+VIA                 : 1.1 b051e9c33308597b659c33b8999b521d.cloudfront.net (CloudFront)
+--------------------------------------------------response headers:
+X-AMZ-CF-POP        : IAD89-C2
+--------------------------------------------------response headers:
+X-AMZ-CF-ID         : LmNiVj3q6lJfYW8mkRRcal-i4x-pVjB4zUfIMI8-W4qBrIk20B8ivw==
+--------------------------------------------------response headers:
+
+=
+GET /experiments HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : api.bitmoji.com
+CONNECTION          : keep-alive
+BITMOJI-INSTALL-ID  : 88F3331C-3B90-4A17-A199-CEEAC2F70D25
+BITMOJI-USER-AGENT  : 1|com.bitstrips.imoji|10.72.0.3071|iOS|13.1.0|iPad5,1|BEFE76C9-A1E4-42D2-ABF0-A564A09D3951|2|en-US
+ACCEPT              : */*
+USER-AGENT          : imoji/10.72.0.3071 (iPad5,1; iOS 13.1.0)
+AUTHORIZATION       : Bearer eyJpc3MiOiJodHRwczpcL1wvYWNjb3VudHMuc25hcGNoYXQuY29tXC9hY2NvdW50c1wvb2F1dGgyXC90b2tlbiIsInR5cCI6IkpXVCIsImVuYyI6IkExMjhDQkMtSFMyNTYiLCJhbGciOiJkaXIiLCJraWQiOiJhY2Nlc3MtdG9rZW4tYTEyOGNiYy1oczI1Ni4wIn0..4JOHIcvQCUc0SIK0ncVKsg.CbKFma72Q1QPZqzX5ckJ26wdH2aMcC5cb8iQe9dPwh1DBsOkX8pKzB6iPoTErsO8r6srBc-n2voYlPBOwTaSYDQJfqJmt8_wh9k4uc_0La3gsCM_YbijRybVkUCzl6jzvIp9qsIsbK_J1x9NldjjG4DoRADlkl5ybz43oLGB5BUetReEC0BxWhyYGMEXGrjqSlKSnar4BMIZ0F4JGiWp5fnpkq23wH8d6IDWElGlUeK5eQMxzFOIGpy8-WWV4ljMQaLDi00sYBNq77LtJtNILH-GRb-2LAwf_MKTwnZBsIvahaSEaz75xJns4KPaoiG7FuGUT4vq-6XY16aXybZyAKy4STuaXIHBgGtveiwCzbJ2z_JTeswJquooMvMPdAKmAL8HYShtOS3gY-DwPZVelNYWpQZ1uh3HA5mSI63aJdLllV1aDPMk0C5h2W2v-gNF0YiKYQ0OMfXi3Bap5wS_ZxhnP3wi4OE-1mysEbCUBP9A4NO80L-Wya6GIxWGrY__b1l29vHGFQYPy2SqfmGtj96R3iVq79xzqPpPXYTw04fioIUd3R90yFdZ2a7SpGJy6LdzcCjNAfqBA2ItptvIcVOOu2BDdp-qDOVb-SrDTmhhVL4g8WkxWWKBLL9_gOwmoYV0T3oJaZrRgOYfW8l8RQ5hqu1uBPmpvoymhTu1AbTh8KUbFNsX8p1AiaZz3UlAqSwFNkaGQaXIk743exViGNituQ9CeevReZnY4duYhpesZQZv0OpLF2AC3hPKzIQ8PLyd9BB3GGOllA5O9xx9bQ.nPrISSnYi38d-ClT9HcN2Q
+ACCEPT-LANGUAGE     : en-US;q=1.0
+ACCEPT-ENCODING     : gzip;q=1.0, compress;q=0.5
+--------------------------------------------------response headers:
+BITMOJI-API-VERSION : 1
+--------------------------------------------------response headers:
+CACHE-CONTROL       : max-age=300, must-revalidate, private
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/json; charset=utf-8
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:57:36 GMT
+--------------------------------------------------response headers:
+SERVER              : nginx
+--------------------------------------------------response headers:
+VARY                : origin,accept-encoding
+--------------------------------------------------response headers:
+X-REQUEST-ID        : 1576115856505:ip-10-0-26-58:11693:k41wzlzi:12240
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 581
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+
+=
+GET /content/models/LearnedSearch?client_cached_version=0 HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : api.bitmoji.com
+BITMOJI-USER-AGENT  : 1|com.bitstrips.imoji|10.72.0.3071|iOS|13.1.0|iPad5,1|BEFE76C9-A1E4-42D2-ABF0-A564A09D3951|2|en-US
+ACCEPT              : */*
+USER-AGENT          : imoji/10.72.0.3071 (iPad5,1; iOS 13.1.0)
+ACCEPT-LANGUAGE     : en-US;q=1.0
+ACCEPT-ENCODING     : gzip;q=1.0, compress;q=0.5
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+BITMOJI-API-VERSION : 1
+--------------------------------------------------response headers:
+CACHE-CONTROL       : no-cache
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/json; charset=utf-8
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:57:37 GMT
+--------------------------------------------------response headers:
+SERVER              : nginx
+--------------------------------------------------response headers:
+VARY                : origin,accept-encoding
+--------------------------------------------------response headers:
+X-REQUEST-ID        : 1576115857061:ip-10-0-27-100:15331:k41wu5yf:20086
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 127
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+
+=
+GET /v2/cpanel/0e4ca171-fe90-4cf6-ae40-a084112480b4-278361908_6-s4-v1.png?transparent=1&palette=1 HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : render.bitstrips.com
+ACCEPT              : */*
+ACCEPT-LANGUAGE     : en-us
+CONNECTION          : keep-alive
+ACCEPT-ENCODING     : gzip, deflate, br
+USER-AGENT          : imoji/10.72.0.3071 CFNetwork/1107.1 Darwin/19.0.0
+--------------------------------------------------response headers:
+CONTENT-TYPE        : image/png
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 59349
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:57:37 GMT
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+CACHE-CONTROL       : max-age=31557600
+--------------------------------------------------response headers:
+SERVER              : Jetty(9.3.13.v20161014)
+--------------------------------------------------response headers:
+X-CACHE             : Miss from cloudfront
+--------------------------------------------------response headers:
+VIA                 : 1.1 ab2f63669c9809614cbcf54bfba8ee06.cloudfront.net (CloudFront)
+--------------------------------------------------response headers:
+X-AMZ-CF-POP        : IAD89-C2
+--------------------------------------------------response headers:
+X-AMZ-CF-ID         : lmOPqsSETVtabPMBKUCVKtgZwblRspcugCrJ9CAACtuk1fXvwrmyJg==
+--------------------------------------------------response headers:
+
+=
+GET /v2/cpanel/cca85ed7-881b-4c03-bb66-294584e11e07-278361908_6-s4-v1.png?transparent=1&palette=1 HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : render.bitstrips.com
+ACCEPT              : */*
+ACCEPT-LANGUAGE     : en-us
+CONNECTION          : keep-alive
+ACCEPT-ENCODING     : gzip, deflate, br
+USER-AGENT          : imoji/10.72.0.3071 CFNetwork/1107.1 Darwin/19.0.0
+--------------------------------------------------response headers:
+CONTENT-TYPE        : image/png
+--------------------------------------------------response headers:
+TRANSFER-ENCODING   : chunked
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:57:37 GMT
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+CACHE-CONTROL       : max-age=31557600
+--------------------------------------------------response headers:
+SERVER              : Jetty(9.3.13.v20161014)
+--------------------------------------------------response headers:
+X-CACHE             : Miss from cloudfront
+--------------------------------------------------response headers:
+VIA                 : 1.1 8ad5a9cbb864898c238f716c1a12623d.cloudfront.net (CloudFront)
+--------------------------------------------------response headers:
+X-AMZ-CF-POP        : IAD89-C2
+--------------------------------------------------response headers:
+X-AMZ-CF-ID         : 8o08D34XjOvckJQQ8IjPkk9Pav1nI8fHpaTvQkQcOy4RP1Mh3m61yA==
+--------------------------------------------------response headers:
+
+=
+GET /v2/cpanel/c14cf2d1-28ce-44cd-b16b-8ec4ee6dded3-278361908_6-s4-v1.png?transparent=1&palette=1 HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : render.bitstrips.com
+ACCEPT              : */*
+ACCEPT-LANGUAGE     : en-us
+CONNECTION          : keep-alive
+ACCEPT-ENCODING     : gzip, deflate, br
+USER-AGENT          : imoji/10.72.0.3071 CFNetwork/1107.1 Darwin/19.0.0
+--------------------------------------------------response headers:
+CONTENT-TYPE        : image/png
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 58401
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:57:37 GMT
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+CACHE-CONTROL       : max-age=31557600
+--------------------------------------------------response headers:
+SERVER              : Jetty(9.3.13.v20161014)
+--------------------------------------------------response headers:
+X-CACHE             : Miss from cloudfront
+--------------------------------------------------response headers:
+VIA                 : 1.1 b051e9c33308597b659c33b8999b521d.cloudfront.net (CloudFront)
+--------------------------------------------------response headers:
+X-AMZ-CF-POP        : IAD89-C2
+--------------------------------------------------response headers:
+X-AMZ-CF-ID         : GorsGSoBaX0cFlrwR1UE4iITUT89qJyJTPOIyL7JvsG1PQgsVabIsA==
+--------------------------------------------------response headers:
+
+=
+GET /v2/cpanel/3ca60be6-55ab-4472-bfaf-8c58c49102b1-278361908_6-s4-v1.png?transparent=1&palette=1 HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : render.bitstrips.com
+ACCEPT              : */*
+ACCEPT-LANGUAGE     : en-us
+CONNECTION          : keep-alive
+ACCEPT-ENCODING     : gzip, deflate, br
+USER-AGENT          : imoji/10.72.0.3071 CFNetwork/1107.1 Darwin/19.0.0
+--------------------------------------------------response headers:
+CONTENT-TYPE        : image/png
+--------------------------------------------------response headers:
+TRANSFER-ENCODING   : chunked
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:57:37 GMT
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+CACHE-CONTROL       : max-age=31557600
+--------------------------------------------------response headers:
+SERVER              : Jetty(9.3.13.v20161014)
+--------------------------------------------------response headers:
+X-CACHE             : Miss from cloudfront
+--------------------------------------------------response headers:
+VIA                 : 1.1 427271f19372c1be0d143a1d4c76a128.cloudfront.net (CloudFront)
+--------------------------------------------------response headers:
+X-AMZ-CF-POP        : IAD89-C2
+--------------------------------------------------response headers:
+X-AMZ-CF-ID         : jIrC_YopvCJMbYgEnet5exNW2oaCMyl5S2YoE0kEIMeYmZZYUIp_kA==
+--------------------------------------------------response headers:
+
+=
+GET /experiments HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : api.bitmoji.com
+CONNECTION          : keep-alive
+BITMOJI-INSTALL-ID  : 88F3331C-3B90-4A17-A199-CEEAC2F70D25
+BITMOJI-USER-AGENT  : 1|com.bitstrips.imoji|10.72.0.3071|iOS|13.1.0|iPad5,1|BEFE76C9-A1E4-42D2-ABF0-A564A09D3951|2|en-US
+ACCEPT              : */*
+USER-AGENT          : imoji/10.72.0.3071 (iPad5,1; iOS 13.1.0)
+AUTHORIZATION       : Bearer eyJpc3MiOiJodHRwczpcL1wvYWNjb3VudHMuc25hcGNoYXQuY29tXC9hY2NvdW50c1wvb2F1dGgyXC90b2tlbiIsInR5cCI6IkpXVCIsImVuYyI6IkExMjhDQkMtSFMyNTYiLCJhbGciOiJkaXIiLCJraWQiOiJhY2Nlc3MtdG9rZW4tYTEyOGNiYy1oczI1Ni4wIn0..4JOHIcvQCUc0SIK0ncVKsg.CbKFma72Q1QPZqzX5ckJ26wdH2aMcC5cb8iQe9dPwh1DBsOkX8pKzB6iPoTErsO8r6srBc-n2voYlPBOwTaSYDQJfqJmt8_wh9k4uc_0La3gsCM_YbijRybVkUCzl6jzvIp9qsIsbK_J1x9NldjjG4DoRADlkl5ybz43oLGB5BUetReEC0BxWhyYGMEXGrjqSlKSnar4BMIZ0F4JGiWp5fnpkq23wH8d6IDWElGlUeK5eQMxzFOIGpy8-WWV4ljMQaLDi00sYBNq77LtJtNILH-GRb-2LAwf_MKTwnZBsIvahaSEaz75xJns4KPaoiG7FuGUT4vq-6XY16aXybZyAKy4STuaXIHBgGtveiwCzbJ2z_JTeswJquooMvMPdAKmAL8HYShtOS3gY-DwPZVelNYWpQZ1uh3HA5mSI63aJdLllV1aDPMk0C5h2W2v-gNF0YiKYQ0OMfXi3Bap5wS_ZxhnP3wi4OE-1mysEbCUBP9A4NO80L-Wya6GIxWGrY__b1l29vHGFQYPy2SqfmGtj96R3iVq79xzqPpPXYTw04fioIUd3R90yFdZ2a7SpGJy6LdzcCjNAfqBA2ItptvIcVOOu2BDdp-qDOVb-SrDTmhhVL4g8WkxWWKBLL9_gOwmoYV0T3oJaZrRgOYfW8l8RQ5hqu1uBPmpvoymhTu1AbTh8KUbFNsX8p1AiaZz3UlAqSwFNkaGQaXIk743exViGNituQ9CeevReZnY4duYhpesZQZv0OpLF2AC3hPKzIQ8PLyd9BB3GGOllA5O9xx9bQ.nPrISSnYi38d-ClT9HcN2Q
+ACCEPT-LANGUAGE     : en-US;q=1.0
+ACCEPT-ENCODING     : gzip;q=1.0, compress;q=0.5
+--------------------------------------------------response headers:
+BITMOJI-API-VERSION : 1
+--------------------------------------------------response headers:
+CACHE-CONTROL       : max-age=300, must-revalidate, private
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/json; charset=utf-8
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:57:37 GMT
+--------------------------------------------------response headers:
+SERVER              : nginx
+--------------------------------------------------response headers:
+VARY                : origin,accept-encoding
+--------------------------------------------------response headers:
+X-REQUEST-ID        : 1576115857246:ip-10-0-28-9:14969:k41wwu20:16199
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 581
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+
+=
+GET /v2/cpanel/ea56e664-8306-4b76-9bc1-b5f3e286d787-278361908_6-s4-v1.png?transparent=1&palette=1 HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : render.bitstrips.com
+ACCEPT              : */*
+ACCEPT-LANGUAGE     : en-us
+CONNECTION          : keep-alive
+ACCEPT-ENCODING     : gzip, deflate, br
+USER-AGENT          : imoji/10.72.0.3071 CFNetwork/1107.1 Darwin/19.0.0
+--------------------------------------------------response headers:
+CONTENT-TYPE        : image/png
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 54596
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:57:37 GMT
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+CACHE-CONTROL       : max-age=31557600
+--------------------------------------------------response headers:
+SERVER              : Jetty(9.3.13.v20161014)
+--------------------------------------------------response headers:
+X-CACHE             : Miss from cloudfront
+--------------------------------------------------response headers:
+VIA                 : 1.1 ab2f63669c9809614cbcf54bfba8ee06.cloudfront.net (CloudFront)
+--------------------------------------------------response headers:
+X-AMZ-CF-POP        : IAD89-C2
+--------------------------------------------------response headers:
+X-AMZ-CF-ID         : pgdKbs9thoRSaHTdYGuitSj_ytpiWFjA2HPNDqATmwkewQv_t0kbFQ==
+--------------------------------------------------response headers:
+
+=
+GET /experiments HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : api.bitmoji.com
+CONNECTION          : keep-alive
+BITMOJI-INSTALL-ID  : 88F3331C-3B90-4A17-A199-CEEAC2F70D25
+BITMOJI-USER-AGENT  : 1|com.bitstrips.imoji|10.72.0.3071|iOS|13.1.0|iPad5,1|BEFE76C9-A1E4-42D2-ABF0-A564A09D3951|2|en-US
+ACCEPT              : */*
+USER-AGENT          : imoji/10.72.0.3071 (iPad5,1; iOS 13.1.0)
+AUTHORIZATION       : Bearer eyJpc3MiOiJodHRwczpcL1wvYWNjb3VudHMuc25hcGNoYXQuY29tXC9hY2NvdW50c1wvb2F1dGgyXC90b2tlbiIsInR5cCI6IkpXVCIsImVuYyI6IkExMjhDQkMtSFMyNTYiLCJhbGciOiJkaXIiLCJraWQiOiJhY2Nlc3MtdG9rZW4tYTEyOGNiYy1oczI1Ni4wIn0..4JOHIcvQCUc0SIK0ncVKsg.CbKFma72Q1QPZqzX5ckJ26wdH2aMcC5cb8iQe9dPwh1DBsOkX8pKzB6iPoTErsO8r6srBc-n2voYlPBOwTaSYDQJfqJmt8_wh9k4uc_0La3gsCM_YbijRybVkUCzl6jzvIp9qsIsbK_J1x9NldjjG4DoRADlkl5ybz43oLGB5BUetReEC0BxWhyYGMEXGrjqSlKSnar4BMIZ0F4JGiWp5fnpkq23wH8d6IDWElGlUeK5eQMxzFOIGpy8-WWV4ljMQaLDi00sYBNq77LtJtNILH-GRb-2LAwf_MKTwnZBsIvahaSEaz75xJns4KPaoiG7FuGUT4vq-6XY16aXybZyAKy4STuaXIHBgGtveiwCzbJ2z_JTeswJquooMvMPdAKmAL8HYShtOS3gY-DwPZVelNYWpQZ1uh3HA5mSI63aJdLllV1aDPMk0C5h2W2v-gNF0YiKYQ0OMfXi3Bap5wS_ZxhnP3wi4OE-1mysEbCUBP9A4NO80L-Wya6GIxWGrY__b1l29vHGFQYPy2SqfmGtj96R3iVq79xzqPpPXYTw04fioIUd3R90yFdZ2a7SpGJy6LdzcCjNAfqBA2ItptvIcVOOu2BDdp-qDOVb-SrDTmhhVL4g8WkxWWKBLL9_gOwmoYV0T3oJaZrRgOYfW8l8RQ5hqu1uBPmpvoymhTu1AbTh8KUbFNsX8p1AiaZz3UlAqSwFNkaGQaXIk743exViGNituQ9CeevReZnY4duYhpesZQZv0OpLF2AC3hPKzIQ8PLyd9BB3GGOllA5O9xx9bQ.nPrISSnYi38d-ClT9HcN2Q
+ACCEPT-LANGUAGE     : en-US;q=1.0
+ACCEPT-ENCODING     : gzip;q=1.0, compress;q=0.5
+--------------------------------------------------response headers:
+BITMOJI-API-VERSION : 1
+--------------------------------------------------response headers:
+CACHE-CONTROL       : max-age=300, must-revalidate, private
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/json; charset=utf-8
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:57:37 GMT
+--------------------------------------------------response headers:
+SERVER              : nginx
+--------------------------------------------------response headers:
+VARY                : origin,accept-encoding
+--------------------------------------------------response headers:
+X-REQUEST-ID        : 1576115857864:ip-10-0-20-10:12115:k41wrh47:26036
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 581
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+
+=
+GET /v2/cpanel/37ce5247-1b1c-4b3f-a5ec-a1d76886bb05-278361908_6-s4-v1.png?transparent=1&palette=1 HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : render.bitstrips.com
+ACCEPT              : */*
+ACCEPT-LANGUAGE     : en-us
+CONNECTION          : keep-alive
+ACCEPT-ENCODING     : gzip, deflate, br
+USER-AGENT          : imoji/10.72.0.3071 CFNetwork/1107.1 Darwin/19.0.0
+--------------------------------------------------response headers:
+CONTENT-TYPE        : image/png
+--------------------------------------------------response headers:
+TRANSFER-ENCODING   : chunked
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:57:38 GMT
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+CACHE-CONTROL       : max-age=31557600
+--------------------------------------------------response headers:
+SERVER              : Jetty(9.3.13.v20161014)
+--------------------------------------------------response headers:
+X-CACHE             : Miss from cloudfront
+--------------------------------------------------response headers:
+VIA                 : 1.1 b051e9c33308597b659c33b8999b521d.cloudfront.net (CloudFront)
+--------------------------------------------------response headers:
+X-AMZ-CF-POP        : IAD89-C2
+--------------------------------------------------response headers:
+X-AMZ-CF-ID         : IDPtUUl5yIZnMqXDXqzwM6Z1A4SUMZccbtQDiqkNCr4_UkVXmxHoXg==
+--------------------------------------------------response headers:
+
+=
+GET /v2/cpanel/9432815c-bb7e-4e71-9124-b172311b17ee-278361908_6-s4-v1.png?transparent=1&palette=1 HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : render.bitstrips.com
+ACCEPT              : */*
+ACCEPT-LANGUAGE     : en-us
+CONNECTION          : keep-alive
+ACCEPT-ENCODING     : gzip, deflate, br
+USER-AGENT          : imoji/10.72.0.3071 CFNetwork/1107.1 Darwin/19.0.0
+--------------------------------------------------response headers:
+CONTENT-TYPE        : image/png
+--------------------------------------------------response headers:
+TRANSFER-ENCODING   : chunked
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:57:38 GMT
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+CACHE-CONTROL       : max-age=31557600
+--------------------------------------------------response headers:
+SERVER              : Jetty(9.3.13.v20161014)
+--------------------------------------------------response headers:
+X-CACHE             : Miss from cloudfront
+--------------------------------------------------response headers:
+VIA                 : 1.1 8ad5a9cbb864898c238f716c1a12623d.cloudfront.net (CloudFront)
+--------------------------------------------------response headers:
+X-AMZ-CF-POP        : IAD89-C2
+--------------------------------------------------response headers:
+X-AMZ-CF-ID         : X_FFnkUPIIbTu5Q4zNpexshj6S9_ImOVfrUP5YRhyWkwMn8fuIg_8g==
+--------------------------------------------------response headers:
+
+=
+GET /v2/cpanel/0c167962-1b4f-4455-a408-aceaba83c87c-278361908_6-s4-v1.png?transparent=1&palette=1 HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : render.bitstrips.com
+ACCEPT              : */*
+ACCEPT-LANGUAGE     : en-us
+CONNECTION          : keep-alive
+ACCEPT-ENCODING     : gzip, deflate, br
+USER-AGENT          : imoji/10.72.0.3071 CFNetwork/1107.1 Darwin/19.0.0
+--------------------------------------------------response headers:
+CONTENT-TYPE        : image/png
+--------------------------------------------------response headers:
+TRANSFER-ENCODING   : chunked
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:57:38 GMT
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+CACHE-CONTROL       : max-age=31557600
+--------------------------------------------------response headers:
+SERVER              : Jetty(9.3.13.v20161014)
+--------------------------------------------------response headers:
+X-CACHE             : Miss from cloudfront
+--------------------------------------------------response headers:
+VIA                 : 1.1 427271f19372c1be0d143a1d4c76a128.cloudfront.net (CloudFront)
+--------------------------------------------------response headers:
+X-AMZ-CF-POP        : IAD89-C2
+--------------------------------------------------response headers:
+X-AMZ-CF-ID         : Z4TiqF01FxtrXIyp_BW6Df7tehDSvsaZJvkkII6veJYiahDfgHZ3pw==
+--------------------------------------------------response headers:
+
+=
+GET /v2/cpanel/49b0c2af-585c-4146-ae11-dc904aa16880-278361908_6-s4-v1.png?transparent=1&palette=1 HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : render.bitstrips.com
+ACCEPT              : */*
+ACCEPT-LANGUAGE     : en-us
+CONNECTION          : keep-alive
+ACCEPT-ENCODING     : gzip, deflate, br
+USER-AGENT          : imoji/10.72.0.3071 CFNetwork/1107.1 Darwin/19.0.0
+--------------------------------------------------response headers:
+CONTENT-TYPE        : image/png
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 53189
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:57:38 GMT
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+CACHE-CONTROL       : max-age=31557600
+--------------------------------------------------response headers:
+SERVER              : Jetty(9.3.13.v20161014)
+--------------------------------------------------response headers:
+X-CACHE             : Miss from cloudfront
+--------------------------------------------------response headers:
+VIA                 : 1.1 ab2f63669c9809614cbcf54bfba8ee06.cloudfront.net (CloudFront)
+--------------------------------------------------response headers:
+X-AMZ-CF-POP        : IAD89-C2
+--------------------------------------------------response headers:
+X-AMZ-CF-ID         : OUVqWSEmpyxHakvEXwK3jyw1HcceleneN8TAq5ETrqjUjyrNI5x-Cg==
+--------------------------------------------------response headers:
+
+=
+GET /v2/cpanel/98d44df3-f02e-4680-a3e3-37850ae7582e-278361908_6-s4-v1.png?transparent=1&palette=1 HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : render.bitstrips.com
+ACCEPT              : */*
+ACCEPT-LANGUAGE     : en-us
+CONNECTION          : keep-alive
+ACCEPT-ENCODING     : gzip, deflate, br
+USER-AGENT          : imoji/10.72.0.3071 CFNetwork/1107.1 Darwin/19.0.0
+--------------------------------------------------response headers:
+CONTENT-TYPE        : image/png
+--------------------------------------------------response headers:
+TRANSFER-ENCODING   : chunked
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:57:38 GMT
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+CACHE-CONTROL       : max-age=31557600
+--------------------------------------------------response headers:
+SERVER              : Jetty(9.3.13.v20161014)
+--------------------------------------------------response headers:
+X-CACHE             : Miss from cloudfront
+--------------------------------------------------response headers:
+VIA                 : 1.1 ab2f63669c9809614cbcf54bfba8ee06.cloudfront.net (CloudFront)
+--------------------------------------------------response headers:
+X-AMZ-CF-POP        : IAD89-C2
+--------------------------------------------------response headers:
+X-AMZ-CF-ID         : drSMn8szSKx_t4JSQJ95yS4-4kSIvRmqXyRvRdCbyrLeQbFZ4Oj_CQ==
+--------------------------------------------------response headers:
+
+=
+GET /v2/cpanel/94043948-3bd0-4be1-8cc9-00658a436af8-278361908_6-s4-v1.png?transparent=1&palette=1 HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : render.bitstrips.com
+ACCEPT              : */*
+ACCEPT-LANGUAGE     : en-us
+CONNECTION          : keep-alive
+ACCEPT-ENCODING     : gzip, deflate, br
+USER-AGENT          : imoji/10.72.0.3071 CFNetwork/1107.1 Darwin/19.0.0
+--------------------------------------------------response headers:
+CONTENT-TYPE        : image/png
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 69410
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:57:38 GMT
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+CACHE-CONTROL       : max-age=31557600
+--------------------------------------------------response headers:
+SERVER              : Jetty(9.3.13.v20161014)
+--------------------------------------------------response headers:
+X-CACHE             : Miss from cloudfront
+--------------------------------------------------response headers:
+VIA                 : 1.1 427271f19372c1be0d143a1d4c76a128.cloudfront.net (CloudFront)
+--------------------------------------------------response headers:
+X-AMZ-CF-POP        : IAD89-C2
+--------------------------------------------------response headers:
+X-AMZ-CF-ID         : r70nwVbxFVpO1brqALdyecaY8ozTHYN2Ar3S2FafOFNo92Qwssbogw==
+--------------------------------------------------response headers:
+
+=
+GET /models.bitstrips.com/Learned-Search/LearnedSearchWeightsV2 HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : s3.amazonaws.com
+ACCEPT              : */*
+ACCEPT-LANGUAGE     : en-us
+CONNECTION          : keep-alive
+ACCEPT-ENCODING     : gzip, deflate, br
+USER-AGENT          : imoji/10.72.0 (com.bitstrips.imoji; build:10.72.0.3071; iOS 13.1.0) Alamofire/4.9.0
+--------------------------------------------------response headers:
+X-AMZ-ID-2          : I/Qr7sNKZOCbxVtpEVmhA69Ml+YSt+c6AERe16dI/nLxZynnwdsDGCNVDgLJ3QdruTttMV0O6Oc=
+--------------------------------------------------response headers:
+X-AMZ-REQUEST-ID    : AEC4C82E0F8C2FE1
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:57:39 GMT
+--------------------------------------------------response headers:
+LAST-MODIFIED       : Tue, 19 Jun 2018 14:06:32 GMT
+--------------------------------------------------response headers:
+ETAG                : "b5ed913eb1539ae5922068114c3f2f95"
+--------------------------------------------------response headers:
+ACCEPT-RANGES       : bytes
+--------------------------------------------------response headers:
+CONTENT-TYPE        : binary/octet-stream
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 2898708
+--------------------------------------------------response headers:
+SERVER              : AmazonS3
+--------------------------------------------------response headers:
+
+=
+GET /v2/cpanel/645d7eb0-1570-4a35-9b45-a8783cfe681a-278361908_6-s4-v1.png?transparent=1&palette=1 HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : render.bitstrips.com
+ACCEPT              : */*
+ACCEPT-LANGUAGE     : en-us
+CONNECTION          : keep-alive
+ACCEPT-ENCODING     : gzip, deflate, br
+USER-AGENT          : imoji/10.72.0.3071 CFNetwork/1107.1 Darwin/19.0.0
+--------------------------------------------------response headers:
+CONTENT-TYPE        : image/png
+--------------------------------------------------response headers:
+TRANSFER-ENCODING   : chunked
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:57:38 GMT
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+CACHE-CONTROL       : max-age=31557600
+--------------------------------------------------response headers:
+SERVER              : Jetty(9.3.13.v20161014)
+--------------------------------------------------response headers:
+X-CACHE             : Miss from cloudfront
+--------------------------------------------------response headers:
+VIA                 : 1.1 427271f19372c1be0d143a1d4c76a128.cloudfront.net (CloudFront)
+--------------------------------------------------response headers:
+X-AMZ-CF-POP        : IAD89-C2
+--------------------------------------------------response headers:
+X-AMZ-CF-ID         : -uFJDoPjC_zoZhYEnj2qy2DNs4oNMMccukRyk9oeEUTwP7rVtUPJvA==
+--------------------------------------------------response headers:
+
+=
+GET /v2/cpanel/f63079da-430a-49a2-a583-1a1b6a170eef-278361908_6-s4-v1.png?transparent=1&palette=1 HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : render.bitstrips.com
+ACCEPT              : */*
+ACCEPT-LANGUAGE     : en-us
+CONNECTION          : keep-alive
+ACCEPT-ENCODING     : gzip, deflate, br
+USER-AGENT          : imoji/10.72.0.3071 CFNetwork/1107.1 Darwin/19.0.0
+--------------------------------------------------response headers:
+CONTENT-TYPE        : image/png
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 46262
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:57:38 GMT
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+CACHE-CONTROL       : max-age=31557600
+--------------------------------------------------response headers:
+SERVER              : Jetty(9.3.13.v20161014)
+--------------------------------------------------response headers:
+X-CACHE             : Miss from cloudfront
+--------------------------------------------------response headers:
+VIA                 : 1.1 ab2f63669c9809614cbcf54bfba8ee06.cloudfront.net (CloudFront)
+--------------------------------------------------response headers:
+X-AMZ-CF-POP        : IAD89-C2
+--------------------------------------------------response headers:
+X-AMZ-CF-ID         : XVHGOWXNojSlLBe9Tl-xcIjrGNqCI281mlqmXYrIwFYYBJo5TsJCHA==
+--------------------------------------------------response headers:
+
+=
+GET /v2/cpanel/bd484fac-1965-4b3c-94bc-17181ad76618-278361908_6-s4-v1.png?transparent=1&palette=1 HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : render.bitstrips.com
+ACCEPT              : */*
+ACCEPT-LANGUAGE     : en-us
+CONNECTION          : keep-alive
+ACCEPT-ENCODING     : gzip, deflate, br
+USER-AGENT          : imoji/10.72.0.3071 CFNetwork/1107.1 Darwin/19.0.0
+--------------------------------------------------response headers:
+CONTENT-TYPE        : image/png
+--------------------------------------------------response headers:
+TRANSFER-ENCODING   : chunked
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:57:38 GMT
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+CACHE-CONTROL       : max-age=31557600
+--------------------------------------------------response headers:
+SERVER              : Jetty(9.3.13.v20161014)
+--------------------------------------------------response headers:
+X-CACHE             : Miss from cloudfront
+--------------------------------------------------response headers:
+VIA                 : 1.1 3924198dd88678a1cab97875f32b6f20.cloudfront.net (CloudFront)
+--------------------------------------------------response headers:
+X-AMZ-CF-POP        : IAD89-C2
+--------------------------------------------------response headers:
+X-AMZ-CF-ID         : fpDHFrgA7EZAD8-raEpxwgH9vP2OMFqwG7sPuNbKiYvWY6MTLegBdw==
+--------------------------------------------------response headers:
+
+=
+GET /v2/cpanel/6a994230-64d9-4bf5-bb64-c8ad992934e4-278361908_6-s4-v1.png?transparent=1&palette=1 HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : render.bitstrips.com
+ACCEPT              : */*
+ACCEPT-LANGUAGE     : en-us
+CONNECTION          : keep-alive
+ACCEPT-ENCODING     : gzip, deflate, br
+USER-AGENT          : imoji/10.72.0.3071 CFNetwork/1107.1 Darwin/19.0.0
+--------------------------------------------------response headers:
+CONTENT-TYPE        : image/png
+--------------------------------------------------response headers:
+TRANSFER-ENCODING   : chunked
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:57:38 GMT
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+CACHE-CONTROL       : max-age=31557600
+--------------------------------------------------response headers:
+SERVER              : Jetty(9.3.13.v20161014)
+--------------------------------------------------response headers:
+X-CACHE             : Miss from cloudfront
+--------------------------------------------------response headers:
+VIA                 : 1.1 ffa8ec5cfe61dcaaebc108ff8c867055.cloudfront.net (CloudFront)
+--------------------------------------------------response headers:
+X-AMZ-CF-POP        : IAD89-C2
+--------------------------------------------------response headers:
+X-AMZ-CF-ID         : cMrVLDH2LTscfctNzBmVJSr4vQtpbPyPMtVutTC9mcFZX_v0X5xrRw==
+--------------------------------------------------response headers:
+
+=
+GET /v2/cpanel/b24c12ce-d3d6-49e9-affe-9de3cb8913b5-278361908_6-s4-v1.png?transparent=1&palette=1 HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : render.bitstrips.com
+ACCEPT              : */*
+ACCEPT-LANGUAGE     : en-us
+CONNECTION          : keep-alive
+ACCEPT-ENCODING     : gzip, deflate, br
+USER-AGENT          : imoji/10.72.0.3071 CFNetwork/1107.1 Darwin/19.0.0
+--------------------------------------------------response headers:
+CONTENT-TYPE        : image/png
+--------------------------------------------------response headers:
+TRANSFER-ENCODING   : chunked
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:57:39 GMT
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+CACHE-CONTROL       : max-age=31557600
+--------------------------------------------------response headers:
+SERVER              : Jetty(9.3.13.v20161014)
+--------------------------------------------------response headers:
+X-CACHE             : Miss from cloudfront
+--------------------------------------------------response headers:
+VIA                 : 1.1 ab2f63669c9809614cbcf54bfba8ee06.cloudfront.net (CloudFront)
+--------------------------------------------------response headers:
+X-AMZ-CF-POP        : IAD89-C2
+--------------------------------------------------response headers:
+X-AMZ-CF-ID         : oP5E2XOPhalTmxiUWvh42yLAceF4PFK69F3NNKlTTLTCDEAzLt28Kg==
+--------------------------------------------------response headers:
+
+=
+GET /v2/cpanel/29b9623d-8abe-438b-8845-fe82d3aeb191-278361908_6-s4-v1.png?transparent=1&palette=1 HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : render.bitstrips.com
+ACCEPT              : */*
+ACCEPT-LANGUAGE     : en-us
+CONNECTION          : keep-alive
+ACCEPT-ENCODING     : gzip, deflate, br
+USER-AGENT          : imoji/10.72.0.3071 CFNetwork/1107.1 Darwin/19.0.0
+--------------------------------------------------response headers:
+CONTENT-TYPE        : image/png
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 24614
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:57:39 GMT
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+CACHE-CONTROL       : max-age=31557600
+--------------------------------------------------response headers:
+SERVER              : Jetty(9.3.13.v20161014)
+--------------------------------------------------response headers:
+X-CACHE             : Miss from cloudfront
+--------------------------------------------------response headers:
+VIA                 : 1.1 427271f19372c1be0d143a1d4c76a128.cloudfront.net (CloudFront)
+--------------------------------------------------response headers:
+X-AMZ-CF-POP        : IAD89-C2
+--------------------------------------------------response headers:
+X-AMZ-CF-ID         : t5AqfqGdb9mVNkLvNmj3yGY4iCAc6pV91SXcKb7-AjRAM6CPL0zmXw==
+--------------------------------------------------response headers:
+
+=
+GET /v2/cpanel/75f6215f-6e19-4803-b063-a2f9efaafe0c-278361908_6-s4-v1.png?transparent=1&palette=1 HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : render.bitstrips.com
+ACCEPT              : */*
+ACCEPT-LANGUAGE     : en-us
+CONNECTION          : keep-alive
+ACCEPT-ENCODING     : gzip, deflate, br
+USER-AGENT          : imoji/10.72.0.3071 CFNetwork/1107.1 Darwin/19.0.0
+--------------------------------------------------response headers:
+CONTENT-TYPE        : image/png
+--------------------------------------------------response headers:
+TRANSFER-ENCODING   : chunked
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:57:39 GMT
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+CACHE-CONTROL       : max-age=31557600
+--------------------------------------------------response headers:
+SERVER              : Jetty(9.3.13.v20161014)
+--------------------------------------------------response headers:
+X-CACHE             : Miss from cloudfront
+--------------------------------------------------response headers:
+VIA                 : 1.1 ffa8ec5cfe61dcaaebc108ff8c867055.cloudfront.net (CloudFront)
+--------------------------------------------------response headers:
+X-AMZ-CF-POP        : IAD89-C2
+--------------------------------------------------response headers:
+X-AMZ-CF-ID         : C4BtfPpagzrUfbdMlx-SXNRsDjdbIxVHBvsJ4pPlrmShyv_J91U6cA==
+--------------------------------------------------response headers:
+
+=
+GET /v2/cpanel/10a0428e-b60e-4eb3-9cb1-56c5d1cf6967-278361908_6-s4-v1.png?transparent=1&palette=1 HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : render.bitstrips.com
+ACCEPT              : */*
+ACCEPT-LANGUAGE     : en-us
+CONNECTION          : keep-alive
+ACCEPT-ENCODING     : gzip, deflate, br
+USER-AGENT          : imoji/10.72.0.3071 CFNetwork/1107.1 Darwin/19.0.0
+--------------------------------------------------response headers:
+CONTENT-TYPE        : image/png
+--------------------------------------------------response headers:
+TRANSFER-ENCODING   : chunked
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:57:39 GMT
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+CACHE-CONTROL       : max-age=31557600
+--------------------------------------------------response headers:
+SERVER              : Jetty(9.3.13.v20161014)
+--------------------------------------------------response headers:
+X-CACHE             : Miss from cloudfront
+--------------------------------------------------response headers:
+VIA                 : 1.1 3924198dd88678a1cab97875f32b6f20.cloudfront.net (CloudFront)
+--------------------------------------------------response headers:
+X-AMZ-CF-POP        : IAD89-C2
+--------------------------------------------------response headers:
+X-AMZ-CF-ID         : Hi57cZo8256gZ_tonoCT6BV-X5RSI-fTKgQn4pnMqgFGnDuDAhpTXw==
+--------------------------------------------------response headers:
+
+=
+GET /v2/cpanel/2612d984-49f7-480d-aa15-a7fb1c976d85-278361908_6-s4-v1.png?transparent=1&palette=1 HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : render.bitstrips.com
+ACCEPT              : */*
+ACCEPT-LANGUAGE     : en-us
+CONNECTION          : keep-alive
+ACCEPT-ENCODING     : gzip, deflate, br
+USER-AGENT          : imoji/10.72.0.3071 CFNetwork/1107.1 Darwin/19.0.0
+--------------------------------------------------response headers:
+CONTENT-TYPE        : image/png
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 60606
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:57:40 GMT
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+CACHE-CONTROL       : max-age=31557600
+--------------------------------------------------response headers:
+SERVER              : Jetty(9.3.13.v20161014)
+--------------------------------------------------response headers:
+X-CACHE             : Miss from cloudfront
+--------------------------------------------------response headers:
+VIA                 : 1.1 ab2f63669c9809614cbcf54bfba8ee06.cloudfront.net (CloudFront)
+--------------------------------------------------response headers:
+X-AMZ-CF-POP        : IAD89-C2
+--------------------------------------------------response headers:
+X-AMZ-CF-ID         : _filfzDRQsgbwYtZUxFSIkMyxHhgXMt5uvQSS9iMUGgzdLkiGWYVkA==
+--------------------------------------------------response headers:
+
+=
+GET /v2/cpanel/90486153-c3c8-4609-af58-b6a7a5bab8bd-278361908_6-s4-v1.png?transparent=1&palette=1 HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : render.bitstrips.com
+ACCEPT              : */*
+ACCEPT-LANGUAGE     : en-us
+CONNECTION          : keep-alive
+ACCEPT-ENCODING     : gzip, deflate, br
+USER-AGENT          : imoji/10.72.0.3071 CFNetwork/1107.1 Darwin/19.0.0
+--------------------------------------------------response headers:
+CONTENT-TYPE        : image/png
+--------------------------------------------------response headers:
+TRANSFER-ENCODING   : chunked
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:57:40 GMT
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+CACHE-CONTROL       : max-age=31557600
+--------------------------------------------------response headers:
+SERVER              : Jetty(9.3.13.v20161014)
+--------------------------------------------------response headers:
+X-CACHE             : Miss from cloudfront
+--------------------------------------------------response headers:
+VIA                 : 1.1 ffa8ec5cfe61dcaaebc108ff8c867055.cloudfront.net (CloudFront)
+--------------------------------------------------response headers:
+X-AMZ-CF-POP        : IAD89-C2
+--------------------------------------------------response headers:
+X-AMZ-CF-ID         : 4CtbpshUG4EMGoFgM4mykNNDqwZcIPX5Ba3W9tcB5iJiYjgKQoVHNQ==
+--------------------------------------------------response headers:
+
+=
+GET /v2/cpanel/9e93c946-4674-4e93-b151-48084cf371a6-278361908_6-s4-v1.png?transparent=1&palette=1 HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : render.bitstrips.com
+ACCEPT              : */*
+ACCEPT-LANGUAGE     : en-us
+CONNECTION          : keep-alive
+ACCEPT-ENCODING     : gzip, deflate, br
+USER-AGENT          : imoji/10.72.0.3071 CFNetwork/1107.1 Darwin/19.0.0
+--------------------------------------------------response headers:
+CONTENT-TYPE        : image/png
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 52279
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:57:40 GMT
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+CACHE-CONTROL       : max-age=31557600
+--------------------------------------------------response headers:
+SERVER              : Jetty(9.3.13.v20161014)
+--------------------------------------------------response headers:
+X-CACHE             : Miss from cloudfront
+--------------------------------------------------response headers:
+VIA                 : 1.1 3924198dd88678a1cab97875f32b6f20.cloudfront.net (CloudFront)
+--------------------------------------------------response headers:
+X-AMZ-CF-POP        : IAD89-C2
+--------------------------------------------------response headers:
+X-AMZ-CF-ID         : YiES2DPuKduc_xQq209LTCOv12MuclOOrc3nFD_UM0tiByKTf-pZQA==
+--------------------------------------------------response headers:
+
+=
+GET /v2/cpanel/d2145e7d-c8f6-4e3f-b0b4-fdf70477603b-278361908_6-s4-v1.png?transparent=1&palette=1 HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : render.bitstrips.com
+ACCEPT              : */*
+ACCEPT-LANGUAGE     : en-us
+CONNECTION          : keep-alive
+ACCEPT-ENCODING     : gzip, deflate, br
+USER-AGENT          : imoji/10.72.0.3071 CFNetwork/1107.1 Darwin/19.0.0
+--------------------------------------------------response headers:
+CONTENT-TYPE        : image/png
+--------------------------------------------------response headers:
+TRANSFER-ENCODING   : chunked
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:57:40 GMT
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+CACHE-CONTROL       : max-age=31557600
+--------------------------------------------------response headers:
+SERVER              : Jetty(9.3.13.v20161014)
+--------------------------------------------------response headers:
+X-CACHE             : Miss from cloudfront
+--------------------------------------------------response headers:
+VIA                 : 1.1 3924198dd88678a1cab97875f32b6f20.cloudfront.net (CloudFront)
+--------------------------------------------------response headers:
+X-AMZ-CF-POP        : IAD89-C2
+--------------------------------------------------response headers:
+X-AMZ-CF-ID         : p76zS_LGFu5JLUNqIS06VPpCq2izRvhPRRFMnYYB4JzK37mXHw1s9Q==
+--------------------------------------------------response headers:
+
+=
+GET /v2/cpanel/18a1914d-717c-4293-9a68-7673abd54e0d-278361908_6-s4-v1.png?transparent=1&palette=1 HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : render.bitstrips.com
+ACCEPT              : */*
+ACCEPT-LANGUAGE     : en-us
+CONNECTION          : keep-alive
+ACCEPT-ENCODING     : gzip, deflate, br
+USER-AGENT          : imoji/10.72.0.3071 CFNetwork/1107.1 Darwin/19.0.0
+--------------------------------------------------response headers:
+CONTENT-TYPE        : image/png
+--------------------------------------------------response headers:
+TRANSFER-ENCODING   : chunked
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:57:40 GMT
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+CACHE-CONTROL       : max-age=31557600
+--------------------------------------------------response headers:
+SERVER              : Jetty(9.3.13.v20161014)
+--------------------------------------------------response headers:
+X-CACHE             : Miss from cloudfront
+--------------------------------------------------response headers:
+VIA                 : 1.1 ffa8ec5cfe61dcaaebc108ff8c867055.cloudfront.net (CloudFront)
+--------------------------------------------------response headers:
+X-AMZ-CF-POP        : IAD89-C2
+--------------------------------------------------response headers:
+X-AMZ-CF-ID         : kAtB1uVMl9uiAqDuqsozrj83yr9-FSlDVTx-mWUCGgOGHMtGm0VvaA==
+--------------------------------------------------response headers:
+
+=
+GET /v2/cpanel/de3f5bae-34b7-4f4b-9e00-039ca92d3914-278361908_6-s4-v1.png?transparent=1&palette=1 HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : render.bitstrips.com
+ACCEPT              : */*
+ACCEPT-LANGUAGE     : en-us
+CONNECTION          : keep-alive
+ACCEPT-ENCODING     : gzip, deflate, br
+USER-AGENT          : imoji/10.72.0.3071 CFNetwork/1107.1 Darwin/19.0.0
+--------------------------------------------------response headers:
+CONTENT-TYPE        : image/png
+--------------------------------------------------response headers:
+TRANSFER-ENCODING   : chunked
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:57:40 GMT
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+CACHE-CONTROL       : max-age=31557600
+--------------------------------------------------response headers:
+SERVER              : Jetty(9.3.13.v20161014)
+--------------------------------------------------response headers:
+X-CACHE             : Miss from cloudfront
+--------------------------------------------------response headers:
+VIA                 : 1.1 ab2f63669c9809614cbcf54bfba8ee06.cloudfront.net (CloudFront)
+--------------------------------------------------response headers:
+X-AMZ-CF-POP        : IAD89-C2
+--------------------------------------------------response headers:
+X-AMZ-CF-ID         : 4nRy_n0ZgQHkP8lIL7gE1mMgnxBSIVVA3frXV_OKfm61XDcwxRTOKg==
+--------------------------------------------------response headers:
+
+=
+GET /v2/cpanel/3a6f1168-674c-4c8f-b8e8-4218d74d7570-278361908_6-s4-v1.png?transparent=1&palette=1 HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : render.bitstrips.com
+ACCEPT              : */*
+ACCEPT-LANGUAGE     : en-us
+CONNECTION          : keep-alive
+ACCEPT-ENCODING     : gzip, deflate, br
+USER-AGENT          : imoji/10.72.0.3071 CFNetwork/1107.1 Darwin/19.0.0
+--------------------------------------------------response headers:
+CONTENT-TYPE        : image/png
+--------------------------------------------------response headers:
+TRANSFER-ENCODING   : chunked
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:57:41 GMT
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+CACHE-CONTROL       : max-age=31557600
+--------------------------------------------------response headers:
+SERVER              : Jetty(9.3.13.v20161014)
+--------------------------------------------------response headers:
+X-CACHE             : Miss from cloudfront
+--------------------------------------------------response headers:
+VIA                 : 1.1 427271f19372c1be0d143a1d4c76a128.cloudfront.net (CloudFront)
+--------------------------------------------------response headers:
+X-AMZ-CF-POP        : IAD89-C2
+--------------------------------------------------response headers:
+X-AMZ-CF-ID         : K4aeulRixn9Uk6j4mumfBij5Lg8xhPWOAM3nggLzWHM2-m7ZwR0o5w==
+--------------------------------------------------response headers:
+
+=
+GET /v2/cpanel/bfb7de2a-2d1c-4892-994c-48b4c5dd30e5-278361908_6-s4-v1.png?transparent=1&palette=1 HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : render.bitstrips.com
+ACCEPT              : */*
+ACCEPT-LANGUAGE     : en-us
+CONNECTION          : keep-alive
+ACCEPT-ENCODING     : gzip, deflate, br
+USER-AGENT          : imoji/10.72.0.3071 CFNetwork/1107.1 Darwin/19.0.0
+--------------------------------------------------response headers:
+CONTENT-TYPE        : image/png
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 37887
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:57:41 GMT
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+CACHE-CONTROL       : max-age=31557600
+--------------------------------------------------response headers:
+SERVER              : Jetty(9.3.13.v20161014)
+--------------------------------------------------response headers:
+X-CACHE             : Miss from cloudfront
+--------------------------------------------------response headers:
+VIA                 : 1.1 3924198dd88678a1cab97875f32b6f20.cloudfront.net (CloudFront)
+--------------------------------------------------response headers:
+X-AMZ-CF-POP        : IAD89-C2
+--------------------------------------------------response headers:
+X-AMZ-CF-ID         : jBCZXWaN-LgBD2-5UQiDt8kXMW4W-LLG_iuC_7ma-_nxPis_mSLMfg==
+--------------------------------------------------response headers:
+
+=
+GET /v2/cpanel/d3c819ed-95ef-4d73-a5a8-3874ae8596c6-278361908_6-s4-v1.png?transparent=1&palette=1 HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : render.bitstrips.com
+ACCEPT              : */*
+ACCEPT-LANGUAGE     : en-us
+CONNECTION          : keep-alive
+ACCEPT-ENCODING     : gzip, deflate, br
+USER-AGENT          : imoji/10.72.0.3071 CFNetwork/1107.1 Darwin/19.0.0
+--------------------------------------------------response headers:
+CONTENT-TYPE        : image/png
+--------------------------------------------------response headers:
+TRANSFER-ENCODING   : chunked
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:57:41 GMT
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+CACHE-CONTROL       : max-age=31557600
+--------------------------------------------------response headers:
+SERVER              : Jetty(9.3.13.v20161014)
+--------------------------------------------------response headers:
+X-CACHE             : Miss from cloudfront
+--------------------------------------------------response headers:
+VIA                 : 1.1 ffa8ec5cfe61dcaaebc108ff8c867055.cloudfront.net (CloudFront)
+--------------------------------------------------response headers:
+X-AMZ-CF-POP        : IAD89-C2
+--------------------------------------------------response headers:
+X-AMZ-CF-ID         : nI5i8F5IPR_hNOqgLxd80dZZfiwtOJ1-w93Pv4mbQSyzfHh4i-WWSQ==
+--------------------------------------------------response headers:
+
+=
+GET /v2/cpanel/c984fc45-e3a1-4265-bc32-c9c4e3bfa369-278361908_6-s4-v1.png?transparent=1&palette=1 HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : render.bitstrips.com
+ACCEPT              : */*
+ACCEPT-LANGUAGE     : en-us
+CONNECTION          : keep-alive
+ACCEPT-ENCODING     : gzip, deflate, br
+USER-AGENT          : imoji/10.72.0.3071 CFNetwork/1107.1 Darwin/19.0.0
+--------------------------------------------------response headers:
+CONTENT-TYPE        : image/png
+--------------------------------------------------response headers:
+TRANSFER-ENCODING   : chunked
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:57:41 GMT
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+CACHE-CONTROL       : max-age=31557600
+--------------------------------------------------response headers:
+SERVER              : Jetty(9.3.13.v20161014)
+--------------------------------------------------response headers:
+X-CACHE             : Miss from cloudfront
+--------------------------------------------------response headers:
+VIA                 : 1.1 ab2f63669c9809614cbcf54bfba8ee06.cloudfront.net (CloudFront)
+--------------------------------------------------response headers:
+X-AMZ-CF-POP        : IAD89-C2
+--------------------------------------------------response headers:
+X-AMZ-CF-ID         : DE1X5O_Osu50ZK3pGu7XpWaUXr4jG6JzmiNqLE7leIXftl40Qdl_OQ==
+--------------------------------------------------response headers:
+
+=
+GET /v2/cpanel/cdcf6df9-4965-4146-b133-159bcf66fe29-278361908_6-s4-v1.png?transparent=1&palette=1 HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : render.bitstrips.com
+ACCEPT              : */*
+ACCEPT-LANGUAGE     : en-us
+CONNECTION          : keep-alive
+ACCEPT-ENCODING     : gzip, deflate, br
+USER-AGENT          : imoji/10.72.0.3071 CFNetwork/1107.1 Darwin/19.0.0
+--------------------------------------------------response headers:
+CONTENT-TYPE        : image/png
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 51030
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:57:41 GMT
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+CACHE-CONTROL       : max-age=31557600
+--------------------------------------------------response headers:
+SERVER              : Jetty(9.3.13.v20161014)
+--------------------------------------------------response headers:
+X-CACHE             : Miss from cloudfront
+--------------------------------------------------response headers:
+VIA                 : 1.1 3924198dd88678a1cab97875f32b6f20.cloudfront.net (CloudFront)
+--------------------------------------------------response headers:
+X-AMZ-CF-POP        : IAD89-C2
+--------------------------------------------------response headers:
+X-AMZ-CF-ID         : rkuVqlDyIhzLJpv4TOhr_-rj8LwLVKg2rfjJJ2IT-nLaA-2i2vuhMg==
+--------------------------------------------------response headers:
+
+=
+GET /v2/cpanel/0e16a8dc-aefb-4b2c-b009-023c4b23f2d4-278361908_6-s4-v1.png?transparent=1&palette=1 HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : render.bitstrips.com
+ACCEPT              : */*
+ACCEPT-LANGUAGE     : en-us
+CONNECTION          : keep-alive
+ACCEPT-ENCODING     : gzip, deflate, br
+USER-AGENT          : imoji/10.72.0.3071 CFNetwork/1107.1 Darwin/19.0.0
+--------------------------------------------------response headers:
+CONTENT-TYPE        : image/png
+--------------------------------------------------response headers:
+TRANSFER-ENCODING   : chunked
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:57:41 GMT
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+CACHE-CONTROL       : max-age=31557600
+--------------------------------------------------response headers:
+SERVER              : Jetty(9.3.13.v20161014)
+--------------------------------------------------response headers:
+X-CACHE             : Miss from cloudfront
+--------------------------------------------------response headers:
+VIA                 : 1.1 427271f19372c1be0d143a1d4c76a128.cloudfront.net (CloudFront)
+--------------------------------------------------response headers:
+X-AMZ-CF-POP        : IAD89-C2
+--------------------------------------------------response headers:
+X-AMZ-CF-ID         : VPxhuVgRa_KqJGEsJgIPgax5Wouy8EY5Fq_mKISP18NsQXxT21evfQ==
+--------------------------------------------------response headers:
+
+=
+GET /v2/cpanel/b75cd2d7-63fa-4374-8ac4-ec3d9ce2a74a-278361908_6-s4-v1.png?transparent=1&palette=1 HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : render.bitstrips.com
+ACCEPT              : */*
+ACCEPT-LANGUAGE     : en-us
+CONNECTION          : keep-alive
+ACCEPT-ENCODING     : gzip, deflate, br
+USER-AGENT          : imoji/10.72.0.3071 CFNetwork/1107.1 Darwin/19.0.0
+--------------------------------------------------response headers:
+CONTENT-TYPE        : image/png
+--------------------------------------------------response headers:
+TRANSFER-ENCODING   : chunked
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:57:42 GMT
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+CACHE-CONTROL       : max-age=31557600
+--------------------------------------------------response headers:
+SERVER              : Jetty(9.3.13.v20161014)
+--------------------------------------------------response headers:
+X-CACHE             : Miss from cloudfront
+--------------------------------------------------response headers:
+VIA                 : 1.1 ffa8ec5cfe61dcaaebc108ff8c867055.cloudfront.net (CloudFront)
+--------------------------------------------------response headers:
+X-AMZ-CF-POP        : IAD89-C2
+--------------------------------------------------response headers:
+X-AMZ-CF-ID         : RXU-jPNYbko7GakLzUNUqg69vsTRvDL7fw68qGEI6_3Yndls-QnIrQ==
+--------------------------------------------------response headers:
+
+=
+GET /v2/cpanel/1101d250-5ec5-477a-83f0-235d4a61fc49-278361908_6-s4-v1.png?transparent=1&palette=1 HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : render.bitstrips.com
+ACCEPT              : */*
+ACCEPT-LANGUAGE     : en-us
+CONNECTION          : keep-alive
+ACCEPT-ENCODING     : gzip, deflate, br
+USER-AGENT          : imoji/10.72.0.3071 CFNetwork/1107.1 Darwin/19.0.0
+--------------------------------------------------response headers:
+CONTENT-TYPE        : image/png
+--------------------------------------------------response headers:
+TRANSFER-ENCODING   : chunked
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:57:42 GMT
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+CACHE-CONTROL       : max-age=31557600
+--------------------------------------------------response headers:
+SERVER              : Jetty(9.3.13.v20161014)
+--------------------------------------------------response headers:
+X-CACHE             : Miss from cloudfront
+--------------------------------------------------response headers:
+VIA                 : 1.1 ab2f63669c9809614cbcf54bfba8ee06.cloudfront.net (CloudFront)
+--------------------------------------------------response headers:
+X-AMZ-CF-POP        : IAD89-C2
+--------------------------------------------------response headers:
+X-AMZ-CF-ID         : MdAhfXunVsIC8skJnyqw7qHV9360f5tzwl6Jc21lsc07LOVffXLq-A==
+--------------------------------------------------response headers:
+
+=
+POST /metric/bitmoji/analytics HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : connect.bitmoji.com
+ACCEPT              : application/x-protobuf
+CONTENT-TYPE        : application/x-protobuf
+ACCEPT-ENCODING     : gzip;q=1.0, compress;q=0.5
+CONTENT-LENGTH      : 976
+X-BITMOJI-CLIENT-AUTH: v9:7C1E237AE3F49CF16D7300594679EF14:BB0E09B445E63DC1F7392850C1DE990D3E87333FC442D168C25FDE6087A37AF16172B10F4098B092BCA6F31D9AC316E37437BFC7D042491A66B7D1033CCB2C07E744C859ED1741D81BE6C92A65BC25AEBF939E353E49C1F2FD7268451EE5514D238907BE1FF5B5E85BC6DD219E429CEDE198AE94B2E6F041
+ACCEPT-LANGUAGE     : en-US;q=1.0
+USER-AGENT          : imoji/10.72.0 (com.bitstrips.imoji; build:10.72.0.3071; iOS 13.1.0) Alamofire/4.9.0
+TIMESTAMP           : 1576115863001
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:57:43 GMT
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 0
+--------------------------------------------------response headers:
+VARY                : Accept-Encoding, User-Agent
+--------------------------------------------------response headers:
+SERVER              : Jetty(9.3.13.v20161014)
+--------------------------------------------------response headers:
+
+=
+POST /metric/bitmoji/ops HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : connect.bitmoji.com
+ACCEPT              : application/x-protobuf
+CONTENT-TYPE        : application/x-protobuf
+ACCEPT-ENCODING     : gzip;q=1.0, compress;q=0.5
+CONTENT-LENGTH      : 663
+X-BITMOJI-CLIENT-AUTH: v9:C45A78DDB0FDC706215A4A1E4889928D:09A3C1E3DDAB9E7EC9216EF3D00A82C771C8745C966BB206EA505B65777B5FF9D2F3A0199B39B2BF4ECCFD6ED12F033516A34A31EB5ED91916E4B62815BFF187825648C78048176AC82AE521714312ADACE0C2AAEE175934E60FA0764F2BC3080292F7F24CBC7C5B1274997AB2E6F041
+ACCEPT-LANGUAGE     : en-US;q=1.0
+USER-AGENT          : imoji/10.72.0 (com.bitstrips.imoji; build:10.72.0.3071; iOS 13.1.0) Alamofire/4.9.0
+TIMESTAMP           : 1576115863016
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:57:43 GMT
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 0
+--------------------------------------------------response headers:
+VARY                : Accept-Encoding, User-Agent
+--------------------------------------------------response headers:
+SERVER              : Jetty(9.3.13.v20161014)
+--------------------------------------------------response headers:
+
+=
+POST /analytics/wevents HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : api.bitmoji.com
+CONTENT-TYPE        : application/json
+CONNECTION          : keep-alive
+BITMOJI-USER-AGENT  : 1|com.bitstrips.imoji|10.72.0.3071|iOS|13.1.0|iPad5,1|BEFE76C9-A1E4-42D2-ABF0-A564A09D3951|2|en-US
+ACCEPT              : */*
+USER-AGENT          : imoji/10.72.0.3071 (iPad5,1; iOS 13.1.0)
+ACCEPT-LANGUAGE     : en-US;q=1.0
+CONTENT-LENGTH      : 2513
+ACCEPT-ENCODING     : gzip;q=1.0, compress;q=0.5
+--------------------------------------------------response headers:
+BITMOJI-API-VERSION : 1
+--------------------------------------------------response headers:
+CACHE-CONTROL       : no-cache
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/json; charset=utf-8
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:57:43 GMT
+--------------------------------------------------response headers:
+SERVER              : nginx
+--------------------------------------------------response headers:
+VARY                : origin,accept-encoding
+--------------------------------------------------response headers:
+X-REQUEST-ID        : 1576115863138:ip-10-0-22-173:11962:k41xea7t:81949
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 36
+--------------------------------------------------response headers:
+CONNECTION          : keep-alive
+--------------------------------------------------response headers:

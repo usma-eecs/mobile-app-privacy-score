@@ -1,0 +1,34 @@
+
+=
+POST /glm/mmap HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : clients4.google.com
+ACCEPT              : */*
+CONTENT-TYPE        : application/binary
+ACCEPT-ENCODING     : gzip, deflate, br
+USER-AGENT          : com.ubercab.UberClient/3.382.10006 GMS-SDK/3.3.0.0 iPad/13.1 hw/iPad5_1 (gzip)
+CONTENT-LENGTH      : 697
+ACCEPT-LANGUAGE     : en-us
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/binary
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 1485
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 02:07:09 GMT
+--------------------------------------------------response headers:
+EXPIRES             : Thu, 12 Dec 2019 02:07:09 GMT
+--------------------------------------------------response headers:
+CACHE-CONTROL       : private, max-age=0
+--------------------------------------------------response headers:
+X-CONTENT-TYPE-OPTIONS: nosniff
+--------------------------------------------------response headers:
+X-FRAME-OPTIONS     : SAMEORIGIN
+--------------------------------------------------response headers:
+X-XSS-PROTECTION    : 1; mode=block
+--------------------------------------------------response headers:
+SERVER              : GSE
+--------------------------------------------------response headers:
+SERVER-TIMING       : gfet4t7; dur=84
+--------------------------------------------------response headers:
+ALT-SVC             : quic=":443"; ma=2592000; v="46,43",h3-Q050=":443"; ma=2592000,h3-Q049=":443"; ma=2592000,h3-Q048=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000
+--------------------------------------------------response headers:

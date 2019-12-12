@@ -1,0 +1,177 @@
+
+=
+GET /videogoodput?id=o-AO7tolXHsm2bjOjVLsQCCxmda4rfFlxv0mYEiPzSS5cS&source=goodput&range=0-4999&expire=1576118470&ip=69.193.189.130&ms=pm&mm=35&pl=24&nh=IgpwZjAxLmRmdzA2Kgw3Mi4xNC4yMTguMTM&sparams=id,source,range,expire,ip,ms,mm,pl,nh&signature=5C40A99F35EF44026DD52810452434AD17E11219.324F50CB0D92AC49FE692720D5838E37A8EE1E16&key=cms1 HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : r3---sn-q4fl6nlr.googlevideo.com
+ACCEPT              : */*
+ACCEPT-LANGUAGE     : en-us
+CONNECTION          : keep-alive
+ACCEPT-ENCODING     : gzip, deflate, br
+USER-AGENT          : YouTube/14.49.4 CFNetwork/1107.1 Darwin/19.0.0
+--------------------------------------------------response headers:
+LAST-MODIFIED       : Thu, 12 Dec 2019 01:41:13 GMT
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:41:13 GMT
+--------------------------------------------------response headers:
+PRAGMA              : no-cache
+--------------------------------------------------response headers:
+EXPIRES             : Fri, 01 Jan 1990 00:00:00 GMT
+--------------------------------------------------response headers:
+CACHE-CONTROL       : no-cache, must-revalidate
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/octet-stream
+--------------------------------------------------response headers:
+ACCEPT-RANGES       : bytes
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 5000
+--------------------------------------------------response headers:
+CONNECTION          : close
+--------------------------------------------------response headers:
+ALT-SVC             : quic=":443"; ma=2592000; v="46,43",h3-Q050=":443"; ma=2592000,h3-Q049=":443"; ma=2592000,h3-Q048=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000
+--------------------------------------------------response headers:
+X-CONTENT-TYPE-OPTIONS: nosniff
+--------------------------------------------------response headers:
+SERVER              : gvs 1.0
+--------------------------------------------------response headers:
+
+=
+GET /cast/senderconfig/config?fw=4.4.6.1.00&os=13.1&sm=0&id=2440115271401969809&pl=iOS&bi=com.google.ios.youtube&rt=b&md=iPad&hw=iPad HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : clients3.google.com
+USER-AGENT          : YouTube/14.49.4 CFNetwork/1107.1 Darwin/19.0.0
+ACCEPT              : application/x-protobuf
+ACCEPT-LANGUAGE     : en-us
+ACCEPT-ENCODING     : gzip, deflate, br
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/octet-stream
+--------------------------------------------------response headers:
+ACCESS-CONTROL-ALLOW-ORIGIN: *
+--------------------------------------------------response headers:
+CACHE-CONTROL       : no-cache, no-store, max-age=0, must-revalidate
+--------------------------------------------------response headers:
+PRAGMA              : no-cache
+--------------------------------------------------response headers:
+EXPIRES             : Mon, 01 Jan 1990 00:00:00 GMT
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:41:27 GMT
+--------------------------------------------------response headers:
+CONTENT-DISPOSITION : attachment; filename="response.bin"; filename*=UTF-8''response.bin
+--------------------------------------------------response headers:
+X-CONTENT-TYPE-OPTIONS: nosniff
+--------------------------------------------------response headers:
+X-FRAME-OPTIONS     : SAMEORIGIN
+--------------------------------------------------response headers:
+X-XSS-PROTECTION    : 1; mode=block
+--------------------------------------------------response headers:
+SERVER              : GSE
+--------------------------------------------------response headers:
+ALT-SVC             : quic=":443"; ma=2592000; v="46,43",h3-Q050=":443"; ma=2592000,h3-Q049=":443"; ma=2592000,h3-Q048=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000
+--------------------------------------------------response headers:
+
+=
+GET /videogoodput?id=o-AClp2v8aHcfXg61fUntZljajQk4SO5gwG9yEUUL-Pxb5&source=goodput&range=0-4999&expire=1576118468&ip=69.193.189.130&ms=pm&mm=35&pl=24&nh=IgpwcjA1LnNlYTA5KgkxMjcuMC4wLjE&sparams=id,source,range,expire,ip,ms,mm,pl,nh&signature=341DBC9E89C2060258B16605AC49369A3F4C3609.0A165EA062D4618BA61C1A11BB401A3D7B74ECC1&key=cms1 HTTP/1.1
+--------------------------------------------------request headers:
+HOST                : r4---sn-nx5e6nez.googlevideo.com
+ACCEPT              : */*
+ACCEPT-LANGUAGE     : en-us
+CONNECTION          : keep-alive
+ACCEPT-ENCODING     : gzip, deflate, br
+USER-AGENT          : YouTube/14.49.4 CFNetwork/1107.1 Darwin/19.0.0
+--------------------------------------------------response headers:
+LAST-MODIFIED       : Thu, 12 Dec 2019 01:41:27 GMT
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:41:27 GMT
+--------------------------------------------------response headers:
+PRAGMA              : no-cache
+--------------------------------------------------response headers:
+EXPIRES             : Fri, 01 Jan 1990 00:00:00 GMT
+--------------------------------------------------response headers:
+CACHE-CONTROL       : no-cache, must-revalidate
+--------------------------------------------------response headers:
+CONTENT-TYPE        : application/octet-stream
+--------------------------------------------------response headers:
+ACCEPT-RANGES       : bytes
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 5000
+--------------------------------------------------response headers:
+CONNECTION          : close
+--------------------------------------------------response headers:
+ALT-SVC             : quic=":443"; ma=2592000; v="46,43",h3-Q050=":443"; ma=2592000,h3-Q049=":443"; ma=2592000,h3-Q048=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000
+--------------------------------------------------response headers:
+X-CONTENT-TYPE-OPTIONS: nosniff
+--------------------------------------------------response headers:
+SERVER              : gvs 1.0
+--------------------------------------------------response headers:
+
+=
+POST /log/batch HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : play.googleapis.com
+CONTENT-TYPE        : application/x-www-form-urlencoded
+ACCEPT              : */*
+AUTHORIZATION       : Bearer ya29.ItQBtAd1IqzwJ5P2hSGQn94oU9sbFEWoJ1b8lA8z2kUtuwy7YeRsSPGDw6Vr0f8i7bvnovjduaJPXjpAS_qZeyRtgLb6anfEgwVEML4K_HpT7H_sH0UaB0265SXHd7Wl4vd-D0zuQuf5YYhNvqnEmHCVigjvJrDMDBmiZSHcHa1v80JGNfeukpIRqJwr9kc0rw3sm0mYEFbI4Z5cNYvFSt-pXdt1OAssHO0zVUuxxnWH4a2fSV_KUzYCE8EjFpW3qJfOu-BXhI133QDebXREH7PYUqTWVcA
+CONTENT-ENCODING    : gzip
+ACCEPT-ENCODING     : gzip, deflate, br
+ACCEPT-LANGUAGE     : en-us
+CONTENT-LENGTH      : 5685
+USER-AGENT          : YouTube/14.49.4 CFNetwork/1107.1 Darwin/19.0.0
+X-SERVER-TOKEN      : CAESKQDyi0h8DqUMAFSt833h3eYVYiRgL6uEdcudM-Og1MVD5u_596cPaNER
+COOKIE              : NID=193=M_RL95ekqe2cqQviANl56IttU1ncUGEePSRhGzk3i2loEfeex88R8C4qskRqzyd5l3ic8EO2uqOW1DXGsA6zb-YbewotbpGi0d47oL8wd9biNub-arr2TrwnpwjDbAYbUj3iQ_n87mmrDBxIqtt7yfYUJuqJxRKGj_1D3IcLkak
+--------------------------------------------------response headers:
+CONTENT-TYPE        : text/plain; charset=UTF-8
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:49:45 GMT
+--------------------------------------------------response headers:
+SERVER              : Playlog
+--------------------------------------------------response headers:
+CACHE-CONTROL       : private
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 171
+--------------------------------------------------response headers:
+X-XSS-PROTECTION    : 0
+--------------------------------------------------response headers:
+X-FRAME-OPTIONS     : SAMEORIGIN
+--------------------------------------------------response headers:
+ALT-SVC             : quic=":443"; ma=2592000; v="46,43",h3-Q050=":443"; ma=2592000,h3-Q049=":443"; ma=2592000,h3-Q048=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000
+--------------------------------------------------response headers:
+
+=
+POST /log/batch HTTP/2.0
+--------------------------------------------------request headers:
+:AUTHORITY          : play.googleapis.com
+ACCEPT              : */*
+CONTENT-TYPE        : application/x-www-form-urlencoded
+CONTENT-LENGTH      : 2154
+ACCEPT-ENCODING     : gzip, deflate, br
+CONTENT-ENCODING    : gzip
+USER-AGENT          : YouTube/14.49.4 CFNetwork/1107.1 Darwin/19.0.0
+ACCEPT-LANGUAGE     : en-us
+X-SERVER-TOKEN      : CAESKQDyi0h8DqUMAFSt833h3eYVYiRgL6uEdcudM-Og1MVD5u_596cPaNER
+COOKIE              : NID=193=M_RL95ekqe2cqQviANl56IttU1ncUGEePSRhGzk3i2loEfeex88R8C4qskRqzyd5l3ic8EO2uqOW1DXGsA6zb-YbewotbpGi0d47oL8wd9biNub-arr2TrwnpwjDbAYbUj3iQ_n87mmrDBxIqtt7yfYUJuqJxRKGj_1D3IcLkak
+--------------------------------------------------response headers:
+P3P                 : CP="This is not a P3P policy! See g.co/p3phelp for more info."
+--------------------------------------------------response headers:
+CONTENT-TYPE        : text/plain; charset=UTF-8
+--------------------------------------------------response headers:
+CONTENT-ENCODING    : gzip
+--------------------------------------------------response headers:
+DATE                : Thu, 12 Dec 2019 01:49:48 GMT
+--------------------------------------------------response headers:
+SERVER              : Playlog
+--------------------------------------------------response headers:
+CACHE-CONTROL       : private
+--------------------------------------------------response headers:
+CONTENT-LENGTH      : 153
+--------------------------------------------------response headers:
+X-XSS-PROTECTION    : 0
+--------------------------------------------------response headers:
+X-FRAME-OPTIONS     : SAMEORIGIN
+--------------------------------------------------response headers:
+SET-COOKIE          : NID=193=ZtofArDdISLjpoMzsFKeyoavcFWtkk5FaaGRchqu5czZNd9wzh0hMyfG0bJzri7GF66YILGnZzDxElFzZ31npZqiDFsKd9u8iDPhzV09tO-Yf_unhtjLyltuuK53IVmya5vRvRcMFJkcYbeHcwprjJ0IZG69xhfMaxZ9uEynsz0; expires=Fri, 12-Jun-2020 01:49:48 GMT; path=/; domain=.googleapis.com; HttpOnly
+--------------------------------------------------response headers:
+ALT-SVC             : quic=":443"; ma=2592000; v="46,43",h3-Q050=":443"; ma=2592000,h3-Q049=":443"; ma=2592000,h3-Q048=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000
+--------------------------------------------------response headers:
+EXPIRES             : Thu, 12 Dec 2019 01:49:48 GMT
+--------------------------------------------------response headers:
