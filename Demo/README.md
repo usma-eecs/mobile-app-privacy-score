@@ -101,6 +101,29 @@ iptables-restore < /etc/iptables.ipv4.nat
 
 ```bash
 # run these on login
-sudo systemctl restart isc-dhcp-server.service 
+sudo systemctl restart isc-dhcp-server.service
 sudo systemctl restart hostapd
 ```
+
+10. MITMproxy installation for Debian 10 (buster)
+
+```bash
+# see https://mitmproxy.readthedocs.io/en/v2.0.2/install.html for installation for a different OS
+sudo apt-get install python3-dev python3-pip libffi-dev libssl-dev
+sudo pip3 install mitmproxy
+```
+
+11. Install MITMproxy certificate on you Apple device
+
+```bash
+#MITMproxy will automatically generate a certificate authority when you run mitmdump or mitmproxy for the first time
+mitmdump
+#wait until you see Proxy server listening at http://*:8080
+```
+- Get the certificate from your proxy server at /.mitmproxy/mitmproxy-ca-cert.pem
+- Transfer the certificate to the Apple device you would like to mitm. In this case, I sent the file over Slack because I have the app installed on both my laptop and iPhone
+- On your Apple Device:
+- Open the CA file in a browser.
+- When the file opens in the browser, you will be prompted by "This website is trying to download a configuration profile. Do you want to allow this?" Click "Allow" and then "Close" for the next prompt.
+- Go to Settings > General > Profiles & Device Management. Under "Downloaded Profile" click "mitmproxy." In the top right corner, click "install." Enter your passcode when prompted and then click "install."
+- Go to Settings > General > About > Certificate Trust Settings. Enable full trust for "mitmproxy."
