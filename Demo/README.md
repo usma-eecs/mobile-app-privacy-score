@@ -30,7 +30,7 @@ sudo apt install -y isc-dhcp-server hostapd
 ifdown /dev/wlan0
 
 # add dhcpcd entry for wlan0
-echo -e 'interface wlan0\n    static ip_address=172.16.0.1/24\n    nohook Wpa_supplicant' | sudo tee -a /etc/dhcpcd.conf
+echo -e 'interface wlan0\n    static ip_address=172.16.0.1/24\n    nohook wpa_supplicant' | sudo tee -a /etc/dhcpcd.conf
 
 # restart the updated services
 sudo systemctl restart dhcpcd
@@ -42,14 +42,20 @@ sudo systemctl restart dhcpcd
 # set wlan0 as the dhcp interface
 sudo sed -i 's/INTERFACESv4=""/INTERFACESv4="wlan0"/g' /etc/default/isc-dhcp-server
 
-
-
+# get a basic config for dhcpd
+sudo wget -O /etc/dhcp/dhcpd.conf https://raw.githubusercontent.com/usma-eecs/mobile-app-privacy-score/master/Demo/dhcpd.conf
 
 # restart the service
-sudo systemctl restart isc-dhcp-server.service
+sudo systemctl restart isc-dhcp-server
 
+# verify
+systemctl status isc-dhcp-server
 
-
+# troubleshoot as necessary
+sudo cat /var/log/syslog | grep isc-dhcp-server
+# make changes
+sudo systemctl restart isc-dhcp-server
+# return to verify above
 ```
 
 7. Complete the following steps to configure your AP:
@@ -74,4 +80,27 @@ sudo cat /var/log/syslog | grep hostapd
 # make changes
 sudo systemctl restart hostapd
 # return to verify above
+```
+
+8. Complete the follow steps to allow routing from eth to wlan:
+
+```bash
+# enable forwarding
+sudo sed -i 's/.*net.ipv4.ip_forward.*/net.ipv4.ip_forward=1/g' /etc/sysctl.conf
+sudo sh -c "iptables-save > /etc/iptables.ipv4.nat"
+
+# firewall forwarding
+sudo iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE
+sudo nano /etc/rc.local
+# add before exit 0
+iptables-restore < /etc/iptables.ipv4.nat
+
+```
+
+9. Currently `isc-dhcp-server` and `hostapd` are starting out of order, to fix, follow the below steps:
+
+```bash
+# run these on login
+systemctl restart isc-dhcp-server.service 
+systemctl restart hostapd
 ```
