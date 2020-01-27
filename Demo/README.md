@@ -27,7 +27,7 @@ sudo apt install -y isc-dhcp-server hostapd
 
 ```bash
 # disable wlan0
-ifdown /dev/wlan0
+sudo ifdown /dev/wlan0
 
 # add dhcpcd entry for wlan0
 echo -e 'interface wlan0\n    static ip_address=172.16.0.1/24\n    nohook wpa_supplicant' | sudo tee -a /etc/dhcpcd.conf
@@ -101,6 +101,6 @@ iptables-restore < /etc/iptables.ipv4.nat
 
 ```bash
 # run these on login
-systemctl restart isc-dhcp-server.service 
-systemctl restart hostapd
+sudo systemctl restart isc-dhcp-server.service 
+sudo systemctl restart hostapd
 ```
