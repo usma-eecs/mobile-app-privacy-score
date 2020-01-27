@@ -23,7 +23,7 @@ sudo apt dist-upgrade -y
 sudo apt install -y isc-dhcp-server hostapd
 ```
 
-5. Complete the following steps to configure your DHCP server:
+5. Complete the following steps to configure your DHCP server and AP:
 
 ```bash
 # disable wlan0
@@ -32,5 +32,41 @@ ifdown /dev/wlan0
 # set wlan0 as the dhcp interface
 sudo sed -i 's/INTERFACESv4=""/INTERFACESv4="wlan0"/g' /etc/default/isc-dhcp-server
 
+# add dhcpcd entry for wlan0
+echo -e 'interface wlan0\n    static ip_address=172.16.0.1/24\n    nohook Wpa_supplicant' | sudo tee -a /etc/dhcpcd.conf
 
+# point the apd at the correct config file
+sudo sed -i 's|#DAEMON_CONF.*|DAEMON_CONF="/etc/hostapd/hostapd.conf"|g' /etc/default/hostapd
+
+
+
+
+# update
+https://raw.githubusercontent.com/usma-eecs/mobile-app-privacy-score/master/Demo/hostapd.conf
+sudo nano /etc/hostapd/hostapd.conf
+
+# kick the service off
+sudo systemctl unmask hostapd
+sudo systemctl enable hostapd
+sudo systemctl start hostapd
+
+
+
+
+# verify
+systemctl status hostapd
+
+# troubleshoot as necessary
+sudo cat /var/log/syslog | grep hostapd
+# make changes
+sudo systemctl restart hostapd
+# return to verify above
+
+
+
+
+
+
+# restart the updated services
+sudo systemctl restart dhcpcd
 ```
