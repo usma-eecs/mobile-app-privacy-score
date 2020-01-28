@@ -1,4 +1,4 @@
 function FindProxyForURL(url, host)
 {
-    return "SOCKS raspberrypi.mshome.net:8080";
+    return "SOCKS 172.16.0.1:8080";
 }
