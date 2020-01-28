@@ -103,9 +103,12 @@ iptables-restore < /etc/iptables.ipv4.nat
 # run these on login
 sudo systemctl restart isc-dhcp-server.service
 sudo systemctl restart hostapd
+# can now connect to the raspberry pi's Wi-Fi
 ```
 
-10. MITMproxy installation for Debian 10 (buster)
+### 3. MITMproxy Setup
+
+1. MITMproxy installation for Debian 10 (buster)
 
 ```bash
 # see https://mitmproxy.readthedocs.io/en/v2.0.2/install.html for installation for a different OS
@@ -113,17 +116,48 @@ sudo apt-get install python3-dev python3-pip libffi-dev libssl-dev
 sudo pip3 install mitmproxy
 ```
 
-11. Install MITMproxy certificate on you Apple device
+2. Install MITMproxy certificate on your Apple device
 
 ```bash
-#MITMproxy will automatically generate a certificate authority when you run mitmdump or mitmproxy for the first time
+# MITMproxy will automatically generate a certificate authority when mitmdump or mitmproxy is run for the first time
 mitmdump
-#wait until you see Proxy server listening at http://*:8080
+# wait until Proxy server listening at http://*:8080 comes up
 ```
 - Get the certificate from your proxy server at /.mitmproxy/mitmproxy-ca-cert.pem
 - Transfer the certificate to the Apple device you would like to mitm. In this case, I sent the file over Slack because I have the app installed on both my laptop and iPhone
 - On your Apple Device:
-- Open the CA file in a browser.
-- When the file opens in the browser, you will be prompted by "This website is trying to download a configuration profile. Do you want to allow this?" Click "Allow" and then "Close" for the next prompt.
-- Go to Settings > General > Profiles & Device Management. Under "Downloaded Profile" click "mitmproxy." In the top right corner, click "install." Enter your passcode when prompted and then click "install."
-- Go to Settings > General > About > Certificate Trust Settings. Enable full trust for "mitmproxy."
+  - Open the CA file in a browser.
+  - When the file opens in the browser, you will be prompted by "This website is trying to download a configuration profile. Do you want to allow this?" Click "Allow" and then "Close" for the next prompt.
+  - Go to Settings > General > Profiles & Device Management. Under "Downloaded Profile" click "mitmproxy." In the top right corner, click "install." Enter your passcode when prompted and then click "install."
+  - Go to Settings > General > About > Certificate Trust Settings. Enable full trust for "mitmproxy."
+
+3. Set up for a SOCKS5 Proxy
+
+*The proxy for this demo is run in SOCKS5 mode*
+
+- Create a .pac file inside of the git repository
+- Code within the .pac file is as follows:
+
+ ```bash
+ function FindProxyForURL(url, host)
+{
+    return "SOCKS 192.168.137.106:8080";
+    #the address above should be the eth0 IPv4 address of the raspberry pi
+}
+ ```
+ - View the file on github using the "raw" option
+ - Copy the link to the file, in this case the link is https://raw.githubusercontent.com/usma-eecs/mobile-app-privacy-score/b9ef47fe9f11729419253ba994059a290a3ee00c/proxy.pac
+ - On your Apple device:
+    - Go to settings > Wi-Fi > the info button next to the raspberry pi's Wi-Fi > Configure Proxy. Select automatic and insert the URL to the .pac file.
+    - Save it
+
+4. Running MITMproxy
+
+- Go to raspberry pi
+```bash
+mitmdump -m socks5 -w outfile
+# outfile can be replaced with any name of file captured traffic will be written to
+# Can easily overwrite old outfiles so be careful not to use the same name twice
+```
+- Attempt to access the internet through an app on the Apple Device
+- Network traffic should be seen in the terminal
